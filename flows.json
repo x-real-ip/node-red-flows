@@ -2173,6 +2173,30 @@
         "h": 122
     },
     {
+        "id": "e157b914b6c114fe",
+        "type": "group",
+        "z": "b30206160f4c3c3b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2e687264255b46e7",
+            "151a6f233d160c89",
+            "85d1a1327cf29ac7",
+            "bb6a70f4e3fd74e3"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
         "id": "f7038caa7a76e6f3",
         "type": "junction",
         "z": "a7a34028d045deee",
@@ -26007,7 +26031,8 @@
             "17e4e7721adc09a1",
             "1514f8777e4c8211",
             "ddf56ac7c76174e3",
-            "85efbfe86edb2e91"
+            "85efbfe86edb2e91",
+            "85d1a1327cf29ac7"
         ],
         "x": 195,
         "y": 460,
@@ -41214,7 +41239,7 @@
             }
         ],
         "x": 240,
-        "y": 60,
+        "y": 160,
         "wires": [
             [
                 "9150f91efe1abe4c"
@@ -41237,9 +41262,79 @@
         "inputOverride": "allow",
         "outputProperties": [],
         "x": 630,
-        "y": 60,
+        "y": 160,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "2e687264255b46e7",
+        "type": "catch",
+        "z": "b30206160f4c3c3b",
+        "g": "e157b914b6c114fe",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "151a6f233d160c89"
+            ]
+        ]
+    },
+    {
+        "id": "151a6f233d160c89",
+        "type": "template",
+        "z": "b30206160f4c3c3b",
+        "g": "e157b914b6c114fe",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "bb6a70f4e3fd74e3"
+            ]
+        ]
+    },
+    {
+        "id": "85d1a1327cf29ac7",
+        "type": "link out",
+        "z": "b30206160f4c3c3b",
+        "g": "e157b914b6c114fe",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "bb6a70f4e3fd74e3",
+        "type": "template",
+        "z": "b30206160f4c3c3b",
+        "g": "e157b914b6c114fe",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "85d1a1327cf29ac7"
+            ]
         ]
     },
     {
