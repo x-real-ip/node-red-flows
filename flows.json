@@ -846,6 +846,30 @@
         "h": 82
     },
     {
+        "id": "f7435f5ad02d3f79",
+        "type": "group",
+        "z": "4e909abe.0b62e4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e231947e3513d81f",
+            "e4c83565e32c77fc",
+            "0556160e41cbd509",
+            "f9b4b865266e96f0"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
         "id": "0a1a2a6df765a339",
         "type": "group",
         "z": "4e909abe.0b62e4",
@@ -863,7 +887,7 @@
             "399184be7531eb78",
             "67db220bfc8a732a"
         ],
-        "x": 2154,
+        "x": 2194,
         "y": 779,
         "w": 432,
         "h": 242
@@ -2173,30 +2197,6 @@
         "h": 122
     },
     {
-        "id": "e157b914b6c114fe",
-        "type": "group",
-        "z": "b30206160f4c3c3b",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "2e687264255b46e7",
-            "151a6f233d160c89",
-            "85d1a1327cf29ac7",
-            "bb6a70f4e3fd74e3"
-        ],
-        "x": 14,
-        "y": 39,
-        "w": 502,
-        "h": 82
-    },
-    {
         "id": "f7038caa7a76e6f3",
         "type": "junction",
         "z": "a7a34028d045deee",
@@ -2217,7 +2217,7 @@
         "type": "junction",
         "z": "4e909abe.0b62e4",
         "g": "0a1a2a6df765a339",
-        "x": 2180,
+        "x": 2220,
         "y": 840,
         "wires": [
             [
@@ -2905,8 +2905,8 @@
         "id": "06680ce4a549dadf",
         "type": "junction",
         "z": "4e909abe.0b62e4",
-        "x": 700,
-        "y": 720,
+        "x": 880,
+        "y": 700,
         "wires": [
             [
                 "4b24c6f.ecf9538"
@@ -2917,8 +2917,8 @@
         "id": "4ca83366bf185d83",
         "type": "junction",
         "z": "4e909abe.0b62e4",
-        "x": 1040,
-        "y": 920,
+        "x": 1120,
+        "y": 960,
         "wires": [
             [
                 "46771664.f639e8"
@@ -2929,23 +2929,35 @@
         "id": "3d016b4671a45b4a",
         "type": "junction",
         "z": "4e909abe.0b62e4",
-        "x": 820,
-        "y": 800,
+        "x": 860,
+        "y": 820,
         "wires": [
             [
-                "5468cbac60f12182"
+                "46771664.f639e8"
             ]
         ]
     },
     {
-        "id": "5468cbac60f12182",
+        "id": "7c2423c56f1fe876",
         "type": "junction",
         "z": "4e909abe.0b62e4",
-        "x": 1080,
-        "y": 800,
+        "x": 1840,
+        "y": 1080,
         "wires": [
             [
-                "46771664.f639e8"
+                "f6654a628999616b"
+            ]
+        ]
+    },
+    {
+        "id": "1a967b65adcf68b4",
+        "type": "junction",
+        "z": "4e909abe.0b62e4",
+        "x": 1840,
+        "y": 740,
+        "wires": [
+            [
+                "f6654a628999616b"
             ]
         ]
     },
@@ -4736,16 +4748,13 @@
         "z": "67a1c55d.b4b94c",
         "name": "turn on light christmas tree",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.christmas_tree"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -8273,14 +8282,11 @@
         "z": "2a2d89771193fb8b",
         "name": "notify phone coen",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "notify.mobile_app_phone_coen",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [],
-        "labelId": [],
         "data": "{\"message\":\"request_location_update\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -8301,14 +8307,11 @@
         "z": "2a2d89771193fb8b",
         "name": "notify phone anne",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "notify.mobile_app_phone_anne",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [],
-        "labelId": [],
         "data": "{\"message\":\"request_location_update\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -8329,16 +8332,9 @@
         "z": "2a2d89771193fb8b",
         "name": "state front door",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.frontdoor"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "",
@@ -8373,6 +8369,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.frontdoor",
+        "entityIdType": "exact",
         "x": 100,
         "y": 80,
         "wires": [
@@ -8388,16 +8386,9 @@
         "z": "2a2d89771193fb8b",
         "name": "state backdoor",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.backdoor"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "",
@@ -8432,6 +8423,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.backdoor",
+        "entityIdType": "exact",
         "x": 100,
         "y": 140,
         "wires": [
@@ -8452,19 +8445,89 @@
         "wires": []
     },
     {
-        "id": "67db220bfc8a732a",
+        "id": "f9b4b865266e96f0",
         "type": "template",
         "z": "4e909abe.0b62e4",
-        "g": "0a1a2a6df765a339",
-        "name": "click action",
-        "field": "notify.clickAction",
+        "g": "f7435f5ad02d3f79",
+        "name": "title",
+        "field": "notify.title",
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "/dashboard-mobile/climate",
+        "template": "Node-RED",
         "output": "str",
-        "x": 2310,
-        "y": 980,
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "0556160e41cbd509"
+            ]
+        ]
+    },
+    {
+        "id": "0556160e41cbd509",
+        "type": "link out",
+        "z": "4e909abe.0b62e4",
+        "g": "f7435f5ad02d3f79",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "e4c83565e32c77fc",
+        "type": "template",
+        "z": "4e909abe.0b62e4",
+        "g": "f7435f5ad02d3f79",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "f9b4b865266e96f0"
+            ]
+        ]
+    },
+    {
+        "id": "e231947e3513d81f",
+        "type": "catch",
+        "z": "4e909abe.0b62e4",
+        "g": "f7435f5ad02d3f79",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "e4c83565e32c77fc"
+            ]
+        ]
+    },
+    {
+        "id": "d6d0b5735ad8f20a",
+        "type": "template",
+        "z": "4e909abe.0b62e4",
+        "g": "0a1a2a6df765a339",
+        "name": "notification id",
+        "field": "notify.notification_id",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "mechanical_ventilation",
+        "output": "str",
+        "x": 2350,
+        "y": 900,
         "wires": [
             [
                 "a1c0156c06d58e91"
@@ -8472,24 +8535,59 @@
         ]
     },
     {
-        "id": "399184be7531eb78",
+        "id": "febf6f9eab6e868d",
         "type": "template",
         "z": "4e909abe.0b62e4",
         "g": "0a1a2a6df765a339",
-        "name": "tag",
-        "field": "notify.tag",
+        "name": "icon",
+        "field": "notify.icon",
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "mechanical_ventilation_basement",
+        "template": "",
         "output": "str",
-        "x": 2290,
-        "y": 940,
+        "x": 2330,
+        "y": 860,
         "wires": [
             [
                 "a1c0156c06d58e91"
             ]
         ]
+    },
+    {
+        "id": "6502d163268904d4",
+        "type": "template",
+        "z": "4e909abe.0b62e4",
+        "g": "0a1a2a6df765a339",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Mechanische ventilatie",
+        "output": "str",
+        "x": 2330,
+        "y": 820,
+        "wires": [
+            [
+                "a1c0156c06d58e91"
+            ]
+        ]
+    },
+    {
+        "id": "ac04035c1896218b",
+        "type": "link out",
+        "z": "4e909abe.0b62e4",
+        "g": "0a1a2a6df765a339",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "8ed3b0974336e55b",
+            "a97f87cfab413716"
+        ],
+        "x": 2585,
+        "y": 840,
+        "wires": []
     },
     {
         "id": "a1c0156c06d58e91",
@@ -8513,7 +8611,7 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 2450,
+        "x": 2490,
         "y": 840,
         "wires": [
             [
@@ -8522,34 +8620,19 @@
         ]
     },
     {
-        "id": "ac04035c1896218b",
-        "type": "link out",
-        "z": "4e909abe.0b62e4",
-        "g": "0a1a2a6df765a339",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "8ed3b0974336e55b",
-            "a97f87cfab413716"
-        ],
-        "x": 2545,
-        "y": 840,
-        "wires": []
-    },
-    {
-        "id": "6502d163268904d4",
+        "id": "399184be7531eb78",
         "type": "template",
         "z": "4e909abe.0b62e4",
         "g": "0a1a2a6df765a339",
-        "name": "title",
-        "field": "notify.title",
+        "name": "tag",
+        "field": "notify.tag",
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "Mechanische ventilatie",
+        "template": "mechanical_ventilation_basement",
         "output": "str",
-        "x": 2290,
-        "y": 820,
+        "x": 2330,
+        "y": 940,
         "wires": [
             [
                 "a1c0156c06d58e91"
@@ -8557,39 +8640,19 @@
         ]
     },
     {
-        "id": "febf6f9eab6e868d",
+        "id": "67db220bfc8a732a",
         "type": "template",
         "z": "4e909abe.0b62e4",
         "g": "0a1a2a6df765a339",
-        "name": "icon",
-        "field": "notify.icon",
+        "name": "click action",
+        "field": "notify.clickAction",
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "",
+        "template": "/dashboard-mobile/climate",
         "output": "str",
-        "x": 2290,
-        "y": 860,
-        "wires": [
-            [
-                "a1c0156c06d58e91"
-            ]
-        ]
-    },
-    {
-        "id": "d6d0b5735ad8f20a",
-        "type": "template",
-        "z": "4e909abe.0b62e4",
-        "g": "0a1a2a6df765a339",
-        "name": "notification id",
-        "field": "notify.notification_id",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "mechanical_ventilation",
-        "output": "str",
-        "x": 2310,
-        "y": 900,
+        "x": 2350,
+        "y": 980,
         "wires": [
             [
                 "a1c0156c06d58e91"
@@ -8646,8 +8709,8 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 400,
-        "y": 300,
+        "x": 440,
+        "y": 260,
         "wires": [
             [
                 "466f23cc5674fa22"
@@ -8686,91 +8749,11 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 770,
-        "y": 120,
+        "x": 750,
+        "y": 200,
         "wires": [
             [
                 "a443801a148e31b6"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "ff0ab6a6.950ca8",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "name": "state wall temperature basement < dewpoint master bedroom",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "sensor.master_bedroom_thermal_comfort_dew_point",
-        "halt_if_type": "msg",
-        "halt_if_compare": "lt",
-        "entity_id": "sensor.basement_wall_temperature_offset",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.basement_wall_temperature_offset",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 780,
-        "y": 180,
-        "wires": [
-            [
-                "3efec0d271c18678"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "8a2090d8.a2185",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "name": "state absolute humidity basement < absolute humidity living room",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "sensor.living_room_thermal_comfort_absolute_humidity",
-        "halt_if_type": "msg",
-        "halt_if_compare": "lt",
-        "entity_id": "sensor.basement_thermal_comfort_absolute_humidity",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.basement_thermal_comfort_absolute_humidity",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 800,
-        "y": 240,
-        "wires": [
-            [
-                "f75b2db2c30eabf9"
             ],
             []
         ]
@@ -8806,7 +8789,7 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 1260,
+        "x": 1300,
         "y": 740,
         "wires": [
             [
@@ -8821,8 +8804,8 @@
         "z": "4e909abe.0b62e4",
         "name": "MECHANICAL VENTILATION POSITION 0",
         "info": "",
-        "x": 420,
-        "y": 80,
+        "x": 460,
+        "y": 160,
         "wires": []
     },
     {
@@ -8831,8 +8814,8 @@
         "z": "4e909abe.0b62e4",
         "name": "CONDITIONS & DATA",
         "info": "",
-        "x": 360,
-        "y": 360,
+        "x": 400,
+        "y": 440,
         "wires": []
     },
     {
@@ -8852,13 +8835,11 @@
         "topic": "",
         "payload": "start_flow",
         "payloadType": "str",
-        "x": 90,
-        "y": 80,
+        "x": 110,
+        "y": 160,
         "wires": [
             [
                 "eaba4c18.04007",
-                "476a9b5a.95d894",
-                "4abb03cf.8c49ec",
                 "4e1d6c0e.bd6b44"
             ]
         ]
@@ -8894,7 +8875,7 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 390,
+        "x": 430,
         "y": 740,
         "wires": [
             [
@@ -8936,8 +8917,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 1210,
-        "y": 580,
+        "x": 450,
+        "y": 540,
         "wires": [
             [
                 "52a3b09f.ae48"
@@ -8976,327 +8957,12 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 370,
-        "y": 120,
+        "x": 410,
+        "y": 200,
         "wires": [
             [
                 "cbe4be0.ad6c74"
             ]
-        ]
-    },
-    {
-        "id": "476a9b5a.95d894",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "name": "state dewpoint master bedroom ",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.master_bedroom_thermal_comfort_dew_point",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.master_bedroom_thermal_comfort_dew_point",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 390,
-        "y": 180,
-        "wires": [
-            [
-                "ff0ab6a6.950ca8"
-            ]
-        ]
-    },
-    {
-        "id": "4abb03cf.8c49ec",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "name": "state absolute humidity living room",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.living_room_thermal_comfort_absolute_humidity",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.living_room_thermal_comfort_absolute_humidity",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 400,
-        "y": 240,
-        "wires": [
-            [
-                "8a2090d8.a2185"
-            ]
-        ]
-    },
-    {
-        "id": "599646a9.361b38",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "name": "state dewpoint living room ",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.living_room_thermal_comfort_dew_point",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.living_room_thermal_comfort_dew_point",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 370,
-        "y": 460,
-        "wires": [
-            [
-                "87cfa72a.3e07e8"
-            ]
-        ]
-    },
-    {
-        "id": "87cfa72a.3e07e8",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "name": "state wall temperature basement  < dewpoint living room",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "sensor.living_room_thermal_comfort_dew_point",
-        "halt_if_type": "msg",
-        "halt_if_compare": "gt",
-        "entity_id": "sensor.basement_wall_temperature_offset",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.basement_wall_temperature_offset",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 710,
-        "y": 460,
-        "wires": [
-            [
-                "e07eea7c.6e4af8"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "e07eea7c.6e4af8",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "name": "state master bedroom dewpoint",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.master_bedroom_thermal_comfort_dew_point",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.master_bedroom_thermal_comfort_dew_point",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 390,
-        "y": 520,
-        "wires": [
-            [
-                "a028c18f.9355b"
-            ]
-        ]
-    },
-    {
-        "id": "a028c18f.9355b",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "name": "state wall temperature basement < dewpoint master bedroom",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "sensor.master_bedroom_thermal_comfort_dew_point",
-        "halt_if_type": "msg",
-        "halt_if_compare": "gt",
-        "entity_id": "sensor.basement_wall_temperature_offset",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.basement_wall_temperature_offset",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 760,
-        "y": 520,
-        "wires": [
-            [
-                "4bc7b417.d7b80c"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "4bc7b417.d7b80c",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "name": "state absolute humidity living room",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.living_room_thermal_comfort_absolute_humidity",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.living_room_thermal_comfort_absolute_humidity",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 400,
-        "y": 580,
-        "wires": [
-            [
-                "56b3697b.621e98"
-            ]
-        ]
-    },
-    {
-        "id": "56b3697b.621e98",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "name": "state absolute humidity basement > absolute humidity living room",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "sensor.living_room_thermal_comfort_absolute_humidity",
-        "halt_if_type": "msg",
-        "halt_if_compare": "gt",
-        "entity_id": "sensor.basement_thermal_comfort_absolute_humidity",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.basement_thermal_comfort_absolute_humidity",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 800,
-        "y": 580,
-        "wires": [
-            [
-                "13e032a.2acbbcd"
-            ],
-            []
         ]
     },
     {
@@ -9305,7 +8971,7 @@
         "z": "4e909abe.0b62e4",
         "name": "MECHANICAL VENTILATION POSITION 2",
         "info": "",
-        "x": 420,
+        "x": 460,
         "y": 800,
         "wires": []
     },
@@ -9340,7 +9006,7 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 370,
+        "x": 410,
         "y": 840,
         "wires": [
             [
@@ -9382,7 +9048,7 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 1260,
+        "x": 1300,
         "y": 820,
         "wires": [
             [
@@ -9397,8 +9063,8 @@
         "z": "4e909abe.0b62e4",
         "name": "MECHANICAL VENTILATION POSITION 3",
         "info": "",
-        "x": 420,
-        "y": 920,
+        "x": 940,
+        "y": 1000,
         "wires": []
     },
     {
@@ -9432,8 +9098,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 1260,
-        "y": 960,
+        "x": 1300,
+        "y": 920,
         "wires": [
             [
                 "320c3cf2.5620d4"
@@ -9492,12 +9158,10 @@
             }
         ],
         "x": 110,
-        "y": 140,
+        "y": 220,
         "wires": [
             [
                 "eaba4c18.04007",
-                "476a9b5a.95d894",
-                "4abb03cf.8c49ec",
                 "4e1d6c0e.bd6b44"
             ]
         ]
@@ -9553,12 +9217,10 @@
             }
         ],
         "x": 80,
-        "y": 200,
+        "y": 280,
         "wires": [
             [
                 "eaba4c18.04007",
-                "476a9b5a.95d894",
-                "4abb03cf.8c49ec",
                 "4e1d6c0e.bd6b44"
             ]
         ]
@@ -9569,7 +9231,7 @@
         "z": "4e909abe.0b62e4",
         "name": "MECHANICAL VENTILATION POSITION MANUAL",
         "info": "",
-        "x": 450,
+        "x": 490,
         "y": 1040,
         "wires": []
     },
@@ -9623,7 +9285,7 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 420,
+        "x": 460,
         "y": 1080,
         "wires": [
             [
@@ -9683,12 +9345,10 @@
             }
         ],
         "x": 110,
-        "y": 260,
+        "y": 340,
         "wires": [
             [
                 "eaba4c18.04007",
-                "476a9b5a.95d894",
-                "4abb03cf.8c49ec",
                 "4e1d6c0e.bd6b44"
             ]
         ]
@@ -9699,7 +9359,7 @@
         "z": "4e909abe.0b62e4",
         "name": "MECHANICAL VENTILATION POSITION 1",
         "info": "",
-        "x": 420,
+        "x": 460,
         "y": 700,
         "wires": []
     },
@@ -9734,8 +9394,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 400,
-        "y": 640,
+        "x": 440,
+        "y": 600,
         "wires": [
             [
                 "e21c63fd.6345e"
@@ -9776,8 +9436,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 740,
-        "y": 640,
+        "x": 760,
+        "y": 600,
         "wires": [
             [
                 "d21542c5.837e4"
@@ -9815,8 +9475,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 1000,
-        "y": 640,
+        "x": 1020,
+        "y": 600,
         "wires": [
             [
                 "ea92ebb5.4d1288"
@@ -9854,8 +9514,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 1250,
-        "y": 640,
+        "x": 1270,
+        "y": 600,
         "wires": [
             [
                 "4c661c8e515f8df3"
@@ -9873,7 +9533,7 @@
         "syntax": "mustache",
         "template": "De middelste stand is automatisch ingeschakeld.",
         "output": "str",
-        "x": 1740,
+        "x": 1780,
         "y": 820,
         "wires": [
             [
@@ -9892,8 +9552,8 @@
         "syntax": "mustache",
         "template": "De hoogste stand is automatisch ingeschakeld.",
         "output": "str",
-        "x": 1740,
-        "y": 960,
+        "x": 1780,
+        "y": 920,
         "wires": [
             [
                 "f6654a628999616b"
@@ -9919,8 +9579,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1770,
-        "y": 640,
+        "x": 1790,
+        "y": 600,
         "wires": [
             [
                 "e07362ff.ad189"
@@ -9958,7 +9618,7 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 670,
+        "x": 710,
         "y": 840,
         "wires": [
             [
@@ -10000,8 +9660,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 950,
-        "y": 840,
+        "x": 990,
+        "y": 860,
         "wires": [
             [
                 "65f41c8.8e8cde4"
@@ -10022,8 +9682,8 @@
         "endTime": "22:00",
         "startOffset": 0,
         "endOffset": 0,
-        "x": 330,
-        "y": 960,
+        "x": 370,
+        "y": 940,
         "wires": [
             [
                 "b5d8b43d.943a18"
@@ -10039,8 +9699,8 @@
         "z": "4e909abe.0b62e4",
         "name": "",
         "env": [],
-        "x": 1530,
-        "y": 960,
+        "x": 1570,
+        "y": 920,
         "wires": [
             [
                 "5ce9303e.d40b8"
@@ -10078,7 +9738,7 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 1620,
+        "x": 1480,
         "y": 200,
         "wires": [
             [
@@ -10118,7 +9778,7 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 1930,
+        "x": 1950,
         "y": 200,
         "wires": [
             [
@@ -10177,7 +9837,7 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 420,
+        "x": 460,
         "y": 1140,
         "wires": [
             [
@@ -10236,7 +9896,7 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 420,
+        "x": 460,
         "y": 1200,
         "wires": [
             [
@@ -10295,7 +9955,7 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 420,
+        "x": 460,
         "y": 1260,
         "wires": [
             [
@@ -10315,7 +9975,7 @@
         "syntax": "mustache",
         "template": "De laagste stand van de mechanische ventilatie is handmatig ingeschakeld.",
         "output": "str",
-        "x": 680,
+        "x": 720,
         "y": 1080,
         "wires": [
             [
@@ -10334,7 +9994,7 @@
         "syntax": "mustache",
         "template": "De middelste stand van de mechanische ventilatie is handmatig ingeschakeld.",
         "output": "str",
-        "x": 680,
+        "x": 720,
         "y": 1140,
         "wires": [
             [
@@ -10353,7 +10013,7 @@
         "syntax": "mustache",
         "template": "De hoge stand van de mechanische ventilatie is handmatig ingeschakeld.",
         "output": "str",
-        "x": 680,
+        "x": 720,
         "y": 1200,
         "wires": [
             [
@@ -10372,7 +10032,7 @@
         "syntax": "mustache",
         "template": "Mechanische Ventilatie is handmatig uitgeschakeld.",
         "output": "str",
-        "x": 680,
+        "x": 720,
         "y": 1260,
         "wires": [
             [
@@ -10411,11 +10071,11 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 1210,
-        "y": 1180,
+        "x": 1010,
+        "y": 1080,
         "wires": [
             [
-                "f6654a628999616b"
+                "7c2423c56f1fe876"
             ],
             []
         ]
@@ -10426,7 +10086,7 @@
         "z": "4e909abe.0b62e4",
         "name": "",
         "env": [],
-        "x": 2250,
+        "x": 2270,
         "y": 200,
         "wires": [
             [
@@ -10439,7 +10099,7 @@
         "type": "subflow:279f5735.2f95d8",
         "z": "4e909abe.0b62e4",
         "name": "",
-        "x": 1530,
+        "x": 1570,
         "y": 820,
         "wires": [
             [
@@ -10453,7 +10113,7 @@
         "z": "4e909abe.0b62e4",
         "name": "INPUT BOOLEAN MECHANICAL VENTILATION",
         "info": "",
-        "x": 440,
+        "x": 480,
         "y": 1320,
         "wires": []
     },
@@ -10507,7 +10167,7 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 420,
+        "x": 460,
         "y": 1360,
         "wires": [
             [
@@ -10566,7 +10226,7 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 420,
+        "x": 460,
         "y": 1420,
         "wires": [
             [
@@ -10625,7 +10285,7 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 420,
+        "x": 460,
         "y": 1480,
         "wires": [
             [
@@ -10684,7 +10344,7 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 420,
+        "x": 460,
         "y": 1540,
         "wires": [
             [
@@ -10699,7 +10359,7 @@
         "z": "4e909abe.0b62e4",
         "name": "",
         "env": [],
-        "x": 750,
+        "x": 790,
         "y": 1420,
         "wires": [
             []
@@ -10711,7 +10371,7 @@
         "z": "4e909abe.0b62e4",
         "name": "",
         "env": [],
-        "x": 750,
+        "x": 790,
         "y": 1360,
         "wires": [
             []
@@ -10723,7 +10383,7 @@
         "z": "4e909abe.0b62e4",
         "name": "",
         "env": [],
-        "x": 750,
+        "x": 790,
         "y": 1540,
         "wires": [
             []
@@ -10734,7 +10394,7 @@
         "type": "subflow:279f5735.2f95d8",
         "z": "4e909abe.0b62e4",
         "name": "",
-        "x": 750,
+        "x": 790,
         "y": 1480,
         "wires": [
             []
@@ -10751,8 +10411,8 @@
         "syntax": "mustache",
         "template": "Stand laag is ingeschakeld. De temperatuur buiten is {{{sensor.buienradar_temperature}}} {{data.attributes.unit_of_measurement}}",
         "output": "str",
-        "x": 980,
-        "y": 760,
+        "x": 1020,
+        "y": 740,
         "wires": [
             [
                 "bfdcba16.625018"
@@ -10770,8 +10430,8 @@
         "syntax": "mustache",
         "template": "Stand laag is ingeschakeld. De relative luchtvochtigheid in de souterrain is {{sensor.basement_humidity}} {{data.attributes.unit_of_measurement}}",
         "output": "str",
-        "x": 980,
-        "y": 720,
+        "x": 1020,
+        "y": 700,
         "wires": [
             [
                 "bfdcba16.625018"
@@ -10785,7 +10445,7 @@
         "name": "basement ventilation",
         "info": "",
         "x": 110,
-        "y": 40,
+        "y": 20,
         "wires": []
     },
     {
@@ -10793,11 +10453,11 @@
         "type": "subflow:db575387.da1ff",
         "z": "4e909abe.0b62e4",
         "name": "",
-        "x": 1530,
+        "x": 1570,
         "y": 740,
         "wires": [
             [
-                "f6654a628999616b"
+                "1a967b65adcf68b4"
             ]
         ]
     },
@@ -10812,46 +10472,8 @@
         "syntax": "mustache",
         "template": "Mechanische ventilatie is uitgeschakeld, lucht van boven condenseert mogelijk tegen de koudste oppervlakte in de kelder.\\nDe temperatuur van het koudste oppervlakte in de kelder is: {{sensor.basement_wall_temperature_offset}} ℃ \\nHet dauwpunt van de lucht in de woonkamer is: {{sensor.living_room_thermal_comfort_dew_point}} ℃",
         "output": "str",
-        "x": 1360,
-        "y": 120,
-        "wires": [
-            [
-                "476cfb88.13ea74"
-            ]
-        ]
-    },
-    {
-        "id": "528b70bf555994d2",
-        "type": "template",
-        "z": "4e909abe.0b62e4",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Mechanische ventilatie is uitgeschakeld, lucht uit de slaapkamer condenseert mogelijk tegen de koudste oppervlakte in de kelder.\\nDe temperatuur van het koudste oppervlakte in de kelder is: {{sensor.basement_wall_temperature_offset}} ℃ \\nHet dauwpunt van de lucht in de slaapkamer is: {{sensor.master_bedroom_thermal_comfort_dew_point}} ℃",
-        "output": "str",
-        "x": 1360,
-        "y": 180,
-        "wires": [
-            [
-                "476cfb88.13ea74"
-            ]
-        ]
-    },
-    {
-        "id": "eb7fc4be79c0effe",
-        "type": "template",
-        "z": "4e909abe.0b62e4",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Mechanische ventilatie is uitgeschakeld, de absolute vochtinhoud in de woonkamer is {{sensor.living_room_thermal_comfort_absolute_humidity}} g/m³ en is hoger dan in de kelder {{sensor.basement_thermal_comfort_absolute_humidity}} g/m³",
-        "output": "str",
-        "x": 1360,
-        "y": 240,
+        "x": 1260,
+        "y": 200,
         "wires": [
             [
                 "476cfb88.13ea74"
@@ -10869,31 +10491,11 @@
         "syntax": "mustache",
         "template": "Mechanische ventilatie is uitgeschakeld, de verwarming in de kelder staat aan. \\nKelder Heating Power is {{payload}}%",
         "output": "str",
-        "x": 1360,
-        "y": 300,
+        "x": 1260,
+        "y": 260,
         "wires": [
             [
                 "476cfb88.13ea74"
-            ]
-        ]
-    },
-    {
-        "id": "f75b2db2c30eabf9",
-        "type": "function",
-        "z": "4e909abe.0b62e4",
-        "name": "round to two decimals",
-        "func": "msg.sensor.living_room_thermal_comfort_absolute_humidity = msg.sensor.living_room_thermal_comfort_absolute_humidity.toFixed(2);\nmsg.sensor.basement_thermal_comfort_absolute_humidity = msg.sensor.basement_thermal_comfort_absolute_humidity.toFixed(2);\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1160,
-        "y": 240,
-        "wires": [
-            [
-                "eb7fc4be79c0effe"
             ]
         ]
     },
@@ -10909,31 +10511,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1160,
-        "y": 120,
+        "x": 1080,
+        "y": 200,
         "wires": [
             [
                 "a104a83026f8fd84"
-            ]
-        ]
-    },
-    {
-        "id": "3efec0d271c18678",
-        "type": "function",
-        "z": "4e909abe.0b62e4",
-        "name": "round to two decimals",
-        "func": "msg.sensor.master_bedroom_thermal_comfort_dew_point = msg.sensor.master_bedroom_thermal_comfort_dew_point.toFixed(2);\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1160,
-        "y": 180,
-        "wires": [
-            [
-                "528b70bf555994d2"
             ]
         ]
     },
@@ -10968,8 +10550,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 1530,
-        "y": 640,
+        "x": 1550,
+        "y": 600,
         "wires": [
             [
                 "a037b96e.97bc58"
@@ -10983,7 +10565,7 @@
         "z": "4e909abe.0b62e4",
         "name": "MECHANICAL VENTILATION POSITION MANUAL FRONTEND",
         "info": "",
-        "x": 490,
+        "x": 530,
         "y": 1600,
         "wires": []
     },
@@ -11011,7 +10593,7 @@
         "queue": "none",
         "domain": "input_boolean",
         "service": "turn_off",
-        "x": 950,
+        "x": 990,
         "y": 1780,
         "wires": [
             [
@@ -11069,7 +10651,7 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 420,
+        "x": 460,
         "y": 1660,
         "wires": [
             [
@@ -11114,7 +10696,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 5,
-        "x": 650,
+        "x": 690,
         "y": 1680,
         "wires": [
             [
@@ -11158,7 +10740,7 @@
         "queue": "none",
         "domain": "input_boolean",
         "service": "turn_on",
-        "x": 950,
+        "x": 990,
         "y": 1900,
         "wires": [
             []
@@ -11188,7 +10770,7 @@
         "queue": "none",
         "domain": "input_boolean",
         "service": "turn_off",
-        "x": 950,
+        "x": 990,
         "y": 1660,
         "wires": [
             [
@@ -11220,7 +10802,7 @@
         "queue": "none",
         "domain": "input_boolean",
         "service": "turn_off",
-        "x": 950,
+        "x": 990,
         "y": 1720,
         "wires": [
             [
@@ -11252,7 +10834,7 @@
         "queue": "none",
         "domain": "input_boolean",
         "service": "turn_off",
-        "x": 950,
+        "x": 990,
         "y": 1840,
         "wires": [
             [
@@ -11284,7 +10866,7 @@
         "queue": "none",
         "domain": "input_boolean",
         "service": "turn_on",
-        "x": 1300,
+        "x": 1340,
         "y": 1660,
         "wires": [
             []
@@ -11314,7 +10896,7 @@
         "queue": "none",
         "domain": "input_boolean",
         "service": "turn_on",
-        "x": 1300,
+        "x": 1340,
         "y": 1720,
         "wires": [
             []
@@ -11344,7 +10926,7 @@
         "queue": "none",
         "domain": "input_boolean",
         "service": "turn_on",
-        "x": 1300,
+        "x": 1340,
         "y": 1780,
         "wires": [
             []
@@ -11374,7 +10956,7 @@
         "queue": "none",
         "domain": "input_boolean",
         "service": "turn_on",
-        "x": 1300,
+        "x": 1340,
         "y": 1840,
         "wires": [
             []
@@ -11411,11 +10993,11 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 360,
-        "y": 400,
+        "x": 400,
+        "y": 480,
         "wires": [
             [
-                "599646a9.361b38"
+                "13e032a.2acbbcd"
             ],
             []
         ]
@@ -12353,16 +11935,9 @@
         "z": "3d30857f5165e137",
         "name": "toilet light turned on",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "light.shelly1pm_toilet_light_switch_0"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "on",
@@ -12397,6 +11972,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "light.shelly1pm_toilet_light_switch_0",
+        "entityIdType": "exact",
         "x": 110,
         "y": 60,
         "wires": [
@@ -12413,16 +11990,13 @@
         "z": "3d30857f5165e137",
         "name": "turn on toilet fan",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "fan.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "fan.shelly1pm_toilet_fan_switch_0"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -12443,16 +12017,13 @@
         "z": "3d30857f5165e137",
         "name": "turn off toilet fan",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "fan.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "fan.shelly1pm_toilet_fan_switch_0"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -12473,15 +12044,8 @@
         "z": "3d30857f5165e137",
         "name": "wait until toilet light goes off with 10 sec timeout",
         "server": "4ba92433.2478cc",
-        "version": 3,
+        "version": 2,
         "outputs": 2,
-        "entities": {
-            "entity": [
-                "light.shelly1pm_toilet_light_switch_0"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "property": "state",
         "comparator": "is",
         "value": "off",
@@ -12492,6 +12056,8 @@
         "checkCurrentState": true,
         "blockInputOverrides": true,
         "outputProperties": [],
+        "entityId": "light.shelly1pm_toilet_light_switch_0",
+        "entityIdFilterType": "exact",
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 420,
@@ -12529,15 +12095,8 @@
         "z": "3d30857f5165e137",
         "name": "wait until toilet light goes off ",
         "server": "4ba92433.2478cc",
-        "version": 3,
+        "version": 2,
         "outputs": 2,
-        "entities": {
-            "entity": [
-                "light.shelly1pm_toilet_light_switch_0"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "property": "state",
         "comparator": "is",
         "value": "off",
@@ -12548,6 +12107,8 @@
         "checkCurrentState": true,
         "blockInputOverrides": true,
         "outputProperties": [],
+        "entityId": "light.shelly1pm_toilet_light_switch_0",
+        "entityIdFilterType": "exact",
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 740,
@@ -12919,16 +12480,9 @@
         "z": "e98ae3c9db1bd6c3",
         "name": "state persons",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "group.persons"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "",
@@ -12963,6 +12517,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "group.persons",
+        "entityIdType": "exact",
         "x": 90,
         "y": 340,
         "wires": [
@@ -12977,16 +12533,13 @@
         "z": "e98ae3c9db1bd6c3",
         "name": "turn off vacation mode",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.vacation_mode"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -13092,16 +12645,13 @@
         "z": "e98ae3c9db1bd6c3",
         "name": "turn on light",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "{{payload.entity_id}}"
         ],
-        "labelId": [],
         "data": "{\"brightness_pct\":\"{{dimlevel}}\",\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -13124,16 +12674,13 @@
         "z": "e98ae3c9db1bd6c3",
         "name": "turn off light",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "{{payload.entity_id}}"
         ],
-        "labelId": [],
         "data": "{\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -13230,16 +12777,9 @@
         "z": "e98ae3c9db1bd6c3",
         "name": "state persons not home for 1 day",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "group.persons"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "not_home",
@@ -13274,6 +12814,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "group.persons",
+        "entityIdType": "exact",
         "x": 150,
         "y": 140,
         "wires": [
@@ -13344,16 +12886,13 @@
         "z": "e98ae3c9db1bd6c3",
         "name": "turn on vacation mode",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.vacation_mode"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -13753,16 +13292,9 @@
         "z": "55da1471.fda0fc",
         "name": "state group persons",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "group.persons"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -13797,6 +13329,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "group.persons",
+        "entityIdType": "exact",
         "x": 110,
         "y": 200,
         "wires": [
@@ -13811,16 +13345,9 @@
         "z": "55da1471.fda0fc",
         "name": "state guest ",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "input_boolean.guest"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -13855,6 +13382,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "input_boolean.guest",
+        "entityIdType": "exact",
         "x": 80,
         "y": 320,
         "wires": [
@@ -14005,16 +13534,13 @@
         "z": "55da1471.fda0fc",
         "name": "turn on auto cleaning",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.auto_cleaning"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -14035,16 +13561,13 @@
         "z": "55da1471.fda0fc",
         "name": "start vacuum",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "vacuum.start",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "vacuum.roborock_s6_pure"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -14067,16 +13590,13 @@
         "z": "55da1471.fda0fc",
         "name": "return to base",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "vacuum.return_to_base",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "vacuum.roborock_s6_pure"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -14307,16 +13827,9 @@
         "z": "55da1471.fda0fc",
         "name": "sleep mode is on",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "input_boolean.sleep_mode"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "on",
@@ -14351,6 +13864,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "input_boolean.sleep_mode",
+        "entityIdType": "exact",
         "x": 100,
         "y": 480,
         "wires": [
@@ -14503,16 +14018,9 @@
         "z": "55da1471.fda0fc",
         "name": "vacuum state is cleaning",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "vacuum.roborock_s6_pure"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "cleaning",
@@ -14547,6 +14055,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "vacuum.roborock_s6_pure",
+        "entityIdType": "exact",
         "x": 130,
         "y": 640,
         "wires": [
@@ -14562,15 +14072,8 @@
         "z": "55da1471.fda0fc",
         "name": "",
         "server": "4ba92433.2478cc",
-        "version": 3,
+        "version": 2,
         "outputs": 2,
-        "entities": {
-            "entity": [
-                "vacuum.roborock_s6_pure"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "property": "state",
         "comparator": "is",
         "value": "returning",
@@ -14581,6 +14084,8 @@
         "checkCurrentState": true,
         "blockInputOverrides": true,
         "outputProperties": [],
+        "entityId": "vacuum.roborock_s6_pure",
+        "entityIdFilterType": "exact",
         "x": 320,
         "y": 640,
         "wires": [
@@ -14636,16 +14141,13 @@
         "z": "55da1471.fda0fc",
         "name": "turn off auto cleaning",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.auto_cleaning"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -14827,15 +14329,8 @@
         "z": "55da1471.fda0fc",
         "name": "",
         "server": "4ba92433.2478cc",
-        "version": 3,
+        "version": 2,
         "outputs": 2,
-        "entities": {
-            "entity": [
-                "vacuum.roborock_s6_pure"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "property": "state",
         "comparator": "is",
         "value": "cleaning",
@@ -14846,6 +14341,8 @@
         "checkCurrentState": true,
         "blockInputOverrides": true,
         "outputProperties": [],
+        "entityId": "vacuum.roborock_s6_pure",
+        "entityIdFilterType": "exact",
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 1500,
@@ -14924,16 +14421,13 @@
         "z": "55da1471.fda0fc",
         "name": "start vacuum",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "vacuum.start",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "vacuum.robot_vacuum"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -14956,15 +14450,8 @@
         "z": "55da1471.fda0fc",
         "name": "",
         "server": "4ba92433.2478cc",
-        "version": 3,
+        "version": 2,
         "outputs": 2,
-        "entities": {
-            "entity": [
-                "vacuum.robot_vacuum"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "property": "state",
         "comparator": "is",
         "value": "cleaning",
@@ -14975,6 +14462,8 @@
         "checkCurrentState": true,
         "blockInputOverrides": true,
         "outputProperties": [],
+        "entityId": "vacuum.robot_vacuum",
+        "entityIdFilterType": "exact",
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 1500,
@@ -15156,16 +14645,9 @@
         "z": "29a2e1dd05ecbf80",
         "name": "room cleaning button",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "input_button.vacuum_start_room_cleaning"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -15200,6 +14682,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "input_button.vacuum_start_room_cleaning",
+        "entityIdType": "exact",
         "x": 120,
         "y": 60,
         "wires": [
@@ -15224,13 +14708,11 @@
         "z": "29a2e1dd05ecbf80",
         "name": "",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -15335,15 +14817,8 @@
         "z": "29a2e1dd05ecbf80",
         "name": "",
         "server": "4ba92433.2478cc",
-        "version": 3,
+        "version": 2,
         "outputs": 1,
-        "entities": {
-            "entity": [],
-            "substring": [],
-            "regex": [
-                "^vacuum."
-            ]
-        },
         "property": "state",
         "comparator": "is",
         "value": "cleaning",
@@ -15354,6 +14829,8 @@
         "checkCurrentState": true,
         "blockInputOverrides": true,
         "outputProperties": [],
+        "entityId": "^vacuum.",
+        "entityIdFilterType": "regex",
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 1340,
@@ -15404,16 +14881,13 @@
         "z": "29a2e1dd05ecbf80",
         "name": "",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "{{payload.entity_id}}"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -15434,16 +14908,9 @@
         "z": "03ed0365a1543556",
         "name": "wall tablet battery level",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.galaxy_tab_a8_battery"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "num",
         "ifState": "",
@@ -15472,6 +14939,8 @@
                 "valueType": "eventData"
             }
         ],
+        "entityId": "sensor.galaxy_tab_a8_battery",
+        "entityIdType": "exact",
         "x": 120,
         "y": 60,
         "wires": [
@@ -15552,16 +15021,13 @@
         "z": "03ed0365a1543556",
         "name": "turn on wall tablet charger",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "switch.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "switch.cv_closet_walltablet_charger"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -15582,16 +15048,13 @@
         "z": "03ed0365a1543556",
         "name": "turn off wall tablet charger",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "switch.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "switch.cv_closet_walltablet_charger"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -15630,14 +15093,11 @@
         "z": "03ed0365a1543556",
         "name": "slack message",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "notify.theautomation",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [],
-        "labelId": [],
         "data": "{\"message\":\"Battery\",\"target\":\"#home-assistant\",\"title\":\"Battery\",\"data\":{\"blocks\":[{\"type\":\"header\",\"text\":{\"type\":\"plain_text\",\"text\":\"Tablet :battery:\"}},{\"type\":\"section\",\"fields\":[{\"type\":\"mrkdwn\",\"text\":\"{{{message}}}\"}]}]}}",
         "dataType": "json",
         "mergeContext": "",
@@ -15677,16 +15137,9 @@
         "z": "9f9f94838a3fcd77",
         "name": "sleepmode is on",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "input_boolean.sleep_mode"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "on",
@@ -15721,6 +15174,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "input_boolean.sleep_mode",
+        "entityIdType": "exact",
         "x": 100,
         "y": 60,
         "wires": [
@@ -15736,16 +15191,13 @@
         "z": "9f9f94838a3fcd77",
         "name": "turn on wall tablet screen",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "switch.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "switch.galaxy_tab_a8_screen"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -15766,16 +15218,9 @@
         "z": "9f9f94838a3fcd77",
         "name": "frontdoor is open",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.frontdoor"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "on",
@@ -15810,6 +15255,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.frontdoor",
+        "entityIdType": "exact",
         "x": 100,
         "y": 120,
         "wires": [
@@ -15825,16 +15272,9 @@
         "z": "9f9f94838a3fcd77",
         "name": "backdoor is open",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.backdoor"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "on",
@@ -15869,6 +15309,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.backdoor",
+        "entityIdType": "exact",
         "x": 100,
         "y": 180,
         "wires": [
@@ -15894,16 +15336,9 @@
         "z": "9f9f94838a3fcd77",
         "name": "motion in backyard",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.backyard_motion_sensor_01_motion"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "on",
@@ -15919,6 +15354,8 @@
         "ignoreCurrentStateUnknown": false,
         "ignoreCurrentStateUnavailable": false,
         "outputProperties": [],
+        "entityId": "binary_sensor.backyard_motion_sensor_01_motion",
+        "entityIdType": "exact",
         "x": 110,
         "y": 240,
         "wires": [
@@ -19514,16 +18951,13 @@
         "z": "a4fbdd1c0456c1af",
         "name": "turn off tv",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "webostv.command",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "media_player.lg_webos_smart_tv"
         ],
-        "labelId": [],
         "data": "{\"command\":\"system/turnOff\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -19556,16 +18990,13 @@
         "z": "a4fbdd1c0456c1af",
         "name": "turn on shield mediaplayer",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "media_player.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "media_player.shield"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -19586,16 +19017,13 @@
         "z": "a4fbdd1c0456c1af",
         "name": "turn off shield mediaplayer",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "media_player.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "media_player.shield"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -20555,16 +19983,9 @@
         "z": "4b48188ca7b303d7",
         "name": "backdoor state",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.backdoor"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "on",
@@ -20599,6 +20020,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.backdoor",
+        "entityIdType": "exact",
         "x": 100,
         "y": 60,
         "wires": [
@@ -20757,16 +20180,13 @@
         "z": "4b48188ca7b303d7",
         "name": "turn up brightness",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "{{payload.entity_id}}"
         ],
-        "labelId": [],
         "data": "{\"brightness_pct\":\"65\",\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -20836,16 +20256,13 @@
         "z": "4b48188ca7b303d7",
         "name": "restore light on state",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.{{parts.key}}"
         ],
-        "labelId": [],
         "data": "{\"brightness\":\"{{payload.attributes.brightness}}\",\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -20866,16 +20283,13 @@
         "z": "4b48188ca7b303d7",
         "name": "restore light off state",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.{{parts.key}}"
         ],
-        "labelId": [],
         "data": "{\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -21270,16 +20684,9 @@
         "z": "2863cbc8bee70856",
         "name": "basement door is open",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.basement_door"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "on",
@@ -21295,6 +20702,8 @@
         "ignoreCurrentStateUnknown": true,
         "ignoreCurrentStateUnavailable": true,
         "outputProperties": [],
+        "entityId": "binary_sensor.basement_door",
+        "entityIdType": "exact",
         "x": 120,
         "y": 60,
         "wires": [
@@ -21367,16 +20776,13 @@
         "z": "2863cbc8bee70856",
         "name": "turn on basement stairs light",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "{{data.entity_id}}"
         ],
-        "labelId": [],
         "data": "{\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -21397,16 +20803,13 @@
         "z": "2863cbc8bee70856",
         "name": "turn off basement stairs light",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "{{data.entity_id}}"
         ],
-        "labelId": [],
         "data": "{\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -21537,16 +20940,9 @@
         "z": "3c0c3dbf7e0deda4",
         "name": "cv closet illuminance",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.cv_closet_illuminance"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "",
@@ -21581,6 +20977,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "sensor.cv_closet_illuminance",
+        "entityIdType": "exact",
         "x": 110,
         "y": 60,
         "wires": [
@@ -21620,16 +21018,13 @@
         "z": "3c0c3dbf7e0deda4",
         "name": "turn on light cv closet",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.cv_closet"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -21715,16 +21110,13 @@
         "z": "3c0c3dbf7e0deda4",
         "name": "turn off light cv closet",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.cv_closet"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -21810,16 +21202,13 @@
         "z": "8ca9fd35c2a2b1c4",
         "name": "",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "{{data.entity_id}}"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -21840,16 +21229,9 @@
         "z": "8ca9fd35c2a2b1c4",
         "name": "frontdoor is open",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.frontdoor"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "on",
@@ -21865,6 +21247,8 @@
         "ignoreCurrentStateUnknown": true,
         "ignoreCurrentStateUnavailable": true,
         "outputProperties": [],
+        "entityId": "binary_sensor.frontdoor",
+        "entityIdType": "exact",
         "x": 100,
         "y": 60,
         "wires": [
@@ -22550,16 +21934,9 @@
         "z": "b1a9214c.4c71c",
         "name": "state buienradar precipitation > 0",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.buienradar_precipitation"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "num",
         "ifState": "0",
@@ -22594,6 +21971,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "sensor.buienradar_precipitation",
+        "entityIdType": "exact",
         "x": 150,
         "y": 200,
         "wires": [
@@ -22799,16 +22178,9 @@
         "z": "b1a9214c.4c71c",
         "name": "state heating power basement > 1%",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.basement_heating"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "num",
         "ifState": "1",
@@ -22843,6 +22215,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "sensor.basement_heating",
+        "entityIdType": "exact",
         "x": 160,
         "y": 80,
         "wires": [
@@ -22927,16 +22301,13 @@
         "z": "b1a9214c.4c71c",
         "name": "turn on basement window",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.basement_ramen"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -22986,16 +22357,13 @@
         "z": "b1a9214c.4c71c",
         "name": "turn off basement window",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.basement_window"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -23058,16 +22426,9 @@
         "z": "b1a9214c.4c71c",
         "name": "state buienradar condition rainy",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.buienradar_condition"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "rainy",
@@ -23102,6 +22463,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "sensor.buienradar_condition",
+        "entityIdType": "exact",
         "x": 150,
         "y": 140,
         "wires": [
@@ -25093,16 +24456,9 @@
         "z": "98a989e.d6bca78",
         "name": "gas sensor state",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.dsmr_consumption_gas_currently_delivered"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "num",
         "ifState": "",
@@ -25137,6 +24493,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "sensor.dsmr_consumption_gas_currently_delivered",
+        "entityIdType": "exact",
         "x": 100,
         "y": 80,
         "wires": [
@@ -25380,16 +24738,9 @@
         "z": "42b354a7f0284779",
         "name": "inverter status code",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.solaredge_modbus_status"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "num",
         "ifState": "",
@@ -25418,6 +24769,8 @@
                 "valueType": "eventData"
             }
         ],
+        "entityId": "sensor.solaredge_modbus_status",
+        "entityIdType": "exact",
         "x": 110,
         "y": 60,
         "wires": [
@@ -25684,16 +25037,9 @@
         "z": "b4aa7b8dbc1c80dc",
         "name": "knmi warning",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.knmi_warning"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "on",
@@ -25728,6 +25074,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.knmi_warning",
+        "entityIdType": "exact",
         "x": 110,
         "y": 40,
         "wires": [
@@ -26031,8 +25379,7 @@
             "17e4e7721adc09a1",
             "1514f8777e4c8211",
             "ddf56ac7c76174e3",
-            "85efbfe86edb2e91",
-            "85d1a1327cf29ac7"
+            "85efbfe86edb2e91"
         ],
         "x": 195,
         "y": 460,
@@ -29122,16 +28469,9 @@
         "z": "1dfb7e055134adc8",
         "name": "a notification level sensor state change",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [],
-            "substring": [],
-            "regex": [
-                "binary_sensor.notification_level_"
-            ]
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "",
@@ -29147,6 +28487,8 @@
         "ignoreCurrentStateUnknown": false,
         "ignoreCurrentStateUnavailable": false,
         "outputProperties": [],
+        "entityId": "binary_sensor.notification_level_",
+        "entityIdType": "regex",
         "x": 170,
         "y": 60,
         "wires": [
@@ -29347,16 +28689,9 @@
         "z": "b1b994b3d43d6aad",
         "name": "stookalert is on",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.stookalert_gelderland"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "on",
@@ -29372,6 +28707,8 @@
         "ignoreCurrentStateUnknown": true,
         "ignoreCurrentStateUnavailable": true,
         "outputProperties": [],
+        "entityId": "binary_sensor.stookalert_gelderland",
+        "entityIdType": "exact",
         "x": 100,
         "y": 60,
         "wires": [
@@ -29538,14 +28875,11 @@
         "z": "b1b994b3d43d6aad",
         "name": " dismiss in app notification",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "persistent_notification.dismiss",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [],
-        "labelId": [],
         "data": "{\"notification_id\":\"stookalert\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -29699,16 +29033,9 @@
         "z": "a8d8484165225699",
         "name": "update counter is not 0",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.update_on_counter"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "0",
@@ -29724,6 +29051,8 @@
         "ignoreCurrentStateUnknown": true,
         "ignoreCurrentStateUnavailable": true,
         "outputProperties": [],
+        "entityId": "sensor.update_on_counter",
+        "entityIdType": "exact",
         "x": 120,
         "y": 60,
         "wires": [
@@ -29858,14 +29187,11 @@
         "z": "a8d8484165225699",
         "name": " dismiss in app notification",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "persistent_notification.dismiss",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [],
-        "labelId": [],
         "data": "{\"notification_id\":\"update_entity\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -30072,16 +29398,9 @@
         "z": "5a8d7bb1.6263b4",
         "name": "HACS update",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.hacs"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "unknown",
@@ -30116,6 +29435,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "sensor.hacs",
+        "entityIdType": "exact",
         "x": 90,
         "y": 80,
         "wires": [
@@ -30164,14 +29485,11 @@
         "z": "5a8d7bb1.6263b4",
         "name": " dismiss in app notification",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "persistent_notification.dismiss",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [],
-        "labelId": [],
         "data": "{\"notification_id\":\"hacs_update\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -30406,16 +29724,9 @@
         "z": "8d2de69b4c0fd2b9",
         "name": "vacuum State is error s6",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "vacuum.roborock_s6_pure"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "error",
@@ -30450,6 +29761,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "vacuum.roborock_s6_pure",
+        "entityIdType": "exact",
         "x": 150,
         "y": 80,
         "wires": [
@@ -30465,16 +29778,9 @@
         "z": "8d2de69b4c0fd2b9",
         "name": "vacuum State is error s55",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "vacuum.robot_vacuum"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "error",
@@ -30509,6 +29815,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "vacuum.robot_vacuum",
+        "entityIdType": "exact",
         "x": 150,
         "y": 140,
         "wires": [
@@ -31600,16 +30908,9 @@
         "z": "7186425fdfc90c19",
         "name": "water sensor",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.watermeter_pulse"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "1",
@@ -31644,6 +30945,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "sensor.watermeter_pulse",
+        "entityIdType": "exact",
         "x": 90,
         "y": 60,
         "wires": [
@@ -31839,16 +31142,9 @@
         "z": "3087db0b32ceb4d4",
         "name": "state outdoor is dark",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.outdoor_light_dark"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "dark",
@@ -31883,6 +31179,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "sensor.outdoor_light_dark",
+        "entityIdType": "exact",
         "x": 110,
         "y": 60,
         "wires": [
@@ -31993,16 +31291,13 @@
         "z": "3087db0b32ceb4d4",
         "name": "turn on light front door ",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shelly1_front_door"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -32023,16 +31318,13 @@
         "z": "3087db0b32ceb4d4",
         "name": "turn on light backyard",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shellydimmer_backyard_string_l"
         ],
-        "labelId": [],
         "data": "{\"brightness_pct\":\"25\",\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -32200,16 +31492,13 @@
         "z": "3087db0b32ceb4d4",
         "name": "turn on light livingroom ",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shellydimmer_living_room"
         ],
-        "labelId": [],
         "data": "{\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -32230,14 +31519,11 @@
         "z": "3087db0b32ceb4d4",
         "name": "set theme dark",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "frontend.set_theme",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [],
-        "labelId": [],
         "data": "{\"name\":\"google_dark_theme\",\"mode\":\"dark\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -32341,16 +31627,13 @@
         "z": "c0da8379.b0dd3",
         "name": "turn on light backyard",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shellydimmer_backyard_string_l"
         ],
-        "labelId": [],
         "data": "{\"brightness_pct\":25,\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -32373,16 +31656,13 @@
         "z": "c0da8379.b0dd3",
         "name": "turn on light front door",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shelly1_front_door"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -32434,16 +31714,9 @@
         "z": "c0da8379.b0dd3",
         "name": "state persons",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "group.persons"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "",
@@ -32478,6 +31751,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "group.persons",
+        "entityIdType": "exact",
         "x": 90,
         "y": 80,
         "wires": [
@@ -32572,16 +31847,9 @@
         "z": "c0da8379.b0dd3",
         "name": "state guest",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "input_boolean.guest"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -32616,6 +31884,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "input_boolean.guest",
+        "entityIdType": "exact",
         "x": 80,
         "y": 140,
         "wires": [
@@ -32664,16 +31934,9 @@
         "z": "c0da8379.b0dd3",
         "name": "state person coen home",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "person.coen"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "home",
@@ -32708,6 +31971,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "person.coen",
+        "entityIdType": "exact",
         "x": 120,
         "y": 320,
         "wires": [
@@ -32723,16 +31988,9 @@
         "z": "c0da8379.b0dd3",
         "name": "state person anne home",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "person.anne"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "home",
@@ -32767,6 +32025,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "person.anne",
+        "entityIdType": "exact",
         "x": 130,
         "y": 380,
         "wires": [
@@ -33106,16 +32366,13 @@
         "z": "c0da8379.b0dd3",
         "name": "turn off sleep mode",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.sleep_mode"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -33176,16 +32433,13 @@
         "z": "c0da8379.b0dd3",
         "name": "turn off home security",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.home_security"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -33340,16 +32594,13 @@
         "z": "c0da8379.b0dd3",
         "name": "turn on light livingroom",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shellydimmer_living_room"
         ],
-        "labelId": [],
         "data": "{\"brightness\":80,\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -33372,16 +32623,13 @@
         "z": "c0da8379.b0dd3",
         "name": "turn on water heater",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "water_heater.set_temperature",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "water_heater.warm_water"
         ],
-        "labelId": [],
         "data": "{\"temperature\":\"61\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -33402,16 +32650,13 @@
         "z": "c0da8379.b0dd3",
         "name": "set preset mode climate home",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "climate.set_preset_mode",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "{{payload.entity_id}}"
         ],
-        "labelId": [],
         "data": "{\"preset_mode\":\"home\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -33468,16 +32713,13 @@
         "z": "c0da8379.b0dd3",
         "name": "turn on climate auto mode",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "climate.set_hvac_mode",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "{{payload.entity_id}}"
         ],
-        "labelId": [],
         "data": "{\"hvac_mode\":\"auto\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -33548,16 +32790,13 @@
         "z": "c0da8379.b0dd3",
         "name": "turn on quooker",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "switch.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "switch.shellyplugplus_quooker_switch_0"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -33867,16 +33106,9 @@
         "z": "8aa6edec.5a013",
         "name": "state group persons not_home",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "group.persons"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "not_home",
@@ -33911,6 +33143,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "group.persons",
+        "entityIdType": "exact",
         "x": 140,
         "y": 60,
         "wires": [
@@ -33926,16 +33160,9 @@
         "z": "8aa6edec.5a013",
         "name": "state guest off",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "input_boolean.guest"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "off",
@@ -33970,6 +33197,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "input_boolean.guest",
+        "entityIdType": "exact",
         "x": 90,
         "y": 180,
         "wires": [
@@ -34105,16 +33334,13 @@
         "z": "8aa6edec.5a013",
         "name": "turn on home security",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.home_security"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -34137,16 +33363,13 @@
         "z": "8aa6edec.5a013",
         "name": "turn on switch chime active",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "switch.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "switch.smart_doorbell_active"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -34251,16 +33474,13 @@
         "z": "8aa6edec.5a013",
         "name": "set preset mode climate away",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "climate.set_preset_mode",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "{{payload.entity_id}}"
         ],
-        "labelId": [],
         "data": "{\"preset_mode\":\"away\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -34350,16 +33570,9 @@
         "z": "8aa6edec.5a013",
         "name": "state vacation mode off",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "input_boolean.vacation_mode"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "off",
@@ -34394,6 +33607,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "input_boolean.vacation_mode",
+        "entityIdType": "exact",
         "x": 120,
         "y": 120,
         "wires": [
@@ -34468,16 +33683,13 @@
         "z": "8aa6edec.5a013",
         "name": "turn off lights",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "{{payload.entity_id}}"
         ],
-        "labelId": [],
         "data": "{\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -34581,16 +33793,13 @@
         "z": "8aa6edec.5a013",
         "name": "input select entertainment_activity uitschakelen",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_select.select_option",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_select.entertainment_activity"
         ],
-        "labelId": [],
         "data": "{\"option\":\"Uitschakelen\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -34611,16 +33820,13 @@
         "z": "8aa6edec.5a013",
         "name": "turn on climate auto mode",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "climate.set_hvac_mode",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "{{payload.entity_id}}"
         ],
-        "labelId": [],
         "data": "{\"hvac_mode\":\"auto\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -34671,16 +33877,13 @@
         "z": "8aa6edec.5a013",
         "name": "turn off water heater",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "water_heater.set_operation_mode",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "water_heater.warm_water"
         ],
-        "labelId": [],
         "data": "{\"operation_mode\":\"off\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -34701,16 +33904,13 @@
         "z": "8aa6edec.5a013",
         "name": "turn off childlock kitchen",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "switch.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "switch.childlock_kitchen_switch"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -34904,16 +34104,13 @@
         "z": "8aa6edec.5a013",
         "name": "turn off quooker",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "switch.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "switch.shellyplugplus_quooker_switch_0"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -34934,16 +34131,9 @@
         "z": "e0e34b3e49b36c0e",
         "name": "state outdoor is light ",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.outdoor_light_dark"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "light",
@@ -34978,6 +34168,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "sensor.outdoor_light_dark",
+        "entityIdType": "exact",
         "x": 110,
         "y": 80,
         "wires": [
@@ -35007,16 +34199,13 @@
         "z": "e0e34b3e49b36c0e",
         "name": "turn off light front door ",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shelly1_front_door"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -35037,16 +34226,13 @@
         "z": "e0e34b3e49b36c0e",
         "name": "turn off light backyard",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shellydimmer_backyard_string_l"
         ],
-        "labelId": [],
         "data": "{\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -35269,16 +34455,13 @@
         "z": "e0e34b3e49b36c0e",
         "name": "turn off sleep mode",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.sleep_mode"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -35339,16 +34522,13 @@
         "z": "e0e34b3e49b36c0e",
         "name": "turn off home security",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.home_security"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -35369,14 +34549,11 @@
         "z": "e0e34b3e49b36c0e",
         "name": "set theme dark",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "frontend.set_theme",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [],
-        "labelId": [],
         "data": "{\"name\":\"google_light_theme\",\"mode\":\"dark\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -35407,16 +34584,13 @@
         "z": "6af65daafa363be0",
         "name": "turn off light frontdoor ",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shelly1_front_door"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -35437,16 +34611,13 @@
         "z": "6af65daafa363be0",
         "name": "turn off light backyard",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shellydimmer_backyard_string_l"
         ],
-        "labelId": [],
         "data": "{\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -35696,16 +34867,13 @@
         "z": "6af65daafa363be0",
         "name": "turn off sleep mode",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.sleep_mode"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -35766,16 +34934,13 @@
         "z": "6af65daafa363be0",
         "name": "turn off home security",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.home_security"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -35796,15 +34961,8 @@
         "z": "6af65daafa363be0",
         "name": "wait until it is light outside",
         "server": "4ba92433.2478cc",
-        "version": 3,
+        "version": 2,
         "outputs": 1,
-        "entities": {
-            "entity": [
-                "sensor.outdoor_light_dark"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "property": "state",
         "comparator": "is",
         "value": "light",
@@ -35815,6 +34973,8 @@
         "checkCurrentState": true,
         "blockInputOverrides": true,
         "outputProperties": [],
+        "entityId": "sensor.outdoor_light_dark",
+        "entityIdFilterType": "exact",
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 350,
@@ -35915,16 +35075,13 @@
         "z": "eb1939ba1b7e9b73",
         "name": "input select entertainment_activity uitschakelen",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_select.select_option",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_select.entertainment_activity"
         ],
-        "labelId": [],
         "data": "{\"option\":\"Uitschakelen\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -35945,16 +35102,13 @@
         "z": "eb1939ba1b7e9b73",
         "name": "turn on climate auto mode",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "climate.set_hvac_mode",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "{{payload.entity_id}}"
         ],
-        "labelId": [],
         "data": "{\"hvac_mode\":\"auto\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -36005,16 +35159,13 @@
         "z": "eb1939ba1b7e9b73",
         "name": "turn off water heater",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "water_heater.set_operation_mode",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "water_heater.warm_water"
         ],
-        "labelId": [],
         "data": "{\"operation_mode\":\"off\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -36035,16 +35186,13 @@
         "z": "eb1939ba1b7e9b73",
         "name": "turn off childlock kitchen",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "switch.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "switch.childlock_kitchen_switch"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -36538,16 +35686,13 @@
         "g": "12e8b8acaeaeb3fa",
         "name": "turn on basement fan autonomous",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.mechanical_ventilation_basement_autonomous"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -36569,16 +35714,13 @@
         "g": "12e8b8acaeaeb3fa",
         "name": "turn on bathroom fan autonomous",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.mechanical_ventilation_bathroom_autonomous"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -36749,16 +35891,13 @@
         "g": "12e8b8acaeaeb3fa",
         "name": "turn on light kitchen",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shellydimmer_kitchen"
         ],
-        "labelId": [],
         "data": "{\"brightness_pct\":45,\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -36807,16 +35946,13 @@
         "g": "12e8b8acaeaeb3fa",
         "name": "turn off light kitchen",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shellydimmer_kitchen"
         ],
-        "labelId": [],
         "data": "{\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -36838,16 +35974,13 @@
         "g": "12e8b8acaeaeb3fa",
         "name": "turn on home security",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.home_security"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -36935,16 +36068,13 @@
         "g": "1fb2b225cc711d77",
         "name": "stop timer security",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "timer.cancel",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "timer.home_security"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -37142,16 +36272,13 @@
         "g": "12e8b8acaeaeb3fa",
         "name": "start speedtest",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "homeassistant.update_entity",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "sensor.speedtest_download"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -37215,16 +36342,13 @@
         "g": "1fb2b225cc711d77",
         "name": "turn on light front door ",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shelly1_front_door"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -37246,16 +36370,13 @@
         "g": "1fb2b225cc711d77",
         "name": "turn on light backyard",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shellydimmer_backyard_string_l"
         ],
-        "labelId": [],
         "data": "{\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -37446,16 +36567,13 @@
         "g": "12e8b8acaeaeb3fa",
         "name": "turn off lights",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "{{payload.entity_id}}"
         ],
-        "labelId": [],
         "data": "{\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
@@ -37543,16 +36661,13 @@
         "g": "12e8b8acaeaeb3fa",
         "name": "input select entertainment_activity uitschakelen",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_select.select_option",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_select.entertainment_activity"
         ],
-        "labelId": [],
         "data": "{\"option\":\"Uitschakelen\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -37574,16 +36689,13 @@
         "g": "12e8b8acaeaeb3fa",
         "name": "turn off water heater",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "water_heater.set_operation_mode",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "water_heater.warm_water"
         ],
-        "labelId": [],
         "data": "{\"operation_mode\":\"off\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -37646,16 +36758,13 @@
         "g": "12e8b8acaeaeb3fa",
         "name": "turn on climate auto mode",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "climate.set_hvac_mode",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "{{payload.entity_id}}"
         ],
-        "labelId": [],
         "data": "{\"hvac_mode\":\"auto\"}",
         "dataType": "json",
         "mergeContext": "",
@@ -37846,16 +36955,13 @@
         "g": "13b1135f0e749c31",
         "name": "turn on switch chime active",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "switch.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "switch.smart_doorbell_active"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -37918,16 +37024,13 @@
         "g": "12e8b8acaeaeb3fa",
         "name": "start timer security",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "timer.start",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "timer.home_security"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -37992,16 +37095,13 @@
         "g": "12e8b8acaeaeb3fa",
         "name": "turn off childlock kitchen",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "switch.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "switch.childlock_kitchen_switch"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -38064,16 +37164,13 @@
         "g": "12e8b8acaeaeb3fa",
         "name": "turn off quooker",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "switch.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "switch.shellyplugplus_quooker_switch_0"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -38127,16 +37224,9 @@
         "z": "e4381ced98d2a929",
         "name": "state sleepmode",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "input_boolean.sleep_mode"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "",
@@ -38171,6 +37261,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "input_boolean.sleep_mode",
+        "entityIdType": "exact",
         "x": 100,
         "y": 60,
         "wires": [
@@ -38348,16 +37440,9 @@
         "z": "645478ab1138fd33",
         "name": "backyard motion sensor 01 is on",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.backyard_motion_sensor_01_motion"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "on",
@@ -38392,6 +37477,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.backyard_motion_sensor_01_motion",
+        "entityIdType": "exact",
         "x": 150,
         "y": 60,
         "wires": [
@@ -38524,16 +37611,13 @@
         "z": "645478ab1138fd33",
         "name": "turn on light",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shelly1_barn_door"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -38601,16 +37685,13 @@
         "z": "645478ab1138fd33",
         "name": "turn off light",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "light.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "light.shelly1_barn_door"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -38631,15 +37712,8 @@
         "z": "645478ab1138fd33",
         "name": "",
         "server": "4ba92433.2478cc",
-        "version": 3,
+        "version": 2,
         "outputs": 2,
-        "entities": {
-            "entity": [
-                "binary_sensor.backyard_motion_sensor_01_motion"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "property": "state",
         "comparator": "is",
         "value": "off",
@@ -38650,6 +37724,8 @@
         "checkCurrentState": true,
         "blockInputOverrides": true,
         "outputProperties": [],
+        "entityId": "binary_sensor.backyard_motion_sensor_01_motion",
+        "entityIdFilterType": "exact",
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 940,
@@ -38966,16 +38042,9 @@
         "z": "b13ca13c.9328e",
         "name": "state backdoor",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.backdoor"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -39010,6 +38079,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.backdoor",
+        "entityIdType": "exact",
         "x": 100,
         "y": 120,
         "wires": [
@@ -39024,16 +38095,9 @@
         "z": "b13ca13c.9328e",
         "name": "state front door",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.frontdoor"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -39068,6 +38132,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.frontdoor",
+        "entityIdType": "exact",
         "x": 100,
         "y": 60,
         "wires": [
@@ -39148,16 +38214,13 @@
         "z": "b13ca13c.9328e",
         "name": "turn on alarm",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_on",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.alarm"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -39218,16 +38281,13 @@
         "z": "b13ca13c.9328e",
         "name": "cancel home security timer",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "timer.cancel",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "timer.home_security"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -39284,16 +38344,9 @@
         "z": "b13ca13c.9328e",
         "name": "state home security",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "input_boolean.home_security"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -39328,6 +38381,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "input_boolean.home_security",
+        "entityIdType": "exact",
         "x": 110,
         "y": 240,
         "wires": [
@@ -39377,16 +38432,13 @@
         "z": "b13ca13c.9328e",
         "name": "turn off alarm",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.alarm"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -39407,16 +38459,13 @@
         "z": "b13ca13c.9328e",
         "name": "start alarm_countdown timer",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "timer.start",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "timer.alarm_countdown"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -39527,16 +38576,13 @@
         "z": "b13ca13c.9328e",
         "name": "turn off home security",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "input_boolean.turn_off",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "input_boolean.home_security"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "jsonata",
         "mergeContext": "",
@@ -39595,16 +38641,9 @@
         "z": "b13ca13c.9328e",
         "name": "alarm is on",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "input_boolean.alarm"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -39627,6 +38666,8 @@
                 "valueType": "entityState"
             }
         ],
+        "entityId": "input_boolean.alarm",
+        "entityIdType": "exact",
         "x": 80,
         "y": 480,
         "wires": [
@@ -39664,16 +38705,13 @@
         "z": "b13ca13c.9328e",
         "name": "cancel alarm countdown timer",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "debugenabled": false,
-        "action": "timer.cancel",
-        "floorId": [],
         "areaId": [],
         "deviceId": [],
         "entityId": [
             "timer.alarm_countdown"
         ],
-        "labelId": [],
         "data": "",
         "dataType": "json",
         "mergeContext": "",
@@ -39934,16 +38972,9 @@
         "z": "2fdf3d9bec5f1748",
         "name": "wall tablet motion sensor",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.wall_tablet"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "on",
@@ -39978,6 +39009,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.wall_tablet",
+        "entityIdType": "exact",
         "x": 130,
         "y": 60,
         "wires": [
@@ -40333,16 +39366,9 @@
         "z": "cde79c08.e4f488",
         "name": "smoke co alarm test livingroom",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.firtsalert_living_room_smoke_alarm_test"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -40377,6 +39403,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.firtsalert_living_room_smoke_alarm_test",
+        "entityIdType": "exact",
         "x": 150,
         "y": 100,
         "wires": [
@@ -40391,16 +39419,9 @@
         "z": "cde79c08.e4f488",
         "name": "smoke detected livingroom",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.firtsalert_living_room_smoke_detected"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -40435,6 +39456,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.firtsalert_living_room_smoke_detected",
+        "entityIdType": "exact",
         "x": 130,
         "y": 280,
         "wires": [
@@ -40514,16 +39537,9 @@
         "z": "cde79c08.e4f488",
         "name": "smoke detected upstairs",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.firstalert_hallway_upstairs_smoke_detected"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -40558,6 +39574,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.firstalert_hallway_upstairs_smoke_detected",
+        "entityIdType": "exact",
         "x": 130,
         "y": 320,
         "wires": [
@@ -40572,16 +39590,9 @@
         "z": "cde79c08.e4f488",
         "name": "smoke detected basement",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.smartalert_basement_smoke_detected"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -40616,6 +39627,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.smartalert_basement_smoke_detected",
+        "entityIdType": "exact",
         "x": 130,
         "y": 360,
         "wires": [
@@ -40729,16 +39742,9 @@
         "z": "cde79c08.e4f488",
         "name": "smoke co alarm test hallway upstairs",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.firstalert_hallway_upstairs_smoke_alarm_test"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -40773,6 +39779,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.firstalert_hallway_upstairs_smoke_alarm_test",
+        "entityIdType": "exact",
         "x": 160,
         "y": 140,
         "wires": [
@@ -40787,16 +39795,9 @@
         "z": "cde79c08.e4f488",
         "name": "smoke co alarm test ",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.smartalert_basement_smoke_alarm_test"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -40831,6 +39832,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.smartalert_basement_smoke_alarm_test",
+        "entityIdType": "exact",
         "x": 110,
         "y": 180,
         "wires": [
@@ -40921,16 +39924,9 @@
         "z": "cde79c08.e4f488",
         "name": "co detected livingroom",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.firtsalert_living_room_carbon_monoxide_detected"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -40965,6 +39961,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.firtsalert_living_room_carbon_monoxide_detected",
+        "entityIdType": "exact",
         "x": 120,
         "y": 460,
         "wires": [
@@ -41017,16 +40015,9 @@
         "z": "cde79c08.e4f488",
         "name": "co detected upstairs",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.firstalert_hallway_upstairs_carbon_monoxide_detected"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -41061,6 +40052,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.firstalert_hallway_upstairs_carbon_monoxide_detected",
+        "entityIdType": "exact",
         "x": 110,
         "y": 500,
         "wires": [
@@ -41075,16 +40068,9 @@
         "z": "cde79c08.e4f488",
         "name": "co detected basement",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.smartalert_basement_carbon_monoxide_detected"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": false,
         "stateType": "str",
         "ifState": "",
@@ -41119,6 +40105,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.smartalert_basement_carbon_monoxide_detected",
+        "entityIdType": "exact",
         "x": 120,
         "y": 540,
         "wires": [
@@ -41194,16 +40182,9 @@
         "z": "b30206160f4c3c3b",
         "name": "",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 2,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.backyard_person_occupancy"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "on",
@@ -41238,8 +40219,10 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "binary_sensor.backyard_person_occupancy",
+        "entityIdType": "exact",
         "x": 240,
-        "y": 160,
+        "y": 60,
         "wires": [
             [
                 "9150f91efe1abe4c"
@@ -41262,79 +40245,9 @@
         "inputOverride": "allow",
         "outputProperties": [],
         "x": 630,
-        "y": 160,
+        "y": 60,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "2e687264255b46e7",
-        "type": "catch",
-        "z": "b30206160f4c3c3b",
-        "g": "e157b914b6c114fe",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "151a6f233d160c89"
-            ]
-        ]
-    },
-    {
-        "id": "151a6f233d160c89",
-        "type": "template",
-        "z": "b30206160f4c3c3b",
-        "g": "e157b914b6c114fe",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "bb6a70f4e3fd74e3"
-            ]
-        ]
-    },
-    {
-        "id": "85d1a1327cf29ac7",
-        "type": "link out",
-        "z": "b30206160f4c3c3b",
-        "g": "e157b914b6c114fe",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 475,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "bb6a70f4e3fd74e3",
-        "type": "template",
-        "z": "b30206160f4c3c3b",
-        "g": "e157b914b6c114fe",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "85d1a1327cf29ac7"
-            ]
         ]
     },
     {
@@ -42613,16 +41526,9 @@
         "z": "99c1372046e45da7",
         "name": "solaredge kwh today",
         "server": "4ba92433.2478cc",
-        "version": 6,
+        "version": 5,
         "outputs": 1,
         "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.solaredge_modbus_ac_energy_kwh_today"
-            ],
-            "substring": [],
-            "regex": []
-        },
         "outputInitially": true,
         "stateType": "str",
         "ifState": "",
@@ -42657,6 +41563,8 @@
                 "valueType": "triggerId"
             }
         ],
+        "entityId": "sensor.solaredge_modbus_ac_energy_kwh_today",
+        "entityIdType": "exact",
         "x": 110,
         "y": 60,
         "wires": [
