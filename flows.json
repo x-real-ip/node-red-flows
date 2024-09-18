@@ -911,7 +911,7 @@
             "728c75b797b416a5"
         ],
         "x": 1854,
-        "y": 39,
+        "y": 159,
         "w": 422,
         "h": 242
     },
@@ -2197,6 +2197,30 @@
         "h": 122
     },
     {
+        "id": "0b8b5d79d80701d3",
+        "type": "group",
+        "z": "b4963274903ed2a9",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a8fcbc81b74ad4f3",
+            "52b890d221e51d99",
+            "f18c57903881ea97",
+            "a63decc27ac1e186"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
         "id": "f7038caa7a76e6f3",
         "type": "junction",
         "z": "a7a34028d045deee",
@@ -2235,7 +2259,7 @@
         "z": "b4963274903ed2a9",
         "g": "70b9d3433e540010",
         "x": 1880,
-        "y": 80,
+        "y": 200,
         "wires": [
             [
                 "ddcda02e8d44e679",
@@ -11085,7 +11109,7 @@
         "template": "mechanical_ventilation_bathroom",
         "output": "str",
         "x": 1990,
-        "y": 240,
+        "y": 360,
         "wires": [
             [
                 "017eba9ce6de6486"
@@ -11105,7 +11129,7 @@
         "template": "",
         "output": "str",
         "x": 1990,
-        "y": 120,
+        "y": 240,
         "wires": [
             [
                 "017eba9ce6de6486"
@@ -11125,7 +11149,7 @@
         "template": "Ventilatie",
         "output": "str",
         "x": 1990,
-        "y": 80,
+        "y": 200,
         "wires": [
             [
                 "017eba9ce6de6486"
@@ -11155,7 +11179,7 @@
         "reduceInitType": "",
         "reduceFixup": "",
         "x": 2150,
-        "y": 100,
+        "y": 220,
         "wires": [
             [
                 "b36f1d0dfd83653c"
@@ -11175,7 +11199,7 @@
         "template": "bathroom_fan",
         "output": "str",
         "x": 2010,
-        "y": 160,
+        "y": 280,
         "wires": [
             [
                 "017eba9ce6de6486"
@@ -11193,7 +11217,7 @@
             "8ed3b0974336e55b"
         ],
         "x": 2235,
-        "y": 100,
+        "y": 220,
         "wires": []
     },
     {
@@ -11209,7 +11233,7 @@
         "template": "bathroom_fan",
         "output": "str",
         "x": 2030,
-        "y": 200,
+        "y": 320,
         "wires": [
             [
                 "017eba9ce6de6486"
@@ -11239,7 +11263,7 @@
         "finalize": "",
         "libs": [],
         "x": 680,
-        "y": 60,
+        "y": 180,
         "wires": [
             [
                 "ed8cadbe2f5f5074"
@@ -11264,7 +11288,7 @@
         "repair": false,
         "outputs": 1,
         "x": 920,
-        "y": 60,
+        "y": 180,
         "wires": [
             [
                 "bbfc944671edd2e3",
@@ -11292,7 +11316,7 @@
         "to": "",
         "reg": false,
         "x": 1600,
-        "y": 120,
+        "y": 240,
         "wires": [
             []
         ]
@@ -11304,7 +11328,7 @@
         "name": "turn off the bathroom fan when the old humidity value is reached",
         "info": "",
         "x": 790,
-        "y": 280,
+        "y": 400,
         "wires": []
     },
     {
@@ -11314,7 +11338,7 @@
         "name": "turn off the bathroom fan after x minutes",
         "info": "",
         "x": 710,
-        "y": 140,
+        "y": 260,
         "wires": []
     },
     {
@@ -11335,7 +11359,7 @@
         "repair": false,
         "outputs": 1,
         "x": 660,
-        "y": 320,
+        "y": 440,
         "wires": [
             [
                 "1da06a5e8bc95932"
@@ -11360,7 +11384,7 @@
         "repair": false,
         "outputs": 1,
         "x": 880,
-        "y": 320,
+        "y": 440,
         "wires": [
             [
                 "3c42e6f768e9f4a8"
@@ -11379,7 +11403,7 @@
         "template": "De badkamerventilator is uitgeschakeld, na 120 minuten is de oude luchtvochtigheid van voor het douchen niet bereikt maar is wel gezakt onder de 65%. De luchtvochtigheid is {{state.state}}%.",
         "output": "str",
         "x": 1120,
-        "y": 180,
+        "y": 300,
         "wires": [
             [
                 "48e88711b7ff8b55"
@@ -11398,7 +11422,7 @@
         "template": "De badkamerventilator is uitgeschakeld, de luchtvochtigheid heeft de oude waarde ({{data.new_state.state}}%) van voor het douchen bereikt.",
         "output": "str",
         "x": 1120,
-        "y": 320,
+        "y": 440,
         "wires": [
             [
                 "48e88711b7ff8b55"
@@ -11417,7 +11441,7 @@
         "template": "De badkamer ventilatie is ingeschakeld, de luchtvochtigheid is gestegen van {{data.old_state.state}}% naar {{data.new_state.state}}%.",
         "output": "str",
         "x": 1760,
-        "y": 60,
+        "y": 180,
         "wires": [
             [
                 "c6f3f4b2b46ffb4e"
@@ -11431,7 +11455,7 @@
         "name": "fan position frontend",
         "info": "",
         "x": 110,
-        "y": 480,
+        "y": 600,
         "wires": []
     },
     {
@@ -11462,7 +11486,7 @@
         "repair": false,
         "outputs": 3,
         "x": 290,
-        "y": 520,
+        "y": 640,
         "wires": [
             [
                 "7169704a811f5f12"
@@ -11501,7 +11525,7 @@
         "domain": "switch",
         "service": "turn_on",
         "x": 1580,
-        "y": 60,
+        "y": 180,
         "wires": [
             [
                 "ccf8f8dbf3a2a1a3"
@@ -11534,7 +11558,7 @@
         "domain": "switch",
         "service": "turn_off",
         "x": 1580,
-        "y": 240,
+        "y": 360,
         "wires": [
             [
                 "c6f3f4b2b46ffb4e"
@@ -11567,7 +11591,7 @@
         "domain": "fan",
         "service": "turn_on",
         "x": 730,
-        "y": 520,
+        "y": 640,
         "wires": [
             []
         ]
@@ -11598,7 +11622,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 490,
-        "y": 520,
+        "y": 640,
         "wires": [
             [
                 "25e06b253767b85b"
@@ -11631,7 +11655,7 @@
         "domain": "fan",
         "service": "turn_off",
         "x": 730,
-        "y": 580,
+        "y": 700,
         "wires": [
             []
         ]
@@ -11662,7 +11686,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 490,
-        "y": 580,
+        "y": 700,
         "wires": [
             [
                 "40a633604b4dfe95"
@@ -11695,7 +11719,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 490,
-        "y": 640,
+        "y": 760,
         "wires": [
             [
                 "40a633604b4dfe95"
@@ -11733,7 +11757,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1320,
-        "y": 60,
+        "y": 180,
         "wires": [
             [
                 "76a8a1ea0af30f4a",
@@ -11779,7 +11803,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1340,
-        "y": 240,
+        "y": 360,
         "wires": [
             [
                 "715c5c011eeebe21"
@@ -11811,7 +11835,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 350,
-        "y": 60,
+        "y": 180,
         "wires": [
             [
                 "e9c932d56036f13b",
@@ -11871,7 +11895,7 @@
             }
         ],
         "x": 110,
-        "y": 60,
+        "y": 180,
         "wires": [
             [
                 "a793a6b052cc2eee"
@@ -11929,7 +11953,7 @@
             }
         ],
         "x": 120,
-        "y": 520,
+        "y": 640,
         "wires": [
             [
                 "3037226717dc7a91"
@@ -11971,7 +11995,7 @@
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 910,
-        "y": 180,
+        "y": 300,
         "wires": [
             [
                 "48367c24995b7a71"
@@ -11988,12 +12012,82 @@
         "payloadval": "0",
         "name": "",
         "x": 650,
-        "y": 180,
+        "y": 300,
         "wires": [
             [
                 "bad6f63794fa3bfd"
             ],
             []
+        ]
+    },
+    {
+        "id": "a8fcbc81b74ad4f3",
+        "type": "catch",
+        "z": "b4963274903ed2a9",
+        "g": "0b8b5d79d80701d3",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "52b890d221e51d99"
+            ]
+        ]
+    },
+    {
+        "id": "52b890d221e51d99",
+        "type": "template",
+        "z": "b4963274903ed2a9",
+        "g": "0b8b5d79d80701d3",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "a63decc27ac1e186"
+            ]
+        ]
+    },
+    {
+        "id": "f18c57903881ea97",
+        "type": "link out",
+        "z": "b4963274903ed2a9",
+        "g": "0b8b5d79d80701d3",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a63decc27ac1e186",
+        "type": "template",
+        "z": "b4963274903ed2a9",
+        "g": "0b8b5d79d80701d3",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "f18c57903881ea97"
+            ]
         ]
     },
     {
@@ -25647,7 +25741,8 @@
             "17e4e7721adc09a1",
             "1514f8777e4c8211",
             "ddf56ac7c76174e3",
-            "85efbfe86edb2e91"
+            "85efbfe86edb2e91",
+            "f18c57903881ea97"
         ],
         "x": 195,
         "y": 460,
