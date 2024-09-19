@@ -520,6 +520,14 @@
         "env": []
     },
     {
+        "id": "4a94729fe3d3c081",
+        "type": "tab",
+        "label": "sensor_energy_returned_watts",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "67a1c55d.b4b94c",
         "type": "subflow",
         "name": "christmas_tree_lights_on",
@@ -2154,6 +2162,30 @@
         "h": 82
     },
     {
+        "id": "0b8b5d79d80701d3",
+        "type": "group",
+        "z": "b4963274903ed2a9",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a8fcbc81b74ad4f3",
+            "52b890d221e51d99",
+            "f18c57903881ea97",
+            "a63decc27ac1e186"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
         "id": "bd90d247a95feb9d",
         "type": "group",
         "z": "e4381ced98d2a929",
@@ -2197,9 +2229,9 @@
         "h": 122
     },
     {
-        "id": "0b8b5d79d80701d3",
+        "id": "ec39be6249e7e485",
         "type": "group",
-        "z": "b4963274903ed2a9",
+        "z": "4a94729fe3d3c081",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -2210,10 +2242,10 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "a8fcbc81b74ad4f3",
-            "52b890d221e51d99",
-            "f18c57903881ea97",
-            "a63decc27ac1e186"
+            "e2179ba6a2c951f5",
+            "eeaaf1e6d4c5ea3a",
+            "13f2b7ca42c4eca2",
+            "fd804489979c3abc"
         ],
         "x": 14,
         "y": 39,
@@ -3416,33 +3448,6 @@
         "willMsg": {},
         "userProps": "",
         "sessionExpiry": ""
-    },
-    {
-        "id": "c46c944e0555f590",
-        "type": "ha-device-config",
-        "name": "weather_descriptions",
-        "hwVersion": "",
-        "manufacturer": "Node-RED",
-        "model": "",
-        "swVersion": ""
-    },
-    {
-        "id": "de1b475263d9e68f",
-        "type": "ha-device-config",
-        "name": "spotify_api",
-        "hwVersion": "",
-        "manufacturer": "Node-RED",
-        "model": "",
-        "swVersion": ""
-    },
-    {
-        "id": "b18cdca463823daa",
-        "type": "ha-device-config",
-        "name": "notifications",
-        "hwVersion": "",
-        "manufacturer": "Node-RED",
-        "model": "",
-        "swVersion": ""
     },
     {
         "id": "7befa0b16196877c",
@@ -4765,6 +4770,47 @@
         "statusHourCycle": "h23",
         "statusTimeFormat": "h:m",
         "enableGlobalContextStore": true
+    },
+    {
+        "id": "8db70a2720a60b47",
+        "type": "ha-entity-config",
+        "server": "4ba92433.2478cc",
+        "deviceConfig": "",
+        "name": "custom_energy_returned_watt",
+        "version": "6",
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "custom_energy_returned_watt"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": ""
+            },
+            {
+                "property": "device_class",
+                "value": "power"
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": "W"
+            },
+            {
+                "property": "state_class",
+                "value": "measurement"
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
     },
     {
         "id": "a4ceb3e9.e8677",
@@ -6228,7 +6274,7 @@
         "blockInputOverrides": false,
         "domain": "input_select",
         "service": "select_option",
-        "x": 630,
+        "x": 650,
         "y": 160,
         "wires": [
             []
@@ -11500,6 +11546,76 @@
         ]
     },
     {
+        "id": "a8fcbc81b74ad4f3",
+        "type": "catch",
+        "z": "b4963274903ed2a9",
+        "g": "0b8b5d79d80701d3",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "52b890d221e51d99"
+            ]
+        ]
+    },
+    {
+        "id": "52b890d221e51d99",
+        "type": "template",
+        "z": "b4963274903ed2a9",
+        "g": "0b8b5d79d80701d3",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "a63decc27ac1e186"
+            ]
+        ]
+    },
+    {
+        "id": "f18c57903881ea97",
+        "type": "link out",
+        "z": "b4963274903ed2a9",
+        "g": "0b8b5d79d80701d3",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a63decc27ac1e186",
+        "type": "template",
+        "z": "b4963274903ed2a9",
+        "g": "0b8b5d79d80701d3",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "f18c57903881ea97"
+            ]
+        ]
+    },
+    {
         "id": "76a8a1ea0af30f4a",
         "type": "api-call-service",
         "z": "b4963274903ed2a9",
@@ -12018,76 +12134,6 @@
                 "bad6f63794fa3bfd"
             ],
             []
-        ]
-    },
-    {
-        "id": "a8fcbc81b74ad4f3",
-        "type": "catch",
-        "z": "b4963274903ed2a9",
-        "g": "0b8b5d79d80701d3",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "52b890d221e51d99"
-            ]
-        ]
-    },
-    {
-        "id": "52b890d221e51d99",
-        "type": "template",
-        "z": "b4963274903ed2a9",
-        "g": "0b8b5d79d80701d3",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "a63decc27ac1e186"
-            ]
-        ]
-    },
-    {
-        "id": "f18c57903881ea97",
-        "type": "link out",
-        "z": "b4963274903ed2a9",
-        "g": "0b8b5d79d80701d3",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 475,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "a63decc27ac1e186",
-        "type": "template",
-        "z": "b4963274903ed2a9",
-        "g": "0b8b5d79d80701d3",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "f18c57903881ea97"
-            ]
         ]
     },
     {
@@ -25742,7 +25788,8 @@
             "1514f8777e4c8211",
             "ddf56ac7c76174e3",
             "85efbfe86edb2e91",
-            "f18c57903881ea97"
+            "f18c57903881ea97",
+            "13f2b7ca42c4eca2"
         ],
         "x": 195,
         "y": 460,
@@ -25891,36 +25938,6 @@
         "wires": [
             [
                 "577ae9a09334bd75"
-            ]
-        ]
-    },
-    {
-        "id": "e1fdac1fe178e720",
-        "type": "simple-queue",
-        "z": "343515a5528e14f0",
-        "name": "",
-        "firstMessageBypass": true,
-        "bypassInterval": "0",
-        "x": 310,
-        "y": 580,
-        "wires": [
-            [
-                "d94b50aeaba952d1"
-            ]
-        ]
-    },
-    {
-        "id": "577ae9a09334bd75",
-        "type": "simple-queue",
-        "z": "343515a5528e14f0",
-        "name": "",
-        "firstMessageBypass": true,
-        "bypassInterval": "0",
-        "x": 310,
-        "y": 520,
-        "wires": [
-            [
-                "cf256ece81c0faee"
             ]
         ]
     },
@@ -26233,6 +26250,36 @@
                 "f11dc3e3682ce836"
             ],
             []
+        ]
+    },
+    {
+        "id": "e1fdac1fe178e720",
+        "type": "simple-queue",
+        "z": "343515a5528e14f0",
+        "name": "",
+        "firstMessageBypass": true,
+        "bypassInterval": "0",
+        "x": 310,
+        "y": 580,
+        "wires": [
+            [
+                "d94b50aeaba952d1"
+            ]
+        ]
+    },
+    {
+        "id": "577ae9a09334bd75",
+        "type": "simple-queue",
+        "z": "343515a5528e14f0",
+        "name": "",
+        "firstMessageBypass": true,
+        "bypassInterval": "0",
+        "x": 310,
+        "y": 520,
+        "wires": [
+            [
+                "cf256ece81c0faee"
+            ]
         ]
     },
     {
@@ -28621,54 +28668,6 @@
         ]
     },
     {
-        "id": "4f661232083706f4",
-        "type": "simple-queue",
-        "z": "535c98d1d92579b6",
-        "name": "",
-        "firstMessageBypass": true,
-        "bypassInterval": "0",
-        "x": 850,
-        "y": 200,
-        "wires": [
-            [
-                "88f82f16d0ecc697",
-                "c7424ac5390d672f"
-            ]
-        ]
-    },
-    {
-        "id": "318426830832aad5",
-        "type": "simple-queue",
-        "z": "535c98d1d92579b6",
-        "name": "",
-        "firstMessageBypass": true,
-        "bypassInterval": "0",
-        "x": 850,
-        "y": 440,
-        "wires": [
-            [
-                "efbc738612c5af68",
-                "e411b0ba582c91c2"
-            ]
-        ]
-    },
-    {
-        "id": "f772e0315cdeaa39",
-        "type": "simple-queue",
-        "z": "535c98d1d92579b6",
-        "name": "",
-        "firstMessageBypass": true,
-        "bypassInterval": "0",
-        "x": 850,
-        "y": 680,
-        "wires": [
-            [
-                "78188ae45f430dd6",
-                "cc525d2002136a4c"
-            ]
-        ]
-    },
-    {
         "id": "528f1050a96e3ee8",
         "type": "ha-binary-sensor",
         "z": "535c98d1d92579b6",
@@ -28900,6 +28899,54 @@
                 "eb4339876a876c95",
                 "de6a06807eba37cd",
                 "c9b99378a043955e"
+            ]
+        ]
+    },
+    {
+        "id": "4f661232083706f4",
+        "type": "simple-queue",
+        "z": "535c98d1d92579b6",
+        "name": "",
+        "firstMessageBypass": true,
+        "bypassInterval": "0",
+        "x": 850,
+        "y": 200,
+        "wires": [
+            [
+                "88f82f16d0ecc697",
+                "c7424ac5390d672f"
+            ]
+        ]
+    },
+    {
+        "id": "318426830832aad5",
+        "type": "simple-queue",
+        "z": "535c98d1d92579b6",
+        "name": "",
+        "firstMessageBypass": true,
+        "bypassInterval": "0",
+        "x": 850,
+        "y": 440,
+        "wires": [
+            [
+                "efbc738612c5af68",
+                "e411b0ba582c91c2"
+            ]
+        ]
+    },
+    {
+        "id": "f772e0315cdeaa39",
+        "type": "simple-queue",
+        "z": "535c98d1d92579b6",
+        "name": "",
+        "firstMessageBypass": true,
+        "bypassInterval": "0",
+        "x": 850,
+        "y": 680,
+        "wires": [
+            [
+                "78188ae45f430dd6",
+                "cc525d2002136a4c"
             ]
         ]
     },
@@ -44415,6 +44462,182 @@
             [
                 "d475de4d462cdd95"
             ]
+        ]
+    },
+    {
+        "id": "e2179ba6a2c951f5",
+        "type": "catch",
+        "z": "4a94729fe3d3c081",
+        "g": "ec39be6249e7e485",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "eeaaf1e6d4c5ea3a"
+            ]
+        ]
+    },
+    {
+        "id": "eeaaf1e6d4c5ea3a",
+        "type": "template",
+        "z": "4a94729fe3d3c081",
+        "g": "ec39be6249e7e485",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "fd804489979c3abc"
+            ]
+        ]
+    },
+    {
+        "id": "13f2b7ca42c4eca2",
+        "type": "link out",
+        "z": "4a94729fe3d3c081",
+        "g": "ec39be6249e7e485",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "fd804489979c3abc",
+        "type": "template",
+        "z": "4a94729fe3d3c081",
+        "g": "ec39be6249e7e485",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "13f2b7ca42c4eca2"
+            ]
+        ]
+    },
+    {
+        "id": "662e76370490dc0d",
+        "type": "comment",
+        "z": "4a94729fe3d3c081",
+        "name": "Converts energy returned Kw to Watt",
+        "info": "",
+        "x": 160,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "88264dd1471d41ef",
+        "type": "server-state-changed",
+        "z": "4a94729fe3d3c081",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "sensor.dsmr_reading_electricity_currently_returned"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": false,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 260,
+        "y": 160,
+        "wires": [
+            [
+                "24e4ae1eb1bf31d2"
+            ]
+        ]
+    },
+    {
+        "id": "24e4ae1eb1bf31d2",
+        "type": "function",
+        "z": "4a94729fe3d3c081",
+        "name": "Kw to Watt",
+        "func": "msg.payload = msg.payload * 1000\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 160,
+        "wires": [
+            [
+                "036eac9f38483b4b"
+            ]
+        ]
+    },
+    {
+        "id": "036eac9f38483b4b",
+        "type": "ha-sensor",
+        "z": "4a94729fe3d3c081",
+        "name": "custom_energy_returned_watt",
+        "entityConfig": "8db70a2720a60b47",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 810,
+        "y": 160,
+        "wires": [
+            []
         ]
     }
 ]
