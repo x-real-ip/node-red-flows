@@ -2186,6 +2186,30 @@
         "h": 82
     },
     {
+        "id": "ec39be6249e7e485",
+        "type": "group",
+        "z": "4a94729fe3d3c081",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e2179ba6a2c951f5",
+            "eeaaf1e6d4c5ea3a",
+            "13f2b7ca42c4eca2",
+            "fd804489979c3abc"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
         "id": "bd90d247a95feb9d",
         "type": "group",
         "z": "e4381ced98d2a929",
@@ -2227,30 +2251,6 @@
         "y": 559,
         "w": 392,
         "h": 122
-    },
-    {
-        "id": "ec39be6249e7e485",
-        "type": "group",
-        "z": "4a94729fe3d3c081",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "e2179ba6a2c951f5",
-            "eeaaf1e6d4c5ea3a",
-            "13f2b7ca42c4eca2",
-            "fd804489979c3abc"
-        ],
-        "x": 14,
-        "y": 39,
-        "w": 502,
-        "h": 82
     },
     {
         "id": "f7038caa7a76e6f3",
@@ -3423,6 +3423,18 @@
         ]
     },
     {
+        "id": "d8d2f8bb1e0a18ee",
+        "type": "junction",
+        "z": "e846a5a705a12fe6",
+        "x": 1860,
+        "y": 140,
+        "wires": [
+            [
+                "4a585d8a38a8ee00"
+            ]
+        ]
+    },
+    {
         "id": "36dee637778341ba",
         "type": "mqtt-broker",
         "name": "",
@@ -3700,7 +3712,7 @@
         "id": "60731eead34cfb6b",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "c46c944e0555f590",
+        "deviceConfig": "",
         "name": "weather_code_translated",
         "version": "6",
         "entityType": "sensor",
@@ -3741,7 +3753,7 @@
         "id": "43f0157d8de58e65",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "de1b475263d9e68f",
+        "deviceConfig": "",
         "name": "playlist_01",
         "version": "6",
         "entityType": "sensor",
@@ -3755,11 +3767,11 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
+                "property": "entity_picture",
                 "value": ""
             },
             {
-                "property": "entity_picture",
+                "property": "entity_category",
                 "value": ""
             },
             {
@@ -3782,7 +3794,7 @@
         "id": "739416ac098c217a",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "de1b475263d9e68f",
+        "deviceConfig": "",
         "name": "playlist_02",
         "version": "6",
         "entityType": "sensor",
@@ -3796,11 +3808,11 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
+                "property": "entity_picture",
                 "value": ""
             },
             {
-                "property": "entity_picture",
+                "property": "entity_category",
                 "value": ""
             },
             {
@@ -3823,7 +3835,7 @@
         "id": "a0921245c4bf57f4",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "de1b475263d9e68f",
+        "deviceConfig": "",
         "name": "playlist_03",
         "version": "6",
         "entityType": "sensor",
@@ -3837,11 +3849,11 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
+                "property": "entity_picture",
                 "value": ""
             },
             {
-                "property": "entity_picture",
+                "property": "entity_category",
                 "value": ""
             },
             {
@@ -3864,7 +3876,7 @@
         "id": "80964bcc6dc1a6e4",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "de1b475263d9e68f",
+        "deviceConfig": "",
         "name": "playlist_04",
         "version": "6",
         "entityType": "sensor",
@@ -3878,11 +3890,11 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
+                "property": "entity_picture",
                 "value": ""
             },
             {
-                "property": "entity_picture",
+                "property": "entity_category",
                 "value": ""
             },
             {
@@ -3905,7 +3917,7 @@
         "id": "6a1feec96440fb83",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "de1b475263d9e68f",
+        "deviceConfig": "",
         "name": "playlist_05",
         "version": "6",
         "entityType": "sensor",
@@ -3919,11 +3931,11 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
+                "property": "entity_picture",
                 "value": ""
             },
             {
-                "property": "entity_picture",
+                "property": "entity_category",
                 "value": ""
             },
             {
@@ -3946,7 +3958,7 @@
         "id": "5998cbfbc54f204b",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "de1b475263d9e68f",
+        "deviceConfig": "",
         "name": "playlist_06",
         "version": "6",
         "entityType": "sensor",
@@ -3960,11 +3972,11 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
+                "property": "entity_picture",
                 "value": ""
             },
             {
-                "property": "entity_picture",
+                "property": "entity_category",
                 "value": ""
             },
             {
@@ -3987,7 +3999,7 @@
         "id": "f8cd4d84e50137d3",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "de1b475263d9e68f",
+        "deviceConfig": "",
         "name": "playlist_07",
         "version": "6",
         "entityType": "sensor",
@@ -4028,7 +4040,7 @@
         "id": "c3a46b62ea6a96f3",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "de1b475263d9e68f",
+        "deviceConfig": "",
         "name": "playlist_08",
         "version": "6",
         "entityType": "sensor",
@@ -4069,7 +4081,7 @@
         "id": "949130faf5e0a8e3",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "de1b475263d9e68f",
+        "deviceConfig": "",
         "name": "playlist_09",
         "version": "6",
         "entityType": "sensor",
@@ -4110,7 +4122,7 @@
         "id": "a1513867525f661a",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "de1b475263d9e68f",
+        "deviceConfig": "",
         "name": "playlist_10",
         "version": "6",
         "entityType": "sensor",
@@ -4151,7 +4163,7 @@
         "id": "4ae2ea66b5fed8a9",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "de1b475263d9e68f",
+        "deviceConfig": "",
         "name": "playlist_11",
         "version": "6",
         "entityType": "sensor",
@@ -4324,7 +4336,7 @@
         "id": "61b96249023198be",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "b18cdca463823daa",
+        "deviceConfig": "",
         "name": "notification_level_info_turn_off",
         "version": "6",
         "entityType": "button",
@@ -4338,11 +4350,11 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
+                "property": "entity_picture",
                 "value": ""
             },
             {
-                "property": "entity_picture",
+                "property": "entity_category",
                 "value": ""
             },
             {
@@ -4357,7 +4369,7 @@
         "id": "ce2ff010477149a7",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "b18cdca463823daa",
+        "deviceConfig": "",
         "name": "notification_level_warning_turn_off",
         "version": "6",
         "entityType": "button",
@@ -4371,11 +4383,11 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
+                "property": "entity_picture",
                 "value": ""
             },
             {
-                "property": "entity_picture",
+                "property": "entity_category",
                 "value": ""
             },
             {
@@ -4390,7 +4402,7 @@
         "id": "fed106bf198ad2ea",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "b18cdca463823daa",
+        "deviceConfig": "",
         "name": "notification_level_warning",
         "version": "6",
         "entityType": "binary_sensor",
@@ -4404,11 +4416,11 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
+                "property": "entity_picture",
                 "value": ""
             },
             {
-                "property": "entity_picture",
+                "property": "entity_category",
                 "value": ""
             },
             {
@@ -4423,7 +4435,7 @@
         "id": "287aaae77d488c09",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "b18cdca463823daa",
+        "deviceConfig": "",
         "name": "notification_level_error_turn_off",
         "version": "6",
         "entityType": "button",
@@ -4437,11 +4449,11 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
+                "property": "entity_picture",
                 "value": ""
             },
             {
-                "property": "entity_picture",
+                "property": "entity_category",
                 "value": ""
             },
             {
@@ -4456,7 +4468,7 @@
         "id": "d2b97f89ed6763e5",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "b18cdca463823daa",
+        "deviceConfig": "",
         "name": "notification_level_error",
         "version": "6",
         "entityType": "binary_sensor",
@@ -4470,11 +4482,11 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
+                "property": "entity_picture",
                 "value": ""
             },
             {
-                "property": "entity_picture",
+                "property": "entity_category",
                 "value": ""
             },
             {
@@ -4489,7 +4501,7 @@
         "id": "cab73c1a38f001be",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "b18cdca463823daa",
+        "deviceConfig": "",
         "name": "notification_level_info",
         "version": "6",
         "entityType": "binary_sensor",
@@ -4503,11 +4515,11 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
+                "property": "entity_picture",
                 "value": ""
             },
             {
-                "property": "entity_picture",
+                "property": "entity_category",
                 "value": ""
             },
             {
@@ -4522,7 +4534,7 @@
         "id": "3cbf2c3454c3795d",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "b18cdca463823daa",
+        "deviceConfig": "",
         "name": "notification_level_clear_all",
         "version": "6",
         "entityType": "button",
@@ -4555,7 +4567,7 @@
         "id": "df0e222b4bf2971f",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "b18cdca463823daa",
+        "deviceConfig": "",
         "name": "notification_on_counter",
         "version": "6",
         "entityType": "sensor",
@@ -4569,11 +4581,11 @@
                 "value": ""
             },
             {
-                "property": "entity_category",
+                "property": "entity_picture",
                 "value": ""
             },
             {
-                "property": "entity_picture",
+                "property": "entity_category",
                 "value": ""
             },
             {
@@ -4711,7 +4723,7 @@
         "id": "dd558d37ebd87d72",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
-        "deviceConfig": "c46c944e0555f590",
+        "deviceConfig": "",
         "name": "custom_weather_description_01",
         "version": "6",
         "entityType": "sensor",
@@ -23291,7 +23303,8 @@
         "y": 60,
         "wires": [
             [
-                "ff834f637583c3ce"
+                "ff834f637583c3ce",
+                "e0da0e9fc10180e7"
             ]
         ]
     },
@@ -23368,8 +23381,8 @@
         "blockInputOverrides": false,
         "domain": "",
         "service": "",
-        "x": 1270,
-        "y": 60,
+        "x": 1930,
+        "y": 280,
         "wires": [
             []
         ]
@@ -23397,12 +23410,12 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 730,
-        "y": 60,
+        "x": 770,
+        "y": 140,
         "wires": [
             [
-                "b428cd860af9a9f1",
-                "8733978e8cf740fe"
+                "8733978e8cf740fe",
+                "da5330a8acd2018f"
             ],
             []
         ]
@@ -23430,11 +23443,11 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 950,
-        "y": 60,
+        "x": 990,
+        "y": 140,
         "wires": [
             [
-                "4a585d8a38a8ee00"
+                "d8d2f8bb1e0a18ee"
             ],
             []
         ]
@@ -23462,11 +23475,11 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 1110,
-        "y": 120,
+        "x": 1330,
+        "y": 200,
         "wires": [
             [
-                "4a585d8a38a8ee00"
+                "031c2e8585acc469"
             ],
             []
         ]
@@ -23482,13 +23495,172 @@
         "endTime": "17:30",
         "startOffset": 0,
         "endOffset": 0,
-        "x": 930,
-        "y": 120,
+        "x": 1150,
+        "y": 200,
         "wires": [
             [
                 "a91a2ee8078566c4"
             ],
             []
+        ]
+    },
+    {
+        "id": "da5330a8acd2018f",
+        "type": "api-current-state",
+        "z": "e846a5a705a12fe6",
+        "name": "workday is on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "on",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "binary_sensor.workday_sensor",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 980,
+        "y": 200,
+        "wires": [
+            [
+                "b428cd860af9a9f1"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e0da0e9fc10180e7",
+        "type": "api-current-state",
+        "z": "e846a5a705a12fe6",
+        "name": "security is on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "on",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "input_boolean.home_security",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 750,
+        "y": 280,
+        "wires": [
+            [
+                "4a585d8a38a8ee00"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "031c2e8585acc469",
+        "type": "api-current-state",
+        "z": "e846a5a705a12fe6",
+        "name": "agenda coen anne events",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "calendar.coen_anne",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 1550,
+        "y": 200,
+        "wires": [
+            [
+                "f67bbf6db2079ae8"
+            ]
+        ]
+    },
+    {
+        "id": "f67bbf6db2079ae8",
+        "type": "switch",
+        "z": "e846a5a705a12fe6",
+        "name": "coen vrij",
+        "property": "data.attributes.message",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "Coen vrij",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1740,
+        "y": 200,
+        "wires": [
+            [
+                "4a585d8a38a8ee00"
+            ]
         ]
     },
     {
