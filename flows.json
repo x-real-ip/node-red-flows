@@ -34283,7 +34283,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 650,
-        "y": 140,
+        "y": 160,
         "wires": [
             [
                 "a2dc9d42a693dafb"
@@ -35880,7 +35880,7 @@
         "links": [
             "78bedeb65fca6d0f"
         ],
-        "x": 165,
+        "x": 195,
         "y": 80,
         "wires": [
             [

@@ -2277,7 +2277,7 @@
             "cb035d1b.0d3f9"
         ],
         "x": 274,
-        "y": 1079,
+        "y": 1039,
         "w": 672,
         "h": 302
     },
@@ -2308,7 +2308,7 @@
             "f348457a7db9ec8d"
         ],
         "x": 274,
-        "y": 759,
+        "y": 719,
         "w": 982,
         "h": 302
     },
@@ -2340,7 +2340,7 @@
             "9073f4d6575f634e"
         ],
         "x": 274,
-        "y": 1399,
+        "y": 1359,
         "w": 1252,
         "h": 362
     },
@@ -8861,7 +8861,7 @@
         "name": "MECHANICAL VENTILATION POSITION MANUAL",
         "info": "",
         "x": 490,
-        "y": 800,
+        "y": 760,
         "wires": []
     },
     {
@@ -8876,7 +8876,7 @@
         "template": "De middelste stand is automatisch ingeschakeld.",
         "output": "str",
         "x": 1400,
-        "y": 600,
+        "y": 560,
         "wires": [
             [
                 "955d17f64b59495b"
@@ -8896,7 +8896,7 @@
         "template": "De laagste stand van de mechanische ventilatie is handmatig ingeschakeld.",
         "output": "str",
         "x": 720,
-        "y": 840,
+        "y": 800,
         "wires": [
             [
                 "46d491e1.18c83"
@@ -8916,7 +8916,7 @@
         "template": "De middelste stand van de mechanische ventilatie is handmatig ingeschakeld.",
         "output": "str",
         "x": 720,
-        "y": 900,
+        "y": 860,
         "wires": [
             [
                 "46d491e1.18c83"
@@ -8936,7 +8936,7 @@
         "template": "De hoge stand van de mechanische ventilatie is handmatig ingeschakeld.",
         "output": "str",
         "x": 720,
-        "y": 960,
+        "y": 920,
         "wires": [
             [
                 "46d491e1.18c83"
@@ -8956,7 +8956,7 @@
         "template": "Mechanische Ventilatie is handmatig uitgeschakeld.",
         "output": "str",
         "x": 720,
-        "y": 1020,
+        "y": 980,
         "wires": [
             [
                 "46d491e1.18c83"
@@ -8983,7 +8983,7 @@
         "z": "4e909abe.0b62e4",
         "name": "",
         "x": 1190,
-        "y": 600,
+        "y": 560,
         "wires": [
             [
                 "c7b58913.752ad8"
@@ -8998,7 +8998,7 @@
         "name": "INPUT BOOLEAN MECHANICAL VENTILATION",
         "info": "",
         "x": 480,
-        "y": 1120,
+        "y": 1080,
         "wires": []
     },
     {
@@ -9009,7 +9009,7 @@
         "name": "",
         "env": [],
         "x": 790,
-        "y": 1220,
+        "y": 1180,
         "wires": [
             []
         ]
@@ -9022,7 +9022,7 @@
         "name": "",
         "env": [],
         "x": 790,
-        "y": 1160,
+        "y": 1120,
         "wires": [
             []
         ]
@@ -9035,7 +9035,7 @@
         "name": "",
         "env": [],
         "x": 790,
-        "y": 1340,
+        "y": 1300,
         "wires": [
             []
         ]
@@ -9047,7 +9047,7 @@
         "g": "0b07577dad51457c",
         "name": "",
         "x": 790,
-        "y": 1280,
+        "y": 1240,
         "wires": [
             []
         ]
@@ -9085,7 +9085,7 @@
         "z": "4e909abe.0b62e4",
         "name": "",
         "x": 1190,
-        "y": 540,
+        "y": 500,
         "wires": [
             [
                 "6f1eba702c95483a"
@@ -9158,7 +9158,7 @@
         "name": "MECHANICAL VENTILATION POSITION MANUAL FRONTEND",
         "info": "",
         "x": 530,
-        "y": 1440,
+        "y": 1400,
         "wires": []
     },
     {
@@ -9200,7 +9200,7 @@
         "repair": false,
         "outputs": 5,
         "x": 690,
-        "y": 1500,
+        "y": 1460,
         "wires": [
             [
                 "6756525186f8169e"
@@ -9246,7 +9246,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 990,
-        "y": 1600,
+        "y": 1560,
         "wires": [
             [
                 "fec6bd8d1440b36a"
@@ -9280,7 +9280,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 990,
-        "y": 1720,
+        "y": 1680,
         "wires": [
             []
         ]
@@ -9312,7 +9312,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 990,
-        "y": 1480,
+        "y": 1440,
         "wires": [
             [
                 "57486f510a59fd65"
@@ -9346,7 +9346,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 990,
-        "y": 1540,
+        "y": 1500,
         "wires": [
             [
                 "60bfbb8510eb0ddf"
@@ -9380,7 +9380,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 990,
-        "y": 1660,
+        "y": 1620,
         "wires": [
             [
                 "3bbc2d79dae1d733"
@@ -9414,7 +9414,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 1340,
-        "y": 1480,
+        "y": 1440,
         "wires": [
             []
         ]
@@ -9446,7 +9446,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 1340,
-        "y": 1540,
+        "y": 1500,
         "wires": [
             []
         ]
@@ -9478,7 +9478,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 1340,
-        "y": 1600,
+        "y": 1560,
         "wires": [
             []
         ]
@@ -9510,7 +9510,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 1340,
-        "y": 1660,
+        "y": 1620,
         "wires": [
             []
         ]
@@ -9587,7 +9587,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 920,
-        "y": 540,
+        "y": 500,
         "wires": [
             [
                 "9bf4aa10d1402099"
@@ -9627,7 +9627,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 410,
-        "y": 640,
+        "y": 600,
         "wires": [
             [
                 "46771664.f639e8"
@@ -9669,7 +9669,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 430,
-        "y": 460,
+        "y": 420,
         "wires": [
             [
                 "8bd822f09fed1461"
@@ -9748,7 +9748,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 920,
-        "y": 600,
+        "y": 560,
         "wires": [
             [
                 "54922ba7.31ebb4"
@@ -9869,7 +9869,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 1010,
-        "y": 840,
+        "y": 800,
         "wires": [
             [
                 "f348457a7db9ec8d"
@@ -9909,7 +9909,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 390,
-        "y": 400,
+        "y": 360,
         "wires": [
             [
                 "13e032a.2acbbcd"
@@ -10146,7 +10146,7 @@
             }
         ],
         "x": 460,
-        "y": 840,
+        "y": 800,
         "wires": [
             [
                 "9e8a7cf7.88d51"
@@ -10265,7 +10265,7 @@
             }
         ],
         "x": 460,
-        "y": 900,
+        "y": 860,
         "wires": [
             [
                 "5fba04f5.3847ac"
@@ -10325,7 +10325,7 @@
             }
         ],
         "x": 460,
-        "y": 960,
+        "y": 920,
         "wires": [
             [
                 "cbdc5416.0cbcd8"
@@ -10385,7 +10385,7 @@
             }
         ],
         "x": 460,
-        "y": 1020,
+        "y": 980,
         "wires": [
             [
                 "91b0640c.1b4d68"
@@ -10445,7 +10445,7 @@
             }
         ],
         "x": 460,
-        "y": 1160,
+        "y": 1120,
         "wires": [
             [
                 "1bd4cbe8.185c54"
@@ -10505,7 +10505,7 @@
             }
         ],
         "x": 460,
-        "y": 1220,
+        "y": 1180,
         "wires": [
             [
                 "234dfa41.bd6986"
@@ -10565,7 +10565,7 @@
             }
         ],
         "x": 460,
-        "y": 1280,
+        "y": 1240,
         "wires": [
             [
                 "66f4c227.6b8aac"
@@ -10625,7 +10625,7 @@
             }
         ],
         "x": 460,
-        "y": 1340,
+        "y": 1300,
         "wires": [
             [
                 "6e490cae.31f974"
@@ -10685,7 +10685,7 @@
             }
         ],
         "x": 460,
-        "y": 1480,
+        "y": 1440,
         "wires": [
             [
                 "4a4e04ddf8350706"
@@ -10729,7 +10729,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 370,
-        "y": 520,
+        "y": 480,
         "wires": [
             [
                 "5c061fb5ace8d130"
@@ -10773,7 +10773,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 580,
-        "y": 520,
+        "y": 480,
         "wires": [
             [
                 "0861797165ba2006"
@@ -10832,7 +10832,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 390,
-        "y": 580,
+        "y": 540,
         "wires": [
             [
                 "46771664.f639e8"
@@ -10854,7 +10854,7 @@
         "template": "De hoogste stand is automatisch ingeschakeld.",
         "output": "str",
         "x": 1400,
-        "y": 660,
+        "y": 620,
         "wires": [
             [
                 "955d17f64b59495b"
@@ -10868,7 +10868,7 @@
         "name": "",
         "env": [],
         "x": 1190,
-        "y": 660,
+        "y": 620,
         "wires": [
             [
                 "5ce9303e.d40b8"
@@ -10907,7 +10907,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 920,
-        "y": 660,
+        "y": 620,
         "wires": [
             [
                 "320c3cf2.5620d4"
@@ -10947,7 +10947,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 440,
-        "y": 700,
+        "y": 660,
         "wires": [
             [
                 "b5d8b43d.943a18"
@@ -10969,7 +10969,7 @@
         "template": "De laagste stand is automatisch ingeschakeld.",
         "output": "str",
         "x": 1400,
-        "y": 540,
+        "y": 500,
         "wires": [
             [
                 "955d17f64b59495b"
@@ -11009,7 +11009,7 @@
             "71e07fd77d2a4430"
         ],
         "x": 1525,
-        "y": 600,
+        "y": 560,
         "wires": []
     },
     {
@@ -11036,7 +11036,7 @@
             "71e07fd77d2a4430"
         ],
         "x": 1215,
-        "y": 840,
+        "y": 800,
         "wires": []
     },
     {
@@ -35880,7 +35880,7 @@
         "links": [
             "78bedeb65fca6d0f"
         ],
-        "x": 165,
+        "x": 195,
         "y": 80,
         "wires": [
             [
