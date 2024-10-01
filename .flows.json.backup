@@ -2210,6 +2210,98 @@
         "h": 82
     },
     {
+        "id": "0b07577dad51457c",
+        "type": "group",
+        "z": "4e909abe.0b62e4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7b52e1a6.51c84",
+            "234dfa41.bd6986",
+            "1bd4cbe8.185c54",
+            "6e490cae.31f974",
+            "66f4c227.6b8aac",
+            "dcb087f1.7dab78",
+            "8e51a253.d8dde",
+            "c83efd35.f7a48",
+            "cb035d1b.0d3f9"
+        ],
+        "x": 274,
+        "y": 1179,
+        "w": 672,
+        "h": 302
+    },
+    {
+        "id": "fe3d60102d671872",
+        "type": "group",
+        "z": "4e909abe.0b62e4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "55ffc090.d9b5b",
+            "9e8a7cf7.88d51",
+            "5fba04f5.3847ac",
+            "cbdc5416.0cbcd8",
+            "91b0640c.1b4d68",
+            "46d491e1.18c83",
+            "7fcc0134.64917",
+            "f5c03471.585f88",
+            "fce79366.4dc17",
+            "9c749cb3.fd1b8",
+            "f348457a7db9ec8d"
+        ],
+        "x": 274,
+        "y": 859,
+        "w": 982,
+        "h": 302
+    },
+    {
+        "id": "031e4f7e9e7c26c2",
+        "type": "group",
+        "z": "4e909abe.0b62e4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "54696fbd78ed3819",
+            "4a4e04ddf8350706",
+            "cb917aa518896f3a",
+            "dfffac879d63354b",
+            "6756525186f8169e",
+            "9788a503135ae44e",
+            "16000567cbeaf3df",
+            "57486f510a59fd65",
+            "60bfbb8510eb0ddf",
+            "fec6bd8d1440b36a",
+            "3bbc2d79dae1d733",
+            "9073f4d6575f634e"
+        ],
+        "x": 274,
+        "y": 1499,
+        "w": 1252,
+        "h": 362
+    },
+    {
         "id": "bd90d247a95feb9d",
         "type": "group",
         "z": "e4381ced98d2a929",
@@ -2251,98 +2343,6 @@
         "y": 559,
         "w": 392,
         "h": 122
-    },
-    {
-        "id": "0b07577dad51457c",
-        "type": "group",
-        "z": "4e909abe.0b62e4",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "7b52e1a6.51c84",
-            "234dfa41.bd6986",
-            "1bd4cbe8.185c54",
-            "6e490cae.31f974",
-            "66f4c227.6b8aac",
-            "dcb087f1.7dab78",
-            "8e51a253.d8dde",
-            "c83efd35.f7a48",
-            "cb035d1b.0d3f9"
-        ],
-        "x": 274,
-        "y": 1039,
-        "w": 672,
-        "h": 302
-    },
-    {
-        "id": "fe3d60102d671872",
-        "type": "group",
-        "z": "4e909abe.0b62e4",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "55ffc090.d9b5b",
-            "9e8a7cf7.88d51",
-            "5fba04f5.3847ac",
-            "cbdc5416.0cbcd8",
-            "91b0640c.1b4d68",
-            "46d491e1.18c83",
-            "7fcc0134.64917",
-            "f5c03471.585f88",
-            "fce79366.4dc17",
-            "9c749cb3.fd1b8",
-            "f348457a7db9ec8d"
-        ],
-        "x": 274,
-        "y": 719,
-        "w": 982,
-        "h": 302
-    },
-    {
-        "id": "031e4f7e9e7c26c2",
-        "type": "group",
-        "z": "4e909abe.0b62e4",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "54696fbd78ed3819",
-            "4a4e04ddf8350706",
-            "cb917aa518896f3a",
-            "dfffac879d63354b",
-            "6756525186f8169e",
-            "9788a503135ae44e",
-            "16000567cbeaf3df",
-            "57486f510a59fd65",
-            "60bfbb8510eb0ddf",
-            "fec6bd8d1440b36a",
-            "3bbc2d79dae1d733",
-            "9073f4d6575f634e"
-        ],
-        "x": 274,
-        "y": 1359,
-        "w": 1252,
-        "h": 362
     },
     {
         "id": "f7038caa7a76e6f3",
@@ -8861,7 +8861,7 @@
         "name": "MECHANICAL VENTILATION POSITION MANUAL",
         "info": "",
         "x": 490,
-        "y": 760,
+        "y": 900,
         "wires": []
     },
     {
@@ -8896,7 +8896,7 @@
         "template": "De laagste stand van de mechanische ventilatie is handmatig ingeschakeld.",
         "output": "str",
         "x": 720,
-        "y": 800,
+        "y": 940,
         "wires": [
             [
                 "46d491e1.18c83"
@@ -8916,7 +8916,7 @@
         "template": "De middelste stand van de mechanische ventilatie is handmatig ingeschakeld.",
         "output": "str",
         "x": 720,
-        "y": 860,
+        "y": 1000,
         "wires": [
             [
                 "46d491e1.18c83"
@@ -8936,7 +8936,7 @@
         "template": "De hoge stand van de mechanische ventilatie is handmatig ingeschakeld.",
         "output": "str",
         "x": 720,
-        "y": 920,
+        "y": 1060,
         "wires": [
             [
                 "46d491e1.18c83"
@@ -8956,7 +8956,7 @@
         "template": "Mechanische Ventilatie is handmatig uitgeschakeld.",
         "output": "str",
         "x": 720,
-        "y": 980,
+        "y": 1120,
         "wires": [
             [
                 "46d491e1.18c83"
@@ -8998,7 +8998,7 @@
         "name": "INPUT BOOLEAN MECHANICAL VENTILATION",
         "info": "",
         "x": 480,
-        "y": 1080,
+        "y": 1220,
         "wires": []
     },
     {
@@ -9009,7 +9009,7 @@
         "name": "",
         "env": [],
         "x": 790,
-        "y": 1180,
+        "y": 1320,
         "wires": [
             []
         ]
@@ -9022,7 +9022,7 @@
         "name": "",
         "env": [],
         "x": 790,
-        "y": 1120,
+        "y": 1260,
         "wires": [
             []
         ]
@@ -9035,7 +9035,7 @@
         "name": "",
         "env": [],
         "x": 790,
-        "y": 1300,
+        "y": 1440,
         "wires": [
             []
         ]
@@ -9047,7 +9047,7 @@
         "g": "0b07577dad51457c",
         "name": "",
         "x": 790,
-        "y": 1240,
+        "y": 1380,
         "wires": [
             []
         ]
@@ -9158,7 +9158,7 @@
         "name": "MECHANICAL VENTILATION POSITION MANUAL FRONTEND",
         "info": "",
         "x": 530,
-        "y": 1400,
+        "y": 1540,
         "wires": []
     },
     {
@@ -9200,7 +9200,7 @@
         "repair": false,
         "outputs": 5,
         "x": 690,
-        "y": 1460,
+        "y": 1600,
         "wires": [
             [
                 "6756525186f8169e"
@@ -9246,7 +9246,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 990,
-        "y": 1560,
+        "y": 1700,
         "wires": [
             [
                 "fec6bd8d1440b36a"
@@ -9280,7 +9280,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 990,
-        "y": 1680,
+        "y": 1820,
         "wires": [
             []
         ]
@@ -9312,7 +9312,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 990,
-        "y": 1440,
+        "y": 1580,
         "wires": [
             [
                 "57486f510a59fd65"
@@ -9346,7 +9346,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 990,
-        "y": 1500,
+        "y": 1640,
         "wires": [
             [
                 "60bfbb8510eb0ddf"
@@ -9380,7 +9380,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 990,
-        "y": 1620,
+        "y": 1760,
         "wires": [
             [
                 "3bbc2d79dae1d733"
@@ -9414,7 +9414,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 1340,
-        "y": 1440,
+        "y": 1580,
         "wires": [
             []
         ]
@@ -9446,7 +9446,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 1340,
-        "y": 1500,
+        "y": 1640,
         "wires": [
             []
         ]
@@ -9478,7 +9478,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 1340,
-        "y": 1560,
+        "y": 1700,
         "wires": [
             []
         ]
@@ -9510,7 +9510,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 1340,
-        "y": 1620,
+        "y": 1760,
         "wires": [
             []
         ]
@@ -9626,8 +9626,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 410,
-        "y": 600,
+        "x": 590,
+        "y": 720,
         "wires": [
             [
                 "46771664.f639e8"
@@ -9869,7 +9869,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 1010,
-        "y": 800,
+        "y": 940,
         "wires": [
             [
                 "f348457a7db9ec8d"
@@ -10146,7 +10146,7 @@
             }
         ],
         "x": 460,
-        "y": 800,
+        "y": 940,
         "wires": [
             [
                 "9e8a7cf7.88d51"
@@ -10265,7 +10265,7 @@
             }
         ],
         "x": 460,
-        "y": 860,
+        "y": 1000,
         "wires": [
             [
                 "5fba04f5.3847ac"
@@ -10325,7 +10325,7 @@
             }
         ],
         "x": 460,
-        "y": 920,
+        "y": 1060,
         "wires": [
             [
                 "cbdc5416.0cbcd8"
@@ -10385,7 +10385,7 @@
             }
         ],
         "x": 460,
-        "y": 980,
+        "y": 1120,
         "wires": [
             [
                 "91b0640c.1b4d68"
@@ -10445,7 +10445,7 @@
             }
         ],
         "x": 460,
-        "y": 1120,
+        "y": 1260,
         "wires": [
             [
                 "1bd4cbe8.185c54"
@@ -10505,7 +10505,7 @@
             }
         ],
         "x": 460,
-        "y": 1180,
+        "y": 1320,
         "wires": [
             [
                 "234dfa41.bd6986"
@@ -10565,7 +10565,7 @@
             }
         ],
         "x": 460,
-        "y": 1240,
+        "y": 1380,
         "wires": [
             [
                 "66f4c227.6b8aac"
@@ -10625,7 +10625,7 @@
             }
         ],
         "x": 460,
-        "y": 1300,
+        "y": 1440,
         "wires": [
             [
                 "6e490cae.31f974"
@@ -10685,7 +10685,7 @@
             }
         ],
         "x": 460,
-        "y": 1440,
+        "y": 1580,
         "wires": [
             [
                 "4a4e04ddf8350706"
@@ -10776,7 +10776,7 @@
         "y": 480,
         "wires": [
             [
-                "0861797165ba2006"
+                "0cebcecc7266486e"
             ],
             [
                 "bfdcba16.625018"
@@ -10831,8 +10831,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 390,
-        "y": 540,
+        "x": 610,
+        "y": 660,
         "wires": [
             [
                 "46771664.f639e8"
@@ -10946,8 +10946,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 440,
-        "y": 660,
+        "x": 560,
+        "y": 780,
         "wires": [
             [
                 "b5d8b43d.943a18"
@@ -11036,8 +11036,129 @@
             "71e07fd77d2a4430"
         ],
         "x": 1215,
-        "y": 800,
+        "y": 940,
         "wires": []
+    },
+    {
+        "id": "f1a1d029766aa4e3",
+        "type": "api-current-state",
+        "z": "4e909abe.0b62e4",
+        "name": "barometer is rain",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "Rain",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.buienradar_barometer",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 610,
+        "y": 600,
+        "wires": [
+            [
+                "bfdcba16.625018"
+            ],
+            [
+                "0861797165ba2006"
+            ]
+        ]
+    },
+    {
+        "id": "0cebcecc7266486e",
+        "type": "api-current-state",
+        "z": "4e909abe.0b62e4",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "pouring",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "weather.knmi_home",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 560,
+        "y": 540,
+        "wires": [
+            [
+                "bfdcba16.625018"
+            ],
+            [
+                "f1a1d029766aa4e3"
+            ]
+        ]
+    },
+    {
+        "id": "ba90ca5010f94a46",
+        "type": "inject",
+        "z": "4e909abe.0b62e4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 740,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "728c75b797b416a5",
@@ -34283,7 +34404,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 650,
-        "y": 140,
+        "y": 180,
         "wires": [
             [
                 "a2dc9d42a693dafb"
