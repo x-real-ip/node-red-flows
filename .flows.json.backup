@@ -8865,25 +8865,6 @@
         "wires": []
     },
     {
-        "id": "c7b58913.752ad8",
-        "type": "template",
-        "z": "4e909abe.0b62e4",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "De middelste stand is automatisch ingeschakeld.",
-        "output": "str",
-        "x": 1400,
-        "y": 560,
-        "wires": [
-            [
-                "955d17f64b59495b"
-            ]
-        ]
-    },
-    {
         "id": "9e8a7cf7.88d51",
         "type": "template",
         "z": "4e909abe.0b62e4",
@@ -8982,11 +8963,11 @@
         "type": "subflow:279f5735.2f95d8",
         "z": "4e909abe.0b62e4",
         "name": "",
-        "x": 1190,
+        "x": 1330,
         "y": 560,
         "wires": [
             [
-                "c7b58913.752ad8"
+                "955d17f64b59495b"
             ]
         ]
     },
@@ -9084,11 +9065,11 @@
         "type": "subflow:db575387.da1ff",
         "z": "4e909abe.0b62e4",
         "name": "",
-        "x": 1190,
+        "x": 1330,
         "y": 500,
         "wires": [
             [
-                "6f1eba702c95483a"
+                "955d17f64b59495b"
             ]
         ]
     },
@@ -9586,7 +9567,7 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 920,
+        "x": 1060,
         "y": 500,
         "wires": [
             [
@@ -9747,7 +9728,7 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 920,
+        "x": 1060,
         "y": 560,
         "wires": [
             [
@@ -10779,7 +10760,7 @@
                 "0cebcecc7266486e"
             ],
             [
-                "bfdcba16.625018"
+                "6f1eba702c95483a"
             ]
         ]
     },
@@ -10804,7 +10785,7 @@
         "id": "0861797165ba2006",
         "type": "api-current-state",
         "z": "4e909abe.0b62e4",
-        "name": "rh basement < 65%",
+        "name": "rh basement < 60%",
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
@@ -10835,10 +10816,11 @@
         "y": 660,
         "wires": [
             [
-                "46771664.f639e8"
+                "c7b58913.752ad8"
             ],
             [
-                "e07362ff.ad189"
+                "e07362ff.ad189",
+                "90eac8380839cd77"
             ]
         ]
     },
@@ -10958,25 +10940,6 @@
         ]
     },
     {
-        "id": "6f1eba702c95483a",
-        "type": "template",
-        "z": "4e909abe.0b62e4",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "De laagste stand is automatisch ingeschakeld.",
-        "output": "str",
-        "x": 1400,
-        "y": 500,
-        "wires": [
-            [
-                "955d17f64b59495b"
-            ]
-        ]
-    },
-    {
         "id": "71e07fd77d2a4430",
         "type": "link in",
         "z": "4e909abe.0b62e4",
@@ -11079,7 +11042,7 @@
         "y": 600,
         "wires": [
             [
-                "bfdcba16.625018"
+                "aa4bd88087bb3c75"
             ],
             [
                 "0861797165ba2006"
@@ -11126,7 +11089,7 @@
         "y": 540,
         "wires": [
             [
-                "bfdcba16.625018"
+                "aa4bd88087bb3c75"
             ],
             [
                 "f1a1d029766aa4e3"
@@ -11134,7 +11097,64 @@
         ]
     },
     {
-        "id": "ba90ca5010f94a46",
+        "id": "6f1eba702c95483a",
+        "type": "template",
+        "z": "4e909abe.0b62e4",
+        "name": "message",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "De laagste stand is automatisch ingeschakeld. Buiten is de absolute luchtvochtigheid hoger dan in de souterrain.",
+        "output": "str",
+        "x": 840,
+        "y": 460,
+        "wires": [
+            [
+                "bfdcba16.625018"
+            ]
+        ]
+    },
+    {
+        "id": "aa4bd88087bb3c75",
+        "type": "template",
+        "z": "4e909abe.0b62e4",
+        "name": "message",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "De laagste stand is automatisch ingeschakeld i.v.m. de regen.",
+        "output": "str",
+        "x": 840,
+        "y": 500,
+        "wires": [
+            [
+                "bfdcba16.625018"
+            ]
+        ]
+    },
+    {
+        "id": "c7b58913.752ad8",
+        "type": "template",
+        "z": "4e909abe.0b62e4",
+        "name": "message",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "De middelste stand is automatisch ingeschakeld. De luchtvochtigheid is {{sensor.basement_humidity}}%.",
+        "output": "str",
+        "x": 840,
+        "y": 560,
+        "wires": [
+            [
+                "46771664.f639e8"
+            ]
+        ]
+    },
+    {
+        "id": "1369cda7615fca2d",
         "type": "inject",
         "z": "4e909abe.0b62e4",
         "name": "",
@@ -11154,11 +11174,30 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 140,
-        "y": 740,
+        "x": 660,
+        "y": 380,
         "wires": [
-            []
+            [
+                "0861797165ba2006"
+            ]
         ]
+    },
+    {
+        "id": "90eac8380839cd77",
+        "type": "debug",
+        "z": "4e909abe.0b62e4",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 740,
+        "wires": []
     },
     {
         "id": "728c75b797b416a5",
