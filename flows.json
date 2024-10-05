@@ -1640,12 +1640,13 @@
             "2af51e589fccfb49",
             "844fcee77f57f5de",
             "c5e53f10fcec2a55",
-            "17d6d6ba47815c69"
+            "17d6d6ba47815c69",
+            "2f3981a6369226a2"
         ],
         "x": 514,
         "y": 159,
         "w": 1432,
-        "h": 902
+        "h": 962
     },
     {
         "id": "1fb2b225cc711d77",
@@ -1692,7 +1693,7 @@
             "8ee38710dd301911"
         ],
         "x": 514,
-        "y": 1139,
+        "y": 1159,
         "w": 532,
         "h": 82
     },
@@ -2008,8 +2009,8 @@
             "61f9d42e4c070321",
             "96679db36a4a3636"
         ],
-        "x": 1734,
-        "y": 59,
+        "x": 1794,
+        "y": 99,
         "w": 472,
         "h": 202
     },
@@ -4274,8 +4275,8 @@
         "type": "junction",
         "z": "c23003c7.1c978",
         "g": "283f88d61789c306",
-        "x": 1760,
-        "y": 120,
+        "x": 1820,
+        "y": 160,
         "wires": [
             [
                 "d93bd58ac5ac0363",
@@ -4610,7 +4611,7 @@
         "id": "df097f62ee343e6b",
         "type": "junction",
         "z": "e4381ced98d2a929",
-        "x": 360,
+        "x": 380,
         "y": 200,
         "wires": [
             [
@@ -4626,7 +4627,8 @@
                 "2d21e3e6cf54e587",
                 "2af51e589fccfb49",
                 "c5e53f10fcec2a55",
-                "17d6d6ba47815c69"
+                "17d6d6ba47815c69",
+                "2f3981a6369226a2"
             ]
         ]
     },
@@ -40282,7 +40284,7 @@
         "domain": "switch",
         "service": "turn_on",
         "x": 900,
-        "y": 1180,
+        "y": 1200,
         "wires": [
             []
         ]
@@ -40800,7 +40802,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 650,
-        "y": 1180,
+        "y": 1200,
         "wires": [
             [
                 "f9ccc0bad1f19231"
@@ -41108,6 +41110,67 @@
         "wires": [
             [
                 "89d180847c2436b6"
+            ]
+        ]
+    },
+    {
+        "id": "2f3981a6369226a2",
+        "type": "api-call-service",
+        "z": "e4381ced98d2a929",
+        "g": "12e8b8acaeaeb3fa",
+        "name": "set volume wall tablet",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.volume_set",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "media_player.galaxy_tab_a8"
+        ],
+        "labelId": [],
+        "data": "{\"volume_level\":\"0.5\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "media_player",
+        "service": "volume_set",
+        "x": 640,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5aad02cc7bf021df",
+        "type": "inject",
+        "z": "e4381ced98d2a929",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 1000,
+        "wires": [
+            [
+                "2f3981a6369226a2"
             ]
         ]
     },
@@ -47269,8 +47332,8 @@
         "syntax": "mustache",
         "template": "",
         "output": "str",
-        "x": 1870,
-        "y": 140,
+        "x": 1930,
+        "y": 180,
         "wires": [
             [
                 "beedc605a0a3cbac"
@@ -47289,8 +47352,8 @@
         "syntax": "mustache",
         "template": "Wasmachine",
         "output": "str",
-        "x": 1870,
-        "y": 100,
+        "x": 1930,
+        "y": 140,
         "wires": [
             [
                 "beedc605a0a3cbac"
@@ -47309,8 +47372,8 @@
             "aeee8468f3d1b7ad",
             "c4660dc11fb0e5b8"
         ],
-        "x": 2165,
-        "y": 160,
+        "x": 2225,
+        "y": 200,
         "wires": []
     },
     {
@@ -47334,8 +47397,8 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 2070,
-        "y": 160,
+        "x": 2130,
+        "y": 200,
         "wires": [
             [
                 "1e0f934a3493b12f"
@@ -47354,8 +47417,8 @@
         "syntax": "mustache",
         "template": "washing_machine",
         "output": "str",
-        "x": 1890,
-        "y": 180,
+        "x": 1950,
+        "y": 220,
         "wires": [
             [
                 "beedc605a0a3cbac"
@@ -47374,8 +47437,8 @@
         "syntax": "mustache",
         "template": "De wasmachine is klaar.",
         "output": "str",
-        "x": 1880,
-        "y": 220,
+        "x": 1940,
+        "y": 260,
         "wires": [
             [
                 "beedc605a0a3cbac"
@@ -47496,8 +47559,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1710,
-        "y": 140,
+        "x": 1690,
+        "y": 160,
         "wires": [
             [
                 "2191e2bfc331009c"
@@ -47713,6 +47776,35 @@
         "wires": [
             [
                 "f052ae0fcfc5b3e8"
+            ]
+        ]
+    },
+    {
+        "id": "89f34f59e0aa0503",
+        "type": "inject",
+        "z": "c23003c7.1c978",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "off",
+        "payloadType": "str",
+        "x": 1300,
+        "y": 460,
+        "wires": [
+            [
+                "48fe7380.0c049c"
             ]
         ]
     },
