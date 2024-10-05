@@ -3509,8 +3509,8 @@
             "b553c9f2abb4bdc0",
             "f8bd1ef936e71fbf"
         ],
-        "x": 674,
-        "y": 299,
+        "x": 774,
+        "y": 59,
         "w": 432,
         "h": 202
     },
@@ -3591,7 +3591,7 @@
         ],
         "x": 654,
         "y": 179,
-        "w": 612,
+        "w": 672,
         "h": 182
     },
     {
@@ -4732,8 +4732,8 @@
         "type": "junction",
         "z": "5c92a1135257c28d",
         "g": "9d927f405fd197bc",
-        "x": 700,
-        "y": 400,
+        "x": 800,
+        "y": 160,
         "wires": [
             [
                 "420b0d2cf8014bfe",
@@ -48239,8 +48239,8 @@
         "ignorePrevStateNull": false,
         "ignorePrevStateUnknown": false,
         "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
         "outputProperties": [
             {
                 "property": "payload",
@@ -48316,52 +48316,6 @@
         ]
     },
     {
-        "id": "4b4037273c184b88",
-        "type": "inject",
-        "z": "5c92a1135257c28d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 190,
-        "y": 380,
-        "wires": [
-            [
-                "37a1fa6891b30901"
-            ]
-        ]
-    },
-    {
-        "id": "73bb15fc2224adef",
-        "type": "debug",
-        "z": "5c92a1135257c28d",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1080,
-        "y": 180,
-        "wires": []
-    },
-    {
         "id": "37a1fa6891b30901",
         "type": "ha-get-entities",
         "z": "5c92a1135257c28d",
@@ -48389,11 +48343,10 @@
         "outputLocationType": "msg",
         "outputLocation": "payload",
         "outputResultsCount": 1,
-        "x": 490,
+        "x": 510,
         "y": 160,
         "wires": [
             [
-                "73bb15fc2224adef",
                 "e46f1e0cf547af9a"
             ]
         ]
@@ -48409,8 +48362,8 @@
         "syntax": "mustache",
         "template": "Let op de {{payload.attributes.friendly_name}} staat nog open en niemand is thuis.",
         "output": "str",
-        "x": 540,
-        "y": 340,
+        "x": 680,
+        "y": 160,
         "wires": [
             [
                 "ea1d347257539369"
@@ -48429,8 +48382,8 @@
         "syntax": "mustache",
         "template": "",
         "output": "str",
-        "x": 790,
-        "y": 380,
+        "x": 890,
+        "y": 140,
         "wires": [
             [
                 "4b9a0a6f1713a12a"
@@ -48449,8 +48402,8 @@
         "syntax": "mustache",
         "template": "Deur",
         "output": "str",
-        "x": 790,
-        "y": 340,
+        "x": 890,
+        "y": 100,
         "wires": [
             [
                 "4b9a0a6f1713a12a"
@@ -48469,8 +48422,8 @@
             "a97f87cfab413716",
             "aeee8468f3d1b7ad"
         ],
-        "x": 1065,
-        "y": 380,
+        "x": 1165,
+        "y": 140,
         "wires": []
     },
     {
@@ -48495,8 +48448,8 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 970,
-        "y": 380,
+        "x": 1070,
+        "y": 140,
         "wires": [
             [
                 "7a732e9184d0afcf"
@@ -48515,8 +48468,8 @@
         "syntax": "mustache",
         "template": "deur",
         "output": "str",
-        "x": 810,
-        "y": 420,
+        "x": 910,
+        "y": 180,
         "wires": [
             [
                 "4b9a0a6f1713a12a"
@@ -48535,8 +48488,8 @@
         "syntax": "mustache",
         "template": "deur",
         "output": "str",
-        "x": 790,
-        "y": 460,
+        "x": 890,
+        "y": 220,
         "wires": [
             [
                 "4b9a0a6f1713a12a"
@@ -48611,6 +48564,110 @@
             [
                 "7b8a53cdff17b707"
             ]
+        ]
+    },
+    {
+        "id": "469b51b1e98313e4",
+        "type": "api-current-state",
+        "z": "5c92a1135257c28d",
+        "name": "persons not home",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "not_home",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "group.persons",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 310,
+        "y": 220,
+        "wires": [
+            [
+                "37a1fa6891b30901"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "0a6ec0937b59c0ab",
+        "type": "server-state-changed",
+        "z": "5c92a1135257c28d",
+        "name": "guest mode is off",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "input_boolean.guest"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "off",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 100,
+        "y": 220,
+        "wires": [
+            [
+                "469b51b1e98313e4"
+            ],
+            []
         ]
     },
     {
@@ -50541,7 +50598,7 @@
         "blockInputOverrides": false,
         "domain": "webostv",
         "service": "command",
-        "x": 1160,
+        "x": 1220,
         "y": 260,
         "wires": [
             []
@@ -50565,7 +50622,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1000,
+        "x": 1060,
         "y": 260,
         "wires": [
             [
