@@ -1104,11 +1104,12 @@
             "f9e486866e6d65f1",
             "1f82b6c0e5dbebf0",
             "0d2317e40dbcbd17",
-            "b564e25effcfc627"
+            "b564e25effcfc627",
+            "b3f70eca695d41a4"
         ],
         "x": 654,
         "y": 59,
-        "w": 352,
+        "w": 492,
         "h": 182
     },
     {
@@ -16735,7 +16736,9 @@
         "x": 830,
         "y": 140,
         "wires": [
-            []
+            [
+                "b3f70eca695d41a4"
+            ]
         ]
     },
     {
@@ -17648,7 +17651,7 @@
             "substring": [],
             "regex": []
         },
-        "outputInitially": true,
+        "outputInitially": false,
         "stateType": "str",
         "ifState": "",
         "ifStateType": "str",
@@ -17953,6 +17956,36 @@
             [
                 "496e9f6b60f7e763"
             ]
+        ]
+    },
+    {
+        "id": "b3f70eca695d41a4",
+        "type": "api-call-service",
+        "z": "fd9cd80f14f860fe",
+        "g": "d3868dc5f4aa2d65",
+        "name": "turn off tv",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "webostv.command",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"entity_id\":\"media_player.lg_webos_smart_tv\",\"command\":\"system/turnOff\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "webostv",
+        "service": "command",
+        "x": 1060,
+        "y": 140,
+        "wires": [
+            []
         ]
     },
     {
@@ -32999,7 +33032,7 @@
         "blockInputOverrides": false,
         "domain": "switch",
         "service": "turn_on",
-        "x": 1080,
+        "x": 1160,
         "y": 260,
         "wires": [
             []
