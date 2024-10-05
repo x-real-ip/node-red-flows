@@ -2234,7 +2234,7 @@
             "cb035d1b.0d3f9"
         ],
         "x": 274,
-        "y": 1179,
+        "y": 1319,
         "w": 672,
         "h": 302
     },
@@ -2265,7 +2265,7 @@
             "f348457a7db9ec8d"
         ],
         "x": 274,
-        "y": 859,
+        "y": 999,
         "w": 982,
         "h": 302
     },
@@ -2297,7 +2297,7 @@
             "9073f4d6575f634e"
         ],
         "x": 274,
-        "y": 1499,
+        "y": 1639,
         "w": 1252,
         "h": 362
     },
@@ -8861,7 +8861,7 @@
         "name": "MECHANICAL VENTILATION POSITION MANUAL",
         "info": "",
         "x": 490,
-        "y": 900,
+        "y": 1040,
         "wires": []
     },
     {
@@ -8877,7 +8877,7 @@
         "template": "De laagste stand van de mechanische ventilatie is handmatig ingeschakeld.",
         "output": "str",
         "x": 720,
-        "y": 940,
+        "y": 1080,
         "wires": [
             [
                 "46d491e1.18c83"
@@ -8897,7 +8897,7 @@
         "template": "De middelste stand van de mechanische ventilatie is handmatig ingeschakeld.",
         "output": "str",
         "x": 720,
-        "y": 1000,
+        "y": 1140,
         "wires": [
             [
                 "46d491e1.18c83"
@@ -8917,7 +8917,7 @@
         "template": "De hoge stand van de mechanische ventilatie is handmatig ingeschakeld.",
         "output": "str",
         "x": 720,
-        "y": 1060,
+        "y": 1200,
         "wires": [
             [
                 "46d491e1.18c83"
@@ -8937,7 +8937,7 @@
         "template": "Mechanische Ventilatie is handmatig uitgeschakeld.",
         "output": "str",
         "x": 720,
-        "y": 1120,
+        "y": 1260,
         "wires": [
             [
                 "46d491e1.18c83"
@@ -8964,7 +8964,7 @@
         "z": "4e909abe.0b62e4",
         "name": "",
         "x": 1330,
-        "y": 620,
+        "y": 800,
         "wires": [
             [
                 "955d17f64b59495b"
@@ -8979,7 +8979,7 @@
         "name": "INPUT BOOLEAN MECHANICAL VENTILATION",
         "info": "",
         "x": 480,
-        "y": 1220,
+        "y": 1360,
         "wires": []
     },
     {
@@ -8990,7 +8990,7 @@
         "name": "",
         "env": [],
         "x": 790,
-        "y": 1320,
+        "y": 1460,
         "wires": [
             []
         ]
@@ -9003,7 +9003,7 @@
         "name": "",
         "env": [],
         "x": 790,
-        "y": 1260,
+        "y": 1400,
         "wires": [
             []
         ]
@@ -9016,7 +9016,7 @@
         "name": "",
         "env": [],
         "x": 790,
-        "y": 1440,
+        "y": 1580,
         "wires": [
             []
         ]
@@ -9028,7 +9028,7 @@
         "g": "0b07577dad51457c",
         "name": "",
         "x": 790,
-        "y": 1380,
+        "y": 1520,
         "wires": [
             []
         ]
@@ -9066,7 +9066,7 @@
         "z": "4e909abe.0b62e4",
         "name": "",
         "x": 1330,
-        "y": 500,
+        "y": 580,
         "wires": [
             [
                 "955d17f64b59495b"
@@ -9139,7 +9139,7 @@
         "name": "MECHANICAL VENTILATION POSITION MANUAL FRONTEND",
         "info": "",
         "x": 530,
-        "y": 1540,
+        "y": 1680,
         "wires": []
     },
     {
@@ -9181,7 +9181,7 @@
         "repair": false,
         "outputs": 5,
         "x": 690,
-        "y": 1600,
+        "y": 1740,
         "wires": [
             [
                 "6756525186f8169e"
@@ -9227,7 +9227,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 990,
-        "y": 1700,
+        "y": 1840,
         "wires": [
             [
                 "fec6bd8d1440b36a"
@@ -9261,7 +9261,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 990,
-        "y": 1820,
+        "y": 1960,
         "wires": [
             []
         ]
@@ -9293,7 +9293,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 990,
-        "y": 1580,
+        "y": 1720,
         "wires": [
             [
                 "57486f510a59fd65"
@@ -9327,7 +9327,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 990,
-        "y": 1640,
+        "y": 1780,
         "wires": [
             [
                 "60bfbb8510eb0ddf"
@@ -9361,7 +9361,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 990,
-        "y": 1760,
+        "y": 1900,
         "wires": [
             [
                 "3bbc2d79dae1d733"
@@ -9395,7 +9395,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 1340,
-        "y": 1580,
+        "y": 1720,
         "wires": [
             []
         ]
@@ -9427,7 +9427,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 1340,
-        "y": 1640,
+        "y": 1780,
         "wires": [
             []
         ]
@@ -9459,7 +9459,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 1340,
-        "y": 1700,
+        "y": 1840,
         "wires": [
             []
         ]
@@ -9491,7 +9491,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 1340,
-        "y": 1760,
+        "y": 1900,
         "wires": [
             []
         ]
@@ -9568,7 +9568,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 1060,
-        "y": 500,
+        "y": 580,
         "wires": [
             [
                 "9bf4aa10d1402099"
@@ -9608,13 +9608,14 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 590,
-        "y": 720,
+        "y": 860,
         "wires": [
             [
                 "66c60aad52f358c9"
             ],
             [
-                "adc16743.ab04f8"
+                "5ce9303e.d40b8",
+                "a11e7f07d9e3d59b"
             ]
         ]
     },
@@ -9729,7 +9730,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 1060,
-        "y": 620,
+        "y": 800,
         "wires": [
             [
                 "54922ba7.31ebb4"
@@ -9850,7 +9851,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 1010,
-        "y": 940,
+        "y": 1080,
         "wires": [
             [
                 "f348457a7db9ec8d"
@@ -10127,7 +10128,7 @@
             }
         ],
         "x": 460,
-        "y": 940,
+        "y": 1080,
         "wires": [
             [
                 "9e8a7cf7.88d51"
@@ -10246,7 +10247,7 @@
             }
         ],
         "x": 460,
-        "y": 1000,
+        "y": 1140,
         "wires": [
             [
                 "5fba04f5.3847ac"
@@ -10306,7 +10307,7 @@
             }
         ],
         "x": 460,
-        "y": 1060,
+        "y": 1200,
         "wires": [
             [
                 "cbdc5416.0cbcd8"
@@ -10366,7 +10367,7 @@
             }
         ],
         "x": 460,
-        "y": 1120,
+        "y": 1260,
         "wires": [
             [
                 "91b0640c.1b4d68"
@@ -10426,7 +10427,7 @@
             }
         ],
         "x": 460,
-        "y": 1260,
+        "y": 1400,
         "wires": [
             [
                 "1bd4cbe8.185c54"
@@ -10486,7 +10487,7 @@
             }
         ],
         "x": 460,
-        "y": 1320,
+        "y": 1460,
         "wires": [
             [
                 "234dfa41.bd6986"
@@ -10546,7 +10547,7 @@
             }
         ],
         "x": 460,
-        "y": 1380,
+        "y": 1520,
         "wires": [
             [
                 "66f4c227.6b8aac"
@@ -10606,7 +10607,7 @@
             }
         ],
         "x": 460,
-        "y": 1440,
+        "y": 1580,
         "wires": [
             [
                 "6e490cae.31f974"
@@ -10666,7 +10667,7 @@
             }
         ],
         "x": 460,
-        "y": 1580,
+        "y": 1720,
         "wires": [
             [
                 "4a4e04ddf8350706"
@@ -10757,7 +10758,7 @@
         "y": 480,
         "wires": [
             [
-                "0cebcecc7266486e"
+                "0a547d31ef1d15c3"
             ],
             [
                 "6f1eba702c95483a"
@@ -10813,7 +10814,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 610,
-        "y": 660,
+        "y": 780,
         "wires": [
             [
                 "c7b58913.752ad8"
@@ -10830,7 +10831,7 @@
         "name": "",
         "env": [],
         "x": 1330,
-        "y": 760,
+        "y": 920,
         "wires": [
             [
                 "955d17f64b59495b"
@@ -10869,54 +10870,12 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 1060,
-        "y": 760,
+        "y": 920,
         "wires": [
             [
                 "320c3cf2.5620d4"
             ],
             []
-        ]
-    },
-    {
-        "id": "adc16743.ab04f8",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "name": "thermostate living room is not heat",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "heat",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "climate.living_room",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 560,
-        "y": 780,
-        "wires": [
-            [
-                "5ce9303e.d40b8"
-            ],
-            [
-                "a11e7f07d9e3d59b"
-            ]
         ]
     },
     {
@@ -10952,7 +10911,7 @@
             "71e07fd77d2a4430"
         ],
         "x": 1535,
-        "y": 620,
+        "y": 800,
         "wires": []
     },
     {
@@ -10979,7 +10938,7 @@
             "71e07fd77d2a4430"
         ],
         "x": 1215,
-        "y": 940,
+        "y": 1080,
         "wires": []
     },
     {
@@ -11019,7 +10978,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 610,
-        "y": 600,
+        "y": 720,
         "wires": [
             [
                 "aa4bd88087bb3c75"
@@ -11066,7 +11025,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 560,
-        "y": 540,
+        "y": 660,
         "wires": [
             [
                 "aa4bd88087bb3c75"
@@ -11088,7 +11047,7 @@
         "template": "De laagste stand is automatisch ingeschakeld. Buiten is de absolute luchtvochtigheid hoger dan in de souterrain.",
         "output": "str",
         "x": 840,
-        "y": 500,
+        "y": 540,
         "wires": [
             [
                 "bfdcba16.625018"
@@ -11107,7 +11066,7 @@
         "template": "De laagste stand is automatisch ingeschakeld i.v.m. de regen.",
         "output": "str",
         "x": 840,
-        "y": 540,
+        "y": 620,
         "wires": [
             [
                 "bfdcba16.625018"
@@ -11126,7 +11085,7 @@
         "template": "De middelste stand is automatisch ingeschakeld. De luchtvochtigheid is {{sensor.basement_humidity}}%.",
         "output": "str",
         "x": 840,
-        "y": 620,
+        "y": 760,
         "wires": [
             [
                 "46771664.f639e8"
@@ -11145,7 +11104,7 @@
         "template": "De hoogste stand is automatisch ingeschakeld.",
         "output": "str",
         "x": 840,
-        "y": 760,
+        "y": 920,
         "wires": [
             [
                 "b5d8b43d.943a18"
@@ -11164,7 +11123,7 @@
         "template": "De middelste stand is automatisch ingeschakeld. Buiten is het onder de 5 graden celcius.",
         "output": "str",
         "x": 840,
-        "y": 660,
+        "y": 800,
         "wires": [
             [
                 "46771664.f639e8"
@@ -11183,10 +11142,118 @@
         "template": "De middelste stand is automatisch ingeschakeld. De verwarming in de woonkamer staat aan.",
         "output": "str",
         "x": 840,
-        "y": 700,
+        "y": 840,
         "wires": [
             [
                 "46771664.f639e8"
+            ]
+        ]
+    },
+    {
+        "id": "0a547d31ef1d15c3",
+        "type": "api-current-state",
+        "z": "4e909abe.0b62e4",
+        "name": "thermostate living room is not heat",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "heat",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "climate.living_room",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "x": 560,
+        "y": 540,
+        "wires": [
+            [
+                "8bd10319762b29f3"
+            ],
+            [
+                "85ae6ea3879f4c7f"
+            ]
+        ]
+    },
+    {
+        "id": "8bd10319762b29f3",
+        "type": "template",
+        "z": "4e909abe.0b62e4",
+        "name": "message",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "De laagste stand is automatisch ingeschakeld, de verwarming in de woonkamer staat aan.",
+        "output": "str",
+        "x": 840,
+        "y": 580,
+        "wires": [
+            [
+                "bfdcba16.625018"
+            ]
+        ]
+    },
+    {
+        "id": "85ae6ea3879f4c7f",
+        "type": "api-current-state",
+        "z": "4e909abe.0b62e4",
+        "name": "heating power living room",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "0",
+        "halt_if_type": "num",
+        "halt_if_compare": "gt",
+        "entity_id": "sensor.living_room_heating",
+        "state_type": "num",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 530,
+        "y": 600,
+        "wires": [
+            [
+                "8bd10319762b29f3"
+            ],
+            [
+                "0cebcecc7266486e"
             ]
         ]
     },
