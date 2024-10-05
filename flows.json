@@ -3536,8 +3536,8 @@
             "f8be03186a90817e",
             "aeab6ce43c9dc70c"
         ],
-        "x": 654,
-        "y": 639,
+        "x": 634,
+        "y": 759,
         "w": 672,
         "h": 182
     },
@@ -3564,8 +3564,8 @@
             "fa9bc69bfdcf7c2c",
             "1852cb62226e78b0"
         ],
-        "x": 654,
-        "y": 379,
+        "x": 634,
+        "y": 499,
         "w": 1052,
         "h": 242
     },
@@ -3588,12 +3588,15 @@
             "0d2317e40dbcbd17",
             "b564e25effcfc627",
             "edd4560b8748e246",
-            "ad80df2ec3316571"
+            "7921cddd0f314705",
+            "1d37dadaa58f945a",
+            "7bea96d351fd45a5",
+            "48e7a59d1dd38103"
         ],
-        "x": 654,
-        "y": 179,
-        "w": 672,
-        "h": 182
+        "x": 634,
+        "y": 119,
+        "w": 452,
+        "h": 362
     },
     {
         "id": "fc9a0630f16ecdaf",
@@ -3622,8 +3625,8 @@
             "6797374d5c5348f9",
             "9e2a2047fb3d0be1"
         ],
-        "x": 654,
-        "y": 839,
+        "x": 634,
+        "y": 959,
         "w": 932,
         "h": 242
     },
@@ -3645,7 +3648,7 @@
             "7c90580485197cda"
         ],
         "x": 994,
-        "y": 1519,
+        "y": 1819,
         "w": 412,
         "h": 202
     },
@@ -4385,7 +4388,7 @@
         "id": "4539dbe872caf169",
         "type": "junction",
         "z": "39f5e6336137f4b2",
-        "x": 820,
+        "x": 980,
         "y": 160,
         "wires": [
             [
@@ -4397,7 +4400,7 @@
         "id": "f8003d1746659317",
         "type": "junction",
         "z": "39f5e6336137f4b2",
-        "x": 440,
+        "x": 600,
         "y": 240,
         "wires": [
             [
@@ -4750,8 +4753,8 @@
         "type": "junction",
         "z": "fd9cd80f14f860fe",
         "g": "2ff8dfb43d1ba6a3",
-        "x": 680,
-        "y": 720,
+        "x": 660,
+        "y": 840,
         "wires": [
             [
                 "03b947a910d98181",
@@ -4764,8 +4767,8 @@
         "type": "junction",
         "z": "fd9cd80f14f860fe",
         "g": "fc9a0630f16ecdaf",
-        "x": 680,
-        "y": 920,
+        "x": 660,
+        "y": 1040,
         "wires": [
             [
                 "33f7961ae7010284",
@@ -4779,8 +4782,8 @@
         "type": "junction",
         "z": "fd9cd80f14f860fe",
         "g": "cd256ec259a611f4",
-        "x": 680,
-        "y": 460,
+        "x": 660,
+        "y": 580,
         "wires": [
             [
                 "64218c054bcb7baf",
@@ -4794,12 +4797,15 @@
         "type": "junction",
         "z": "fd9cd80f14f860fe",
         "g": "d3868dc5f4aa2d65",
-        "x": 680,
-        "y": 260,
+        "x": 660,
+        "y": 200,
         "wires": [
             [
                 "f9e486866e6d65f1",
-                "0d2317e40dbcbd17"
+                "48e7a59d1dd38103",
+                "7921cddd0f314705",
+                "7bea96d351fd45a5",
+                "1d37dadaa58f945a"
             ]
         ]
     },
@@ -4809,7 +4815,7 @@
         "z": "fd9cd80f14f860fe",
         "g": "3deebaf17197f452",
         "x": 1020,
-        "y": 1600,
+        "y": 1900,
         "wires": [
             [
                 "aaefbd870a81bd90",
@@ -20723,7 +20729,7 @@
         "repair": false,
         "outputs": 2,
         "x": 350,
-        "y": 200,
+        "y": 160,
         "wires": [
             [
                 "d9540c933a60aec7",
@@ -20753,7 +20759,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 520,
+        "x": 680,
         "y": 160,
         "wires": [
             [
@@ -20779,7 +20785,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 760,
+        "x": 920,
         "y": 240,
         "wires": [
             [
@@ -20805,7 +20811,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 960,
+        "x": 1120,
         "y": 240,
         "wires": [
             [
@@ -20836,7 +20842,7 @@
         "blockInputOverrides": false,
         "domain": "webostv",
         "service": "command",
-        "x": 520,
+        "x": 680,
         "y": 200,
         "wires": [
             []
@@ -20872,7 +20878,7 @@
         "blockInputOverrides": false,
         "domain": "notify",
         "service": "lg_webos_smart_tv",
-        "x": 960,
+        "x": 1120,
         "y": 300,
         "wires": [
             []
@@ -20901,7 +20907,7 @@
         "blockInputOverrides": false,
         "domain": "webostv",
         "service": "command",
-        "x": 1140,
+        "x": 1300,
         "y": 240,
         "wires": [
             []
@@ -20911,7 +20917,7 @@
         "id": "a50b36c508ee1125",
         "type": "server-state-changed",
         "z": "39f5e6336137f4b2",
-        "name": "mediaplayer shield is not playing",
+        "name": "universal tv is not playing",
         "server": "4ba92433.2478cc",
         "version": 6,
         "outputs": 1,
@@ -20923,7 +20929,65 @@
             "substring": [],
             "regex": []
         },
-        "outputInitially": false,
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": false,
+        "for": "",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "b17acb7df0bb2bd2"
+            ]
+        ]
+    },
+    {
+        "id": "710a9c0fa290ab6f",
+        "type": "server-state-changed",
+        "z": "39f5e6336137f4b2",
+        "name": "mediaplayer shield is idle",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "media_player.shield"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
         "stateType": "str",
         "ifState": "",
         "ifStateType": "str",
@@ -20958,10 +21022,60 @@
             }
         ],
         "x": 150,
-        "y": 160,
+        "y": 280,
         "wires": [
             [
-                "b17acb7df0bb2bd2"
+                "b822a9f31018d2a0"
+            ]
+        ]
+    },
+    {
+        "id": "b822a9f31018d2a0",
+        "type": "switch",
+        "z": "39f5e6336137f4b2",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "idle",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 350,
+        "y": 280,
+        "wires": [
+            [
+                "a325b77f020cd697"
+            ]
+        ]
+    },
+    {
+        "id": "a325b77f020cd697",
+        "type": "switch",
+        "z": "39f5e6336137f4b2",
+        "name": "",
+        "property": "data.new_state.attributes.app_name",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "NLZIET",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 470,
+        "y": 280,
+        "wires": [
+            [
+                "f8003d1746659317"
             ]
         ]
     },
@@ -48769,8 +48883,8 @@
         "g": "2ff8dfb43d1ba6a3",
         "name": "Radio",
         "info": "",
-        "x": 790,
-        "y": 680,
+        "x": 770,
+        "y": 800,
         "wires": []
     },
     {
@@ -48780,8 +48894,8 @@
         "g": "cd256ec259a611f4",
         "name": "TV",
         "info": "",
-        "x": 790,
-        "y": 420,
+        "x": 770,
+        "y": 540,
         "wires": []
     },
     {
@@ -48792,7 +48906,7 @@
         "name": "Uitschakelen",
         "info": "",
         "x": 810,
-        "y": 220,
+        "y": 160,
         "wires": []
     },
     {
@@ -48807,8 +48921,8 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 950,
-        "y": 980,
+        "x": 930,
+        "y": 1100,
         "wires": [
             [
                 "ae3e3c86c7a641ae"
@@ -48833,8 +48947,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1070,
-        "y": 980,
+        "x": 1050,
+        "y": 1100,
         "wires": [
             [
                 "afc206d613ea28f4"
@@ -48854,8 +48968,8 @@
         "septopics": true,
         "property": "payload.state",
         "topi": "topic",
-        "x": 1190,
-        "y": 980,
+        "x": 1170,
+        "y": 1100,
         "wires": [
             [
                 "aa0c955739836a72"
@@ -48872,8 +48986,8 @@
         "links": [
             "7264146e613f154c"
         ],
-        "x": 1275,
-        "y": 980,
+        "x": 1255,
+        "y": 1100,
         "wires": []
     },
     {
@@ -48883,8 +48997,8 @@
         "g": "fc9a0630f16ecdaf",
         "name": "Spotify",
         "info": "",
-        "x": 790,
-        "y": 880,
+        "x": 770,
+        "y": 1000,
         "wires": []
     },
     {
@@ -48900,7 +49014,7 @@
         "template": "",
         "output": "str",
         "x": 1110,
-        "y": 1640,
+        "y": 1940,
         "wires": [
             [
                 "dca8060d69453e87"
@@ -48920,7 +49034,7 @@
         "template": "Entertainment",
         "output": "str",
         "x": 1110,
-        "y": 1560,
+        "y": 1860,
         "wires": [
             [
                 "dca8060d69453e87"
@@ -48938,7 +49052,7 @@
             "c13b2b4d87067c17"
         ],
         "x": 1365,
-        "y": 1600,
+        "y": 1900,
         "wires": []
     },
     {
@@ -48963,7 +49077,7 @@
         "reduceInitType": "",
         "reduceFixup": "",
         "x": 1270,
-        "y": 1600,
+        "y": 1900,
         "wires": [
             [
                 "2c7cc629bd4dabbf"
@@ -48983,7 +49097,7 @@
         "template": "pause_entertaiment",
         "output": "str",
         "x": 1130,
-        "y": 1680,
+        "y": 1980,
         "wires": [
             [
                 "dca8060d69453e87"
@@ -49003,7 +49117,7 @@
         "template": "TV gepauseerd i.v.m. telefoongesprek.",
         "output": "str",
         "x": 1120,
-        "y": 1600,
+        "y": 1900,
         "wires": [
             [
                 "dca8060d69453e87"
@@ -49085,8 +49199,8 @@
         "z": "fd9cd80f14f860fe",
         "name": "pause when phone is off hook",
         "info": "",
-        "x": 180,
-        "y": 1420,
+        "x": 160,
+        "y": 1740,
         "wires": []
     },
     {
@@ -49111,8 +49225,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 330,
-        "y": 1460,
+        "x": 310,
+        "y": 1780,
         "wires": [
             [
                 "a7ae16757970717f"
@@ -49128,8 +49242,8 @@
         "z": "fd9cd80f14f860fe",
         "name": "select entertainment activity based on powernode content",
         "info": "",
-        "x": 270,
-        "y": 1260,
+        "x": 250,
+        "y": 1440,
         "wires": []
     },
     {
@@ -49149,8 +49263,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 350,
-        "y": 1300,
+        "x": 330,
+        "y": 1480,
         "wires": [
             [
                 "0a97895675822841"
@@ -49174,8 +49288,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 750,
-        "y": 1300,
+        "x": 730,
+        "y": 1480,
         "wires": [
             [
                 "167fb4439eb061eb"
@@ -49199,8 +49313,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 610,
-        "y": 1300,
+        "x": 590,
+        "y": 1480,
         "wires": [
             [
                 "cbfb0a5eb7b1a139"
@@ -49219,8 +49333,8 @@
         "septopics": true,
         "property": "payload",
         "topi": "topic",
-        "x": 470,
-        "y": 1300,
+        "x": 450,
+        "y": 1480,
         "wires": [
             [
                 "37a61d11bf9ce0ab"
@@ -49233,8 +49347,8 @@
         "z": "fd9cd80f14f860fe",
         "name": "select entertainment activity based on media player content",
         "info": "",
-        "x": 270,
-        "y": 1140,
+        "x": 250,
+        "y": 1320,
         "wires": []
     },
     {
@@ -49254,8 +49368,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 510,
-        "y": 1180,
+        "x": 490,
+        "y": 1360,
         "wires": [
             [
                 "0e05b01a3088ebe6"
@@ -49274,8 +49388,8 @@
         "septopics": true,
         "property": "data.new_state.attributes.source",
         "topi": "topic",
-        "x": 370,
-        "y": 1180,
+        "x": 350,
+        "y": 1360,
         "wires": [
             [
                 "210f99cc3d429b16"
@@ -49294,27 +49408,33 @@
                 "t": "eq",
                 "v": "NLZIET",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 1,
+        "outputs": 2,
         "x": 340,
-        "y": 1860,
+        "y": 1600,
         "wires": [
             [
                 "68088e8c9c8a0e54"
-            ]
+            ],
+            []
         ]
     },
     {
         "id": "2784788ce65fb972",
         "type": "comment",
         "z": "fd9cd80f14f860fe",
-        "name": "events based on app name",
+        "name": "events based on nvidia shield app name",
         "info": "",
-        "x": 170,
-        "y": 1820,
+        "x": 190,
+        "y": 1560,
         "wires": []
     },
     {
@@ -49343,8 +49463,8 @@
         "blockInputOverrides": false,
         "domain": "media_player",
         "service": "turn_off",
-        "x": 1030,
-        "y": 1040,
+        "x": 1010,
+        "y": 1160,
         "wires": [
             []
         ]
@@ -49375,8 +49495,8 @@
         "blockInputOverrides": false,
         "domain": "media_player",
         "service": "turn_off",
-        "x": 1030,
-        "y": 780,
+        "x": 1010,
+        "y": 900,
         "wires": [
             []
         ]
@@ -49407,8 +49527,8 @@
         "blockInputOverrides": false,
         "domain": "media_player",
         "service": "media_stop",
-        "x": 860,
-        "y": 580,
+        "x": 840,
+        "y": 700,
         "wires": [
             [
                 "54b7f080b2edea10"
@@ -49441,12 +49561,10 @@
         "blockInputOverrides": false,
         "domain": "media_player",
         "service": "turn_off",
-        "x": 830,
+        "x": 970,
         "y": 260,
         "wires": [
-            [
-                "ad80df2ec3316571"
-            ]
+            []
         ]
     },
     {
@@ -49475,8 +49593,8 @@
         "blockInputOverrides": false,
         "domain": "media_player",
         "service": "media_play",
-        "x": 1560,
-        "y": 580,
+        "x": 1540,
+        "y": 700,
         "wires": [
             []
         ]
@@ -49508,7 +49626,7 @@
         "domain": "media_player",
         "service": "media_stop",
         "x": 860,
-        "y": 320,
+        "y": 380,
         "wires": [
             []
         ]
@@ -49539,8 +49657,8 @@
         "blockInputOverrides": false,
         "domain": "media_player",
         "service": "turn_on",
-        "x": 1030,
-        "y": 460,
+        "x": 1010,
+        "y": 580,
         "wires": [
             []
         ]
@@ -49569,8 +49687,8 @@
         "blockInputOverrides": false,
         "domain": "webostv",
         "service": "command",
-        "x": 820,
-        "y": 520,
+        "x": 800,
+        "y": 640,
         "wires": [
             []
         ]
@@ -49601,8 +49719,8 @@
         "blockInputOverrides": false,
         "domain": "media_player",
         "service": "select_source",
-        "x": 1230,
-        "y": 580,
+        "x": 1210,
+        "y": 700,
         "wires": [
             [
                 "18e6577d292535de"
@@ -49635,8 +49753,8 @@
         "blockInputOverrides": false,
         "domain": "media_player",
         "service": "select_source",
-        "x": 1440,
-        "y": 920,
+        "x": 1420,
+        "y": 1040,
         "wires": [
             []
         ]
@@ -49667,8 +49785,8 @@
         "blockInputOverrides": false,
         "domain": "media_player",
         "service": "clear_playlist",
-        "x": 1150,
-        "y": 920,
+        "x": 1130,
+        "y": 1040,
         "wires": [
             [
                 "e020d358e653c079"
@@ -49701,8 +49819,8 @@
         "blockInputOverrides": false,
         "domain": "media_player",
         "service": "media_stop",
-        "x": 860,
-        "y": 920,
+        "x": 840,
+        "y": 1040,
         "wires": [
             [
                 "2088e9c0c8feb10f"
@@ -49735,8 +49853,8 @@
         "blockInputOverrides": false,
         "domain": "media_player",
         "service": "clear_playlist",
-        "x": 1150,
-        "y": 720,
+        "x": 1130,
+        "y": 840,
         "wires": [
             []
         ]
@@ -49767,8 +49885,8 @@
         "blockInputOverrides": false,
         "domain": "media_player",
         "service": "media_stop",
-        "x": 860,
-        "y": 720,
+        "x": 840,
+        "y": 840,
         "wires": [
             [
                 "29e2ecd31302f193"
@@ -49800,8 +49918,8 @@
         "blockInputOverrides": false,
         "domain": "media_player",
         "service": "media_pause",
-        "x": 1150,
-        "y": 1460,
+        "x": 1130,
+        "y": 1780,
         "wires": [
             []
         ]
@@ -49831,8 +49949,8 @@
         "blockInputOverrides": false,
         "domain": "input_select",
         "service": "select_option",
-        "x": 1280,
-        "y": 1300,
+        "x": 1260,
+        "y": 1480,
         "wires": [
             []
         ]
@@ -49862,8 +49980,8 @@
         "blockInputOverrides": false,
         "domain": "input_select",
         "service": "select_option",
-        "x": 1380,
-        "y": 1180,
+        "x": 1360,
+        "y": 1360,
         "wires": [
             []
         ]
@@ -49894,7 +50012,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 910,
-        "y": 1860,
+        "y": 1600,
         "wires": [
             []
         ]
@@ -49936,8 +50054,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 830,
-        "y": 1040,
+        "x": 810,
+        "y": 1160,
         "wires": [
             [
                 "9e2a2047fb3d0be1"
@@ -49982,8 +50100,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 830,
-        "y": 780,
+        "x": 810,
+        "y": 900,
         "wires": [
             [
                 "aeab6ce43c9dc70c"
@@ -50028,8 +50146,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 830,
-        "y": 460,
+        "x": 810,
+        "y": 580,
         "wires": [
             [
                 "f47b4545239299ad"
@@ -50073,8 +50191,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 540,
-        "y": 1440,
+        "x": 520,
+        "y": 1760,
         "wires": [
             [
                 "fdca445a404c15cc"
@@ -50118,8 +50236,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 830,
-        "y": 1460,
+        "x": 810,
+        "y": 1780,
         "wires": [
             [
                 "f06607d23ea600e0",
@@ -50164,8 +50282,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 540,
-        "y": 1500,
+        "x": 520,
+        "y": 1820,
         "wires": [
             [
                 "fdca445a404c15cc"
@@ -50204,8 +50322,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 970,
-        "y": 1300,
+        "x": 950,
+        "y": 1480,
         "wires": [
             [
                 "44ccff64331a48d4"
@@ -50249,8 +50367,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 1060,
-        "y": 1180,
+        "x": 1040,
+        "y": 1360,
         "wires": [
             [
                 "e6b09e369fa79397"
@@ -50289,8 +50407,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 730,
-        "y": 1180,
+        "x": 710,
+        "y": 1360,
         "wires": [
             [
                 "6739b21acd1ca7bf"
@@ -50335,7 +50453,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 590,
-        "y": 1860,
+        "y": 1600,
         "wires": [
             [
                 "207e1edd1118b4af"
@@ -50359,7 +50477,7 @@
             "substring": [],
             "regex": []
         },
-        "outputInitially": false,
+        "outputInitially": true,
         "stateType": "str",
         "ifState": "",
         "ifStateType": "str",
@@ -50451,8 +50569,8 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 140,
-        "y": 1460,
+        "x": 120,
+        "y": 1780,
         "wires": [
             [
                 "4f9dcb4526aa6e68"
@@ -50510,8 +50628,8 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 160,
-        "y": 1300,
+        "x": 140,
+        "y": 1480,
         "wires": [
             [
                 "d2469e552aa559a3"
@@ -50569,8 +50687,8 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 160,
-        "y": 1180,
+        "x": 140,
+        "y": 1360,
         "wires": [
             [
                 "607fbdf5b40786a0"
@@ -50627,11 +50745,12 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 150,
-        "y": 1860,
+        "x": 130,
+        "y": 1600,
         "wires": [
             [
-                "1bea28fe624c37b2"
+                "1bea28fe624c37b2",
+                "21414367448d6645"
             ],
             []
         ]
@@ -50658,8 +50777,8 @@
         "outputLocationType": "msg",
         "outputLocation": "payload",
         "outputResultsCount": 1,
-        "x": 810,
-        "y": 980,
+        "x": 790,
+        "y": 1100,
         "wires": [
             [
                 "496e9f6b60f7e763"
@@ -50671,7 +50790,7 @@
         "type": "api-call-service",
         "z": "fd9cd80f14f860fe",
         "g": "d3868dc5f4aa2d65",
-        "name": "tvscreen turn off",
+        "name": "tv turn off",
         "server": "4ba92433.2478cc",
         "version": 7,
         "debugenabled": false,
@@ -50690,36 +50809,10 @@
         "blockInputOverrides": false,
         "domain": "webostv",
         "service": "command",
-        "x": 1220,
-        "y": 260,
+        "x": 940,
+        "y": 320,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "ad80df2ec3316571",
-        "type": "delay",
-        "z": "fd9cd80f14f860fe",
-        "g": "d3868dc5f4aa2d65",
-        "name": "",
-        "pauseType": "delay",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1060,
-        "y": 260,
-        "wires": [
-            [
-                "edd4560b8748e246"
-            ]
         ]
     },
     {
@@ -50790,6 +50883,137 @@
             [
                 "2c1c31327d39c466"
             ]
+        ]
+    },
+    {
+        "id": "21414367448d6645",
+        "type": "debug",
+        "z": "fd9cd80f14f860fe",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "7921cddd0f314705",
+        "type": "api-call-service",
+        "z": "fd9cd80f14f860fe",
+        "g": "d3868dc5f4aa2d65",
+        "name": "turn off nvidia shield",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.turn_off",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "media_player.shield"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "media_player",
+        "service": "turn_off",
+        "x": 840,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1d37dadaa58f945a",
+        "type": "delay",
+        "z": "fd9cd80f14f860fe",
+        "g": "d3868dc5f4aa2d65",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "4",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 800,
+        "y": 320,
+        "wires": [
+            [
+                "edd4560b8748e246"
+            ]
+        ]
+    },
+    {
+        "id": "7bea96d351fd45a5",
+        "type": "delay",
+        "z": "fd9cd80f14f860fe",
+        "g": "d3868dc5f4aa2d65",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 800,
+        "y": 260,
+        "wires": [
+            [
+                "0d2317e40dbcbd17"
+            ]
+        ]
+    },
+    {
+        "id": "48e7a59d1dd38103",
+        "type": "api-call-service",
+        "z": "fd9cd80f14f860fe",
+        "g": "d3868dc5f4aa2d65",
+        "name": "tvscreen turn off",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "webostv.command",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"entity_id\":\"media_player.lg_webos_smart_tv\",\"command\":\"com.webos.service.tvpower/power/turnOffScreen\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "webostv",
+        "service": "command",
+        "x": 820,
+        "y": 440,
+        "wires": [
+            []
         ]
     }
 ]
