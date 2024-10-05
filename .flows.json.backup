@@ -109,14 +109,6 @@
         "env": []
     },
     {
-        "id": "fd9cd80f14f860fe",
-        "type": "tab",
-        "label": "entertainment_activity",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "53a5f07742283c4c",
         "type": "tab",
         "label": "entertainment_spotify_api",
@@ -941,7 +933,7 @@
             "e3fe28933ad4f9bd"
         ],
         "x": 674,
-        "y": 79,
+        "y": 139,
         "w": 442,
         "h": 202
     },
@@ -962,7 +954,7 @@
             "8205d58f610c05d0"
         ],
         "x": 1834,
-        "y": 679,
+        "y": 779,
         "w": 472,
         "h": 162
     },
@@ -983,7 +975,7 @@
             "0fa8b59e2735c07d"
         ],
         "x": 1834,
-        "y": 279,
+        "y": 379,
         "w": 472,
         "h": 162
     },
@@ -1005,7 +997,7 @@
             "0e83125ead481334"
         ],
         "x": 1834,
-        "y": 459,
+        "y": 559,
         "w": 472,
         "h": 202
     },
@@ -1032,139 +1024,6 @@
         "y": 39,
         "w": 502,
         "h": 82
-    },
-    {
-        "id": "2ff8dfb43d1ba6a3",
-        "type": "group",
-        "z": "fd9cd80f14f860fe",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "eab9993ce7699f6b",
-            "03b947a910d98181",
-            "29e2ecd31302f193",
-            "e07be8f58a2d80b1",
-            "f8be03186a90817e",
-            "aeab6ce43c9dc70c"
-        ],
-        "x": 654,
-        "y": 519,
-        "w": 672,
-        "h": 182
-    },
-    {
-        "id": "cd256ec259a611f4",
-        "type": "group",
-        "z": "fd9cd80f14f860fe",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "f47b4545239299ad",
-            "64218c054bcb7baf",
-            "54b7f080b2edea10",
-            "1e7eae419a9ec64f",
-            "18e6577d292535de",
-            "61e6d10bbacb84be",
-            "fa9bc69bfdcf7c2c",
-            "1852cb62226e78b0"
-        ],
-        "x": 654,
-        "y": 259,
-        "w": 1052,
-        "h": 242
-    },
-    {
-        "id": "d3868dc5f4aa2d65",
-        "type": "group",
-        "z": "fd9cd80f14f860fe",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "f9e486866e6d65f1",
-            "1f82b6c0e5dbebf0",
-            "0d2317e40dbcbd17",
-            "b564e25effcfc627",
-            "b3f70eca695d41a4"
-        ],
-        "x": 654,
-        "y": 59,
-        "w": 492,
-        "h": 182
-    },
-    {
-        "id": "fc9a0630f16ecdaf",
-        "type": "group",
-        "z": "fd9cd80f14f860fe",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "e020d358e653c079",
-            "33f7961ae7010284",
-            "496e9f6b60f7e763",
-            "ae3e3c86c7a641ae",
-            "afc206d613ea28f4",
-            "aa0c955739836a72",
-            "38e2ec5bd89aa669",
-            "2088e9c0c8feb10f",
-            "95ff475953e46b14",
-            "0e86c16e42286a1a",
-            "6797374d5c5348f9",
-            "9e2a2047fb3d0be1"
-        ],
-        "x": 654,
-        "y": 719,
-        "w": 932,
-        "h": 242
-    },
-    {
-        "id": "3deebaf17197f452",
-        "type": "group",
-        "z": "fd9cd80f14f860fe",
-        "name": "notify",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "f562bc76d4f77c72",
-            "aaefbd870a81bd90",
-            "2c7cc629bd4dabbf",
-            "dca8060d69453e87",
-            "594222d1e705061c",
-            "c6c71296e724485a",
-            "7c90580485197cda"
-        ],
-        "x": 994,
-        "y": 1399,
-        "w": 412,
-        "h": 202
     },
     {
         "id": "03c1d7472447f924",
@@ -2346,6 +2205,174 @@
         "h": 122
     },
     {
+        "id": "075f4d9b063c9dbd",
+        "type": "group",
+        "z": "2a2d89771193fb8b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a852520ede8524df",
+            "c066170d3d0fe3c7",
+            "71c8efae8c1d420b",
+            "3a79dff06163c162"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "790b21b9d3f0df95",
+        "type": "group",
+        "z": "3d30857f5165e137",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ce38a20b6edb30fe",
+            "859d7340dcad2e19",
+            "8b8c16211a8b72d6",
+            "1eda23dd9f8e2572"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "5eb2a483b2644796",
+        "type": "group",
+        "z": "e98ae3c9db1bd6c3",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e2aad0c5c8a8a6c8",
+            "92ae0a959b86c0cc",
+            "4d9e677df669290b",
+            "2ba2b814332015f0"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "7a6662144d2d489c",
+        "type": "group",
+        "z": "55da1471.fda0fc",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "144ebe3499c86989",
+            "dbd017147d154790",
+            "4d1450df9aae47f1",
+            "74b269c1337cbb9d"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "7c9dc6f46ee8eaaf",
+        "type": "group",
+        "z": "29a2e1dd05ecbf80",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ed749a88cd5bd834",
+            "89d0c5bcdd39fd4c",
+            "b7a8e5cc57ee6ca0",
+            "e33e1e962d57e077"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "53dc0a23c8426878",
+        "type": "group",
+        "z": "03ed0365a1543556",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "874b60377e719fde",
+            "387845d9698cbe12",
+            "7bf74cbdd5a69c4a",
+            "dfa305742a8fe0b2"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "6378d23d20fd57d5",
+        "type": "group",
+        "z": "9f9f94838a3fcd77",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b85e156a673c59d5",
+            "ce529429a2626c93",
+            "6399bb828d61b11b",
+            "4bf210a3e31f4a3d"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 502,
+        "h": 82
+    },
+    {
         "id": "f7038caa7a76e6f3",
         "type": "junction",
         "z": "a7a34028d045deee",
@@ -2384,7 +2411,7 @@
         "z": "e98ae3c9db1bd6c3",
         "g": "bd6a21379a46d377",
         "x": 700,
-        "y": 160,
+        "y": 220,
         "wires": [
             [
                 "65114fbadc1625ff",
@@ -2400,7 +2427,7 @@
         "z": "55da1471.fda0fc",
         "g": "faf17088fd1a6b16",
         "x": 1860,
-        "y": 740,
+        "y": 840,
         "wires": [
             [
                 "035b931bd0cea26e",
@@ -2415,7 +2442,7 @@
         "z": "55da1471.fda0fc",
         "g": "deb17c414e79ec63",
         "x": 1860,
-        "y": 340,
+        "y": 440,
         "wires": [
             [
                 "dec04d7f3b819fb2",
@@ -2430,87 +2457,13 @@
         "z": "55da1471.fda0fc",
         "g": "33fea7faee8e1f82",
         "x": 1860,
-        "y": 540,
+        "y": 640,
         "wires": [
             [
                 "d5ae8df68946471a",
                 "8f3e39fd9d879f86",
                 "09d4cdb039e852de",
                 "0e83125ead481334"
-            ]
-        ]
-    },
-    {
-        "id": "e07be8f58a2d80b1",
-        "type": "junction",
-        "z": "fd9cd80f14f860fe",
-        "g": "2ff8dfb43d1ba6a3",
-        "x": 680,
-        "y": 600,
-        "wires": [
-            [
-                "03b947a910d98181",
-                "f8be03186a90817e"
-            ]
-        ]
-    },
-    {
-        "id": "0e86c16e42286a1a",
-        "type": "junction",
-        "z": "fd9cd80f14f860fe",
-        "g": "fc9a0630f16ecdaf",
-        "x": 680,
-        "y": 800,
-        "wires": [
-            [
-                "33f7961ae7010284",
-                "95ff475953e46b14",
-                "6797374d5c5348f9"
-            ]
-        ]
-    },
-    {
-        "id": "61e6d10bbacb84be",
-        "type": "junction",
-        "z": "fd9cd80f14f860fe",
-        "g": "cd256ec259a611f4",
-        "x": 680,
-        "y": 340,
-        "wires": [
-            [
-                "64218c054bcb7baf",
-                "fa9bc69bfdcf7c2c",
-                "1852cb62226e78b0"
-            ]
-        ]
-    },
-    {
-        "id": "b564e25effcfc627",
-        "type": "junction",
-        "z": "fd9cd80f14f860fe",
-        "g": "d3868dc5f4aa2d65",
-        "x": 680,
-        "y": 140,
-        "wires": [
-            [
-                "f9e486866e6d65f1",
-                "0d2317e40dbcbd17"
-            ]
-        ]
-    },
-    {
-        "id": "594222d1e705061c",
-        "type": "junction",
-        "z": "fd9cd80f14f860fe",
-        "g": "3deebaf17197f452",
-        "x": 1020,
-        "y": 1480,
-        "wires": [
-            [
-                "aaefbd870a81bd90",
-                "f562bc76d4f77c72",
-                "c6c71296e724485a",
-                "7c90580485197cda"
             ]
         ]
     },
@@ -3037,8 +2990,8 @@
         "id": "1bcfdae4fb034efd",
         "type": "junction",
         "z": "3d30857f5165e137",
-        "x": 1040,
-        "y": 140,
+        "x": 1060,
+        "y": 260,
         "wires": [
             [
                 "59e4a09ae6f431cd"
@@ -3049,8 +3002,8 @@
         "id": "e40aff179bd30a9b",
         "type": "junction",
         "z": "3d30857f5165e137",
-        "x": 1040,
-        "y": 60,
+        "x": 1060,
+        "y": 180,
         "wires": [
             [
                 "59e4a09ae6f431cd"
@@ -3062,7 +3015,7 @@
         "type": "junction",
         "z": "55da1471.fda0fc",
         "x": 660,
-        "y": 300,
+        "y": 400,
         "wires": [
             [
                 "1351cb3a.cc7995"
@@ -8424,7 +8377,7 @@
         "name": "Get location when door is open",
         "info": "",
         "x": 150,
-        "y": 40,
+        "y": 140,
         "wires": []
     },
     {
@@ -8451,7 +8404,7 @@
         "domain": "notify",
         "service": "mobile_app_phone_coen",
         "x": 310,
-        "y": 80,
+        "y": 180,
         "wires": [
             []
         ]
@@ -8480,7 +8433,7 @@
         "domain": "notify",
         "service": "mobile_app_phone_anne",
         "x": 310,
-        "y": 140,
+        "y": 240,
         "wires": [
             []
         ]
@@ -8536,7 +8489,7 @@
             }
         ],
         "x": 100,
-        "y": 80,
+        "y": 180,
         "wires": [
             [
                 "249f5902cd409334",
@@ -8595,11 +8548,81 @@
             }
         ],
         "x": 100,
-        "y": 140,
+        "y": 240,
         "wires": [
             [
                 "249f5902cd409334",
                 "21f329f381fe5581"
+            ]
+        ]
+    },
+    {
+        "id": "a852520ede8524df",
+        "type": "catch",
+        "z": "2a2d89771193fb8b",
+        "g": "075f4d9b063c9dbd",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 60,
+        "wires": [
+            [
+                "c066170d3d0fe3c7"
+            ]
+        ]
+    },
+    {
+        "id": "c066170d3d0fe3c7",
+        "type": "template",
+        "z": "2a2d89771193fb8b",
+        "g": "075f4d9b063c9dbd",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 60,
+        "wires": [
+            [
+                "3a79dff06163c162"
+            ]
+        ]
+    },
+    {
+        "id": "71c8efae8c1d420b",
+        "type": "link out",
+        "z": "2a2d89771193fb8b",
+        "g": "075f4d9b063c9dbd",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "3a79dff06163c162",
+        "type": "template",
+        "z": "2a2d89771193fb8b",
+        "g": "075f4d9b063c9dbd",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 60,
+        "wires": [
+            [
+                "71c8efae8c1d420b"
             ]
         ]
     },
@@ -12288,7 +12311,7 @@
         "domain": "fan",
         "service": "turn_on",
         "x": 320,
-        "y": 60,
+        "y": 160,
         "wires": [
             []
         ]
@@ -12319,7 +12342,7 @@
         "domain": "fan",
         "service": "turn_off",
         "x": 1180,
-        "y": 60,
+        "y": 180,
         "wires": [
             []
         ]
@@ -12375,7 +12398,7 @@
             }
         ],
         "x": 110,
-        "y": 60,
+        "y": 160,
         "wires": [
             [
                 "25d79c8787fd1812",
@@ -12412,7 +12435,7 @@
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 420,
-        "y": 120,
+        "y": 220,
         "wires": [
             [
                 "e40aff179bd30a9b"
@@ -12450,7 +12473,7 @@
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 740,
-        "y": 140,
+        "y": 260,
         "wires": [
             [
                 "6433045b1f3b4f8e"
@@ -12469,13 +12492,83 @@
         "payloadtype": "num",
         "payloadval": "0",
         "name": "",
-        "x": 960,
-        "y": 100,
+        "x": 980,
+        "y": 220,
         "wires": [
             [
                 "59e4a09ae6f431cd"
             ],
             []
+        ]
+    },
+    {
+        "id": "ce38a20b6edb30fe",
+        "type": "catch",
+        "z": "3d30857f5165e137",
+        "g": "790b21b9d3f0df95",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "859d7340dcad2e19"
+            ]
+        ]
+    },
+    {
+        "id": "859d7340dcad2e19",
+        "type": "template",
+        "z": "3d30857f5165e137",
+        "g": "790b21b9d3f0df95",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "1eda23dd9f8e2572"
+            ]
+        ]
+    },
+    {
+        "id": "8b8c16211a8b72d6",
+        "type": "link out",
+        "z": "3d30857f5165e137",
+        "g": "790b21b9d3f0df95",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "1eda23dd9f8e2572",
+        "type": "template",
+        "z": "3d30857f5165e137",
+        "g": "790b21b9d3f0df95",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "8b8c16211a8b72d6"
+            ]
         ]
     },
     {
@@ -12491,7 +12584,7 @@
         "template": "vacation_mode",
         "output": "str",
         "x": 810,
-        "y": 240,
+        "y": 300,
         "wires": [
             [
                 "dc2683f08bbcdd2e"
@@ -12540,7 +12633,7 @@
         "to": "",
         "reg": false,
         "x": 810,
-        "y": 160,
+        "y": 220,
         "wires": [
             [
                 "dc2683f08bbcdd2e"
@@ -12569,7 +12662,7 @@
         "reduceInitType": "",
         "reduceFixup": "",
         "x": 990,
-        "y": 160,
+        "y": 220,
         "wires": [
             [
                 "b53dc3ab1408794a"
@@ -12588,7 +12681,7 @@
             "d1753081ba6b4004"
         ],
         "x": 1075,
-        "y": 160,
+        "y": 220,
         "wires": []
     },
     {
@@ -12604,7 +12697,7 @@
         "template": "Vakantiemodus",
         "output": "str",
         "x": 790,
-        "y": 120,
+        "y": 180,
         "wires": [
             [
                 "dc2683f08bbcdd2e"
@@ -12624,7 +12717,7 @@
         "template": "",
         "output": "str",
         "x": 790,
-        "y": 200,
+        "y": 260,
         "wires": [
             [
                 "dc2683f08bbcdd2e"
@@ -12649,7 +12742,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 110,
-        "y": 440,
+        "y": 500,
         "wires": [
             [
                 "4aec915beb25bfb5"
@@ -12674,7 +12767,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1380,
-        "y": 440,
+        "y": 500,
         "wires": [
             [
                 "e2878c3736a9cd88"
@@ -12699,7 +12792,7 @@
         "repair": false,
         "outputs": 1,
         "x": 250,
-        "y": 340,
+        "y": 400,
         "wires": [
             [
                 "2da11a2951cd690b"
@@ -12713,7 +12806,7 @@
         "name": "turn off vacation mode when someone comes home",
         "info": "",
         "x": 230,
-        "y": 300,
+        "y": 360,
         "wires": []
     },
     {
@@ -12723,7 +12816,7 @@
         "name": "if person is not home for 1 day ask if the vacation mode has to be turn on",
         "info": "",
         "x": 300,
-        "y": 100,
+        "y": 160,
         "wires": []
     },
     {
@@ -12733,7 +12826,7 @@
         "name": "flow for vacation mode",
         "info": "",
         "x": 120,
-        "y": 40,
+        "y": 20,
         "wires": []
     },
     {
@@ -12743,7 +12836,7 @@
         "name": "turn on and off random lights in vacation lights group if vacation mode is on and outdoor is dark",
         "info": "",
         "x": 360,
-        "y": 400,
+        "y": 460,
         "wires": []
     },
     {
@@ -12764,7 +12857,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 840,
-        "y": 440,
+        "y": 500,
         "wires": [
             [
                 "68fb6d09797ade29"
@@ -12778,7 +12871,7 @@
         "name": "listen to vacation mode on notification answer event ",
         "info": "",
         "x": 230,
-        "y": 200,
+        "y": 260,
         "wires": []
     },
     {
@@ -12793,7 +12886,7 @@
         "template": "Er is niemand thuis, wil je de vakantiemodus aanzetten?",
         "output": "str",
         "x": 580,
-        "y": 140,
+        "y": 200,
         "wires": [
             [
                 "36246e33e6162b5a"
@@ -12826,7 +12919,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 660,
-        "y": 340,
+        "y": 400,
         "wires": [
             []
         ]
@@ -12857,7 +12950,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 1210,
-        "y": 440,
+        "y": 500,
         "wires": [
             [
                 "4fdeb47515a56739"
@@ -12890,7 +12983,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 1550,
-        "y": 440,
+        "y": 500,
         "wires": [
             []
         ]
@@ -12921,7 +13014,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 440,
-        "y": 240,
+        "y": 300,
         "wires": [
             []
         ]
@@ -12963,7 +13056,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 300,
-        "y": 440,
+        "y": 500,
         "wires": [
             [
                 "52372f03201c1339"
@@ -13008,7 +13101,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 440,
-        "y": 340,
+        "y": 400,
         "wires": [
             [
                 "fb8451f100d9bf63"
@@ -13053,7 +13146,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 500,
-        "y": 440,
+        "y": 500,
         "wires": [
             [
                 "bb6f9be9a8d52d38"
@@ -13098,7 +13191,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 400,
-        "y": 140,
+        "y": 200,
         "wires": [
             [
                 "0b9c6bc899fa2c87"
@@ -13133,7 +13226,7 @@
         ],
         "event_type": "",
         "x": 170,
-        "y": 240,
+        "y": 300,
         "wires": [
             [
                 "f047140113012c45"
@@ -13191,7 +13284,7 @@
             }
         ],
         "x": 90,
-        "y": 340,
+        "y": 400,
         "wires": [
             [
                 "289eb5762afd854e"
@@ -13249,7 +13342,7 @@
             }
         ],
         "x": 150,
-        "y": 140,
+        "y": 200,
         "wires": [
             [
                 "7f8a5bbec56c9729"
@@ -13284,7 +13377,7 @@
         "outputLocation": "payload",
         "outputResultsCount": 1,
         "x": 670,
-        "y": 440,
+        "y": 500,
         "wires": [
             [
                 "bdeb3f3c3092a9db"
@@ -13301,10 +13394,80 @@
         "inte": "true",
         "property": "dimlevel",
         "x": 1030,
-        "y": 440,
+        "y": 500,
         "wires": [
             [
                 "b0ab3842efd58c4a"
+            ]
+        ]
+    },
+    {
+        "id": "e2aad0c5c8a8a6c8",
+        "type": "catch",
+        "z": "e98ae3c9db1bd6c3",
+        "g": "5eb2a483b2644796",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "92ae0a959b86c0cc"
+            ]
+        ]
+    },
+    {
+        "id": "92ae0a959b86c0cc",
+        "type": "template",
+        "z": "e98ae3c9db1bd6c3",
+        "g": "5eb2a483b2644796",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "2ba2b814332015f0"
+            ]
+        ]
+    },
+    {
+        "id": "4d9e677df669290b",
+        "type": "link out",
+        "z": "e98ae3c9db1bd6c3",
+        "g": "5eb2a483b2644796",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "2ba2b814332015f0",
+        "type": "template",
+        "z": "e98ae3c9db1bd6c3",
+        "g": "5eb2a483b2644796",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "4d9e677df669290b"
             ]
         ]
     },
@@ -13321,7 +13484,7 @@
         "template": "vacuum",
         "output": "str",
         "x": 1990,
-        "y": 800,
+        "y": 900,
         "wires": [
             [
                 "051f31139e799468"
@@ -13350,7 +13513,7 @@
         "reduceInitType": "",
         "reduceFixup": "",
         "x": 2170,
-        "y": 760,
+        "y": 860,
         "wires": [
             [
                 "57488cc36dcd2d00"
@@ -13368,7 +13531,7 @@
             "c4660dc11fb0e5b8"
         ],
         "x": 2265,
-        "y": 760,
+        "y": 860,
         "wires": []
     },
     {
@@ -13384,7 +13547,7 @@
         "template": "Stofzuiger",
         "output": "str",
         "x": 1970,
-        "y": 720,
+        "y": 820,
         "wires": [
             [
                 "051f31139e799468"
@@ -13404,7 +13567,7 @@
         "template": "",
         "output": "str",
         "x": 1970,
-        "y": 760,
+        "y": 860,
         "wires": [
             [
                 "051f31139e799468"
@@ -13424,7 +13587,7 @@
         "template": "vacuum",
         "output": "str",
         "x": 1990,
-        "y": 400,
+        "y": 500,
         "wires": [
             [
                 "ba409d3499824364"
@@ -13453,7 +13616,7 @@
         "reduceInitType": "",
         "reduceFixup": "",
         "x": 2170,
-        "y": 380,
+        "y": 480,
         "wires": [
             [
                 "c5f04c8242157305"
@@ -13472,7 +13635,7 @@
             "aeee8468f3d1b7ad"
         ],
         "x": 2265,
-        "y": 380,
+        "y": 480,
         "wires": []
     },
     {
@@ -13488,7 +13651,7 @@
         "template": "Stofzuiger",
         "output": "str",
         "x": 1970,
-        "y": 320,
+        "y": 420,
         "wires": [
             [
                 "ba409d3499824364"
@@ -13508,7 +13671,7 @@
         "template": "",
         "output": "str",
         "x": 1970,
-        "y": 360,
+        "y": 460,
         "wires": [
             [
                 "ba409d3499824364"
@@ -13528,7 +13691,7 @@
         "template": "vacuum",
         "output": "str",
         "x": 1970,
-        "y": 620,
+        "y": 720,
         "wires": [
             [
                 "b5cc0d26cf3e7ab2"
@@ -13577,7 +13740,7 @@
         "to": "",
         "reg": false,
         "x": 1970,
-        "y": 540,
+        "y": 640,
         "wires": [
             [
                 "b5cc0d26cf3e7ab2"
@@ -13606,7 +13769,7 @@
         "reduceInitType": "",
         "reduceFixup": "",
         "x": 2170,
-        "y": 540,
+        "y": 640,
         "wires": [
             [
                 "d7f92782a71d3837"
@@ -13625,7 +13788,7 @@
             "d1753081ba6b4004"
         ],
         "x": 2265,
-        "y": 540,
+        "y": 640,
         "wires": []
     },
     {
@@ -13641,7 +13804,7 @@
         "template": "Stofzuiger",
         "output": "str",
         "x": 1950,
-        "y": 500,
+        "y": 600,
         "wires": [
             [
                 "b5cc0d26cf3e7ab2"
@@ -13661,7 +13824,7 @@
         "template": "",
         "output": "str",
         "x": 1950,
-        "y": 580,
+        "y": 680,
         "wires": [
             [
                 "b5cc0d26cf3e7ab2"
@@ -13691,7 +13854,7 @@
         "repair": false,
         "outputs": 2,
         "x": 330,
-        "y": 320,
+        "y": 420,
         "wires": [
             [
                 "252893d959f094a0"
@@ -13724,7 +13887,7 @@
         "repair": false,
         "outputs": 2,
         "x": 320,
-        "y": 200,
+        "y": 300,
         "wires": [
             [
                 "1351cb3a.cc7995"
@@ -13756,7 +13919,7 @@
         "payload": "02:00 Payload 'off'",
         "payloadType": "str",
         "x": 110,
-        "y": 140,
+        "y": 240,
         "wires": [
             [
                 "787efd3b.bd13e4"
@@ -13770,7 +13933,7 @@
         "name": "robot vacuum cleaner",
         "info": "",
         "x": 120,
-        "y": 40,
+        "y": 20,
         "wires": []
     },
     {
@@ -13785,7 +13948,7 @@
         "template": "Stofzuiger {{data.attributes.friendly_name}} is gestart.",
         "output": "str",
         "x": 1700,
-        "y": 320,
+        "y": 420,
         "wires": [
             [
                 "60b0a5eab5b0a9d6"
@@ -13810,7 +13973,7 @@
         "repair": false,
         "outputs": 1,
         "x": 640,
-        "y": 220,
+        "y": 320,
         "wires": [
             [
                 "353d562e.3dd04a"
@@ -13824,7 +13987,7 @@
         "name": "listen to vacuum start clean \"no\" answer event ",
         "info": "",
         "x": 210,
-        "y": 700,
+        "y": 800,
         "wires": []
     },
     {
@@ -13834,7 +13997,7 @@
         "name": "turn back on auto cleaning at 02:00",
         "info": "",
         "x": 180,
-        "y": 100,
+        "y": 200,
         "wires": []
     },
     {
@@ -13849,7 +14012,7 @@
         "template": "Moet over 10 minuten de stofzuiger starten?",
         "output": "str",
         "x": 1700,
-        "y": 540,
+        "y": 640,
         "wires": [
             [
                 "237a19020921825d"
@@ -13868,7 +14031,7 @@
         "template": "Over tien minuten start de stofzuiger.",
         "output": "str",
         "x": 1700,
-        "y": 740,
+        "y": 840,
         "wires": [
             [
                 "07d3b997feaf3f7b"
@@ -13887,7 +14050,7 @@
         "template": "Stofzuiger {{data.attributes.friendly_name}} kon niet worden gestart.",
         "output": "str",
         "x": 1700,
-        "y": 360,
+        "y": 460,
         "wires": [
             [
                 "60b0a5eab5b0a9d6"
@@ -13920,7 +14083,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 320,
-        "y": 140,
+        "y": 240,
         "wires": [
             []
         ]
@@ -13951,7 +14114,7 @@
         "domain": "vacuum",
         "service": "start",
         "x": 1330,
-        "y": 320,
+        "y": 420,
         "wires": [
             [
                 "700ffa065a57643e"
@@ -13984,7 +14147,7 @@
         "domain": "vacuum",
         "service": "return_to_base",
         "x": 1360,
-        "y": 180,
+        "y": 280,
         "wires": [
             []
         ]
@@ -14015,7 +14178,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 700,
-        "y": 740,
+        "y": 840,
         "wires": [
             []
         ]
@@ -14046,7 +14209,7 @@
         "domain": "vacuum",
         "service": "start",
         "x": 1330,
-        "y": 380,
+        "y": 480,
         "wires": [
             [
                 "12b21cf1b9684b45"
@@ -14085,7 +14248,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 910,
-        "y": 360,
+        "y": 460,
         "wires": [
             [
                 "eccced83.41688",
@@ -14126,7 +14289,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 950,
-        "y": 180,
+        "y": 280,
         "wires": [
             [
                 "32d50dd7.16e062"
@@ -14166,7 +14329,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 540,
-        "y": 340,
+        "y": 440,
         "wires": [
             [],
             [
@@ -14206,7 +14369,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 930,
-        "y": 260,
+        "y": 360,
         "wires": [
             [
                 "60f6cd3f.56a0f4"
@@ -14246,7 +14409,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 1140,
-        "y": 320,
+        "y": 420,
         "wires": [
             [
                 "a52152b0.f593b"
@@ -14286,7 +14449,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 1160,
-        "y": 180,
+        "y": 280,
         "wires": [
             [
                 "2a9f3bf0.575684"
@@ -14326,7 +14489,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 290,
-        "y": 480,
+        "y": 580,
         "wires": [
             [
                 "c5ad7ab8.30fda8"
@@ -14366,7 +14529,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 500,
-        "y": 480,
+        "y": 580,
         "wires": [
             [
                 "934221e4.b2d0d",
@@ -14408,7 +14571,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 490,
-        "y": 640,
+        "y": 740,
         "wires": [
             [
                 "a098e71.e0db718"
@@ -14453,7 +14616,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 470,
-        "y": 220,
+        "y": 320,
         "wires": [
             [
                 "734801f342d9257e"
@@ -14492,7 +14655,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 1140,
-        "y": 380,
+        "y": 480,
         "wires": [
             [
                 "65eac4d0c7d4907d"
@@ -14527,7 +14690,7 @@
         ],
         "event_type": "",
         "x": 170,
-        "y": 740,
+        "y": 840,
         "wires": [
             [
                 "a098e71.e0db718"
@@ -14585,7 +14748,7 @@
             }
         ],
         "x": 110,
-        "y": 200,
+        "y": 300,
         "wires": [
             [
                 "37466c93.d14b84"
@@ -14643,7 +14806,7 @@
             }
         ],
         "x": 80,
-        "y": 320,
+        "y": 420,
         "wires": [
             [
                 "c8eb1592.520518"
@@ -14701,7 +14864,7 @@
             }
         ],
         "x": 100,
-        "y": 480,
+        "y": 580,
         "wires": [
             [
                 "1c372f1.535d7d1"
@@ -14760,7 +14923,7 @@
             }
         ],
         "x": 130,
-        "y": 640,
+        "y": 740,
         "wires": [
             [
                 "272212f1.26bb6e"
@@ -14794,7 +14957,7 @@
         "blockInputOverrides": true,
         "outputProperties": [],
         "x": 320,
-        "y": 640,
+        "y": 740,
         "wires": [
             [
                 "155ef739.0e1de9"
@@ -14830,7 +14993,7 @@
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 1500,
-        "y": 320,
+        "y": 420,
         "wires": [
             [
                 "c643d4d4.2baf98"
@@ -14868,7 +15031,7 @@
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 1500,
-        "y": 380,
+        "y": 480,
         "wires": [
             [
                 "c643d4d4.2baf98"
@@ -14888,7 +15051,7 @@
         "payloadval": "0",
         "name": "",
         "x": 720,
-        "y": 420,
+        "y": 520,
         "wires": [
             [
                 "60f6cd3f.56a0f4"
@@ -14906,12 +15069,82 @@
         "payloadval": "0",
         "name": "",
         "x": 720,
-        "y": 540,
+        "y": 640,
         "wires": [
             [
                 "71847fb30d3084f7"
             ],
             []
+        ]
+    },
+    {
+        "id": "144ebe3499c86989",
+        "type": "catch",
+        "z": "55da1471.fda0fc",
+        "g": "7a6662144d2d489c",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "dbd017147d154790"
+            ]
+        ]
+    },
+    {
+        "id": "dbd017147d154790",
+        "type": "template",
+        "z": "55da1471.fda0fc",
+        "g": "7a6662144d2d489c",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "74b269c1337cbb9d"
+            ]
+        ]
+    },
+    {
+        "id": "4d1450df9aae47f1",
+        "type": "link out",
+        "z": "55da1471.fda0fc",
+        "g": "7a6662144d2d489c",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "74b269c1337cbb9d",
+        "type": "template",
+        "z": "55da1471.fda0fc",
+        "g": "7a6662144d2d489c",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "4d1450df9aae47f1"
+            ]
         ]
     },
     {
@@ -14963,7 +15196,7 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 60,
+        "y": 160,
         "wires": [
             [
                 "6fc6228af058839b"
@@ -14987,7 +15220,7 @@
         "count": "",
         "reduceRight": false,
         "x": 830,
-        "y": 60,
+        "y": 160,
         "wires": [
             [
                 "458382747fd06019"
@@ -15014,7 +15247,7 @@
         "to": "",
         "reg": false,
         "x": 480,
-        "y": 60,
+        "y": 160,
         "wires": [
             [
                 "af7eaeb691b4b689",
@@ -15035,7 +15268,7 @@
         "finalize": "",
         "libs": [],
         "x": 990,
-        "y": 60,
+        "y": 160,
         "wires": [
             [
                 "3a3544e58c336443"
@@ -15065,7 +15298,7 @@
         "finalize": "",
         "libs": [],
         "x": 990,
-        "y": 100,
+        "y": 200,
         "wires": [
             [
                 "3a3544e58c336443"
@@ -15089,7 +15322,7 @@
         "count": "",
         "reduceRight": false,
         "x": 830,
-        "y": 100,
+        "y": 200,
         "wires": [
             [
                 "0abec8ca261199bd"
@@ -15127,7 +15360,7 @@
         "to": "",
         "reg": false,
         "x": 660,
-        "y": 100,
+        "y": 200,
         "wires": [
             [
                 "1b709ceb0d69c831"
@@ -15157,7 +15390,7 @@
         "domain": "",
         "service": "",
         "x": 1190,
-        "y": 60,
+        "y": 160,
         "wires": [
             [
                 "336d51b627dd3548"
@@ -15190,7 +15423,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 1680,
-        "y": 60,
+        "y": 160,
         "wires": [
             []
         ]
@@ -15246,7 +15479,7 @@
             }
         ],
         "x": 120,
-        "y": 60,
+        "y": 160,
         "wires": [
             [
                 "a3633aab59b75d5e"
@@ -15280,7 +15513,7 @@
         "outputLocation": "payload",
         "outputResultsCount": 1,
         "x": 310,
-        "y": 60,
+        "y": 160,
         "wires": [
             [
                 "02cc03fa2fa9b1c1"
@@ -15314,7 +15547,7 @@
         "outputLocation": "payload",
         "outputResultsCount": 1,
         "x": 1490,
-        "y": 60,
+        "y": 160,
         "wires": [
             [
                 "28a3562272f5e8bd"
@@ -15349,10 +15582,80 @@
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 1340,
-        "y": 60,
+        "y": 160,
         "wires": [
             [
                 "11adb81ae9e6f5e7"
+            ]
+        ]
+    },
+    {
+        "id": "ed749a88cd5bd834",
+        "type": "catch",
+        "z": "29a2e1dd05ecbf80",
+        "g": "7c9dc6f46ee8eaaf",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "89d0c5bcdd39fd4c"
+            ]
+        ]
+    },
+    {
+        "id": "89d0c5bcdd39fd4c",
+        "type": "template",
+        "z": "29a2e1dd05ecbf80",
+        "g": "7c9dc6f46ee8eaaf",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "e33e1e962d57e077"
+            ]
+        ]
+    },
+    {
+        "id": "b7a8e5cc57ee6ca0",
+        "type": "link out",
+        "z": "29a2e1dd05ecbf80",
+        "g": "7c9dc6f46ee8eaaf",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "e33e1e962d57e077",
+        "type": "template",
+        "z": "29a2e1dd05ecbf80",
+        "g": "7c9dc6f46ee8eaaf",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "b7a8e5cc57ee6ca0"
             ]
         ]
     },
@@ -15402,7 +15705,7 @@
         "repair": false,
         "outputs": 5,
         "x": 330,
-        "y": 80,
+        "y": 180,
         "wires": [
             [
                 "0b118ac6e884fc56"
@@ -15433,7 +15736,7 @@
         "template": "{{data.new_state.attributes.friendly_name}} is {{payload}}%",
         "output": "str",
         "x": 520,
-        "y": 120,
+        "y": 220,
         "wires": [
             [
                 "30b5e775d2659181"
@@ -15466,7 +15769,7 @@
         "domain": "switch",
         "service": "turn_on",
         "x": 570,
-        "y": 180,
+        "y": 280,
         "wires": [
             []
         ]
@@ -15497,7 +15800,7 @@
         "domain": "switch",
         "service": "turn_off",
         "x": 570,
-        "y": 60,
+        "y": 160,
         "wires": [
             []
         ]
@@ -15526,7 +15829,7 @@
         "domain": "notify",
         "service": "theautomation",
         "x": 680,
-        "y": 120,
+        "y": 220,
         "wires": [
             []
         ]
@@ -15576,7 +15879,7 @@
             }
         ],
         "x": 120,
-        "y": 60,
+        "y": 160,
         "wires": [
             [
                 "b9298a615e99a23f",
@@ -15594,12 +15897,82 @@
         "payloadval": "0",
         "name": "",
         "x": 330,
-        "y": 180,
+        "y": 280,
         "wires": [
             [
                 "077067e28d6d59b4"
             ],
             []
+        ]
+    },
+    {
+        "id": "874b60377e719fde",
+        "type": "catch",
+        "z": "03ed0365a1543556",
+        "g": "53dc0a23c8426878",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "387845d9698cbe12"
+            ]
+        ]
+    },
+    {
+        "id": "387845d9698cbe12",
+        "type": "template",
+        "z": "03ed0365a1543556",
+        "g": "53dc0a23c8426878",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "dfa305742a8fe0b2"
+            ]
+        ]
+    },
+    {
+        "id": "7bf74cbdd5a69c4a",
+        "type": "link out",
+        "z": "03ed0365a1543556",
+        "g": "53dc0a23c8426878",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "dfa305742a8fe0b2",
+        "type": "template",
+        "z": "03ed0365a1543556",
+        "g": "53dc0a23c8426878",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "7bf74cbdd5a69c4a"
+            ]
         ]
     },
     {
@@ -15609,7 +15982,7 @@
         "name": "Triggers to turn on the wall tablet display",
         "info": "",
         "x": 180,
-        "y": 20,
+        "y": 140,
         "wires": []
     },
     {
@@ -15638,7 +16011,7 @@
         "domain": "switch",
         "service": "turn_on",
         "x": 330,
-        "y": 60,
+        "y": 180,
         "wires": [
             []
         ]
@@ -15694,7 +16067,7 @@
             }
         ],
         "x": 100,
-        "y": 60,
+        "y": 180,
         "wires": [
             [
                 "ec90fab1c8567df8"
@@ -15753,7 +16126,7 @@
             }
         ],
         "x": 100,
-        "y": 120,
+        "y": 240,
         "wires": [
             [
                 "ec90fab1c8567df8"
@@ -15812,7 +16185,7 @@
             }
         ],
         "x": 100,
-        "y": 180,
+        "y": 300,
         "wires": [
             [
                 "ec90fab1c8567df8"
@@ -15852,12 +16225,82 @@
         "ignoreCurrentStateUnavailable": false,
         "outputProperties": [],
         "x": 110,
-        "y": 240,
+        "y": 360,
         "wires": [
             [
                 "ec90fab1c8567df8"
             ],
             []
+        ]
+    },
+    {
+        "id": "b85e156a673c59d5",
+        "type": "catch",
+        "z": "9f9f94838a3fcd77",
+        "g": "6378d23d20fd57d5",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 60,
+        "wires": [
+            [
+                "ce529429a2626c93"
+            ]
+        ]
+    },
+    {
+        "id": "ce529429a2626c93",
+        "type": "template",
+        "z": "9f9f94838a3fcd77",
+        "g": "6378d23d20fd57d5",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 60,
+        "wires": [
+            [
+                "4bf210a3e31f4a3d"
+            ]
+        ]
+    },
+    {
+        "id": "6399bb828d61b11b",
+        "type": "link out",
+        "z": "9f9f94838a3fcd77",
+        "g": "6378d23d20fd57d5",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "4bf210a3e31f4a3d",
+        "type": "template",
+        "z": "9f9f94838a3fcd77",
+        "g": "6378d23d20fd57d5",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 60,
+        "wires": [
+            [
+                "6399bb828d61b11b"
+            ]
         ]
     },
     {
@@ -16050,1940 +16493,6 @@
         "outputProperties": [],
         "x": 710,
         "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "eab9993ce7699f6b",
-        "type": "comment",
-        "z": "fd9cd80f14f860fe",
-        "g": "2ff8dfb43d1ba6a3",
-        "name": "Radio",
-        "info": "",
-        "x": 790,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "1e7eae419a9ec64f",
-        "type": "comment",
-        "z": "fd9cd80f14f860fe",
-        "g": "cd256ec259a611f4",
-        "name": "TV",
-        "info": "",
-        "x": 790,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "1f82b6c0e5dbebf0",
-        "type": "comment",
-        "z": "fd9cd80f14f860fe",
-        "g": "d3868dc5f4aa2d65",
-        "name": "Uitschakelen",
-        "info": "",
-        "x": 810,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "496e9f6b60f7e763",
-        "type": "split",
-        "z": "fd9cd80f14f860fe",
-        "g": "fc9a0630f16ecdaf",
-        "name": "",
-        "splt": "\\n",
-        "spltType": "str",
-        "arraySplt": 1,
-        "arraySpltType": "len",
-        "stream": false,
-        "addname": "",
-        "x": 950,
-        "y": 860,
-        "wires": [
-            [
-                "ae3e3c86c7a641ae"
-            ]
-        ]
-    },
-    {
-        "id": "ae3e3c86c7a641ae",
-        "type": "switch",
-        "z": "fd9cd80f14f860fe",
-        "g": "fc9a0630f16ecdaf",
-        "name": "",
-        "property": "payload.state",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "unknown",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1070,
-        "y": 860,
-        "wires": [
-            [
-                "afc206d613ea28f4"
-            ]
-        ]
-    },
-    {
-        "id": "afc206d613ea28f4",
-        "type": "rbe",
-        "z": "fd9cd80f14f860fe",
-        "g": "fc9a0630f16ecdaf",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload.state",
-        "topi": "topic",
-        "x": 1190,
-        "y": 860,
-        "wires": [
-            [
-                "aa0c955739836a72"
-            ]
-        ]
-    },
-    {
-        "id": "aa0c955739836a72",
-        "type": "link out",
-        "z": "fd9cd80f14f860fe",
-        "g": "fc9a0630f16ecdaf",
-        "name": "link out entertainment_activity",
-        "mode": "link",
-        "links": [
-            "7264146e613f154c"
-        ],
-        "x": 1275,
-        "y": 860,
-        "wires": []
-    },
-    {
-        "id": "38e2ec5bd89aa669",
-        "type": "comment",
-        "z": "fd9cd80f14f860fe",
-        "g": "fc9a0630f16ecdaf",
-        "name": "Spotify",
-        "info": "",
-        "x": 790,
-        "y": 760,
-        "wires": []
-    },
-    {
-        "id": "f562bc76d4f77c72",
-        "type": "template",
-        "z": "fd9cd80f14f860fe",
-        "g": "3deebaf17197f452",
-        "name": "icon",
-        "field": "notify.icon",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "",
-        "output": "str",
-        "x": 1110,
-        "y": 1520,
-        "wires": [
-            [
-                "dca8060d69453e87"
-            ]
-        ]
-    },
-    {
-        "id": "aaefbd870a81bd90",
-        "type": "template",
-        "z": "fd9cd80f14f860fe",
-        "g": "3deebaf17197f452",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Entertainment",
-        "output": "str",
-        "x": 1110,
-        "y": 1440,
-        "wires": [
-            [
-                "dca8060d69453e87"
-            ]
-        ]
-    },
-    {
-        "id": "2c7cc629bd4dabbf",
-        "type": "link out",
-        "z": "fd9cd80f14f860fe",
-        "g": "3deebaf17197f452",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "c13b2b4d87067c17"
-        ],
-        "x": 1365,
-        "y": 1480,
-        "wires": []
-    },
-    {
-        "id": "dca8060d69453e87",
-        "type": "join",
-        "z": "fd9cd80f14f860fe",
-        "g": "3deebaf17197f452",
-        "name": "",
-        "mode": "custom",
-        "build": "merged",
-        "property": "notify",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "4",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 1270,
-        "y": 1480,
-        "wires": [
-            [
-                "2c7cc629bd4dabbf"
-            ]
-        ]
-    },
-    {
-        "id": "c6c71296e724485a",
-        "type": "template",
-        "z": "fd9cd80f14f860fe",
-        "g": "3deebaf17197f452",
-        "name": "notification id",
-        "field": "notify.notification_id",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "pause_entertaiment",
-        "output": "str",
-        "x": 1130,
-        "y": 1560,
-        "wires": [
-            [
-                "dca8060d69453e87"
-            ]
-        ]
-    },
-    {
-        "id": "7c90580485197cda",
-        "type": "template",
-        "z": "fd9cd80f14f860fe",
-        "g": "3deebaf17197f452",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "TV gepauseerd i.v.m. telefoongesprek.",
-        "output": "str",
-        "x": 1120,
-        "y": 1480,
-        "wires": [
-            [
-                "dca8060d69453e87"
-            ]
-        ]
-    },
-    {
-        "id": "4ed88099e41abb6e",
-        "type": "comment",
-        "z": "fd9cd80f14f860fe",
-        "name": "tv and media entertaiment automations",
-        "info": "",
-        "x": 170,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "3a535b1014d0a45b",
-        "type": "switch",
-        "z": "fd9cd80f14f860fe",
-        "name": "entertainment activity",
-        "property": "data.new_state.state",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Uitschakelen",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "TV",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Radio",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Spotify",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 4,
-        "x": 480,
-        "y": 120,
-        "wires": [
-            [
-                "b564e25effcfc627"
-            ],
-            [
-                "61e6d10bbacb84be"
-            ],
-            [
-                "e07be8f58a2d80b1"
-            ],
-            [
-                "0e86c16e42286a1a"
-            ]
-        ]
-    },
-    {
-        "id": "f1ffce13e75d6866",
-        "type": "comment",
-        "z": "fd9cd80f14f860fe",
-        "name": "frontend entertainment activity input select",
-        "info": "",
-        "x": 200,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "bf5ba3943578c959",
-        "type": "comment",
-        "z": "fd9cd80f14f860fe",
-        "name": "pause when phone is off hook",
-        "info": "",
-        "x": 180,
-        "y": 1300,
-        "wires": []
-    },
-    {
-        "id": "4f9dcb4526aa6e68",
-        "type": "switch",
-        "z": "fd9cd80f14f860fe",
-        "name": "who's phone",
-        "property": "data.entity_id",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "cont",
-                "v": "coen",
-                "vt": "str"
-            },
-            {
-                "t": "cont",
-                "v": "anne",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 330,
-        "y": 1340,
-        "wires": [
-            [
-                "a7ae16757970717f"
-            ],
-            [
-                "951e80123d5d1350"
-            ]
-        ]
-    },
-    {
-        "id": "8974b3e5cc82c6b9",
-        "type": "comment",
-        "z": "fd9cd80f14f860fe",
-        "name": "select entertainment activity based on powernode content",
-        "info": "",
-        "x": 270,
-        "y": 1140,
-        "wires": []
-    },
-    {
-        "id": "d2469e552aa559a3",
-        "type": "switch",
-        "z": "fd9cd80f14f860fe",
-        "name": "",
-        "property": "data.new_state.timeSinceChangedMs",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gt",
-                "v": "20",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 350,
-        "y": 1180,
-        "wires": [
-            [
-                "0a97895675822841"
-            ]
-        ]
-    },
-    {
-        "id": "cbfb0a5eb7b1a139",
-        "type": "switch",
-        "z": "fd9cd80f14f860fe",
-        "name": "source",
-        "property": "data.new_state.attributes.source",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Spotify",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 750,
-        "y": 1180,
-        "wires": [
-            [
-                "167fb4439eb061eb"
-            ]
-        ]
-    },
-    {
-        "id": "37a61d11bf9ce0ab",
-        "type": "switch",
-        "z": "fd9cd80f14f860fe",
-        "name": "content type",
-        "property": "data.new_state.attributes.media_content_type",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "music",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 610,
-        "y": 1180,
-        "wires": [
-            [
-                "cbfb0a5eb7b1a139"
-            ]
-        ]
-    },
-    {
-        "id": "0a97895675822841",
-        "type": "rbe",
-        "z": "fd9cd80f14f860fe",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 470,
-        "y": 1180,
-        "wires": [
-            [
-                "37a61d11bf9ce0ab"
-            ]
-        ]
-    },
-    {
-        "id": "494e70afb45368b6",
-        "type": "comment",
-        "z": "fd9cd80f14f860fe",
-        "name": "select entertainment activity based on media player content",
-        "info": "",
-        "x": 270,
-        "y": 1020,
-        "wires": []
-    },
-    {
-        "id": "210f99cc3d429b16",
-        "type": "switch",
-        "z": "fd9cd80f14f860fe",
-        "name": "source",
-        "property": "data.new_state.attributes.source",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Spotify",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 510,
-        "y": 1060,
-        "wires": [
-            [
-                "0e05b01a3088ebe6"
-            ]
-        ]
-    },
-    {
-        "id": "607fbdf5b40786a0",
-        "type": "rbe",
-        "z": "fd9cd80f14f860fe",
-        "name": "filter source",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "data.new_state.attributes.source",
-        "topi": "topic",
-        "x": 370,
-        "y": 1060,
-        "wires": [
-            [
-                "210f99cc3d429b16"
-            ]
-        ]
-    },
-    {
-        "id": "1bea28fe624c37b2",
-        "type": "switch",
-        "z": "fd9cd80f14f860fe",
-        "name": "app name",
-        "property": "data.new_state.attributes.app_name",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "NLZIET",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 340,
-        "y": 1740,
-        "wires": [
-            [
-                "68088e8c9c8a0e54"
-            ]
-        ]
-    },
-    {
-        "id": "2784788ce65fb972",
-        "type": "comment",
-        "z": "fd9cd80f14f860fe",
-        "name": "events based on app name",
-        "info": "",
-        "x": 170,
-        "y": 1700,
-        "wires": []
-    },
-    {
-        "id": "9e2a2047fb3d0be1",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "g": "fc9a0630f16ecdaf",
-        "name": "turn off universal tv",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.turn_off",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.universal_tv"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "media_player",
-        "service": "turn_off",
-        "x": 1030,
-        "y": 920,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "aeab6ce43c9dc70c",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "g": "2ff8dfb43d1ba6a3",
-        "name": "turn off universal tv",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.turn_off",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.universal_tv"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "media_player",
-        "service": "turn_off",
-        "x": 1030,
-        "y": 660,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fa9bc69bfdcf7c2c",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "g": "cd256ec259a611f4",
-        "name": "stop mediaplayer powernode",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.media_stop",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.powernode_2i_ea48"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "media_player",
-        "service": "media_stop",
-        "x": 860,
-        "y": 460,
-        "wires": [
-            [
-                "54b7f080b2edea10"
-            ]
-        ]
-    },
-    {
-        "id": "0d2317e40dbcbd17",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "g": "d3868dc5f4aa2d65",
-        "name": "turn off universal tv",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.turn_off",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.universal_tv"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "media_player",
-        "service": "turn_off",
-        "x": 830,
-        "y": 140,
-        "wires": [
-            [
-                "b3f70eca695d41a4"
-            ]
-        ]
-    },
-    {
-        "id": "18e6577d292535de",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "g": "cd256ec259a611f4",
-        "name": "play optical input powernode",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.media_play",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.powernode_2i_ea48"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "media_player",
-        "service": "media_play",
-        "x": 1560,
-        "y": 460,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f9e486866e6d65f1",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "g": "d3868dc5f4aa2d65",
-        "name": "stop bluesound powernode",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.media_stop",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.powernode_2i_ea48"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "media_player",
-        "service": "media_stop",
-        "x": 860,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f47b4545239299ad",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "g": "cd256ec259a611f4",
-        "name": "turn on universal tv",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.turn_on",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.universal_tv"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "media_player",
-        "service": "turn_on",
-        "x": 1030,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "64218c054bcb7baf",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "g": "cd256ec259a611f4",
-        "name": "turn on screen",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "webostv.command",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"entity_id\":\"media_player.lg_webos_smart_tv\",\"command\":\"com.webos.service.tvpower/power/turnOnScreen\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "webostv",
-        "service": "command",
-        "x": 820,
-        "y": 400,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "54b7f080b2edea10",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "g": "cd256ec259a611f4",
-        "name": "select source optical input on bluesound powernode",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.select_source",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.powernode_2i_ea48"
-        ],
-        "labelId": [],
-        "data": "{\"source\":\"Optical Input 1\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "media_player",
-        "service": "select_source",
-        "x": 1230,
-        "y": 460,
-        "wires": [
-            [
-                "18e6577d292535de"
-            ]
-        ]
-    },
-    {
-        "id": "e020d358e653c079",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "g": "fc9a0630f16ecdaf",
-        "name": "select powernode in spotify",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.select_source",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.spotify_coen_s_nl"
-        ],
-        "labelId": [],
-        "data": "{\"source\":\"POWERNODE 2i-EA48\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "media_player",
-        "service": "select_source",
-        "x": 1440,
-        "y": 800,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2088e9c0c8feb10f",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "g": "fc9a0630f16ecdaf",
-        "name": "clear playlist mediaplayer powernode",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.clear_playlist",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.powernode_2i_ea48"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "media_player",
-        "service": "clear_playlist",
-        "x": 1150,
-        "y": 800,
-        "wires": [
-            [
-                "e020d358e653c079"
-            ]
-        ]
-    },
-    {
-        "id": "95ff475953e46b14",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "g": "fc9a0630f16ecdaf",
-        "name": "stop mediaplayer powernode",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.media_stop",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.powernode_2i_ea48"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "media_player",
-        "service": "media_stop",
-        "x": 860,
-        "y": 800,
-        "wires": [
-            [
-                "2088e9c0c8feb10f"
-            ]
-        ]
-    },
-    {
-        "id": "29e2ecd31302f193",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "g": "2ff8dfb43d1ba6a3",
-        "name": "clear playlist mediaplayer powernode",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.clear_playlist",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.powernode_2i_ea48"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "media_player",
-        "service": "clear_playlist",
-        "x": 1150,
-        "y": 600,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "03b947a910d98181",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "g": "2ff8dfb43d1ba6a3",
-        "name": "stop mediaplayer powernode",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.media_stop",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.powernode_2i_ea48"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "media_player",
-        "service": "media_stop",
-        "x": 860,
-        "y": 600,
-        "wires": [
-            [
-                "29e2ecd31302f193"
-            ]
-        ]
-    },
-    {
-        "id": "f06607d23ea600e0",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "name": "pause group tv media players",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.media_pause",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "group.tv_media_players"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "media_player",
-        "service": "media_pause",
-        "x": 1150,
-        "y": 1340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "44ccff64331a48d4",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "name": "select entertainment activity Spotify",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "input_select.select_option",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "input_select.entertainment_activity"
-        ],
-        "labelId": [],
-        "data": "{\"option\":\"Spotify\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "input_select",
-        "service": "select_option",
-        "x": 1280,
-        "y": 1180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e6b09e369fa79397",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "name": "select entertainment activity Spotify",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "input_select.select_option",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "input_select.entertainment_activity"
-        ],
-        "labelId": [],
-        "data": "{\"option\":\"Spotify\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "input_select",
-        "service": "select_option",
-        "x": 1380,
-        "y": 1060,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "207e1edd1118b4af",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "name": "select entertainment activity TV",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "input_select.select_option",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "input_select.entertainment_activity"
-        ],
-        "labelId": [],
-        "data": "{\"option\":\"TV\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "input_select",
-        "service": "select_option",
-        "x": 910,
-        "y": 1740,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6797374d5c5348f9",
-        "type": "api-current-state",
-        "z": "fd9cd80f14f860fe",
-        "g": "fc9a0630f16ecdaf",
-        "name": "universal tv is on",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "media_player.universal_tv",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 830,
-        "y": 920,
-        "wires": [
-            [
-                "9e2a2047fb3d0be1"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "f8be03186a90817e",
-        "type": "api-current-state",
-        "z": "fd9cd80f14f860fe",
-        "g": "2ff8dfb43d1ba6a3",
-        "name": "universal tv is on",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "media_player.universal_tv",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 830,
-        "y": 660,
-        "wires": [
-            [
-                "aeab6ce43c9dc70c"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "1852cb62226e78b0",
-        "type": "api-current-state",
-        "z": "fd9cd80f14f860fe",
-        "g": "cd256ec259a611f4",
-        "name": "universal tv is off",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "off",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "media_player.universal_tv",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 830,
-        "y": 340,
-        "wires": [
-            [
-                "f47b4545239299ad"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "a7ae16757970717f",
-        "type": "api-current-state",
-        "z": "fd9cd80f14f860fe",
-        "name": "state person coen is home",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "home",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "person.coen",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 540,
-        "y": 1320,
-        "wires": [
-            [
-                "fdca445a404c15cc"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "fdca445a404c15cc",
-        "type": "api-current-state",
-        "z": "fd9cd80f14f860fe",
-        "name": "state media player group tv is playing",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "playing",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "group.tv_media_players",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 830,
-        "y": 1340,
-        "wires": [
-            [
-                "f06607d23ea600e0",
-                "594222d1e705061c"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "951e80123d5d1350",
-        "type": "api-current-state",
-        "z": "fd9cd80f14f860fe",
-        "name": "state person anne is home",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "home",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "person.anne",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 540,
-        "y": 1380,
-        "wires": [
-            [
-                "fdca445a404c15cc"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "167fb4439eb061eb",
-        "type": "api-current-state",
-        "z": "fd9cd80f14f860fe",
-        "name": "input select media source livingroom tv",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "Woonkamer TV",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_select.mediaplayer_destination",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "input_select.mediaplayer_destination",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 970,
-        "y": 1180,
-        "wires": [
-            [
-                "44ccff64331a48d4"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "6739b21acd1ca7bf",
-        "type": "api-current-state",
-        "z": "fd9cd80f14f860fe",
-        "name": "select entertainment activity is not Spotify",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "Spotify",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "input_select.entertainment_activity",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 1060,
-        "y": 1060,
-        "wires": [
-            [
-                "e6b09e369fa79397"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "0e05b01a3088ebe6",
-        "type": "api-current-state",
-        "z": "fd9cd80f14f860fe",
-        "name": "input select media source livingroom tv",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "Woonkamer TV",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_select.mediaplayer_destination",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "input_select.mediaplayer_destination",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 730,
-        "y": 1060,
-        "wires": [
-            [
-                "6739b21acd1ca7bf"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "68088e8c9c8a0e54",
-        "type": "api-current-state",
-        "z": "fd9cd80f14f860fe",
-        "name": "input select entertainment activity is not TV",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "TV",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "input_select.entertainment_activity",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 590,
-        "y": 1740,
-        "wires": [
-            [
-                "207e1edd1118b4af"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "017deb01f1ac5d06",
-        "type": "server-state-changed",
-        "z": "fd9cd80f14f860fe",
-        "name": "state input select entertainment activity",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "input_select.entertainment_activity"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 170,
-        "y": 100,
-        "wires": [
-            [
-                "3a535b1014d0a45b"
-            ]
-        ]
-    },
-    {
-        "id": "94ebde6817becd16",
-        "type": "server-state-changed",
-        "z": "fd9cd80f14f860fe",
-        "name": "state phone is offhook",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [],
-            "substring": [],
-            "regex": [
-                "^(?!.*battery).*sensor\\.phone_(.*?)_state.*$"
-            ]
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "offhook",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": true,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 140,
-        "y": 1340,
-        "wires": [
-            [
-                "4f9dcb4526aa6e68"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "1f002901ca051fb8",
-        "type": "server-state-changed",
-        "z": "fd9cd80f14f860fe",
-        "name": "state media player powernode",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "media_player.powernode_2i_ea48"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "paused",
-        "ifStateType": "str",
-        "ifStateOperator": "is_not",
-        "outputOnlyOnStateChange": false,
-        "for": "1",
-        "forType": "num",
-        "forUnits": "seconds",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 160,
-        "y": 1180,
-        "wires": [
-            [
-                "d2469e552aa559a3"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "a39ce2d3dcb2fa52",
-        "type": "server-state-changed",
-        "z": "fd9cd80f14f860fe",
-        "name": "state media player bluesound",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "media_player.powernode_2i_ea48"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": false,
-        "for": "",
-        "forType": "num",
-        "forUnits": "milliseconds",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 160,
-        "y": 1060,
-        "wires": [
-            [
-                "607fbdf5b40786a0"
-            ]
-        ]
-    },
-    {
-        "id": "a8e3dc22f4e3aa9d",
-        "type": "server-state-changed",
-        "z": "fd9cd80f14f860fe",
-        "name": "media player shield status",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "media_player.shield"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "idle",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 150,
-        "y": 1740,
-        "wires": [
-            [
-                "1bea28fe624c37b2"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "33f7961ae7010284",
-        "type": "ha-get-entities",
-        "z": "fd9cd80f14f860fe",
-        "g": "fc9a0630f16ecdaf",
-        "name": "",
-        "server": "4ba92433.2478cc",
-        "version": 1,
-        "rules": [
-            {
-                "property": "entity_id",
-                "logic": "starts_with",
-                "value": "sensor.playlist_",
-                "valueType": "str",
-                "condition": "state_object"
-            }
-        ],
-        "outputType": "array",
-        "outputEmptyResults": false,
-        "outputLocationType": "msg",
-        "outputLocation": "payload",
-        "outputResultsCount": 1,
-        "x": 810,
-        "y": 860,
-        "wires": [
-            [
-                "496e9f6b60f7e763"
-            ]
-        ]
-    },
-    {
-        "id": "b3f70eca695d41a4",
-        "type": "api-call-service",
-        "z": "fd9cd80f14f860fe",
-        "g": "d3868dc5f4aa2d65",
-        "name": "turn off tv",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "webostv.command",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"entity_id\":\"media_player.lg_webos_smart_tv\",\"command\":\"system/turnOff\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "webostv",
-        "service": "command",
-        "x": 1060,
-        "y": 140,
         "wires": [
             []
         ]
@@ -26097,7 +24606,14 @@
             "ddf56ac7c76174e3",
             "85efbfe86edb2e91",
             "f18c57903881ea97",
-            "13f2b7ca42c4eca2"
+            "13f2b7ca42c4eca2",
+            "71c8efae8c1d420b",
+            "8b8c16211a8b72d6",
+            "4d9e677df669290b",
+            "4d1450df9aae47f1",
+            "b7a8e5cc57ee6ca0",
+            "7bf74cbdd5a69c4a",
+            "6399bb828d61b11b"
         ],
         "x": 195,
         "y": 460,
