@@ -32999,7 +32999,7 @@
         "blockInputOverrides": false,
         "domain": "switch",
         "service": "turn_on",
-        "x": 920,
+        "x": 1160,
         "y": 260,
         "wires": [
             []
@@ -33366,7 +33366,7 @@
         "y": 260,
         "wires": [
             [
-                "4545fccab838a1ae"
+                "cdcc2b5b83ee4e4b"
             ],
             []
         ]
@@ -33705,6 +33705,26 @@
             [
                 "cdf62b8c35fee85c"
             ]
+        ]
+    },
+    {
+        "id": "cdcc2b5b83ee4e4b",
+        "type": "time-range-switch",
+        "z": "c0da8379.b0dd3",
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "startTime": "16:00",
+        "endTime": "19:00",
+        "startOffset": 0,
+        "endOffset": 0,
+        "x": 910,
+        "y": 260,
+        "wires": [
+            [
+                "4545fccab838a1ae"
+            ],
+            []
         ]
     },
     {

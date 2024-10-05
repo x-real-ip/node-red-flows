@@ -8964,7 +8964,7 @@
         "z": "4e909abe.0b62e4",
         "name": "",
         "x": 1330,
-        "y": 680,
+        "y": 800,
         "wires": [
             [
                 "955d17f64b59495b"
@@ -9066,7 +9066,7 @@
         "z": "4e909abe.0b62e4",
         "name": "",
         "x": 1330,
-        "y": 540,
+        "y": 580,
         "wires": [
             [
                 "955d17f64b59495b"
@@ -9568,7 +9568,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 1060,
-        "y": 540,
+        "y": 580,
         "wires": [
             [
                 "9bf4aa10d1402099"
@@ -9608,7 +9608,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 590,
-        "y": 840,
+        "y": 860,
         "wires": [
             [
                 "66c60aad52f358c9"
@@ -9730,7 +9730,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 1060,
-        "y": 680,
+        "y": 800,
         "wires": [
             [
                 "54922ba7.31ebb4"
@@ -10831,7 +10831,7 @@
         "name": "",
         "env": [],
         "x": 1330,
-        "y": 820,
+        "y": 920,
         "wires": [
             [
                 "955d17f64b59495b"
@@ -10870,7 +10870,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 1060,
-        "y": 820,
+        "y": 920,
         "wires": [
             [
                 "320c3cf2.5620d4"
@@ -10911,7 +10911,7 @@
             "71e07fd77d2a4430"
         ],
         "x": 1535,
-        "y": 680,
+        "y": 800,
         "wires": []
     },
     {
@@ -11085,7 +11085,7 @@
         "template": "De middelste stand is automatisch ingeschakeld. De luchtvochtigheid is {{sensor.basement_humidity}}%.",
         "output": "str",
         "x": 840,
-        "y": 680,
+        "y": 760,
         "wires": [
             [
                 "46771664.f639e8"
@@ -11104,7 +11104,7 @@
         "template": "De hoogste stand is automatisch ingeschakeld.",
         "output": "str",
         "x": 840,
-        "y": 820,
+        "y": 920,
         "wires": [
             [
                 "b5d8b43d.943a18"
@@ -11123,7 +11123,7 @@
         "template": "De middelste stand is automatisch ingeschakeld. Buiten is het onder de 5 graden celcius.",
         "output": "str",
         "x": 840,
-        "y": 720,
+        "y": 800,
         "wires": [
             [
                 "46771664.f639e8"
@@ -11142,7 +11142,7 @@
         "template": "De middelste stand is automatisch ingeschakeld. De verwarming in de woonkamer staat aan.",
         "output": "str",
         "x": 840,
-        "y": 760,
+        "y": 840,
         "wires": [
             [
                 "46771664.f639e8"
@@ -11250,9 +11250,11 @@
         "y": 600,
         "wires": [
             [
-                "0cebcecc7266486e"
+                "8bd10319762b29f3"
             ],
-            []
+            [
+                "0cebcecc7266486e"
+            ]
         ]
     },
     {
@@ -32997,7 +32999,7 @@
         "blockInputOverrides": false,
         "domain": "switch",
         "service": "turn_on",
-        "x": 920,
+        "x": 1080,
         "y": 260,
         "wires": [
             []
@@ -33364,7 +33366,7 @@
         "y": 260,
         "wires": [
             [
-                "4545fccab838a1ae"
+                "cdcc2b5b83ee4e4b"
             ],
             []
         ]
@@ -33703,6 +33705,26 @@
             [
                 "cdf62b8c35fee85c"
             ]
+        ]
+    },
+    {
+        "id": "cdcc2b5b83ee4e4b",
+        "type": "time-range-switch",
+        "z": "c0da8379.b0dd3",
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "startTime": "16:00",
+        "endTime": "19:00",
+        "startOffset": 0,
+        "endOffset": 0,
+        "x": 910,
+        "y": 260,
+        "wires": [
+            [
+                "4545fccab838a1ae"
+            ],
+            []
         ]
     },
     {
