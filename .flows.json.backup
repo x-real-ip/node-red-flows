@@ -536,9 +536,9 @@
         "env": []
     },
     {
-        "id": "7144e23d3c607dca",
+        "id": "032c55be6d5ca23d",
         "type": "tab",
-        "label": "Flow 2",
+        "label": "Flow 3",
         "disabled": false,
         "info": "",
         "env": []
@@ -2187,49 +2187,6 @@
         "h": 362
     },
     {
-        "id": "bd90d247a95feb9d",
-        "type": "group",
-        "z": "e4381ced98d2a929",
-        "g": "12e8b8acaeaeb3fa",
-        "name": "notify",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "ad62962b589ed07d",
-            "cae0f9255059d5ce",
-            "f5a1c4dd087e0795",
-            "c1f0224f374a67a6",
-            "ce2746e7cd66f603",
-            "13dd6df8c5e31625"
-        ],
-        "x": 1334,
-        "y": 459,
-        "w": 432,
-        "h": 162
-    },
-    {
-        "id": "7fe4b7424297ac0b",
-        "type": "group",
-        "z": "e4381ced98d2a929",
-        "g": "12e8b8acaeaeb3fa",
-        "name": "notify",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "37cd1950eaba0494",
-            "8516fb393b7286e1",
-            "17afd1b13fd231be",
-            "d4a37aed996e885f",
-            "0e425dc836ddc52f"
-        ],
-        "x": 1334,
-        "y": 699,
-        "w": 392,
-        "h": 122
-    },
-    {
         "id": "075f4d9b063c9dbd",
         "type": "group",
         "z": "2a2d89771193fb8b",
@@ -3707,6 +3664,49 @@
         "y": 39,
         "w": 502,
         "h": 82
+    },
+    {
+        "id": "bd90d247a95feb9d",
+        "type": "group",
+        "z": "e4381ced98d2a929",
+        "g": "12e8b8acaeaeb3fa",
+        "name": "notify",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ad62962b589ed07d",
+            "cae0f9255059d5ce",
+            "f5a1c4dd087e0795",
+            "c1f0224f374a67a6",
+            "ce2746e7cd66f603",
+            "13dd6df8c5e31625"
+        ],
+        "x": 1334,
+        "y": 459,
+        "w": 432,
+        "h": 162
+    },
+    {
+        "id": "7fe4b7424297ac0b",
+        "type": "group",
+        "z": "e4381ced98d2a929",
+        "g": "12e8b8acaeaeb3fa",
+        "name": "notify",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "37cd1950eaba0494",
+            "8516fb393b7286e1",
+            "17afd1b13fd231be",
+            "d4a37aed996e885f",
+            "0e425dc836ddc52f"
+        ],
+        "x": 1334,
+        "y": 699,
+        "w": 392,
+        "h": 122
     },
     {
         "id": "f7038caa7a76e6f3",
@@ -6222,6 +6222,37 @@
         ],
         "resend": false,
         "debugEnabled": false
+    },
+    {
+        "id": "69a3998ed0db7765",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "ws://mqtt.lan.theautomation.nl:80",
+        "port": "9001",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
     },
     {
         "id": "a4ceb3e9.e8677",
@@ -10757,8 +10788,8 @@
         "type": "subflow:279f5735.2f95d8",
         "z": "4e909abe.0b62e4",
         "name": "",
-        "x": 1330,
-        "y": 800,
+        "x": 1170,
+        "y": 740,
         "wires": [
             [
                 "955d17f64b59495b"
@@ -10859,7 +10890,7 @@
         "type": "subflow:db575387.da1ff",
         "z": "4e909abe.0b62e4",
         "name": "",
-        "x": 1330,
+        "x": 1170,
         "y": 580,
         "wires": [
             [
@@ -11361,7 +11392,7 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 1060,
+        "x": 900,
         "y": 580,
         "wires": [
             [
@@ -11401,15 +11432,14 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 590,
-        "y": 860,
+        "x": 430,
+        "y": 820,
         "wires": [
             [
                 "66c60aad52f358c9"
             ],
             [
-                "5ce9303e.d40b8",
-                "a11e7f07d9e3d59b"
+                "5ce9303e.d40b8"
             ]
         ]
     },
@@ -11444,8 +11474,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 430,
-        "y": 420,
+        "x": 630,
+        "y": 360,
         "wires": [
             [
                 "8bd822f09fed1461"
@@ -11523,8 +11553,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 1060,
-        "y": 800,
+        "x": 900,
+        "y": 740,
         "wires": [
             [
                 "54922ba7.31ebb4"
@@ -12472,57 +12502,13 @@
         "id": "8bd822f09fed1461",
         "type": "api-current-state",
         "z": "4e909abe.0b62e4",
-        "name": "ah outdoor",
+        "name": "ah basement",
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 1,
         "halt_if": "",
         "halt_if_type": "num",
         "halt_if_compare": "is",
-        "entity_id": "sensor.outdoor_thermal_comfort_absolute_humidity",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.outdoor_thermal_comfort_absolute_humidity",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 370,
-        "y": 480,
-        "wires": [
-            [
-                "5c061fb5ace8d130"
-            ]
-        ]
-    },
-    {
-        "id": "5c061fb5ace8d130",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "name": "ah basement => ah outdoor",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "sensor.outdoor_thermal_comfort_absolute_humidity",
-        "halt_if_type": "msg",
-        "halt_if_compare": "gte",
         "entity_id": "sensor.basement_thermal_comfort_absolute_humidity",
         "state_type": "num",
         "blockInputOverrides": false,
@@ -12548,14 +12534,58 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 580,
-        "y": 480,
+        "x": 850,
+        "y": 360,
         "wires": [
             [
-                "0a547d31ef1d15c3"
-            ],
+                "5c061fb5ace8d130"
+            ]
+        ]
+    },
+    {
+        "id": "5c061fb5ace8d130",
+        "type": "api-current-state",
+        "z": "4e909abe.0b62e4",
+        "name": "ah outdoor > ah basement",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "sensor.basement_thermal_comfort_absolute_humidity",
+        "halt_if_type": "msg",
+        "halt_if_compare": "gt",
+        "entity_id": "sensor.outdoor_thermal_comfort_absolute_humidity",
+        "state_type": "num",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "sensor.outdoor_thermal_comfort_absolute_humidity",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 420,
+        "y": 460,
+        "wires": [
             [
                 "6f1eba702c95483a"
+            ],
+            [
+                "0a547d31ef1d15c3"
             ]
         ]
     },
@@ -12607,8 +12637,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 610,
-        "y": 780,
+        "x": 450,
+        "y": 760,
         "wires": [
             [
                 "c7b58913.752ad8"
@@ -12624,8 +12654,8 @@
         "z": "4e909abe.0b62e4",
         "name": "",
         "env": [],
-        "x": 1330,
-        "y": 920,
+        "x": 1170,
+        "y": 900,
         "wires": [
             [
                 "955d17f64b59495b"
@@ -12663,8 +12693,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 1060,
-        "y": 920,
+        "x": 900,
+        "y": 900,
         "wires": [
             [
                 "320c3cf2.5620d4"
@@ -12704,8 +12734,8 @@
         "links": [
             "71e07fd77d2a4430"
         ],
-        "x": 1535,
-        "y": 800,
+        "x": 1365,
+        "y": 740,
         "wires": []
     },
     {
@@ -12771,8 +12801,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 610,
-        "y": 720,
+        "x": 450,
+        "y": 700,
         "wires": [
             [
                 "aa4bd88087bb3c75"
@@ -12818,8 +12848,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 560,
-        "y": 660,
+        "x": 400,
+        "y": 640,
         "wires": [
             [
                 "aa4bd88087bb3c75"
@@ -12840,7 +12870,7 @@
         "syntax": "mustache",
         "template": "De laagste stand is automatisch ingeschakeld. Buiten is de absolute luchtvochtigheid hoger dan in de souterrain.",
         "output": "str",
-        "x": 840,
+        "x": 680,
         "y": 540,
         "wires": [
             [
@@ -12859,7 +12889,7 @@
         "syntax": "mustache",
         "template": "De laagste stand is automatisch ingeschakeld i.v.m. de regen.",
         "output": "str",
-        "x": 840,
+        "x": 680,
         "y": 620,
         "wires": [
             [
@@ -12878,8 +12908,8 @@
         "syntax": "mustache",
         "template": "De middelste stand is automatisch ingeschakeld. De luchtvochtigheid is {{sensor.basement_humidity}}%.",
         "output": "str",
-        "x": 840,
-        "y": 760,
+        "x": 680,
+        "y": 700,
         "wires": [
             [
                 "46771664.f639e8"
@@ -12897,8 +12927,8 @@
         "syntax": "mustache",
         "template": "De hoogste stand is automatisch ingeschakeld.",
         "output": "str",
-        "x": 840,
-        "y": 920,
+        "x": 680,
+        "y": 900,
         "wires": [
             [
                 "b5d8b43d.943a18"
@@ -12916,27 +12946,8 @@
         "syntax": "mustache",
         "template": "De middelste stand is automatisch ingeschakeld. Buiten is het onder de 5 graden celcius.",
         "output": "str",
-        "x": 840,
-        "y": 800,
-        "wires": [
-            [
-                "46771664.f639e8"
-            ]
-        ]
-    },
-    {
-        "id": "a11e7f07d9e3d59b",
-        "type": "template",
-        "z": "4e909abe.0b62e4",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "De middelste stand is automatisch ingeschakeld. De verwarming in de woonkamer staat aan.",
-        "output": "str",
-        "x": 840,
-        "y": 840,
+        "x": 680,
+        "y": 740,
         "wires": [
             [
                 "46771664.f639e8"
@@ -12947,7 +12958,7 @@
         "id": "0a547d31ef1d15c3",
         "type": "api-current-state",
         "z": "4e909abe.0b62e4",
-        "name": "thermostate living room is not heat",
+        "name": "thermostat living room is heat",
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
@@ -12974,8 +12985,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 560,
-        "y": 540,
+        "x": 420,
+        "y": 520,
         "wires": [
             [
                 "8bd10319762b29f3"
@@ -12996,7 +13007,7 @@
         "syntax": "mustache",
         "template": "De laagste stand is automatisch ingeschakeld, de verwarming in de woonkamer staat aan.",
         "output": "str",
-        "x": 840,
+        "x": 680,
         "y": 580,
         "wires": [
             [
@@ -13040,8 +13051,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 530,
-        "y": 600,
+        "x": 430,
+        "y": 580,
         "wires": [
             [
                 "8bd10319762b29f3"
@@ -51025,62 +51036,30 @@
         ]
     },
     {
-        "id": "efa3d3530b73c329",
-        "type": "inject",
-        "z": "7144e23d3c607dca",
+        "id": "e1702605f4466b75",
+        "type": "mqtt in",
+        "z": "032c55be6d5ca23d",
         "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
         "topic": "",
-        "payload": "{\"companyCode\":\"f8e2844a-095e-48f9-9f98-71fceb51d2c3\",\"postCode\":\"6711MC\",\"houseNumber\":8}",
-        "payloadType": "json",
-        "x": 280,
-        "y": 220,
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "69a3998ed0db7765",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 1,
+        "x": 210,
+        "y": 180,
         "wires": [
             [
-                "c75a9247eb93e0b1"
+                "b0537cf628bc40a5"
             ]
         ]
     },
     {
-        "id": "c75a9247eb93e0b1",
-        "type": "http request",
-        "z": "7144e23d3c607dca",
-        "name": "",
-        "method": "POST",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "https://wasteapi.ximmio.com/api/GetAddress",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 500,
-        "y": 280,
-        "wires": [
-            [
-                "84240099428a657e"
-            ]
-        ]
-    },
-    {
-        "id": "84240099428a657e",
+        "id": "b0537cf628bc40a5",
         "type": "debug",
-        "z": "7144e23d3c607dca",
+        "z": "032c55be6d5ca23d",
         "name": "debug 3",
         "active": true,
         "tosidebar": true,
@@ -51090,8 +51069,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 770,
-        "y": 300,
+        "x": 340,
+        "y": 180,
         "wires": []
     }
 ]
