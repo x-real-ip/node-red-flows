@@ -536,14 +536,6 @@
         "env": []
     },
     {
-        "id": "032c55be6d5ca23d",
-        "type": "tab",
-        "label": "Flow 3",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "67a1c55d.b4b94c",
         "type": "subflow",
         "name": "christmas_tree_lights_on",
@@ -4845,6 +4837,7 @@
         "protocolVersion": "4",
         "keepalive": "60",
         "cleansession": true,
+        "autoUnsubscribe": true,
         "birthTopic": "",
         "birthQos": "0",
         "birthPayload": "",
@@ -6222,37 +6215,6 @@
         ],
         "resend": false,
         "debugEnabled": false
-    },
-    {
-        "id": "69a3998ed0db7765",
-        "type": "mqtt-broker",
-        "name": "",
-        "broker": "ws://mqtt.lan.theautomation.nl:80",
-        "port": "9001",
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": false,
-        "protocolVersion": "4",
-        "keepalive": "60",
-        "cleansession": true,
-        "autoUnsubscribe": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthRetain": "false",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closeRetain": "false",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willRetain": "false",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
     },
     {
         "id": "a4ceb3e9.e8677",
@@ -21040,7 +21002,7 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 150,
+        "x": 130,
         "y": 280,
         "wires": [
             [
@@ -51034,43 +50996,5 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "e1702605f4466b75",
-        "type": "mqtt in",
-        "z": "032c55be6d5ca23d",
-        "name": "",
-        "topic": "",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "broker": "69a3998ed0db7765",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 1,
-        "x": 210,
-        "y": 180,
-        "wires": [
-            [
-                "b0537cf628bc40a5"
-            ]
-        ]
-    },
-    {
-        "id": "b0537cf628bc40a5",
-        "type": "debug",
-        "z": "032c55be6d5ca23d",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 340,
-        "y": 180,
-        "wires": []
     }
 ]
