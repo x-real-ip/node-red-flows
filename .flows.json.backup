@@ -8018,7 +8018,7 @@
         "blockInputOverrides": false,
         "domain": "input_select",
         "service": "select_option",
-        "x": 650,
+        "x": 630,
         "y": 160,
         "wires": [
             []
@@ -32199,7 +32199,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "{{msg.payload}} {{msg.update}} beschikbaar in de Home Assistant Community Store (hacs) \\n[Link](https://home-assistant.theautomation.nl/hacs)",
+        "template": "{{msg.payload}} {{msg.update}} beschikbaar in de Home Assistant Community Store (hacs) \\n[Link](https://home-assistant.stamx.nl/hacs)",
         "output": "str",
         "x": 1000,
         "y": 260,
@@ -32383,7 +32383,7 @@
         "exposeAsEntityConfig": "",
         "entities": {
             "entity": [
-                "sensor.hacs"
+                "update.hacs_update"
             ],
             "substring": [],
             "regex": []
@@ -32426,7 +32426,8 @@
         "y": 200,
         "wires": [
             [
-                "1afb9699.b01d29"
+                "1afb9699.b01d29",
+                "ad0ec11b5246153e"
             ],
             []
         ]
@@ -32518,6 +32519,23 @@
                 "9359ee3df9b30276"
             ]
         ]
+    },
+    {
+        "id": "ad0ec11b5246153e",
+        "type": "debug",
+        "z": "5a8d7bb1.6263b4",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 210,
+        "y": 340,
+        "wires": []
     },
     {
         "id": "b560dfc6f3c2aec1",
