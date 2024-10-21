@@ -1,5 +1,13 @@
 [
     {
+        "id": "747e156c11e4e604",
+        "type": "tab",
+        "label": "trigger_door_opens_or_closes",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "24d64ac8238cc218",
         "type": "tab",
         "label": "trigger_shelly_click_events",
@@ -615,14 +623,6 @@
         "label": "scene_turn_on_light_frontdoor_for_5_minutes",
         "disabled": false,
         "info": ""
-    },
-    {
-        "id": "747e156c11e4e604",
-        "type": "tab",
-        "label": "trigger_door_opens_or_closes",
-        "disabled": false,
-        "info": "",
-        "env": []
     },
     {
         "id": "67a1c55d.b4b94c",
@@ -3562,7 +3562,8 @@
             "18e6577d292535de",
             "61e6d10bbacb84be",
             "fa9bc69bfdcf7c2c",
-            "1852cb62226e78b0"
+            "1852cb62226e78b0",
+            "5654e2ed08cb8752"
         ],
         "x": 634,
         "y": 499,
@@ -3747,49 +3748,6 @@
         "y": 39,
         "w": 502,
         "h": 82
-    },
-    {
-        "id": "bd90d247a95feb9d",
-        "type": "group",
-        "z": "e4381ced98d2a929",
-        "g": "12e8b8acaeaeb3fa",
-        "name": "notify",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "ad62962b589ed07d",
-            "cae0f9255059d5ce",
-            "f5a1c4dd087e0795",
-            "c1f0224f374a67a6",
-            "ce2746e7cd66f603",
-            "13dd6df8c5e31625"
-        ],
-        "x": 1334,
-        "y": 459,
-        "w": 432,
-        "h": 162
-    },
-    {
-        "id": "7fe4b7424297ac0b",
-        "type": "group",
-        "z": "e4381ced98d2a929",
-        "g": "12e8b8acaeaeb3fa",
-        "name": "notify",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "37cd1950eaba0494",
-            "8516fb393b7286e1",
-            "17afd1b13fd231be",
-            "d4a37aed996e885f",
-            "0e425dc836ddc52f"
-        ],
-        "x": 1334,
-        "y": 699,
-        "w": 392,
-        "h": 122
     },
     {
         "id": "0c2e33b261c4cf11",
@@ -4030,6 +3988,49 @@
         "y": 39,
         "w": 502,
         "h": 82
+    },
+    {
+        "id": "bd90d247a95feb9d",
+        "type": "group",
+        "z": "e4381ced98d2a929",
+        "g": "12e8b8acaeaeb3fa",
+        "name": "notify",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ad62962b589ed07d",
+            "cae0f9255059d5ce",
+            "f5a1c4dd087e0795",
+            "c1f0224f374a67a6",
+            "ce2746e7cd66f603",
+            "13dd6df8c5e31625"
+        ],
+        "x": 1334,
+        "y": 459,
+        "w": 432,
+        "h": 162
+    },
+    {
+        "id": "7fe4b7424297ac0b",
+        "type": "group",
+        "z": "e4381ced98d2a929",
+        "g": "12e8b8acaeaeb3fa",
+        "name": "notify",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "37cd1950eaba0494",
+            "8516fb393b7286e1",
+            "17afd1b13fd231be",
+            "d4a37aed996e885f",
+            "0e425dc836ddc52f"
+        ],
+        "x": 1334,
+        "y": 699,
+        "w": 392,
+        "h": 122
     },
     {
         "id": "f7038caa7a76e6f3",
@@ -8227,6 +8228,157 @@
                 "4b1d7947bb43e759"
             ]
         ]
+    },
+    {
+        "id": "03510cfeb8e1fc1f",
+        "type": "comment",
+        "z": "747e156c11e4e604",
+        "name": "trigger when a door opens or closes",
+        "info": "",
+        "x": 160,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "6b7ddb8ad38004e5",
+        "type": "catch",
+        "z": "747e156c11e4e604",
+        "g": "f1c27cc6414561c7",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "8c9e13eba1e37b61"
+            ]
+        ]
+    },
+    {
+        "id": "8c9e13eba1e37b61",
+        "type": "template",
+        "z": "747e156c11e4e604",
+        "g": "f1c27cc6414561c7",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "5ef9f55014b6f981"
+            ]
+        ]
+    },
+    {
+        "id": "315c0bcd8e6fef5f",
+        "type": "link out",
+        "z": "747e156c11e4e604",
+        "g": "f1c27cc6414561c7",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "5ef9f55014b6f981",
+        "type": "template",
+        "z": "747e156c11e4e604",
+        "g": "f1c27cc6414561c7",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "315c0bcd8e6fef5f"
+            ]
+        ]
+    },
+    {
+        "id": "2f36bf18d2eef10a",
+        "type": "server-state-changed",
+        "z": "747e156c11e4e604",
+        "name": "state change for all doors",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [],
+            "substring": [],
+            "regex": [
+                "binary_sensor.*\\b\\w*door\\b"
+            ]
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "13f87cfee713f150"
+            ]
+        ]
+    },
+    {
+        "id": "13f87cfee713f150",
+        "type": "link out",
+        "z": "747e156c11e4e604",
+        "name": "trigger_all_door_open_or_closed",
+        "mode": "link",
+        "links": [
+            "236aff92bc909f96"
+        ],
+        "x": 275,
+        "y": 160,
+        "wires": []
     },
     {
         "id": "de83998fee8c6179",
@@ -28105,7 +28257,6 @@
             "d3b8e4a7f5f1fbb1",
             "0666b6f65b4515cb",
             "87c05e9e80c8acec",
-            "6967b93f487bc8c8",
             "cda4d972226868a6",
             "d5382f174608bb29",
             "44f5433a0f7d8e6c",
@@ -49690,7 +49841,7 @@
             "media_player.powernode_2i_ea48"
         ],
         "labelId": [],
-        "data": "{\"source\":\"Optical Input 1\"}",
+        "data": "{\"source\":\"Optisch Digitale ingang 1\"}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -50997,6 +51148,36 @@
         ]
     },
     {
+        "id": "5654e2ed08cb8752",
+        "type": "inject",
+        "z": "fd9cd80f14f860fe",
+        "g": "cd256ec259a611f4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1090,
+        "y": 640,
+        "wires": [
+            [
+                "54b7f080b2edea10"
+            ]
+        ]
+    },
+    {
         "id": "efdd9775da43ade3",
         "type": "comment",
         "z": "fb7b362cbc47e439",
@@ -51455,7 +51636,6 @@
         "z": "f5e87f41e348afa5",
         "name": "scene_turn_on_guest_mode",
         "links": [
-            "de223a467fe18b3c",
             "e787939d2bae52df",
             "f3bf4b7d7123292b"
         ],
@@ -52183,156 +52363,5 @@
                 "11f67152.16638f"
             ]
         ]
-    },
-    {
-        "id": "03510cfeb8e1fc1f",
-        "type": "comment",
-        "z": "747e156c11e4e604",
-        "name": "trigger when a door opens or closes",
-        "info": "",
-        "x": 160,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "6b7ddb8ad38004e5",
-        "type": "catch",
-        "z": "747e156c11e4e604",
-        "g": "f1c27cc6414561c7",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "8c9e13eba1e37b61"
-            ]
-        ]
-    },
-    {
-        "id": "8c9e13eba1e37b61",
-        "type": "template",
-        "z": "747e156c11e4e604",
-        "g": "f1c27cc6414561c7",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "5ef9f55014b6f981"
-            ]
-        ]
-    },
-    {
-        "id": "315c0bcd8e6fef5f",
-        "type": "link out",
-        "z": "747e156c11e4e604",
-        "g": "f1c27cc6414561c7",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 475,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "5ef9f55014b6f981",
-        "type": "template",
-        "z": "747e156c11e4e604",
-        "g": "f1c27cc6414561c7",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "315c0bcd8e6fef5f"
-            ]
-        ]
-    },
-    {
-        "id": "2f36bf18d2eef10a",
-        "type": "server-state-changed",
-        "z": "747e156c11e4e604",
-        "name": "state change for all doors",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [],
-            "substring": [],
-            "regex": [
-                "binary_sensor.*\\b\\w*door\\b"
-            ]
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 130,
-        "y": 160,
-        "wires": [
-            [
-                "13f87cfee713f150"
-            ]
-        ]
-    },
-    {
-        "id": "13f87cfee713f150",
-        "type": "link out",
-        "z": "747e156c11e4e604",
-        "name": "trigger_all_door_open_or_closed",
-        "mode": "link",
-        "links": [
-            "236aff92bc909f96"
-        ],
-        "x": 275,
-        "y": 160,
-        "wires": []
     }
 ]
