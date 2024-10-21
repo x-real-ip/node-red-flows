@@ -625,6 +625,14 @@
         "info": ""
     },
     {
+        "id": "d9b921e9fd746ad1",
+        "type": "tab",
+        "label": "scene_send_vacuum_to_trash_bin",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "67a1c55d.b4b94c",
         "type": "subflow",
         "name": "christmas_tree_lights_on",
@@ -3562,8 +3570,7 @@
             "18e6577d292535de",
             "61e6d10bbacb84be",
             "fa9bc69bfdcf7c2c",
-            "1852cb62226e78b0",
-            "5654e2ed08cb8752"
+            "1852cb62226e78b0"
         ],
         "x": 634,
         "y": 499,
@@ -4031,6 +4038,30 @@
         "y": 699,
         "w": 392,
         "h": 122
+    },
+    {
+        "id": "52980cdcae4e3384",
+        "type": "group",
+        "z": "d9b921e9fd746ad1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9f18e7092e8b6f9c",
+            "ee03c06252d3632e",
+            "c9f30fc70f2be4fd",
+            "9b9ad619917072e8"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
     },
     {
         "id": "f7038caa7a76e6f3",
@@ -28264,7 +28295,8 @@
             "83742449c3349fd4",
             "de255097b6d251ec",
             "37b1834649576aa9",
-            "315c0bcd8e6fef5f"
+            "315c0bcd8e6fef5f",
+            "c9f30fc70f2be4fd"
         ],
         "x": 195,
         "y": 460,
@@ -51148,36 +51180,6 @@
         ]
     },
     {
-        "id": "5654e2ed08cb8752",
-        "type": "inject",
-        "z": "fd9cd80f14f860fe",
-        "g": "cd256ec259a611f4",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1090,
-        "y": 640,
-        "wires": [
-            [
-                "54b7f080b2edea10"
-            ]
-        ]
-    },
-    {
         "id": "efdd9775da43ade3",
         "type": "comment",
         "z": "fb7b362cbc47e439",
@@ -52361,6 +52363,180 @@
         "wires": [
             [
                 "11f67152.16638f"
+            ]
+        ]
+    },
+    {
+        "id": "716b959221558033",
+        "type": "comment",
+        "z": "d9b921e9fd746ad1",
+        "name": "scene that send the vacuum to the trash bin",
+        "info": "",
+        "x": 190,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "9f18e7092e8b6f9c",
+        "type": "catch",
+        "z": "d9b921e9fd746ad1",
+        "g": "52980cdcae4e3384",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "ee03c06252d3632e"
+            ]
+        ]
+    },
+    {
+        "id": "ee03c06252d3632e",
+        "type": "template",
+        "z": "d9b921e9fd746ad1",
+        "g": "52980cdcae4e3384",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "9b9ad619917072e8"
+            ]
+        ]
+    },
+    {
+        "id": "c9f30fc70f2be4fd",
+        "type": "link out",
+        "z": "d9b921e9fd746ad1",
+        "g": "52980cdcae4e3384",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "9b9ad619917072e8",
+        "type": "template",
+        "z": "d9b921e9fd746ad1",
+        "g": "52980cdcae4e3384",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "c9f30fc70f2be4fd"
+            ]
+        ]
+    },
+    {
+        "id": "093ac1f894c6070c",
+        "type": "cronplus",
+        "z": "d9b921e9fd746ad1",
+        "name": "",
+        "outputField": "payload",
+        "timeZone": "",
+        "storeName": "",
+        "commandResponseMsgOutput": "output1",
+        "defaultLocation": "",
+        "defaultLocationType": "default",
+        "outputs": 1,
+        "options": [
+            {
+                "name": "schedule1",
+                "topic": "topic1",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 0 7 * * 1 *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            }
+        ],
+        "x": 120,
+        "y": 160,
+        "wires": [
+            [
+                "429ec9116b7e06ae"
+            ]
+        ]
+    },
+    {
+        "id": "429ec9116b7e06ae",
+        "type": "api-call-service",
+        "z": "d9b921e9fd746ad1",
+        "name": "send vacuum to target location",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "vacuum.send_command",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "vacuum.roborock_s6_pure"
+        ],
+        "labelId": [],
+        "data": "{\"command\":\"app_goto_target\",\"params\":[20433,24523]}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "vacuum",
+        "service": "send_command",
+        "x": 350,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fa5697a8ff97b4cd",
+        "type": "inject",
+        "z": "d9b921e9fd746ad1",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 300,
+        "wires": [
+            [
+                "429ec9116b7e06ae"
             ]
         ]
     }
