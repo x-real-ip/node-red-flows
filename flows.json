@@ -1,5 +1,77 @@
 [
     {
+        "id": "747e156c11e4e604",
+        "type": "tab",
+        "label": "trigger_door_opens_or_closes",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "24d64ac8238cc218",
+        "type": "tab",
+        "label": "trigger_shelly_click_events",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e44f5d834fa24670",
+        "type": "tab",
+        "label": "trigger_mobile_event_listner_guest_mode_on",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7a63032b7cac43cf",
+        "type": "tab",
+        "label": "trigger_doorbell_pressed",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "960ed9c324a9682d",
+        "type": "tab",
+        "label": "trigger_home_unoccupied",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "12beaeea5e53e349",
+        "type": "tab",
+        "label": "trigger_home_occupied",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d9b05fe971d5c1b1",
+        "type": "tab",
+        "label": "trigger_calendar_babysitter",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8b9f28f75c6a8cea",
+        "type": "tab",
+        "label": "trigger_backdoor_open_or_close",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e846a5a705a12fe6",
+        "type": "tab",
+        "label": "trigger_backyard_camera_person_detection",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "1adcdebcdc8e5c39",
         "type": "tab",
         "label": "automation_climate_graph_input_select_all",
@@ -8,16 +80,9 @@
         "env": []
     },
     {
-        "id": "3637eeb0.d96232",
-        "type": "tab",
-        "label": "automation_doorbell",
-        "disabled": false,
-        "info": ""
-    },
-    {
         "id": "a7a34028d045deee",
         "type": "tab",
-        "label": "automation_guest_mode",
+        "label": "notification_action_turn_on_guest_mode",
         "disabled": false,
         "info": "",
         "env": []
@@ -218,14 +283,6 @@
         "label": "notification_basement_window",
         "disabled": false,
         "info": ""
-    },
-    {
-        "id": "e846a5a705a12fe6",
-        "type": "tab",
-        "label": "notification_camera_person_detection",
-        "disabled": false,
-        "info": "",
-        "env": []
     },
     {
         "id": "65351372f52f2e2d",
@@ -529,6 +586,45 @@
         "env": []
     },
     {
+        "id": "fb7b362cbc47e439",
+        "type": "tab",
+        "label": "notification_backyard_person_detection",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f5e87f41e348afa5",
+        "type": "tab",
+        "label": "scene_turn_on_guest_mode",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "75dcbba8aec48c92",
+        "type": "tab",
+        "label": "scene_turn_on_doorbell_chime",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a498f22679d943d0",
+        "type": "tab",
+        "label": "scene_pause_tv_media_player",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3637eeb0.d96232",
+        "type": "tab",
+        "label": "scene_turn_on_light_frontdoor_for_5_minutes",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "67a1c55d.b4b94c",
         "type": "subflow",
         "name": "christmas_tree_lights_on",
@@ -825,8 +921,8 @@
             "88a668a5509178e0",
             "b2e6817cd694ba28"
         ],
-        "x": 1174,
-        "y": 339,
+        "x": 1254,
+        "y": 139,
         "w": 442,
         "h": 202
     },
@@ -3605,6 +3701,54 @@
         "h": 82
     },
     {
+        "id": "eceb4d513b2ed0a7",
+        "type": "group",
+        "z": "fb7b362cbc47e439",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "218274abd301e16a",
+            "54b23fbb217cce7a",
+            "3bacd8ed5d0dccd2",
+            "f2eeb4cd5981b12d"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "294518b9f2d20a35",
+        "type": "group",
+        "z": "8b9f28f75c6a8cea",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b720e68e9c64cbc4",
+            "746561afe69af34e",
+            "d3b8e4a7f5f1fbb1",
+            "15aee940807c653c"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
         "id": "bd90d247a95feb9d",
         "type": "group",
         "z": "e4381ced98d2a929",
@@ -3648,12 +3792,252 @@
         "h": 122
     },
     {
+        "id": "0c2e33b261c4cf11",
+        "type": "group",
+        "z": "f5e87f41e348afa5",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "40b36b069112494c",
+            "4fd19d102fa4c95a",
+            "0666b6f65b4515cb",
+            "6f6033d75ad786d8"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "b2c83f4475ac19e8",
+        "type": "group",
+        "z": "d9b05fe971d5c1b1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "21483532a6568ef0",
+            "2413d6e9e633df33",
+            "87c05e9e80c8acec",
+            "d6d97696332334d3"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "4b9dc824e8dc4f60",
+        "type": "group",
+        "z": "12beaeea5e53e349",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b93b079df5e1a1e2",
+            "b97852abb4549332",
+            "cda4d972226868a6",
+            "239f25417faab75f"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "0db35c5731702740",
+        "type": "group",
+        "z": "960ed9c324a9682d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8303d54c6f8763c4",
+            "3f5ea233d095a2a7",
+            "d5382f174608bb29",
+            "d0618614358c50be"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "c79d2a2e6bd96fce",
+        "type": "group",
+        "z": "75dcbba8aec48c92",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "48a202fd30defc64",
+            "8a880a89870fd474",
+            "44f5433a0f7d8e6c",
+            "df8ba459c8692b8a"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "f269d62ec84b4edc",
+        "type": "group",
+        "z": "7a63032b7cac43cf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a4114163f4e66b89",
+            "116afd12aecfd9a9",
+            "42e103b5f2b1e679",
+            "e8de261ce3c7454d"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "b69895a9db022a47",
+        "type": "group",
+        "z": "a498f22679d943d0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5c0b91114ad853a6",
+            "57555a1f94c04fc3",
+            "83742449c3349fd4",
+            "8ba3f19d6ce65bec"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "c3775f25041c4420",
+        "type": "group",
+        "z": "e44f5d834fa24670",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e47c4eb905713f27",
+            "76b0e8a6f5aaa925",
+            "de255097b6d251ec",
+            "4461976ce1d368c5"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "b37c093ac94a1e98",
+        "type": "group",
+        "z": "24d64ac8238cc218",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "03b294ecea33cda7",
+            "01121dcdb1702967",
+            "37b1834649576aa9",
+            "46e46e14cb24c85e"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "f1c27cc6414561c7",
+        "type": "group",
+        "z": "747e156c11e4e604",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "6b7ddb8ad38004e5",
+            "8c9e13eba1e37b61",
+            "315c0bcd8e6fef5f",
+            "5ef9f55014b6f981"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
         "id": "f7038caa7a76e6f3",
         "type": "junction",
         "z": "a7a34028d045deee",
         "g": "022e7feb1e4ea3ae",
-        "x": 1200,
-        "y": 420,
+        "x": 1280,
+        "y": 220,
         "wires": [
             [
                 "d5d46cfd65fffc12",
@@ -4652,18 +5036,6 @@
         ]
     },
     {
-        "id": "d8d2f8bb1e0a18ee",
-        "type": "junction",
-        "z": "e846a5a705a12fe6",
-        "x": 1860,
-        "y": 240,
-        "wires": [
-            [
-                "4a585d8a38a8ee00"
-            ]
-        ]
-    },
-    {
         "id": "ea1d347257539369",
         "type": "junction",
         "z": "5c92a1135257c28d",
@@ -4753,6 +5125,18 @@
                 "f562bc76d4f77c72",
                 "c6c71296e724485a",
                 "7c90580485197cda"
+            ]
+        ]
+    },
+    {
+        "id": "610847102bcc29a9",
+        "type": "junction",
+        "z": "fb7b362cbc47e439",
+        "x": 1740,
+        "y": 160,
+        "wires": [
+            [
+                "0253bf8368a2a006"
             ]
         ]
     },
@@ -7845,6 +8229,1604 @@
         ]
     },
     {
+        "id": "03510cfeb8e1fc1f",
+        "type": "comment",
+        "z": "747e156c11e4e604",
+        "name": "trigger when a door opens or closes",
+        "info": "",
+        "x": 160,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "6b7ddb8ad38004e5",
+        "type": "catch",
+        "z": "747e156c11e4e604",
+        "g": "f1c27cc6414561c7",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "8c9e13eba1e37b61"
+            ]
+        ]
+    },
+    {
+        "id": "8c9e13eba1e37b61",
+        "type": "template",
+        "z": "747e156c11e4e604",
+        "g": "f1c27cc6414561c7",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "5ef9f55014b6f981"
+            ]
+        ]
+    },
+    {
+        "id": "315c0bcd8e6fef5f",
+        "type": "link out",
+        "z": "747e156c11e4e604",
+        "g": "f1c27cc6414561c7",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "5ef9f55014b6f981",
+        "type": "template",
+        "z": "747e156c11e4e604",
+        "g": "f1c27cc6414561c7",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "315c0bcd8e6fef5f"
+            ]
+        ]
+    },
+    {
+        "id": "2f36bf18d2eef10a",
+        "type": "server-state-changed",
+        "z": "747e156c11e4e604",
+        "name": "state change for all doors",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [],
+            "substring": [],
+            "regex": [
+                "binary_sensor.*\\b\\w*door\\b"
+            ]
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "13f87cfee713f150"
+            ]
+        ]
+    },
+    {
+        "id": "13f87cfee713f150",
+        "type": "link out",
+        "z": "747e156c11e4e604",
+        "name": "trigger_all_door_open_or_closed",
+        "mode": "link",
+        "links": [
+            "236aff92bc909f96"
+        ],
+        "x": 275,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "de83998fee8c6179",
+        "type": "server-events",
+        "z": "24d64ac8238cc218",
+        "name": "listen to shelly click events",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "exposeAsEntityConfig": "",
+        "eventType": "shelly.click",
+        "eventData": "",
+        "waitForRunning": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "$outputData(\"eventData\").event_type",
+                "valueType": "jsonata"
+            }
+        ],
+        "event_type": "",
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "4923944268d57366"
+            ]
+        ]
+    },
+    {
+        "id": "54a5f6b99a8b454f",
+        "type": "comment",
+        "z": "24d64ac8238cc218",
+        "name": "trigger when a shelly click event is detected",
+        "info": "",
+        "x": 180,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "03b294ecea33cda7",
+        "type": "catch",
+        "z": "24d64ac8238cc218",
+        "g": "b37c093ac94a1e98",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "01121dcdb1702967"
+            ]
+        ]
+    },
+    {
+        "id": "01121dcdb1702967",
+        "type": "template",
+        "z": "24d64ac8238cc218",
+        "g": "b37c093ac94a1e98",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "46e46e14cb24c85e"
+            ]
+        ]
+    },
+    {
+        "id": "37b1834649576aa9",
+        "type": "link out",
+        "z": "24d64ac8238cc218",
+        "g": "b37c093ac94a1e98",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "46e46e14cb24c85e",
+        "type": "template",
+        "z": "24d64ac8238cc218",
+        "g": "b37c093ac94a1e98",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "37b1834649576aa9"
+            ]
+        ]
+    },
+    {
+        "id": "4923944268d57366",
+        "type": "link out",
+        "z": "24d64ac8238cc218",
+        "name": "trigger_shelly_click_events",
+        "mode": "link",
+        "links": [
+            "15ae1a06ef742220"
+        ],
+        "x": 275,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "55630dad7aa4b97a",
+        "type": "server-events",
+        "z": "e44f5d834fa24670",
+        "name": "mobile event listner guest mode on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "exposeAsEntityConfig": "",
+        "eventType": "mobile_app_notification_action",
+        "eventData": "{\"action\":\"GUEST_MODE_ON\"}",
+        "waitForRunning": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "$outputData(\"eventData\").event_type",
+                "valueType": "jsonata"
+            }
+        ],
+        "event_type": "",
+        "x": 160,
+        "y": 160,
+        "wires": [
+            [
+                "f3bf4b7d7123292b"
+            ]
+        ]
+    },
+    {
+        "id": "f3bf4b7d7123292b",
+        "type": "link out",
+        "z": "e44f5d834fa24670",
+        "name": "link out 2",
+        "mode": "link",
+        "links": [
+            "0adb679d772d8e29"
+        ],
+        "x": 335,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "37b90611378a715c",
+        "type": "comment",
+        "z": "e44f5d834fa24670",
+        "name": "trigger when mobile event listner has data {\"action\":\"GUEST_MODE_ON\"}",
+        "info": "",
+        "x": 280,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "e47c4eb905713f27",
+        "type": "catch",
+        "z": "e44f5d834fa24670",
+        "g": "c3775f25041c4420",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "76b0e8a6f5aaa925"
+            ]
+        ]
+    },
+    {
+        "id": "76b0e8a6f5aaa925",
+        "type": "template",
+        "z": "e44f5d834fa24670",
+        "g": "c3775f25041c4420",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "4461976ce1d368c5"
+            ]
+        ]
+    },
+    {
+        "id": "de255097b6d251ec",
+        "type": "link out",
+        "z": "e44f5d834fa24670",
+        "g": "c3775f25041c4420",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "4461976ce1d368c5",
+        "type": "template",
+        "z": "e44f5d834fa24670",
+        "g": "c3775f25041c4420",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "de255097b6d251ec"
+            ]
+        ]
+    },
+    {
+        "id": "c9ed705836af47bb",
+        "type": "comment",
+        "z": "7a63032b7cac43cf",
+        "name": "trigger when the doorbell button is pressed",
+        "info": "",
+        "x": 180,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "a4114163f4e66b89",
+        "type": "catch",
+        "z": "7a63032b7cac43cf",
+        "g": "f269d62ec84b4edc",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "116afd12aecfd9a9"
+            ]
+        ]
+    },
+    {
+        "id": "116afd12aecfd9a9",
+        "type": "template",
+        "z": "7a63032b7cac43cf",
+        "g": "f269d62ec84b4edc",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "e8de261ce3c7454d"
+            ]
+        ]
+    },
+    {
+        "id": "42e103b5f2b1e679",
+        "type": "link out",
+        "z": "7a63032b7cac43cf",
+        "g": "f269d62ec84b4edc",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "e8de261ce3c7454d",
+        "type": "template",
+        "z": "7a63032b7cac43cf",
+        "g": "f269d62ec84b4edc",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "42e103b5f2b1e679"
+            ]
+        ]
+    },
+    {
+        "id": "174604fe3f8a8bcd",
+        "type": "server-state-changed",
+        "z": "7a63032b7cac43cf",
+        "name": "state doorbell button on",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "binary_sensor.smart_doorbell_button"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "on",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 120,
+        "y": 160,
+        "wires": [
+            [
+                "3bafb9626527259f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3bafb9626527259f",
+        "type": "link out",
+        "z": "7a63032b7cac43cf",
+        "name": "trigger_doorbell_pressed",
+        "mode": "link",
+        "links": [
+            "29ef6b63d1ee8e04",
+            "9505c871fbc9e9b8"
+        ],
+        "x": 255,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "c839a731325b5f56",
+        "type": "server-state-changed",
+        "z": "960ed9c324a9682d",
+        "name": "state persons home",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "group.persons"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "not_home",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "0a18bbcbd9c3cd6e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2ce4492a38d5131f",
+        "type": "comment",
+        "z": "960ed9c324a9682d",
+        "name": "trigger when last person have left home or guest mode turned off",
+        "info": "",
+        "x": 250,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "13611d939983a048",
+        "type": "server-state-changed",
+        "z": "960ed9c324a9682d",
+        "name": "state guest",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "input_boolean.guest"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "off",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 80,
+        "y": 220,
+        "wires": [
+            [
+                "8457dd663492ca8d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "dad8fc7416653229",
+        "type": "link out",
+        "z": "960ed9c324a9682d",
+        "name": "trigger_home_unoccupied",
+        "mode": "link",
+        "links": [
+            "d12914930d09e92c"
+        ],
+        "x": 445,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8303d54c6f8763c4",
+        "type": "catch",
+        "z": "960ed9c324a9682d",
+        "g": "0db35c5731702740",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "3f5ea233d095a2a7"
+            ]
+        ]
+    },
+    {
+        "id": "3f5ea233d095a2a7",
+        "type": "template",
+        "z": "960ed9c324a9682d",
+        "g": "0db35c5731702740",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "d0618614358c50be"
+            ]
+        ]
+    },
+    {
+        "id": "d5382f174608bb29",
+        "type": "link out",
+        "z": "960ed9c324a9682d",
+        "g": "0db35c5731702740",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "d0618614358c50be",
+        "type": "template",
+        "z": "960ed9c324a9682d",
+        "g": "0db35c5731702740",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "d5382f174608bb29"
+            ]
+        ]
+    },
+    {
+        "id": "0a18bbcbd9c3cd6e",
+        "type": "api-current-state",
+        "z": "960ed9c324a9682d",
+        "name": "guest is on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "input_boolean.guest",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 290,
+        "y": 160,
+        "wires": [
+            [
+                "dad8fc7416653229"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "8457dd663492ca8d",
+        "type": "api-current-state",
+        "z": "960ed9c324a9682d",
+        "name": "persons not home",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "not_home",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "group.persons",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 270,
+        "y": 220,
+        "wires": [
+            [
+                "dad8fc7416653229"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4aae8060dce8db6a",
+        "type": "server-state-changed",
+        "z": "12beaeea5e53e349",
+        "name": "state persons home",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "group.persons"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "home",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "8b1bdde5406f507b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2e95145b213aff97",
+        "type": "comment",
+        "z": "12beaeea5e53e349",
+        "name": "trigger when a person or persons are home or guest mode",
+        "info": "",
+        "x": 230,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "b93b079df5e1a1e2",
+        "type": "catch",
+        "z": "12beaeea5e53e349",
+        "g": "4b9dc824e8dc4f60",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "b97852abb4549332"
+            ]
+        ]
+    },
+    {
+        "id": "b97852abb4549332",
+        "type": "template",
+        "z": "12beaeea5e53e349",
+        "g": "4b9dc824e8dc4f60",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "239f25417faab75f"
+            ]
+        ]
+    },
+    {
+        "id": "cda4d972226868a6",
+        "type": "link out",
+        "z": "12beaeea5e53e349",
+        "g": "4b9dc824e8dc4f60",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "239f25417faab75f",
+        "type": "template",
+        "z": "12beaeea5e53e349",
+        "g": "4b9dc824e8dc4f60",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "cda4d972226868a6"
+            ]
+        ]
+    },
+    {
+        "id": "e0e3382abbd19287",
+        "type": "server-state-changed",
+        "z": "12beaeea5e53e349",
+        "name": "state guest",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "input_boolean.guest"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "on",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 80,
+        "y": 220,
+        "wires": [
+            [
+                "8b1bdde5406f507b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "8b1bdde5406f507b",
+        "type": "link out",
+        "z": "12beaeea5e53e349",
+        "name": "trigger_home_occupied",
+        "mode": "link",
+        "links": [],
+        "x": 275,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "1e22588bbe63c367",
+        "type": "comment",
+        "z": "d9b05fe971d5c1b1",
+        "name": "trigger when an event is found in babysitter calendar",
+        "info": "",
+        "x": 210,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "21483532a6568ef0",
+        "type": "catch",
+        "z": "d9b05fe971d5c1b1",
+        "g": "b2c83f4475ac19e8",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "2413d6e9e633df33"
+            ]
+        ]
+    },
+    {
+        "id": "2413d6e9e633df33",
+        "type": "template",
+        "z": "d9b05fe971d5c1b1",
+        "g": "b2c83f4475ac19e8",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "d6d97696332334d3"
+            ]
+        ]
+    },
+    {
+        "id": "87c05e9e80c8acec",
+        "type": "link out",
+        "z": "d9b05fe971d5c1b1",
+        "g": "b2c83f4475ac19e8",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "d6d97696332334d3",
+        "type": "template",
+        "z": "d9b05fe971d5c1b1",
+        "g": "b2c83f4475ac19e8",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "87c05e9e80c8acec"
+            ]
+        ]
+    },
+    {
+        "id": "d2c560378b1b926b",
+        "type": "server-state-changed",
+        "z": "d9b05fe971d5c1b1",
+        "name": "babysitter calendar event ",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "calendar.lise_babysitter"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "on",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "e787939d2bae52df"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "daacb8ae6b24ed5b",
+        "type": "server-state-changed",
+        "z": "d9b05fe971d5c1b1",
+        "name": "babysitter calendar event ",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "calendar.beau_babysitter"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "on",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 130,
+        "y": 220,
+        "wires": [
+            [
+                "e787939d2bae52df"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e787939d2bae52df",
+        "type": "link out",
+        "z": "d9b05fe971d5c1b1",
+        "name": "trigger_calendar_babysitter",
+        "mode": "link",
+        "links": [
+            "0adb679d772d8e29"
+        ],
+        "x": 295,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8640aa8957753e8d",
+        "type": "server-state-changed",
+        "z": "8b9f28f75c6a8cea",
+        "name": "backdoor state",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "binary_sensor.backdoor"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "on",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 100,
+        "y": 160,
+        "wires": [
+            [
+                "fe840a38fa8d493b"
+            ],
+            [
+                "fe840a38fa8d493b"
+            ]
+        ]
+    },
+    {
+        "id": "586613cd92a7c70f",
+        "type": "comment",
+        "z": "8b9f28f75c6a8cea",
+        "name": "trigger when the backdoor getting opened or closed",
+        "info": "",
+        "x": 210,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "b720e68e9c64cbc4",
+        "type": "catch",
+        "z": "8b9f28f75c6a8cea",
+        "g": "294518b9f2d20a35",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "746561afe69af34e"
+            ]
+        ]
+    },
+    {
+        "id": "746561afe69af34e",
+        "type": "template",
+        "z": "8b9f28f75c6a8cea",
+        "g": "294518b9f2d20a35",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "15aee940807c653c"
+            ]
+        ]
+    },
+    {
+        "id": "d3b8e4a7f5f1fbb1",
+        "type": "link out",
+        "z": "8b9f28f75c6a8cea",
+        "g": "294518b9f2d20a35",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "15aee940807c653c",
+        "type": "template",
+        "z": "8b9f28f75c6a8cea",
+        "g": "294518b9f2d20a35",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "d3b8e4a7f5f1fbb1"
+            ]
+        ]
+    },
+    {
+        "id": "fe840a38fa8d493b",
+        "type": "link out",
+        "z": "8b9f28f75c6a8cea",
+        "name": "trigger_backdoor_open_or_close",
+        "mode": "link",
+        "links": [
+            "9767891df003f1fd"
+        ],
+        "x": 225,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "9b81c86e034b8b9b",
+        "type": "comment",
+        "z": "e846a5a705a12fe6",
+        "name": "trigger when the backyard camera detects a person",
+        "info": "",
+        "x": 210,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "5f14e4bebca3d9f2",
+        "type": "mqtt in",
+        "z": "e846a5a705a12fe6",
+        "name": "",
+        "topic": "frigate/events",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "36dee637778341ba",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 90,
+        "y": 160,
+        "wires": [
+            [
+                "941f22c8bd2b41ff"
+            ]
+        ]
+    },
+    {
+        "id": "941f22c8bd2b41ff",
+        "type": "switch",
+        "z": "e846a5a705a12fe6",
+        "name": "backyard",
+        "property": "payload.after.camera",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "backyard",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 240,
+        "y": 160,
+        "wires": [
+            [
+                "6abf9d5f9b0bf10d"
+            ]
+        ]
+    },
+    {
+        "id": "6abf9d5f9b0bf10d",
+        "type": "switch",
+        "z": "e846a5a705a12fe6",
+        "name": "person",
+        "property": "payload.after.label",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "person",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 370,
+        "y": 160,
+        "wires": [
+            [
+                "56356fe965332f8d"
+            ]
+        ]
+    },
+    {
+        "id": "28572434b19c01bb",
+        "type": "catch",
+        "z": "e846a5a705a12fe6",
+        "g": "863bc6b078a22ba5",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "7f45b305aa26cd29"
+            ]
+        ]
+    },
+    {
+        "id": "7f45b305aa26cd29",
+        "type": "template",
+        "z": "e846a5a705a12fe6",
+        "g": "863bc6b078a22ba5",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "5c0118eeae991177"
+            ]
+        ]
+    },
+    {
+        "id": "7b7ff376a7aa8c64",
+        "type": "link out",
+        "z": "e846a5a705a12fe6",
+        "g": "863bc6b078a22ba5",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "5c0118eeae991177",
+        "type": "template",
+        "z": "e846a5a705a12fe6",
+        "g": "863bc6b078a22ba5",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "7b7ff376a7aa8c64"
+            ]
+        ]
+    },
+    {
+        "id": "56356fe965332f8d",
+        "type": "link out",
+        "z": "e846a5a705a12fe6",
+        "name": "trigger_backyard_camera_person_detection",
+        "mode": "link",
+        "links": [
+            "4bcb30df9a681943",
+            "9767891df003f1fd"
+        ],
+        "x": 455,
+        "y": 160,
+        "wires": []
+    },
+    {
         "id": "0b536f63e5d6404e",
         "type": "template",
         "z": "1adcdebcdc8e5c39",
@@ -8042,529 +10024,6 @@
         ]
     },
     {
-        "id": "a42a1f5ee71e92aa",
-        "type": "template",
-        "z": "3637eeb0.d96232",
-        "g": "6cb0ed1df40f98e6",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "b678056d1b96f637"
-            ]
-        ]
-    },
-    {
-        "id": "b678056d1b96f637",
-        "type": "link out",
-        "z": "3637eeb0.d96232",
-        "g": "6cb0ed1df40f98e6",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 475,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "e45eced2a30f126b",
-        "type": "template",
-        "z": "3637eeb0.d96232",
-        "g": "6cb0ed1df40f98e6",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "a42a1f5ee71e92aa"
-            ]
-        ]
-    },
-    {
-        "id": "f0797db4a3658338",
-        "type": "catch",
-        "z": "3637eeb0.d96232",
-        "g": "6cb0ed1df40f98e6",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "e45eced2a30f126b"
-            ]
-        ]
-    },
-    {
-        "id": "cc76e29e.b681",
-        "type": "comment",
-        "z": "3637eeb0.d96232",
-        "name": "doorbell automation",
-        "info": "",
-        "x": 110,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "8ff03866527469c8",
-        "type": "comment",
-        "z": "3637eeb0.d96232",
-        "name": "turn on the doorbell chime when persons is not_home",
-        "info": "doorbell automation",
-        "x": 240,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "954ad4f4b59286e0",
-        "type": "comment",
-        "z": "3637eeb0.d96232",
-        "name": "actions when doorbell button is pressed",
-        "info": "",
-        "x": 170,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "d1c2946f.425ad8",
-        "type": "api-call-service",
-        "z": "3637eeb0.d96232",
-        "name": "turn on doorbell chime",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "switch.turn_on",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "switch.smart_doorbell_active"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "switch",
-        "service": "turn_on",
-        "x": 540,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c63cd5dd.2969b8",
-        "type": "api-call-service",
-        "z": "3637eeb0.d96232",
-        "name": "pause media player",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "media_player.media_pause",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "media_player.universal_tv"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "media_player",
-        "service": "media_pause",
-        "x": 570,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c3f4b74d.a01278",
-        "type": "api-call-service",
-        "z": "3637eeb0.d96232",
-        "name": "turn on light front door",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "light.shelly1_front_door"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "light",
-        "service": "turn_on",
-        "x": 780,
-        "y": 380,
-        "wires": [
-            [
-                "f39e3558.7e0a48"
-            ]
-        ]
-    },
-    {
-        "id": "4566a0c1.1b69e",
-        "type": "api-call-service",
-        "z": "3637eeb0.d96232",
-        "name": "turn off light front door",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "light.turn_off",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "light.shelly1_front_door"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "light",
-        "service": "turn_off",
-        "x": 1180,
-        "y": 380,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "59bbde6d.37f02",
-        "type": "api-current-state",
-        "z": "3637eeb0.d96232",
-        "name": "state doorbell off",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "off",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "switch.smart_doorbell_active",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 340,
-        "y": 200,
-        "wires": [
-            [
-                "d1c2946f.425ad8"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "f98986e3.e78848",
-        "type": "api-current-state",
-        "z": "3637eeb0.d96232",
-        "name": "universal tv is playing",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "playing",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "media_player.universal_tv",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 360,
-        "y": 320,
-        "wires": [
-            [
-                "c63cd5dd.2969b8"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "11f67152.16638f",
-        "type": "api-current-state",
-        "z": "3637eeb0.d96232",
-        "name": "state outdoor dark",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "dark",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.outdoor_light_dark",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 350,
-        "y": 380,
-        "wires": [
-            [
-                "d6c8ef4a.6f6e9"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "d6c8ef4a.6f6e9",
-        "type": "api-current-state",
-        "z": "3637eeb0.d96232",
-        "name": "state light front door off",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "off",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "light.shelly1_front_door",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 560,
-        "y": 380,
-        "wires": [
-            [
-                "c3f4b74d.a01278"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "aa8eb1c4.30d7e",
-        "type": "server-state-changed",
-        "z": "3637eeb0.d96232",
-        "name": "state doorbell button on",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.smart_doorbell_button"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "on",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 120,
-        "y": 320,
-        "wires": [
-            [
-                "f98986e3.e78848",
-                "11f67152.16638f"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "bff3378b.fb3928",
-        "type": "server-state-changed",
-        "z": "3637eeb0.d96232",
-        "name": "state persons not home",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "group.persons"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "not_home",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 120,
-        "y": 200,
-        "wires": [
-            [
-                "59bbde6d.37f02"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "f39e3558.7e0a48",
-        "type": "stoptimer",
-        "z": "3637eeb0.d96232",
-        "duration": "10",
-        "units": "Minute",
-        "payloadtype": "num",
-        "payloadval": "0",
-        "name": "",
-        "x": 980,
-        "y": 380,
-        "wires": [
-            [
-                "4566a0c1.1b69e"
-            ],
-            []
-        ]
-    },
-    {
         "id": "cd802d99b317e8c3",
         "type": "template",
         "z": "a7a34028d045deee",
@@ -8646,8 +10105,8 @@
         "syntax": "mustache",
         "template": "",
         "output": "str",
-        "x": 1290,
-        "y": 460,
+        "x": 1370,
+        "y": 260,
         "wires": [
             [
                 "a3cf07381c3dba65"
@@ -8666,8 +10125,8 @@
         "syntax": "mustache",
         "template": "Gastmodus",
         "output": "str",
-        "x": 1290,
-        "y": 380,
+        "x": 1370,
+        "y": 180,
         "wires": [
             [
                 "a3cf07381c3dba65"
@@ -8685,8 +10144,8 @@
             "c76d311bb4b6991b",
             "d1753081ba6b4004"
         ],
-        "x": 1575,
-        "y": 420,
+        "x": 1655,
+        "y": 220,
         "wires": []
     },
     {
@@ -8702,6 +10161,7 @@
         "key": "topic",
         "joiner": "\\n",
         "joinerType": "str",
+        "useparts": true,
         "accumulate": false,
         "timeout": "",
         "count": "8",
@@ -8710,8 +10170,8 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1490,
-        "y": 420,
+        "x": 1570,
+        "y": 220,
         "wires": [
             [
                 "ba0bdc1db6e4e011"
@@ -8759,8 +10219,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1310,
-        "y": 420,
+        "x": 1390,
+        "y": 220,
         "wires": [
             [
                 "a3cf07381c3dba65"
@@ -8779,8 +10239,8 @@
         "syntax": "mustache",
         "template": "guest_mode",
         "output": "str",
-        "x": 1310,
-        "y": 500,
+        "x": 1390,
+        "y": 300,
         "wires": [
             [
                 "a3cf07381c3dba65"
@@ -8788,43 +10248,13 @@
         ]
     },
     {
-        "id": "4fd065fd91ad5c32",
-        "type": "comment",
-        "z": "a7a34028d045deee",
-        "name": "turn on guest mode if calendar event with words \"past\" is found in Lise or Beau calendar",
-        "info": "",
-        "x": 340,
-        "y": 160,
-        "wires": []
-    },
-    {
         "id": "880a3593d9f19b8c",
         "type": "comment",
         "z": "a7a34028d045deee",
-        "name": "flow to turn on or off guest most based on certain events",
+        "name": "send notification to ask if guest mode should be turned on",
         "info": "",
-        "x": 220,
+        "x": 230,
         "y": 20,
-        "wires": []
-    },
-    {
-        "id": "6a89a7042f3cf8ed",
-        "type": "comment",
-        "z": "a7a34028d045deee",
-        "name": "If persons are not at home and a door has been opened, ask if the guest mode needs to be turned on.",
-        "info": "",
-        "x": 390,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "a8d73cbf04664678",
-        "type": "comment",
-        "z": "a7a34028d045deee",
-        "name": "listen to guest mode on action notification answer event ",
-        "info": "",
-        "x": 240,
-        "y": 520,
         "wires": []
     },
     {
@@ -8844,8 +10274,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 790,
-        "y": 360,
+        "x": 870,
+        "y": 160,
         "wires": [
             [
                 "1ec3bf6ac9ee7791"
@@ -8882,23 +10312,13 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 940,
-        "y": 360,
+        "x": 1020,
+        "y": 160,
         "wires": [
             [
                 "b02f456b71574261"
             ]
         ]
-    },
-    {
-        "id": "89a4b058eca2d620",
-        "type": "comment",
-        "z": "a7a34028d045deee",
-        "name": "if shelly click event where fired and nobody is home and guest mode is off, ask if the guest mode needs to be turned on.",
-        "info": "",
-        "x": 440,
-        "y": 420,
-        "wires": []
     },
     {
         "id": "b02f456b71574261",
@@ -8911,8 +10331,8 @@
         "syntax": "mustache",
         "template": "De {{topic}} is geopend en gastmodus is uitgeschakeld. Wil je gastmodus inschakelen?",
         "output": "str",
-        "x": 1080,
-        "y": 360,
+        "x": 1160,
+        "y": 160,
         "wires": [
             [
                 "f7038caa7a76e6f3"
@@ -8928,76 +10348,14 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "Er lijkt iemand in huis te zijn omdat er lampen zijn in- of uitgeschakeld, gastmodus is uitgeschakeld.\\nWil je de gastmodus inschakelen?",
+        "template": "Er lijkt iemand in huis te zijn omdat er lampen zijn in- of uitgeschakeld.\\nDe gastmodus is uitgeschakeld, wil je de gastmodus inschakelen?",
         "output": "str",
-        "x": 1080,
-        "y": 460,
+        "x": 1160,
+        "y": 220,
         "wires": [
             [
                 "f7038caa7a76e6f3"
             ]
-        ]
-    },
-    {
-        "id": "0f8b5cf3541d59c4",
-        "type": "api-call-service",
-        "z": "a7a34028d045deee",
-        "name": "turn on guest mode",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "input_boolean.turn_on",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "input_boolean.guest"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "input_boolean",
-        "service": "turn_on",
-        "x": 350,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9fc1160da24a5102",
-        "type": "api-call-service",
-        "z": "a7a34028d045deee",
-        "name": "turn on guest mode",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "input_boolean.turn_on",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "input_boolean.guest"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "input_boolean",
-        "service": "turn_on",
-        "x": 310,
-        "y": 560,
-        "wires": [
-            []
         ]
     },
     {
@@ -9036,8 +10394,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 350,
-        "y": 360,
+        "x": 430,
+        "y": 160,
         "wires": [
             [
                 "4c5e48409ce3be8d"
@@ -9081,8 +10439,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 580,
-        "y": 360,
+        "x": 660,
+        "y": 160,
         "wires": [
             [
                 "88e2c415c85c433e"
@@ -9126,8 +10484,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 580,
-        "y": 460,
+        "x": 660,
+        "y": 220,
         "wires": [
             [
                 "6f1338fff56e9176"
@@ -9171,8 +10529,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 350,
-        "y": 460,
+        "x": 430,
+        "y": 220,
         "wires": [
             [
                 "072df3e380eea942"
@@ -9181,67 +10539,15 @@
         ]
     },
     {
-        "id": "555fa53e220c24b1",
-        "type": "server-events",
+        "id": "15ae1a06ef742220",
+        "type": "link in",
         "z": "a7a34028d045deee",
-        "name": "mobile event listner",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "exposeAsEntityConfig": "",
-        "eventType": "mobile_app_notification_action",
-        "eventData": "{\"action\":\"GUEST_MODE_ON\"}",
-        "waitForRunning": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "$outputData(\"eventData\").event_type",
-                "valueType": "jsonata"
-            }
+        "name": "notification_action_turn_on_guest_mode_2",
+        "links": [
+            "4923944268d57366"
         ],
-        "event_type": "",
-        "x": 110,
-        "y": 560,
-        "wires": [
-            [
-                "9fc1160da24a5102"
-            ]
-        ]
-    },
-    {
-        "id": "66cf63b03080aadb",
-        "type": "server-events",
-        "z": "a7a34028d045deee",
-        "name": "listen to shelly click events",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "exposeAsEntityConfig": "",
-        "eventType": "shelly.click",
-        "eventData": "",
-        "waitForRunning": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "$outputData(\"eventData\").event_type",
-                "valueType": "jsonata"
-            }
-        ],
-        "event_type": "",
-        "x": 130,
-        "y": 460,
+        "x": 305,
+        "y": 220,
         "wires": [
             [
                 "59a9a1e67b92890a"
@@ -9249,178 +10555,16 @@
         ]
     },
     {
-        "id": "d2c560378b1b926b",
-        "type": "server-state-changed",
+        "id": "236aff92bc909f96",
+        "type": "link in",
         "z": "a7a34028d045deee",
-        "name": "babysitter calendar event ",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "calendar.lise_babysitter"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "on",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
+        "name": "notification_action_turn_on_guest_mode_1",
+        "links": [
+            "13f87cfee713f150"
         ],
-        "x": 130,
-        "y": 200,
+        "x": 305,
+        "y": 160,
         "wires": [
-            [
-                "0f8b5cf3541d59c4"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "eabe11216373d312",
-        "type": "server-state-changed",
-        "z": "a7a34028d045deee",
-        "name": "state change for all doors",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [],
-            "substring": [],
-            "regex": [
-                "binary_sensor.*door_window"
-            ]
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 130,
-        "y": 360,
-        "wires": [
-            [
-                "39691718b80b4105"
-            ]
-        ]
-    },
-    {
-        "id": "daacb8ae6b24ed5b",
-        "type": "server-state-changed",
-        "z": "a7a34028d045deee",
-        "name": "babysitter calendar event ",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "calendar.beau_babysitter"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "on",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 130,
-        "y": 260,
-        "wires": [
-            [
-                "0f8b5cf3541d59c4"
-            ],
             []
         ]
     },
@@ -21458,7 +22602,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 860,
+        "x": 1000,
         "y": 160,
         "wires": [
             [
@@ -21477,7 +22621,7 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 1690,
+        "x": 1830,
         "y": 160,
         "wires": [
             [
@@ -21504,7 +22648,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1540,
+        "x": 1680,
         "y": 160,
         "wires": [
             [
@@ -21534,7 +22678,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1810,
+        "x": 1950,
         "y": 160,
         "wires": [
             [
@@ -21562,7 +22706,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 300,
+        "x": 440,
         "y": 160,
         "wires": [
             [
@@ -21589,7 +22733,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1560,
+        "x": 1700,
         "y": 220,
         "wires": [
             []
@@ -21614,7 +22758,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1300,
+        "x": 1440,
         "y": 220,
         "wires": [
             []
@@ -21645,7 +22789,7 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_on",
-        "x": 1070,
+        "x": 1210,
         "y": 160,
         "wires": [
             [
@@ -21679,7 +22823,7 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_on",
-        "x": 1980,
+        "x": 2120,
         "y": 160,
         "wires": [
             []
@@ -21710,7 +22854,7 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_off",
-        "x": 1980,
+        "x": 2120,
         "y": 220,
         "wires": [
             []
@@ -21752,7 +22896,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 480,
+        "x": 620,
         "y": 160,
         "wires": [
             [
@@ -21760,67 +22904,6 @@
                 "dc674152553b250e"
             ],
             []
-        ]
-    },
-    {
-        "id": "5ff7f5db7a60100d",
-        "type": "server-state-changed",
-        "z": "4b48188ca7b303d7",
-        "name": "backdoor state",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.backdoor"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "on",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 100,
-        "y": 160,
-        "wires": [
-            [
-                "36f6d937dac70d3b"
-            ],
-            [
-                "36f6d937dac70d3b"
-            ]
         ]
     },
     {
@@ -21843,7 +22926,7 @@
         "outputLocationType": "msg",
         "outputLocation": "payload",
         "outputResultsCount": 1,
-        "x": 660,
+        "x": 800,
         "y": 220,
         "wires": [
             [
@@ -21871,7 +22954,7 @@
         "outputLocationType": "msg",
         "outputLocation": "payload",
         "outputResultsCount": 1,
-        "x": 660,
+        "x": 800,
         "y": 160,
         "wires": [
             [
@@ -21888,7 +22971,7 @@
         "payloadtype": "num",
         "payloadval": "0",
         "name": "",
-        "x": 1280,
+        "x": 1420,
         "y": 160,
         "wires": [
             [
@@ -21965,6 +23048,23 @@
         "wires": [
             [
                 "dde00c0321dc01f3"
+            ]
+        ]
+    },
+    {
+        "id": "9767891df003f1fd",
+        "type": "link in",
+        "z": "4b48188ca7b303d7",
+        "name": "light_dynamics_backyard",
+        "links": [
+            "56356fe965332f8d",
+            "fe840a38fa8d493b"
+        ],
+        "x": 325,
+        "y": 160,
+        "wires": [
+            [
+                "36f6d937dac70d3b"
             ]
         ]
     },
@@ -24450,483 +25550,6 @@
         "wires": [
             [
                 "c026370f826e5d5f"
-            ]
-        ]
-    },
-    {
-        "id": "9b81c86e034b8b9b",
-        "type": "comment",
-        "z": "e846a5a705a12fe6",
-        "name": "Flow that send a notification with a snapshot when a person is detected",
-        "info": "",
-        "x": 270,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "5f14e4bebca3d9f2",
-        "type": "mqtt in",
-        "z": "e846a5a705a12fe6",
-        "name": "",
-        "topic": "frigate/events",
-        "qos": "2",
-        "datatype": "auto-detect",
-        "broker": "36dee637778341ba",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 90,
-        "y": 160,
-        "wires": [
-            [
-                "941f22c8bd2b41ff"
-            ]
-        ]
-    },
-    {
-        "id": "941f22c8bd2b41ff",
-        "type": "switch",
-        "z": "e846a5a705a12fe6",
-        "name": "backyard",
-        "property": "payload.after.camera",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "backyard",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 240,
-        "y": 160,
-        "wires": [
-            [
-                "6abf9d5f9b0bf10d"
-            ]
-        ]
-    },
-    {
-        "id": "6abf9d5f9b0bf10d",
-        "type": "switch",
-        "z": "e846a5a705a12fe6",
-        "name": "person",
-        "property": "payload.after.label",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "person",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 370,
-        "y": 160,
-        "wires": [
-            [
-                "d0b2f197637a56db"
-            ]
-        ]
-    },
-    {
-        "id": "4a585d8a38a8ee00",
-        "type": "api-call-service",
-        "z": "e846a5a705a12fe6",
-        "name": "",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "",
-        "service": "",
-        "x": 1930,
-        "y": 380,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ff834f637583c3ce",
-        "type": "api-current-state",
-        "z": "e846a5a705a12fe6",
-        "name": "guest mode is off",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "off",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.guest",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 770,
-        "y": 240,
-        "wires": [
-            [
-                "8733978e8cf740fe",
-                "da5330a8acd2018f"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "8733978e8cf740fe",
-        "type": "api-current-state",
-        "z": "e846a5a705a12fe6",
-        "name": "persons not home",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "not_home",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "group.persons",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 990,
-        "y": 240,
-        "wires": [
-            [
-                "d8d2f8bb1e0a18ee"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "a91a2ee8078566c4",
-        "type": "api-current-state",
-        "z": "e846a5a705a12fe6",
-        "name": "anne is not home",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "not_home",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "person.anne",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 1330,
-        "y": 300,
-        "wires": [
-            [
-                "031c2e8585acc469"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "b428cd860af9a9f1",
-        "type": "time-range-switch",
-        "z": "e846a5a705a12fe6",
-        "name": "",
-        "lat": "",
-        "lon": "",
-        "startTime": "08:30",
-        "endTime": "17:30",
-        "startOffset": 0,
-        "endOffset": 0,
-        "x": 1150,
-        "y": 300,
-        "wires": [
-            [
-                "a91a2ee8078566c4"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "da5330a8acd2018f",
-        "type": "api-current-state",
-        "z": "e846a5a705a12fe6",
-        "name": "workday is on",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "binary_sensor.workday_sensor",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 980,
-        "y": 300,
-        "wires": [
-            [
-                "b428cd860af9a9f1"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "e0da0e9fc10180e7",
-        "type": "api-current-state",
-        "z": "e846a5a705a12fe6",
-        "name": "security is on",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.home_security",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 750,
-        "y": 380,
-        "wires": [
-            [
-                "4a585d8a38a8ee00"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "031c2e8585acc469",
-        "type": "api-current-state",
-        "z": "e846a5a705a12fe6",
-        "name": "agenda coen anne events",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "calendar.coen_anne",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 1550,
-        "y": 300,
-        "wires": [
-            [
-                "f67bbf6db2079ae8"
-            ]
-        ]
-    },
-    {
-        "id": "f67bbf6db2079ae8",
-        "type": "switch",
-        "z": "e846a5a705a12fe6",
-        "name": "coen vrij",
-        "property": "data.attributes.message",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "cont",
-                "v": "Coen vrij",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1740,
-        "y": 300,
-        "wires": [
-            [
-                "4a585d8a38a8ee00"
-            ]
-        ]
-    },
-    {
-        "id": "d0b2f197637a56db",
-        "type": "function",
-        "z": "e846a5a705a12fe6",
-        "name": "create service call",
-        "func": "msg.payload = {\n    \"action\": \"notify.mobile_app_phone_coen\",\n    \"data\": {\n        \"message\": \"Er is een persoon in de achtertuin gedetecteerd\",\n        \"data\": {\n            \"image\": \"https://home-assistant.theautomation.nl/api/frigate/notifications/\" + msg.payload.after.id + \"/thumbnail.jpg?format=android\",\n            \"tag\": msg.payload.after.id,\n            \"when\": msg.payload.after.start_time,\n            \"clickAction\": \"/dashboard-mobile/camera\",\n            \"channel\": \"Warning\",\n            \"importance\": \"high\"\n        }\n    }\n};\nreturn msg;\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 530,
-        "y": 160,
-        "wires": [
-            [
-                "ff834f637583c3ce",
-                "e0da0e9fc10180e7"
-            ]
-        ]
-    },
-    {
-        "id": "28572434b19c01bb",
-        "type": "catch",
-        "z": "e846a5a705a12fe6",
-        "g": "863bc6b078a22ba5",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "7f45b305aa26cd29"
-            ]
-        ]
-    },
-    {
-        "id": "7f45b305aa26cd29",
-        "type": "template",
-        "z": "e846a5a705a12fe6",
-        "g": "863bc6b078a22ba5",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "5c0118eeae991177"
-            ]
-        ]
-    },
-    {
-        "id": "7b7ff376a7aa8c64",
-        "type": "link out",
-        "z": "e846a5a705a12fe6",
-        "g": "863bc6b078a22ba5",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 475,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "5c0118eeae991177",
-        "type": "template",
-        "z": "e846a5a705a12fe6",
-        "g": "863bc6b078a22ba5",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "7b7ff376a7aa8c64"
             ]
         ]
     },
@@ -27507,7 +28130,6 @@
             "17c484a9c9a917ac",
             "ef18c5c2564a7e77",
             "c6bc1abd0ea4d3e7",
-            "0b0c89810da47741",
             "b41a40c1e135e55c",
             "ac254d4235d71700",
             "e188c5d43cc22d55",
@@ -27563,7 +28185,6 @@
             "73e546f49b2e02e1",
             "2c0a57bd6ee87009",
             "17c484a9c9a917ac",
-            "0b0c89810da47741",
             "3bdaf73ce37b7397",
             "e188c5d43cc22d55",
             "3bb7516008d0f0ca",
@@ -27611,7 +28232,6 @@
             "c84220140a8c71a3",
             "bf3806a421c7b15a",
             "fcbba10709360bf0",
-            "9359ee3df9b30276",
             "80e833d182f30872",
             "388c6c30bcb85720",
             "b8f35a173d514067",
@@ -27631,7 +28251,20 @@
             "6bcc6ca59609f4ee",
             "7a732e9184d0afcf",
             "7b8a53cdff17b707",
-            "2c1c31327d39c466"
+            "2c1c31327d39c466",
+            "3bacd8ed5d0dccd2",
+            "d3b8e4a7f5f1fbb1",
+            "0666b6f65b4515cb",
+            "87c05e9e80c8acec",
+            "6967b93f487bc8c8",
+            "cda4d972226868a6",
+            "d5382f174608bb29",
+            "44f5433a0f7d8e6c",
+            "42e103b5f2b1e679",
+            "83742449c3349fd4",
+            "de255097b6d251ec",
+            "37b1834649576aa9",
+            "315c0bcd8e6fef5f"
         ],
         "x": 195,
         "y": 460,
@@ -50512,6 +51145,1194 @@
         "y": 440,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "efdd9775da43ade3",
+        "type": "comment",
+        "z": "fb7b362cbc47e439",
+        "name": "Flow that send a notification with a snapshot when a person is detected",
+        "info": "",
+        "x": 270,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "0253bf8368a2a006",
+        "type": "api-call-service",
+        "z": "fb7b362cbc47e439",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "",
+        "service": "",
+        "x": 1810,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "16c5bd0f3d99db2d",
+        "type": "api-current-state",
+        "z": "fb7b362cbc47e439",
+        "name": "anne is not home",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "not_home",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "person.anne",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 1210,
+        "y": 220,
+        "wires": [
+            [
+                "5716e29154cbec1a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f1250cf8ec5171f3",
+        "type": "time-range-switch",
+        "z": "fb7b362cbc47e439",
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "startTime": "08:30",
+        "endTime": "17:30",
+        "startOffset": 0,
+        "endOffset": 0,
+        "x": 1030,
+        "y": 220,
+        "wires": [
+            [
+                "16c5bd0f3d99db2d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5716e29154cbec1a",
+        "type": "api-current-state",
+        "z": "fb7b362cbc47e439",
+        "name": "agenda coen anne events",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "calendar.coen_anne",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 1430,
+        "y": 220,
+        "wires": [
+            [
+                "dcd990cab15ab7f4"
+            ]
+        ]
+    },
+    {
+        "id": "dcd990cab15ab7f4",
+        "type": "switch",
+        "z": "fb7b362cbc47e439",
+        "name": "coen vrij",
+        "property": "data.attributes.message",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "Coen vrij",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1620,
+        "y": 220,
+        "wires": [
+            [
+                "0253bf8368a2a006"
+            ]
+        ]
+    },
+    {
+        "id": "b8492bcc4206692b",
+        "type": "api-current-state",
+        "z": "fb7b362cbc47e439",
+        "name": "guest mode is off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "input_boolean.guest",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 650,
+        "y": 160,
+        "wires": [
+            [
+                "77b49b23838983fa",
+                "c035f059625386a1"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "77b49b23838983fa",
+        "type": "api-current-state",
+        "z": "fb7b362cbc47e439",
+        "name": "persons not home",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "not_home",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "group.persons",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 870,
+        "y": 160,
+        "wires": [
+            [
+                "610847102bcc29a9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c035f059625386a1",
+        "type": "api-current-state",
+        "z": "fb7b362cbc47e439",
+        "name": "workday is on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "on",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "binary_sensor.workday_sensor",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 860,
+        "y": 220,
+        "wires": [
+            [
+                "f1250cf8ec5171f3"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e3d6e50eb16c2922",
+        "type": "api-current-state",
+        "z": "fb7b362cbc47e439",
+        "name": "security is on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "on",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "input_boolean.home_security",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 630,
+        "y": 280,
+        "wires": [
+            [
+                "0253bf8368a2a006"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ad94f6ee3b085ef4",
+        "type": "function",
+        "z": "fb7b362cbc47e439",
+        "name": "create service call",
+        "func": "msg.payload = {\n    \"action\": \"notify.mobile_app_phone_coen\",\n    \"data\": {\n        \"message\": \"Er is een persoon in de achtertuin gedetecteerd\",\n        \"data\": {\n            \"image\": \"https://home-assistant.theautomation.nl/api/frigate/notifications/\" + msg.payload.after.id + \"/thumbnail.jpg?format=android\",\n            \"tag\": msg.payload.after.id,\n            \"when\": msg.payload.after.start_time,\n            \"clickAction\": \"/dashboard-mobile/camera\",\n            \"channel\": \"Warning\",\n            \"importance\": \"high\"\n        }\n    }\n};\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 160,
+        "wires": [
+            [
+                "b8492bcc4206692b",
+                "e3d6e50eb16c2922"
+            ]
+        ]
+    },
+    {
+        "id": "218274abd301e16a",
+        "type": "catch",
+        "z": "fb7b362cbc47e439",
+        "g": "eceb4d513b2ed0a7",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "54b23fbb217cce7a"
+            ]
+        ]
+    },
+    {
+        "id": "54b23fbb217cce7a",
+        "type": "template",
+        "z": "fb7b362cbc47e439",
+        "g": "eceb4d513b2ed0a7",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "f2eeb4cd5981b12d"
+            ]
+        ]
+    },
+    {
+        "id": "3bacd8ed5d0dccd2",
+        "type": "link out",
+        "z": "fb7b362cbc47e439",
+        "g": "eceb4d513b2ed0a7",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "f2eeb4cd5981b12d",
+        "type": "template",
+        "z": "fb7b362cbc47e439",
+        "g": "eceb4d513b2ed0a7",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "3bacd8ed5d0dccd2"
+            ]
+        ]
+    },
+    {
+        "id": "4bcb30df9a681943",
+        "type": "link in",
+        "z": "fb7b362cbc47e439",
+        "name": "link in 1",
+        "links": [
+            "56356fe965332f8d"
+        ],
+        "x": 305,
+        "y": 160,
+        "wires": [
+            [
+                "ad94f6ee3b085ef4"
+            ]
+        ]
+    },
+    {
+        "id": "c2d33a6abfd24923",
+        "type": "api-call-service",
+        "z": "f5e87f41e348afa5",
+        "name": "turn on guest mode",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "input_boolean.turn_on",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_boolean.guest"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "input_boolean",
+        "service": "turn_on",
+        "x": 590,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0adb679d772d8e29",
+        "type": "link in",
+        "z": "f5e87f41e348afa5",
+        "name": "scene_turn_on_guest_mode",
+        "links": [
+            "de223a467fe18b3c",
+            "e787939d2bae52df",
+            "f3bf4b7d7123292b"
+        ],
+        "x": 265,
+        "y": 160,
+        "wires": [
+            [
+                "94856ca3c5e83f43"
+            ]
+        ]
+    },
+    {
+        "id": "fab6c5ea01e4f9ce",
+        "type": "comment",
+        "z": "f5e87f41e348afa5",
+        "name": "Turn on guest mode",
+        "info": "",
+        "x": 110,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "40b36b069112494c",
+        "type": "catch",
+        "z": "f5e87f41e348afa5",
+        "g": "0c2e33b261c4cf11",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "4fd19d102fa4c95a"
+            ]
+        ]
+    },
+    {
+        "id": "4fd19d102fa4c95a",
+        "type": "template",
+        "z": "f5e87f41e348afa5",
+        "g": "0c2e33b261c4cf11",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "6f6033d75ad786d8"
+            ]
+        ]
+    },
+    {
+        "id": "0666b6f65b4515cb",
+        "type": "link out",
+        "z": "f5e87f41e348afa5",
+        "g": "0c2e33b261c4cf11",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "6f6033d75ad786d8",
+        "type": "template",
+        "z": "f5e87f41e348afa5",
+        "g": "0c2e33b261c4cf11",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "0666b6f65b4515cb"
+            ]
+        ]
+    },
+    {
+        "id": "94856ca3c5e83f43",
+        "type": "api-current-state",
+        "z": "f5e87f41e348afa5",
+        "name": "guest mode is off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "input_boolean.guest",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 390,
+        "y": 160,
+        "wires": [
+            [
+                "c2d33a6abfd24923"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a605be5e99e05b97",
+        "type": "comment",
+        "z": "75dcbba8aec48c92",
+        "name": "turn on the door doorbell",
+        "info": "",
+        "x": 130,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "94995c95d8594567",
+        "type": "api-call-service",
+        "z": "75dcbba8aec48c92",
+        "name": "turn on doorbell chime",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "switch.turn_on",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.smart_doorbell_active"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "x": 560,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "36cd7ff9968a8857",
+        "type": "api-current-state",
+        "z": "75dcbba8aec48c92",
+        "name": "state doorbell off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "switch.smart_doorbell_active",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "x": 360,
+        "y": 160,
+        "wires": [
+            [
+                "94995c95d8594567"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d12914930d09e92c",
+        "type": "link in",
+        "z": "75dcbba8aec48c92",
+        "name": "scene_turn_on_doorbell_chime",
+        "links": [
+            "dad8fc7416653229"
+        ],
+        "x": 245,
+        "y": 160,
+        "wires": [
+            [
+                "36cd7ff9968a8857"
+            ]
+        ]
+    },
+    {
+        "id": "48a202fd30defc64",
+        "type": "catch",
+        "z": "75dcbba8aec48c92",
+        "g": "c79d2a2e6bd96fce",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "8a880a89870fd474"
+            ]
+        ]
+    },
+    {
+        "id": "8a880a89870fd474",
+        "type": "template",
+        "z": "75dcbba8aec48c92",
+        "g": "c79d2a2e6bd96fce",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "df8ba459c8692b8a"
+            ]
+        ]
+    },
+    {
+        "id": "44f5433a0f7d8e6c",
+        "type": "link out",
+        "z": "75dcbba8aec48c92",
+        "g": "c79d2a2e6bd96fce",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "df8ba459c8692b8a",
+        "type": "template",
+        "z": "75dcbba8aec48c92",
+        "g": "c79d2a2e6bd96fce",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "44f5433a0f7d8e6c"
+            ]
+        ]
+    },
+    {
+        "id": "6a77eb9d04cca958",
+        "type": "api-current-state",
+        "z": "a498f22679d943d0",
+        "name": "universal tv is playing",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "playing",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "media_player.universal_tv",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "x": 440,
+        "y": 160,
+        "wires": [
+            [
+                "485b2638b3e54f1b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "485b2638b3e54f1b",
+        "type": "api-call-service",
+        "z": "a498f22679d943d0",
+        "name": "pause universal tv media player",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.media_pause",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "media_player.universal_tv"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "media_player",
+        "service": "media_pause",
+        "x": 690,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "691651f6cac8d709",
+        "type": "comment",
+        "z": "a498f22679d943d0",
+        "name": "scene that pause the tv media player",
+        "info": "",
+        "x": 160,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "5c0b91114ad853a6",
+        "type": "catch",
+        "z": "a498f22679d943d0",
+        "g": "b69895a9db022a47",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "57555a1f94c04fc3"
+            ]
+        ]
+    },
+    {
+        "id": "57555a1f94c04fc3",
+        "type": "template",
+        "z": "a498f22679d943d0",
+        "g": "b69895a9db022a47",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "8ba3f19d6ce65bec"
+            ]
+        ]
+    },
+    {
+        "id": "83742449c3349fd4",
+        "type": "link out",
+        "z": "a498f22679d943d0",
+        "g": "b69895a9db022a47",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "8ba3f19d6ce65bec",
+        "type": "template",
+        "z": "a498f22679d943d0",
+        "g": "b69895a9db022a47",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "83742449c3349fd4"
+            ]
+        ]
+    },
+    {
+        "id": "29ef6b63d1ee8e04",
+        "type": "link in",
+        "z": "a498f22679d943d0",
+        "name": "scene_pause_tv_media_player",
+        "links": [
+            "3bafb9626527259f"
+        ],
+        "x": 305,
+        "y": 160,
+        "wires": [
+            [
+                "6a77eb9d04cca958"
+            ]
+        ]
+    },
+    {
+        "id": "a42a1f5ee71e92aa",
+        "type": "template",
+        "z": "3637eeb0.d96232",
+        "g": "6cb0ed1df40f98e6",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "b678056d1b96f637"
+            ]
+        ]
+    },
+    {
+        "id": "b678056d1b96f637",
+        "type": "link out",
+        "z": "3637eeb0.d96232",
+        "g": "6cb0ed1df40f98e6",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "e45eced2a30f126b",
+        "type": "template",
+        "z": "3637eeb0.d96232",
+        "g": "6cb0ed1df40f98e6",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "a42a1f5ee71e92aa"
+            ]
+        ]
+    },
+    {
+        "id": "f0797db4a3658338",
+        "type": "catch",
+        "z": "3637eeb0.d96232",
+        "g": "6cb0ed1df40f98e6",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "e45eced2a30f126b"
+            ]
+        ]
+    },
+    {
+        "id": "954ad4f4b59286e0",
+        "type": "comment",
+        "z": "3637eeb0.d96232",
+        "name": "scene that turn on the frontdoor light for 5 minutes and then it turns it off",
+        "info": "",
+        "x": 270,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "c3f4b74d.a01278",
+        "type": "api-call-service",
+        "z": "3637eeb0.d96232",
+        "name": "turn on light front door",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "light.turn_on",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "light.shelly1_front_door"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "light",
+        "service": "turn_on",
+        "x": 860,
+        "y": 160,
+        "wires": [
+            [
+                "f39e3558.7e0a48"
+            ]
+        ]
+    },
+    {
+        "id": "4566a0c1.1b69e",
+        "type": "api-call-service",
+        "z": "3637eeb0.d96232",
+        "name": "turn off light front door",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "light.turn_off",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "light.shelly1_front_door"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "light",
+        "service": "turn_off",
+        "x": 1260,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "11f67152.16638f",
+        "type": "api-current-state",
+        "z": "3637eeb0.d96232",
+        "name": "state outdoor dark",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "dark",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.outdoor_light_dark",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "x": 430,
+        "y": 160,
+        "wires": [
+            [
+                "d6c8ef4a.6f6e9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d6c8ef4a.6f6e9",
+        "type": "api-current-state",
+        "z": "3637eeb0.d96232",
+        "name": "state light front door off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "light.shelly1_front_door",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "x": 640,
+        "y": 160,
+        "wires": [
+            [
+                "c3f4b74d.a01278"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f39e3558.7e0a48",
+        "type": "stoptimer",
+        "z": "3637eeb0.d96232",
+        "duration": "5",
+        "units": "Minute",
+        "payloadtype": "num",
+        "payloadval": "0",
+        "name": "",
+        "x": 1060,
+        "y": 160,
+        "wires": [
+            [
+                "4566a0c1.1b69e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9505c871fbc9e9b8",
+        "type": "link in",
+        "z": "3637eeb0.d96232",
+        "name": "scene_turn_on_light_frontdoor_for_5_minutes",
+        "links": [
+            "3bafb9626527259f"
+        ],
+        "x": 305,
+        "y": 160,
+        "wires": [
+            [
+                "11f67152.16638f"
+            ]
         ]
     }
 ]
