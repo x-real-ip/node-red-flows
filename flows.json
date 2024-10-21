@@ -52505,7 +52505,7 @@
         "blockInputOverrides": true,
         "domain": "vacuum",
         "service": "send_command",
-        "x": 350,
+        "x": 450,
         "y": 160,
         "wires": [
             []
