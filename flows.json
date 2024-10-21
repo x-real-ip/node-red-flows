@@ -17352,7 +17352,7 @@
         "areaId": [],
         "deviceId": [],
         "entityId": [
-            "vacuum.robot_vacuum"
+            "vacuum.roborock_s55"
         ],
         "labelId": [],
         "data": "",
@@ -17790,7 +17790,7 @@
         "halt_if": "cleaning",
         "halt_if_type": "str",
         "halt_if_compare": "is_not",
-        "entity_id": "vacuum.robot_vacuum",
+        "entity_id": "vacuum.roborock_s55",
         "state_type": "str",
         "blockInputOverrides": false,
         "outputProperties": [
@@ -18169,7 +18169,7 @@
         "outputs": 2,
         "entities": {
             "entity": [
-                "vacuum.robot_vacuum"
+                "vacuum.roborock_s55"
             ],
             "substring": [],
             "regex": []
@@ -18446,7 +18446,7 @@
         "type": "function",
         "z": "29a2e1dd05ecbf80",
         "name": "create service call",
-        "func": "msg.payload = {\n    \"domain\": \"vacuum\",\n    \"service\": \"send_command\",\n    \"target\": {\n        \"entity_id\": \"vacuum.robot_vacuum\"\n    },\n    \"data\": {\n        \"command\": \"app_segment_clean\",\n        \"params\": [\n            {\n                \"segments\": msg.payload\n            }\n        ]\n    }\n};\nreturn msg;\n",
+        "func": "msg.payload = {\n    \"domain\": \"vacuum\",\n    \"service\": \"send_command\",\n    \"target\": {\n        \"entity_id\": \"vacuum.roborock_s55\"\n    },\n    \"data\": {\n        \"command\": \"app_segment_clean\",\n        \"params\": [\n            {\n                \"segments\": msg.payload\n            }\n        ]\n    }\n};\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -32972,7 +32972,7 @@
         "exposeAsEntityConfig": "",
         "entities": {
             "entity": [
-                "vacuum.robot_vacuum"
+                "vacuum.roborock_s55"
             ],
             "substring": [],
             "regex": []
@@ -33476,7 +33476,7 @@
         "exposeAsEntityConfig": "",
         "entities": {
             "entity": [
-                "vacuum.robot_vacuum"
+                "vacuum.roborock_s55"
             ],
             "substring": [],
             "regex": []
