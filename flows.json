@@ -3997,6 +3997,30 @@
         "h": 82
     },
     {
+        "id": "52980cdcae4e3384",
+        "type": "group",
+        "z": "d9b921e9fd746ad1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9f18e7092e8b6f9c",
+            "ee03c06252d3632e",
+            "c9f30fc70f2be4fd",
+            "9b9ad619917072e8"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
         "id": "bd90d247a95feb9d",
         "type": "group",
         "z": "e4381ced98d2a929",
@@ -4038,30 +4062,6 @@
         "y": 699,
         "w": 392,
         "h": 122
-    },
-    {
-        "id": "52980cdcae4e3384",
-        "type": "group",
-        "z": "d9b921e9fd746ad1",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "9f18e7092e8b6f9c",
-            "ee03c06252d3632e",
-            "c9f30fc70f2be4fd",
-            "9b9ad619917072e8"
-        ],
-        "x": 14,
-        "y": 39,
-        "w": 502,
-        "h": 82
     },
     {
         "id": "f7038caa7a76e6f3",
@@ -49873,7 +49873,7 @@
             "media_player.powernode_2i_ea48"
         ],
         "labelId": [],
-        "data": "{\"source\":\"Optisch Digitale ingang 1\"}",
+        "data": "{\"source\":\"Optical\"}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -50912,8 +50912,7 @@
         "y": 1600,
         "wires": [
             [
-                "1bea28fe624c37b2",
-                "21414367448d6645"
+                "1bea28fe624c37b2"
             ],
             []
         ]
@@ -51047,23 +51046,6 @@
                 "2c1c31327d39c466"
             ]
         ]
-    },
-    {
-        "id": "21414367448d6645",
-        "type": "debug",
-        "z": "fd9cd80f14f860fe",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 340,
-        "y": 1660,
-        "wires": []
     },
     {
         "id": "7921cddd0f314705",
