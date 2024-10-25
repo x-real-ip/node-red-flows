@@ -1,8 +1,16 @@
 [
     {
+        "id": "8354fbe183c2498c",
+        "type": "tab",
+        "label": "trigger_daily_06:30",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "747e156c11e4e604",
         "type": "tab",
-        "label": "trigger_door_opens_or_closes",
+        "label": "trigger_exterior_doors_opens_or_closes",
         "disabled": false,
         "info": "",
         "env": []
@@ -91,14 +99,6 @@
         "id": "d7c35c04cc0c5b68",
         "type": "tab",
         "label": "automation_high_voltage",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "2a2d89771193fb8b",
-        "type": "tab",
-        "label": "automation_location_request",
         "disabled": false,
         "info": "",
         "env": []
@@ -628,6 +628,46 @@
         "id": "d9b921e9fd746ad1",
         "type": "tab",
         "label": "scene_send_vacuum_to_trash_bin",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2a2d89771193fb8b",
+        "type": "tab",
+        "label": "scene_request_location_update",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "38e25502d65ef451",
+        "type": "tab",
+        "label": "scene_set_climate_to_auto_mode",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c4112ff844284323",
+        "type": "tab",
+        "label": "scene_turn_off_shelly_shield",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "762cff9aad6b0816",
+        "type": "tab",
+        "label": "scene_turn_on_shelly_shield",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d95708849d31630d",
+        "type": "tab",
+        "label": "scene_turn_on_lg_tv",
         "disabled": false,
         "info": "",
         "env": []
@@ -2273,7 +2313,7 @@
             "3a79dff06163c162"
         ],
         "x": 14,
-        "y": 19,
+        "y": 39,
         "w": 502,
         "h": 82
     },
@@ -3545,7 +3585,7 @@
             "aeab6ce43c9dc70c"
         ],
         "x": 634,
-        "y": 759,
+        "y": 839,
         "w": 672,
         "h": 182
     },
@@ -3570,12 +3610,13 @@
             "18e6577d292535de",
             "61e6d10bbacb84be",
             "fa9bc69bfdcf7c2c",
-            "1852cb62226e78b0"
+            "1852cb62226e78b0",
+            "35fab5df9dee81de"
         ],
         "x": 634,
         "y": 499,
         "w": 1052,
-        "h": 242
+        "h": 302
     },
     {
         "id": "d3868dc5f4aa2d65",
@@ -3634,7 +3675,7 @@
             "9e2a2047fb3d0be1"
         ],
         "x": 634,
-        "y": 959,
+        "y": 1039,
         "w": 932,
         "h": 242
     },
@@ -4021,6 +4062,54 @@
         "h": 82
     },
     {
+        "id": "512861b7b2ec3557",
+        "type": "group",
+        "z": "8354fbe183c2498c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "44caeea47bc4e610",
+            "7bd60945f3e2ae86",
+            "d55d5b6895ed9668",
+            "05fe43b2df443995"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "5638a5eb59070a64",
+        "type": "group",
+        "z": "38e25502d65ef451",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f728117825efb964",
+            "629ec08766fb7019",
+            "3f111153aba96e14",
+            "0693776fea84564e"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
         "id": "bd90d247a95feb9d",
         "type": "group",
         "z": "e4381ced98d2a929",
@@ -4062,6 +4151,78 @@
         "y": 699,
         "w": 392,
         "h": 122
+    },
+    {
+        "id": "a6cae9b8e727f32b",
+        "type": "group",
+        "z": "c4112ff844284323",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8cd6a97d8921b370",
+            "f03accf0e6b5ffe8",
+            "46a0b57223aa4c17",
+            "13b122195c61c45f"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "a8271160dbfdda1f",
+        "type": "group",
+        "z": "762cff9aad6b0816",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ce5d8f5c47d6cd40",
+            "88452990fe88bbc5",
+            "6352a2bd0e56f5a8",
+            "ad72e3183538d9e5"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 502,
+        "h": 82
+    },
+    {
+        "id": "b928bcab67c7970c",
+        "type": "group",
+        "z": "d95708849d31630d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3016c23826afe2b3",
+            "46295b436337c8ca",
+            "5fce516d2b677877",
+            "da7468fd0ee36aee"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 502,
+        "h": 82
     },
     {
         "id": "f7038caa7a76e6f3",
@@ -5089,7 +5250,7 @@
         "z": "fd9cd80f14f860fe",
         "g": "2ff8dfb43d1ba6a3",
         "x": 660,
-        "y": 840,
+        "y": 920,
         "wires": [
             [
                 "03b947a910d98181",
@@ -5103,7 +5264,7 @@
         "z": "fd9cd80f14f860fe",
         "g": "fc9a0630f16ecdaf",
         "x": 660,
-        "y": 1040,
+        "y": 1120,
         "wires": [
             [
                 "33f7961ae7010284",
@@ -5123,7 +5284,8 @@
             [
                 "64218c054bcb7baf",
                 "fa9bc69bfdcf7c2c",
-                "1852cb62226e78b0"
+                "1852cb62226e78b0",
+                "35fab5df9dee81de"
             ]
         ]
     },
@@ -8261,6 +8423,124 @@
         ]
     },
     {
+        "id": "bdfefffc744e0562",
+        "type": "inject",
+        "z": "8354fbe183c2498c",
+        "name": "06:30 'on' payload",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "30 06 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "on",
+        "payloadType": "str",
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "c62f6b0d1b183091"
+            ]
+        ]
+    },
+    {
+        "id": "e539d4ab432ab4d4",
+        "type": "comment",
+        "z": "8354fbe183c2498c",
+        "name": "Trigger that starts every morning at 06:30",
+        "info": "",
+        "x": 180,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "44caeea47bc4e610",
+        "type": "catch",
+        "z": "8354fbe183c2498c",
+        "g": "512861b7b2ec3557",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "7bd60945f3e2ae86"
+            ]
+        ]
+    },
+    {
+        "id": "7bd60945f3e2ae86",
+        "type": "template",
+        "z": "8354fbe183c2498c",
+        "g": "512861b7b2ec3557",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "05fe43b2df443995"
+            ]
+        ]
+    },
+    {
+        "id": "d55d5b6895ed9668",
+        "type": "link out",
+        "z": "8354fbe183c2498c",
+        "g": "512861b7b2ec3557",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "05fe43b2df443995",
+        "type": "template",
+        "z": "8354fbe183c2498c",
+        "g": "512861b7b2ec3557",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "d55d5b6895ed9668"
+            ]
+        ]
+    },
+    {
+        "id": "c62f6b0d1b183091",
+        "type": "link out",
+        "z": "8354fbe183c2498c",
+        "name": "trigger_daily_06:30",
+        "mode": "link",
+        "links": [
+            "39aaf6c417d6275b"
+        ],
+        "x": 255,
+        "y": 160,
+        "wires": []
+    },
+    {
         "id": "03510cfeb8e1fc1f",
         "type": "comment",
         "z": "747e156c11e4e604",
@@ -8344,17 +8624,17 @@
         "id": "2f36bf18d2eef10a",
         "type": "server-state-changed",
         "z": "747e156c11e4e604",
-        "name": "state change for all doors",
+        "name": "state change for all exterior doors",
         "server": "4ba92433.2478cc",
         "version": 6,
         "outputs": 1,
         "exposeAsEntityConfig": "",
         "entities": {
-            "entity": [],
+            "entity": [
+                "group.exterior_doors"
+            ],
             "substring": [],
-            "regex": [
-                "binary_sensor.*\\b\\w*door\\b"
-            ]
+            "regex": []
         },
         "outputInitially": false,
         "stateType": "str",
@@ -8390,7 +8670,7 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 130,
+        "x": 150,
         "y": 160,
         "wires": [
             [
@@ -8402,12 +8682,13 @@
         "id": "13f87cfee713f150",
         "type": "link out",
         "z": "747e156c11e4e604",
-        "name": "trigger_all_door_open_or_closed",
+        "name": "trigger_exterior_doors_opens_or_closes",
         "mode": "link",
         "links": [
-            "236aff92bc909f96"
+            "236aff92bc909f96",
+            "0f4705c752f90b8b"
         ],
-        "x": 275,
+        "x": 315,
         "y": 160,
         "wires": []
     },
@@ -8953,9 +9234,10 @@
         "name": "trigger_home_unoccupied",
         "mode": "link",
         "links": [
-            "d12914930d09e92c"
+            "d12914930d09e92c",
+            "efe2ea2c57c95996"
         ],
-        "x": 445,
+        "x": 495,
         "y": 160,
         "wires": []
     },
@@ -9033,7 +9315,7 @@
         "id": "0a18bbcbd9c3cd6e",
         "type": "api-current-state",
         "z": "960ed9c324a9682d",
-        "name": "guest is on",
+        "name": "guest is off",
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
@@ -9065,7 +9347,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 290,
+        "x": 330,
         "y": 160,
         "wires": [
             [
@@ -9078,7 +9360,7 @@
         "id": "8457dd663492ca8d",
         "type": "api-current-state",
         "z": "960ed9c324a9682d",
-        "name": "persons not home",
+        "name": "persons is not home",
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
@@ -9110,13 +9392,72 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 270,
+        "x": 360,
         "y": 220,
         "wires": [
             [
                 "dad8fc7416653229"
             ],
             []
+        ]
+    },
+    {
+        "id": "07f9079090a2fa11",
+        "type": "server-state-changed",
+        "z": "960ed9c324a9682d",
+        "name": "vacation mode",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "input_boolean.vacation_mode"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 100,
+        "y": 280,
+        "wires": [
+            [
+                "0a18bbcbd9c3cd6e",
+                "8457dd663492ca8d"
+            ]
         ]
     },
     {
@@ -9323,10 +9664,161 @@
         "z": "12beaeea5e53e349",
         "name": "trigger_home_occupied",
         "mode": "link",
-        "links": [],
-        "x": 275,
+        "links": [
+            "bdef8bf721295551"
+        ],
+        "x": 465,
         "y": 160,
         "wires": []
+    },
+    {
+        "id": "2ac49fdc8e2a24c8",
+        "type": "server-state-changed",
+        "z": "12beaeea5e53e349",
+        "name": "vacation mode",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "input_boolean.vacation_mode"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 100,
+        "y": 280,
+        "wires": [
+            [
+                "13c4015f5c406ece",
+                "edc3bf6451d1af22"
+            ]
+        ]
+    },
+    {
+        "id": "edc3bf6451d1af22",
+        "type": "api-current-state",
+        "z": "12beaeea5e53e349",
+        "name": "persons is home",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "home",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "group.persons",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 320,
+        "y": 300,
+        "wires": [
+            [
+                "8b1bdde5406f507b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "13c4015f5c406ece",
+        "type": "api-current-state",
+        "z": "12beaeea5e53e349",
+        "name": "guest is on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "on",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "input_boolean.guest",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 310,
+        "y": 240,
+        "wires": [
+            [
+                "8b1bdde5406f507b"
+            ],
+            []
+        ]
     },
     {
         "id": "1e22588bbe63c367",
@@ -11237,262 +11729,6 @@
             ],
             [
                 "916f461a6f7da6d3"
-            ]
-        ]
-    },
-    {
-        "id": "42ddeb921e7ac3ac",
-        "type": "comment",
-        "z": "2a2d89771193fb8b",
-        "name": "Get location when door is open",
-        "info": "",
-        "x": 150,
-        "y": 140,
-        "wires": []
-    },
-    {
-        "id": "249f5902cd409334",
-        "type": "api-call-service",
-        "z": "2a2d89771193fb8b",
-        "name": "notify phone coen",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "notify.mobile_app_phone_coen",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"message\":\"request_location_update\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "notify",
-        "service": "mobile_app_phone_coen",
-        "x": 310,
-        "y": 180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "21f329f381fe5581",
-        "type": "api-call-service",
-        "z": "2a2d89771193fb8b",
-        "name": "notify phone anne",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "notify.mobile_app_phone_anne",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"message\":\"request_location_update\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "notify",
-        "service": "mobile_app_phone_anne",
-        "x": 310,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9598776d29dbaef1",
-        "type": "server-state-changed",
-        "z": "2a2d89771193fb8b",
-        "name": "state front door",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.frontdoor"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 100,
-        "y": 180,
-        "wires": [
-            [
-                "249f5902cd409334",
-                "21f329f381fe5581"
-            ]
-        ]
-    },
-    {
-        "id": "827126f9f686f249",
-        "type": "server-state-changed",
-        "z": "2a2d89771193fb8b",
-        "name": "state backdoor",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.backdoor"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": true,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 100,
-        "y": 240,
-        "wires": [
-            [
-                "249f5902cd409334",
-                "21f329f381fe5581"
-            ]
-        ]
-    },
-    {
-        "id": "a852520ede8524df",
-        "type": "catch",
-        "z": "2a2d89771193fb8b",
-        "g": "075f4d9b063c9dbd",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 60,
-        "wires": [
-            [
-                "c066170d3d0fe3c7"
-            ]
-        ]
-    },
-    {
-        "id": "c066170d3d0fe3c7",
-        "type": "template",
-        "z": "2a2d89771193fb8b",
-        "g": "075f4d9b063c9dbd",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 60,
-        "wires": [
-            [
-                "3a79dff06163c162"
-            ]
-        ]
-    },
-    {
-        "id": "71c8efae8c1d420b",
-        "type": "link out",
-        "z": "2a2d89771193fb8b",
-        "g": "075f4d9b063c9dbd",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 475,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "3a79dff06163c162",
-        "type": "template",
-        "z": "2a2d89771193fb8b",
-        "g": "075f4d9b063c9dbd",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 60,
-        "wires": [
-            [
-                "71c8efae8c1d420b"
             ]
         ]
     },
@@ -14326,8 +14562,7 @@
         "y": 160,
         "wires": [
             [
-                "bbfc944671edd2e3",
-                "0f8226660ccd1f4a"
+                "bbfc944671edd2e3"
             ]
         ]
     },
@@ -14363,7 +14598,7 @@
         "name": "turn off the bathroom fan when the old humidity value is reached",
         "info": "",
         "x": 790,
-        "y": 380,
+        "y": 360,
         "wires": []
     },
     {
@@ -14373,7 +14608,7 @@
         "name": "turn off the bathroom fan after x minutes",
         "info": "",
         "x": 710,
-        "y": 240,
+        "y": 260,
         "wires": []
     },
     {
@@ -14394,7 +14629,7 @@
         "repair": false,
         "outputs": 1,
         "x": 660,
-        "y": 420,
+        "y": 400,
         "wires": [
             [
                 "1da06a5e8bc95932"
@@ -14419,7 +14654,7 @@
         "repair": false,
         "outputs": 1,
         "x": 880,
-        "y": 420,
+        "y": 400,
         "wires": [
             [
                 "3c42e6f768e9f4a8"
@@ -14438,7 +14673,7 @@
         "template": "De badkamerventilator is uitgeschakeld, na 120 minuten is de oude luchtvochtigheid van voor het douchen niet bereikt maar is wel gezakt onder de 65%. De luchtvochtigheid is {{state.state}}%.",
         "output": "str",
         "x": 1120,
-        "y": 280,
+        "y": 300,
         "wires": [
             [
                 "48e88711b7ff8b55"
@@ -14457,7 +14692,7 @@
         "template": "De badkamerventilator is uitgeschakeld, de luchtvochtigheid heeft de oude waarde ({{data.new_state.state}}%) van voor het douchen bereikt.",
         "output": "str",
         "x": 1120,
-        "y": 420,
+        "y": 400,
         "wires": [
             [
                 "48e88711b7ff8b55"
@@ -14490,7 +14725,7 @@
         "name": "fan position frontend",
         "info": "",
         "x": 110,
-        "y": 580,
+        "y": 460,
         "wires": []
     },
     {
@@ -14521,7 +14756,7 @@
         "repair": false,
         "outputs": 3,
         "x": 290,
-        "y": 620,
+        "y": 500,
         "wires": [
             [
                 "7169704a811f5f12"
@@ -14633,7 +14868,8 @@
         "y": 160,
         "wires": [
             [
-                "ccf8f8dbf3a2a1a3"
+                "ccf8f8dbf3a2a1a3",
+                "7f2ff7067d208110"
             ]
         ]
     },
@@ -14696,7 +14932,7 @@
         "domain": "fan",
         "service": "turn_on",
         "x": 730,
-        "y": 620,
+        "y": 500,
         "wires": [
             []
         ]
@@ -14727,7 +14963,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 490,
-        "y": 620,
+        "y": 500,
         "wires": [
             [
                 "25e06b253767b85b"
@@ -14760,7 +14996,7 @@
         "domain": "fan",
         "service": "turn_off",
         "x": 730,
-        "y": 680,
+        "y": 560,
         "wires": [
             []
         ]
@@ -14791,7 +15027,7 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 490,
-        "y": 680,
+        "y": 560,
         "wires": [
             [
                 "40a633604b4dfe95"
@@ -14824,7 +15060,7 @@
         "domain": "input_boolean",
         "service": "turn_on",
         "x": 490,
-        "y": 740,
+        "y": 620,
         "wires": [
             [
                 "40a633604b4dfe95"
@@ -14861,7 +15097,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 1320,
+        "x": 1340,
         "y": 160,
         "wires": [
             [
@@ -14943,8 +15179,8 @@
         "y": 160,
         "wires": [
             [
-                "e9c932d56036f13b",
-                "860a72a08f111ab7"
+                "860a72a08f111ab7",
+                "e9c932d56036f13b"
             ],
             []
         ]
@@ -15058,7 +15294,7 @@
             }
         ],
         "x": 120,
-        "y": 620,
+        "y": 500,
         "wires": [
             [
                 "3037226717dc7a91"
@@ -15100,7 +15336,7 @@
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 910,
-        "y": 280,
+        "y": 300,
         "wires": [
             [
                 "48367c24995b7a71"
@@ -15108,21 +15344,67 @@
         ]
     },
     {
-        "id": "0f8226660ccd1f4a",
-        "type": "stoptimer",
+        "id": "7f2ff7067d208110",
+        "type": "api-call-service",
         "z": "b4963274903ed2a9",
-        "duration": "120",
-        "units": "Minute",
-        "payloadtype": "num",
-        "payloadval": "0",
+        "name": "start timer",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "timer.start",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "timer.bathroom_mechanical_ventilation"
+        ],
+        "labelId": [],
+        "data": "{\"duration\":\"00:00:10\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "timer",
+        "service": "start",
+        "x": 1760,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a96659318920e051",
+        "type": "server-events",
+        "z": "b4963274903ed2a9",
         "name": "",
-        "x": 650,
-        "y": 280,
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "exposeAsEntityConfig": "",
+        "eventType": "timer.finished",
+        "eventData": "{\"entity_id\":\"timer.bathroom_mechanical_ventilation\"}",
+        "waitForRunning": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "$outputData(\"eventData\").event_type",
+                "valueType": "jsonata"
+            }
+        ],
+        "x": 660,
+        "y": 300,
         "wires": [
             [
                 "bad6f63794fa3bfd"
-            ],
-            []
+            ]
         ]
     },
     {
@@ -28296,7 +28578,12 @@
             "de255097b6d251ec",
             "37b1834649576aa9",
             "315c0bcd8e6fef5f",
-            "c9f30fc70f2be4fd"
+            "c9f30fc70f2be4fd",
+            "d55d5b6895ed9668",
+            "3f111153aba96e14",
+            "46a0b57223aa4c17",
+            "6352a2bd0e56f5a8",
+            "5fce516d2b677877"
         ],
         "x": 195,
         "y": 460,
@@ -36740,7 +37027,7 @@
         "syntax": "mustache",
         "template": "De verwarming in {{{payload.attributes.friendly_name}}} is van handmatig naar automatische stand geschakeld.",
         "output": "str",
-        "x": 1620,
+        "x": 1560,
         "y": 540,
         "wires": [
             [
@@ -38496,7 +38783,7 @@
         "halt_if": "on",
         "halt_if_type": "str",
         "halt_if_compare": "is",
-        "entity_id": "light.shellydimmer_backyard_string_l",
+        "entity_id": "group.backyard_lights",
         "state_type": "str",
         "blockInputOverrides": false,
         "outputProperties": [
@@ -49047,7 +49334,7 @@
         "name": "Radio",
         "info": "",
         "x": 770,
-        "y": 800,
+        "y": 880,
         "wires": []
     },
     {
@@ -49085,7 +49372,7 @@
         "stream": false,
         "addname": "",
         "x": 930,
-        "y": 1100,
+        "y": 1180,
         "wires": [
             [
                 "ae3e3c86c7a641ae"
@@ -49111,7 +49398,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1050,
-        "y": 1100,
+        "y": 1180,
         "wires": [
             [
                 "afc206d613ea28f4"
@@ -49132,7 +49419,7 @@
         "property": "payload.state",
         "topi": "topic",
         "x": 1170,
-        "y": 1100,
+        "y": 1180,
         "wires": [
             [
                 "aa0c955739836a72"
@@ -49150,7 +49437,7 @@
             "7264146e613f154c"
         ],
         "x": 1255,
-        "y": 1100,
+        "y": 1180,
         "wires": []
     },
     {
@@ -49161,7 +49448,7 @@
         "name": "Spotify",
         "info": "",
         "x": 770,
-        "y": 1000,
+        "y": 1080,
         "wires": []
     },
     {
@@ -49627,7 +49914,7 @@
         "domain": "media_player",
         "service": "turn_off",
         "x": 1010,
-        "y": 1160,
+        "y": 1240,
         "wires": [
             []
         ]
@@ -49659,7 +49946,7 @@
         "domain": "media_player",
         "service": "turn_off",
         "x": 1010,
-        "y": 900,
+        "y": 980,
         "wires": [
             []
         ]
@@ -49917,7 +50204,7 @@
         "domain": "media_player",
         "service": "select_source",
         "x": 1420,
-        "y": 1040,
+        "y": 1120,
         "wires": [
             []
         ]
@@ -49949,7 +50236,7 @@
         "domain": "media_player",
         "service": "clear_playlist",
         "x": 1130,
-        "y": 1040,
+        "y": 1120,
         "wires": [
             [
                 "e020d358e653c079"
@@ -49983,7 +50270,7 @@
         "domain": "media_player",
         "service": "media_stop",
         "x": 840,
-        "y": 1040,
+        "y": 1120,
         "wires": [
             [
                 "2088e9c0c8feb10f"
@@ -50017,7 +50304,7 @@
         "domain": "media_player",
         "service": "clear_playlist",
         "x": 1130,
-        "y": 840,
+        "y": 920,
         "wires": [
             []
         ]
@@ -50049,7 +50336,7 @@
         "domain": "media_player",
         "service": "media_stop",
         "x": 840,
-        "y": 840,
+        "y": 920,
         "wires": [
             [
                 "29e2ecd31302f193"
@@ -50218,7 +50505,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 810,
-        "y": 1160,
+        "y": 1240,
         "wires": [
             [
                 "9e2a2047fb3d0be1"
@@ -50264,7 +50551,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 810,
-        "y": 900,
+        "y": 980,
         "wires": [
             [
                 "aeab6ce43c9dc70c"
@@ -50940,7 +51227,7 @@
         "outputLocation": "payload",
         "outputResultsCount": 1,
         "x": 790,
-        "y": 1100,
+        "y": 1180,
         "wires": [
             [
                 "496e9f6b60f7e763"
@@ -51160,6 +51447,20 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "35fab5df9dee81de",
+        "type": "link out",
+        "z": "fd9cd80f14f860fe",
+        "g": "cd256ec259a611f4",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "f5ca5639755bbb40"
+        ],
+        "x": 735,
+        "y": 760,
+        "wires": []
     },
     {
         "id": "efdd9775da43ade3",
@@ -52491,6 +52792,701 @@
         "y": 160,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "42ddeb921e7ac3ac",
+        "type": "comment",
+        "z": "2a2d89771193fb8b",
+        "name": "request location update when door is open",
+        "info": "",
+        "x": 180,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "249f5902cd409334",
+        "type": "api-call-service",
+        "z": "2a2d89771193fb8b",
+        "name": "notify phone coen",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.mobile_app_phone_coen",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"message\":\"request_location_update\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "notify",
+        "service": "mobile_app_phone_coen",
+        "x": 450,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "21f329f381fe5581",
+        "type": "api-call-service",
+        "z": "2a2d89771193fb8b",
+        "name": "notify phone anne",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.mobile_app_phone_anne",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"message\":\"request_location_update\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "notify",
+        "service": "mobile_app_phone_anne",
+        "x": 450,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a852520ede8524df",
+        "type": "catch",
+        "z": "2a2d89771193fb8b",
+        "g": "075f4d9b063c9dbd",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "c066170d3d0fe3c7"
+            ]
+        ]
+    },
+    {
+        "id": "c066170d3d0fe3c7",
+        "type": "template",
+        "z": "2a2d89771193fb8b",
+        "g": "075f4d9b063c9dbd",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "3a79dff06163c162"
+            ]
+        ]
+    },
+    {
+        "id": "71c8efae8c1d420b",
+        "type": "link out",
+        "z": "2a2d89771193fb8b",
+        "g": "075f4d9b063c9dbd",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "3a79dff06163c162",
+        "type": "template",
+        "z": "2a2d89771193fb8b",
+        "g": "075f4d9b063c9dbd",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "71c8efae8c1d420b"
+            ]
+        ]
+    },
+    {
+        "id": "0f4705c752f90b8b",
+        "type": "link in",
+        "z": "2a2d89771193fb8b",
+        "name": "scene_request_location_update",
+        "links": [
+            "13f87cfee713f150"
+        ],
+        "x": 305,
+        "y": 180,
+        "wires": [
+            [
+                "249f5902cd409334",
+                "21f329f381fe5581"
+            ]
+        ]
+    },
+    {
+        "id": "e9bbe250f97da54f",
+        "type": "api-call-service",
+        "z": "38e25502d65ef451",
+        "name": "turn on climate auto mode",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "climate.set_hvac_mode",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "{{payload.entity_id}}"
+        ],
+        "labelId": [],
+        "data": "{\"hvac_mode\":\"auto\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "climate",
+        "service": "set_hvac_mode",
+        "x": 690,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1b31334864c907d5",
+        "type": "ha-get-entities",
+        "z": "38e25502d65ef451",
+        "name": "lookup climate is not auto",
+        "server": "4ba92433.2478cc",
+        "version": 1,
+        "rules": [
+            {
+                "property": "entity_id",
+                "logic": "starts_with",
+                "value": "climate.",
+                "valueType": "str"
+            },
+            {
+                "property": "state",
+                "logic": "is_not",
+                "value": "auto",
+                "valueType": "str"
+            }
+        ],
+        "outputType": "split",
+        "outputEmptyResults": false,
+        "outputLocationType": "msg",
+        "outputLocation": "payload",
+        "outputResultsCount": 1,
+        "x": 450,
+        "y": 160,
+        "wires": [
+            [
+                "e9bbe250f97da54f"
+            ]
+        ]
+    },
+    {
+        "id": "2b49ee2a4ec6eb35",
+        "type": "comment",
+        "z": "38e25502d65ef451",
+        "name": "request location update when door is open",
+        "info": "",
+        "x": 160,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "f728117825efb964",
+        "type": "catch",
+        "z": "38e25502d65ef451",
+        "g": "5638a5eb59070a64",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "629ec08766fb7019"
+            ]
+        ]
+    },
+    {
+        "id": "629ec08766fb7019",
+        "type": "template",
+        "z": "38e25502d65ef451",
+        "g": "5638a5eb59070a64",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "0693776fea84564e"
+            ]
+        ]
+    },
+    {
+        "id": "3f111153aba96e14",
+        "type": "link out",
+        "z": "38e25502d65ef451",
+        "g": "5638a5eb59070a64",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "0693776fea84564e",
+        "type": "template",
+        "z": "38e25502d65ef451",
+        "g": "5638a5eb59070a64",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "3f111153aba96e14"
+            ]
+        ]
+    },
+    {
+        "id": "39aaf6c417d6275b",
+        "type": "link in",
+        "z": "38e25502d65ef451",
+        "name": "scene_set_climate_to_auto_mode",
+        "links": [
+            "c62f6b0d1b183091"
+        ],
+        "x": 305,
+        "y": 160,
+        "wires": [
+            [
+                "1b31334864c907d5"
+            ]
+        ]
+    },
+    {
+        "id": "b954c9a8cdc40178",
+        "type": "comment",
+        "z": "c4112ff844284323",
+        "name": "scene that turns off the shelly plug for Nvidia Shield Pro",
+        "info": "",
+        "x": 220,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "8cd6a97d8921b370",
+        "type": "catch",
+        "z": "c4112ff844284323",
+        "g": "a6cae9b8e727f32b",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 120,
+        "y": 80,
+        "wires": [
+            [
+                "f03accf0e6b5ffe8"
+            ]
+        ]
+    },
+    {
+        "id": "f03accf0e6b5ffe8",
+        "type": "template",
+        "z": "c4112ff844284323",
+        "g": "a6cae9b8e727f32b",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 270,
+        "y": 80,
+        "wires": [
+            [
+                "13b122195c61c45f"
+            ]
+        ]
+    },
+    {
+        "id": "46a0b57223aa4c17",
+        "type": "link out",
+        "z": "c4112ff844284323",
+        "g": "a6cae9b8e727f32b",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 495,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "13b122195c61c45f",
+        "type": "template",
+        "z": "c4112ff844284323",
+        "g": "a6cae9b8e727f32b",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 410,
+        "y": 80,
+        "wires": [
+            [
+                "46a0b57223aa4c17"
+            ]
+        ]
+    },
+    {
+        "id": "efe2ea2c57c95996",
+        "type": "link in",
+        "z": "c4112ff844284323",
+        "name": "scene_turn_off_shelly_shield",
+        "links": [
+            "dad8fc7416653229"
+        ],
+        "x": 265,
+        "y": 160,
+        "wires": [
+            [
+                "2753dacc1aaf740b"
+            ]
+        ]
+    },
+    {
+        "id": "2753dacc1aaf740b",
+        "type": "api-call-service",
+        "z": "c4112ff844284323",
+        "name": "turn off shelly plug shield",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "switch.turn_off",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.shellyplugplus_shield_switch_0"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "switch",
+        "service": "turn_off",
+        "x": 410,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4698c4cea969f786",
+        "type": "comment",
+        "z": "762cff9aad6b0816",
+        "name": "scene that turns on the shelly plug for Nvidia Shield Pro",
+        "info": "",
+        "x": 220,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "bdef8bf721295551",
+        "type": "link in",
+        "z": "762cff9aad6b0816",
+        "name": "scene_turn_on_shelly_shield",
+        "links": [
+            "8b1bdde5406f507b"
+        ],
+        "x": 265,
+        "y": 160,
+        "wires": [
+            [
+                "af6295778eaa0ed3"
+            ]
+        ]
+    },
+    {
+        "id": "af6295778eaa0ed3",
+        "type": "api-call-service",
+        "z": "762cff9aad6b0816",
+        "name": "turn on shelly plug shield",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "switch.turn_on",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.shellyplugplus_shield_switch_0"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "switch",
+        "service": "turn_on",
+        "x": 410,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ce5d8f5c47d6cd40",
+        "type": "catch",
+        "z": "762cff9aad6b0816",
+        "g": "a8271160dbfdda1f",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 120,
+        "y": 80,
+        "wires": [
+            [
+                "88452990fe88bbc5"
+            ]
+        ]
+    },
+    {
+        "id": "88452990fe88bbc5",
+        "type": "template",
+        "z": "762cff9aad6b0816",
+        "g": "a8271160dbfdda1f",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 270,
+        "y": 80,
+        "wires": [
+            [
+                "ad72e3183538d9e5"
+            ]
+        ]
+    },
+    {
+        "id": "6352a2bd0e56f5a8",
+        "type": "link out",
+        "z": "762cff9aad6b0816",
+        "g": "a8271160dbfdda1f",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 495,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "ad72e3183538d9e5",
+        "type": "template",
+        "z": "762cff9aad6b0816",
+        "g": "a8271160dbfdda1f",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 410,
+        "y": 80,
+        "wires": [
+            [
+                "6352a2bd0e56f5a8"
+            ]
+        ]
+    },
+    {
+        "id": "0a8bb2d39c86165a",
+        "type": "comment",
+        "z": "d95708849d31630d",
+        "name": "scene that turns on the LG TV device",
+        "info": "",
+        "x": 170,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "f5ca5639755bbb40",
+        "type": "link in",
+        "z": "d95708849d31630d",
+        "name": "scene_turn_on_lg_tv",
+        "links": [
+            "35fab5df9dee81de"
+        ],
+        "x": 265,
+        "y": 160,
+        "wires": [
+            [
+                "431f4462805951b1"
+            ]
+        ]
+    },
+    {
+        "id": "431f4462805951b1",
+        "type": "api-call-service",
+        "z": "d95708849d31630d",
+        "name": "turn on lg tv device",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "wake_on_lan.send_magic_packet",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"mac\":\"38:8c:50:62:11:4d\",\"broadcast_address\":\"10.0.30.80\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "wake_on_lan",
+        "service": "send_magic_packet",
+        "x": 390,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3016c23826afe2b3",
+        "type": "catch",
+        "z": "d95708849d31630d",
+        "g": "b928bcab67c7970c",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 120,
+        "y": 80,
+        "wires": [
+            [
+                "46295b436337c8ca"
+            ]
+        ]
+    },
+    {
+        "id": "46295b436337c8ca",
+        "type": "template",
+        "z": "d95708849d31630d",
+        "g": "b928bcab67c7970c",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 270,
+        "y": 80,
+        "wires": [
+            [
+                "da7468fd0ee36aee"
+            ]
+        ]
+    },
+    {
+        "id": "5fce516d2b677877",
+        "type": "link out",
+        "z": "d95708849d31630d",
+        "g": "b928bcab67c7970c",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 495,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "da7468fd0ee36aee",
+        "type": "template",
+        "z": "d95708849d31630d",
+        "g": "b928bcab67c7970c",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 410,
+        "y": 80,
+        "wires": [
+            [
+                "5fce516d2b677877"
+            ]
         ]
     }
 ]
