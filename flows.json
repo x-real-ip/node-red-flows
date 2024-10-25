@@ -15359,7 +15359,7 @@
             "timer.bathroom_mechanical_ventilation"
         ],
         "labelId": [],
-        "data": "{\"duration\":\"00:00:10\"}",
+        "data": "",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -15405,6 +15405,125 @@
             [
                 "bad6f63794fa3bfd"
             ]
+        ]
+    },
+    {
+        "id": "3df8b741e696a587",
+        "type": "inject",
+        "z": "b4963274903ed2a9",
+        "name": "",
+        "props": [
+            {
+                "p": "data",
+                "v": "{\"new_state\":{\"state\":\"10\"},\"old_state\":{\"state\":\"5\"}}",
+                "vt": "json"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 200,
+        "y": 260,
+        "wires": [
+            [
+                "860a72a08f111ab7"
+            ]
+        ]
+    },
+    {
+        "id": "56172292528665d3",
+        "type": "server-state-changed",
+        "z": "b4963274903ed2a9",
+        "name": "bathroom fan is off",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "fan.shelly1pm_bathroom_fan_switch_0"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "off",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 110,
+        "y": 720,
+        "wires": [
+            [
+                "b44de345595c8114"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "b44de345595c8114",
+        "type": "api-call-service",
+        "z": "b4963274903ed2a9",
+        "name": "stop timer",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "timer.cancel",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "timer.bathroom_mechanical_ventilation"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "timer",
+        "service": "cancel",
+        "x": 280,
+        "y": 720,
+        "wires": [
+            []
         ]
     },
     {
