@@ -190,6 +190,14 @@
         "env": []
     },
     {
+        "id": "acd9bd0c60806bd8",
+        "type": "tab",
+        "label": "automation_turn_off_toilet_light",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "53a5f07742283c4c",
         "type": "tab",
         "label": "entertainment_spotify_api",
@@ -684,14 +692,6 @@
         "id": "22c02784506418a7",
         "type": "tab",
         "label": "scene_turn_on_toilet_light",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "acd9bd0c60806bd8",
-        "type": "tab",
-        "label": "automation_turn_off_toilet_light",
         "disabled": false,
         "info": "",
         "env": []
@@ -4206,49 +4206,6 @@
         "h": 82
     },
     {
-        "id": "bd90d247a95feb9d",
-        "type": "group",
-        "z": "e4381ced98d2a929",
-        "g": "12e8b8acaeaeb3fa",
-        "name": "notify",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "ad62962b589ed07d",
-            "cae0f9255059d5ce",
-            "f5a1c4dd087e0795",
-            "c1f0224f374a67a6",
-            "ce2746e7cd66f603",
-            "13dd6df8c5e31625"
-        ],
-        "x": 1334,
-        "y": 459,
-        "w": 432,
-        "h": 162
-    },
-    {
-        "id": "7fe4b7424297ac0b",
-        "type": "group",
-        "z": "e4381ced98d2a929",
-        "g": "12e8b8acaeaeb3fa",
-        "name": "notify",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "37cd1950eaba0494",
-            "8516fb393b7286e1",
-            "17afd1b13fd231be",
-            "d4a37aed996e885f",
-            "0e425dc836ddc52f"
-        ],
-        "x": 1334,
-        "y": 699,
-        "w": 392,
-        "h": 122
-    },
-    {
         "id": "f81add0133ee477f",
         "type": "group",
         "z": "2c0a0237d23a4cfc",
@@ -4319,6 +4276,49 @@
         "y": 39,
         "w": 502,
         "h": 82
+    },
+    {
+        "id": "bd90d247a95feb9d",
+        "type": "group",
+        "z": "e4381ced98d2a929",
+        "g": "12e8b8acaeaeb3fa",
+        "name": "notify",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ad62962b589ed07d",
+            "cae0f9255059d5ce",
+            "f5a1c4dd087e0795",
+            "c1f0224f374a67a6",
+            "ce2746e7cd66f603",
+            "13dd6df8c5e31625"
+        ],
+        "x": 1334,
+        "y": 459,
+        "w": 432,
+        "h": 162
+    },
+    {
+        "id": "7fe4b7424297ac0b",
+        "type": "group",
+        "z": "e4381ced98d2a929",
+        "g": "12e8b8acaeaeb3fa",
+        "name": "notify",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "37cd1950eaba0494",
+            "8516fb393b7286e1",
+            "17afd1b13fd231be",
+            "d4a37aed996e885f",
+            "0e425dc836ddc52f"
+        ],
+        "x": 1334,
+        "y": 699,
+        "w": 392,
+        "h": 122
     },
     {
         "id": "f7038caa7a76e6f3",
@@ -5434,11 +5434,13 @@
         "id": "7c04372257e43f46",
         "type": "junction",
         "z": "acd9bd0c60806bd8",
-        "x": 980,
-        "y": 240,
+        "x": 1160,
+        "y": 300,
         "wires": [
             [
-                "1c4e69306cc62b99"
+                "1c4e69306cc62b99",
+                "b88bddd3f35e4973",
+                "39db305949939e6d"
             ]
         ]
     },
@@ -5446,12 +5448,62 @@
         "id": "a92fff4f506cc380",
         "type": "junction",
         "z": "acd9bd0c60806bd8",
-        "x": 720,
-        "y": 240,
+        "x": 880,
+        "y": 300,
         "wires": [
             [
                 "055af5f916f4a558",
-                "7c04372257e43f46"
+                "7c04372257e43f46",
+                "097e5206678e0eed",
+                "707b4d06d170119e"
+            ]
+        ]
+    },
+    {
+        "id": "b88bddd3f35e4973",
+        "type": "junction",
+        "z": "acd9bd0c60806bd8",
+        "x": 1420,
+        "y": 300,
+        "wires": [
+            [
+                "cf3c768bfd44bb20"
+            ]
+        ]
+    },
+    {
+        "id": "27620b0ca83e1401",
+        "type": "junction",
+        "z": "acd9bd0c60806bd8",
+        "x": 1160,
+        "y": 340,
+        "wires": [
+            [
+                "ad2dec9c67f2a738"
+            ]
+        ]
+    },
+    {
+        "id": "ad2dec9c67f2a738",
+        "type": "junction",
+        "z": "acd9bd0c60806bd8",
+        "x": 1420,
+        "y": 340,
+        "wires": [
+            [
+                "b88bddd3f35e4973"
+            ]
+        ]
+    },
+    {
+        "id": "097e5206678e0eed",
+        "type": "junction",
+        "z": "acd9bd0c60806bd8",
+        "x": 880,
+        "y": 340,
+        "wires": [
+            [
+                "27620b0ca83e1401"
             ]
         ]
     },
@@ -8703,9 +8755,7 @@
         "z": "2c0a0237d23a4cfc",
         "name": "trigger_toilet_door_closes",
         "mode": "link",
-        "links": [
-            "653eb9738af6cb6e"
-        ],
+        "links": [],
         "x": 235,
         "y": 200,
         "wires": []
@@ -9952,9 +10002,7 @@
         "z": "12beaeea5e53e349",
         "name": "trigger_home_occupied",
         "mode": "link",
-        "links": [
-            "bdef8bf721295551"
-        ],
+        "links": [],
         "x": 465,
         "y": 160,
         "wires": []
@@ -20371,6 +20419,537 @@
         "x": 710,
         "y": 160,
         "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b53ddf5bdebb843d",
+        "type": "comment",
+        "z": "acd9bd0c60806bd8",
+        "name": "automation that turns off the toilet light",
+        "info": "",
+        "x": 170,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "7b608bc9a37ee5c2",
+        "type": "catch",
+        "z": "acd9bd0c60806bd8",
+        "g": "0a76fbe2d5c4a8d7",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "b6ffd20beaf691b9"
+            ]
+        ]
+    },
+    {
+        "id": "b6ffd20beaf691b9",
+        "type": "template",
+        "z": "acd9bd0c60806bd8",
+        "g": "0a76fbe2d5c4a8d7",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "1c3d282713ad9eb9"
+            ]
+        ]
+    },
+    {
+        "id": "5d396ef39d0c5fee",
+        "type": "link out",
+        "z": "acd9bd0c60806bd8",
+        "g": "0a76fbe2d5c4a8d7",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "1c3d282713ad9eb9",
+        "type": "template",
+        "z": "acd9bd0c60806bd8",
+        "g": "0a76fbe2d5c4a8d7",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "5d396ef39d0c5fee"
+            ]
+        ]
+    },
+    {
+        "id": "1cfb93e7bf15bb7b",
+        "type": "server-state-changed",
+        "z": "acd9bd0c60806bd8",
+        "name": "toilet door opens",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "binary_sensor.toiletdoor"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "on",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 100,
+        "y": 160,
+        "wires": [
+            [
+                "162a8ae129dc4c49"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "be5d17bb75d048b5",
+        "type": "api-call-service",
+        "z": "acd9bd0c60806bd8",
+        "name": "turn on toilet light",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "light.turn_on",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "light.shelly1pm_toilet_light_switch_0"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "light",
+        "service": "turn_on",
+        "x": 470,
+        "y": 160,
+        "wires": [
+            [
+                "3bc70aa9f6ea5f61"
+            ]
+        ]
+    },
+    {
+        "id": "3bc70aa9f6ea5f61",
+        "type": "ha-wait-until",
+        "z": "acd9bd0c60806bd8",
+        "name": "wait until toilet door closes",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "entities": {
+            "entity": [
+                "binary_sensor.toiletdoor"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "property": "state",
+        "comparator": "is",
+        "value": "off",
+        "valueType": "str",
+        "timeout": "30",
+        "timeoutType": "num",
+        "timeoutUnits": "minutes",
+        "checkCurrentState": true,
+        "blockInputOverrides": true,
+        "outputProperties": [],
+        "x": 710,
+        "y": 160,
+        "wires": [
+            [
+                "055af5f916f4a558",
+                "707b4d06d170119e"
+            ],
+            [
+                "b9b8fb4bc7c07cc4"
+            ]
+        ]
+    },
+    {
+        "id": "055af5f916f4a558",
+        "type": "ha-wait-until",
+        "z": "acd9bd0c60806bd8",
+        "name": "wait until toilet door opens",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "entities": {
+            "entity": [
+                "binary_sensor.toiletdoor"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "property": "state",
+        "comparator": "is",
+        "value": "on",
+        "valueType": "str",
+        "timeout": "30",
+        "timeoutType": "num",
+        "timeoutUnits": "minutes",
+        "checkCurrentState": true,
+        "blockInputOverrides": true,
+        "outputProperties": [],
+        "x": 1010,
+        "y": 220,
+        "wires": [
+            [
+                "1c4e69306cc62b99"
+            ],
+            [
+                "27620b0ca83e1401"
+            ]
+        ]
+    },
+    {
+        "id": "1c4e69306cc62b99",
+        "type": "ha-wait-until",
+        "z": "acd9bd0c60806bd8",
+        "name": "wait until water runs",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "entities": {
+            "entity": [
+                "sensor.watermeter_pulse"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "property": "state",
+        "comparator": "gt",
+        "value": "1",
+        "valueType": "num",
+        "timeout": "30",
+        "timeoutType": "num",
+        "timeoutUnits": "minutes",
+        "checkCurrentState": true,
+        "blockInputOverrides": true,
+        "outputProperties": [],
+        "x": 1280,
+        "y": 220,
+        "wires": [
+            [
+                "cf3c768bfd44bb20"
+            ],
+            [
+                "cf3c768bfd44bb20"
+            ]
+        ]
+    },
+    {
+        "id": "b9b8fb4bc7c07cc4",
+        "type": "change",
+        "z": "acd9bd0c60806bd8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "msg",
+                "to": "on",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 300,
+        "wires": [
+            [
+                "a92fff4f506cc380"
+            ]
+        ]
+    },
+    {
+        "id": "162a8ae129dc4c49",
+        "type": "api-current-state",
+        "z": "acd9bd0c60806bd8",
+        "name": "toilet light is off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "light.shelly1pm_toilet_light_switch_0",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 280,
+        "y": 160,
+        "wires": [
+            [
+                "be5d17bb75d048b5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "707b4d06d170119e",
+        "type": "ha-wait-until",
+        "z": "acd9bd0c60806bd8",
+        "name": "wait until water runs",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "entities": {
+            "entity": [
+                "sensor.watermeter_pulse"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "property": "state",
+        "comparator": "gt",
+        "value": "1",
+        "valueType": "num",
+        "timeout": "30",
+        "timeoutType": "num",
+        "timeoutUnits": "minutes",
+        "checkCurrentState": true,
+        "blockInputOverrides": true,
+        "outputProperties": [],
+        "x": 1000,
+        "y": 160,
+        "wires": [
+            [
+                "39db305949939e6d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "39db305949939e6d",
+        "type": "ha-wait-until",
+        "z": "acd9bd0c60806bd8",
+        "name": "wait until toilet door opens",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "entities": {
+            "entity": [
+                "binary_sensor.toiletdoor"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "property": "state",
+        "comparator": "is",
+        "value": "on",
+        "valueType": "str",
+        "timeout": "30",
+        "timeoutType": "num",
+        "timeoutUnits": "minutes",
+        "checkCurrentState": true,
+        "blockInputOverrides": true,
+        "outputProperties": [],
+        "x": 1290,
+        "y": 160,
+        "wires": [
+            [
+                "cf3c768bfd44bb20"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3413ca5a56b48fd6",
+        "type": "api-call-service",
+        "z": "acd9bd0c60806bd8",
+        "name": "turn off toilet light",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "light.turn_off",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "light.shelly1pm_toilet_light_switch_0"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "light",
+        "service": "turn_off",
+        "x": 1970,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cf3c768bfd44bb20",
+        "type": "ha-wait-until",
+        "z": "acd9bd0c60806bd8",
+        "name": "wait until toilet door closes",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "entities": {
+            "entity": [
+                "binary_sensor.toiletdoor"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "property": "state",
+        "comparator": "is",
+        "value": "off",
+        "valueType": "str",
+        "timeout": "30",
+        "timeoutType": "num",
+        "timeoutUnits": "minutes",
+        "checkCurrentState": true,
+        "blockInputOverrides": true,
+        "outputProperties": [],
+        "x": 1570,
+        "y": 160,
+        "wires": [
+            [
+                "db61508a1ac01385"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "db61508a1ac01385",
+        "type": "api-current-state",
+        "z": "acd9bd0c60806bd8",
+        "name": "toilet light is on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "on",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "light.shelly1pm_toilet_light_switch_0",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 1780,
+        "y": 160,
+        "wires": [
+            [
+                "3413ca5a56b48fd6"
+            ],
             []
         ]
     },
@@ -53662,9 +54241,7 @@
         "type": "link in",
         "z": "762cff9aad6b0816",
         "name": "scene_turn_on_shelly_shield",
-        "links": [
-            "8b1bdde5406f507b"
-        ],
+        "links": [],
         "x": 265,
         "y": 160,
         "wires": [
@@ -54069,340 +54646,6 @@
         "y": 160,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "b53ddf5bdebb843d",
-        "type": "comment",
-        "z": "acd9bd0c60806bd8",
-        "name": "automation that turns off the toilet light",
-        "info": "",
-        "x": 170,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "7b608bc9a37ee5c2",
-        "type": "catch",
-        "z": "acd9bd0c60806bd8",
-        "g": "0a76fbe2d5c4a8d7",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "b6ffd20beaf691b9"
-            ]
-        ]
-    },
-    {
-        "id": "b6ffd20beaf691b9",
-        "type": "template",
-        "z": "acd9bd0c60806bd8",
-        "g": "0a76fbe2d5c4a8d7",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "1c3d282713ad9eb9"
-            ]
-        ]
-    },
-    {
-        "id": "5d396ef39d0c5fee",
-        "type": "link out",
-        "z": "acd9bd0c60806bd8",
-        "g": "0a76fbe2d5c4a8d7",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 475,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "1c3d282713ad9eb9",
-        "type": "template",
-        "z": "acd9bd0c60806bd8",
-        "g": "0a76fbe2d5c4a8d7",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "5d396ef39d0c5fee"
-            ]
-        ]
-    },
-    {
-        "id": "1cfb93e7bf15bb7b",
-        "type": "server-state-changed",
-        "z": "acd9bd0c60806bd8",
-        "name": "toilet door opens",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.toiletdoor"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "on",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 100,
-        "y": 160,
-        "wires": [
-            [
-                "be5d17bb75d048b5"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "be5d17bb75d048b5",
-        "type": "api-call-service",
-        "z": "acd9bd0c60806bd8",
-        "name": "turn on toilet light",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "light.turn_on",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "light.shelly1pm_toilet_light_switch_0"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "light",
-        "service": "turn_on",
-        "x": 290,
-        "y": 160,
-        "wires": [
-            [
-                "3bc70aa9f6ea5f61"
-            ]
-        ]
-    },
-    {
-        "id": "3bc70aa9f6ea5f61",
-        "type": "ha-wait-until",
-        "z": "acd9bd0c60806bd8",
-        "name": "wait until toilet door closes",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "entities": {
-            "entity": [
-                "binary_sensor.toiletdoor"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "property": "state",
-        "comparator": "is",
-        "value": "off",
-        "valueType": "str",
-        "timeout": "20",
-        "timeoutType": "num",
-        "timeoutUnits": "minutes",
-        "checkCurrentState": true,
-        "blockInputOverrides": true,
-        "outputProperties": [],
-        "x": 530,
-        "y": 160,
-        "wires": [
-            [
-                "055af5f916f4a558"
-            ],
-            [
-                "b9b8fb4bc7c07cc4"
-            ]
-        ]
-    },
-    {
-        "id": "055af5f916f4a558",
-        "type": "ha-wait-until",
-        "z": "acd9bd0c60806bd8",
-        "name": "wait until toilet door opens",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "entities": {
-            "entity": [
-                "binary_sensor.toiletdoor"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "property": "state",
-        "comparator": "is",
-        "value": "on",
-        "valueType": "str",
-        "timeout": "20",
-        "timeoutType": "num",
-        "timeoutUnits": "minutes",
-        "checkCurrentState": true,
-        "blockInputOverrides": true,
-        "outputProperties": [],
-        "x": 830,
-        "y": 160,
-        "wires": [
-            [
-                "1c4e69306cc62b99"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "8f0b23ecd592efc3",
-        "type": "api-call-service",
-        "z": "acd9bd0c60806bd8",
-        "name": "turn off toilet light",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "light.turn_off",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "light.shelly1pm_toilet_light_switch_0"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "light",
-        "service": "turn_off",
-        "x": 1290,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1c4e69306cc62b99",
-        "type": "ha-wait-until",
-        "z": "acd9bd0c60806bd8",
-        "name": "wait until water runs",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "entities": {
-            "entity": [
-                "sensor.watermeter_pulse"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "property": "state",
-        "comparator": "gt",
-        "value": "1",
-        "valueType": "num",
-        "timeout": "30",
-        "timeoutType": "num",
-        "timeoutUnits": "minutes",
-        "checkCurrentState": true,
-        "blockInputOverrides": true,
-        "outputProperties": [],
-        "x": 1080,
-        "y": 160,
-        "wires": [
-            [
-                "8f0b23ecd592efc3"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "b9b8fb4bc7c07cc4",
-        "type": "change",
-        "z": "acd9bd0c60806bd8",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "reset",
-                "pt": "msg",
-                "to": "on",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 540,
-        "y": 240,
-        "wires": [
-            [
-                "a92fff4f506cc380"
-            ]
         ]
     }
 ]
