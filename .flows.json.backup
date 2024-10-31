@@ -9572,8 +9572,7 @@
         "name": "trigger_home_unoccupied",
         "mode": "link",
         "links": [
-            "d12914930d09e92c",
-            "efe2ea2c57c95996"
+            "d12914930d09e92c"
         ],
         "x": 495,
         "y": 160,
@@ -10002,9 +10001,7 @@
         "z": "12beaeea5e53e349",
         "name": "trigger_home_occupied",
         "mode": "link",
-        "links": [
-            "bdef8bf721295551"
-        ],
+        "links": [],
         "x": 465,
         "y": 160,
         "wires": []
@@ -54186,9 +54183,7 @@
         "type": "link in",
         "z": "c4112ff844284323",
         "name": "scene_turn_off_shelly_shield",
-        "links": [
-            "dad8fc7416653229"
-        ],
+        "links": [],
         "x": 265,
         "y": 160,
         "wires": [
@@ -54243,9 +54238,7 @@
         "type": "link in",
         "z": "762cff9aad6b0816",
         "name": "scene_turn_on_shelly_shield",
-        "links": [
-            "8b1bdde5406f507b"
-        ],
+        "links": [],
         "x": 265,
         "y": 160,
         "wires": [

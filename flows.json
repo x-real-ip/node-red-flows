@@ -9572,8 +9572,7 @@
         "name": "trigger_home_unoccupied",
         "mode": "link",
         "links": [
-            "d12914930d09e92c",
-            "efe2ea2c57c95996"
+            "d12914930d09e92c"
         ],
         "x": 495,
         "y": 160,
@@ -54184,9 +54183,7 @@
         "type": "link in",
         "z": "c4112ff844284323",
         "name": "scene_turn_off_shelly_shield",
-        "links": [
-            "dad8fc7416653229"
-        ],
+        "links": [],
         "x": 265,
         "y": 160,
         "wires": [
@@ -54568,7 +54565,7 @@
         "y": 160,
         "wires": [
             [
-                "4f7aef9dbe95a4f2"
+                "aaf8637cc4bfe888"
             ]
         ]
     },
@@ -54608,7 +54605,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 400,
+        "x": 580,
         "y": 160,
         "wires": [
             [
@@ -54642,9 +54639,54 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "turn_on",
-        "x": 590,
+        "x": 770,
         "y": 160,
         "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aaf8637cc4bfe888",
+        "type": "api-current-state",
+        "z": "22c02784506418a7",
+        "name": "sleepmode is off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "input_boolean.sleep_mode",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 400,
+        "y": 160,
+        "wires": [
+            [
+                "4f7aef9dbe95a4f2"
+            ],
             []
         ]
     }
