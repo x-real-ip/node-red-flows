@@ -15323,7 +15323,7 @@
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
-        "halt_if": "dark",
+        "halt_if": "off",
         "halt_if_type": "str",
         "halt_if_compare": "is",
         "entity_id": "binary_sensor.outdoor_daylight",
@@ -35647,10 +35647,10 @@
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
-        "halt_if": "dark",
+        "halt_if": "off",
         "halt_if_type": "str",
         "halt_if_compare": "is",
-        "entity_id": "sensor.outdoor_light_dark",
+        "entity_id": "binary_sensor.outdoor_daylight",
         "state_type": "str",
         "blockInputOverrides": false,
         "outputProperties": [
@@ -38038,7 +38038,7 @@
         "exposeAsEntityConfig": "",
         "entities": {
             "entity": [
-                "sensor.outdoor_light_dark"
+                "binary_sensor.outdoor_daylight"
             ],
             "substring": [],
             "regex": []
@@ -38573,7 +38573,7 @@
         "outputs": 1,
         "entities": {
             "entity": [
-                "sensor.outdoor_light_dark"
+                "binary_sensor.outdoor_daylight"
             ],
             "substring": [],
             "regex": []
@@ -40115,10 +40115,10 @@
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
-        "halt_if": "dark",
+        "halt_if": "off",
         "halt_if_type": "str",
         "halt_if_compare": "is",
-        "entity_id": "sensor.outdoor_light_dark",
+        "entity_id": "binary_sensor.outdoor_daylight",
         "state_type": "str",
         "blockInputOverrides": false,
         "outputProperties": [
@@ -40332,10 +40332,10 @@
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
-        "halt_if": "dark",
+        "halt_if": "off",
         "halt_if_type": "str",
         "halt_if_compare": "is",
-        "entity_id": "sensor.outdoor_light_dark",
+        "entity_id": "binary_sensor.outdoor_daylight",
         "state_type": "str",
         "blockInputOverrides": false,
         "outputProperties": [
@@ -41233,10 +41233,10 @@
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
-        "halt_if": "dark",
+        "halt_if": "off",
         "halt_if_type": "str",
         "halt_if_compare": "is",
-        "entity_id": "sensor.outdoor_light_dark",
+        "entity_id": "binary_sensor.outdoor_daylight",
         "state_type": "str",
         "blockInputOverrides": false,
         "outputProperties": [
@@ -46027,13 +46027,13 @@
         "id": "5c56266b.e63438",
         "type": "change",
         "z": "4dd07a1d.6e53e4",
-        "name": "dark",
+        "name": "off",
         "rules": [
             {
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "dark",
+                "to": "off",
                 "tot": "str"
             }
         ],
@@ -51191,10 +51191,10 @@
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
-        "halt_if": "dark",
+        "halt_if": "off",
         "halt_if_type": "str",
         "halt_if_compare": "is",
-        "entity_id": "sensor.outdoor_light_dark",
+        "entity_id": "binary_sensor.outdoor_daylight",
         "state_type": "str",
         "blockInputOverrides": false,
         "outputProperties": [
