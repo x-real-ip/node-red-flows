@@ -71,6 +71,14 @@
         "env": []
     },
     {
+        "id": "3381c3542ff0a657",
+        "type": "tab",
+        "label": "trigger_binary_sensor_outdoor_daylight_off",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "960ed9c324a9682d",
         "type": "tab",
         "label": "trigger_home_unoccupied",
@@ -4155,6 +4163,27 @@
         "h": 82
     },
     {
+        "id": "345fab730ad4be03",
+        "type": "group",
+        "z": "3381c3542ff0a657",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "088833473f12c981",
+            "e8beeb55e4489280",
+            "8842079ec33b9292",
+            "fa6bc3f7ba0f1635",
+            "cec70e8579ddfefb"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 702,
+        "h": 82
+    },
+    {
         "id": "bd90d247a95feb9d",
         "type": "group",
         "z": "e4381ced98d2a929",
@@ -8201,6 +8230,176 @@
             "9505c871fbc9e9b8"
         ],
         "x": 255,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "5f3c95659f1072ef",
+        "type": "comment",
+        "z": "3381c3542ff0a657",
+        "name": "Trigger when binary sensor light outdoor is off (dark)",
+        "info": "",
+        "x": 210,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "088833473f12c981",
+        "type": "catch",
+        "z": "3381c3542ff0a657",
+        "g": "345fab730ad4be03",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "e8beeb55e4489280"
+            ]
+        ]
+    },
+    {
+        "id": "e8beeb55e4489280",
+        "type": "template",
+        "z": "3381c3542ff0a657",
+        "g": "345fab730ad4be03",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "fa6bc3f7ba0f1635"
+            ]
+        ]
+    },
+    {
+        "id": "8842079ec33b9292",
+        "type": "link out",
+        "z": "3381c3542ff0a657",
+        "g": "345fab730ad4be03",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "fa6bc3f7ba0f1635",
+        "type": "template",
+        "z": "3381c3542ff0a657",
+        "g": "345fab730ad4be03",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "cec70e8579ddfefb"
+            ]
+        ]
+    },
+    {
+        "id": "cec70e8579ddfefb",
+        "type": "function",
+        "z": "3381c3542ff0a657",
+        "g": "345fab730ad4be03",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "8842079ec33b9292"
+            ]
+        ]
+    },
+    {
+        "id": "02882c5ab22822b4",
+        "type": "server-state-changed",
+        "z": "3381c3542ff0a657",
+        "name": "outdoor daylight is off",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "binary_sensor.outdoor_daylight"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 120,
+        "y": 160,
+        "wires": [
+            [
+                "2021a3dcd50cad13"
+            ]
+        ]
+    },
+    {
+        "id": "2021a3dcd50cad13",
+        "type": "link out",
+        "z": "3381c3542ff0a657",
+        "name": "trigger_binary_sensor_outdoor_daylight_off",
+        "mode": "link",
+        "links": [],
+        "x": 265,
         "y": 160,
         "wires": []
     },
@@ -27768,7 +27967,7 @@
         "type": "function",
         "z": "b4aa7b8dbc1c80dc",
         "name": "shorten message",
-        "func": "msg.short_message = msg.data.new_state.attributes.Waarschuwing.substr(0, 400);\nreturn msg;",
+        "func": "// Check if msg.data, new_state, attributes, and Waarschuwing exist and are valid\nif (msg.data && msg.data.new_state && msg.data.new_state.attributes && typeof msg.data.new_state.attributes.Waarschuwing === 'string') {\n    // If it's a valid string, use substr to extract the first 400 characters\n    msg.short_message = msg.data.new_state.attributes.Waarschuwing.substr(0, 395);\n} else {\n    // If it's not a valid string or any part of the chain is missing, set a default or handle the error\n    msg.short_message = \"Waiting for a weather message...\";\n}\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -28166,7 +28365,8 @@
             "1a2e5276e0c64409",
             "ccaa2e4d1e8fac02",
             "7c96c2b4a740b8d9",
-            "8dc5b9441d7691f4"
+            "8dc5b9441d7691f4",
+            "8842079ec33b9292"
         ],
         "x": 275,
         "y": 560,
@@ -47179,14 +47379,14 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 330,
-        "y": 160,
+        "x": 550,
+        "y": 180,
         "wires": [
             [
                 "487d5ed4.e5e61"
             ],
             [
-                "ae2c2b92527841d1"
+                "f052ae0fcfc5b3e8"
             ]
         ]
     },
@@ -47399,7 +47599,7 @@
         "y": 160,
         "wires": [
             [
-                "3e4cd67e.efae1a"
+                "ae2c2b92527841d1"
             ],
             []
         ]
@@ -47533,11 +47733,11 @@
         "payloadtype": "num",
         "payloadval": "0",
         "name": "",
-        "x": 510,
-        "y": 260,
+        "x": 370,
+        "y": 160,
         "wires": [
             [
-                "f052ae0fcfc5b3e8"
+                "3e4cd67e.efae1a"
             ],
             []
         ]
