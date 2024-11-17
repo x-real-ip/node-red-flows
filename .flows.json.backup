@@ -16,6 +16,22 @@
         "env": []
     },
     {
+        "id": "61fe51405ced1ae2",
+        "type": "tab",
+        "label": "trigger_door_opens_cv_closet",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "793a78056a1a5245",
+        "type": "tab",
+        "label": "trigger_door_closes_cv_closet",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "8b9f28f75c6a8cea",
         "type": "tab",
         "label": "trigger_door_opens_or_closes_backdoor",
@@ -745,14 +761,6 @@
         "env": []
     },
     {
-        "id": "b879bcee774e2ee3",
-        "type": "tab",
-        "label": "scene_input_boolean_toggle_sleepmode",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "7aa254e451cc25d5",
         "type": "tab",
         "label": "scene_light_toggle_pendant_lamp_barndoor",
@@ -764,6 +772,30 @@
         "id": "fc5bb64f7b55c7a9",
         "type": "tab",
         "label": "scene_switch_toggle_childlock_kitchen_cabinets",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b879bcee774e2ee3",
+        "type": "tab",
+        "label": "scene_input_boolean_toggle_sleepmode",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7f39e487c7ab241c",
+        "type": "tab",
+        "label": "scene_light_turn_on_cv_closet",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3db3c53990065a2a",
+        "type": "tab",
+        "label": "scene_light_turn_off_cv_closet",
         "disabled": false,
         "info": "",
         "env": []
@@ -3518,30 +3550,6 @@
         "h": 82
     },
     {
-        "id": "294518b9f2d20a35",
-        "type": "group",
-        "z": "8b9f28f75c6a8cea",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "b720e68e9c64cbc4",
-            "746561afe69af34e",
-            "d3b8e4a7f5f1fbb1",
-            "15aee940807c653c"
-        ],
-        "x": 14,
-        "y": 39,
-        "w": 502,
-        "h": 82
-    },
-    {
         "id": "0c2e33b261c4cf11",
         "type": "group",
         "z": "f5e87f41e348afa5",
@@ -3734,54 +3742,6 @@
         "h": 82
     },
     {
-        "id": "b37c093ac94a1e98",
-        "type": "group",
-        "z": "24d64ac8238cc218",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "03b294ecea33cda7",
-            "01121dcdb1702967",
-            "37b1834649576aa9",
-            "46e46e14cb24c85e"
-        ],
-        "x": 14,
-        "y": 39,
-        "w": 502,
-        "h": 82
-    },
-    {
-        "id": "f1c27cc6414561c7",
-        "type": "group",
-        "z": "747e156c11e4e604",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "6b7ddb8ad38004e5",
-            "8c9e13eba1e37b61",
-            "315c0bcd8e6fef5f",
-            "5ef9f55014b6f981"
-        ],
-        "x": 14,
-        "y": 39,
-        "w": 502,
-        "h": 82
-    },
-    {
         "id": "52980cdcae4e3384",
         "type": "group",
         "z": "d9b921e9fd746ad1",
@@ -3919,30 +3879,6 @@
             "46295b436337c8ca",
             "5fce516d2b677877",
             "da7468fd0ee36aee"
-        ],
-        "x": 14,
-        "y": 39,
-        "w": 502,
-        "h": 82
-    },
-    {
-        "id": "f81add0133ee477f",
-        "type": "group",
-        "z": "2c0a0237d23a4cfc",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "1b26b595e379b705",
-            "a50701fb82eee366",
-            "7c044597c3996fbb",
-            "a98005d18177663d"
         ],
         "x": 14,
         "y": 39,
@@ -4163,6 +4099,27 @@
         "h": 82
     },
     {
+        "id": "345fab730ad4be03",
+        "type": "group",
+        "z": "3381c3542ff0a657",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "088833473f12c981",
+            "e8beeb55e4489280",
+            "8842079ec33b9292",
+            "fa6bc3f7ba0f1635",
+            "cec70e8579ddfefb"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 702,
+        "h": 82
+    },
+    {
         "id": "bd90d247a95feb9d",
         "type": "group",
         "z": "e4381ced98d2a929",
@@ -4206,22 +4163,169 @@
         "h": 122
     },
     {
-        "id": "345fab730ad4be03",
+        "id": "ef6d9d74e19c7dcb",
         "type": "group",
-        "z": "3381c3542ff0a657",
+        "z": "61fe51405ced1ae2",
         "name": "",
         "style": {
             "fill": "#ffbfbf",
             "label": true
         },
         "nodes": [
-            "088833473f12c981",
-            "e8beeb55e4489280",
-            "8842079ec33b9292",
-            "fa6bc3f7ba0f1635",
-            "cec70e8579ddfefb"
+            "485192b0a089110d",
+            "8f6d071835380719",
+            "7c4b35996788d27a",
+            "12d014102c4ceef4",
+            "7a95888ca93b3e25"
         ],
         "x": 14,
+        "y": 39,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "333b7d88b287b325",
+        "type": "group",
+        "z": "793a78056a1a5245",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "e33e3b8df84d6b92",
+            "3eaf06541b9112df",
+            "4a7838935bf1e325",
+            "4819ee0f010e1598",
+            "3748fd384a195966"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "c00c37e66abb36fe",
+        "type": "group",
+        "z": "8b9f28f75c6a8cea",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "4219cd52faf5a08a",
+            "5e08431142959249",
+            "5b762936738edfdd",
+            "b75ac1280559f7d1",
+            "8bfe117ab18df378"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "b6dfc0bf72492b1f",
+        "type": "group",
+        "z": "2c0a0237d23a4cfc",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "f2b477ef172328b0",
+            "9d4af43bbe2efe93",
+            "b22594e14cb77d78",
+            "d5a7fd2f2ed5fbb5",
+            "ea5ccdb741a79235"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "d16ed82ee33cc071",
+        "type": "group",
+        "z": "747e156c11e4e604",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "d383aa6cb59b67da",
+            "b831c9ec12bf2052",
+            "f139889b01bdf5a2",
+            "abd4db3e82b04690",
+            "c2189ac7fcae8364"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "fdd26443cde39b78",
+        "type": "group",
+        "z": "24d64ac8238cc218",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "e0f701897e269878",
+            "200b415486f93771",
+            "4cf32f7adb47eff0",
+            "68fb8d532cb4aee3",
+            "c44eacff028f5aba"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "914448f840b9d7b8",
+        "type": "group",
+        "z": "7f39e487c7ab241c",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "827acf22221b355e",
+            "2b3ce0da818e77aa",
+            "2cc9a5595a901b10",
+            "a13a7124838954d9",
+            "3cabf5fcbc48a7ce"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "7e4fbd75802ee453",
+        "type": "group",
+        "z": "3db3c53990065a2a",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "e2d08291d7c90abc",
+            "206a37ce3dac1b95",
+            "4282a6b65307c7ac",
+            "eb5692702d6f996b",
+            "369dbbaa8b05528d"
+        ],
+        "x": 4,
         "y": 39,
         "w": 702,
         "h": 82
@@ -6916,6 +7020,354 @@
         "wires": []
     },
     {
+        "id": "76bbe826f8d070a7",
+        "type": "server-state-changed",
+        "z": "61fe51405ced1ae2",
+        "name": "cv closet door is open",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "binary_sensor.cv_closet_door"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "on",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 120,
+        "y": 160,
+        "wires": [
+            [
+                "6f5f636ad6f12469"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "b0460f3840edeb90",
+        "type": "comment",
+        "z": "61fe51405ced1ae2",
+        "name": "trigger when the cv closet door getting opened",
+        "info": "",
+        "x": 190,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "6f5f636ad6f12469",
+        "type": "link out",
+        "z": "61fe51405ced1ae2",
+        "name": "trigger_door_opens_cv_closet",
+        "mode": "link",
+        "links": [
+            "9767891df003f1fd",
+            "09841c5a793ba657"
+        ],
+        "x": 255,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "485192b0a089110d",
+        "type": "catch",
+        "z": "61fe51405ced1ae2",
+        "g": "ef6d9d74e19c7dcb",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "8f6d071835380719"
+            ]
+        ]
+    },
+    {
+        "id": "8f6d071835380719",
+        "type": "template",
+        "z": "61fe51405ced1ae2",
+        "g": "ef6d9d74e19c7dcb",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "12d014102c4ceef4"
+            ]
+        ]
+    },
+    {
+        "id": "7c4b35996788d27a",
+        "type": "link out",
+        "z": "61fe51405ced1ae2",
+        "g": "ef6d9d74e19c7dcb",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "12d014102c4ceef4",
+        "type": "template",
+        "z": "61fe51405ced1ae2",
+        "g": "ef6d9d74e19c7dcb",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "7a95888ca93b3e25"
+            ]
+        ]
+    },
+    {
+        "id": "7a95888ca93b3e25",
+        "type": "function",
+        "z": "61fe51405ced1ae2",
+        "g": "ef6d9d74e19c7dcb",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "7c4b35996788d27a"
+            ]
+        ]
+    },
+    {
+        "id": "3f3cfdd3b9f116d6",
+        "type": "server-state-changed",
+        "z": "793a78056a1a5245",
+        "name": "cv closet door is closed",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "binary_sensor.cv_closet_door"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "off",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 120,
+        "y": 160,
+        "wires": [
+            [
+                "38fa69fb77117987"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c80fdc9705411d66",
+        "type": "comment",
+        "z": "793a78056a1a5245",
+        "name": "trigger when the cv closet door getting closed",
+        "info": "",
+        "x": 190,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "38fa69fb77117987",
+        "type": "link out",
+        "z": "793a78056a1a5245",
+        "name": "trigger_door_closes_cv_closet",
+        "mode": "link",
+        "links": [
+            "9767891df003f1fd",
+            "1611654305d0e2d3"
+        ],
+        "x": 255,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "e33e3b8df84d6b92",
+        "type": "catch",
+        "z": "793a78056a1a5245",
+        "g": "333b7d88b287b325",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "3eaf06541b9112df"
+            ]
+        ]
+    },
+    {
+        "id": "3eaf06541b9112df",
+        "type": "template",
+        "z": "793a78056a1a5245",
+        "g": "333b7d88b287b325",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "4819ee0f010e1598"
+            ]
+        ]
+    },
+    {
+        "id": "4a7838935bf1e325",
+        "type": "link out",
+        "z": "793a78056a1a5245",
+        "g": "333b7d88b287b325",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "4819ee0f010e1598",
+        "type": "template",
+        "z": "793a78056a1a5245",
+        "g": "333b7d88b287b325",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "3748fd384a195966"
+            ]
+        ]
+    },
+    {
+        "id": "3748fd384a195966",
+        "type": "function",
+        "z": "793a78056a1a5245",
+        "g": "333b7d88b287b325",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "4a7838935bf1e325"
+            ]
+        ]
+    },
+    {
         "id": "8640aa8957753e8d",
         "type": "server-state-changed",
         "z": "8b9f28f75c6a8cea",
@@ -6987,76 +7439,6 @@
         "wires": []
     },
     {
-        "id": "b720e68e9c64cbc4",
-        "type": "catch",
-        "z": "8b9f28f75c6a8cea",
-        "g": "294518b9f2d20a35",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "746561afe69af34e"
-            ]
-        ]
-    },
-    {
-        "id": "746561afe69af34e",
-        "type": "template",
-        "z": "8b9f28f75c6a8cea",
-        "g": "294518b9f2d20a35",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "15aee940807c653c"
-            ]
-        ]
-    },
-    {
-        "id": "d3b8e4a7f5f1fbb1",
-        "type": "link out",
-        "z": "8b9f28f75c6a8cea",
-        "g": "294518b9f2d20a35",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 475,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "15aee940807c653c",
-        "type": "template",
-        "z": "8b9f28f75c6a8cea",
-        "g": "294518b9f2d20a35",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "d3b8e4a7f5f1fbb1"
-            ]
-        ]
-    },
-    {
         "id": "fe840a38fa8d493b",
         "type": "link out",
         "z": "8b9f28f75c6a8cea",
@@ -7070,20 +7452,10 @@
         "wires": []
     },
     {
-        "id": "63655874b548a549",
-        "type": "comment",
-        "z": "2c0a0237d23a4cfc",
-        "name": "Trigger when the toilet door opens",
-        "info": "",
-        "x": 160,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "1b26b595e379b705",
+        "id": "4219cd52faf5a08a",
         "type": "catch",
-        "z": "2c0a0237d23a4cfc",
-        "g": "f81add0133ee477f",
+        "z": "8b9f28f75c6a8cea",
+        "g": "c00c37e66abb36fe",
         "name": "",
         "scope": null,
         "uncaught": false,
@@ -7091,15 +7463,15 @@
         "y": 80,
         "wires": [
             [
-                "a50701fb82eee366"
+                "5e08431142959249"
             ]
         ]
     },
     {
-        "id": "a50701fb82eee366",
+        "id": "5e08431142959249",
         "type": "template",
-        "z": "2c0a0237d23a4cfc",
-        "g": "f81add0133ee477f",
+        "z": "8b9f28f75c6a8cea",
+        "g": "c00c37e66abb36fe",
         "name": "messsage",
         "field": "notify.message",
         "fieldType": "msg",
@@ -7111,29 +7483,29 @@
         "y": 80,
         "wires": [
             [
-                "a98005d18177663d"
+                "b75ac1280559f7d1"
             ]
         ]
     },
     {
-        "id": "7c044597c3996fbb",
+        "id": "5b762936738edfdd",
         "type": "link out",
-        "z": "2c0a0237d23a4cfc",
-        "g": "f81add0133ee477f",
+        "z": "8b9f28f75c6a8cea",
+        "g": "c00c37e66abb36fe",
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
             "a97f87cfab413716"
         ],
-        "x": 475,
+        "x": 675,
         "y": 80,
         "wires": []
     },
     {
-        "id": "a98005d18177663d",
+        "id": "b75ac1280559f7d1",
         "type": "template",
-        "z": "2c0a0237d23a4cfc",
-        "g": "f81add0133ee477f",
+        "z": "8b9f28f75c6a8cea",
+        "g": "c00c37e66abb36fe",
         "name": "title",
         "field": "notify.title",
         "fieldType": "msg",
@@ -7145,9 +7517,40 @@
         "y": 80,
         "wires": [
             [
-                "7c044597c3996fbb"
+                "8bfe117ab18df378"
             ]
         ]
+    },
+    {
+        "id": "8bfe117ab18df378",
+        "type": "function",
+        "z": "8b9f28f75c6a8cea",
+        "g": "c00c37e66abb36fe",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "5b762936738edfdd"
+            ]
+        ]
+    },
+    {
+        "id": "63655874b548a549",
+        "type": "comment",
+        "z": "2c0a0237d23a4cfc",
+        "name": "Trigger when the toilet door opens",
+        "info": "",
+        "x": 160,
+        "y": 20,
+        "wires": []
     },
     {
         "id": "65eb981057e33d17",
@@ -7233,20 +7636,10 @@
         "wires": []
     },
     {
-        "id": "03510cfeb8e1fc1f",
-        "type": "comment",
-        "z": "747e156c11e4e604",
-        "name": "trigger when a door opens or closes",
-        "info": "",
-        "x": 160,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "6b7ddb8ad38004e5",
+        "id": "f2b477ef172328b0",
         "type": "catch",
-        "z": "747e156c11e4e604",
-        "g": "f1c27cc6414561c7",
+        "z": "2c0a0237d23a4cfc",
+        "g": "b6dfc0bf72492b1f",
         "name": "",
         "scope": null,
         "uncaught": false,
@@ -7254,15 +7647,15 @@
         "y": 80,
         "wires": [
             [
-                "8c9e13eba1e37b61"
+                "9d4af43bbe2efe93"
             ]
         ]
     },
     {
-        "id": "8c9e13eba1e37b61",
+        "id": "9d4af43bbe2efe93",
         "type": "template",
-        "z": "747e156c11e4e604",
-        "g": "f1c27cc6414561c7",
+        "z": "2c0a0237d23a4cfc",
+        "g": "b6dfc0bf72492b1f",
         "name": "messsage",
         "field": "notify.message",
         "fieldType": "msg",
@@ -7274,29 +7667,29 @@
         "y": 80,
         "wires": [
             [
-                "5ef9f55014b6f981"
+                "d5a7fd2f2ed5fbb5"
             ]
         ]
     },
     {
-        "id": "315c0bcd8e6fef5f",
+        "id": "b22594e14cb77d78",
         "type": "link out",
-        "z": "747e156c11e4e604",
-        "g": "f1c27cc6414561c7",
+        "z": "2c0a0237d23a4cfc",
+        "g": "b6dfc0bf72492b1f",
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
             "a97f87cfab413716"
         ],
-        "x": 475,
+        "x": 675,
         "y": 80,
         "wires": []
     },
     {
-        "id": "5ef9f55014b6f981",
+        "id": "d5a7fd2f2ed5fbb5",
         "type": "template",
-        "z": "747e156c11e4e604",
-        "g": "f1c27cc6414561c7",
+        "z": "2c0a0237d23a4cfc",
+        "g": "b6dfc0bf72492b1f",
         "name": "title",
         "field": "notify.title",
         "fieldType": "msg",
@@ -7308,9 +7701,40 @@
         "y": 80,
         "wires": [
             [
-                "315c0bcd8e6fef5f"
+                "ea5ccdb741a79235"
             ]
         ]
+    },
+    {
+        "id": "ea5ccdb741a79235",
+        "type": "function",
+        "z": "2c0a0237d23a4cfc",
+        "g": "b6dfc0bf72492b1f",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "b22594e14cb77d78"
+            ]
+        ]
+    },
+    {
+        "id": "03510cfeb8e1fc1f",
+        "type": "comment",
+        "z": "747e156c11e4e604",
+        "name": "trigger when a door opens or closes",
+        "info": "",
+        "x": 160,
+        "y": 20,
+        "wires": []
     },
     {
         "id": "2f36bf18d2eef10a",
@@ -7383,6 +7807,97 @@
         "x": 315,
         "y": 160,
         "wires": []
+    },
+    {
+        "id": "d383aa6cb59b67da",
+        "type": "catch",
+        "z": "747e156c11e4e604",
+        "g": "d16ed82ee33cc071",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "b831c9ec12bf2052"
+            ]
+        ]
+    },
+    {
+        "id": "b831c9ec12bf2052",
+        "type": "template",
+        "z": "747e156c11e4e604",
+        "g": "d16ed82ee33cc071",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "abd4db3e82b04690"
+            ]
+        ]
+    },
+    {
+        "id": "f139889b01bdf5a2",
+        "type": "link out",
+        "z": "747e156c11e4e604",
+        "g": "d16ed82ee33cc071",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "abd4db3e82b04690",
+        "type": "template",
+        "z": "747e156c11e4e604",
+        "g": "d16ed82ee33cc071",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "c2189ac7fcae8364"
+            ]
+        ]
+    },
+    {
+        "id": "c2189ac7fcae8364",
+        "type": "function",
+        "z": "747e156c11e4e604",
+        "g": "d16ed82ee33cc071",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "f139889b01bdf5a2"
+            ]
+        ]
     },
     {
         "id": "38359ee3075d7265",
@@ -7871,76 +8386,6 @@
         "wires": []
     },
     {
-        "id": "03b294ecea33cda7",
-        "type": "catch",
-        "z": "24d64ac8238cc218",
-        "g": "b37c093ac94a1e98",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "01121dcdb1702967"
-            ]
-        ]
-    },
-    {
-        "id": "01121dcdb1702967",
-        "type": "template",
-        "z": "24d64ac8238cc218",
-        "g": "b37c093ac94a1e98",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "46e46e14cb24c85e"
-            ]
-        ]
-    },
-    {
-        "id": "37b1834649576aa9",
-        "type": "link out",
-        "z": "24d64ac8238cc218",
-        "g": "b37c093ac94a1e98",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 475,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "46e46e14cb24c85e",
-        "type": "template",
-        "z": "24d64ac8238cc218",
-        "g": "b37c093ac94a1e98",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "37b1834649576aa9"
-            ]
-        ]
-    },
-    {
         "id": "4923944268d57366",
         "type": "link out",
         "z": "24d64ac8238cc218",
@@ -7952,6 +8397,97 @@
         "x": 275,
         "y": 160,
         "wires": []
+    },
+    {
+        "id": "e0f701897e269878",
+        "type": "catch",
+        "z": "24d64ac8238cc218",
+        "g": "fdd26443cde39b78",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "200b415486f93771"
+            ]
+        ]
+    },
+    {
+        "id": "200b415486f93771",
+        "type": "template",
+        "z": "24d64ac8238cc218",
+        "g": "fdd26443cde39b78",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "68fb8d532cb4aee3"
+            ]
+        ]
+    },
+    {
+        "id": "4cf32f7adb47eff0",
+        "type": "link out",
+        "z": "24d64ac8238cc218",
+        "g": "fdd26443cde39b78",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "68fb8d532cb4aee3",
+        "type": "template",
+        "z": "24d64ac8238cc218",
+        "g": "fdd26443cde39b78",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "c44eacff028f5aba"
+            ]
+        ]
+    },
+    {
+        "id": "c44eacff028f5aba",
+        "type": "function",
+        "z": "24d64ac8238cc218",
+        "g": "fdd26443cde39b78",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "4cf32f7adb47eff0"
+            ]
+        ]
     },
     {
         "id": "55630dad7aa4b97a",
@@ -23174,7 +23710,9 @@
         "name": "light_dynamics_backyard",
         "links": [
             "56356fe965332f8d",
-            "fe840a38fa8d493b"
+            "fe840a38fa8d493b",
+            "6f5f636ad6f12469",
+            "38fa69fb77117987"
         ],
         "x": 325,
         "y": 160,
@@ -27967,7 +28505,7 @@
         "type": "function",
         "z": "b4aa7b8dbc1c80dc",
         "name": "shorten message",
-        "func": "msg.short_message = msg.data.new_state.attributes.Waarschuwing.substr(0, 400);\nreturn msg;",
+        "func": "// Check if msg.data, new_state, attributes, and Waarschuwing exist and are valid\nif (msg.data && msg.data.new_state && msg.data.new_state.attributes && typeof msg.data.new_state.attributes.Waarschuwing === 'string') {\n    // If it's a valid string, use substr to extract the first 400 characters\n    msg.short_message = msg.data.new_state.attributes.Waarschuwing.substr(0, 395);\n} else {\n    // If it's not a valid string or any part of the chain is missing, set a default or handle the error\n    msg.short_message = \"Waiting for a weather message...\";\n}\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -28366,7 +28904,17 @@
             "ccaa2e4d1e8fac02",
             "7c96c2b4a740b8d9",
             "8dc5b9441d7691f4",
-            "8842079ec33b9292"
+            "8842079ec33b9292",
+            "f850188e0a7e2499",
+            "4dfbca2aef5b7300",
+            "7c4b35996788d27a",
+            "4a7838935bf1e325",
+            "5b762936738edfdd",
+            "b22594e14cb77d78",
+            "f139889b01bdf5a2",
+            "4cf32f7adb47eff0",
+            "2cc9a5595a901b10",
+            "4282a6b65307c7ac"
         ],
         "x": 275,
         "y": 560,
@@ -45026,6 +45574,7 @@
         "key": "topic",
         "joiner": "\\n",
         "joinerType": "str",
+        "useparts": true,
         "accumulate": false,
         "timeout": "",
         "count": "2",
@@ -45049,6 +45598,7 @@
         "name": "calculation",
         "func": "// Sum two values\nmsg.payload = (parseFloat(msg.returned) + -parseFloat(msg.delivered)) * 1000;\n\nreturn msg;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -54907,154 +55457,6 @@
         ]
     },
     {
-        "id": "aa39ebd7d9b65259",
-        "type": "comment",
-        "z": "b879bcee774e2ee3",
-        "name": "scene that toggles sleepmode",
-        "info": "",
-        "x": 140,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "b37563cd651c8bfa",
-        "type": "link in",
-        "z": "b879bcee774e2ee3",
-        "name": "scene_input_boolean_toggle_sleepmode",
-        "links": [
-            "80f341496b680f21"
-        ],
-        "x": 275,
-        "y": 160,
-        "wires": [
-            [
-                "9c37b1538ffd5cd4"
-            ]
-        ]
-    },
-    {
-        "id": "9c37b1538ffd5cd4",
-        "type": "api-call-service",
-        "z": "b879bcee774e2ee3",
-        "name": "toggle sleepmode",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "input_boolean.toggle",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "input_boolean.sleep_mode"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "input_boolean",
-        "service": "toggle",
-        "x": 410,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3925fa53437952d3",
-        "type": "catch",
-        "z": "b879bcee774e2ee3",
-        "g": "af928c62e3f15dd4",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "1e0ea09d17d4804f"
-            ]
-        ]
-    },
-    {
-        "id": "1e0ea09d17d4804f",
-        "type": "template",
-        "z": "b879bcee774e2ee3",
-        "g": "af928c62e3f15dd4",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "58a44fb2b0c132fd"
-            ]
-        ]
-    },
-    {
-        "id": "ccaa2e4d1e8fac02",
-        "type": "link out",
-        "z": "b879bcee774e2ee3",
-        "g": "af928c62e3f15dd4",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 675,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "58a44fb2b0c132fd",
-        "type": "template",
-        "z": "b879bcee774e2ee3",
-        "g": "af928c62e3f15dd4",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "fbba069b7f0f769f"
-            ]
-        ]
-    },
-    {
-        "id": "fbba069b7f0f769f",
-        "type": "function",
-        "z": "b879bcee774e2ee3",
-        "g": "af928c62e3f15dd4",
-        "name": "notify.notification_id",
-        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 550,
-        "y": 80,
-        "wires": [
-            [
-                "ccaa2e4d1e8fac02"
-            ]
-        ]
-    },
-    {
         "id": "54c330bb8a78569e",
         "type": "comment",
         "z": "7aa254e451cc25d5",
@@ -55347,6 +55749,530 @@
         "wires": [
             [
                 "8dc5b9441d7691f4"
+            ]
+        ]
+    },
+    {
+        "id": "aa39ebd7d9b65259",
+        "type": "comment",
+        "z": "b879bcee774e2ee3",
+        "name": "scene that toggles sleepmode",
+        "info": "",
+        "x": 140,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "b37563cd651c8bfa",
+        "type": "link in",
+        "z": "b879bcee774e2ee3",
+        "name": "scene_input_boolean_toggle_sleepmode",
+        "links": [
+            "80f341496b680f21"
+        ],
+        "x": 275,
+        "y": 160,
+        "wires": [
+            [
+                "9c37b1538ffd5cd4"
+            ]
+        ]
+    },
+    {
+        "id": "9c37b1538ffd5cd4",
+        "type": "api-call-service",
+        "z": "b879bcee774e2ee3",
+        "name": "toggle sleepmode",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "input_boolean.toggle",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_boolean.sleep_mode"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "input_boolean",
+        "service": "toggle",
+        "x": 410,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3925fa53437952d3",
+        "type": "catch",
+        "z": "b879bcee774e2ee3",
+        "g": "af928c62e3f15dd4",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "1e0ea09d17d4804f"
+            ]
+        ]
+    },
+    {
+        "id": "1e0ea09d17d4804f",
+        "type": "template",
+        "z": "b879bcee774e2ee3",
+        "g": "af928c62e3f15dd4",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "58a44fb2b0c132fd"
+            ]
+        ]
+    },
+    {
+        "id": "ccaa2e4d1e8fac02",
+        "type": "link out",
+        "z": "b879bcee774e2ee3",
+        "g": "af928c62e3f15dd4",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "58a44fb2b0c132fd",
+        "type": "template",
+        "z": "b879bcee774e2ee3",
+        "g": "af928c62e3f15dd4",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "fbba069b7f0f769f"
+            ]
+        ]
+    },
+    {
+        "id": "fbba069b7f0f769f",
+        "type": "function",
+        "z": "b879bcee774e2ee3",
+        "g": "af928c62e3f15dd4",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "ccaa2e4d1e8fac02"
+            ]
+        ]
+    },
+    {
+        "id": "3101d0a1b950e78d",
+        "type": "api-call-service",
+        "z": "7f39e487c7ab241c",
+        "name": "turn on cv closet light",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "light.turn_on",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "light.cv_closet"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "light",
+        "service": "turn_on",
+        "x": 630,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c09b728cb16b154e",
+        "type": "api-current-state",
+        "z": "7f39e487c7ab241c",
+        "name": "state cv closet light is off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "light.cv_closet",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "x": 400,
+        "y": 160,
+        "wires": [
+            [
+                "3101d0a1b950e78d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "963294a91f3eb374",
+        "type": "comment",
+        "z": "7f39e487c7ab241c",
+        "name": "scene that turns on the light in the cv closet",
+        "info": "",
+        "x": 180,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "09841c5a793ba657",
+        "type": "link in",
+        "z": "7f39e487c7ab241c",
+        "name": "scene_light_turn_on_cv_closet",
+        "links": [
+            "6f5f636ad6f12469"
+        ],
+        "x": 245,
+        "y": 160,
+        "wires": [
+            [
+                "c09b728cb16b154e"
+            ]
+        ]
+    },
+    {
+        "id": "827acf22221b355e",
+        "type": "catch",
+        "z": "7f39e487c7ab241c",
+        "g": "914448f840b9d7b8",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "2b3ce0da818e77aa"
+            ]
+        ]
+    },
+    {
+        "id": "2b3ce0da818e77aa",
+        "type": "template",
+        "z": "7f39e487c7ab241c",
+        "g": "914448f840b9d7b8",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "a13a7124838954d9"
+            ]
+        ]
+    },
+    {
+        "id": "2cc9a5595a901b10",
+        "type": "link out",
+        "z": "7f39e487c7ab241c",
+        "g": "914448f840b9d7b8",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a13a7124838954d9",
+        "type": "template",
+        "z": "7f39e487c7ab241c",
+        "g": "914448f840b9d7b8",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "3cabf5fcbc48a7ce"
+            ]
+        ]
+    },
+    {
+        "id": "3cabf5fcbc48a7ce",
+        "type": "function",
+        "z": "7f39e487c7ab241c",
+        "g": "914448f840b9d7b8",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "2cc9a5595a901b10"
+            ]
+        ]
+    },
+    {
+        "id": "81029e2a4f699a24",
+        "type": "api-call-service",
+        "z": "3db3c53990065a2a",
+        "name": "turn off cv closet light",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "light.turn_off",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "light.cv_closet"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "light",
+        "service": "turn_off",
+        "x": 620,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e4cffcef86b71bea",
+        "type": "api-current-state",
+        "z": "3db3c53990065a2a",
+        "name": "state cv closet light is on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "on",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "light.cv_closet",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "x": 390,
+        "y": 160,
+        "wires": [
+            [
+                "81029e2a4f699a24"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d52bc74155b44fd3",
+        "type": "comment",
+        "z": "3db3c53990065a2a",
+        "name": "scene that turns off the light in the cv closet",
+        "info": "",
+        "x": 170,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "1611654305d0e2d3",
+        "type": "link in",
+        "z": "3db3c53990065a2a",
+        "name": "scene_light_turn_on_cv_closet",
+        "links": [
+            "38fa69fb77117987"
+        ],
+        "x": 235,
+        "y": 160,
+        "wires": [
+            [
+                "e4cffcef86b71bea"
+            ]
+        ]
+    },
+    {
+        "id": "e2d08291d7c90abc",
+        "type": "catch",
+        "z": "3db3c53990065a2a",
+        "g": "7e4fbd75802ee453",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 90,
+        "y": 80,
+        "wires": [
+            [
+                "206a37ce3dac1b95"
+            ]
+        ]
+    },
+    {
+        "id": "206a37ce3dac1b95",
+        "type": "template",
+        "z": "3db3c53990065a2a",
+        "g": "7e4fbd75802ee453",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 240,
+        "y": 80,
+        "wires": [
+            [
+                "eb5692702d6f996b"
+            ]
+        ]
+    },
+    {
+        "id": "4282a6b65307c7ac",
+        "type": "link out",
+        "z": "3db3c53990065a2a",
+        "g": "7e4fbd75802ee453",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 665,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "eb5692702d6f996b",
+        "type": "template",
+        "z": "3db3c53990065a2a",
+        "g": "7e4fbd75802ee453",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 380,
+        "y": 80,
+        "wires": [
+            [
+                "369dbbaa8b05528d"
+            ]
+        ]
+    },
+    {
+        "id": "369dbbaa8b05528d",
+        "type": "function",
+        "z": "3db3c53990065a2a",
+        "g": "7e4fbd75802ee453",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 80,
+        "wires": [
+            [
+                "4282a6b65307c7ac"
             ]
         ]
     }
