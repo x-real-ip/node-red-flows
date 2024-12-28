@@ -4765,6 +4765,27 @@
         "h": 82
     },
     {
+        "id": "e99c5ba692fd4757",
+        "type": "group",
+        "z": "d95e1a168ec0af0a",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "6c0861ad33ee871e",
+            "f818da3bb8db4bf9",
+            "68c2f6094fdd3cca",
+            "32cb963c41c0ee47",
+            "363914e0b59f5280"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 702,
+        "h": 82
+    },
+    {
         "id": "bd90d247a95feb9d",
         "type": "group",
         "z": "e4381ced98d2a929",
@@ -4806,27 +4827,6 @@
         "y": 699,
         "w": 392,
         "h": 122
-    },
-    {
-        "id": "e99c5ba692fd4757",
-        "type": "group",
-        "z": "d95e1a168ec0af0a",
-        "name": "",
-        "style": {
-            "fill": "#ffbfbf",
-            "label": true
-        },
-        "nodes": [
-            "6c0861ad33ee871e",
-            "f818da3bb8db4bf9",
-            "68c2f6094fdd3cca",
-            "32cb963c41c0ee47",
-            "363914e0b59f5280"
-        ],
-        "x": 14,
-        "y": 39,
-        "w": 702,
-        "h": 82
     },
     {
         "id": "f7038caa7a76e6f3",
@@ -6028,6 +6028,103 @@
         "sessionExpiry": ""
     },
     {
+        "id": "4ba92433.2478cc",
+        "type": "server",
+        "name": "Home Assistant",
+        "version": 5,
+        "addon": false,
+        "rejectUnauthorizedCerts": false,
+        "ha_boolean": "y|yes|true|on|home|open",
+        "connectionDelay": true,
+        "cacheJson": true,
+        "heartbeat": true,
+        "heartbeatInterval": "30",
+        "areaSelector": "id",
+        "deviceSelector": "id",
+        "entitySelector": "id",
+        "statusSeparator": "at: ",
+        "statusYear": "hidden",
+        "statusMonth": "short",
+        "statusDay": "numeric",
+        "statusHourCycle": "h23",
+        "statusTimeFormat": "h:m",
+        "enableGlobalContextStore": true
+    },
+    {
+        "id": "8db70a2720a60b47",
+        "type": "ha-entity-config",
+        "server": "4ba92433.2478cc",
+        "deviceConfig": "",
+        "name": "custom_energy_returned_watt",
+        "version": "6",
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "custom_energy_returned_watt"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": ""
+            },
+            {
+                "property": "device_class",
+                "value": "power"
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": "W"
+            },
+            {
+                "property": "state_class",
+                "value": "measurement"
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "481b5f550ecd01da",
+        "type": "ha-entity-config",
+        "server": "4ba92433.2478cc",
+        "deviceConfig": "",
+        "name": "nvidia_shield_volume_maximum",
+        "version": "6",
+        "entityType": "binary_sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "nvidia_shield_volume_maximum"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": ""
+            },
+            {
+                "property": "device_class",
+                "value": ""
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
         "id": "7befa0b16196877c",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
@@ -6828,103 +6925,6 @@
             },
             {
                 "property": "state_class",
-                "value": ""
-            }
-        ],
-        "resend": false,
-        "debugEnabled": false
-    },
-    {
-        "id": "4ba92433.2478cc",
-        "type": "server",
-        "name": "Home Assistant",
-        "version": 5,
-        "addon": false,
-        "rejectUnauthorizedCerts": false,
-        "ha_boolean": "y|yes|true|on|home|open",
-        "connectionDelay": true,
-        "cacheJson": true,
-        "heartbeat": true,
-        "heartbeatInterval": "30",
-        "areaSelector": "id",
-        "deviceSelector": "id",
-        "entitySelector": "id",
-        "statusSeparator": "at: ",
-        "statusYear": "hidden",
-        "statusMonth": "short",
-        "statusDay": "numeric",
-        "statusHourCycle": "h23",
-        "statusTimeFormat": "h:m",
-        "enableGlobalContextStore": true
-    },
-    {
-        "id": "8db70a2720a60b47",
-        "type": "ha-entity-config",
-        "server": "4ba92433.2478cc",
-        "deviceConfig": "",
-        "name": "custom_energy_returned_watt",
-        "version": "6",
-        "entityType": "sensor",
-        "haConfig": [
-            {
-                "property": "name",
-                "value": "custom_energy_returned_watt"
-            },
-            {
-                "property": "icon",
-                "value": ""
-            },
-            {
-                "property": "entity_picture",
-                "value": ""
-            },
-            {
-                "property": "entity_category",
-                "value": ""
-            },
-            {
-                "property": "device_class",
-                "value": "power"
-            },
-            {
-                "property": "unit_of_measurement",
-                "value": "W"
-            },
-            {
-                "property": "state_class",
-                "value": "measurement"
-            }
-        ],
-        "resend": false,
-        "debugEnabled": false
-    },
-    {
-        "id": "481b5f550ecd01da",
-        "type": "ha-entity-config",
-        "server": "4ba92433.2478cc",
-        "deviceConfig": "",
-        "name": "nvidia_shield_volume_maximum",
-        "version": "6",
-        "entityType": "binary_sensor",
-        "haConfig": [
-            {
-                "property": "name",
-                "value": "nvidia_shield_volume_maximum"
-            },
-            {
-                "property": "icon",
-                "value": ""
-            },
-            {
-                "property": "entity_picture",
-                "value": ""
-            },
-            {
-                "property": "entity_category",
-                "value": ""
-            },
-            {
-                "property": "device_class",
                 "value": ""
             }
         ],
@@ -55328,7 +55328,7 @@
             "substring": [],
             "regex": []
         },
-        "outputInitially": true,
+        "outputInitially": false,
         "stateType": "str",
         "ifState": "",
         "ifStateType": "str",
@@ -55674,7 +55674,7 @@
         "g": "d3868dc5f4aa2d65",
         "name": "",
         "pauseType": "delay",
-        "timeout": "2",
+        "timeout": "3",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -55700,7 +55700,7 @@
         "g": "d3868dc5f4aa2d65",
         "name": "",
         "pauseType": "delay",
-        "timeout": "1",
+        "timeout": "2",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -56191,10 +56191,24 @@
         "version": 1,
         "rules": [
             {
+                "condition": "device_registry",
+                "property": "manufacturer",
+                "logic": "is",
+                "value": "Shelly",
+                "valueType": "str"
+            },
+            {
+                "condition": "device_registry",
+                "property": "hw_version",
+                "logic": "is",
+                "value": "gen1",
+                "valueType": "str"
+            },
+            {
                 "condition": "state_object",
-                "property": "entity_id",
-                "logic": "includes",
-                "value": "reboot",
+                "property": "attributes.device_class",
+                "logic": "is",
+                "value": "restart",
                 "valueType": "str"
             }
         ],
@@ -56207,7 +56221,8 @@
         "y": 160,
         "wires": [
             [
-                "eb84f83f0f2993ca"
+                "eb84f83f0f2993ca",
+                "f1b4a749a8d9c413"
             ]
         ]
     },
@@ -56385,5 +56400,51 @@
                 "68c2f6094fdd3cca"
             ]
         ]
+    },
+    {
+        "id": "5e96d18bb18a9439",
+        "type": "inject",
+        "z": "d95e1a168ec0af0a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 340,
+        "wires": [
+            [
+                "058bfeda7c1f659d"
+            ]
+        ]
+    },
+    {
+        "id": "f1b4a749a8d9c413",
+        "type": "debug",
+        "z": "d95e1a168ec0af0a",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 320,
+        "wires": []
     }
 ]
