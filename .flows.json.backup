@@ -873,6 +873,22 @@
         "env": []
     },
     {
+        "id": "5b957aaa34cab814",
+        "type": "tab",
+        "label": "_automation_assist_media_player_volume",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2b23c32f6263f8c7",
+        "type": "tab",
+        "label": "automation_assist_entertainment",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "dbca868556b8a1c3",
         "type": "subflow",
         "name": "light_turn_off",
@@ -4786,6 +4802,27 @@
         "h": 82
     },
     {
+        "id": "f75da396da61e265",
+        "type": "group",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "baefe1afbb082442",
+            "09922b4a1abc6861",
+            "2978274f7f9728d8",
+            "4375bd61cef9b591",
+            "778f51a4da22adf6"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 702,
+        "h": 82
+    },
+    {
         "id": "bd90d247a95feb9d",
         "type": "group",
         "z": "e4381ced98d2a929",
@@ -8028,7 +8065,8 @@
         "name": "on",
         "mode": "link",
         "links": [
-            "9767891df003f1fd"
+            "9767891df003f1fd",
+            "1712c88d4a069082"
         ],
         "x": 245,
         "y": 160,
@@ -8132,7 +8170,8 @@
         "name": "off",
         "mode": "link",
         "links": [
-            "9767891df003f1fd"
+            "9767891df003f1fd",
+            "1712c88d4a069082"
         ],
         "x": 245,
         "y": 200,
@@ -11947,7 +11986,8 @@
         "mode": "link",
         "links": [
             "4bcb30df9a681943",
-            "9767891df003f1fd"
+            "9767891df003f1fd",
+            "1712c88d4a069082"
         ],
         "x": 455,
         "y": 160,
@@ -27113,7 +27153,8 @@
             "896d42da6f78a4df",
             "41b174876237d623",
             "89630cbc58f61380",
-            "68c2f6094fdd3cca"
+            "68c2f6094fdd3cca",
+            "2978274f7f9728d8"
         ],
         "x": 275,
         "y": 560,
@@ -51271,7 +51312,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1000,
+        "x": 1300,
         "y": 160,
         "wires": [
             [
@@ -51290,7 +51331,7 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 1830,
+        "x": 2130,
         "y": 160,
         "wires": [
             [
@@ -51317,7 +51358,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1680,
+        "x": 1980,
         "y": 160,
         "wires": [
             [
@@ -51347,7 +51388,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1950,
+        "x": 2250,
         "y": 160,
         "wires": [
             [
@@ -51375,7 +51416,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 440,
+        "x": 740,
         "y": 160,
         "wires": [
             [
@@ -51402,7 +51443,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1700,
+        "x": 2000,
         "y": 220,
         "wires": [
             []
@@ -51427,7 +51468,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1440,
+        "x": 1740,
         "y": 220,
         "wires": [
             []
@@ -51458,7 +51499,7 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_on",
-        "x": 1210,
+        "x": 1510,
         "y": 160,
         "wires": [
             [
@@ -51492,7 +51533,7 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_on",
-        "x": 2120,
+        "x": 2420,
         "y": 160,
         "wires": [
             []
@@ -51523,7 +51564,7 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_off",
-        "x": 2120,
+        "x": 2420,
         "y": 220,
         "wires": [
             []
@@ -51565,7 +51606,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 620,
+        "x": 920,
         "y": 160,
         "wires": [
             [
@@ -51596,7 +51637,7 @@
         "outputLocationType": "msg",
         "outputLocation": "payload",
         "outputResultsCount": 1,
-        "x": 800,
+        "x": 1100,
         "y": 220,
         "wires": [
             [
@@ -51625,7 +51666,7 @@
         "outputLocationType": "msg",
         "outputLocation": "payload",
         "outputResultsCount": 1,
-        "x": 800,
+        "x": 1100,
         "y": 160,
         "wires": [
             [
@@ -51642,7 +51683,7 @@
         "payloadtype": "num",
         "payloadval": "0",
         "name": "",
-        "x": 1420,
+        "x": 1720,
         "y": 160,
         "wires": [
             [
@@ -51662,11 +51703,11 @@
             "bda7b83568b348de",
             "fe840a38fa8d493b"
         ],
-        "x": 325,
+        "x": 305,
         "y": 160,
         "wires": [
             [
-                "36f6d937dac70d3b"
+                "527fe13b8dcb90a8"
             ]
         ]
     },
@@ -51759,6 +51800,51 @@
             [
                 "53e3d4a22ecb2506"
             ]
+        ]
+    },
+    {
+        "id": "527fe13b8dcb90a8",
+        "type": "api-current-state",
+        "z": "4b48188ca7b303d7",
+        "name": "automation light motion backyard is on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "on",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "input_boolean.automation_light_motion_backyard_enabled",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 490,
+        "y": 160,
+        "wires": [
+            [
+                "36f6d937dac70d3b"
+            ],
+            []
         ]
     },
     {
@@ -54549,43 +54635,12 @@
         ]
     },
     {
-        "id": "1bea28fe624c37b2",
-        "type": "switch",
-        "z": "fd9cd80f14f860fe",
-        "name": "app name",
-        "property": "data.new_state.attributes.app_name",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "NLZIET",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 340,
-        "y": 1620,
-        "wires": [
-            [
-                "68088e8c9c8a0e54"
-            ],
-            []
-        ]
-    },
-    {
         "id": "2784788ce65fb972",
         "type": "comment",
         "z": "fd9cd80f14f860fe",
-        "name": "events based on nvidia shield app name",
+        "name": "input select tv",
         "info": "",
-        "x": 190,
+        "x": 110,
         "y": 1580,
         "wires": []
     },
@@ -56112,6 +56167,37 @@
         ]
     },
     {
+        "id": "1bea28fe624c37b2",
+        "type": "switch",
+        "z": "fd9cd80f14f860fe",
+        "name": "app name",
+        "property": "data.new_state.attributes.app_name",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "NLZIET",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 340,
+        "y": 1620,
+        "wires": [
+            [
+                "68088e8c9c8a0e54"
+            ],
+            []
+        ]
+    },
+    {
         "id": "ee5144575319af16",
         "type": "mqtt in",
         "z": "d95e1a168ec0af0a",
@@ -56206,9 +56292,9 @@
             },
             {
                 "condition": "state_object",
-                "property": "entity_id",
-                "logic": "starts_with",
-                "value": "button",
+                "property": "attributes.device_class",
+                "logic": "is",
+                "value": "restart",
                 "valueType": "str"
             }
         ],
@@ -56221,8 +56307,7 @@
         "y": 160,
         "wires": [
             [
-                "eb84f83f0f2993ca",
-                "f1b4a749a8d9c413"
+                "eb84f83f0f2993ca"
             ]
         ]
     },
@@ -56402,16 +56487,84 @@
         ]
     },
     {
-        "id": "5e96d18bb18a9439",
+        "id": "7f9429d983481b17",
         "type": "inject",
         "z": "d95e1a168ec0af0a",
-        "name": "",
+        "name": "reboot",
         "props": [
             {
                 "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "online",
+        "payloadType": "str",
+        "x": 430,
+        "y": 220,
+        "wires": [
+            [
+                "058bfeda7c1f659d"
+            ]
+        ]
+    },
+    {
+        "id": "230e59e20b2e25d8",
+        "type": "ha-sentence",
+        "z": "5b957aaa34cab814",
+        "name": "change device volume",
+        "server": "4ba92433.2478cc",
+        "version": 2,
+        "inputs": 0,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "mode": "trigger",
+        "sentences": [
+            "turn [the] {device} volume {volume_direction} with {volume} [percent]",
+            "(set|change) {device} volume to {volume} [percent]",
+            "turn [the] {device} volume {volume_direction}",
+            "turn {volume_direction} [the] {device} volume with {volume} [percent]",
+            "turn {volume_direction} [the] {device} volume"
+        ],
+        "response": "",
+        "responseType": "str",
+        "triggerResponse": "",
+        "triggerResponseType": "dynamic",
+        "responseTimeout": 1000,
+        "outputProperties": [
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
             },
             {
-                "p": "topic",
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "results"
+            }
+        ],
+        "x": 120,
+        "y": 220,
+        "wires": [
+            [
+                "415cd44ddc7b18c5"
+            ]
+        ]
+    },
+    {
+        "id": "b28f769ae91251bd",
+        "type": "inject",
+        "z": "5b957aaa34cab814",
+        "name": "set tv volume to ?",
+        "props": [
+            {
+                "p": "text",
+                "v": "set tv volume to 110",
                 "vt": "str"
             }
         ],
@@ -56420,20 +56573,1279 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 150,
-        "y": 340,
+        "x": 160,
+        "y": 800,
         "wires": [
             [
-                "058bfeda7c1f659d"
+                "3c776cd48d518213"
             ]
         ]
     },
     {
-        "id": "f1b4a749a8d9c413",
+        "id": "3c776cd48d518213",
+        "type": "api-call-service",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "conversation.process",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"text\":\"{{text}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "conversation",
+        "service": "process",
+        "x": 620,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5575a3a30a77e999",
+        "type": "inject",
+        "z": "5b957aaa34cab814",
+        "name": "turn the tv volume up with ? percent",
+        "props": [
+            {
+                "p": "text",
+                "v": "turn the tv volume up with 10 percent",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 220,
+        "y": 720,
+        "wires": [
+            [
+                "3c776cd48d518213"
+            ]
+        ]
+    },
+    {
+        "id": "415cd44ddc7b18c5",
+        "type": "switch",
+        "z": "5b957aaa34cab814",
+        "name": "device",
+        "property": "payload.entities.device.value",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "tv",
+                "vt": "str",
+                "case": true
+            },
+            {
+                "t": "regex",
+                "v": "music",
+                "vt": "str",
+                "case": true
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 290,
+        "y": 220,
+        "wires": [
+            [
+                "bd9d99e5c6eb1b54"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "299805fe9d2781e2",
+        "type": "inject",
+        "z": "5b957aaa34cab814",
+        "name": "turn the tv volume up",
+        "props": [
+            {
+                "p": "text",
+                "v": "turn the tv volume up",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 180,
+        "y": 840,
+        "wires": [
+            [
+                "3c776cd48d518213"
+            ]
+        ]
+    },
+    {
+        "id": "bd9d99e5c6eb1b54",
+        "type": "api-current-state",
+        "z": "5b957aaa34cab814",
+        "name": "shield state",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "media_player.android_tv_shield_lan_stamx_nl",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "media_player_shield_state",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "media_player_shield_data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 450,
+        "y": 220,
+        "wires": [
+            [
+                "f5b5f685345544c7"
+            ]
+        ]
+    },
+    {
+        "id": "bf7bbf6679459fb7",
+        "type": "switch",
+        "z": "5b957aaa34cab814",
+        "name": "shield is on / off",
+        "property": "media_player_shield_state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "off",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 820,
+        "y": 220,
+        "wires": [
+            [
+                "a44e085350d02097"
+            ],
+            [
+                "f90ea1aecb8b0ef4"
+            ]
+        ]
+    },
+    {
+        "id": "a44e085350d02097",
+        "type": "template",
+        "z": "5b957aaa34cab814",
+        "name": "response",
+        "field": "payload.response",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Can't change the {{media_player_shield_data.attributes.friendly_name}} volume, the device is {{media_player_shield_state}}.",
+        "output": "str",
+        "x": 1000,
+        "y": 180,
+        "wires": [
+            [
+                "03cabd6d8889f1ad"
+            ]
+        ]
+    },
+    {
+        "id": "baefe1afbb082442",
+        "type": "catch",
+        "z": "5b957aaa34cab814",
+        "g": "f75da396da61e265",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "09922b4a1abc6861"
+            ]
+        ]
+    },
+    {
+        "id": "09922b4a1abc6861",
+        "type": "template",
+        "z": "5b957aaa34cab814",
+        "g": "f75da396da61e265",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "4375bd61cef9b591"
+            ]
+        ]
+    },
+    {
+        "id": "2978274f7f9728d8",
+        "type": "link out",
+        "z": "5b957aaa34cab814",
+        "g": "f75da396da61e265",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "4375bd61cef9b591",
+        "type": "template",
+        "z": "5b957aaa34cab814",
+        "g": "f75da396da61e265",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "778f51a4da22adf6"
+            ]
+        ]
+    },
+    {
+        "id": "778f51a4da22adf6",
+        "type": "function",
+        "z": "5b957aaa34cab814",
+        "g": "f75da396da61e265",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "2978274f7f9728d8",
+                "93cd4b5f32f54853"
+            ]
+        ]
+    },
+    {
+        "id": "5bbdf7bfad596ed8",
+        "type": "comment",
+        "z": "5b957aaa34cab814",
+        "name": "change volume of media device based on assist input",
+        "info": "",
+        "x": 220,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "1cc091482e12a183",
+        "type": "template",
+        "z": "5b957aaa34cab814",
+        "name": "response",
+        "field": "payload.response",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{{media_player_powernode_data.attributes.friendly_name}} volume changed to {{target_volume_level_percent}}%",
+        "output": "str",
+        "x": 2480,
+        "y": 440,
+        "wires": [
+            [
+                "3622510742842b73"
+            ]
+        ]
+    },
+    {
+        "id": "f90ea1aecb8b0ef4",
+        "type": "switch",
+        "z": "5b957aaa34cab814",
+        "name": "volume percent",
+        "property": "payload.entities.volume.value",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "null"
+            },
+            {
+                "t": "empty"
+            },
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "100",
+                "v2t": "num"
+            },
+            {
+                "t": "gt",
+                "v": "100",
+                "vt": "num"
+            },
+            {
+                "t": "lt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 1020,
+        "y": 500,
+        "wires": [
+            [
+                "2f4e9a16fc8c451d"
+            ],
+            [
+                "2f4e9a16fc8c451d"
+            ],
+            [
+                "97cec346a1ed7d0f"
+            ],
+            [
+                "aed1eedec1168622"
+            ],
+            [
+                "aed1eedec1168622"
+            ]
+        ]
+    },
+    {
+        "id": "ba2f429814c2cc9c",
+        "type": "switch",
+        "z": "5b957aaa34cab814",
+        "name": "up or down",
+        "property": "payload.entities.volume_direction.value",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "up",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "down",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1750,
+        "y": 460,
+        "wires": [
+            [
+                "abc282949e4958ec"
+            ],
+            [
+                "a7d53181d5a29e92"
+            ],
+            [
+                "580d9e68cfd52773",
+                "43a2b35489b92f3b"
+            ]
+        ]
+    },
+    {
+        "id": "f5b5f685345544c7",
+        "type": "api-current-state",
+        "z": "5b957aaa34cab814",
+        "name": "powernode state",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "media_player.powernode_2i_ea48",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "media_player_powernode_state",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "media_player_powernode_data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 630,
+        "y": 220,
+        "wires": [
+            [
+                "bf7bbf6679459fb7"
+            ]
+        ]
+    },
+    {
+        "id": "97cec346a1ed7d0f",
+        "type": "switch",
+        "z": "5b957aaa34cab814",
+        "name": "shield current volume",
+        "property": "media_player_shield_data.attributes.volume_level",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "lt",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1480,
+        "y": 500,
+        "wires": [
+            [
+                "ba2f429814c2cc9c"
+            ],
+            [
+                "62139640f62bf2ba"
+            ]
+        ]
+    },
+    {
+        "id": "62139640f62bf2ba",
+        "type": "switch",
+        "z": "5b957aaa34cab814",
+        "name": "up or down",
+        "property": "payload.entities.volume_direction.value",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "up",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "down",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1750,
+        "y": 700,
+        "wires": [
+            [
+                "04615f8b33a40e00"
+            ],
+            [
+                "7f8b9e836271ea5e"
+            ],
+            [
+                "580d9e68cfd52773",
+                "43a2b35489b92f3b"
+            ]
+        ]
+    },
+    {
+        "id": "04615f8b33a40e00",
+        "type": "function",
+        "z": "5b957aaa34cab814",
+        "name": "target volume level",
+        "func": "var input_volume = msg.payload.entities.volume.value / 100;\nvar current_volume = msg.media_player_shield_data.attributes.volume_level;\n\nmsg.target_volume_level = current_volume + input_volume;\n\n\nif (msg.target_volume_level > 1) {\n    msg.rest_volume = msg.target_volume_level - 1;\n    msg.target_volume_level = 1;\n} else {\n    msg.rest_volume = 0;\n}\n\nmsg.target_volume_level_percent = Math.floor(msg.target_volume_level * 100);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2070,
+        "y": 660,
+        "wires": [
+            [
+                "ca0d9a7b39ac9cae"
+            ]
+        ]
+    },
+    {
+        "id": "93cd4b5f32f54853",
         "type": "debug",
-        "z": "d95e1a168ec0af0a",
+        "z": "5b957aaa34cab814",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "5e40e2790c85b0a9",
+        "type": "switch",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "property": "rest_volume",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2430,
+        "y": 660,
+        "wires": [
+            [
+                "c0cf0c8e360ea04f"
+            ],
+            [
+                "e95f296a2aae130c"
+            ]
+        ]
+    },
+    {
+        "id": "c0cf0c8e360ea04f",
+        "type": "function",
+        "z": "5b957aaa34cab814",
+        "name": "target volume level",
+        "func": "var current_volume = msg.media_player_powernode_data.attributes.volume_level;\nvar input_volume = msg.rest_volume;\n\nmsg.target_volume_level = current_volume + input_volume;\n\nif (msg.target_volume_level > 1) {\n    msg.target_volume_level = 1;\n}\n\nmsg.target_volume_level_percent = Math.floor(msg.target_volume_level * 100);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2590,
+        "y": 640,
+        "wires": [
+            [
+                "52d42868eef47f07"
+            ]
+        ]
+    },
+    {
+        "id": "22617024b25397ac",
+        "type": "inject",
+        "z": "5b957aaa34cab814",
+        "name": "turn the tv volume down with ? percent",
+        "props": [
+            {
+                "p": "text",
+                "v": "turn the tv volume down with 10 percent",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 230,
+        "y": 760,
+        "wires": [
+            [
+                "3c776cd48d518213"
+            ]
+        ]
+    },
+    {
+        "id": "18389521989b5a81",
+        "type": "api-call-service",
+        "z": "5b957aaa34cab814",
+        "name": "shield set volume",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.volume_set",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "{{media_player_shield_data.entity_id}}"
+        ],
+        "labelId": [],
+        "data": "{\"volume_level\":\"{{target_volume_level}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "media_player",
+        "service": "volume_set",
+        "x": 170,
+        "y": 360,
+        "wires": [
+            [
+                "6bde885e917887ee"
+            ]
+        ]
+    },
+    {
+        "id": "67a954faf44b9aff",
+        "type": "link in",
+        "z": "5b957aaa34cab814",
+        "name": "shield_set_volume",
+        "links": [],
+        "x": 45,
+        "y": 360,
+        "wires": [
+            [
+                "18389521989b5a81"
+            ]
+        ]
+    },
+    {
+        "id": "ca0d9a7b39ac9cae",
+        "type": "link call",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "links": [
+            "67a954faf44b9aff"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2270,
+        "y": 660,
+        "wires": [
+            [
+                "5e40e2790c85b0a9",
+                "ddc989e286721b31"
+            ]
+        ]
+    },
+    {
+        "id": "6bde885e917887ee",
+        "type": "link out",
+        "z": "5b957aaa34cab814",
+        "name": "shield_set_volume",
+        "mode": "return",
+        "links": [],
+        "x": 315,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "3353a55466a9284a",
+        "type": "api-call-service",
+        "z": "5b957aaa34cab814",
+        "name": "powernode set volume",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.volume_set",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "{{media_player_powernode_data.entity_id}}"
+        ],
+        "labelId": [],
+        "data": "{\"volume_level\":\"{{target_volume_level}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "media_player",
+        "service": "volume_set",
+        "x": 180,
+        "y": 440,
+        "wires": [
+            [
+                "a54209a46e13e9db"
+            ]
+        ]
+    },
+    {
+        "id": "99890ac5ed83af4a",
+        "type": "link in",
+        "z": "5b957aaa34cab814",
+        "name": "powernode_set_volume",
+        "links": [],
+        "x": 45,
+        "y": 440,
+        "wires": [
+            [
+                "3353a55466a9284a"
+            ]
+        ]
+    },
+    {
+        "id": "a54209a46e13e9db",
+        "type": "link out",
+        "z": "5b957aaa34cab814",
+        "name": "powernode_set_volume",
+        "mode": "return",
+        "links": [],
+        "x": 315,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "52d42868eef47f07",
+        "type": "link call",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "links": [
+            "99890ac5ed83af4a"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2810,
+        "y": 640,
+        "wires": [
+            [
+                "b39e0c721c3d884d"
+            ]
+        ]
+    },
+    {
+        "id": "e95f296a2aae130c",
+        "type": "template",
+        "z": "5b957aaa34cab814",
+        "name": "response",
+        "field": "payload.response",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{{media_player_shield_data.attributes.friendly_name}} volume changed to {{target_volume_level_percent}}%",
+        "output": "str",
+        "x": 2560,
+        "y": 700,
+        "wires": [
+            [
+                "cbbf7d8ee92873fd"
+            ]
+        ]
+    },
+    {
+        "id": "b39e0c721c3d884d",
+        "type": "template",
+        "z": "5b957aaa34cab814",
+        "name": "response",
+        "field": "payload.response",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{{media_player_shield_data.attributes.friendly_name}} volume changed to 100% and {{media_player_powernode_data.attributes.friendly_name}} to {{target_volume_level_percent}}%",
+        "output": "str",
+        "x": 3000,
+        "y": 640,
+        "wires": [
+            [
+                "2a79884feefef294"
+            ]
+        ]
+    },
+    {
+        "id": "4360d72b424baeb7",
+        "type": "ha-sentence",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 2,
+        "inputs": 1,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "mode": "response",
+        "sentences": [],
+        "response": "payload",
+        "responseType": "msg",
+        "triggerResponse": "",
+        "triggerResponseType": "fixed",
+        "responseTimeout": 1000,
+        "outputProperties": [],
+        "x": 140,
+        "y": 520,
+        "wires": [
+            [
+                "b7d3a3449d4059d4",
+                "e9f6b335f785d057"
+            ]
+        ]
+    },
+    {
+        "id": "e9d1e328277a73b0",
+        "type": "link in",
+        "z": "5b957aaa34cab814",
+        "name": "sentence_response",
+        "links": [],
+        "x": 45,
+        "y": 520,
+        "wires": [
+            [
+                "4360d72b424baeb7"
+            ]
+        ]
+    },
+    {
+        "id": "b7d3a3449d4059d4",
+        "type": "link out",
+        "z": "5b957aaa34cab814",
+        "name": "sentence_response",
+        "mode": "return",
+        "links": [],
+        "x": 255,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "79fc568576af4be8",
+        "type": "link call",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "links": [
+            "e9d1e328277a73b0"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1390,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aed1eedec1168622",
+        "type": "template",
+        "z": "5b957aaa34cab814",
+        "name": "response",
+        "field": "payload.response",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Can't change the volume to {{payload.entities.volume.value}}%, please choose a percentage between the 0% and 100%..",
+        "output": "str",
+        "x": 1220,
+        "y": 600,
+        "wires": [
+            [
+                "79fc568576af4be8"
+            ]
+        ]
+    },
+    {
+        "id": "e9f6b335f785d057",
+        "type": "debug",
+        "z": "5b957aaa34cab814",
+        "name": "sentence_response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 330,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "03cabd6d8889f1ad",
+        "type": "link call",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "links": [
+            "e9d1e328277a73b0"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1170,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cbbf7d8ee92873fd",
+        "type": "link call",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "links": [
+            "e9d1e328277a73b0"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2730,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a79884feefef294",
+        "type": "link call",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "links": [
+            "e9d1e328277a73b0"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 3270,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3622510742842b73",
+        "type": "link call",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "links": [
+            "e9d1e328277a73b0"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2650,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7f8b9e836271ea5e",
+        "type": "function",
+        "z": "5b957aaa34cab814",
+        "name": "target volume level",
+        "func": "var input_volume = msg.payload.entities.volume.value / 100;\nvar current_volume = msg.media_player_shield_data.attributes.volume_level;\n\nmsg.target_volume_level = current_volume - input_volume;\n\n\nif (msg.target_volume_level < 0) {\n    msg.target_volume_level = 0;\n}\n\nmsg.target_volume_level_percent = Math.floor(msg.target_volume_level * 100);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2070,
+        "y": 700,
+        "wires": [
+            [
+                "197d9fee1713658d"
+            ]
+        ]
+    },
+    {
+        "id": "197d9fee1713658d",
+        "type": "link call",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "links": [
+            "67a954faf44b9aff"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2270,
+        "y": 700,
+        "wires": [
+            [
+                "e95f296a2aae130c"
+            ]
+        ]
+    },
+    {
+        "id": "a7d53181d5a29e92",
+        "type": "function",
+        "z": "5b957aaa34cab814",
+        "name": "target volume level",
+        "func": "var input_volume = msg.payload.entities.volume.value / 100;\nvar current_volume = msg.media_player_shield_data.attributes.volume_level;\n\nmsg.target_volume_level = current_volume - input_volume;\n\n\nif (msg.target_volume_level < 0) {\n    msg.target_volume_level = 0;\n}\n\nmsg.target_volume_level_percent = Math.floor(msg.target_volume_level * 100);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2070,
+        "y": 480,
+        "wires": [
+            [
+                "ab8c71549b9cde83"
+            ]
+        ]
+    },
+    {
+        "id": "ab8c71549b9cde83",
+        "type": "link call",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "links": [
+            "67a954faf44b9aff"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2270,
+        "y": 480,
+        "wires": [
+            [
+                "e95f296a2aae130c"
+            ]
+        ]
+    },
+    {
+        "id": "abc282949e4958ec",
+        "type": "function",
+        "z": "5b957aaa34cab814",
+        "name": "target volume level",
+        "func": "var current_volume = msg.media_player_powernode_data.attributes.volume_level;\nvar input_volume = msg.payload.entities.volume.value / 100;\n\nmsg.target_volume_level = current_volume + input_volume;\n\nif (msg.target_volume_level > 1) {\n    msg.target_volume_level = 1;\n}\n\nmsg.target_volume_level_percent = Math.floor(msg.target_volume_level * 100);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2070,
+        "y": 440,
+        "wires": [
+            [
+                "895f5223a029d493"
+            ]
+        ]
+    },
+    {
+        "id": "895f5223a029d493",
+        "type": "link call",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "links": [
+            "99890ac5ed83af4a"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2290,
+        "y": 440,
+        "wires": [
+            [
+                "1cc091482e12a183"
+            ]
+        ]
+    },
+    {
+        "id": "580d9e68cfd52773",
+        "type": "function",
+        "z": "5b957aaa34cab814",
+        "name": "target volume level",
+        "func": "msg.target_volume_level = 1;\n\nmsg.target_volume_level_percent = Math.floor(msg.target_volume_level * 100);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2070,
+        "y": 560,
+        "wires": [
+            [
+                "f80d23c219b768eb"
+            ]
+        ]
+    },
+    {
+        "id": "f80d23c219b768eb",
+        "type": "link call",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "links": [
+            "67a954faf44b9aff"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2270,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43a2b35489b92f3b",
+        "type": "function",
+        "z": "5b957aaa34cab814",
+        "name": "target volume level",
+        "func": "msg.target_volume_level = msg.payload.entities.volume.value / 100;\n\nif (msg.target_volume_level > 1) {\n    msg.target_volume_level = 1;\n}\n\nmsg.target_volume_level_percent = Math.floor(msg.target_volume_level * 100);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2070,
+        "y": 520,
+        "wires": [
+            [
+                "f92e8c26e09fb0bc"
+            ]
+        ]
+    },
+    {
+        "id": "f92e8c26e09fb0bc",
+        "type": "link call",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "links": [
+            "99890ac5ed83af4a"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2290,
+        "y": 520,
+        "wires": [
+            [
+                "d80cc8362bbf44ee"
+            ]
+        ]
+    },
+    {
+        "id": "d80cc8362bbf44ee",
+        "type": "template",
+        "z": "5b957aaa34cab814",
+        "name": "response",
+        "field": "payload.response",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{{media_player_powernode_data.attributes.friendly_name}} volume changed to {{target_volume_level_percent}}%",
+        "output": "str",
+        "x": 2480,
+        "y": 520,
+        "wires": [
+            [
+                "9cb7224bb686e632"
+            ]
+        ]
+    },
+    {
+        "id": "9cb7224bb686e632",
+        "type": "link call",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "links": [
+            "e9d1e328277a73b0"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2650,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2f4e9a16fc8c451d",
+        "type": "change",
+        "z": "5b957aaa34cab814",
+        "name": "set default volume",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.entities.volume.value",
+                "pt": "msg",
+                "to": "4",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1250,
+        "y": 440,
+        "wires": [
+            [
+                "97cec346a1ed7d0f"
+            ]
+        ]
+    },
+    {
+        "id": "ddc989e286721b31",
+        "type": "debug",
+        "z": "5b957aaa34cab814",
         "name": "debug 2",
         "active": true,
         "tosidebar": true,
@@ -56443,8 +57855,33 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 690,
-        "y": 320,
+        "x": 2620,
+        "y": 580,
         "wires": []
+    },
+    {
+        "id": "e68491d49ad5d098",
+        "type": "inject",
+        "z": "5b957aaa34cab814",
+        "name": "turn the tv volume down",
+        "props": [
+            {
+                "p": "text",
+                "v": "turn the tv volume down",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 180,
+        "y": 880,
+        "wires": [
+            [
+                "3c776cd48d518213"
+            ]
+        ]
     }
 ]
