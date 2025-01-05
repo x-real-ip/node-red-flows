@@ -883,7 +883,7 @@
     {
         "id": "2b23c32f6263f8c7",
         "type": "tab",
-        "label": "automation_assist_entertainment",
+        "label": "_automation_assist_entertainment",
         "disabled": false,
         "info": "",
         "env": []
@@ -4866,6 +4866,27 @@
         "h": 122
     },
     {
+        "id": "4dc458809c7f0b0e",
+        "type": "group",
+        "z": "2b23c32f6263f8c7",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "ed43e3427066937c",
+            "78507d1220da1132",
+            "bf8e5653c2636930",
+            "b412897abc463b37",
+            "5a30badee0ae6770"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 702,
+        "h": 82
+    },
+    {
         "id": "f7038caa7a76e6f3",
         "type": "junction",
         "z": "a7a34028d045deee",
@@ -8065,8 +8086,7 @@
         "name": "on",
         "mode": "link",
         "links": [
-            "9767891df003f1fd",
-            "1712c88d4a069082"
+            "9767891df003f1fd"
         ],
         "x": 245,
         "y": 160,
@@ -8170,8 +8190,7 @@
         "name": "off",
         "mode": "link",
         "links": [
-            "9767891df003f1fd",
-            "1712c88d4a069082"
+            "9767891df003f1fd"
         ],
         "x": 245,
         "y": 200,
@@ -11986,8 +12005,7 @@
         "mode": "link",
         "links": [
             "4bcb30df9a681943",
-            "9767891df003f1fd",
-            "1712c88d4a069082"
+            "9767891df003f1fd"
         ],
         "x": 455,
         "y": 160,
@@ -27154,7 +27172,8 @@
             "41b174876237d623",
             "89630cbc58f61380",
             "68c2f6094fdd3cca",
-            "2978274f7f9728d8"
+            "2978274f7f9728d8",
+            "bf8e5653c2636930"
         ],
         "x": 275,
         "y": 560,
@@ -56526,7 +56545,6 @@
             "turn [the] {device} volume {volume_direction} with {volume} [percent]",
             "(set|change) {device} volume to {volume} [percent]",
             "turn [the] {device} volume {volume_direction}",
-            "turn {volume_direction} [the] {device} volume with {volume} [percent]",
             "turn {volume_direction} [the] {device} volume"
         ],
         "response": "",
@@ -57883,5 +57901,286 @@
                 "3c776cd48d518213"
             ]
         ]
+    },
+    {
+        "id": "39c74b61f3530174",
+        "type": "comment",
+        "z": "2b23c32f6263f8c7",
+        "name": "change volume of media device based on assist input",
+        "info": "",
+        "x": 220,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "ed43e3427066937c",
+        "type": "catch",
+        "z": "2b23c32f6263f8c7",
+        "g": "4dc458809c7f0b0e",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "78507d1220da1132"
+            ]
+        ]
+    },
+    {
+        "id": "78507d1220da1132",
+        "type": "template",
+        "z": "2b23c32f6263f8c7",
+        "g": "4dc458809c7f0b0e",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "b412897abc463b37"
+            ]
+        ]
+    },
+    {
+        "id": "bf8e5653c2636930",
+        "type": "link out",
+        "z": "2b23c32f6263f8c7",
+        "g": "4dc458809c7f0b0e",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "b412897abc463b37",
+        "type": "template",
+        "z": "2b23c32f6263f8c7",
+        "g": "4dc458809c7f0b0e",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "5a30badee0ae6770"
+            ]
+        ]
+    },
+    {
+        "id": "5a30badee0ae6770",
+        "type": "function",
+        "z": "2b23c32f6263f8c7",
+        "g": "4dc458809c7f0b0e",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "bf8e5653c2636930"
+            ]
+        ]
+    },
+    {
+        "id": "a51189f8f249bbae",
+        "type": "ha-sentence",
+        "z": "2b23c32f6263f8c7",
+        "name": "turn device on",
+        "server": "4ba92433.2478cc",
+        "version": 2,
+        "inputs": 0,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "mode": "trigger",
+        "sentences": [
+            "turn {state} [the] {device}",
+            "turn [the] {device} {state}"
+        ],
+        "response": "",
+        "responseType": "str",
+        "triggerResponse": "",
+        "triggerResponseType": "fixed",
+        "responseTimeout": 1000,
+        "outputProperties": [
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            },
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "results"
+            }
+        ],
+        "x": 90,
+        "y": 160,
+        "wires": [
+            [
+                "665e2915200452f3",
+                "b258ebbd12e439e2"
+            ]
+        ]
+    },
+    {
+        "id": "05e713b84f8cb115",
+        "type": "debug",
+        "z": "2b23c32f6263f8c7",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "f781dfa7e27179fb",
+        "type": "api-call-service",
+        "z": "2b23c32f6263f8c7",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "input_select.select_option",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_select.entertainment_activity"
+        ],
+        "labelId": [],
+        "data": "{\"option\":\"tv\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "input_select",
+        "service": "select_option",
+        "x": 670,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "66341c3fd2e73cd6",
+        "type": "inject",
+        "z": "2b23c32f6263f8c7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload.entities.device.value",
+                "v": "television",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 210,
+        "y": 380,
+        "wires": [
+            [
+                "c299956ca39475ed"
+            ]
+        ]
+    },
+    {
+        "id": "665e2915200452f3",
+        "type": "change",
+        "z": "2b23c32f6263f8c7",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload.entities.device.value",
+                "pt": "msg",
+                "from": "tv|television",
+                "fromt": "re",
+                "to": "TV",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c299956ca39475ed",
+        "type": "function",
+        "z": "2b23c32f6263f8c7",
+        "name": "function 1",
+        "func": "let device = String(msg.payload.entities.device.value);\n\n// Check and replace for TV terms\nif (/tv|television/i.test(device)) {\n    msg.select = device.replace(/tv|television/gi, \"TV\");\n}\n\n// Check and replace for Radio terms\nif (/radio/i.test(device)) {\n    msg.select = device.replace(/radio/gi, \"Radio\");\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 280,
+        "wires": [
+            [
+                "05e713b84f8cb115"
+            ]
+        ]
+    },
+    {
+        "id": "b258ebbd12e439e2",
+        "type": "debug",
+        "z": "2b23c32f6263f8c7",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 250,
+        "y": 220,
+        "wires": []
     }
 ]
