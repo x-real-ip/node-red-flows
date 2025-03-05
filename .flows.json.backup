@@ -889,6 +889,22 @@
         "env": []
     },
     {
+        "id": "01dec174361a0c54",
+        "type": "tab",
+        "label": "_automation_boiler_cv",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "384716d42d7a0e85",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "dbca868556b8a1c3",
         "type": "subflow",
         "name": "light_turn_off",
@@ -4823,6 +4839,48 @@
         "h": 82
     },
     {
+        "id": "4dc458809c7f0b0e",
+        "type": "group",
+        "z": "2b23c32f6263f8c7",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "ed43e3427066937c",
+            "78507d1220da1132",
+            "bf8e5653c2636930",
+            "b412897abc463b37",
+            "5a30badee0ae6770"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "d8e4618a284435bc",
+        "type": "group",
+        "z": "01dec174361a0c54",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "4e80fd042d5c2730",
+            "c98431489ff47e90",
+            "8df1b970e4dafbf8",
+            "4da8b555635de201",
+            "76d24d4d17d75f86"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 702,
+        "h": 82
+    },
+    {
         "id": "bd90d247a95feb9d",
         "type": "group",
         "z": "e4381ced98d2a929",
@@ -4864,27 +4922,6 @@
         "y": 699,
         "w": 392,
         "h": 122
-    },
-    {
-        "id": "4dc458809c7f0b0e",
-        "type": "group",
-        "z": "2b23c32f6263f8c7",
-        "name": "",
-        "style": {
-            "fill": "#ffbfbf",
-            "label": true
-        },
-        "nodes": [
-            "ed43e3427066937c",
-            "78507d1220da1132",
-            "bf8e5653c2636930",
-            "b412897abc463b37",
-            "5a30badee0ae6770"
-        ],
-        "x": 14,
-        "y": 39,
-        "w": 702,
-        "h": 82
     },
     {
         "id": "f7038caa7a76e6f3",
@@ -6058,10 +6095,22 @@
         ]
     },
     {
+        "id": "b813b74193ab27fc",
+        "type": "junction",
+        "z": "5b957aaa34cab814",
+        "x": 400,
+        "y": 520,
+        "wires": [
+            [
+                "f5b5f685345544c7"
+            ]
+        ]
+    },
+    {
         "id": "36dee637778341ba",
         "type": "mqtt-broker",
         "name": "",
-        "broker": "mosquitto",
+        "broker": "mqtt.lan.stamx.nl",
         "port": "1883",
         "clientid": "",
         "autoConnect": true,
@@ -27173,7 +27222,8 @@
             "89630cbc58f61380",
             "68c2f6094fdd3cca",
             "2978274f7f9728d8",
-            "bf8e5653c2636930"
+            "bf8e5653c2636930",
+            "8df1b970e4dafbf8"
         ],
         "x": 275,
         "y": 560,
@@ -30995,21 +31045,21 @@
         "id": "e7b37a2bf7a7f071",
         "type": "server-state-changed",
         "z": "b1b994b3d43d6aad",
-        "name": "stookalert is on",
+        "name": "stookwijzer is red",
         "server": "4ba92433.2478cc",
         "version": 6,
         "outputs": 2,
         "exposeAsEntityConfig": "",
         "entities": {
             "entity": [
-                "binary_sensor.stookalert_gelderland"
+                "sensor.stookwijzer_advice_code"
             ],
             "substring": [],
             "regex": []
         },
         "outputInitially": true,
         "stateType": "str",
-        "ifState": "on",
+        "ifState": "code_red",
         "ifStateType": "str",
         "ifStateOperator": "is",
         "outputOnlyOnStateChange": false,
@@ -56545,7 +56595,8 @@
             "turn [the] {device} volume {volume_direction} with {volume} [percent]",
             "(set|change) {device} volume to {volume} [percent]",
             "turn [the] {device} volume {volume_direction}",
-            "turn {volume_direction} [the] {device} volume"
+            "turn {volume_direction} [the] {device} volume",
+            "turn {volume_direction} [the] {device}"
         ],
         "response": "",
         "responseType": "str",
@@ -56566,90 +56617,11 @@
                 "valueType": "results"
             }
         ],
-        "x": 120,
-        "y": 220,
+        "x": 140,
+        "y": 540,
         "wires": [
             [
                 "415cd44ddc7b18c5"
-            ]
-        ]
-    },
-    {
-        "id": "b28f769ae91251bd",
-        "type": "inject",
-        "z": "5b957aaa34cab814",
-        "name": "set tv volume to ?",
-        "props": [
-            {
-                "p": "text",
-                "v": "set tv volume to 110",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 160,
-        "y": 800,
-        "wires": [
-            [
-                "3c776cd48d518213"
-            ]
-        ]
-    },
-    {
-        "id": "3c776cd48d518213",
-        "type": "api-call-service",
-        "z": "5b957aaa34cab814",
-        "name": "",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "conversation.process",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"text\":\"{{text}}\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "conversation",
-        "service": "process",
-        "x": 620,
-        "y": 860,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5575a3a30a77e999",
-        "type": "inject",
-        "z": "5b957aaa34cab814",
-        "name": "turn the tv volume up with ? percent",
-        "props": [
-            {
-                "p": "text",
-                "v": "turn the tv volume up with 10 percent",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 220,
-        "y": 720,
-        "wires": [
-            [
-                "3c776cd48d518213"
             ]
         ]
     },
@@ -56677,37 +56649,14 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 290,
-        "y": 220,
+        "x": 310,
+        "y": 540,
         "wires": [
             [
                 "bd9d99e5c6eb1b54"
             ],
-            []
-        ]
-    },
-    {
-        "id": "299805fe9d2781e2",
-        "type": "inject",
-        "z": "5b957aaa34cab814",
-        "name": "turn the tv volume up",
-        "props": [
-            {
-                "p": "text",
-                "v": "turn the tv volume up",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 180,
-        "y": 840,
-        "wires": [
             [
-                "3c776cd48d518213"
+                "b813b74193ab27fc"
             ]
         ]
     },
@@ -56747,8 +56696,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 450,
-        "y": 220,
+        "x": 470,
+        "y": 480,
         "wires": [
             [
                 "f5b5f685345544c7"
@@ -56775,8 +56724,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 820,
-        "y": 220,
+        "x": 1200,
+        "y": 520,
         "wires": [
             [
                 "a44e085350d02097"
@@ -56797,8 +56746,8 @@
         "syntax": "mustache",
         "template": "Can't change the {{media_player_shield_data.attributes.friendly_name}} volume, the device is {{media_player_shield_state}}.",
         "output": "str",
-        "x": 1000,
-        "y": 180,
+        "x": 1400,
+        "y": 440,
         "wires": [
             [
                 "03cabd6d8889f1ad"
@@ -56918,8 +56867,8 @@
         "syntax": "mustache",
         "template": "{{media_player_powernode_data.attributes.friendly_name}} volume changed to {{target_volume_level_percent}}%",
         "output": "str",
-        "x": 2480,
-        "y": 440,
+        "x": 2880,
+        "y": 700,
         "wires": [
             [
                 "3622510742842b73"
@@ -56961,8 +56910,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 5,
-        "x": 1020,
-        "y": 500,
+        "x": 1420,
+        "y": 760,
         "wires": [
             [
                 "2f4e9a16fc8c451d"
@@ -57006,8 +56955,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 1750,
-        "y": 460,
+        "x": 2150,
+        "y": 720,
         "wires": [
             [
                 "abc282949e4958ec"
@@ -57057,8 +57006,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 630,
-        "y": 220,
+        "x": 650,
+        "y": 520,
         "wires": [
             [
                 "bf7bbf6679459fb7"
@@ -57087,8 +57036,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1480,
-        "y": 500,
+        "x": 1880,
+        "y": 760,
         "wires": [
             [
                 "ba2f429814c2cc9c"
@@ -57123,8 +57072,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 1750,
-        "y": 700,
+        "x": 2150,
+        "y": 960,
         "wires": [
             [
                 "04615f8b33a40e00"
@@ -57150,8 +57099,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2070,
-        "y": 660,
+        "x": 2470,
+        "y": 920,
         "wires": [
             [
                 "ca0d9a7b39ac9cae"
@@ -57195,8 +57144,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 2430,
-        "y": 660,
+        "x": 2830,
+        "y": 920,
         "wires": [
             [
                 "c0cf0c8e360ea04f"
@@ -57218,36 +57167,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2590,
-        "y": 640,
+        "x": 2990,
+        "y": 900,
         "wires": [
             [
                 "52d42868eef47f07"
-            ]
-        ]
-    },
-    {
-        "id": "22617024b25397ac",
-        "type": "inject",
-        "z": "5b957aaa34cab814",
-        "name": "turn the tv volume down with ? percent",
-        "props": [
-            {
-                "p": "text",
-                "v": "turn the tv volume down with 10 percent",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 230,
-        "y": 760,
-        "wires": [
-            [
-                "3c776cd48d518213"
             ]
         ]
     },
@@ -57277,7 +57201,7 @@
         "domain": "media_player",
         "service": "volume_set",
         "x": 170,
-        "y": 360,
+        "y": 220,
         "wires": [
             [
                 "6bde885e917887ee"
@@ -57291,7 +57215,7 @@
         "name": "shield_set_volume",
         "links": [],
         "x": 45,
-        "y": 360,
+        "y": 220,
         "wires": [
             [
                 "18389521989b5a81"
@@ -57308,8 +57232,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2270,
-        "y": 660,
+        "x": 2670,
+        "y": 920,
         "wires": [
             [
                 "5e40e2790c85b0a9",
@@ -57325,7 +57249,7 @@
         "mode": "return",
         "links": [],
         "x": 315,
-        "y": 360,
+        "y": 220,
         "wires": []
     },
     {
@@ -57354,7 +57278,7 @@
         "domain": "media_player",
         "service": "volume_set",
         "x": 180,
-        "y": 440,
+        "y": 280,
         "wires": [
             [
                 "a54209a46e13e9db"
@@ -57368,7 +57292,7 @@
         "name": "powernode_set_volume",
         "links": [],
         "x": 45,
-        "y": 440,
+        "y": 280,
         "wires": [
             [
                 "3353a55466a9284a"
@@ -57383,7 +57307,7 @@
         "mode": "return",
         "links": [],
         "x": 315,
-        "y": 440,
+        "y": 280,
         "wires": []
     },
     {
@@ -57396,8 +57320,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2810,
-        "y": 640,
+        "x": 3210,
+        "y": 900,
         "wires": [
             [
                 "b39e0c721c3d884d"
@@ -57415,8 +57339,8 @@
         "syntax": "mustache",
         "template": "{{media_player_shield_data.attributes.friendly_name}} volume changed to {{target_volume_level_percent}}%",
         "output": "str",
-        "x": 2560,
-        "y": 700,
+        "x": 2960,
+        "y": 960,
         "wires": [
             [
                 "cbbf7d8ee92873fd"
@@ -57434,7 +57358,7 @@
         "syntax": "mustache",
         "template": "{{media_player_shield_data.attributes.friendly_name}} volume changed to 100% and {{media_player_powernode_data.attributes.friendly_name}} to {{target_volume_level_percent}}%",
         "output": "str",
-        "x": 3000,
+        "x": 3380,
         "y": 640,
         "wires": [
             [
@@ -57461,7 +57385,7 @@
         "responseTimeout": 1000,
         "outputProperties": [],
         "x": 140,
-        "y": 520,
+        "y": 340,
         "wires": [
             [
                 "b7d3a3449d4059d4",
@@ -57476,7 +57400,7 @@
         "name": "sentence_response",
         "links": [],
         "x": 45,
-        "y": 520,
+        "y": 340,
         "wires": [
             [
                 "4360d72b424baeb7"
@@ -57490,8 +57414,8 @@
         "name": "sentence_response",
         "mode": "return",
         "links": [],
-        "x": 255,
-        "y": 520,
+        "x": 315,
+        "y": 340,
         "wires": []
     },
     {
@@ -57504,8 +57428,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1390,
-        "y": 600,
+        "x": 1790,
+        "y": 860,
         "wires": [
             []
         ]
@@ -57521,8 +57445,8 @@
         "syntax": "mustache",
         "template": "Can't change the volume to {{payload.entities.volume.value}}%, please choose a percentage between the 0% and 100%..",
         "output": "str",
-        "x": 1220,
-        "y": 600,
+        "x": 1620,
+        "y": 860,
         "wires": [
             [
                 "79fc568576af4be8"
@@ -57542,8 +57466,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 330,
-        "y": 580,
+        "x": 390,
+        "y": 380,
         "wires": []
     },
     {
@@ -57556,8 +57480,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1170,
-        "y": 180,
+        "x": 1570,
+        "y": 440,
         "wires": [
             []
         ]
@@ -57572,8 +57496,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2730,
-        "y": 700,
+        "x": 3130,
+        "y": 960,
         "wires": [
             []
         ]
@@ -57588,7 +57512,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 3270,
+        "x": 3550,
         "y": 640,
         "wires": [
             []
@@ -57604,8 +57528,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2650,
-        "y": 440,
+        "x": 3050,
+        "y": 700,
         "wires": [
             []
         ]
@@ -57622,8 +57546,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2070,
-        "y": 700,
+        "x": 2470,
+        "y": 960,
         "wires": [
             [
                 "197d9fee1713658d"
@@ -57640,8 +57564,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2270,
-        "y": 700,
+        "x": 2670,
+        "y": 960,
         "wires": [
             [
                 "e95f296a2aae130c"
@@ -57660,8 +57584,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2070,
-        "y": 480,
+        "x": 2470,
+        "y": 740,
         "wires": [
             [
                 "ab8c71549b9cde83"
@@ -57678,8 +57602,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2270,
-        "y": 480,
+        "x": 2670,
+        "y": 740,
         "wires": [
             [
                 "e95f296a2aae130c"
@@ -57698,8 +57622,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2070,
-        "y": 440,
+        "x": 2470,
+        "y": 700,
         "wires": [
             [
                 "895f5223a029d493"
@@ -57716,8 +57640,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2290,
-        "y": 440,
+        "x": 2690,
+        "y": 700,
         "wires": [
             [
                 "1cc091482e12a183"
@@ -57736,8 +57660,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2070,
-        "y": 560,
+        "x": 2470,
+        "y": 820,
         "wires": [
             [
                 "f80d23c219b768eb"
@@ -57754,8 +57678,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2270,
-        "y": 560,
+        "x": 2670,
+        "y": 820,
         "wires": [
             []
         ]
@@ -57772,8 +57696,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2070,
-        "y": 520,
+        "x": 2470,
+        "y": 780,
         "wires": [
             [
                 "f92e8c26e09fb0bc"
@@ -57790,8 +57714,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2290,
-        "y": 520,
+        "x": 2690,
+        "y": 780,
         "wires": [
             [
                 "d80cc8362bbf44ee"
@@ -57809,8 +57733,8 @@
         "syntax": "mustache",
         "template": "{{media_player_powernode_data.attributes.friendly_name}} volume changed to {{target_volume_level_percent}}%",
         "output": "str",
-        "x": 2480,
-        "y": 520,
+        "x": 2880,
+        "y": 780,
         "wires": [
             [
                 "9cb7224bb686e632"
@@ -57827,8 +57751,8 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2650,
-        "y": 520,
+        "x": 3050,
+        "y": 780,
         "wires": [
             []
         ]
@@ -57843,8 +57767,8 @@
                 "t": "set",
                 "p": "payload.entities.volume.value",
                 "pt": "msg",
-                "to": "4",
-                "tot": "num"
+                "to": "default_volume_step",
+                "tot": "flow"
             }
         ],
         "action": "",
@@ -57852,8 +57776,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1250,
-        "y": 440,
+        "x": 1650,
+        "y": 700,
         "wires": [
             [
                 "97cec346a1ed7d0f"
@@ -57873,33 +57797,342 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2620,
-        "y": 580,
+        "x": 3020,
+        "y": 840,
         "wires": []
     },
     {
-        "id": "e68491d49ad5d098",
-        "type": "inject",
+        "id": "b71c3d46d8016e11",
+        "type": "debug",
         "z": "5b957aaa34cab814",
-        "name": "turn the tv volume down",
-        "props": [
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "a4a9f6515fb44ffc",
+        "type": "api-current-state",
+        "z": "5b957aaa34cab814",
+        "name": "powernode state",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "media_player.powernode_2i_ea48",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
             {
-                "p": "text",
-                "v": "turn the tv volume down",
+                "property": "media_player_powernode_state",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "media_player_powernode_data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 170,
+        "y": 160,
+        "wires": [
+            [
+                "a26fad241511f789"
+            ]
+        ]
+    },
+    {
+        "id": "10dab05f641a6c95",
+        "type": "link in",
+        "z": "5b957aaa34cab814",
+        "name": "powernode state",
+        "links": [],
+        "x": 45,
+        "y": 160,
+        "wires": [
+            [
+                "a4a9f6515fb44ffc"
+            ]
+        ]
+    },
+    {
+        "id": "a26fad241511f789",
+        "type": "link out",
+        "z": "5b957aaa34cab814",
+        "name": "link out 1",
+        "mode": "return",
+        "links": [],
+        "x": 315,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "616c56a1e0f87df9",
+        "type": "link call",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "links": [
+            "10dab05f641a6c95"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 330,
+        "y": 1100,
+        "wires": [
+            [
+                "470f5f8640ef9adb"
+            ]
+        ]
+    },
+    {
+        "id": "1ca7da9e3a9b981e",
+        "type": "switch",
+        "z": "5b957aaa34cab814",
+        "name": "content type",
+        "property": "media_player_powernode_data.attributes.media_content_type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "music",
                 "vt": "str"
             }
         ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 180,
-        "y": 880,
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2150,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "470f5f8640ef9adb",
+        "type": "switch",
+        "z": "5b957aaa34cab814",
+        "name": "powernode is playing",
+        "property": "media_player_powernode_state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "playing",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 540,
+        "y": 1100,
         "wires": [
             [
-                "3c776cd48d518213"
+                "5bdf91ac2987e22d"
             ]
+        ]
+    },
+    {
+        "id": "7ccec6eef56bb4ef",
+        "type": "switch",
+        "z": "5b957aaa34cab814",
+        "name": "up or down",
+        "property": "payload.entities.volume_direction.value",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "up",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "down",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 2150,
+        "y": 1120,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "2d3b8bbd42bc685b",
+        "type": "function",
+        "z": "5b957aaa34cab814",
+        "name": "target volume level",
+        "func": "var input_volume = msg.payload.entities.volume.value / 100;\nvar current_volume = msg.media_player_shield_data.attributes.volume_level;\n\nmsg.target_volume_level = current_volume - input_volume;\n\n\nif (msg.target_volume_level < 0) {\n    msg.target_volume_level = 0;\n}\n\nmsg.target_volume_level_percent = Math.floor(msg.target_volume_level * 100);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2530,
+        "y": 1120,
+        "wires": [
+            [
+                "41aa11f96b1cedff"
+            ]
+        ]
+    },
+    {
+        "id": "41aa11f96b1cedff",
+        "type": "link call",
+        "z": "5b957aaa34cab814",
+        "name": "",
+        "links": [
+            "67a954faf44b9aff"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 2730,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5bdf91ac2987e22d",
+        "type": "switch",
+        "z": "5b957aaa34cab814",
+        "name": "content type",
+        "property": "media_player_powernode_data.attributes.media_content_type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "music",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 730,
+        "y": 1100,
+        "wires": [
+            [
+                "b71c3d46d8016e11"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "724cbd8ed3ae18e8",
+        "type": "ha-sentence",
+        "z": "5b957aaa34cab814",
+        "name": "change volume",
+        "server": "4ba92433.2478cc",
+        "version": 2,
+        "inputs": 0,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "mode": "trigger",
+        "sentences": [
+            "turn {volume_direction} [the] volume"
+        ],
+        "response": "",
+        "responseType": "str",
+        "triggerResponse": "",
+        "triggerResponseType": "dynamic",
+        "responseTimeout": 1000,
+        "outputProperties": [
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            },
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "results"
+            }
+        ],
+        "x": 120,
+        "y": 1100,
+        "wires": [
+            [
+                "616c56a1e0f87df9"
+            ]
+        ]
+    },
+    {
+        "id": "95038b18668a5c83",
+        "type": "change",
+        "z": "5b957aaa34cab814",
+        "name": "set default volume",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.entities.volume.value",
+                "pt": "msg",
+                "to": "4",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3fd6469d3be38b16",
+        "type": "function",
+        "z": "5b957aaa34cab814",
+        "name": "default volume step on start",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nflow.set(\"default_volume_step\", 4);",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 440,
+        "wires": [
+            []
         ]
     },
     {
@@ -58015,13 +58248,13 @@
         "exposeAsEntityConfig": "",
         "mode": "trigger",
         "sentences": [
-            "turn {state} [the] {device}",
-            "turn [the] {device} {state}"
+            "turn on [the] {device}",
+            "turn [the] {device} on"
         ],
         "response": "",
         "responseType": "str",
         "triggerResponse": "",
-        "triggerResponseType": "fixed",
+        "triggerResponseType": "dynamic",
         "responseTimeout": 1000,
         "outputProperties": [
             {
@@ -58038,30 +58271,12 @@
             }
         ],
         "x": 90,
-        "y": 160,
+        "y": 200,
         "wires": [
             [
-                "665e2915200452f3",
-                "b258ebbd12e439e2"
+                "2281c26605810126"
             ]
         ]
-    },
-    {
-        "id": "05e713b84f8cb115",
-        "type": "debug",
-        "z": "2b23c32f6263f8c7",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 460,
-        "y": 280,
-        "wires": []
     },
     {
         "id": "f781dfa7e27179fb",
@@ -58079,59 +58294,90 @@
             "input_select.entertainment_activity"
         ],
         "labelId": [],
-        "data": "{\"option\":\"tv\"}",
+        "data": "{\"option\":\"{{select}}\"}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
         "outputProperties": [],
         "queue": "none",
-        "blockInputOverrides": true,
+        "blockInputOverrides": false,
         "domain": "input_select",
         "service": "select_option",
         "x": 670,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "66341c3fd2e73cd6",
-        "type": "inject",
-        "z": "2b23c32f6263f8c7",
-        "name": "",
-        "props": [
-            {
-                "p": "payload.entities.device.value",
-                "v": "television",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 210,
-        "y": 380,
+        "y": 200,
         "wires": [
             [
-                "c299956ca39475ed"
+                "29eb5d857a83037f"
             ]
         ]
     },
     {
-        "id": "665e2915200452f3",
+        "id": "c299956ca39475ed",
+        "type": "function",
+        "z": "2b23c32f6263f8c7",
+        "name": "device regex",
+        "func": "let device = String(msg.payload.entities.device.value).trim().toLowerCase();\n\nconst replacements = {\n    TV: \"tv|dv|television\",\n    Radio: \"radio\",\n    Muziek: \"music\"\n};\n\nfor (const [key, pattern] of Object.entries(replacements)) {\n    const regex = new RegExp(pattern, \"gi\");\n    if (regex.test(device)) {\n        msg.select = key;\n        break;\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "f781dfa7e27179fb"
+            ]
+        ]
+    },
+    {
+        "id": "f8f2ca217e22bb4e",
+        "type": "debug",
+        "z": "2b23c32f6263f8c7",
+        "name": "sentence_response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "29eb5d857a83037f",
+        "type": "template",
+        "z": "2b23c32f6263f8c7",
+        "name": "response",
+        "field": "payload.response",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{{payload.entities.device.value}} has been turned {{desired_device_state}}",
+        "output": "str",
+        "x": 860,
+        "y": 200,
+        "wires": [
+            [
+                "540b1f77bf097316"
+            ]
+        ]
+    },
+    {
+        "id": "2281c26605810126",
         "type": "change",
         "z": "2b23c32f6263f8c7",
-        "name": "",
+        "name": "desired device state",
         "rules": [
             {
-                "t": "change",
-                "p": "payload.entities.device.value",
+                "t": "set",
+                "p": "desired_device_state",
                 "pt": "msg",
-                "from": "tv|television",
-                "fromt": "re",
-                "to": "TV",
+                "to": "on",
                 "tot": "str"
             }
         ],
@@ -58140,36 +58386,464 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 520,
-        "y": 160,
+        "x": 280,
+        "y": 200,
+        "wires": [
+            [
+                "c299956ca39475ed"
+            ]
+        ]
+    },
+    {
+        "id": "6cd9595be1d393d8",
+        "type": "api-call-service",
+        "z": "2b23c32f6263f8c7",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "conversation.process",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"text\":\"{{text}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "conversation",
+        "service": "process",
+        "x": 380,
+        "y": 600,
         "wires": [
             []
         ]
     },
     {
-        "id": "c299956ca39475ed",
-        "type": "function",
+        "id": "2d54cb39a79e5002",
+        "type": "inject",
         "z": "2b23c32f6263f8c7",
-        "name": "function 1",
-        "func": "let device = String(msg.payload.entities.device.value);\n\n// Check and replace for TV terms\nif (/tv|television/i.test(device)) {\n    msg.select = device.replace(/tv|television/gi, \"TV\");\n}\n\n// Check and replace for Radio terms\nif (/radio/i.test(device)) {\n    msg.select = device.replace(/radio/gi, \"Radio\");\n}\n\nreturn msg;\n",
+        "name": "turn the tv volume down",
+        "props": [
+            {
+                "p": "text",
+                "v": "turn on the tv",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 160,
+        "y": 600,
+        "wires": [
+            [
+                "6cd9595be1d393d8"
+            ]
+        ]
+    },
+    {
+        "id": "d35ef2ba6c8fe0f5",
+        "type": "ha-sentence",
+        "z": "2b23c32f6263f8c7",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 2,
+        "inputs": 1,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "mode": "response",
+        "sentences": [],
+        "response": "payload",
+        "responseType": "msg",
+        "triggerResponse": "",
+        "triggerResponseType": "fixed",
+        "responseTimeout": 1000,
+        "outputProperties": [],
+        "x": 140,
+        "y": 360,
+        "wires": [
+            [
+                "5465c681685de8e9",
+                "96efa0cf39336657"
+            ]
+        ]
+    },
+    {
+        "id": "83dc0762c99fb524",
+        "type": "link in",
+        "z": "2b23c32f6263f8c7",
+        "name": "sentence_response",
+        "links": [],
+        "x": 45,
+        "y": 360,
+        "wires": [
+            [
+                "d35ef2ba6c8fe0f5"
+            ]
+        ]
+    },
+    {
+        "id": "5465c681685de8e9",
+        "type": "link out",
+        "z": "2b23c32f6263f8c7",
+        "name": "sentence_response",
+        "mode": "return",
+        "links": [],
+        "x": 255,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "96efa0cf39336657",
+        "type": "debug",
+        "z": "2b23c32f6263f8c7",
+        "name": "sentence_response",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 330,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "540b1f77bf097316",
+        "type": "link call",
+        "z": "2b23c32f6263f8c7",
+        "name": "",
+        "links": [
+            "e9d1e328277a73b0"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1030,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "56fba575c7c2d7c9",
+        "type": "comment",
+        "z": "01dec174361a0c54",
+        "name": "turn off opentherm heating when no rooms require heat",
+        "info": "",
+        "x": 220,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "4e80fd042d5c2730",
+        "type": "catch",
+        "z": "01dec174361a0c54",
+        "g": "d8e4618a284435bc",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "c98431489ff47e90"
+            ]
+        ]
+    },
+    {
+        "id": "c98431489ff47e90",
+        "type": "template",
+        "z": "01dec174361a0c54",
+        "g": "d8e4618a284435bc",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "4da8b555635de201"
+            ]
+        ]
+    },
+    {
+        "id": "8df1b970e4dafbf8",
+        "type": "link out",
+        "z": "01dec174361a0c54",
+        "g": "d8e4618a284435bc",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "4da8b555635de201",
+        "type": "template",
+        "z": "01dec174361a0c54",
+        "g": "d8e4618a284435bc",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "76d24d4d17d75f86"
+            ]
+        ]
+    },
+    {
+        "id": "76d24d4d17d75f86",
+        "type": "function",
+        "z": "01dec174361a0c54",
+        "g": "d8e4618a284435bc",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 300,
-        "y": 280,
+        "x": 550,
+        "y": 80,
         "wires": [
             [
-                "05e713b84f8cb115"
+                "8df1b970e4dafbf8"
             ]
         ]
     },
     {
-        "id": "b258ebbd12e439e2",
+        "id": "40dcb5305c3d5e48",
+        "type": "server-state-changed",
+        "z": "01dec174361a0c54",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [],
+            "substring": [],
+            "regex": [
+                "^sensor\\..*_heating\\b"
+            ]
+        },
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "num",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": false,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 150,
+        "y": 180,
+        "wires": [
+            [
+                "260a9c58f87b809c"
+            ]
+        ]
+    },
+    {
+        "id": "8c207a4988a16ede",
+        "type": "api-call-service",
+        "z": "01dec174361a0c54",
+        "name": "turn off cv boiler heating",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "climate.set_hvac_mode",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "climate.opentherm_heating"
+        ],
+        "labelId": [],
+        "data": "{\"hvac_mode\":\"off\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "climate",
+        "service": "set_hvac_mode",
+        "x": 750,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e983f43ca63b80ee",
+        "type": "api-call-service",
+        "z": "01dec174361a0c54",
+        "name": "turn on cv boiler heating",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "climate.set_hvac_mode",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "climate.opentherm_heating"
+        ],
+        "labelId": [],
+        "data": "{\"hvac_mode\":\"heat\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "climate",
+        "service": "set_hvac_mode",
+        "x": 750,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "260a9c58f87b809c",
+        "type": "ha-get-entities",
+        "z": "01dec174361a0c54",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 1,
+        "rules": [
+            {
+                "condition": "state_object",
+                "property": "entity_id",
+                "logic": "in_group",
+                "value": "group.tado_climate",
+                "valueType": "str"
+            },
+            {
+                "condition": "state_object",
+                "property": "attributes.hvac_action",
+                "logic": "is",
+                "value": "heating",
+                "valueType": "str"
+            }
+        ],
+        "outputType": "count",
+        "outputEmptyResults": false,
+        "outputLocationType": "msg",
+        "outputLocation": "payload",
+        "outputResultsCount": 1,
+        "x": 410,
+        "y": 200,
+        "wires": [
+            [
+                "ec4a7694aa518477"
+            ]
+        ]
+    },
+    {
+        "id": "ec4a7694aa518477",
+        "type": "switch",
+        "z": "01dec174361a0c54",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "gte",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 550,
+        "y": 200,
+        "wires": [
+            [
+                "8c207a4988a16ede"
+            ],
+            [
+                "e983f43ca63b80ee"
+            ]
+        ]
+    },
+    {
+        "id": "57b1de0b775210c2",
+        "type": "inject",
+        "z": "01dec174361a0c54",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 320,
+        "wires": [
+            [
+                "260a9c58f87b809c"
+            ]
+        ]
+    },
+    {
+        "id": "d51ea7cb556a0dac",
         "type": "debug",
-        "z": "2b23c32f6263f8c7",
+        "z": "01dec174361a0c54",
         "name": "debug 4",
         "active": true,
         "tosidebar": true,
@@ -58179,8 +58853,167 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 250,
-        "y": 220,
+        "x": 700,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "b7c0d9376eaa1aa2",
+        "type": "inject",
+        "z": "384716d42d7a0e85",
+        "name": "Example Array",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "[{\"attributes\":{\"hvac_action\":\"cooling\"}},{\"attributes\":{\"hvac_action\":\"off\"}}]",
+        "payloadType": "json",
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "3e09bca2436aa282"
+            ]
+        ]
+    },
+    {
+        "id": "3e09bca2436aa282",
+        "type": "split",
+        "z": "384716d42d7a0e85",
+        "name": "Split Array",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 310,
+        "y": 180,
+        "wires": [
+            [
+                "2e8295e83e0865a4"
+            ]
+        ]
+    },
+    {
+        "id": "2e8295e83e0865a4",
+        "type": "switch",
+        "z": "384716d42d7a0e85",
+        "name": "Check hvac_action",
+        "property": "payload.attributes.hvac_action",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "heating",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 500,
+        "y": 180,
+        "wires": [
+            [
+                "b7bca2d9e4f0cd1d"
+            ]
+        ]
+    },
+    {
+        "id": "b7bca2d9e4f0cd1d",
+        "type": "change",
+        "z": "384716d42d7a0e85",
+        "name": "Flag Heating Detected",
+        "rules": [
+            {
+                "t": "set",
+                "p": "heating_detected",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "x": 740,
+        "y": 180,
+        "wires": [
+            [
+                "3f758b8cf5447b49"
+            ]
+        ]
+    },
+    {
+        "id": "3f758b8cf5447b49",
+        "type": "join",
+        "z": "384716d42d7a0e85",
+        "name": "Rejoin Array",
+        "mode": "auto",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": ",",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 310,
+        "y": 280,
+        "wires": [
+            [
+                "a3edab86db2760cd"
+            ]
+        ]
+    },
+    {
+        "id": "a3edab86db2760cd",
+        "type": "change",
+        "z": "384716d42d7a0e85",
+        "name": "Set Final Heating Status",
+        "rules": [
+            {
+                "t": "set",
+                "p": "heating_detected",
+                "pt": "msg",
+                "to": "$count(payload[heating_detected = true]) > 0",
+                "tot": "jsonata"
+            }
+        ],
+        "x": 550,
+        "y": 280,
+        "wires": [
+            [
+                "d4ec29c2349d15b0"
+            ]
+        ]
+    },
+    {
+        "id": "d4ec29c2349d15b0",
+        "type": "debug",
+        "z": "384716d42d7a0e85",
+        "name": "Final Result",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "heating_detected",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 280,
         "wires": []
     }
 ]
