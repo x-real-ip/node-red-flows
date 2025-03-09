@@ -58672,8 +58672,8 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 150,
-        "y": 180,
+        "x": 170,
+        "y": 200,
         "wires": [
             [
                 "260a9c58f87b809c"
@@ -58810,52 +58810,6 @@
                 "e983f43ca63b80ee"
             ]
         ]
-    },
-    {
-        "id": "57b1de0b775210c2",
-        "type": "inject",
-        "z": "01dec174361a0c54",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 120,
-        "y": 320,
-        "wires": [
-            [
-                "260a9c58f87b809c"
-            ]
-        ]
-    },
-    {
-        "id": "d51ea7cb556a0dac",
-        "type": "debug",
-        "z": "01dec174361a0c54",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 700,
-        "y": 460,
-        "wires": []
     },
     {
         "id": "b7c0d9376eaa1aa2",
