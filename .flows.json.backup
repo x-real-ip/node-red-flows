@@ -55085,7 +55085,7 @@
         "blockInputOverrides": false,
         "domain": "input_select",
         "service": "select_option",
-        "x": 910,
+        "x": 930,
         "y": 1620,
         "wires": [
             []
@@ -55422,7 +55422,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 590,
+        "x": 610,
         "y": 1620,
         "wires": [
             [
@@ -56266,7 +56266,9 @@
             [
                 "68088e8c9c8a0e54"
             ],
-            []
+            [
+                "68088e8c9c8a0e54"
+            ]
         ]
     },
     {

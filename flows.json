@@ -55085,7 +55085,7 @@
         "blockInputOverrides": false,
         "domain": "input_select",
         "service": "select_option",
-        "x": 930,
+        "x": 970,
         "y": 1620,
         "wires": [
             []
@@ -55422,7 +55422,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 610,
+        "x": 650,
         "y": 1620,
         "wires": [
             [
@@ -55719,7 +55719,7 @@
         "y": 1620,
         "wires": [
             [
-                "1bea28fe624c37b2"
+                "2c145c15609bd2fb"
             ],
             []
         ]
@@ -56231,47 +56231,6 @@
         ]
     },
     {
-        "id": "1bea28fe624c37b2",
-        "type": "switch",
-        "z": "fd9cd80f14f860fe",
-        "name": "app name",
-        "property": "data.new_state.attributes.app_name",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "NLZIET",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "YouTube",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Videoland",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 340,
-        "y": 1620,
-        "wires": [
-            [
-                "68088e8c9c8a0e54"
-            ],
-            [
-                "68088e8c9c8a0e54"
-            ],
-            [
-                "68088e8c9c8a0e54"
-            ]
-        ]
-    },
-    {
         "id": "87169159e7ae701a",
         "type": "api-current-state",
         "z": "fd9cd80f14f860fe",
@@ -56315,6 +56274,31 @@
                 "edd4560b8748e246"
             ],
             []
+        ]
+    },
+    {
+        "id": "2c145c15609bd2fb",
+        "type": "switch",
+        "z": "fd9cd80f14f860fe",
+        "name": "content type is video",
+        "property": "data.new_state.attributes.media_content_type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "video",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 360,
+        "y": 1620,
+        "wires": [
+            [
+                "68088e8c9c8a0e54"
+            ]
         ]
     },
     {
