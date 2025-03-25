@@ -868,7 +868,7 @@
         "id": "d95e1a168ec0af0a",
         "type": "tab",
         "label": "_automation_reboot_shelly_gen1_devices",
-        "disabled": false,
+        "disabled": true,
         "info": "",
         "env": []
     },
