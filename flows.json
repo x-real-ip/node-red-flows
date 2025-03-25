@@ -3522,11 +3522,12 @@
             "edd4560b8748e246",
             "7921cddd0f314705",
             "1d37dadaa58f945a",
-            "7bea96d351fd45a5"
+            "7bea96d351fd45a5",
+            "87169159e7ae701a"
         ],
         "x": 634,
         "y": 159,
-        "w": 452,
+        "w": 652,
         "h": 302
     },
     {
@@ -34552,13 +34553,15 @@
                 "property": "entity_id",
                 "logic": "starts_with",
                 "value": "climate.",
-                "valueType": "str"
+                "valueType": "str",
+                "condition": "state_object"
             },
             {
                 "property": "attributes.preset_mode",
                 "logic": "is_not",
                 "value": "home",
-                "valueType": "str"
+                "valueType": "str",
+                "condition": "state_object"
             }
         ],
         "outputType": "split",
@@ -55745,7 +55748,7 @@
         "blockInputOverrides": false,
         "domain": "webostv",
         "service": "command",
-        "x": 940,
+        "x": 1200,
         "y": 360,
         "wires": [
             []
@@ -55790,7 +55793,7 @@
         "g": "d3868dc5f4aa2d65",
         "name": "",
         "pauseType": "delay",
-        "timeout": "3",
+        "timeout": "2",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -55805,7 +55808,7 @@
         "y": 360,
         "wires": [
             [
-                "edd4560b8748e246"
+                "87169159e7ae701a"
             ]
         ]
     },
@@ -55816,7 +55819,7 @@
         "g": "d3868dc5f4aa2d65",
         "name": "",
         "pauseType": "delay",
-        "timeout": "2",
+        "timeout": "1",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
@@ -56254,6 +56257,52 @@
         "wires": [
             [
                 "68088e8c9c8a0e54"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "87169159e7ae701a",
+        "type": "api-current-state",
+        "z": "fd9cd80f14f860fe",
+        "g": "d3868dc5f4aa2d65",
+        "name": "lg webos smart tv is not off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is_not",
+        "entity_id": "media_player.lg_webos_smart_tv",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 1000,
+        "y": 360,
+        "wires": [
+            [
+                "edd4560b8748e246"
             ],
             []
         ]
