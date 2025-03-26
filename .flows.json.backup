@@ -21864,6 +21864,64 @@
         ]
     },
     {
+        "id": "477f45285e2eeb9d",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "name": "tvscreen turn off",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "webostv.command",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"entity_id\":\"media_player.lg_webos_smart_tv\",\"command\":\"com.webos.service.tvpower/power/turnOffScreen\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "webostv",
+        "service": "command",
+        "x": 380,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "79139c373b42241c",
+        "type": "inject",
+        "z": "39f5e6336137f4b2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 560,
+        "wires": [
+            [
+                "477f45285e2eeb9d"
+            ]
+        ]
+    },
+    {
         "id": "5bb7a42d4f9af661",
         "type": "template",
         "z": "2c496b90815e2d15",
@@ -34550,18 +34608,25 @@
         "version": 1,
         "rules": [
             {
+                "condition": "state_object",
                 "property": "entity_id",
                 "logic": "starts_with",
                 "value": "climate.",
-                "valueType": "str",
-                "condition": "state_object"
+                "valueType": "str"
             },
             {
+                "condition": "state_object",
                 "property": "attributes.preset_mode",
                 "logic": "is_not",
                 "value": "home",
-                "valueType": "str",
-                "condition": "state_object"
+                "valueType": "str"
+            },
+            {
+                "condition": "state_object",
+                "property": "attributes.manufacturer",
+                "logic": "is",
+                "value": "tado",
+                "valueType": "str"
             }
         ],
         "outputType": "split",
@@ -34644,6 +34709,69 @@
         "wires": [
             [
                 "195545448e386e6c"
+            ]
+        ]
+    },
+    {
+        "id": "30c9475c4ebcafa4",
+        "type": "ha-get-entities",
+        "z": "c0da8379.b0dd3",
+        "name": "lookup climate preset mode is not home",
+        "server": "4ba92433.2478cc",
+        "version": 1,
+        "rules": [
+            {
+                "condition": "state_object",
+                "property": "entity_id",
+                "logic": "starts_with",
+                "value": "climate.",
+                "valueType": "str"
+            },
+            {
+                "condition": "state_object",
+                "property": "attributes.preset_modes.1",
+                "logic": "is",
+                "value": "away",
+                "valueType": "str"
+            }
+        ],
+        "outputType": "split",
+        "outputEmptyResults": false,
+        "outputLocationType": "msg",
+        "outputLocation": "payload",
+        "outputResultsCount": 1,
+        "x": 540,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "33395dccfdc594dc",
+        "type": "inject",
+        "z": "c0da8379.b0dd3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 940,
+        "wires": [
+            [
+                "30c9475c4ebcafa4"
             ]
         ]
     },
@@ -55085,7 +55213,7 @@
         "blockInputOverrides": false,
         "domain": "input_select",
         "service": "select_option",
-        "x": 930,
+        "x": 970,
         "y": 1620,
         "wires": [
             []
@@ -55422,7 +55550,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 610,
+        "x": 650,
         "y": 1620,
         "wires": [
             [
@@ -55719,7 +55847,7 @@
         "y": 1620,
         "wires": [
             [
-                "1bea28fe624c37b2"
+                "2c145c15609bd2fb"
             ],
             []
         ]
@@ -56231,47 +56359,6 @@
         ]
     },
     {
-        "id": "1bea28fe624c37b2",
-        "type": "switch",
-        "z": "fd9cd80f14f860fe",
-        "name": "app name",
-        "property": "data.new_state.attributes.app_name",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "NLZIET",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "YouTube",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Videoland",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 340,
-        "y": 1620,
-        "wires": [
-            [
-                "68088e8c9c8a0e54"
-            ],
-            [
-                "68088e8c9c8a0e54"
-            ],
-            [
-                "68088e8c9c8a0e54"
-            ]
-        ]
-    },
-    {
         "id": "87169159e7ae701a",
         "type": "api-current-state",
         "z": "fd9cd80f14f860fe",
@@ -56315,6 +56402,31 @@
                 "edd4560b8748e246"
             ],
             []
+        ]
+    },
+    {
+        "id": "2c145c15609bd2fb",
+        "type": "switch",
+        "z": "fd9cd80f14f860fe",
+        "name": "content type is video",
+        "property": "data.new_state.attributes.media_content_type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "video",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 360,
+        "y": 1620,
+        "wires": [
+            [
+                "68088e8c9c8a0e54"
+            ]
         ]
     },
     {

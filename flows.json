@@ -21864,6 +21864,64 @@
         ]
     },
     {
+        "id": "477f45285e2eeb9d",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "name": "tvscreen turn off",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "webostv.command",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"entity_id\":\"media_player.lg_webos_smart_tv\",\"command\":\"com.webos.service.tvpower/power/turnOffScreen\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "webostv",
+        "service": "command",
+        "x": 380,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "79139c373b42241c",
+        "type": "inject",
+        "z": "39f5e6336137f4b2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 560,
+        "wires": [
+            [
+                "477f45285e2eeb9d"
+            ]
+        ]
+    },
+    {
         "id": "5bb7a42d4f9af661",
         "type": "template",
         "z": "2c496b90815e2d15",
@@ -34550,18 +34608,25 @@
         "version": 1,
         "rules": [
             {
+                "condition": "state_object",
                 "property": "entity_id",
                 "logic": "starts_with",
                 "value": "climate.",
-                "valueType": "str",
-                "condition": "state_object"
+                "valueType": "str"
             },
             {
+                "condition": "state_object",
                 "property": "attributes.preset_mode",
                 "logic": "is_not",
                 "value": "home",
-                "valueType": "str",
-                "condition": "state_object"
+                "valueType": "str"
+            },
+            {
+                "condition": "state_object",
+                "property": "attributes.preset_modes.1",
+                "logic": "is",
+                "value": "home",
+                "valueType": "str"
             }
         ],
         "outputType": "split",
