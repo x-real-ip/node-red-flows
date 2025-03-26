@@ -5542,7 +5542,7 @@
         "type": "junction",
         "z": "39f5e6336137f4b2",
         "x": 980,
-        "y": 160,
+        "y": 180,
         "wires": [
             [
                 "382a831c1568641b"
@@ -21517,7 +21517,7 @@
         "wires": [
             [
                 "d9540c933a60aec7",
-                "42cb99108eba09c0"
+                "d1a4424c0689b7dd"
             ],
             [
                 "f8003d1746659317"
@@ -21544,7 +21544,7 @@
         "to": "",
         "reg": false,
         "x": 680,
-        "y": 160,
+        "y": 180,
         "wires": [
             [
                 "4539dbe872caf169",
@@ -21626,8 +21626,8 @@
         "blockInputOverrides": false,
         "domain": "webostv",
         "service": "command",
-        "x": 680,
-        "y": 200,
+        "x": 980,
+        "y": 120,
         "wires": [
             []
         ]
@@ -21918,6 +21918,206 @@
         "wires": [
             [
                 "477f45285e2eeb9d"
+            ]
+        ]
+    },
+    {
+        "id": "86105a93204a6d78",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "name": "tvscreen turn on",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "webostv.command",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"entity_id\":\"media_player.lg_webos_smart_tv\",\"command\":\"com.webos.service.tvpower/power/turnOnScreen\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "webostv",
+        "service": "command",
+        "x": 380,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2809f19059ac9c84",
+        "type": "inject",
+        "z": "39f5e6336137f4b2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 620,
+        "wires": [
+            [
+                "86105a93204a6d78"
+            ]
+        ]
+    },
+    {
+        "id": "4d39e568861a30e3",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "name": "current state",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "webostv.command",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"entity_id\":\"media_player.lg_webos_smart_tv\",\"command\":\"com.webos.service.tvpower/power/getPowerState\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "state",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "results"
+            }
+        ],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "webostv",
+        "service": "command",
+        "x": 370,
+        "y": 680,
+        "wires": [
+            [
+                "7a3d612757328443"
+            ]
+        ]
+    },
+    {
+        "id": "f334ad64d86e9e13",
+        "type": "inject",
+        "z": "39f5e6336137f4b2",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "test",
+        "x": 150,
+        "y": 680,
+        "wires": [
+            [
+                "4d39e568861a30e3"
+            ]
+        ]
+    },
+    {
+        "id": "7a3d612757328443",
+        "type": "debug",
+        "z": "39f5e6336137f4b2",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "d1a4424c0689b7dd",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "name": "current tv state",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "webostv.command",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"entity_id\":\"media_player.lg_webos_smart_tv\",\"command\":\"com.webos.service.tvpower/power/getPowerState\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "state",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "results"
+            }
+        ],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "webostv",
+        "service": "command",
+        "x": 680,
+        "y": 120,
+        "wires": [
+            [
+                "ca5fb23a7b400cb2"
+            ]
+        ]
+    },
+    {
+        "id": "ca5fb23a7b400cb2",
+        "type": "switch",
+        "z": "39f5e6336137f4b2",
+        "name": "",
+        "property": "state[\"media_player.lg_webos_smart_tv\"].state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Screen Off",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 120,
+        "wires": [
+            [
+                "42cb99108eba09c0"
             ]
         ]
     },
@@ -34623,9 +34823,9 @@
             },
             {
                 "condition": "state_object",
-                "property": "attributes.manufacturer",
+                "property": "attributes.preset_modes.1",
                 "logic": "is",
-                "value": "tado",
+                "value": "home",
                 "valueType": "str"
             }
         ],
@@ -34709,69 +34909,6 @@
         "wires": [
             [
                 "195545448e386e6c"
-            ]
-        ]
-    },
-    {
-        "id": "30c9475c4ebcafa4",
-        "type": "ha-get-entities",
-        "z": "c0da8379.b0dd3",
-        "name": "lookup climate preset mode is not home",
-        "server": "4ba92433.2478cc",
-        "version": 1,
-        "rules": [
-            {
-                "condition": "state_object",
-                "property": "entity_id",
-                "logic": "starts_with",
-                "value": "climate.",
-                "valueType": "str"
-            },
-            {
-                "condition": "state_object",
-                "property": "attributes.preset_modes.1",
-                "logic": "is",
-                "value": "away",
-                "valueType": "str"
-            }
-        ],
-        "outputType": "split",
-        "outputEmptyResults": false,
-        "outputLocationType": "msg",
-        "outputLocation": "payload",
-        "outputResultsCount": 1,
-        "x": 540,
-        "y": 940,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "33395dccfdc594dc",
-        "type": "inject",
-        "z": "c0da8379.b0dd3",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 130,
-        "y": 940,
-        "wires": [
-            [
-                "30c9475c4ebcafa4"
             ]
         ]
     },

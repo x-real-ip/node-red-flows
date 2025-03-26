@@ -5542,7 +5542,7 @@
         "type": "junction",
         "z": "39f5e6336137f4b2",
         "x": 980,
-        "y": 160,
+        "y": 180,
         "wires": [
             [
                 "382a831c1568641b"
@@ -21517,7 +21517,7 @@
         "wires": [
             [
                 "d9540c933a60aec7",
-                "42cb99108eba09c0"
+                "d1a4424c0689b7dd"
             ],
             [
                 "f8003d1746659317"
@@ -21544,7 +21544,7 @@
         "to": "",
         "reg": false,
         "x": 680,
-        "y": 160,
+        "y": 180,
         "wires": [
             [
                 "4539dbe872caf169",
@@ -21626,8 +21626,8 @@
         "blockInputOverrides": false,
         "domain": "webostv",
         "service": "command",
-        "x": 680,
-        "y": 200,
+        "x": 980,
+        "y": 120,
         "wires": [
             []
         ]
@@ -21864,10 +21864,10 @@
         ]
     },
     {
-        "id": "477f45285e2eeb9d",
+        "id": "d1a4424c0689b7dd",
         "type": "api-call-service",
         "z": "39f5e6336137f4b2",
-        "name": "tvscreen turn off",
+        "name": "current tv state",
         "server": "4ba92433.2478cc",
         "version": 7,
         "debugenabled": false,
@@ -21877,47 +21877,52 @@
         "deviceId": [],
         "entityId": [],
         "labelId": [],
-        "data": "{\"entity_id\":\"media_player.lg_webos_smart_tv\",\"command\":\"com.webos.service.tvpower/power/turnOffScreen\"}",
+        "data": "{\"entity_id\":\"media_player.lg_webos_smart_tv\",\"command\":\"com.webos.service.tvpower/power/getPowerState\"}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
-        "outputProperties": [],
+        "outputProperties": [
+            {
+                "property": "state",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "results"
+            }
+        ],
         "queue": "none",
-        "blockInputOverrides": false,
+        "blockInputOverrides": true,
         "domain": "webostv",
         "service": "command",
-        "x": 380,
-        "y": 560,
+        "x": 680,
+        "y": 120,
         "wires": [
-            []
+            [
+                "ca5fb23a7b400cb2"
+            ]
         ]
     },
     {
-        "id": "79139c373b42241c",
-        "type": "inject",
+        "id": "ca5fb23a7b400cb2",
+        "type": "switch",
         "z": "39f5e6336137f4b2",
         "name": "",
-        "props": [
+        "property": "state[\"media_player.lg_webos_smart_tv\"].state",
+        "propertyType": "msg",
+        "rules": [
             {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
+                "t": "eq",
+                "v": "Screen Off",
                 "vt": "str"
             }
         ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 150,
-        "y": 560,
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 120,
         "wires": [
             [
-                "477f45285e2eeb9d"
+                "42cb99108eba09c0"
             ]
         ]
     },
