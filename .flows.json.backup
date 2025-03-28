@@ -21864,201 +21864,6 @@
         ]
     },
     {
-        "id": "477f45285e2eeb9d",
-        "type": "api-call-service",
-        "z": "39f5e6336137f4b2",
-        "name": "tvscreen turn off",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "webostv.command",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"entity_id\":\"media_player.lg_webos_smart_tv\",\"command\":\"com.webos.service.tvpower/power/turnOffScreen\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "webostv",
-        "service": "command",
-        "x": 380,
-        "y": 560,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "79139c373b42241c",
-        "type": "inject",
-        "z": "39f5e6336137f4b2",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 150,
-        "y": 560,
-        "wires": [
-            [
-                "477f45285e2eeb9d"
-            ]
-        ]
-    },
-    {
-        "id": "86105a93204a6d78",
-        "type": "api-call-service",
-        "z": "39f5e6336137f4b2",
-        "name": "tvscreen turn on",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "webostv.command",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"entity_id\":\"media_player.lg_webos_smart_tv\",\"command\":\"com.webos.service.tvpower/power/turnOnScreen\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "webostv",
-        "service": "command",
-        "x": 380,
-        "y": 620,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2809f19059ac9c84",
-        "type": "inject",
-        "z": "39f5e6336137f4b2",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 140,
-        "y": 620,
-        "wires": [
-            [
-                "86105a93204a6d78"
-            ]
-        ]
-    },
-    {
-        "id": "4d39e568861a30e3",
-        "type": "api-call-service",
-        "z": "39f5e6336137f4b2",
-        "name": "current state",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "webostv.command",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"entity_id\":\"media_player.lg_webos_smart_tv\",\"command\":\"com.webos.service.tvpower/power/getPowerState\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [
-            {
-                "property": "state",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "results"
-            }
-        ],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "webostv",
-        "service": "command",
-        "x": 370,
-        "y": 680,
-        "wires": [
-            [
-                "7a3d612757328443"
-            ]
-        ]
-    },
-    {
-        "id": "f334ad64d86e9e13",
-        "type": "inject",
-        "z": "39f5e6336137f4b2",
-        "name": "",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "test",
-        "x": 150,
-        "y": 680,
-        "wires": [
-            [
-                "4d39e568861a30e3"
-            ]
-        ]
-    },
-    {
-        "id": "7a3d612757328443",
-        "type": "debug",
-        "z": "39f5e6336137f4b2",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 640,
-        "y": 680,
-        "wires": []
-    },
-    {
         "id": "d1a4424c0689b7dd",
         "type": "api-call-service",
         "z": "39f5e6336137f4b2",
@@ -36600,14 +36405,23 @@
         "version": 1,
         "rules": [
             {
+                "condition": "state_object",
                 "property": "entity_id",
                 "logic": "starts_with",
                 "value": "climate.",
                 "valueType": "str"
             },
             {
+                "condition": "state_object",
                 "property": "state",
                 "logic": "is_not",
+                "value": "auto",
+                "valueType": "str"
+            },
+            {
+                "condition": "state_object",
+                "property": "attributes.hvac_modes.2",
+                "logic": "is",
                 "value": "auto",
                 "valueType": "str"
             }

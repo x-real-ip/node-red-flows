@@ -35986,14 +35986,23 @@
         "version": 1,
         "rules": [
             {
+                "condition": "state_object",
                 "property": "entity_id",
                 "logic": "starts_with",
                 "value": "climate.",
                 "valueType": "str"
             },
             {
+                "condition": "state_object",
                 "property": "state",
                 "logic": "is_not",
+                "value": "auto",
+                "valueType": "str"
+            },
+            {
+                "condition": "state_object",
+                "property": "attributes.hvac_modes.2",
+                "logic": "is",
                 "value": "auto",
                 "valueType": "str"
             }
@@ -36405,14 +36414,23 @@
         "version": 1,
         "rules": [
             {
+                "condition": "state_object",
                 "property": "entity_id",
                 "logic": "starts_with",
                 "value": "climate.",
                 "valueType": "str"
             },
             {
+                "condition": "state_object",
                 "property": "state",
                 "logic": "is_not",
+                "value": "auto",
+                "valueType": "str"
+            },
+            {
+                "condition": "state_object",
+                "property": "attributes.hvac_modes.2",
+                "logic": "is",
                 "value": "auto",
                 "valueType": "str"
             }
