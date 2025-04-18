@@ -26848,7 +26848,7 @@
         "y": 380,
         "wires": [
             [
-                "04792e2be9d492bd"
+                "7bb626db9932d5ed"
             ]
         ]
     },
@@ -27112,7 +27112,7 @@
         "blockInputOverrides": false,
         "domain": "notify",
         "service": "lg_webos_smart_tv",
-        "x": 380,
+        "x": 540,
         "y": 380,
         "wires": [
             []
@@ -27275,6 +27275,38 @@
             [
                 "cf256ece81c0faee"
             ]
+        ]
+    },
+    {
+        "id": "7bb626db9932d5ed",
+        "type": "api-current-state",
+        "z": "343515a5528e14f0",
+        "name": "tv is on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is_not",
+        "entity_id": "media_player.lg_webos_smart_tv",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 380,
+        "y": 380,
+        "wires": [
+            [
+                "04792e2be9d492bd"
+            ],
+            []
         ]
     },
     {
