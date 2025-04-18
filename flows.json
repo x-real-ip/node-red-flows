@@ -50783,9 +50783,17 @@
         "z": "078d23a542369ebe",
         "g": "44cefb5f26188041",
         "name": "",
-        "scope": null,
+        "scope": [
+            "3905cfef0361c276",
+            "c054e6f474b4191e",
+            "9dd84bc036be6c85",
+            "daac1efc716c9aa2",
+            "7ee0608b0362347d",
+            "462935c54d978b2f",
+            "c63b94a1bcddb5f9"
+        ],
         "uncaught": false,
-        "x": 100,
+        "x": 90,
         "y": 80,
         "wires": [
             [
@@ -58951,7 +58959,7 @@
         "wires": [
             [
                 "382a831c1568641b",
-                "18cdd9064f4a7ab9"
+                "b3f587190264a6a8"
             ]
         ]
     },
@@ -59010,7 +59018,7 @@
         "blockInputOverrides": false,
         "domain": "notify",
         "service": "lg_webos_smart_tv",
-        "x": 1280,
+        "x": 1380,
         "y": 320,
         "wires": [
             []
@@ -59316,7 +59324,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1150,
+        "x": 1250,
         "y": 320,
         "wires": [
             [
@@ -59354,12 +59362,44 @@
         "blockInputOverrides": true,
         "domain": "webostv",
         "service": "command",
-        "x": 1000,
+        "x": 1100,
         "y": 320,
         "wires": [
             [
                 "54e3e2b794b71880"
             ]
+        ]
+    },
+    {
+        "id": "b3f587190264a6a8",
+        "type": "api-current-state",
+        "z": "39f5e6336137f4b2",
+        "name": "tv is on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is_not",
+        "entity_id": "media_player.lg_webos_smart_tv",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 940,
+        "y": 320,
+        "wires": [
+            [
+                "18cdd9064f4a7ab9"
+            ],
+            []
         ]
     }
 ]
