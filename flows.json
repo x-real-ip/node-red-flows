@@ -36721,7 +36721,7 @@
         "deviceId": [],
         "entityId": [],
         "labelId": [],
-        "data": "{\"entity_id\":\"sensor_speedtest_download\"}",
+        "data": "{\"entity_id\":\"sensor.speedtest_download\"}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
