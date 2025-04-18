@@ -1698,8 +1698,8 @@
             "eaec84df6f30a9ec",
             "1414f6788bc8c787"
         ],
-        "x": 1314,
-        "y": 119,
+        "x": 1934,
+        "y": 79,
         "w": 472,
         "h": 162
     },
@@ -5152,8 +5152,8 @@
         "type": "junction",
         "z": "d5421f8d.f7208",
         "g": "f236f0a913f70054",
-        "x": 1340,
-        "y": 200,
+        "x": 1960,
+        "y": 160,
         "wires": [
             [
                 "4b276bf7ef0c3217",
@@ -6124,6 +6124,18 @@
         ]
     },
     {
+        "id": "cf3165dc8b9966df",
+        "type": "junction",
+        "z": "d5421f8d.f7208",
+        "x": 1200,
+        "y": 200,
+        "wires": [
+            [
+                "7ccb7ced4e8c8a8f"
+            ]
+        ]
+    },
+    {
         "id": "36dee637778341ba",
         "type": "mqtt-broker",
         "name": "",
@@ -7050,6 +7062,39 @@
             {
                 "property": "state_class",
                 "value": ""
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "fcb1f1df3e876534",
+        "type": "ha-entity-config",
+        "server": "4ba92433.2478cc",
+        "deviceConfig": "",
+        "name": "open_windows_first_floor",
+        "version": 6,
+        "entityType": "binary_sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "open_windows_first_floor"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": ""
+            },
+            {
+                "property": "device_class",
+                "value": "window"
             }
         ],
         "resend": false,
@@ -27321,8 +27366,8 @@
         "syntax": "mustache",
         "template": "",
         "output": "str",
-        "x": 1490,
-        "y": 240,
+        "x": 2110,
+        "y": 200,
         "wires": [
             [
                 "6858101eee61155a"
@@ -27341,8 +27386,8 @@
         "syntax": "mustache",
         "template": "Ventilatie",
         "output": "str",
-        "x": 1490,
-        "y": 160,
+        "x": 2110,
+        "y": 120,
         "wires": [
             [
                 "6858101eee61155a"
@@ -27360,8 +27405,8 @@
             "8ed3b0974336e55b",
             "aeee8468f3d1b7ad"
         ],
-        "x": 1745,
-        "y": 200,
+        "x": 2365,
+        "y": 160,
         "wires": []
     },
     {
@@ -27385,8 +27430,8 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1650,
-        "y": 200,
+        "x": 2270,
+        "y": 160,
         "wires": [
             [
                 "ef18c5c2564a7e77"
@@ -27403,10 +27448,10 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "Open de ramen boven om het in huis af te laten koelen, boven is de gemiddelde temperatuur {{payload}} ℃ Buiten is de temperatuur {{buienradar_temperature}} ℃.",
+        "template": "Open de ramen boven om het in huis af te laten koelen, boven is de gemiddelde temperatuur {{payload}} ℃ Buiten is de temperatuur {{outdoor_temperature}} ℃.",
         "output": "str",
-        "x": 1500,
-        "y": 200,
+        "x": 2120,
+        "y": 160,
         "wires": [
             [
                 "6858101eee61155a",
@@ -27434,31 +27479,6 @@
         ]
     },
     {
-        "id": "eb9d5e14.c47ca",
-        "type": "switch",
-        "z": "d5421f8d.f7208",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gt",
-                "v": "23",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1010,
-        "y": 160,
-        "wires": [
-            [
-                "b108409c.24dae"
-            ]
-        ]
-    },
-    {
         "id": "2bd65702.c33608",
         "type": "comment",
         "z": "d5421f8d.f7208",
@@ -27479,8 +27499,8 @@
         "syntax": "mustache",
         "template": "{{notify.message}}",
         "output": "str",
-        "x": 1700,
-        "y": 320,
+        "x": 2320,
+        "y": 300,
         "wires": [
             [
                 "f8309ac281f2719d"
@@ -27496,8 +27516,8 @@
         "links": [
             "60e14e33a793f50d"
         ],
-        "x": 1785,
-        "y": 520,
+        "x": 2405,
+        "y": 500,
         "wires": []
     },
     {
@@ -27511,8 +27531,8 @@
         "syntax": "mustache",
         "template": "info",
         "output": "str",
-        "x": 1710,
-        "y": 480,
+        "x": 2330,
+        "y": 460,
         "wires": [
             [
                 "ea6a2fd58eb54515"
@@ -27530,8 +27550,8 @@
         "syntax": "mustache",
         "template": "ventilation",
         "output": "str",
-        "x": 1750,
-        "y": 440,
+        "x": 2370,
+        "y": 420,
         "wires": [
             [
                 "71065c3b1d663fa4"
@@ -27549,8 +27569,8 @@
         "syntax": "mustache",
         "template": "mdi:weather-windy",
         "output": "str",
-        "x": 1750,
-        "y": 400,
+        "x": 2370,
+        "y": 380,
         "wires": [
             [
                 "e0444f34bbc35ff2"
@@ -27568,8 +27588,8 @@
         "syntax": "mustache",
         "template": "Ventilatie",
         "output": "str",
-        "x": 1710,
-        "y": 360,
+        "x": 2330,
+        "y": 340,
         "wires": [
             [
                 "41d591f22c238a15"
@@ -27615,6 +27635,7 @@
         "key": "topic",
         "joiner": "\\n",
         "joinerType": "str",
+        "useparts": true,
         "accumulate": false,
         "timeout": "",
         "count": "4",
@@ -27648,7 +27669,7 @@
         "y": 160,
         "wires": [
             [
-                "eb9d5e14.c47ca"
+                "b108409c.24dae"
             ]
         ]
     },
@@ -27663,33 +27684,29 @@
         "halt_if": "payload",
         "halt_if_type": "msg",
         "halt_if_compare": "lt",
-        "entity_id": "sensor.buienradar_temperature",
+        "entity_id": "sensor.weather_station_temperature",
         "state_type": "num",
         "blockInputOverrides": true,
         "outputProperties": [
             {
-                "property": "buienradar_temperature",
+                "property": "outdoor_temperature",
                 "propertyType": "msg",
                 "value": "",
                 "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
             }
         ],
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 1180,
+        "x": 1060,
         "y": 160,
         "wires": [
             [
-                "eaec84df6f30a9ec"
+                "eb9d5e14.c47ca"
             ],
-            []
+            [
+                "cf3165dc8b9966df"
+            ]
         ]
     },
     {
@@ -27716,7 +27733,7 @@
             },
             {
                 "condition": "state_object",
-                "property": "attributes.hvac_modes.2",
+                "property": "attributes.preset_modes.2",
                 "logic": "is",
                 "value": "auto",
                 "valueType": "str"
@@ -27823,6 +27840,228 @@
             [
                 "588232826fe1cb16"
             ]
+        ]
+    },
+    {
+        "id": "df70cff3025ef76a",
+        "type": "debug",
+        "z": "d5421f8d.f7208",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1220,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "a97a74772300989a",
+        "type": "ha-binary-sensor",
+        "z": "d5421f8d.f7208",
+        "name": "open_windows_first_floor",
+        "entityConfig": "fcb1f1df3e876534",
+        "version": 0,
+        "state": "sensor_state",
+        "stateType": "msg",
+        "attributes": [
+            {
+                "property": "outdoor_temperature",
+                "value": "outdoor_temperature",
+                "valueType": "msg"
+            },
+            {
+                "property": "first_floor_avarage_temperature",
+                "value": "payload",
+                "valueType": "msg"
+            }
+        ],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 1750,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7e5b4ee3467aee37",
+        "type": "change",
+        "z": "d5421f8d.f7208",
+        "name": "on",
+        "rules": [
+            {
+                "t": "set",
+                "p": "sensor_state",
+                "pt": "msg",
+                "to": "on",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1550,
+        "y": 140,
+        "wires": [
+            [
+                "eaec84df6f30a9ec",
+                "a97a74772300989a"
+            ]
+        ]
+    },
+    {
+        "id": "04165617d82c8ab8",
+        "type": "change",
+        "z": "d5421f8d.f7208",
+        "name": "off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "sensor_state",
+                "pt": "msg",
+                "to": "off",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1550,
+        "y": 200,
+        "wires": [
+            [
+                "a97a74772300989a"
+            ]
+        ]
+    },
+    {
+        "id": "eb9d5e14.c47ca",
+        "type": "switch",
+        "z": "d5421f8d.f7208",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "23",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1250,
+        "y": 140,
+        "wires": [
+            [
+                "266f76029289adb0"
+            ],
+            [
+                "7ccb7ced4e8c8a8f"
+            ]
+        ]
+    },
+    {
+        "id": "266f76029289adb0",
+        "type": "api-current-state",
+        "z": "d5421f8d.f7208",
+        "name": "sensor is off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "binary_sensor.open_windows_first_floor",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 1410,
+        "y": 140,
+        "wires": [
+            [
+                "7e5b4ee3467aee37"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7ccb7ced4e8c8a8f",
+        "type": "api-current-state",
+        "z": "d5421f8d.f7208",
+        "name": "sensor is on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "on",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "binary_sensor.open_windows_first_floor",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 1410,
+        "y": 200,
+        "wires": [
+            [
+                "04165617d82c8ab8"
+            ],
+            []
         ]
     },
     {
@@ -59018,7 +59257,7 @@
         "blockInputOverrides": false,
         "domain": "notify",
         "service": "lg_webos_smart_tv",
-        "x": 1420,
+        "x": 1380,
         "y": 320,
         "wires": [
             []
@@ -59324,7 +59563,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1290,
+        "x": 1250,
         "y": 320,
         "wires": [
             [
@@ -59362,7 +59601,7 @@
         "blockInputOverrides": true,
         "domain": "webostv",
         "service": "command",
-        "x": 1140,
+        "x": 1100,
         "y": 320,
         "wires": [
             [
