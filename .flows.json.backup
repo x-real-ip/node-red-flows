@@ -45681,20 +45681,7 @@
         "entity_id": "input_boolean.home_security",
         "state_type": "str",
         "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
+        "outputProperties": [],
         "for": "0",
         "forType": "num",
         "forUnits": "minutes",
@@ -45709,7 +45696,10 @@
             [
                 "0253bf8368a2a006"
             ],
-            []
+            [
+                "0253bf8368a2a006",
+                "c1c09c612199daf3"
+            ]
         ]
     },
     {
@@ -45717,14 +45707,14 @@
         "type": "function",
         "z": "fb7b362cbc47e439",
         "name": "create service call",
-        "func": "msg.payload = {\n    \"action\": \"notify.mobile_app_phone_coen\",\n    \"data\": {\n        \"message\": \"Er is een persoon in de achtertuin gedetecteerd\",\n        \"data\": {\n            \"image\": \"https://home-assistant.theautomation.nl/api/frigate/notifications/\" + msg.payload.after.id + \"/thumbnail.jpg?format=android\",\n            \"tag\": msg.payload.after.id,\n            \"when\": msg.payload.after.start_time,\n            \"clickAction\": \"/dashboard-mobile/camera\",\n            \"channel\": \"Warning\",\n            \"importance\": \"high\"\n        }\n    }\n};\nreturn msg;",
+        "func": "msg.payload = {\n    \"action\": \"notify.mobile_app_phone_coen\",\n    \"data\": {\n        \"message\": \"Er is een persoon in de achtertuin gedetecteerd\",\n        \"data\": {\n            \"image\": \"https://home-assistant.stamx.nl/api/frigate/notifications/\" + msg.payload.after.id + \"/thumbnail.jpg?format=android\",\n            \"tag\": msg.payload.after.id,\n            \"when\": msg.payload.after.start_time,\n            \"clickAction\": \"/dashboard-mobile/camera\",\n            \"channel\": \"Warning\",\n            \"importance\": \"high\"\n        }\n    }\n};\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
+        "x": 450,
         "y": 160,
         "wires": [
             [
@@ -45835,6 +45825,48 @@
         "x": 1850,
         "y": 440,
         "wires": []
+    },
+    {
+        "id": "c1c09c612199daf3",
+        "type": "debug",
+        "z": "fb7b362cbc47e439",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1460,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "5ab2f90a8d9fa2b2",
+        "type": "inject",
+        "z": "fb7b362cbc47e439",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"before\":{\"id\":\"1745002745.665682-hgxws0\",\"camera\":\"backyard\",\"frame_time\":1745002756.457115,\"snapshot\":{\"frame_time\":1745002754.671369,\"box\":[485,192,667,578],\"area\":70252,\"region\":[354,131,866,643],\"score\":0.82421875,\"attributes\":[]},\"label\":\"person\",\"sub_label\":null,\"top_score\":0.83203125,\"false_positive\":false,\"start_time\":1745002745.665682,\"end_time\":null,\"score\":0.84375,\"box\":[306,174,411,543],\"area\":38745,\"ratio\":0.2845528455284553,\"region\":[149,121,637,609],\"active\":true,\"stationary\":false,\"motionless_count\":1,\"position_changes\":1,\"current_zones\":[],\"entered_zones\":[],\"has_clip\":true,\"has_snapshot\":true,\"attributes\":{},\"current_attributes\":[],\"pending_loitering\":false,\"max_severity\":\"alert\"},\"after\":{\"id\":\"1745002745.665682-hgxws0\",\"camera\":\"backyard\",\"frame_time\":1745002759.694495,\"snapshot\":{\"frame_time\":1745002754.671369,\"box\":[485,192,667,578],\"area\":70252,\"region\":[354,131,866,643],\"score\":0.82421875,\"attributes\":[]},\"label\":\"person\",\"sub_label\":null,\"top_score\":0.833984375,\"false_positive\":false,\"start_time\":1745002745.665682,\"end_time\":1745002764.835131,\"score\":0.55859375,\"box\":[28,378,74,534],\"area\":7176,\"ratio\":0.2948717948717949,\"region\":[0,298,320,618],\"active\":true,\"stationary\":false,\"motionless_count\":1,\"position_changes\":1,\"current_zones\":[],\"entered_zones\":[],\"has_clip\":true,\"has_snapshot\":true,\"attributes\":{},\"current_attributes\":[],\"pending_loitering\":false,\"max_severity\":\"alert\"},\"type\":\"end\"}",
+        "payloadType": "json",
+        "x": 990,
+        "y": 480,
+        "wires": [
+            [
+                "ad94f6ee3b085ef4"
+            ]
+        ]
     },
     {
         "id": "a42a1f5ee71e92aa",
@@ -53487,6 +53519,7 @@
         "version": 1,
         "rules": [
             {
+                "condition": "state_object",
                 "property": "entity_id",
                 "logic": "is",
                 "value": "input_select.climate_graph_*",

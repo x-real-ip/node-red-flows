@@ -45431,9 +45431,7 @@
         "x": 1810,
         "y": 280,
         "wires": [
-            [
-                "234470972d431dc0"
-            ]
+            []
         ]
     },
     {
@@ -45681,20 +45679,7 @@
         "entity_id": "input_boolean.home_security",
         "state_type": "str",
         "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
+        "outputProperties": [],
         "for": "0",
         "forType": "num",
         "forUnits": "minutes",
@@ -45717,14 +45702,14 @@
         "type": "function",
         "z": "fb7b362cbc47e439",
         "name": "create service call",
-        "func": "msg.payload = {\n    \"action\": \"notify.mobile_app_phone_coen\",\n    \"data\": {\n        \"message\": \"Er is een persoon in de achtertuin gedetecteerd\",\n        \"data\": {\n            \"image\": \"https://home-assistant.theautomation.nl/api/frigate/notifications/\" + msg.payload.after.id + \"/thumbnail.jpg?format=android\",\n            \"tag\": msg.payload.after.id,\n            \"when\": msg.payload.after.start_time,\n            \"clickAction\": \"/dashboard-mobile/camera\",\n            \"channel\": \"Warning\",\n            \"importance\": \"high\"\n        }\n    }\n};\nreturn msg;",
+        "func": "msg.payload = {\n    \"action\": \"notify.mobile_app_phone_coen\",\n    \"data\": {\n        \"message\": \"Er is een persoon in de achtertuin gedetecteerd\",\n        \"data\": {\n            \"image\": \"https://home-assistant.stamx.nl/api/frigate/notifications/\" + msg.payload.after.id + \"/thumbnail.jpg?format=android\",\n            \"tag\": msg.payload.after.id,\n            \"when\": msg.payload.after.start_time,\n            \"clickAction\": \"/dashboard-mobile/camera\",\n            \"channel\": \"Warning\",\n            \"importance\": \"high\"\n        }\n    }\n};\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
+        "x": 450,
         "y": 160,
         "wires": [
             [
@@ -45818,23 +45803,6 @@
                 "ad94f6ee3b085ef4"
             ]
         ]
-    },
-    {
-        "id": "234470972d431dc0",
-        "type": "debug",
-        "z": "fb7b362cbc47e439",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1850,
-        "y": 440,
-        "wires": []
     },
     {
         "id": "a42a1f5ee71e92aa",
