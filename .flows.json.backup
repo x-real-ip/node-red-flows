@@ -45218,7 +45218,8 @@
             [
                 "235e9df273240d1f"
             ]
-        ]
+        ],
+        "info": "Pass lights that is not in the excluded lights list thru otherwise"
     },
     {
         "id": "a071d767e756b024",
@@ -60480,7 +60481,7 @@
             "d1753081ba6b4004"
         ],
         "x": 2385,
-        "y": 440,
+        "y": 460,
         "wires": []
     },
     {
@@ -60520,7 +60521,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 2250,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
                 "91c7732091601e1b"
