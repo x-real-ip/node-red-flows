@@ -27367,7 +27367,7 @@
         "server": "4ba92433.2478cc",
         "version": 7,
         "debugenabled": false,
-        "action": "notify.mobile_app_phone_anne",
+        "action": "notify.mobile_app_phone_anne_pixel",
         "floorId": [],
         "areaId": [],
         "deviceId": [],
@@ -27381,7 +27381,7 @@
         "queue": "none",
         "blockInputOverrides": false,
         "domain": "notify",
-        "service": "mobile_app_phone_anne",
+        "service": "mobile_app_phone_anne_pixel",
         "x": 420,
         "y": 800,
         "wires": [
