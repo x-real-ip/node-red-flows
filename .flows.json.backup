@@ -899,7 +899,7 @@
     {
         "id": "a073f9861eebac1b",
         "type": "tab",
-        "label": "_automation_switch_turn_off_doorbell_beau_asleep",
+        "label": "_automation_switch_turn_on_off_doorbell_beau_asleep",
         "disabled": false,
         "info": "",
         "env": []
@@ -11974,7 +11974,8 @@
         "y": 160,
         "wires": [
             [
-                "56356fe965332f8d"
+                "56356fe965332f8d",
+                "8cf98e9e8b5d399b"
             ]
         ]
     },
@@ -12129,7 +12130,8 @@
         "y": 220,
         "wires": [
             [
-                "d43d88240c721b6f"
+                "d43d88240c721b6f",
+                "8cf98e9e8b5d399b"
             ]
         ]
     },
@@ -12144,6 +12146,23 @@
         ],
         "x": 455,
         "y": 220,
+        "wires": []
+    },
+    {
+        "id": "8cf98e9e8b5d399b",
+        "type": "debug",
+        "z": "e846a5a705a12fe6",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 590,
+        "y": 420,
         "wires": []
     },
     {
@@ -53276,7 +53295,7 @@
         "type": "subflow:9035787f55f7c373",
         "z": "3087db0b32ceb4d4",
         "name": "",
-        "x": 850,
+        "x": 1030,
         "y": 180,
         "wires": [
             []
@@ -53298,7 +53317,7 @@
         "y": 180,
         "wires": [
             [
-                "4664a201c231dfc4"
+                "aaf066a5c68576fa"
             ]
         ]
     },
@@ -53318,7 +53337,7 @@
         "y": 300,
         "wires": [
             [
-                "4664a201c231dfc4"
+                "aaf066a5c68576fa"
             ]
         ]
     },
@@ -53345,10 +53364,12 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 760,
-        "y": 460,
+        "x": 860,
+        "y": 180,
         "wires": [
-            [],
+            [
+                "4664a201c231dfc4"
+            ],
             []
         ]
     },
@@ -59703,7 +59724,7 @@
         "endTime": "23:00",
         "startOffset": 0,
         "endOffset": "",
-        "x": 530,
+        "x": 370,
         "y": 380,
         "wires": [
             [
@@ -59751,7 +59772,7 @@
         "y": 380,
         "wires": [
             [
-                "6b5baac931e24083"
+                "cadb1ef2934448cb"
             ]
         ]
     },
@@ -59801,7 +59822,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 870,
+        "x": 710,
         "y": 380,
         "wires": [
             [
@@ -59809,29 +59830,6 @@
             ],
             [
                 "97195979652db73b"
-            ]
-        ]
-    },
-    {
-        "id": "6b5baac931e24083",
-        "type": "switch",
-        "z": "a073f9861eebac1b",
-        "name": "has snapshot",
-        "property": "payload.after.has_snapshot",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 370,
-        "y": 380,
-        "wires": [
-            [
-                "cadb1ef2934448cb"
             ]
         ]
     },
@@ -60329,7 +60327,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 700,
+        "x": 540,
         "y": 380,
         "wires": [
             [
