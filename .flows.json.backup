@@ -159,14 +159,6 @@
         "env": []
     },
     {
-        "id": "d9b05fe971d5c1b1",
-        "type": "tab",
-        "label": "trigger_calendar_event_on_babysitter",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "e846a5a705a12fe6",
         "type": "tab",
         "label": "trigger_camera_person_detection",
@@ -913,6 +905,14 @@
         "env": []
     },
     {
+        "id": "d9b05fe971d5c1b1",
+        "type": "tab",
+        "label": "_automation_switch_turn_on_guest_mode_calendar_event",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "dbca868556b8a1c3",
         "type": "subflow",
         "name": "light_turn_off",
@@ -1323,13 +1323,12 @@
             "c6f3f4b2b46ffb4e",
             "976de9be5916cb4b",
             "b36f1d0dfd83653c",
-            "01112a435413374c",
             "728c75b797b416a5"
         ],
         "x": 1854,
         "y": 139,
-        "w": 422,
-        "h": 242
+        "w": 442,
+        "h": 202
     },
     {
         "id": "bd6a21379a46d377",
@@ -1529,7 +1528,7 @@
         ],
         "x": 1614,
         "y": 379,
-        "w": 412,
+        "w": 442,
         "h": 202
     },
     {
@@ -1547,12 +1546,13 @@
             "cfbc58f0de8fb24f",
             "685ac1f9d97aa2a9",
             "f6739c6be49dd463",
-            "887d3f0b3fca1ef1"
+            "887d3f0b3fca1ef1",
+            "3fd22ff1d39dc1e6"
         ],
         "x": 1614,
         "y": 159,
-        "w": 412,
-        "h": 202
+        "w": 442,
+        "h": 242
     },
     {
         "id": "a36a86d8bb45f3d4",
@@ -1572,8 +1572,8 @@
             "dfc54bd82a16e190"
         ],
         "x": 1614,
-        "y": 599,
-        "w": 412,
+        "y": 679,
+        "w": 452,
         "h": 202
     },
     {
@@ -5036,7 +5036,6 @@
                 "ddcda02e8d44e679",
                 "40cce72d78ddf2ba",
                 "976de9be5916cb4b",
-                "01112a435413374c",
                 "728c75b797b416a5"
             ]
         ]
@@ -5146,7 +5145,8 @@
                 "8d49d5b0a77fe3fa",
                 "41bff044d8ff0723",
                 "f6739c6be49dd463",
-                "887d3f0b3fca1ef1"
+                "887d3f0b3fca1ef1",
+                "3fd22ff1d39dc1e6"
             ]
         ]
     },
@@ -5156,7 +5156,7 @@
         "z": "65351372f52f2e2d",
         "g": "a36a86d8bb45f3d4",
         "x": 1640,
-        "y": 680,
+        "y": 760,
         "wires": [
             [
                 "6a5f068bc90a5bea",
@@ -11897,238 +11897,6 @@
         ]
     },
     {
-        "id": "1e22588bbe63c367",
-        "type": "comment",
-        "z": "d9b05fe971d5c1b1",
-        "name": "trigger when an event is found in babysitter calendar",
-        "info": "",
-        "x": 210,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "d2c560378b1b926b",
-        "type": "server-state-changed",
-        "z": "d9b05fe971d5c1b1",
-        "name": "babysitter calendar event ",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "calendar.lise_babysitter"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "on",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 130,
-        "y": 160,
-        "wires": [
-            [
-                "e787939d2bae52df"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "daacb8ae6b24ed5b",
-        "type": "server-state-changed",
-        "z": "d9b05fe971d5c1b1",
-        "name": "babysitter calendar event ",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "calendar.beau_babysitter"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "on",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 130,
-        "y": 220,
-        "wires": [
-            [
-                "e787939d2bae52df"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "e787939d2bae52df",
-        "type": "link out",
-        "z": "d9b05fe971d5c1b1",
-        "name": "trigger_calendar_babysitter",
-        "mode": "link",
-        "links": [
-            "0adb679d772d8e29"
-        ],
-        "x": 295,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "85f675ee7a30451c",
-        "type": "catch",
-        "z": "d9b05fe971d5c1b1",
-        "g": "fe14b17143d5f305",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "3551969ed0c1e37a"
-            ]
-        ]
-    },
-    {
-        "id": "3551969ed0c1e37a",
-        "type": "template",
-        "z": "d9b05fe971d5c1b1",
-        "g": "fe14b17143d5f305",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "6149bb5f8eb1e0d7"
-            ]
-        ]
-    },
-    {
-        "id": "337ef9e6426bf90b",
-        "type": "link out",
-        "z": "d9b05fe971d5c1b1",
-        "g": "fe14b17143d5f305",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 675,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "6149bb5f8eb1e0d7",
-        "type": "template",
-        "z": "d9b05fe971d5c1b1",
-        "g": "fe14b17143d5f305",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "418ebf3d342bb9b0"
-            ]
-        ]
-    },
-    {
-        "id": "418ebf3d342bb9b0",
-        "type": "function",
-        "z": "d9b05fe971d5c1b1",
-        "g": "fe14b17143d5f305",
-        "name": "notify.notification_id",
-        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 550,
-        "y": 80,
-        "wires": [
-            [
-                "337ef9e6426bf90b"
-            ]
-        ]
-    },
-    {
         "id": "9b81c86e034b8b9b",
         "type": "comment",
         "z": "e846a5a705a12fe6",
@@ -15578,7 +15346,7 @@
         "template": "mechanical_ventilation_bathroom",
         "output": "str",
         "x": 1990,
-        "y": 340,
+        "y": 300,
         "wires": [
             [
                 "017eba9ce6de6486"
@@ -15641,14 +15409,14 @@
         "useparts": true,
         "accumulate": false,
         "timeout": "",
-        "count": "6",
+        "count": "5",
         "reduceRight": false,
         "reduceExp": "",
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 2150,
-        "y": 200,
+        "x": 2170,
+        "y": 240,
         "wires": [
             [
                 "b36f1d0dfd83653c"
@@ -15685,29 +15453,9 @@
         "links": [
             "8ed3b0974336e55b"
         ],
-        "x": 2235,
-        "y": 200,
+        "x": 2255,
+        "y": 240,
         "wires": []
-    },
-    {
-        "id": "01112a435413374c",
-        "type": "template",
-        "z": "b4963274903ed2a9",
-        "g": "70b9d3433e540010",
-        "name": "notification channel",
-        "field": "notify.channel",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "bathroom_fan",
-        "output": "str",
-        "x": 2030,
-        "y": 300,
-        "wires": [
-            [
-                "017eba9ce6de6486"
-            ]
-        ]
     },
     {
         "id": "8f7a2ea2f8c67537",
@@ -24286,8 +24034,8 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1890,
-        "y": 460,
+        "x": 1930,
+        "y": 500,
         "wires": [
             [
                 "f118397ef51d377e"
@@ -24304,8 +24052,8 @@
         "links": [
             "8ed3b0974336e55b"
         ],
-        "x": 1985,
-        "y": 460,
+        "x": 2015,
+        "y": 500,
         "wires": []
     },
     {
@@ -24404,14 +24152,14 @@
         "useparts": true,
         "accumulate": false,
         "timeout": "",
-        "count": "5",
+        "count": "6",
         "reduceRight": false,
         "reduceExp": "",
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1890,
-        "y": 240,
+        "x": 1930,
+        "y": 280,
         "wires": [
             [
                 "e188c5d43cc22d55"
@@ -24431,8 +24179,8 @@
             "aeee8468f3d1b7ad",
             "c13b2b4d87067c17"
         ],
-        "x": 1985,
-        "y": 240,
+        "x": 2015,
+        "y": 280,
         "wires": []
     },
     {
@@ -24488,7 +24236,7 @@
         "template": "doorbell",
         "output": "str",
         "x": 1730,
-        "y": 760,
+        "y": 840,
         "wires": [
             [
                 "4cab768ec3304d77"
@@ -24508,7 +24256,7 @@
         "template": "doorbell_rings",
         "output": "str",
         "x": 1750,
-        "y": 720,
+        "y": 800,
         "wires": [
             [
                 "4cab768ec3304d77"
@@ -24537,8 +24285,8 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1890,
-        "y": 680,
+        "x": 1930,
+        "y": 780,
         "wires": [
             [
                 "7528bd2fef1d9090"
@@ -24555,8 +24303,8 @@
         "links": [
             "c4660dc11fb0e5b8"
         ],
-        "x": 1985,
-        "y": 680,
+        "x": 2025,
+        "y": 780,
         "wires": []
     },
     {
@@ -24572,7 +24320,7 @@
         "template": "Deurbel",
         "output": "str",
         "x": 1730,
-        "y": 640,
+        "y": 720,
         "wires": [
             [
                 "4cab768ec3304d77"
@@ -24592,7 +24340,7 @@
         "template": "",
         "output": "str",
         "x": 1730,
-        "y": 680,
+        "y": 760,
         "wires": [
             [
                 "4cab768ec3304d77"
@@ -24727,7 +24475,7 @@
         "template": "Er is aangebeld.",
         "output": "str",
         "x": 1480,
-        "y": 420,
+        "y": 760,
         "wires": [
             [
                 "7bb3b10a5f621765"
@@ -25031,6 +24779,55 @@
             [
                 "5de4f38ec4c4075f",
                 "ef1caaf0e51df45f"
+            ]
+        ]
+    },
+    {
+        "id": "3fd22ff1d39dc1e6",
+        "type": "template",
+        "z": "65351372f52f2e2d",
+        "g": "f259c1d245c5a0a4",
+        "name": "channel",
+        "field": "notify.channel",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Doorbell",
+        "output": "str",
+        "x": 1740,
+        "y": 360,
+        "wires": [
+            [
+                "cfbc58f0de8fb24f"
+            ]
+        ]
+    },
+    {
+        "id": "2476472b35381cca",
+        "type": "inject",
+        "z": "65351372f52f2e2d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1190,
+        "y": 180,
+        "wires": [
+            [
+                "2be495a83d512501"
             ]
         ]
     },
@@ -53510,7 +53307,7 @@
         "type": "function",
         "z": "3087db0b32ceb4d4",
         "name": "entities",
-        "func": "msg.entity = [\n    {\n        name: \"light.shellydimmer_living_room\"\n    }\n];\n\nreturn msg;",
+        "func": "msg.entity = [\n    {\n        name: \"light.shellydimmer_living_room\",\n        brightness_pct: 22\n    }\n];\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -53522,6 +53319,35 @@
         "wires": [
             [
                 "4664a201c231dfc4"
+            ]
+        ]
+    },
+    {
+        "id": "491bdf81598bb2d1",
+        "type": "inject",
+        "z": "3087db0b32ceb4d4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 350,
+        "y": 540,
+        "wires": [
+            [
+                "73c2a1cb74697128"
             ]
         ]
     },
@@ -60558,6 +60384,263 @@
         "wires": [
             [
                 "bf77f797164619b0"
+            ]
+        ]
+    },
+    {
+        "id": "1e22588bbe63c367",
+        "type": "comment",
+        "z": "d9b05fe971d5c1b1",
+        "name": "trigger when an event is found in babysitter calendar",
+        "info": "",
+        "x": 210,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "d2c560378b1b926b",
+        "type": "server-state-changed",
+        "z": "d9b05fe971d5c1b1",
+        "name": "calendar event beau",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "calendar.beau"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "on",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 110,
+        "y": 180,
+        "wires": [
+            [
+                "af07bfce63f231bf"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "daacb8ae6b24ed5b",
+        "type": "server-state-changed",
+        "z": "d9b05fe971d5c1b1",
+        "name": "calendar event lise",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "calendar.lise"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "on",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 110,
+        "y": 240,
+        "wires": [
+            [
+                "af07bfce63f231bf"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e787939d2bae52df",
+        "type": "link out",
+        "z": "d9b05fe971d5c1b1",
+        "name": "trigger_calendar_babysitter",
+        "mode": "link",
+        "links": [
+            "0adb679d772d8e29"
+        ],
+        "x": 415,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "85f675ee7a30451c",
+        "type": "catch",
+        "z": "d9b05fe971d5c1b1",
+        "g": "fe14b17143d5f305",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "3551969ed0c1e37a"
+            ]
+        ]
+    },
+    {
+        "id": "3551969ed0c1e37a",
+        "type": "template",
+        "z": "d9b05fe971d5c1b1",
+        "g": "fe14b17143d5f305",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "6149bb5f8eb1e0d7"
+            ]
+        ]
+    },
+    {
+        "id": "337ef9e6426bf90b",
+        "type": "link out",
+        "z": "d9b05fe971d5c1b1",
+        "g": "fe14b17143d5f305",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "6149bb5f8eb1e0d7",
+        "type": "template",
+        "z": "d9b05fe971d5c1b1",
+        "g": "fe14b17143d5f305",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "418ebf3d342bb9b0"
+            ]
+        ]
+    },
+    {
+        "id": "418ebf3d342bb9b0",
+        "type": "function",
+        "z": "d9b05fe971d5c1b1",
+        "g": "fe14b17143d5f305",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "337ef9e6426bf90b"
+            ]
+        ]
+    },
+    {
+        "id": "af07bfce63f231bf",
+        "type": "switch",
+        "z": "d9b05fe971d5c1b1",
+        "name": "",
+        "property": "data.new_state.attributes.message",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "past op",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 310,
+        "y": 180,
+        "wires": [
+            [
+                "e787939d2bae52df"
             ]
         ]
     }
