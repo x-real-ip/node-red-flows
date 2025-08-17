@@ -5064,8 +5064,8 @@
             "4d395d18c0756d47",
             "2babd23a398c74fd"
         ],
-        "x": 654,
-        "y": 99,
+        "x": 294,
+        "y": 139,
         "w": 452,
         "h": 162
     },
@@ -6301,8 +6301,8 @@
         "type": "junction",
         "z": "82d5958c73f37c26",
         "g": "1806dcebd959ed6f",
-        "x": 680,
-        "y": 180,
+        "x": 320,
+        "y": 220,
         "wires": [
             [
                 "f7b6a832a5096712",
@@ -60730,30 +60730,13 @@
             }
         ],
         "x": 90,
-        "y": 160,
+        "y": 220,
         "wires": [
             [
-                "f64c31d48339a3f9",
-                "4d395d18c0756d47"
+                "4d395d18c0756d47",
+                "3e6264ea2182958a"
             ]
         ]
-    },
-    {
-        "id": "f64c31d48339a3f9",
-        "type": "debug",
-        "z": "82d5958c73f37c26",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 400,
-        "y": 160,
-        "wires": []
     },
     {
         "id": "f111fc485830afd9",
@@ -60847,8 +60830,8 @@
         "syntax": "mustache",
         "template": "",
         "output": "str",
-        "x": 810,
-        "y": 220,
+        "x": 450,
+        "y": 260,
         "wires": [
             [
                 "c4b9a270ac6b6551"
@@ -60867,8 +60850,8 @@
         "syntax": "mustache",
         "template": "SMS Forwarder",
         "output": "str",
-        "x": 810,
-        "y": 140,
+        "x": 450,
+        "y": 180,
         "wires": [
             [
                 "c4b9a270ac6b6551"
@@ -60886,8 +60869,8 @@
             "8ed3b0974336e55b",
             "aeee8468f3d1b7ad"
         ],
-        "x": 1065,
-        "y": 180,
+        "x": 705,
+        "y": 220,
         "wires": []
     },
     {
@@ -60912,8 +60895,8 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 970,
-        "y": 180,
+        "x": 610,
+        "y": 220,
         "wires": [
             [
                 "2e9e2b02c8f4b00b"
@@ -60930,13 +60913,55 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "Afzender: {{payload.event.from}}\nBericht: {{{payload.event.message}}}",
+        "template": "Afzender: {{payload.event.from}} Bericht: {{{payload.event.message}}}",
         "output": "str",
-        "x": 820,
-        "y": 180,
+        "x": 460,
+        "y": 220,
         "wires": [
             [
                 "c4b9a270ac6b6551"
+            ]
+        ]
+    },
+    {
+        "id": "3e6264ea2182958a",
+        "type": "debug",
+        "z": "82d5958c73f37c26",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "01f495dd9c15cbb2",
+        "type": "inject",
+        "z": "82d5958c73f37c26",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"event_type\":\"sms_recieved\",\"event\":{\"from\":\"DigiD\",\"message\":\"Uw DigiD sms-code om in te loggen bij Ziekenhuis Gelderse Vallei is: 406-570\"},\"origin\":\"REMOTE\",\"time_fired\":\"2025-08-17T19:38:09.755930+00:00\",\"context\":{\"id\":\"01K2WRM3YVF9DKE2YZG3EQ93E4\",\"parent_id\":null,\"user_id\":\"8f133ec685064df3932c71adbffa55fb\"}}",
+        "payloadType": "json",
+        "x": 100,
+        "y": 440,
+        "wires": [
+            [
+                "4d395d18c0756d47"
             ]
         ]
     }

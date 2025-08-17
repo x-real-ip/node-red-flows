@@ -60733,7 +60733,8 @@
         "y": 220,
         "wires": [
             [
-                "4d395d18c0756d47"
+                "4d395d18c0756d47",
+                "3e6264ea2182958a"
             ]
         ]
     },
@@ -60912,13 +60913,55 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "Afzender: {{payload.event.from}}\nBericht: {{{payload.event.message}}}",
+        "template": "Afzender: {{payload.event.from}} \\nBericht: {{{payload.event.message}}}",
         "output": "str",
         "x": 460,
         "y": 220,
         "wires": [
             [
                 "c4b9a270ac6b6551"
+            ]
+        ]
+    },
+    {
+        "id": "3e6264ea2182958a",
+        "type": "debug",
+        "z": "82d5958c73f37c26",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "01f495dd9c15cbb2",
+        "type": "inject",
+        "z": "82d5958c73f37c26",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"event_type\":\"sms_recieved\",\"event\":{\"from\":\"DigiD\",\"message\":\"Uw DigiD sms-code om in te loggen bij Ziekenhuis Gelderse Vallei is: 406-570\"},\"origin\":\"REMOTE\",\"time_fired\":\"2025-08-17T19:38:09.755930+00:00\",\"context\":{\"id\":\"01K2WRM3YVF9DKE2YZG3EQ93E4\",\"parent_id\":null,\"user_id\":\"8f133ec685064df3932c71adbffa55fb\"}}",
+        "payloadType": "json",
+        "x": 100,
+        "y": 440,
+        "wires": [
+            [
+                "4d395d18c0756d47"
             ]
         ]
     }
