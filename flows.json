@@ -921,6 +921,14 @@
         "env": []
     },
     {
+        "id": "8e6f2493298d6e55",
+        "type": "tab",
+        "label": "notification_quooker",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "dbca868556b8a1c3",
         "type": "subflow",
         "name": "light_turn_off",
@@ -1270,12 +1278,13 @@
             "a3cf07381c3dba65",
             "f7038caa7a76e6f3",
             "88a668a5509178e0",
-            "b2e6817cd694ba28"
+            "b2e6817cd694ba28",
+            "fca09d1f094cee6c"
         ],
         "x": 1254,
         "y": 139,
         "w": 442,
-        "h": 202
+        "h": 242
     },
     {
         "id": "f7435f5ad02d3f79",
@@ -1608,12 +1617,13 @@
             "b1b1be8e46f91cca",
             "dd3030c9ae0f7a07",
             "46d50645e39da463",
-            "ebcb50cdabc72f91"
+            "ebcb50cdabc72f91",
+            "63343a4588295b35"
         ],
-        "x": 1154,
+        "x": 1214,
         "y": 239,
         "w": 442,
-        "h": 242
+        "h": 282
     },
     {
         "id": "7b3e33afc7e5d51f",
@@ -3042,7 +3052,7 @@
         ],
         "x": 14,
         "y": 39,
-        "w": 457,
+        "w": 502,
         "h": 82
     },
     {
@@ -4905,12 +4915,13 @@
             "70621108112580c3",
             "7d1696747fc1b9b8",
             "c48e92d23dd5455a",
-            "e09d093683c71b6d"
+            "e09d093683c71b6d",
+            "d3d1ae7c321151bf"
         ],
-        "x": 1734,
+        "x": 1914,
         "y": 179,
-        "w": 392,
-        "h": 242
+        "w": 412,
+        "h": 282
     },
     {
         "id": "fe64cb4fec53d328",
@@ -4927,12 +4938,13 @@
             "bf77f797164619b0",
             "486061fb4214f811",
             "18d17ebdbbe62765",
-            "4348cc8838e3749a"
+            "4348cc8838e3749a",
+            "ac3875f30e372702"
         ],
-        "x": 1734,
-        "y": 439,
-        "w": 392,
-        "h": 242
+        "x": 1914,
+        "y": 479,
+        "w": 412,
+        "h": 282
     },
     {
         "id": "edf4b2b59a0f294c",
@@ -4951,11 +4963,12 @@
             "23dafcfaf20bc605",
             "8dd47ccef92d46f6",
             "5d4508f2fd99222d",
-            "a9941198e8915b61"
+            "a9941198e8915b61",
+            "e84b22606dd1979b"
         ],
         "x": 14,
         "y": 179,
-        "w": 492,
+        "w": 772,
         "h": 142
     },
     {
@@ -5071,6 +5084,73 @@
         "h": 122
     },
     {
+        "id": "5542b8fae3198b3a",
+        "type": "group",
+        "z": "8e6f2493298d6e55",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "41add986180f441f",
+            "131e42264d5b91f5",
+            "1394df022e3ec222",
+            "a066d8cd98cb15cd",
+            "02af71abe9c0eb90"
+        ],
+        "x": 14,
+        "y": 39,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "12a8406913079dfb",
+        "type": "group",
+        "z": "8e6f2493298d6e55",
+        "name": "notify two actions",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9998b38f26add97f",
+            "1635a5972639eeb9",
+            "41d9601b3dd91b03",
+            "bd9682ca78e34b2c",
+            "51fe79fd72fbec71",
+            "4a580d7d7ca37fc6",
+            "0cb88ebb3ffde7d9",
+            "997698322663b02f"
+        ],
+        "x": 394,
+        "y": 299,
+        "w": 432,
+        "h": 282
+    },
+    {
+        "id": "b959948dcb638179",
+        "type": "group",
+        "z": "8e6f2493298d6e55",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "61394a7257d24c49",
+            "78751f654c517756",
+            "2629096cb218efd5"
+        ],
+        "x": 14,
+        "y": 179,
+        "w": 612,
+        "h": 82
+    },
+    {
         "id": "f7038caa7a76e6f3",
         "type": "junction",
         "z": "a7a34028d045deee",
@@ -5082,7 +5162,8 @@
                 "d5d46cfd65fffc12",
                 "3564790484706ae2",
                 "88a668a5509178e0",
-                "b2e6817cd694ba28"
+                "b2e6817cd694ba28",
+                "fca09d1f094cee6c"
             ]
         ]
     },
@@ -5233,7 +5314,7 @@
         "type": "junction",
         "z": "72f3a564e626ff9a",
         "g": "3b89d483d3628b14",
-        "x": 1180,
+        "x": 1240,
         "y": 320,
         "wires": [
             [
@@ -5241,7 +5322,8 @@
                 "3a3b8fdb9d6f4ab0",
                 "dd3030c9ae0f7a07",
                 "46d50645e39da463",
-                "ebcb50cdabc72f91"
+                "ebcb50cdabc72f91",
+                "63343a4588295b35"
             ]
         ]
     },
@@ -6268,7 +6350,7 @@
         "type": "junction",
         "z": "a073f9861eebac1b",
         "g": "5fb2d93489fc335c",
-        "x": 1760,
+        "x": 1940,
         "y": 260,
         "wires": [
             [
@@ -6276,7 +6358,8 @@
                 "28ddcb9fe3dea17c",
                 "7d1696747fc1b9b8",
                 "c48e92d23dd5455a",
-                "e09d093683c71b6d"
+                "e09d093683c71b6d",
+                "d3d1ae7c321151bf"
             ]
         ]
     },
@@ -6285,15 +6368,16 @@
         "type": "junction",
         "z": "a073f9861eebac1b",
         "g": "fe64cb4fec53d328",
-        "x": 1760,
-        "y": 520,
+        "x": 1940,
+        "y": 560,
         "wires": [
             [
                 "bc2225a0df38d467",
                 "5b0ed20f9ac639e1",
                 "486061fb4214f811",
                 "18d17ebdbbe62765",
-                "4348cc8838e3749a"
+                "4348cc8838e3749a",
+                "ac3875f30e372702"
             ]
         ]
     },
@@ -6309,6 +6393,24 @@
                 "f7b6a832a5096712",
                 "782dad59eecce1f6",
                 "2babd23a398c74fd"
+            ]
+        ]
+    },
+    {
+        "id": "bd9682ca78e34b2c",
+        "type": "junction",
+        "z": "8e6f2493298d6e55",
+        "g": "12a8406913079dfb",
+        "x": 420,
+        "y": 440,
+        "wires": [
+            [
+                "1635a5972639eeb9",
+                "9998b38f26add97f",
+                "51fe79fd72fbec71",
+                "4a580d7d7ca37fc6",
+                "0cb88ebb3ffde7d9",
+                "997698322663b02f"
             ]
         ]
     },
@@ -8291,7 +8393,9 @@
         "z": "8354fbe183c2498c",
         "name": "daily 19:45",
         "mode": "link",
-        "links": [],
+        "links": [
+            "efa96b0e0dbd594e"
+        ],
         "x": 295,
         "y": 260,
         "wires": []
@@ -12364,7 +12468,7 @@
         "useparts": true,
         "accumulate": false,
         "timeout": "",
-        "count": "8",
+        "count": "9",
         "reduceRight": false,
         "reduceExp": "",
         "reduceInit": "",
@@ -12766,6 +12870,26 @@
         "y": 160,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "fca09d1f094cee6c",
+        "type": "template",
+        "z": "a7a34028d045deee",
+        "g": "022e7feb1e4ea3ae",
+        "name": "tag",
+        "field": "notify.tag",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "deurbel",
+        "output": "str",
+        "x": 1370,
+        "y": 340,
+        "wires": [
+            [
+                "a3cf07381c3dba65"
+            ]
         ]
     },
     {
@@ -24920,7 +25044,7 @@
         "syntax": "mustache",
         "template": "garbage",
         "output": "str",
-        "x": 1290,
+        "x": 1350,
         "y": 440,
         "wires": [
             [
@@ -24940,7 +25064,7 @@
         "syntax": "mustache",
         "template": "{{secondary_information}}.\\nStaat de container al aan de weg?",
         "output": "str",
-        "x": 1280,
+        "x": 1340,
         "y": 400,
         "wires": [
             [
@@ -24989,7 +25113,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1290,
+        "x": 1350,
         "y": 320,
         "wires": [
             [
@@ -25010,15 +25134,16 @@
         "key": "topic",
         "joiner": "\\n",
         "joinerType": "str",
+        "useparts": true,
         "accumulate": false,
         "timeout": "",
-        "count": "8",
+        "count": "9",
         "reduceRight": false,
         "reduceExp": "",
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1470,
+        "x": 1530,
         "y": 320,
         "wires": [
             [
@@ -25037,7 +25162,7 @@
             "c76d311bb4b6991b",
             "d1753081ba6b4004"
         ],
-        "x": 1555,
+        "x": 1615,
         "y": 320,
         "wires": []
     },
@@ -25053,7 +25178,7 @@
         "syntax": "mustache",
         "template": "Afval",
         "output": "str",
-        "x": 1270,
+        "x": 1330,
         "y": 280,
         "wires": [
             [
@@ -25073,7 +25198,7 @@
         "syntax": "mustache",
         "template": "",
         "output": "str",
-        "x": 1270,
+        "x": 1330,
         "y": 360,
         "wires": [
             [
@@ -25355,7 +25480,9 @@
         "x": 960,
         "y": 340,
         "wires": [
-            []
+            [
+                "b08254b0e018b396"
+            ]
         ]
     },
     {
@@ -25595,6 +25722,55 @@
             [
                 "14c8565d2e050386"
             ]
+        ]
+    },
+    {
+        "id": "63343a4588295b35",
+        "type": "template",
+        "z": "72f3a564e626ff9a",
+        "g": "3b89d483d3628b14",
+        "name": "tag",
+        "field": "notify.tag",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "garbage",
+        "output": "str",
+        "x": 1330,
+        "y": 480,
+        "wires": [
+            [
+                "d0d3f913b8c035f3"
+            ]
+        ]
+    },
+    {
+        "id": "b08254b0e018b396",
+        "type": "api-call-service",
+        "z": "72f3a564e626ff9a",
+        "name": "dismiss notification",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.notify",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"message\":\"clear_notification\",\"data\":{\"tag\":\"garbage\"}}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "notify",
+        "service": "notify",
+        "x": 1010,
+        "y": 400,
+        "wires": [
+            []
         ]
     },
     {
@@ -26875,7 +27051,8 @@
             "cb2996d878c5e0c7",
             "df998c0aabd0f79a",
             "f0fea4cb11f37357",
-            "84c435891735bf2e"
+            "84c435891735bf2e",
+            "1394df022e3ec222"
         ],
         "x": 275,
         "y": 560,
@@ -26947,10 +27124,11 @@
         "links": [
             "ba0bdc1db6e4e011",
             "0af5a06e405527e9",
-            "91c7732091601e1b"
+            "91c7732091601e1b",
+            "84292d6fdeba6212"
         ],
         "x": 275,
-        "y": 740,
+        "y": 780,
         "wires": [
             [
                 "3675d2d1160c6b61"
@@ -26965,10 +27143,11 @@
         "links": [
             "ba0bdc1db6e4e011",
             "0af5a06e405527e9",
-            "8e3d4dadf043448a"
+            "8e3d4dadf043448a",
+            "293862b3a629f535"
         ],
         "x": 275,
-        "y": 800,
+        "y": 880,
         "wires": [
             [
                 "7e56e31c0145c7b4"
@@ -27221,7 +27400,7 @@
         "deviceId": [],
         "entityId": [],
         "labelId": [],
-        "data": "{\"message\":\"{{notify.message}}\",\"title\":\"{{notify.title}}\",\"data\":{\"actions\":[{\"action\":\"{{notify.action_1}}\",\"title\":\"{{notify.action_1_title}}\",\"icon\":\"{{notify.icon}}\"},{\"action\":\"{{notify.action_2}}\",\"title\":\"{{notify.action_2_title}}\",\"icon\":\"{{notify.icon}}\"}]}}",
+        "data": "{\"message\":\"{{notify.message}}\",\"title\":\"{{notify.title}}\",\"data\":{\"tag\":\"{{notify.tag}}\",\"actions\":[{\"action\":\"{{notify.action_1}}\",\"title\":\"{{notify.action_1_title}}\",\"icon\":\"{{notify.icon}}\"},{\"action\":\"{{notify.action_2}}\",\"title\":\"{{notify.action_2_title}}\",\"icon\":\"{{notify.icon}}\"}]}}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -27231,7 +27410,7 @@
         "domain": "notify",
         "service": "mobile_app_phone_coen",
         "x": 420,
-        "y": 740,
+        "y": 780,
         "wires": [
             []
         ]
@@ -27250,7 +27429,7 @@
         "deviceId": [],
         "entityId": [],
         "labelId": [],
-        "data": "{\"message\":\"{{notify.message}}\",\"title\":\"{{notify.title}}\",\"data\":{\"actions\":[{\"action\":\"{{notify.action_1}}\",\"title\":\"{{notify.action_1_title}}\",\"icon\":\"{{notify.icon}}\"},{\"action\":\"{{notify.action_2}}\",\"title\":\"{{notify.action_2_title}}\",\"icon\":\"{{notify.icon}}\"}]}}",
+        "data": "{\"message\":\"{{notify.message}}\",\"title\":\"{{notify.title}}\",\"data\":{\"tag\":\"{{notify.tag}}\",\"actions\":[{\"action\":\"{{notify.action_1}}\",\"title\":\"{{notify.action_1_title}}\",\"icon\":\"{{notify.icon}}\"},{\"action\":\"{{notify.action_2}}\",\"title\":\"{{notify.action_2_title}}\",\"icon\":\"{{notify.icon}}\"}]}}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -27260,7 +27439,7 @@
         "domain": "notify",
         "service": "mobile_app_phone_anne",
         "x": 420,
-        "y": 800,
+        "y": 880,
         "wires": [
             []
         ]
@@ -59629,8 +59808,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1360,
-        "y": 260,
+        "x": 1540,
+        "y": 360,
         "wires": [
             [
                 "9db49fd74ebafe83"
@@ -59649,8 +59828,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1020,
-        "y": 260,
+        "x": 1200,
+        "y": 360,
         "wires": [
             [
                 "f770aac04574cfca"
@@ -59669,7 +59848,7 @@
         "syntax": "mustache",
         "template": "doorbell",
         "output": "str",
-        "x": 1850,
+        "x": 2030,
         "y": 300,
         "wires": [
             [
@@ -59689,7 +59868,7 @@
         "syntax": "mustache",
         "template": "Deurbel",
         "output": "str",
-        "x": 1850,
+        "x": 2030,
         "y": 220,
         "wires": [
             [
@@ -59713,14 +59892,14 @@
         "useparts": true,
         "accumulate": false,
         "timeout": "",
-        "count": "8",
+        "count": "9",
         "reduceRight": false,
         "reduceExp": "",
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 2050,
-        "y": 260,
+        "x": 2250,
+        "y": 320,
         "wires": [
             [
                 "c9fea470c4b2ad77",
@@ -59769,7 +59948,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1870,
+        "x": 2050,
         "y": 260,
         "wires": [
             [
@@ -59789,7 +59968,7 @@
         "syntax": "mustache",
         "template": "Het lijkt er op dat Beau gaat slapen, wil je het geluid van de deurbel uitschakelen?",
         "output": "str",
-        "x": 1860,
+        "x": 2040,
         "y": 340,
         "wires": [
             [
@@ -59809,7 +59988,7 @@
         "syntax": "mustache",
         "template": "deurbel",
         "output": "str",
-        "x": 1870,
+        "x": 2050,
         "y": 380,
         "wires": [
             [
@@ -59881,7 +60060,9 @@
         "x": 400,
         "y": 220,
         "wires": [
-            []
+            [
+                "e84b22606dd1979b"
+            ]
         ]
     },
     {
@@ -59923,8 +60104,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1200,
-        "y": 260,
+        "x": 1380,
+        "y": 360,
         "wires": [
             [
                 "f135b333cae8941c"
@@ -59962,8 +60143,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1490,
-        "y": 260,
+        "x": 1670,
+        "y": 360,
         "wires": [
             [
                 "a31cc1f1e21199e8"
@@ -60020,8 +60201,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1360,
-        "y": 520,
+        "x": 1540,
+        "y": 560,
         "wires": [
             [
                 "cefad7808e675ee7"
@@ -60040,8 +60221,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1020,
-        "y": 520,
+        "x": 1200,
+        "y": 560,
         "wires": [
             [
                 "dd25048a5a4bc156"
@@ -60067,8 +60248,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1200,
-        "y": 520,
+        "x": 1380,
+        "y": 560,
         "wires": [
             [
                 "d93f6f1d6be736de"
@@ -60090,8 +60271,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1490,
-        "y": 520,
+        "x": 1670,
+        "y": 560,
         "wires": [
             [
                 "b098dd13d5d76f90"
@@ -60110,8 +60291,8 @@
         "syntax": "mustache",
         "template": "doorbell",
         "output": "str",
-        "x": 1850,
-        "y": 560,
+        "x": 2030,
+        "y": 600,
         "wires": [
             [
                 "8a53691e5c608172"
@@ -60130,8 +60311,8 @@
         "syntax": "mustache",
         "template": "Deurbel",
         "output": "str",
-        "x": 1850,
-        "y": 480,
+        "x": 2030,
+        "y": 520,
         "wires": [
             [
                 "8a53691e5c608172"
@@ -60147,8 +60328,8 @@
         "links": [
             "c76d311bb4b6991b"
         ],
-        "x": 2385,
-        "y": 400,
+        "x": 2675,
+        "y": 320,
         "wires": []
     },
     {
@@ -60167,14 +60348,14 @@
         "useparts": true,
         "accumulate": false,
         "timeout": "",
-        "count": "8",
+        "count": "9",
         "reduceRight": false,
         "reduceExp": "",
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 2050,
-        "y": 520,
+        "x": 2250,
+        "y": 620,
         "wires": [
             [
                 "c9fea470c4b2ad77",
@@ -60223,8 +60404,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1870,
-        "y": 520,
+        "x": 2050,
+        "y": 560,
         "wires": [
             [
                 "8a53691e5c608172"
@@ -60243,8 +60424,8 @@
         "syntax": "mustache",
         "template": "Het lijkt er op dat Beau wakker is, wil je het geluid van de deurbel weer aanzetten?",
         "output": "str",
-        "x": 1860,
-        "y": 600,
+        "x": 2040,
+        "y": 640,
         "wires": [
             [
                 "8a53691e5c608172"
@@ -60263,8 +60444,8 @@
         "syntax": "mustache",
         "template": "deurbel",
         "output": "str",
-        "x": 1870,
-        "y": 640,
+        "x": 2050,
+        "y": 680,
         "wires": [
             [
                 "8a53691e5c608172"
@@ -60296,8 +60477,8 @@
         "checkCurrentState": true,
         "blockInputOverrides": true,
         "outputProperties": [],
-        "x": 830,
-        "y": 260,
+        "x": 1010,
+        "y": 360,
         "wires": [
             [
                 "11d20fc10709f185"
@@ -60369,7 +60550,9 @@
         "x": 400,
         "y": 280,
         "wires": [
-            []
+            [
+                "e84b22606dd1979b"
+            ]
         ]
     },
     {
@@ -60408,8 +60591,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 2260,
-        "y": 400,
+        "x": 2560,
+        "y": 320,
         "wires": [
             [
                 "8e3d4dadf043448a"
@@ -60426,8 +60609,8 @@
         "links": [
             "d1753081ba6b4004"
         ],
-        "x": 2385,
-        "y": 460,
+        "x": 2675,
+        "y": 500,
         "wires": []
     },
     {
@@ -60466,8 +60649,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 2250,
-        "y": 460,
+        "x": 2550,
+        "y": 500,
         "wires": [
             [
                 "91c7732091601e1b"
@@ -60524,8 +60707,8 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 1630,
-        "y": 260,
+        "x": 1810,
+        "y": 360,
         "wires": [
             [
                 "70621108112580c3"
@@ -60549,12 +60732,82 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 1630,
-        "y": 520,
+        "x": 1810,
+        "y": 560,
         "wires": [
             [
                 "bf77f797164619b0"
             ]
+        ]
+    },
+    {
+        "id": "ac3875f30e372702",
+        "type": "template",
+        "z": "a073f9861eebac1b",
+        "g": "fe64cb4fec53d328",
+        "name": "tag",
+        "field": "notify.tag",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "deurbel",
+        "output": "str",
+        "x": 2030,
+        "y": 720,
+        "wires": [
+            [
+                "8a53691e5c608172"
+            ]
+        ]
+    },
+    {
+        "id": "d3d1ae7c321151bf",
+        "type": "template",
+        "z": "a073f9861eebac1b",
+        "g": "5fb2d93489fc335c",
+        "name": "tag",
+        "field": "notify.tag",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "deurbel",
+        "output": "str",
+        "x": 2030,
+        "y": 420,
+        "wires": [
+            [
+                "fa10be5c6afdbd10"
+            ]
+        ]
+    },
+    {
+        "id": "e84b22606dd1979b",
+        "type": "api-call-service",
+        "z": "a073f9861eebac1b",
+        "g": "edf4b2b59a0f294c",
+        "name": "dismiss notification",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.notify",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"message\":\"clear_notification\",\"data\":{\"tag\":\"deurbel\"}}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "notify",
+        "service": "notify",
+        "x": 670,
+        "y": 220,
+        "wires": [
+            []
         ]
     },
     {
@@ -61030,6 +61283,550 @@
             [
                 "c4b9a270ac6b6551"
             ]
+        ]
+    },
+    {
+        "id": "0f8cb48ca2cea619",
+        "type": "comment",
+        "z": "8e6f2493298d6e55",
+        "name": "Ask to turn off quooker",
+        "info": "",
+        "x": 120,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "efa96b0e0dbd594e",
+        "type": "link in",
+        "z": "8e6f2493298d6e55",
+        "name": "notification_quooker",
+        "links": [
+            "cdedeb5dc320e53a"
+        ],
+        "x": 185,
+        "y": 440,
+        "wires": [
+            [
+                "9aeb535c5f1da8ce"
+            ]
+        ]
+    },
+    {
+        "id": "293862b3a629f535",
+        "type": "link out",
+        "z": "8e6f2493298d6e55",
+        "name": "link_out_anne_is_home",
+        "mode": "link",
+        "links": [
+            "c76d311bb4b6991b"
+        ],
+        "x": 1075,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "4c0c4f7a04828adb",
+        "type": "api-current-state",
+        "z": "8e6f2493298d6e55",
+        "name": "anne is home",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "home",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "person.anne",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 960,
+        "y": 420,
+        "wires": [
+            [
+                "293862b3a629f535"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "84292d6fdeba6212",
+        "type": "link out",
+        "z": "8e6f2493298d6e55",
+        "name": "link_out_coen_is_home",
+        "mode": "link",
+        "links": [
+            "d1753081ba6b4004"
+        ],
+        "x": 1075,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "1e2e667d2ca5d8db",
+        "type": "api-current-state",
+        "z": "8e6f2493298d6e55",
+        "name": "coen is home",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "home",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "person.coen",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 950,
+        "y": 480,
+        "wires": [
+            [
+                "84292d6fdeba6212"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9aeb535c5f1da8ce",
+        "type": "api-current-state",
+        "z": "8e6f2493298d6e55",
+        "name": "quooker is on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "on",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "switch.shellyplugplus_quooker_switch_0",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 300,
+        "y": 440,
+        "wires": [
+            [
+                "bd9682ca78e34b2c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "41add986180f441f",
+        "type": "catch",
+        "z": "8e6f2493298d6e55",
+        "g": "5542b8fae3198b3a",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "131e42264d5b91f5"
+            ]
+        ]
+    },
+    {
+        "id": "131e42264d5b91f5",
+        "type": "template",
+        "z": "8e6f2493298d6e55",
+        "g": "5542b8fae3198b3a",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "a066d8cd98cb15cd"
+            ]
+        ]
+    },
+    {
+        "id": "1394df022e3ec222",
+        "type": "link out",
+        "z": "8e6f2493298d6e55",
+        "g": "5542b8fae3198b3a",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a066d8cd98cb15cd",
+        "type": "template",
+        "z": "8e6f2493298d6e55",
+        "g": "5542b8fae3198b3a",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "02af71abe9c0eb90"
+            ]
+        ]
+    },
+    {
+        "id": "02af71abe9c0eb90",
+        "type": "function",
+        "z": "8e6f2493298d6e55",
+        "g": "5542b8fae3198b3a",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = env.get(\"NR_FLOW_ID\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "1394df022e3ec222"
+            ]
+        ]
+    },
+    {
+        "id": "9998b38f26add97f",
+        "type": "template",
+        "z": "8e6f2493298d6e55",
+        "g": "12a8406913079dfb",
+        "name": "icon",
+        "field": "notify.icon",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "quooker",
+        "output": "str",
+        "x": 530,
+        "y": 420,
+        "wires": [
+            [
+                "41d9601b3dd91b03"
+            ]
+        ]
+    },
+    {
+        "id": "1635a5972639eeb9",
+        "type": "template",
+        "z": "8e6f2493298d6e55",
+        "g": "12a8406913079dfb",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Quooker",
+        "output": "str",
+        "x": 530,
+        "y": 340,
+        "wires": [
+            [
+                "41d9601b3dd91b03"
+            ]
+        ]
+    },
+    {
+        "id": "41d9601b3dd91b03",
+        "type": "join",
+        "z": "8e6f2493298d6e55",
+        "g": "12a8406913079dfb",
+        "name": "",
+        "mode": "custom",
+        "build": "merged",
+        "property": "notify",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": false,
+        "timeout": "",
+        "count": "9",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 750,
+        "y": 440,
+        "wires": [
+            [
+                "4c0c4f7a04828adb",
+                "1e2e667d2ca5d8db"
+            ]
+        ]
+    },
+    {
+        "id": "51fe79fd72fbec71",
+        "type": "change",
+        "z": "8e6f2493298d6e55",
+        "g": "12a8406913079dfb",
+        "name": "action titles",
+        "rules": [
+            {
+                "t": "set",
+                "p": "notify.action_1_title",
+                "pt": "msg",
+                "to": "JA",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "notify.action_2_title",
+                "pt": "msg",
+                "to": "NEE",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "notify.action_1",
+                "pt": "msg",
+                "to": "QUOOKER_OFF",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "notify.action_2",
+                "pt": "msg",
+                "to": "IGNORE",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 550,
+        "y": 380,
+        "wires": [
+            [
+                "41d9601b3dd91b03"
+            ]
+        ]
+    },
+    {
+        "id": "4a580d7d7ca37fc6",
+        "type": "template",
+        "z": "8e6f2493298d6e55",
+        "g": "12a8406913079dfb",
+        "name": "message",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Wil je de Quooker uitschakelen om stroom te besparen?",
+        "output": "str",
+        "x": 540,
+        "y": 460,
+        "wires": [
+            [
+                "41d9601b3dd91b03"
+            ]
+        ]
+    },
+    {
+        "id": "0cb88ebb3ffde7d9",
+        "type": "template",
+        "z": "8e6f2493298d6e55",
+        "g": "12a8406913079dfb",
+        "name": "notification id",
+        "field": "notify.notification_id",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "quooker",
+        "output": "str",
+        "x": 550,
+        "y": 500,
+        "wires": [
+            [
+                "41d9601b3dd91b03"
+            ]
+        ]
+    },
+    {
+        "id": "997698322663b02f",
+        "type": "template",
+        "z": "8e6f2493298d6e55",
+        "g": "12a8406913079dfb",
+        "name": "tag",
+        "field": "notify.tag",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "quooker",
+        "output": "str",
+        "x": 530,
+        "y": 540,
+        "wires": [
+            [
+                "41d9601b3dd91b03"
+            ]
+        ]
+    },
+    {
+        "id": "61394a7257d24c49",
+        "type": "server-events",
+        "z": "8e6f2493298d6e55",
+        "g": "b959948dcb638179",
+        "name": "mobile event listner",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "exposeAsEntityConfig": "",
+        "eventType": "mobile_app_notification_action",
+        "eventData": "{\"action\":\"QUOOKER_OFF\"}",
+        "waitForRunning": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "$outputData(\"eventData\").event_type",
+                "valueType": "jsonata"
+            }
+        ],
+        "event_type": "",
+        "x": 130,
+        "y": 220,
+        "wires": [
+            [
+                "78751f654c517756"
+            ]
+        ]
+    },
+    {
+        "id": "78751f654c517756",
+        "type": "api-call-service",
+        "z": "8e6f2493298d6e55",
+        "g": "b959948dcb638179",
+        "name": "turn off quooker",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "switch.turn_off",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.shellyplugplus_quooker_switch_0"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "switch",
+        "service": "turn_off",
+        "x": 320,
+        "y": 220,
+        "wires": [
+            [
+                "2629096cb218efd5"
+            ]
+        ]
+    },
+    {
+        "id": "2629096cb218efd5",
+        "type": "api-call-service",
+        "z": "8e6f2493298d6e55",
+        "g": "b959948dcb638179",
+        "name": "dismiss notification",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.notify",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"message\":\"clear_notification\",\"data\":{\"tag\":\"quooker\"}}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "notify",
+        "service": "notify",
+        "x": 510,
+        "y": 220,
+        "wires": [
+            []
         ]
     }
 ]
