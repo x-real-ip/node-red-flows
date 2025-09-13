@@ -1585,14 +1585,12 @@
             "29aa2542eb146ebc",
             "15feab4d9dbd9466",
             "38276d0327ca72c0",
-            "2d21e3e6cf54e587",
-            "535a687f3b588b38",
             "c5e53f10fcec2a55",
             "17d6d6ba47815c69",
             "3a5ac0b1670fd20b"
         ],
-        "x": 514,
-        "y": 239,
+        "x": 474,
+        "y": 159,
         "w": 1278,
         "h": 822
     },
@@ -4842,8 +4840,8 @@
             "ce2746e7cd66f603",
             "13dd6df8c5e31625"
         ],
-        "x": 1334,
-        "y": 459,
+        "x": 1294,
+        "y": 379,
         "w": 432,
         "h": 162
     },
@@ -5417,6 +5415,53 @@
         "h": 147
     },
     {
+        "id": "db49c07a2c411991",
+        "type": "group",
+        "z": "f32d9f15eade4bba",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "535a687f3b588b38",
+            "2d21e3e6cf54e587",
+            "1bcc023985a00dc1",
+            "7e4444ae7832e36b"
+        ],
+        "x": 14,
+        "y": 239,
+        "w": 832,
+        "h": 122
+    },
+    {
+        "id": "93bb50aa6cc6f5f6",
+        "type": "group",
+        "z": "f32d9f15eade4bba",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "34bc897fe72c285a",
+            "9bdbb23b40a8c8d6",
+            "669938235d33a02d"
+        ],
+        "x": 14,
+        "y": 99,
+        "w": 632,
+        "h": 122
+    },
+    {
         "id": "f7038caa7a76e6f3",
         "type": "junction",
         "z": "a7a34028d045deee",
@@ -5750,8 +5795,8 @@
         "type": "junction",
         "z": "e4381ced98d2a929",
         "g": "bd90d247a95feb9d",
-        "x": 1360,
-        "y": 540,
+        "x": 1320,
+        "y": 460,
         "wires": [
             [
                 "cae0f9255059d5ce",
@@ -6166,7 +6211,6 @@
                 "cdc4fcc574f8d36a",
                 "c20492a470484001",
                 "29aa2542eb146ebc",
-                "2d21e3e6cf54e587",
                 "c5e53f10fcec2a55",
                 "17d6d6ba47815c69",
                 "3a5ac0b1670fd20b"
@@ -29994,8 +30038,8 @@
         "syntax": "mustache",
         "template": "",
         "output": "str",
-        "x": 1490,
-        "y": 580,
+        "x": 1450,
+        "y": 500,
         "wires": [
             [
                 "c1f0224f374a67a6"
@@ -30023,8 +30067,8 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 1630,
-        "y": 520,
+        "x": 1590,
+        "y": 440,
         "wires": [
             [
                 "f5a1c4dd087e0795"
@@ -30044,8 +30088,8 @@
             "aeee8468f3d1b7ad",
             "c4660dc11fb0e5b8"
         ],
-        "x": 1725,
-        "y": 520,
+        "x": 1685,
+        "y": 440,
         "wires": []
     },
     {
@@ -30060,8 +30104,8 @@
         "syntax": "mustache",
         "template": "Afval",
         "output": "str",
-        "x": 1470,
-        "y": 500,
+        "x": 1430,
+        "y": 420,
         "wires": [
             [
                 "c1f0224f374a67a6"
@@ -30080,8 +30124,8 @@
         "syntax": "mustache",
         "template": "",
         "output": "str",
-        "x": 1470,
-        "y": 540,
+        "x": 1430,
+        "y": 460,
         "wires": [
             [
                 "c1f0224f374a67a6"
@@ -30105,8 +30149,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "outputs": 1,
-        "x": 1050,
-        "y": 420,
+        "x": 1010,
+        "y": 340,
         "wires": [
             [
                 "6f6fc24f15222254"
@@ -30125,8 +30169,8 @@
         "syntax": "mustache",
         "template": "Let op, morgen wordt de {{payload}} container opgehaald.",
         "output": "str",
-        "x": 1220,
-        "y": 480,
+        "x": 1180,
+        "y": 400,
         "wires": [
             [
                 "ce2746e7cd66f603"
@@ -30202,8 +30246,8 @@
         "blockInputOverrides": false,
         "domain": "input_boolean",
         "service": "turn_on",
-        "x": 680,
-        "y": 1020,
+        "x": 640,
+        "y": 940,
         "wires": [
             []
         ]
@@ -30234,8 +30278,8 @@
         "blockInputOverrides": false,
         "domain": "input_boolean",
         "service": "turn_on",
-        "x": 680,
-        "y": 960,
+        "x": 640,
+        "y": 880,
         "wires": [
             []
         ]
@@ -30266,8 +30310,8 @@
         "blockInputOverrides": false,
         "domain": "input_boolean",
         "service": "turn_on",
-        "x": 1260,
-        "y": 420,
+        "x": 1220,
+        "y": 340,
         "wires": [
             []
         ]
@@ -30328,8 +30372,8 @@
         "blockInputOverrides": false,
         "domain": "homeassistant",
         "service": "update_entity",
-        "x": 620,
-        "y": 280,
+        "x": 580,
+        "y": 200,
         "wires": [
             []
         ]
@@ -30360,8 +30404,8 @@
         "blockInputOverrides": false,
         "domain": "input_select",
         "service": "select_option",
-        "x": 1140,
-        "y": 660,
+        "x": 1100,
+        "y": 580,
         "wires": [
             []
         ]
@@ -30392,44 +30436,12 @@
         "blockInputOverrides": false,
         "domain": "timer",
         "service": "start",
-        "x": 850,
-        "y": 420,
+        "x": 810,
+        "y": 340,
         "wires": [
             [
                 "0ccbc5bbe180df8e"
             ]
-        ]
-    },
-    {
-        "id": "535a687f3b588b38",
-        "type": "api-call-service",
-        "z": "e4381ced98d2a929",
-        "g": "12e8b8acaeaeb3fa",
-        "name": "turn off childlock kitchen",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "switch.turn_off",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "switch.childlock_kitchen_switch"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "switch",
-        "service": "turn_off",
-        "x": 930,
-        "y": 780,
-        "wires": [
-            []
         ]
     },
     {
@@ -30464,8 +30476,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 640,
-        "y": 420,
+        "x": 600,
+        "y": 340,
         "wires": [
             [
                 "38276d0327ca72c0"
@@ -30551,8 +30563,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 870,
-        "y": 480,
+        "x": 830,
+        "y": 400,
         "wires": [
             [
                 "c527f80ad015aec2"
@@ -30597,8 +30609,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 860,
-        "y": 540,
+        "x": 820,
+        "y": 460,
         "wires": [
             [
                 "c527f80ad015aec2"
@@ -30638,52 +30650,11 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 740,
-        "y": 660,
+        "x": 700,
+        "y": 580,
         "wires": [
             [
                 "15feab4d9dbd9466"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "2d21e3e6cf54e587",
-        "type": "api-current-state",
-        "z": "e4381ced98d2a929",
-        "g": "12e8b8acaeaeb3fa",
-        "name": "state childlock kitchen is not off",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "off",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "switch.childlock_kitchen_switch",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 670,
-        "y": 780,
-        "wires": [
-            [
-                "535a687f3b588b38"
             ],
             []
         ]
@@ -30758,8 +30729,8 @@
         "endTime": "00:00",
         "startOffset": 0,
         "endOffset": 0,
-        "x": 610,
-        "y": 480,
+        "x": 570,
+        "y": 400,
         "wires": [
             [
                 "dbd19cce541f73bc"
@@ -30865,8 +30836,8 @@
         "blockInputOverrides": false,
         "domain": "water_heater",
         "service": "set_operation_mode",
-        "x": 640,
-        "y": 900,
+        "x": 600,
+        "y": 820,
         "wires": [
             []
         ]
@@ -46567,7 +46538,8 @@
         "name": "channel 2 double",
         "mode": "link",
         "links": [
-            "798ee087ef13ebd8"
+            "798ee087ef13ebd8",
+            "669938235d33a02d"
         ],
         "x": 835,
         "y": 460,
@@ -54094,6 +54066,7 @@
         "id": "34bc897fe72c285a",
         "type": "api-call-service",
         "z": "f32d9f15eade4bba",
+        "g": "93bb50aa6cc6f5f6",
         "name": "toggle switch childlock kitchen cabinets",
         "server": "4ba92433.2478cc",
         "version": 7,
@@ -54115,7 +54088,7 @@
         "blockInputOverrides": false,
         "domain": "switch",
         "service": "toggle",
-        "x": 390,
+        "x": 470,
         "y": 180,
         "wires": [
             []
@@ -54216,11 +54189,130 @@
         "id": "9bdbb23b40a8c8d6",
         "type": "comment",
         "z": "f32d9f15eade4bba",
+        "g": "93bb50aa6cc6f5f6",
         "name": "toggle kitchen cabinets magnatic lock",
         "info": "",
-        "x": 170,
-        "y": 120,
+        "x": 190,
+        "y": 140,
         "wires": []
+    },
+    {
+        "id": "535a687f3b588b38",
+        "type": "api-call-service",
+        "z": "f32d9f15eade4bba",
+        "g": "db49c07a2c411991",
+        "name": "turn off childlock kitchen",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "switch.turn_off",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.childlock_kitchen_switch"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "x": 710,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2d21e3e6cf54e587",
+        "type": "api-current-state",
+        "z": "f32d9f15eade4bba",
+        "g": "db49c07a2c411991",
+        "name": "state childlock kitchen is not off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is_not",
+        "entity_id": "switch.childlock_kitchen_switch",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "x": 450,
+        "y": 320,
+        "wires": [
+            [
+                "535a687f3b588b38"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "669938235d33a02d",
+        "type": "link in",
+        "z": "f32d9f15eade4bba",
+        "g": "93bb50aa6cc6f5f6",
+        "name": "toggle kitchen cabinet lock",
+        "links": [
+            "b683652c36e89d93"
+        ],
+        "x": 285,
+        "y": 180,
+        "wires": [
+            [
+                "34bc897fe72c285a"
+            ]
+        ]
+    },
+    {
+        "id": "1bcc023985a00dc1",
+        "type": "comment",
+        "z": "f32d9f15eade4bba",
+        "g": "db49c07a2c411991",
+        "name": "turn off kitchen cabinet lock",
+        "info": "",
+        "x": 150,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "7e4444ae7832e36b",
+        "type": "link in",
+        "z": "f32d9f15eade4bba",
+        "g": "db49c07a2c411991",
+        "name": "turn off kitchen cabinet lock",
+        "links": [
+            "e6b9ff42fde3ea4e"
+        ],
+        "x": 285,
+        "y": 320,
+        "wires": [
+            [
+                "2d21e3e6cf54e587"
+            ]
+        ]
     },
     {
         "id": "829ebe303649c1a4",
@@ -57939,7 +58031,8 @@
             "5a32d7dd7b01f6db",
             "23b344d4bd248871",
             "6ab4fe8e04f4839f",
-            "5049d35f7101b540"
+            "5049d35f7101b540",
+            "7e4444ae7832e36b"
         ],
         "x": 265,
         "y": 400,

@@ -4776,76 +4776,6 @@
         "h": 142
     },
     {
-        "id": "5fb2d93489fc335c",
-        "type": "group",
-        "z": "a073f9861eebac1b",
-        "g": "e03e1dd7e281befc",
-        "name": "notify two actions",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "28ddcb9fe3dea17c",
-            "65ead3b4b322f45e",
-            "fa10be5c6afdbd10",
-            "70621108112580c3",
-            "7d1696747fc1b9b8",
-            "c48e92d23dd5455a",
-            "e09d093683c71b6d",
-            "d3d1ae7c321151bf"
-        ],
-        "x": 1894,
-        "y": 179,
-        "w": 412,
-        "h": 282
-    },
-    {
-        "id": "fe64cb4fec53d328",
-        "type": "group",
-        "z": "a073f9861eebac1b",
-        "g": "e03e1dd7e281befc",
-        "name": "notify two actions",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "5b0ed20f9ac639e1",
-            "bc2225a0df38d467",
-            "8a53691e5c608172",
-            "bf77f797164619b0",
-            "486061fb4214f811",
-            "18d17ebdbbe62765",
-            "4348cc8838e3749a",
-            "ac3875f30e372702"
-        ],
-        "x": 1894,
-        "y": 479,
-        "w": 412,
-        "h": 282
-    },
-    {
-        "id": "bd90d247a95feb9d",
-        "type": "group",
-        "z": "e4381ced98d2a929",
-        "g": "12e8b8acaeaeb3fa",
-        "name": "notify",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "ad62962b589ed07d",
-            "cae0f9255059d5ce",
-            "f5a1c4dd087e0795",
-            "c1f0224f374a67a6",
-            "ce2746e7cd66f603",
-            "13dd6df8c5e31625"
-        ],
-        "x": 1294,
-        "y": 379,
-        "w": 432,
-        "h": 162
-    },
-    {
         "id": "d682f69e7ce22c8f",
         "type": "group",
         "z": "94466ab2e543aa2f",
@@ -5460,6 +5390,76 @@
         "y": 99,
         "w": 632,
         "h": 122
+    },
+    {
+        "id": "5fb2d93489fc335c",
+        "type": "group",
+        "z": "a073f9861eebac1b",
+        "g": "e03e1dd7e281befc",
+        "name": "notify two actions",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "28ddcb9fe3dea17c",
+            "65ead3b4b322f45e",
+            "fa10be5c6afdbd10",
+            "70621108112580c3",
+            "7d1696747fc1b9b8",
+            "c48e92d23dd5455a",
+            "e09d093683c71b6d",
+            "d3d1ae7c321151bf"
+        ],
+        "x": 1894,
+        "y": 179,
+        "w": 412,
+        "h": 282
+    },
+    {
+        "id": "fe64cb4fec53d328",
+        "type": "group",
+        "z": "a073f9861eebac1b",
+        "g": "e03e1dd7e281befc",
+        "name": "notify two actions",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5b0ed20f9ac639e1",
+            "bc2225a0df38d467",
+            "8a53691e5c608172",
+            "bf77f797164619b0",
+            "486061fb4214f811",
+            "18d17ebdbbe62765",
+            "4348cc8838e3749a",
+            "ac3875f30e372702"
+        ],
+        "x": 1894,
+        "y": 479,
+        "w": 412,
+        "h": 282
+    },
+    {
+        "id": "bd90d247a95feb9d",
+        "type": "group",
+        "z": "e4381ced98d2a929",
+        "g": "12e8b8acaeaeb3fa",
+        "name": "notify",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ad62962b589ed07d",
+            "cae0f9255059d5ce",
+            "f5a1c4dd087e0795",
+            "c1f0224f374a67a6",
+            "ce2746e7cd66f603",
+            "13dd6df8c5e31625"
+        ],
+        "x": 1294,
+        "y": 379,
+        "w": 432,
+        "h": 162
     },
     {
         "id": "f7038caa7a76e6f3",
@@ -20526,14 +20526,12 @@
             "ddf56ac7c76174e3",
             "85efbfe86edb2e91",
             "13f2b7ca42c4eca2",
-            "8b8c16211a8b72d6",
             "4d9e677df669290b",
             "4d1450df9aae47f1",
             "b7a8e5cc57ee6ca0",
             "7bf74cbdd5a69c4a",
             "f6679763cd60d5c2",
             "0e36b13934d068e7",
-            "4ccec2f982a522c0",
             "c653974d1dff1810",
             "c026370f826e5d5f",
             "7bdad445330a11b6",
@@ -20549,7 +20547,6 @@
             "fcbba10709360bf0",
             "80e833d182f30872",
             "388c6c30bcb85720",
-            "b8f35a173d514067",
             "195545448e386e6c",
             "2c08acee77a89d06",
             "43dbea1142f618eb",
@@ -20565,30 +20562,15 @@
             "7b8a53cdff17b707",
             "3bacd8ed5d0dccd2",
             "0666b6f65b4515cb",
-            "44f5433a0f7d8e6c",
             "83742449c3349fd4",
             "c9f30fc70f2be4fd",
             "46a0b57223aa4c17",
             "6352a2bd0e56f5a8",
             "5fce516d2b677877",
             "0795b985190d2d2c",
-            "b44fdf201dc1042b",
-            "a61ab9714b972c32",
-            "5c48f5a474f36d1d",
-            "1a2e5276e0c64409",
-            "ccaa2e4d1e8fac02",
-            "7c96c2b4a740b8d9",
-            "8dc5b9441d7691f4",
             "4cf32f7adb47eff0",
             "2cc9a5595a901b10",
-            "4282a6b65307c7ac",
-            "51785525fba44afb",
-            "0973f7291fb9895a",
-            "d485b3827efdeceb",
             "fc1469a9f0ef1aee",
-            "6492496b6c244a0a",
-            "817c712943a09895",
-            "cebdada8cc9dfca0",
             "337ef9e6426bf90b",
             "6f50710eaad2ce90",
             "37d1e62a237418c8",
@@ -46487,9 +46469,7 @@
         "g": "ec2f567862ba39b8",
         "name": "channel 1 triple",
         "mode": "link",
-        "links": [
-            "b37563cd651c8bfa"
-        ],
+        "links": [],
         "x": 835,
         "y": 260,
         "wires": []
@@ -46538,7 +46518,6 @@
         "name": "channel 2 double",
         "mode": "link",
         "links": [
-            "798ee087ef13ebd8",
             "669938235d33a02d"
         ],
         "x": 835,
@@ -47578,8 +47557,7 @@
             "578f9487e5b636d9",
             "8eeed77d329cda19",
             "e6b9ff42fde3ea4e",
-            "598c87450fe46556",
-            "ae59d7c2373ff4d8"
+            "598c87450fe46556"
         ],
         "x": 325,
         "y": 520,
@@ -50105,8 +50083,7 @@
         "g": "a1d15892f3d989a1",
         "name": "turn off backyard lights",
         "links": [
-            "e6b9ff42fde3ea4e",
-            "ae59d7c2373ff4d8"
+            "e6b9ff42fde3ea4e"
         ],
         "x": 265,
         "y": 200,
@@ -52925,8 +52902,7 @@
         "g": "c8a6993e9ffb8c83",
         "name": "turn off front yard lights",
         "links": [
-            "e6b9ff42fde3ea4e",
-            "ae59d7c2373ff4d8"
+            "e6b9ff42fde3ea4e"
         ],
         "x": 265,
         "y": 200,
@@ -53517,8 +53493,7 @@
         "g": "0887baf1d6c0b2ba",
         "name": "turn off souterrain lights",
         "links": [
-            "e6b9ff42fde3ea4e",
-            "ae59d7c2373ff4d8"
+            "e6b9ff42fde3ea4e"
         ],
         "x": 265,
         "y": 200,
@@ -54051,8 +54026,7 @@
         "g": "6196ada9812d9128",
         "name": "turn off cv closet lights",
         "links": [
-            "e6b9ff42fde3ea4e",
-            "ae59d7c2373ff4d8"
+            "e6b9ff42fde3ea4e"
         ],
         "x": 265,
         "y": 400,
@@ -55783,7 +55757,7 @@
         "propertyType": "msg",
         "rules": [
             {
-                "t": "gt",
+                "t": "lt",
                 "v": "300000",
                 "vt": "num"
             }
@@ -55942,8 +55916,7 @@
         "g": "e50ceb788d9ee8ba",
         "name": "turn off hallway ground floor lights",
         "links": [
-            "e6b9ff42fde3ea4e",
-            "ae59d7c2373ff4d8"
+            "e6b9ff42fde3ea4e"
         ],
         "x": 265,
         "y": 200,
@@ -56257,8 +56230,7 @@
         "g": "058bdb794f586cf6",
         "name": "turn off hallway lights on the first floor",
         "links": [
-            "e6b9ff42fde3ea4e",
-            "ae59d7c2373ff4d8"
+            "e6b9ff42fde3ea4e"
         ],
         "x": 265,
         "y": 200,
@@ -56572,8 +56544,7 @@
         "g": "672d988097877e27",
         "name": "turn off master bedroom lights",
         "links": [
-            "e6b9ff42fde3ea4e",
-            "ae59d7c2373ff4d8"
+            "e6b9ff42fde3ea4e"
         ],
         "x": 265,
         "y": 200,
@@ -56887,8 +56858,7 @@
         "g": "d491c3abb1df5844",
         "name": "turn off lights in lise's room",
         "links": [
-            "e6b9ff42fde3ea4e",
-            "ae59d7c2373ff4d8"
+            "e6b9ff42fde3ea4e"
         ],
         "x": 265,
         "y": 200,
