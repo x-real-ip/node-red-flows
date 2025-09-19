@@ -194,13 +194,6 @@
         "env": []
     },
     {
-        "id": "cde79c08.e4f488",
-        "type": "tab",
-        "label": "security_smoke_co",
-        "disabled": false,
-        "info": ""
-    },
-    {
         "id": "46d98b35c2eee05b",
         "type": "tab",
         "label": "sensor_energy_custom",
@@ -549,6 +542,13 @@
         "disabled": false,
         "info": "",
         "env": []
+    },
+    {
+        "id": "cde79c08.e4f488",
+        "type": "tab",
+        "label": "security_smoke_co",
+        "disabled": false,
+        "info": ""
     },
     {
         "id": "9ea6eabfb34d96e0",
@@ -3944,7 +3944,7 @@
             "394e0231a1e3d873"
         ],
         "x": 8,
-        "y": 1653,
+        "y": 1973,
         "w": 1554,
         "h": 854
     },
@@ -5461,7 +5461,7 @@
             "321f94ddeb0d231e"
         ],
         "x": 34,
-        "y": 1679,
+        "y": 1999,
         "w": 872,
         "h": 204.5
     },
@@ -5492,7 +5492,7 @@
             "4b8679c14972be23"
         ],
         "x": 34,
-        "y": 1899,
+        "y": 2219,
         "w": 1502,
         "h": 264.5
     },
@@ -5517,7 +5517,7 @@
             "0d887755bfdcf551"
         ],
         "x": 34,
-        "y": 2179,
+        "y": 2499,
         "w": 592,
         "h": 162
     },
@@ -5948,7 +5948,7 @@
             "5f1e344a10e50e14"
         ],
         "x": 34,
-        "y": 2359,
+        "y": 2679,
         "w": 1152,
         "h": 122
     },
@@ -6906,7 +6906,7 @@
         "z": "94466ab2e543aa2f",
         "g": "a2cb8e43bd2538c0",
         "x": 800,
-        "y": 2080,
+        "y": 2400,
         "wires": [
             [
                 "b7171475ccc7e603"
@@ -8798,8 +8798,8 @@
         "name": "link_out_notify_3",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "a97f87cfab413716"
+            "a97f87cfab413716",
+            "9286a72a2355f5ca"
         ],
         "x": 2315,
         "y": 640,
@@ -11461,10 +11461,7 @@
         "g": "deb17c414e79ec63",
         "name": "link_out_notify_1",
         "mode": "link",
-        "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad"
-        ],
+        "links": [],
         "x": 2265,
         "y": 480,
         "wires": []
@@ -14616,8 +14613,8 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "a97f87cfab413716"
+            "a97f87cfab413716",
+            "9286a72a2355f5ca"
         ],
         "x": 2105,
         "y": 280,
@@ -15628,7 +15625,7 @@
         "name": "link_out_notify_2",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b"
+            "9286a72a2355f5ca"
         ],
         "x": 2015,
         "y": 500,
@@ -15752,10 +15749,10 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "a97f87cfab413716",
-            "aeee8468f3d1b7ad",
-            "c13b2b4d87067c17"
+            "c13b2b4d87067c17",
+            "9286a72a2355f5ca",
+            "39fe1680119f6b36"
         ],
         "x": 2015,
         "y": 280,
@@ -17218,7 +17215,7 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b"
+            "9286a72a2355f5ca"
         ],
         "x": 1265,
         "y": 260,
@@ -17844,60 +17841,6 @@
         ]
     },
     {
-        "id": "8ed3b0974336e55b",
-        "type": "link in",
-        "z": "343515a5528e14f0",
-        "name": "notify_coen",
-        "links": [
-            "8c93b438701888a6",
-            "ac04035c1896218b",
-            "73e546f49b2e02e1",
-            "2c0a57bd6ee87009",
-            "b9f5925e88c3b14b",
-            "17c484a9c9a917ac",
-            "ef18c5c2564a7e77",
-            "c6bc1abd0ea4d3e7",
-            "b41a40c1e135e55c",
-            "ac254d4235d71700",
-            "e188c5d43cc22d55",
-            "f118397ef51d377e",
-            "7a732e9184d0afcf",
-            "2e9e2b02c8f4b00b",
-            "8e10f7084a1fb496",
-            "7776b1f9419bbd45",
-            "e979b5648c1846fb"
-        ],
-        "x": 275,
-        "y": 440,
-        "wires": [
-            [
-                "b92773ff0b01fade"
-            ]
-        ]
-    },
-    {
-        "id": "aeee8468f3d1b7ad",
-        "type": "link in",
-        "z": "343515a5528e14f0",
-        "name": "notify_anne",
-        "links": [
-            "ef18c5c2564a7e77",
-            "c6bc1abd0ea4d3e7",
-            "ac254d4235d71700",
-            "e188c5d43cc22d55",
-            "7a732e9184d0afcf",
-            "2e9e2b02c8f4b00b",
-            "e979b5648c1846fb"
-        ],
-        "x": 275,
-        "y": 500,
-        "wires": [
-            [
-                "05c72cc515d6ee8d"
-            ]
-        ]
-    },
-    {
         "id": "76e9e8e982a2fef6",
         "type": "comment",
         "z": "343515a5528e14f0",
@@ -18102,64 +18045,6 @@
             [
                 "577ae9a09334bd75"
             ]
-        ]
-    },
-    {
-        "id": "b92773ff0b01fade",
-        "type": "api-call-service",
-        "z": "343515a5528e14f0",
-        "name": "notify coen",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "notify.mobile_app_phone_coen",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"message\":\"{{notify.message}}\",\"title\":\"{{notify.title}}\",\"data\":{\"vibrationPattern\":\"{{notify.vibrationPattern}}\",\"channel\":\"{{notify.channel}}\",\"tag\":\"{{notify.tag}}\",\"clickAction\":\"{{notify.clickAction}}\"}}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "notify",
-        "service": "mobile_app_phone_coen",
-        "x": 390,
-        "y": 440,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "05c72cc515d6ee8d",
-        "type": "api-call-service",
-        "z": "343515a5528e14f0",
-        "name": "notify anne",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "notify.mobile_app_phone_anne",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"message\":\"{{notify.message}}\",\"title\":\"{{notify.title}}\",\"data\":{\"vibrationPattern\":\"{{notify.vibrationPattern}}\",\"channel\":\"{{notify.channel}}\",\"tag\":\"{{notify.tag}}\",\"clickAction\":\"{{notify.clickAction}}\"}}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "notify",
-        "service": "mobile_app_phone_anne",
-        "x": 390,
-        "y": 500,
-        "wires": [
-            []
         ]
     },
     {
@@ -18463,8 +18348,8 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad"
+            "9286a72a2355f5ca",
+            "39fe1680119f6b36"
         ],
         "x": 2365,
         "y": 160,
@@ -19166,9 +19051,7 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "a97f87cfab413716",
-            "aeee8468f3d1b7ad"
+            "a97f87cfab413716"
         ],
         "x": 2055,
         "y": 500,
@@ -21696,8 +21579,8 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad"
+            "9286a72a2355f5ca",
+            "39fe1680119f6b36"
         ],
         "x": 1565,
         "y": 300,
@@ -22148,9 +22031,7 @@
         "g": "537179d37e7389e5",
         "name": "link_out_notify_1",
         "mode": "link",
-        "links": [
-            "8ed3b0974336e55b"
-        ],
+        "links": [],
         "x": 1605,
         "y": 320,
         "wires": []
@@ -22572,8 +22453,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad",
             "c4660dc11fb0e5b8"
         ],
         "x": 1725,
@@ -23847,9 +23726,7 @@
         "g": "3bd669c9a971e4a2",
         "name": "link_out_notify_1",
         "mode": "link",
-        "links": [
-            "8ed3b0974336e55b"
-        ],
+        "links": [],
         "x": 1405,
         "y": 220,
         "wires": []
@@ -24310,7 +24187,7 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b"
+            "9286a72a2355f5ca"
         ],
         "x": 1175,
         "y": 220,
@@ -24961,7 +24838,9 @@
         "mode": "link",
         "links": [
             "c13b2b4d87067c17",
-            "c4660dc11fb0e5b8"
+            "c4660dc11fb0e5b8",
+            "9286a72a2355f5ca",
+            "39fe1680119f6b36"
         ],
         "x": 2115,
         "y": 580,
@@ -25925,9 +25804,7 @@
         "g": "0490826048e616a0",
         "name": "link_out_notify_1",
         "mode": "link",
-        "links": [
-            "8ed3b0974336e55b"
-        ],
+        "links": [],
         "x": 1555,
         "y": 220,
         "wires": []
@@ -26363,1062 +26240,6 @@
         "wires": [
             [
                 "d6b4445ad7f5062a"
-            ]
-        ]
-    },
-    {
-        "id": "8ca7529cee95086c",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "g": "60a8ffbec987c377",
-        "name": "notification channel",
-        "field": "notify.channel",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Warning",
-        "output": "str",
-        "x": 990,
-        "y": 400,
-        "wires": [
-            [
-                "9a02e08c1760e584"
-            ]
-        ]
-    },
-    {
-        "id": "af6a4d51c1e99b4e",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "g": "60a8ffbec987c377",
-        "name": "icon",
-        "field": "notify.icon",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "",
-        "output": "str",
-        "x": 950,
-        "y": 320,
-        "wires": [
-            [
-                "9a02e08c1760e584"
-            ]
-        ]
-    },
-    {
-        "id": "8bda876328e49e67",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "g": "60a8ffbec987c377",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Alarm",
-        "output": "str",
-        "x": 950,
-        "y": 280,
-        "wires": [
-            [
-                "9a02e08c1760e584"
-            ]
-        ]
-    },
-    {
-        "id": "fdba7cd037a9da5a",
-        "type": "link out",
-        "z": "cde79c08.e4f488",
-        "g": "60a8ffbec987c377",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad",
-            "c4660dc11fb0e5b8"
-        ],
-        "x": 1205,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "9a02e08c1760e584",
-        "type": "join",
-        "z": "cde79c08.e4f488",
-        "g": "60a8ffbec987c377",
-        "name": "",
-        "mode": "custom",
-        "build": "merged",
-        "property": "notify",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "5",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 1110,
-        "y": 300,
-        "wires": [
-            [
-                "fdba7cd037a9da5a"
-            ]
-        ]
-    },
-    {
-        "id": "c7b88c5f533c105b",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "g": "60a8ffbec987c377",
-        "name": "notification id",
-        "field": "notify.notification_id",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "firealarm",
-        "output": "str",
-        "x": 970,
-        "y": 360,
-        "wires": [
-            [
-                "9a02e08c1760e584"
-            ]
-        ]
-    },
-    {
-        "id": "dc93ddfe.5bd4a",
-        "type": "comment",
-        "z": "cde79c08.e4f488",
-        "name": "notify when a smoke or co alarm goes on",
-        "info": "notify when a message appears in pfsense",
-        "x": 180,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "3fdbb752.798ec8",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "{{test_message}}Er is rook gedecteerd in de {{location}}!",
-        "output": "str",
-        "x": 660,
-        "y": 420,
-        "wires": [
-            [
-                "8f9a86a6.9ca938"
-            ]
-        ]
-    },
-    {
-        "id": "acaf455.81dc638",
-        "type": "change",
-        "z": "cde79c08.e4f488",
-        "name": "set msg.alarm on",
-        "rules": [
-            {
-                "t": "set",
-                "p": "alarm",
-                "pt": "msg",
-                "to": "on",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 990,
-        "y": 520,
-        "wires": [
-            [
-                "e426c9cc0865f723"
-            ]
-        ]
-    },
-    {
-        "id": "7cdcd90a.9cd33",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "name": "location livingroom",
-        "field": "location",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "woonkamer",
-        "output": "str",
-        "x": 430,
-        "y": 380,
-        "wires": [
-            [
-                "3fdbb752.798ec8"
-            ]
-        ]
-    },
-    {
-        "id": "3f622d19.96609a",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "name": "location upstairs",
-        "field": "location",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "hal boven",
-        "output": "str",
-        "x": 420,
-        "y": 420,
-        "wires": [
-            [
-                "3fdbb752.798ec8"
-            ]
-        ]
-    },
-    {
-        "id": "c5e700b.742ef",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "name": "location basement",
-        "field": "location",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "kelder",
-        "output": "str",
-        "x": 430,
-        "y": 460,
-        "wires": [
-            [
-                "3fdbb752.798ec8"
-            ]
-        ]
-    },
-    {
-        "id": "8f9a86a6.9ca938",
-        "type": "switch",
-        "z": "cde79c08.e4f488",
-        "name": "on / off",
-        "property": "alarm_state",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "on",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "off",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 790,
-        "y": 520,
-        "wires": [
-            [
-                "acaf455.81dc638",
-                "ef17b4eb0dc0871b"
-            ],
-            [
-                "56c87bdc.b016ac"
-            ]
-        ]
-    },
-    {
-        "id": "56c87bdc.b016ac",
-        "type": "change",
-        "z": "cde79c08.e4f488",
-        "name": "set msg.alarm off",
-        "rules": [
-            {
-                "t": "set",
-                "p": "alarm",
-                "pt": "msg",
-                "to": "off",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 990,
-        "y": 560,
-        "wires": [
-            [
-                "e426c9cc0865f723"
-            ]
-        ]
-    },
-    {
-        "id": "2174c321b4d32ca8",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "name": "location livingroom",
-        "field": "location",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "woonkamer",
-        "output": "str",
-        "x": 430,
-        "y": 200,
-        "wires": [
-            [
-                "3c51dd96d91e1bc6"
-            ]
-        ]
-    },
-    {
-        "id": "091db6919a07bcbc",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "name": "location upstairs",
-        "field": "location",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "hal boven",
-        "output": "str",
-        "x": 420,
-        "y": 240,
-        "wires": [
-            [
-                "3c51dd96d91e1bc6"
-            ]
-        ]
-    },
-    {
-        "id": "05b4a765aa5d138e",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "name": "location basement",
-        "field": "location",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "kelder",
-        "output": "str",
-        "x": 430,
-        "y": 280,
-        "wires": [
-            [
-                "3c51dd96d91e1bc6"
-            ]
-        ]
-    },
-    {
-        "id": "3c51dd96d91e1bc6",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "name": "test message",
-        "field": "test_message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Dit is een test.",
-        "output": "str",
-        "x": 670,
-        "y": 260,
-        "wires": [
-            [
-                "3fdbb752.798ec8"
-            ]
-        ]
-    },
-    {
-        "id": "f7bea18edd3df74d",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "{{test_message}}Er is koolmonoxide gedecteerd in de {{location}}, open ramen en deuren!",
-        "output": "str",
-        "x": 660,
-        "y": 600,
-        "wires": [
-            [
-                "8f9a86a6.9ca938"
-            ]
-        ]
-    },
-    {
-        "id": "7796933fbf4a81d9",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "name": "location livingroom",
-        "field": "location",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "woonkamer",
-        "output": "str",
-        "x": 430,
-        "y": 560,
-        "wires": [
-            [
-                "f7bea18edd3df74d"
-            ]
-        ]
-    },
-    {
-        "id": "e158e20d0b4d314e",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "name": "location upstairs",
-        "field": "location",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "hal boven",
-        "output": "str",
-        "x": 420,
-        "y": 600,
-        "wires": [
-            [
-                "f7bea18edd3df74d"
-            ]
-        ]
-    },
-    {
-        "id": "44c54d3a1158ddbd",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "name": "location basement",
-        "field": "location",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "kelder",
-        "output": "str",
-        "x": 430,
-        "y": 640,
-        "wires": [
-            [
-                "f7bea18edd3df74d"
-            ]
-        ]
-    },
-    {
-        "id": "e426c9cc0865f723",
-        "type": "link out",
-        "z": "cde79c08.e4f488",
-        "name": "link_out_light_dynamics_1",
-        "mode": "link",
-        "links": [
-            "43cbfb522e72cbe5"
-        ],
-        "x": 1125,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "743eb0e6.61b368",
-        "type": "server-state-changed",
-        "z": "cde79c08.e4f488",
-        "name": "smoke co alarm test livingroom",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.firtsalert_living_room_smoke_alarm_test"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "alarm_state",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 150,
-        "y": 200,
-        "wires": [
-            [
-                "2174c321b4d32ca8"
-            ]
-        ]
-    },
-    {
-        "id": "bc9788a0.2fc028",
-        "type": "server-state-changed",
-        "z": "cde79c08.e4f488",
-        "name": "smoke detected livingroom",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.firtsalert_living_room_smoke_detected"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "alarm_state",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 130,
-        "y": 380,
-        "wires": [
-            [
-                "7cdcd90a.9cd33"
-            ]
-        ]
-    },
-    {
-        "id": "fd7b8a4d.52e6c8",
-        "type": "server-state-changed",
-        "z": "cde79c08.e4f488",
-        "name": "smoke detected upstairs",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.firstalert_hallway_upstairs_smoke_detected"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "alarm_state",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 130,
-        "y": 420,
-        "wires": [
-            [
-                "3f622d19.96609a"
-            ]
-        ]
-    },
-    {
-        "id": "d75a3b89.b17828",
-        "type": "server-state-changed",
-        "z": "cde79c08.e4f488",
-        "name": "smoke detected basement",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.smartalert_basement_smoke_detected"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "alarm_state",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 130,
-        "y": 460,
-        "wires": [
-            [
-                "c5e700b.742ef"
-            ]
-        ]
-    },
-    {
-        "id": "04d283125bc58145",
-        "type": "server-state-changed",
-        "z": "cde79c08.e4f488",
-        "name": "smoke co alarm test hallway upstairs",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.firstalert_hallway_upstairs_smoke_alarm_test"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "alarm_state",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 160,
-        "y": 240,
-        "wires": [
-            [
-                "091db6919a07bcbc"
-            ]
-        ]
-    },
-    {
-        "id": "0e7fa473b99890f7",
-        "type": "server-state-changed",
-        "z": "cde79c08.e4f488",
-        "name": "smoke co alarm test ",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.smartalert_basement_smoke_alarm_test"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "alarm_state",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 110,
-        "y": 280,
-        "wires": [
-            [
-                "05b4a765aa5d138e"
-            ]
-        ]
-    },
-    {
-        "id": "462204bb44d52283",
-        "type": "server-state-changed",
-        "z": "cde79c08.e4f488",
-        "name": "co detected livingroom",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.firtsalert_living_room_carbon_monoxide_detected"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "alarm_state",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 120,
-        "y": 560,
-        "wires": [
-            [
-                "7796933fbf4a81d9"
-            ]
-        ]
-    },
-    {
-        "id": "fb4d6bcec28c0e8c",
-        "type": "server-state-changed",
-        "z": "cde79c08.e4f488",
-        "name": "co detected upstairs",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.firstalert_hallway_upstairs_carbon_monoxide_detected"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "alarm_state",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 110,
-        "y": 600,
-        "wires": [
-            [
-                "e158e20d0b4d314e"
-            ]
-        ]
-    },
-    {
-        "id": "22ebafc77a56459e",
-        "type": "server-state-changed",
-        "z": "cde79c08.e4f488",
-        "name": "co detected basement",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "binary_sensor.smartalert_basement_carbon_monoxide_detected"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "alarm_state",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 120,
-        "y": 640,
-        "wires": [
-            [
-                "44c54d3a1158ddbd"
-            ]
-        ]
-    },
-    {
-        "id": "7f6be1a38957af4c",
-        "type": "catch",
-        "z": "cde79c08.e4f488",
-        "g": "cb7954a7aa2cae2b",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "f1521b7d71efee12"
-            ]
-        ]
-    },
-    {
-        "id": "f1521b7d71efee12",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "g": "cb7954a7aa2cae2b",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "880bc0b589727b10"
-            ]
-        ]
-    },
-    {
-        "id": "301e5101402d9cd1",
-        "type": "link out",
-        "z": "cde79c08.e4f488",
-        "g": "cb7954a7aa2cae2b",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 475,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "880bc0b589727b10",
-        "type": "template",
-        "z": "cde79c08.e4f488",
-        "g": "cb7954a7aa2cae2b",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "301e5101402d9cd1"
             ]
         ]
     },
@@ -27919,8 +26740,8 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "a97f87cfab413716"
+            "a97f87cfab413716",
+            "9286a72a2355f5ca"
         ],
         "x": 1725,
         "y": 320,
@@ -28522,8 +27343,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad",
             "c4660dc11fb0e5b8"
         ],
         "x": 1675,
@@ -28980,8 +27799,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad",
             "c4660dc11fb0e5b8"
         ],
         "x": 2285,
@@ -30144,9 +28961,9 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "a97f87cfab413716",
-            "aeee8468f3d1b7ad"
+            "9286a72a2355f5ca",
+            "39fe1680119f6b36"
         ],
         "x": 1165,
         "y": 140,
@@ -39089,7 +37906,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 760,
-        "y": 1820,
+        "y": 2140,
         "wires": [
             []
         ]
@@ -39128,7 +37945,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 500,
-        "y": 1820,
+        "y": 2140,
         "wires": [
             [
                 "2127f9679d74bffa"
@@ -39143,7 +37960,7 @@
         "g": "ebd96689a07f730e",
         "name": "",
         "x": 190,
-        "y": 1820,
+        "y": 2140,
         "wires": [
             [
                 "d244c71c8ebb21ec"
@@ -39162,7 +37979,7 @@
         "name": "turn on or off christmas tree light",
         "info": "",
         "x": 190,
-        "y": 1720,
+        "y": 2040,
         "wires": []
     },
     {
@@ -39199,7 +38016,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 500,
-        "y": 1780,
+        "y": 2100,
         "wires": [
             [
                 "74a8772920457cd4"
@@ -39235,7 +38052,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 760,
-        "y": 1780,
+        "y": 2100,
         "wires": [
             []
         ]
@@ -39250,7 +38067,7 @@
             "2d71a81ca51a22dc"
         ],
         "x": 315,
-        "y": 1760,
+        "y": 2080,
         "wires": [
             [
                 "d244c71c8ebb21ec",
@@ -39285,7 +38102,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 1380,
-        "y": 1980,
+        "y": 2300,
         "wires": [
             []
         ]
@@ -39315,7 +38132,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 710,
-        "y": 1980,
+        "y": 2300,
         "wires": [
             [
                 "b7171475ccc7e603"
@@ -39331,7 +38148,7 @@
         "name": "turn on living room lights when it is dark outside and the tv is on",
         "info": "",
         "x": 290,
-        "y": 1940,
+        "y": 2260,
         "wires": []
     },
     {
@@ -39638,7 +38455,7 @@
             "4a93ba39b988072a"
         ],
         "x": 305,
-        "y": 1980,
+        "y": 2300,
         "wires": [
             [
                 "9d3440869e61a51f"
@@ -39652,7 +38469,7 @@
         "g": "a2cb8e43bd2538c0",
         "name": "",
         "x": 190,
-        "y": 2100,
+        "y": 2420,
         "wires": [
             [
                 "65c1beb3af49864c"
@@ -39701,7 +38518,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 910,
-        "y": 1980,
+        "y": 2300,
         "wires": [
             [
                 "14e7742560be87fb"
@@ -39717,7 +38534,7 @@
         "name": "turn off living room lights when sleepmode turns on or the house is unoccupied",
         "info": "",
         "x": 330,
-        "y": 2220,
+        "y": 2540,
         "wires": []
     },
     {
@@ -39727,7 +38544,7 @@
         "g": "97cc1a527f72ed4e",
         "name": "",
         "x": 190,
-        "y": 2260,
+        "y": 2580,
         "wires": [
             [
                 "6c8db471867be131"
@@ -39761,7 +38578,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 410,
-        "y": 2260,
+        "y": 2580,
         "wires": [
             []
         ]
@@ -39776,7 +38593,7 @@
             "e6b9ff42fde3ea4e"
         ],
         "x": 305,
-        "y": 2300,
+        "y": 2620,
         "wires": [
             [
                 "6c8db471867be131"
@@ -39861,7 +38678,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 490,
-        "y": 1980,
+        "y": 2300,
         "wires": [
             [
                 "1cc104eb3c21317e"
@@ -39907,7 +38724,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1130,
-        "y": 1980,
+        "y": 2300,
         "wires": [
             [
                 "1c9555d76592af83"
@@ -39923,7 +38740,7 @@
         "name": "turn on living room lights when house is getting ocuppied and light is off",
         "info": "",
         "x": 310,
-        "y": 2040,
+        "y": 2360,
         "wires": []
     },
     {
@@ -39945,7 +38762,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 920,
-        "y": 2440,
+        "y": 2760,
         "wires": [
             [
                 "113b4aa51efc55a3"
@@ -39979,7 +38796,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 670,
-        "y": 2440,
+        "y": 2760,
         "wires": [
             [
                 "5430d71930b64448"
@@ -40013,7 +38830,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 1090,
-        "y": 2440,
+        "y": 2760,
         "wires": [
             []
         ]
@@ -40055,7 +38872,7 @@
         "outputLocation": "payload",
         "outputResultsCount": 1,
         "x": 460,
-        "y": 2440,
+        "y": 2760,
         "wires": [
             [
                 "fded5d70d3c53f4f"
@@ -40072,7 +38889,7 @@
             "e8424879dc4b6a54"
         ],
         "x": 305,
-        "y": 2440,
+        "y": 2760,
         "wires": [
             [
                 "b3faeb3c1fda8af0"
@@ -40087,8 +38904,257 @@
         "name": "turn on a random light that was off and turn it randomly off",
         "info": "",
         "x": 270,
-        "y": 2400,
+        "y": 2720,
         "wires": []
+    },
+    {
+        "id": "743eb0e6.61b368",
+        "type": "server-state-changed",
+        "z": "94466ab2e543aa2f",
+        "name": "smoke co alarm test livingroom",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "binary_sensor.firtsalert_living_room_smoke_alarm_test"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "on",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": false,
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "alarm_state",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 170,
+        "y": 1760,
+        "wires": [
+            [
+                "2174c321b4d32ca8"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "bc9788a0.2fc028",
+        "type": "server-state-changed",
+        "z": "94466ab2e543aa2f",
+        "name": "smoke detected livingroom",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "binary_sensor.firtsalert_living_room_smoke_detected"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "alarm_state",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 150,
+        "y": 1820,
+        "wires": [
+            [
+                "2174c321b4d32ca8"
+            ]
+        ]
+    },
+    {
+        "id": "462204bb44d52283",
+        "type": "server-state-changed",
+        "z": "94466ab2e543aa2f",
+        "name": "co detected livingroom",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "binary_sensor.firtsalert_living_room_carbon_monoxide_detected"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "alarm_state",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 140,
+        "y": 1880,
+        "wires": [
+            [
+                "d0bb7b02f9cf0587"
+            ]
+        ]
+    },
+    {
+        "id": "788097470cb2b760",
+        "type": "comment",
+        "z": "94466ab2e543aa2f",
+        "name": "smoke and co detection",
+        "info": "",
+        "x": 140,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "2174c321b4d32ca8",
+        "type": "template",
+        "z": "94466ab2e543aa2f",
+        "name": "location livingroom",
+        "field": "location",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "woonkamer",
+        "output": "str",
+        "x": 490,
+        "y": 1760,
+        "wires": [
+            [
+                "672b119de53c2e27"
+            ]
+        ]
+    },
+    {
+        "id": "672b119de53c2e27",
+        "type": "link out",
+        "z": "94466ab2e543aa2f",
+        "name": "smokealarm trigger",
+        "mode": "link",
+        "links": [
+            "8a5a42bcd414ac14"
+        ],
+        "x": 615,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "63f01d3d2554ca69",
+        "type": "link out",
+        "z": "94466ab2e543aa2f",
+        "name": "coalarm trigger",
+        "mode": "link",
+        "links": [
+            "38db1827482f1f0d"
+        ],
+        "x": 615,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "d0bb7b02f9cf0587",
+        "type": "template",
+        "z": "94466ab2e543aa2f",
+        "name": "location livingroom",
+        "field": "location",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "woonkamer",
+        "output": "str",
+        "x": 490,
+        "y": 1880,
+        "wires": [
+            [
+                "63f01d3d2554ca69"
+            ]
+        ]
     },
     {
         "id": "5083713d92884af5",
@@ -41107,7 +40173,7 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b"
+            "9286a72a2355f5ca"
         ],
         "x": 2255,
         "y": 260,
@@ -44239,10 +43305,10 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "a97f87cfab413716",
-            "aeee8468f3d1b7ad",
-            "c4660dc11fb0e5b8"
+            "c4660dc11fb0e5b8",
+            "9286a72a2355f5ca",
+            "39fe1680119f6b36"
         ],
         "x": 1305,
         "y": 1420,
@@ -49162,8 +48228,8 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "a97f87cfab413716"
+            "a97f87cfab413716",
+            "9286a72a2355f5ca"
         ],
         "x": 1725,
         "y": 740,
@@ -50020,7 +49086,7 @@
             "switch.shellyplugplus_quooker_switch_0"
         ],
         "labelId": [],
-        "data": "{\"transition\":5000}",
+        "data": "",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -50467,8 +49533,8 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "a97f87cfab413716"
+            "a97f87cfab413716",
+            "9286a72a2355f5ca"
         ],
         "x": 1685,
         "y": 1060,
@@ -54065,7 +53131,7 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b"
+            "9286a72a2355f5ca"
         ],
         "x": 1465,
         "y": 540,
@@ -56005,8 +55071,8 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad"
+            "9286a72a2355f5ca",
+            "39fe1680119f6b36"
         ],
         "x": 665,
         "y": 260,
@@ -56879,7 +55945,8 @@
         "y": 180,
         "wires": [
             [
-                "a8bd2d2619b0c41d"
+                "293862b3a629f535",
+                "84292d6fdeba6212"
             ]
         ]
     },
@@ -56908,31 +55975,6 @@
         "wires": [
             [
                 "7c8fbdcd82eafc37"
-            ]
-        ]
-    },
-    {
-        "id": "a8bd2d2619b0c41d",
-        "type": "delay",
-        "z": "edbbe41e31b072c6",
-        "name": "",
-        "pauseType": "rate",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "5",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": true,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1240,
-        "y": 180,
-        "wires": [
-            [
-                "ed350a42f045c5e8"
             ]
         ]
     },
@@ -57035,7 +56077,8 @@
         "y": 280,
         "wires": [
             [
-                "de6ae834ddd5738a"
+                "293862b3a629f535",
+                "84292d6fdeba6212"
             ]
         ]
     },
@@ -57055,31 +56098,6 @@
         "wires": [
             [
                 "84892d93159e82cc"
-            ]
-        ]
-    },
-    {
-        "id": "de6ae834ddd5738a",
-        "type": "delay",
-        "z": "edbbe41e31b072c6",
-        "name": "",
-        "pauseType": "rate",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "hour",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": true,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1230,
-        "y": 280,
-        "wires": [
-            [
-                "d82ba61d448bc614"
             ]
         ]
     },
@@ -57153,32 +56171,6 @@
             ],
             []
         ]
-    },
-    {
-        "id": "ed350a42f045c5e8",
-        "type": "link out",
-        "z": "edbbe41e31b072c6",
-        "name": "guest mode action",
-        "mode": "link",
-        "links": [
-            "d1753081ba6b4004"
-        ],
-        "x": 1555,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "d82ba61d448bc614",
-        "type": "link out",
-        "z": "edbbe41e31b072c6",
-        "name": "vacation mode action",
-        "mode": "link",
-        "links": [
-            "d1753081ba6b4004"
-        ],
-        "x": 1555,
-        "y": 280,
-        "wires": []
     },
     {
         "id": "adacec4577ff7088",
@@ -57285,13 +56277,13 @@
         "id": "293862b3a629f535",
         "type": "link out",
         "z": "edbbe41e31b072c6",
-        "name": "link_out_anne_is_home",
+        "name": "notify two actions anne",
         "mode": "link",
         "links": [
             "c76d311bb4b6991b"
         ],
-        "x": 1555,
-        "y": 340,
+        "x": 1585,
+        "y": 180,
         "wires": []
     },
     {
@@ -57343,12 +56335,12 @@
         "id": "84292d6fdeba6212",
         "type": "link out",
         "z": "edbbe41e31b072c6",
-        "name": "link_out_coen_is_home",
+        "name": "notify two actions coen",
         "mode": "link",
         "links": [
             "d1753081ba6b4004"
         ],
-        "x": 1555,
+        "x": 1585,
         "y": 400,
         "wires": []
     },
@@ -57413,31 +56405,6 @@
         "y": 360,
         "wires": [
             [
-                "187caca6b2f9616f"
-            ]
-        ]
-    },
-    {
-        "id": "187caca6b2f9616f",
-        "type": "delay",
-        "z": "edbbe41e31b072c6",
-        "name": "",
-        "pauseType": "rate",
-        "timeout": "5",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "30",
-        "rateUnits": "minute",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": true,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1240,
-        "y": 360,
-        "wires": [
-            [
                 "4c0c4f7a04828adb",
                 "1e2e667d2ca5d8db"
             ]
@@ -57479,6 +56446,166 @@
         ]
     },
     {
+        "id": "85765f3a3994ce10",
+        "type": "comment",
+        "z": "edbbe41e31b072c6",
+        "name": "notification when there is a smoke alarm",
+        "info": "",
+        "x": 390,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "8a5a42bcd414ac14",
+        "type": "link in",
+        "z": "edbbe41e31b072c6",
+        "name": "notification when smoke is detected",
+        "links": [
+            "672b119de53c2e27"
+        ],
+        "x": 265,
+        "y": 480,
+        "wires": [
+            [
+                "999f7943d9c51272"
+            ]
+        ]
+    },
+    {
+        "id": "999f7943d9c51272",
+        "type": "function",
+        "z": "edbbe41e31b072c6",
+        "name": "messages",
+        "func": "msg.notify = {};\nvar defaultMessage = \"De rookmelder gaat af in de \" + msg.location + \"!\";\n\nif (msg.data && msg.data.new_state && msg.data.new_state.entity_id) {\n    if (msg.data.new_state.entity_id.includes(\"test\")) {\n        msg.notify.message = \"Dit is een test melding. \" + defaultMessage\n    } else {\n        msg.notify.message = defaultMessage\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 480,
+        "wires": [
+            [
+                "66b51abd268a5c82"
+            ]
+        ]
+    },
+    {
+        "id": "66b51abd268a5c82",
+        "type": "function",
+        "z": "edbbe41e31b072c6",
+        "name": "smookalarm notification",
+        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Alarm\",\n    icon: \"\",\n    tag: msg.tag || \"firealarm\",\n    notification_id: \"firealarm\",\n    channel: \"Warning\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 480,
+        "wires": [
+            [
+                "1aed08734d40b90c",
+                "c3c4e76b05069f1b"
+            ]
+        ]
+    },
+    {
+        "id": "1aed08734d40b90c",
+        "type": "link out",
+        "z": "edbbe41e31b072c6",
+        "name": "notify anne",
+        "mode": "link",
+        "links": [
+            "39fe1680119f6b36"
+        ],
+        "x": 1585,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "52660863d32349d6",
+        "type": "function",
+        "z": "edbbe41e31b072c6",
+        "name": "messages",
+        "func": "msg.notify = {};\nvar defaultMessage = \"Er is een koolmonoxide alarm in de \" + msg.location + \", open ramen en deuren!\";\n\nif (msg.data && msg.data.new_state && msg.data.new_state.entity_id) {\n    if (msg.data.new_state.entity_id.includes(\"test\")) {\n        msg.notify.message = \"Dit is een test melding. \" + defaultMessage\n    } else {\n        msg.notify.message = defaultMessage\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 560,
+        "wires": [
+            [
+                "a73476e735eaee3a"
+            ]
+        ]
+    },
+    {
+        "id": "a73476e735eaee3a",
+        "type": "function",
+        "z": "edbbe41e31b072c6",
+        "name": "coalarm notification",
+        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Alarm\",\n    icon: \"\",\n    tag: msg.tag || \"coalarm\",\n    notification_id: \"coalarm\",\n    channel: \"Warning\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 560,
+        "wires": [
+            [
+                "c3c4e76b05069f1b",
+                "1aed08734d40b90c"
+            ]
+        ]
+    },
+    {
+        "id": "e0da1fd0b9104ded",
+        "type": "comment",
+        "z": "edbbe41e31b072c6",
+        "name": "notification when there is co alarm",
+        "info": "",
+        "x": 380,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "38db1827482f1f0d",
+        "type": "link in",
+        "z": "edbbe41e31b072c6",
+        "name": "notification when co is detected",
+        "links": [
+            "63f01d3d2554ca69"
+        ],
+        "x": 265,
+        "y": 560,
+        "wires": [
+            [
+                "52660863d32349d6"
+            ]
+        ]
+    },
+    {
+        "id": "c3c4e76b05069f1b",
+        "type": "link out",
+        "z": "edbbe41e31b072c6",
+        "name": "notify coen",
+        "mode": "link",
+        "links": [
+            "9286a72a2355f5ca"
+        ],
+        "x": 1585,
+        "y": 560,
+        "wires": []
+    },
+    {
         "id": "3675d2d1160c6b61",
         "type": "api-call-service",
         "z": "3611a09f77ab1873",
@@ -57517,9 +56644,7 @@
             "48cae6c1e3fb0c75",
             "84292d6fdeba6212",
             "a38691fbb41a64b9",
-            "d7f92782a71d3837",
-            "d82ba61d448bc614",
-            "ed350a42f045c5e8"
+            "d7f92782a71d3837"
         ],
         "x": 295,
         "y": 200,
@@ -57631,7 +56756,7 @@
             "76568807668461a0"
         ],
         "x": 295,
-        "y": 280,
+        "y": 380,
         "wires": [
             [
                 "7e56e31c0145c7b4"
@@ -57662,7 +56787,121 @@
         "domain": "notify",
         "service": "mobile_app_phone_anne",
         "x": 440,
-        "y": 280,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cde68a0570296dd3",
+        "type": "api-call-service",
+        "z": "3611a09f77ab1873",
+        "name": "notify coen",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.mobile_app_phone_coen",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"message\":\"{{notify.message}}\",\"title\":\"{{notify.title}}\",\"data\":{\"vibrationPattern\":\"{{notify.vibrationPattern}}\",\"channel\":\"{{notify.channel}}\",\"tag\":\"{{notify.tag}}\",\"clickAction\":\"{{notify.clickAction}}\"}}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "notify",
+        "service": "mobile_app_phone_coen",
+        "x": 410,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9286a72a2355f5ca",
+        "type": "link in",
+        "z": "3611a09f77ab1873",
+        "name": "notify_coen",
+        "links": [
+            "8c93b438701888a6",
+            "ac04035c1896218b",
+            "73e546f49b2e02e1",
+            "2c0a57bd6ee87009",
+            "b9f5925e88c3b14b",
+            "17c484a9c9a917ac",
+            "ef18c5c2564a7e77",
+            "c6bc1abd0ea4d3e7",
+            "b41a40c1e135e55c",
+            "ac254d4235d71700",
+            "e188c5d43cc22d55",
+            "f118397ef51d377e",
+            "7a732e9184d0afcf",
+            "2e9e2b02c8f4b00b",
+            "8e10f7084a1fb496",
+            "7776b1f9419bbd45",
+            "e979b5648c1846fb",
+            "c3c4e76b05069f1b"
+        ],
+        "x": 295,
+        "y": 540,
+        "wires": [
+            [
+                "cde68a0570296dd3"
+            ]
+        ]
+    },
+    {
+        "id": "39fe1680119f6b36",
+        "type": "link in",
+        "z": "3611a09f77ab1873",
+        "name": "notify_anne",
+        "links": [
+            "ef18c5c2564a7e77",
+            "c6bc1abd0ea4d3e7",
+            "ac254d4235d71700",
+            "e188c5d43cc22d55",
+            "7a732e9184d0afcf",
+            "2e9e2b02c8f4b00b",
+            "e979b5648c1846fb",
+            "1aed08734d40b90c"
+        ],
+        "x": 295,
+        "y": 640,
+        "wires": [
+            [
+                "514c912f7a170790"
+            ]
+        ]
+    },
+    {
+        "id": "514c912f7a170790",
+        "type": "api-call-service",
+        "z": "3611a09f77ab1873",
+        "name": "notify anne",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.mobile_app_phone_anne",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"message\":\"{{notify.message}}\",\"title\":\"{{notify.title}}\",\"data\":{\"vibrationPattern\":\"{{notify.vibrationPattern}}\",\"channel\":\"{{notify.channel}}\",\"tag\":\"{{notify.tag}}\",\"clickAction\":\"{{notify.clickAction}}\"}}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "notify",
+        "service": "mobile_app_phone_anne",
+        "x": 410,
+        "y": 640,
         "wires": [
             []
         ]
@@ -58224,6 +57463,867 @@
                 "d328e5faf80e8773"
             ],
             []
+        ]
+    },
+    {
+        "id": "8ca7529cee95086c",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "g": "60a8ffbec987c377",
+        "name": "notification channel",
+        "field": "notify.channel",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Warning",
+        "output": "str",
+        "x": 990,
+        "y": 400,
+        "wires": [
+            [
+                "9a02e08c1760e584"
+            ]
+        ]
+    },
+    {
+        "id": "af6a4d51c1e99b4e",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "g": "60a8ffbec987c377",
+        "name": "icon",
+        "field": "notify.icon",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "",
+        "output": "str",
+        "x": 950,
+        "y": 320,
+        "wires": [
+            [
+                "9a02e08c1760e584"
+            ]
+        ]
+    },
+    {
+        "id": "8bda876328e49e67",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "g": "60a8ffbec987c377",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Alarm",
+        "output": "str",
+        "x": 950,
+        "y": 280,
+        "wires": [
+            [
+                "9a02e08c1760e584"
+            ]
+        ]
+    },
+    {
+        "id": "fdba7cd037a9da5a",
+        "type": "link out",
+        "z": "cde79c08.e4f488",
+        "g": "60a8ffbec987c377",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "c4660dc11fb0e5b8"
+        ],
+        "x": 1205,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "9a02e08c1760e584",
+        "type": "join",
+        "z": "cde79c08.e4f488",
+        "g": "60a8ffbec987c377",
+        "name": "",
+        "mode": "custom",
+        "build": "merged",
+        "property": "notify",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "5",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1110,
+        "y": 300,
+        "wires": [
+            [
+                "fdba7cd037a9da5a"
+            ]
+        ]
+    },
+    {
+        "id": "c7b88c5f533c105b",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "g": "60a8ffbec987c377",
+        "name": "notification id",
+        "field": "notify.notification_id",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "firealarm",
+        "output": "str",
+        "x": 970,
+        "y": 360,
+        "wires": [
+            [
+                "9a02e08c1760e584"
+            ]
+        ]
+    },
+    {
+        "id": "dc93ddfe.5bd4a",
+        "type": "comment",
+        "z": "cde79c08.e4f488",
+        "name": "notify when a smoke or co alarm goes on",
+        "info": "notify when a message appears in pfsense",
+        "x": 180,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "3fdbb752.798ec8",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "name": "message",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{{test_message}}Er is rook gedecteerd in de {{location}}!",
+        "output": "str",
+        "x": 660,
+        "y": 420,
+        "wires": [
+            [
+                "8f9a86a6.9ca938"
+            ]
+        ]
+    },
+    {
+        "id": "acaf455.81dc638",
+        "type": "change",
+        "z": "cde79c08.e4f488",
+        "name": "set msg.alarm on",
+        "rules": [
+            {
+                "t": "set",
+                "p": "alarm",
+                "pt": "msg",
+                "to": "on",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 520,
+        "wires": [
+            [
+                "e426c9cc0865f723"
+            ]
+        ]
+    },
+    {
+        "id": "7cdcd90a.9cd33",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "name": "location livingroom",
+        "field": "location",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "woonkamer",
+        "output": "str",
+        "x": 430,
+        "y": 360,
+        "wires": [
+            [
+                "3fdbb752.798ec8"
+            ]
+        ]
+    },
+    {
+        "id": "3f622d19.96609a",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "name": "location upstairs",
+        "field": "location",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "hal boven",
+        "output": "str",
+        "x": 420,
+        "y": 420,
+        "wires": [
+            [
+                "3fdbb752.798ec8"
+            ]
+        ]
+    },
+    {
+        "id": "c5e700b.742ef",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "name": "location basement",
+        "field": "location",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "kelder",
+        "output": "str",
+        "x": 430,
+        "y": 460,
+        "wires": [
+            [
+                "3fdbb752.798ec8"
+            ]
+        ]
+    },
+    {
+        "id": "8f9a86a6.9ca938",
+        "type": "switch",
+        "z": "cde79c08.e4f488",
+        "name": "on / off",
+        "property": "alarm_state",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "on",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "off",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 790,
+        "y": 520,
+        "wires": [
+            [
+                "acaf455.81dc638",
+                "ef17b4eb0dc0871b"
+            ],
+            [
+                "56c87bdc.b016ac"
+            ]
+        ]
+    },
+    {
+        "id": "56c87bdc.b016ac",
+        "type": "change",
+        "z": "cde79c08.e4f488",
+        "name": "set msg.alarm off",
+        "rules": [
+            {
+                "t": "set",
+                "p": "alarm",
+                "pt": "msg",
+                "to": "off",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 560,
+        "wires": [
+            [
+                "e426c9cc0865f723"
+            ]
+        ]
+    },
+    {
+        "id": "091db6919a07bcbc",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "name": "location upstairs",
+        "field": "location",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "hal boven",
+        "output": "str",
+        "x": 420,
+        "y": 240,
+        "wires": [
+            [
+                "3c51dd96d91e1bc6"
+            ]
+        ]
+    },
+    {
+        "id": "05b4a765aa5d138e",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "name": "location basement",
+        "field": "location",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "kelder",
+        "output": "str",
+        "x": 430,
+        "y": 280,
+        "wires": [
+            [
+                "3c51dd96d91e1bc6"
+            ]
+        ]
+    },
+    {
+        "id": "3c51dd96d91e1bc6",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "name": "test message",
+        "field": "test_message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Dit is een test.",
+        "output": "str",
+        "x": 670,
+        "y": 260,
+        "wires": [
+            [
+                "3fdbb752.798ec8"
+            ]
+        ]
+    },
+    {
+        "id": "f7bea18edd3df74d",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "name": "message",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{{test_message}}Er is koolmonoxide gedecteerd in de {{location}}, open ramen en deuren!",
+        "output": "str",
+        "x": 660,
+        "y": 600,
+        "wires": [
+            [
+                "8f9a86a6.9ca938"
+            ]
+        ]
+    },
+    {
+        "id": "7796933fbf4a81d9",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "name": "location livingroom",
+        "field": "location",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "woonkamer",
+        "output": "str",
+        "x": 430,
+        "y": 560,
+        "wires": [
+            [
+                "f7bea18edd3df74d"
+            ]
+        ]
+    },
+    {
+        "id": "e158e20d0b4d314e",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "name": "location upstairs",
+        "field": "location",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "hal boven",
+        "output": "str",
+        "x": 420,
+        "y": 600,
+        "wires": [
+            [
+                "f7bea18edd3df74d"
+            ]
+        ]
+    },
+    {
+        "id": "44c54d3a1158ddbd",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "name": "location basement",
+        "field": "location",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "kelder",
+        "output": "str",
+        "x": 430,
+        "y": 640,
+        "wires": [
+            [
+                "f7bea18edd3df74d"
+            ]
+        ]
+    },
+    {
+        "id": "e426c9cc0865f723",
+        "type": "link out",
+        "z": "cde79c08.e4f488",
+        "name": "link_out_light_dynamics_1",
+        "mode": "link",
+        "links": [
+            "43cbfb522e72cbe5"
+        ],
+        "x": 1125,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "fd7b8a4d.52e6c8",
+        "type": "server-state-changed",
+        "z": "cde79c08.e4f488",
+        "name": "smoke detected upstairs",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "binary_sensor.firstalert_hallway_upstairs_smoke_detected"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "alarm_state",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 130,
+        "y": 420,
+        "wires": [
+            [
+                "3f622d19.96609a"
+            ]
+        ]
+    },
+    {
+        "id": "d75a3b89.b17828",
+        "type": "server-state-changed",
+        "z": "cde79c08.e4f488",
+        "name": "smoke detected basement",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "binary_sensor.smartalert_basement_smoke_detected"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "alarm_state",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 130,
+        "y": 460,
+        "wires": [
+            [
+                "c5e700b.742ef"
+            ]
+        ]
+    },
+    {
+        "id": "04d283125bc58145",
+        "type": "server-state-changed",
+        "z": "cde79c08.e4f488",
+        "name": "smoke co alarm test hallway upstairs",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "binary_sensor.firstalert_hallway_upstairs_smoke_alarm_test"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "alarm_state",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 160,
+        "y": 240,
+        "wires": [
+            [
+                "091db6919a07bcbc"
+            ]
+        ]
+    },
+    {
+        "id": "0e7fa473b99890f7",
+        "type": "server-state-changed",
+        "z": "cde79c08.e4f488",
+        "name": "smoke co alarm test ",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "binary_sensor.smartalert_basement_smoke_alarm_test"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "alarm_state",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 110,
+        "y": 280,
+        "wires": [
+            [
+                "05b4a765aa5d138e"
+            ]
+        ]
+    },
+    {
+        "id": "fb4d6bcec28c0e8c",
+        "type": "server-state-changed",
+        "z": "cde79c08.e4f488",
+        "name": "co detected upstairs",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "binary_sensor.firstalert_hallway_upstairs_carbon_monoxide_detected"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "alarm_state",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 110,
+        "y": 600,
+        "wires": [
+            [
+                "e158e20d0b4d314e"
+            ]
+        ]
+    },
+    {
+        "id": "22ebafc77a56459e",
+        "type": "server-state-changed",
+        "z": "cde79c08.e4f488",
+        "name": "co detected basement",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "binary_sensor.smartalert_basement_carbon_monoxide_detected"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "alarm_state",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 120,
+        "y": 640,
+        "wires": [
+            [
+                "44c54d3a1158ddbd"
+            ]
+        ]
+    },
+    {
+        "id": "7f6be1a38957af4c",
+        "type": "catch",
+        "z": "cde79c08.e4f488",
+        "g": "cb7954a7aa2cae2b",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "f1521b7d71efee12"
+            ]
+        ]
+    },
+    {
+        "id": "f1521b7d71efee12",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "g": "cb7954a7aa2cae2b",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "880bc0b589727b10"
+            ]
+        ]
+    },
+    {
+        "id": "301e5101402d9cd1",
+        "type": "link out",
+        "z": "cde79c08.e4f488",
+        "g": "cb7954a7aa2cae2b",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 475,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "880bc0b589727b10",
+        "type": "template",
+        "z": "cde79c08.e4f488",
+        "g": "cb7954a7aa2cae2b",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "301e5101402d9cd1"
+            ]
         ]
     }
 ]
