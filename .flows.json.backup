@@ -8798,7 +8798,6 @@
         "name": "link_out_notify_3",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "a97f87cfab413716",
             "9286a72a2355f5ca"
         ],
@@ -11462,10 +11461,7 @@
         "g": "deb17c414e79ec63",
         "name": "link_out_notify_1",
         "mode": "link",
-        "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad"
-        ],
+        "links": [],
         "x": 2265,
         "y": 480,
         "wires": []
@@ -14617,7 +14613,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "a97f87cfab413716",
             "9286a72a2355f5ca"
         ],
@@ -15630,7 +15625,6 @@
         "name": "link_out_notify_2",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "9286a72a2355f5ca"
         ],
         "x": 2015,
@@ -15755,9 +15749,7 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "a97f87cfab413716",
-            "aeee8468f3d1b7ad",
             "c13b2b4d87067c17",
             "9286a72a2355f5ca",
             "39fe1680119f6b36"
@@ -17223,7 +17215,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "9286a72a2355f5ca"
         ],
         "x": 1265,
@@ -17976,8 +17967,7 @@
             "c5f04c8242157305",
             "fdba7cd037a9da5a",
             "7528bd2fef1d9090",
-            "e979b5648c1846fb",
-            "7e1df7d3a119b30b"
+            "e979b5648c1846fb"
         ],
         "x": 275,
         "y": 680,
@@ -18358,8 +18348,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad",
             "9286a72a2355f5ca",
             "39fe1680119f6b36"
         ],
@@ -19063,9 +19051,7 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "a97f87cfab413716",
-            "aeee8468f3d1b7ad"
+            "a97f87cfab413716"
         ],
         "x": 2055,
         "y": 500,
@@ -21593,8 +21579,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad",
             "9286a72a2355f5ca",
             "39fe1680119f6b36"
         ],
@@ -22047,9 +22031,7 @@
         "g": "537179d37e7389e5",
         "name": "link_out_notify_1",
         "mode": "link",
-        "links": [
-            "8ed3b0974336e55b"
-        ],
+        "links": [],
         "x": 1605,
         "y": 320,
         "wires": []
@@ -22471,8 +22453,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad",
             "c4660dc11fb0e5b8"
         ],
         "x": 1725,
@@ -23746,9 +23726,7 @@
         "g": "3bd669c9a971e4a2",
         "name": "link_out_notify_1",
         "mode": "link",
-        "links": [
-            "8ed3b0974336e55b"
-        ],
+        "links": [],
         "x": 1405,
         "y": 220,
         "wires": []
@@ -24209,7 +24187,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "9286a72a2355f5ca"
         ],
         "x": 1175,
@@ -25827,9 +25804,7 @@
         "g": "0490826048e616a0",
         "name": "link_out_notify_1",
         "mode": "link",
-        "links": [
-            "8ed3b0974336e55b"
-        ],
+        "links": [],
         "x": 1555,
         "y": 220,
         "wires": []
@@ -26765,7 +26740,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "a97f87cfab413716",
             "9286a72a2355f5ca"
         ],
@@ -27369,8 +27343,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad",
             "c4660dc11fb0e5b8"
         ],
         "x": 1675,
@@ -27827,8 +27799,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad",
             "c4660dc11fb0e5b8"
         ],
         "x": 2285,
@@ -28991,9 +28961,7 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "a97f87cfab413716",
-            "aeee8468f3d1b7ad",
             "9286a72a2355f5ca",
             "39fe1680119f6b36"
         ],
@@ -40205,7 +40173,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "9286a72a2355f5ca"
         ],
         "x": 2255,
@@ -43338,9 +43305,7 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "a97f87cfab413716",
-            "aeee8468f3d1b7ad",
             "c4660dc11fb0e5b8",
             "9286a72a2355f5ca",
             "39fe1680119f6b36"
@@ -48263,7 +48228,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "a97f87cfab413716",
             "9286a72a2355f5ca"
         ],
@@ -49122,7 +49086,7 @@
             "switch.shellyplugplus_quooker_switch_0"
         ],
         "labelId": [],
-        "data": "{\"transition\":5000}",
+        "data": "",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -49569,7 +49533,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "a97f87cfab413716",
             "9286a72a2355f5ca"
         ],
@@ -53168,7 +53131,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
             "9286a72a2355f5ca"
         ],
         "x": 1465,
@@ -55109,8 +55071,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad",
             "9286a72a2355f5ca",
             "39fe1680119f6b36"
         ],
@@ -56684,10 +56644,7 @@
             "48cae6c1e3fb0c75",
             "84292d6fdeba6212",
             "a38691fbb41a64b9",
-            "d7f92782a71d3837",
-            "d82ba61d448bc614",
-            "ed350a42f045c5e8",
-            "568d1a618e9bc2fa"
+            "d7f92782a71d3837"
         ],
         "x": 295,
         "y": 200,
@@ -56796,8 +56753,7 @@
         "links": [
             "0af5a06e405527e9",
             "293862b3a629f535",
-            "76568807668461a0",
-            "568d1a618e9bc2fa"
+            "76568807668461a0"
         ],
         "x": 295,
         "y": 380,
@@ -57577,8 +57533,6 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
-            "8ed3b0974336e55b",
-            "aeee8468f3d1b7ad",
             "c4660dc11fb0e5b8"
         ],
         "x": 1205,
