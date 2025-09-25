@@ -3425,12 +3425,13 @@
         "nodes": [
             "058bdb794f586cf6",
             "7dd2aacc1e40f777",
-            "a42a06a64b67a3b7"
+            "a42a06a64b67a3b7",
+            "49e93507c8029390"
         ],
         "x": 8,
         "y": 513,
         "w": 1444,
-        "h": 614
+        "h": 754
     },
     {
         "id": "3002fadf91b75b46",
@@ -3444,12 +3445,13 @@
         "nodes": [
             "d491c3abb1df5844",
             "755f0cfbe6e1ada2",
-            "6067241c5e9bcf6c"
+            "6067241c5e9bcf6c",
+            "4f9337b160840a41"
         ],
         "x": 8,
         "y": 653,
         "w": 1424,
-        "h": 614
+        "h": 754
     },
     {
         "id": "4805874d4b376148",
@@ -3462,12 +3464,13 @@
         },
         "nodes": [
             "8bfc8c8405959d99",
-            "c3955a96beb28f73"
+            "c3955a96beb28f73",
+            "c8605e24a2013fbb"
         ],
         "x": 8,
         "y": 673,
         "w": 1124,
-        "h": 474
+        "h": 614
     },
     {
         "id": "7a8d3a38b4738118",
@@ -3899,12 +3902,13 @@
             "label": true
         },
         "nodes": [
-            "33169817977a7916"
+            "33169817977a7916",
+            "e122a8d0692b6190"
         ],
         "x": 8,
         "y": 633,
         "w": 1024,
-        "h": 334
+        "h": 474
     },
     {
         "id": "bbcb1b047d87fd9f",
@@ -6682,6 +6686,136 @@
         "y": 1039,
         "w": 632,
         "h": 122
+    },
+    {
+        "id": "49e93507c8029390",
+        "type": "group",
+        "z": "085c9b619c2f5ad8",
+        "g": "d7464aa58ca73417",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "af0cee51e5baa6cf",
+            "3b297e5bb141e7ba",
+            "fcec04013bfdd11f",
+            "620cf95dd4c7511c"
+        ],
+        "x": 34,
+        "y": 1119,
+        "w": 632,
+        "h": 122
+    },
+    {
+        "id": "c8605e24a2013fbb",
+        "type": "group",
+        "z": "e5dc6f22432398d7",
+        "g": "4805874d4b376148",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3ab90cec58ce9a5b",
+            "49c7e1fa0eede633",
+            "5b283e162315ee03",
+            "d257ecf2057c651f"
+        ],
+        "x": 34,
+        "y": 1139,
+        "w": 632,
+        "h": 122
+    },
+    {
+        "id": "4f9337b160840a41",
+        "type": "group",
+        "z": "243935f7eeb0bc81",
+        "g": "3002fadf91b75b46",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c709e93a4ff0579c",
+            "f30d32e1709865b1",
+            "bb1404a70b199cd4",
+            "3e9e22f1aca172a4"
+        ],
+        "x": 34,
+        "y": 1259,
+        "w": 632,
+        "h": 122
+    },
+    {
+        "id": "e122a8d0692b6190",
+        "type": "group",
+        "z": "3d30857f5165e137",
+        "g": "d6c8327174bce50e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "529fe917e83e2581",
+            "dfa9055f4ac8dd18",
+            "1d8aed8797100d79",
+            "eb5c81f0c94b41eb"
+        ],
+        "x": 34,
+        "y": 959,
+        "w": 632,
+        "h": 122
+    },
+    {
+        "id": "10f89499d7cb5a54",
+        "type": "group",
+        "z": "b8d98c82eb2488b9",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d98576578e310822",
+            "451e3b4e7d84efb4",
+            "58366ad094f8377c",
+            "cfd81cdf04df1639",
+            "59ba59d92cfe39d9",
+            "6d0d646b8d2a606f",
+            "5366013bda15f665",
+            "f581e18c19643b6b",
+            "607c96cbd3c5cdcd",
+            "71e8d879fbf2622e"
+        ],
+        "x": 14,
+        "y": 679,
+        "w": 1152,
+        "h": 202
     },
     {
         "id": "97afb37521efba77",
@@ -9543,7 +9677,8 @@
         "id": "d98576578e310822",
         "type": "cronplus",
         "z": "b8d98c82eb2488b9",
-        "name": "",
+        "g": "10f89499d7cb5a54",
+        "name": "first of the month",
         "outputField": "payload",
         "timeZone": "",
         "storeName": "",
@@ -9565,16 +9700,40 @@
                 "solarEvents": "sunrise,sunset"
             }
         ],
-        "x": 120,
-        "y": 720,
+        "x": 150,
+        "y": 760,
         "wires": [
-            []
+            [
+                "451e3b4e7d84efb4"
+            ]
+        ]
+    },
+    {
+        "id": "451e3b4e7d84efb4",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "start end previous month",
+        "func": "// Get today's date\nconst today = msg.payload.status.serverTime;\n\n// Go to the first day of the current month\nconst firstDayCurrentMonth = new Date(today.getFullYear(), today.getMonth(), 1);\n\n// Previous month = current month - 1\nconst prevMonth = firstDayCurrentMonth.getMonth() - 1;\nconst yearOfPrevMonth = prevMonth < 0 ? today.getFullYear() - 1 : today.getFullYear();\nconst monthOfPrevMonth = (prevMonth + 12) % 12;\n\n// First day of previous month\nconst firstDayPrevMonth = new Date(yearOfPrevMonth, monthOfPrevMonth, 1);\n\n// Last day of previous month\nconst lastDayPrevMonth = new Date(yearOfPrevMonth, monthOfPrevMonth + 1, 0); // day 0 = last day of previous month\n\n// Format as string\nconst formatDate = (d) => d.toISOString().split('T')[0] + \" 00:00:00\"; // start of day\nconst formatEndDate = (d) => d.toISOString().split('T')[0] + \" 23:59:59\"; // end of day\n\nmsg.result = {\n    start_date_time: formatDate(firstDayPrevMonth),\n    end_date_time: formatEndDate(lastDayPrevMonth)\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 760,
+        "wires": [
+            [
+                "6d0d646b8d2a606f"
+            ]
         ]
     },
     {
         "id": "58366ad094f8377c",
         "type": "api-call-service",
         "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
         "name": "",
         "server": "4ba92433.2478cc",
         "version": 7,
@@ -9588,7 +9747,7 @@
             "calendar.lise"
         ],
         "labelId": [],
-        "data": "{\"start_date_time\":\"2025-09-01 20:00:00\",\"end_date_time\":\"2025-09-30 22:00:00\"}",
+        "data": "{\"start_date_time\":\"{{result.start_date_time}}\",\"end_date_time\":\"{{result.end_date_time}}\"}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -9604,157 +9763,11 @@
         "blockInputOverrides": true,
         "domain": "calendar",
         "service": "get_events",
-        "x": 360,
-        "y": 820,
+        "x": 740,
+        "y": 760,
         "wires": [
             [
-                "a1564cb0eaf28645",
                 "cfd81cdf04df1639"
-            ]
-        ]
-    },
-    {
-        "id": "fd8737dbd075d084",
-        "type": "inject",
-        "z": "b8d98c82eb2488b9",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 170,
-        "y": 820,
-        "wires": [
-            [
-                "58366ad094f8377c"
-            ]
-        ]
-    },
-    {
-        "id": "e48e82186e62d8db",
-        "type": "split",
-        "z": "b8d98c82eb2488b9",
-        "name": "",
-        "splt": "\\n",
-        "spltType": "str",
-        "arraySplt": 1,
-        "arraySpltType": "len",
-        "stream": false,
-        "addname": "",
-        "property": "payload[\"calendar.lise\"].events",
-        "x": 610,
-        "y": 900,
-        "wires": [
-            [
-                "b454f39cda1e272b"
-            ]
-        ]
-    },
-    {
-        "id": "a1564cb0eaf28645",
-        "type": "split",
-        "z": "b8d98c82eb2488b9",
-        "name": "",
-        "splt": "\\n",
-        "spltType": "str",
-        "arraySplt": 1,
-        "arraySpltType": "len",
-        "stream": false,
-        "addname": "",
-        "property": "payload[\"calendar.beau\"].events",
-        "x": 610,
-        "y": 980,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b454f39cda1e272b",
-        "type": "switch",
-        "z": "b8d98c82eb2488b9",
-        "name": "",
-        "property": "payload[\"calendar.lise\"].events.summary",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "regex",
-                "v": ".*Anneke past op",
-                "vt": "str",
-                "case": false
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 770,
-        "y": 900,
-        "wires": [
-            [
-                "b2b2eda64d2bcdef"
-            ],
-            [
-                "b2b2eda64d2bcdef"
-            ]
-        ]
-    },
-    {
-        "id": "83a37720d2d8eefa",
-        "type": "debug",
-        "z": "b8d98c82eb2488b9",
-        "name": "debug 5",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1100,
-        "y": 900,
-        "wires": []
-    },
-    {
-        "id": "b2b2eda64d2bcdef",
-        "type": "join",
-        "z": "b8d98c82eb2488b9",
-        "name": "",
-        "mode": "auto",
-        "build": "object",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "useparts": false,
-        "accumulate": true,
-        "timeout": "",
-        "count": "",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 930,
-        "y": 880,
-        "wires": [
-            [
-                "83a37720d2d8eefa"
             ]
         ]
     },
@@ -9762,87 +9775,148 @@
         "id": "cfd81cdf04df1639",
         "type": "function",
         "z": "b8d98c82eb2488b9",
-        "name": "function 1",
-        "func": "msg.countAnneke = msg.payload[\"calendar.lise\"].events\n    .filter(e => e.summary.toLowerCase().includes(\"anneke past op\"))\n    .length;\n\nreturn msg;",
+        "g": "10f89499d7cb5a54",
+        "name": "count all events \"anneke past op\"",
+        "func": "// Collect all events from all calendars\nconst allEvents = Object.values(msg.payload) // get each calendar object\n    .flatMap(c => c.events || []); // merge their events into one big array\n\n// Count how many match \"anneke past op\"\nmsg.countAnneke = allEvents.filter(e => \n    e.summary?.toLowerCase().includes(\"anneke past op\")\n).length;\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 620,
-        "y": 800,
+        "x": 1000,
+        "y": 760,
         "wires": [
             [
-                "e48e82186e62d8db"
+                "5366013bda15f665"
             ]
         ]
     },
     {
-        "id": "451e3b4e7d84efb4",
+        "id": "59ba59d92cfe39d9",
+        "type": "comment",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "count calendar events that contains the words \"anneke past op\" from the previous month ",
+        "info": "",
+        "x": 340,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "6d0d646b8d2a606f",
         "type": "function",
         "z": "b8d98c82eb2488b9",
-        "name": "function 2",
-        "func": "// Get today's date\nconst today = new Date();\n\n// Go to the first day of the current month\nconst firstDayCurrentMonth = new Date(today.getFullYear(), today.getMonth(), 1);\n\n// Previous month = current month - 1\nconst prevMonth = firstDayCurrentMonth.getMonth() - 1;\nconst yearOfPrevMonth = prevMonth < 0 ? today.getFullYear() - 1 : today.getFullYear();\nconst monthOfPrevMonth = (prevMonth + 12) % 12;\n\n// First day of previous month\nconst firstDayPrevMonth = new Date(yearOfPrevMonth, monthOfPrevMonth, 1);\n\n// Last day of previous month\nconst lastDayPrevMonth = new Date(yearOfPrevMonth, monthOfPrevMonth + 1, 0); // day 0 = last day of previous month\n\n// Format as string\nconst formatDate = (d) => d.toISOString().split('T')[0] + \" 00:00:00\"; // start of day\nconst formatEndDate = (d) => d.toISOString().split('T')[0] + \" 23:59:59\"; // end of day\n\nmsg.result = {\n    start_date_time: formatDate(firstDayPrevMonth),\n    end_date_time: formatEndDate(lastDayPrevMonth)\n};\n\nreturn msg;",
+        "g": "10f89499d7cb5a54",
+        "name": "due date",
+        "func": "// Parse serverTime and add 7 days\nconst dateObj = new Date(msg.payload.status.serverTime);\ndateObj.setDate(dateObj.getDate() + 7);\n\n// Return formatted date\nmsg.date = dateObj.toISOString().split(\"T\")[0];\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
-        "y": 1080,
+        "x": 560,
+        "y": 760,
         "wires": [
             [
-                "0e4632c4c03d8f4e"
+                "58366ad094f8377c"
             ]
         ]
     },
     {
-        "id": "cb6296702117275c",
-        "type": "inject",
+        "id": "5366013bda15f665",
+        "type": "function",
         "z": "b8d98c82eb2488b9",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
+        "g": "10f89499d7cb5a54",
+        "name": "todo text",
+        "func": "// Format month name in Dutch\nmsg.month = new Intl.DateTimeFormat('nl-NL', { month: 'long' }).format(new Date(msg.result.end_date_time.replace(' ', 'T')));\n\nmsg.amountOfMoney = msg.countAnneke * 10;\n\nmsg.payload = \"€\" + msg.amountOfMoney + \" overmaken naar Anneke\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 140,
+        "y": 840,
+        "wires": [
+            [
+                "71e8d879fbf2622e"
+            ]
+        ]
+    },
+    {
+        "id": "f581e18c19643b6b",
+        "type": "api-call-service",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "add housekeeping todo item",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "todo.add_item",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "todo.coen"
         ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 170,
-        "y": 1080,
+        "labelId": [],
+        "data": "{\"item\":\"{{payload}}\",\"due_date\":\"{{date}}\",\"description\":\"{{{description}}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "todo",
+        "service": "add_item",
+        "x": 640,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "607c96cbd3c5cdcd",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "todo description",
+        "func": "msg.description = \"Anneke heeft in de maand \" + msg.month + \" \" + msg.countAnneke + \" keer opgepast. betaal via deze url \" + msg.payurl;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 840,
         "wires": [
             [
-                "451e3b4e7d84efb4"
+                "f581e18c19643b6b"
             ]
         ]
     },
     {
-        "id": "0e4632c4c03d8f4e",
-        "type": "debug",
+        "id": "71e8d879fbf2622e",
+        "type": "template",
         "z": "b8d98c82eb2488b9",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 460,
-        "y": 1080,
-        "wires": []
+        "g": "10f89499d7cb5a54",
+        "name": "pay url",
+        "field": "payurl",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "https://epc-qr.eu/?bname=A%20Stam&iban=NL60SNSB0957731876&euro={{amountOfMoney}}&info={{countAnneke}}%20keer%20oppassen%20in%20{{month}}",
+        "output": "str",
+        "x": 270,
+        "y": 840,
+        "wires": [
+            [
+                "607c96cbd3c5cdcd"
+            ]
+        ]
     },
     {
         "id": "11d068d3ad86d2dd",
@@ -45806,6 +45880,100 @@
         ]
     },
     {
+        "id": "af0cee51e5baa6cf",
+        "type": "subflow:9ea6eabfb34d96e0",
+        "z": "085c9b619c2f5ad8",
+        "g": "49e93507c8029390",
+        "name": "",
+        "x": 190,
+        "y": 1200,
+        "wires": [
+            [
+                "fcec04013bfdd11f"
+            ]
+        ]
+    },
+    {
+        "id": "3b297e5bb141e7ba",
+        "type": "comment",
+        "z": "085c9b619c2f5ad8",
+        "g": "49e93507c8029390",
+        "name": "turn off all lights in this room when house is unoccupied",
+        "info": "",
+        "x": 260,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "fcec04013bfdd11f",
+        "type": "ha-get-entities",
+        "z": "085c9b619c2f5ad8",
+        "g": "49e93507c8029390",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 1,
+        "rules": [
+            {
+                "condition": "state_object",
+                "property": "entity_id",
+                "logic": "starts_with",
+                "value": "light.",
+                "valueType": "str"
+            },
+            {
+                "condition": "area_registry",
+                "property": "area_id",
+                "logic": "is",
+                "value": "#:(file)::room.ha_id",
+                "valueType": "flow"
+            }
+        ],
+        "outputType": "split",
+        "outputEmptyResults": false,
+        "outputLocationType": "msg",
+        "outputLocation": "payload",
+        "outputResultsCount": 1,
+        "x": 410,
+        "y": 1200,
+        "wires": [
+            [
+                "620cf95dd4c7511c"
+            ]
+        ]
+    },
+    {
+        "id": "620cf95dd4c7511c",
+        "type": "api-call-service",
+        "z": "085c9b619c2f5ad8",
+        "g": "49e93507c8029390",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "light.turn_off",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "{{payload.entity_id}}"
+        ],
+        "labelId": [],
+        "data": "{\"transition\":5000}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "light",
+        "service": "turn_off",
+        "x": 570,
+        "y": 1200,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "b088b44e4525c097",
         "type": "catch",
         "z": "e5dc6f22432398d7",
@@ -46675,6 +46843,100 @@
         "x": 260,
         "y": 980,
         "wires": []
+    },
+    {
+        "id": "3ab90cec58ce9a5b",
+        "type": "subflow:9ea6eabfb34d96e0",
+        "z": "e5dc6f22432398d7",
+        "g": "c8605e24a2013fbb",
+        "name": "",
+        "x": 190,
+        "y": 1220,
+        "wires": [
+            [
+                "5b283e162315ee03"
+            ]
+        ]
+    },
+    {
+        "id": "49c7e1fa0eede633",
+        "type": "comment",
+        "z": "e5dc6f22432398d7",
+        "g": "c8605e24a2013fbb",
+        "name": "turn off all lights in this room when house is unoccupied",
+        "info": "",
+        "x": 260,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "5b283e162315ee03",
+        "type": "ha-get-entities",
+        "z": "e5dc6f22432398d7",
+        "g": "c8605e24a2013fbb",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 1,
+        "rules": [
+            {
+                "condition": "state_object",
+                "property": "entity_id",
+                "logic": "starts_with",
+                "value": "light.",
+                "valueType": "str"
+            },
+            {
+                "condition": "area_registry",
+                "property": "area_id",
+                "logic": "is",
+                "value": "#:(file)::room.ha_id",
+                "valueType": "flow"
+            }
+        ],
+        "outputType": "split",
+        "outputEmptyResults": false,
+        "outputLocationType": "msg",
+        "outputLocation": "payload",
+        "outputResultsCount": 1,
+        "x": 410,
+        "y": 1220,
+        "wires": [
+            [
+                "d257ecf2057c651f"
+            ]
+        ]
+    },
+    {
+        "id": "d257ecf2057c651f",
+        "type": "api-call-service",
+        "z": "e5dc6f22432398d7",
+        "g": "c8605e24a2013fbb",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "light.turn_off",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "{{payload.entity_id}}"
+        ],
+        "labelId": [],
+        "data": "{\"transition\":5000}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "light",
+        "service": "turn_off",
+        "x": 570,
+        "y": 1220,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "d357be3dcef4fda7",
@@ -47817,6 +48079,100 @@
         ]
     },
     {
+        "id": "c709e93a4ff0579c",
+        "type": "subflow:9ea6eabfb34d96e0",
+        "z": "243935f7eeb0bc81",
+        "g": "4f9337b160840a41",
+        "name": "",
+        "x": 190,
+        "y": 1340,
+        "wires": [
+            [
+                "bb1404a70b199cd4"
+            ]
+        ]
+    },
+    {
+        "id": "f30d32e1709865b1",
+        "type": "comment",
+        "z": "243935f7eeb0bc81",
+        "g": "4f9337b160840a41",
+        "name": "turn off all lights in this room when house is unoccupied",
+        "info": "",
+        "x": 260,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "bb1404a70b199cd4",
+        "type": "ha-get-entities",
+        "z": "243935f7eeb0bc81",
+        "g": "4f9337b160840a41",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 1,
+        "rules": [
+            {
+                "condition": "state_object",
+                "property": "entity_id",
+                "logic": "starts_with",
+                "value": "light.",
+                "valueType": "str"
+            },
+            {
+                "condition": "area_registry",
+                "property": "area_id",
+                "logic": "is",
+                "value": "#:(file)::room.ha_id",
+                "valueType": "flow"
+            }
+        ],
+        "outputType": "split",
+        "outputEmptyResults": false,
+        "outputLocationType": "msg",
+        "outputLocation": "payload",
+        "outputResultsCount": 1,
+        "x": 410,
+        "y": 1340,
+        "wires": [
+            [
+                "3e9e22f1aca172a4"
+            ]
+        ]
+    },
+    {
+        "id": "3e9e22f1aca172a4",
+        "type": "api-call-service",
+        "z": "243935f7eeb0bc81",
+        "g": "4f9337b160840a41",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "light.turn_off",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "{{payload.entity_id}}"
+        ],
+        "labelId": [],
+        "data": "{\"transition\":5000}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "light",
+        "service": "turn_off",
+        "x": 570,
+        "y": 1340,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "effdb4f47bd11771",
         "type": "comment",
         "z": "3d30857f5165e137",
@@ -48641,6 +48997,100 @@
         "x": 480,
         "y": 800,
         "wires": []
+    },
+    {
+        "id": "529fe917e83e2581",
+        "type": "subflow:9ea6eabfb34d96e0",
+        "z": "3d30857f5165e137",
+        "g": "e122a8d0692b6190",
+        "name": "",
+        "x": 190,
+        "y": 1040,
+        "wires": [
+            [
+                "1d8aed8797100d79"
+            ]
+        ]
+    },
+    {
+        "id": "dfa9055f4ac8dd18",
+        "type": "comment",
+        "z": "3d30857f5165e137",
+        "g": "e122a8d0692b6190",
+        "name": "turn off all lights in this room when house is unoccupied",
+        "info": "",
+        "x": 260,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "1d8aed8797100d79",
+        "type": "ha-get-entities",
+        "z": "3d30857f5165e137",
+        "g": "e122a8d0692b6190",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 1,
+        "rules": [
+            {
+                "condition": "state_object",
+                "property": "entity_id",
+                "logic": "starts_with",
+                "value": "light.",
+                "valueType": "str"
+            },
+            {
+                "condition": "area_registry",
+                "property": "area_id",
+                "logic": "is",
+                "value": "#:(file)::room.ha_id",
+                "valueType": "flow"
+            }
+        ],
+        "outputType": "split",
+        "outputEmptyResults": false,
+        "outputLocationType": "msg",
+        "outputLocation": "payload",
+        "outputResultsCount": 1,
+        "x": 410,
+        "y": 1040,
+        "wires": [
+            [
+                "eb5c81f0c94b41eb"
+            ]
+        ]
+    },
+    {
+        "id": "eb5c81f0c94b41eb",
+        "type": "api-call-service",
+        "z": "3d30857f5165e137",
+        "g": "e122a8d0692b6190",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "light.turn_off",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "{{payload.entity_id}}"
+        ],
+        "labelId": [],
+        "data": "{\"transition\":5000}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "light",
+        "service": "turn_off",
+        "x": 570,
+        "y": 1040,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "0d2ea417abbfd9a9",

@@ -6788,6 +6788,36 @@
         "h": 122
     },
     {
+        "id": "10f89499d7cb5a54",
+        "type": "group",
+        "z": "b8d98c82eb2488b9",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d98576578e310822",
+            "451e3b4e7d84efb4",
+            "58366ad094f8377c",
+            "cfd81cdf04df1639",
+            "59ba59d92cfe39d9",
+            "6d0d646b8d2a606f",
+            "5366013bda15f665",
+            "f581e18c19643b6b",
+            "607c96cbd3c5cdcd",
+            "71e8d879fbf2622e"
+        ],
+        "x": 14,
+        "y": 679,
+        "w": 1152,
+        "h": 202
+    },
+    {
         "id": "97afb37521efba77",
         "type": "junction",
         "z": "b1a9214c.4c71c",
@@ -9647,7 +9677,8 @@
         "id": "d98576578e310822",
         "type": "cronplus",
         "z": "b8d98c82eb2488b9",
-        "name": "",
+        "g": "10f89499d7cb5a54",
+        "name": "first of the month",
         "outputField": "payload",
         "timeZone": "",
         "storeName": "",
@@ -9669,16 +9700,40 @@
                 "solarEvents": "sunrise,sunset"
             }
         ],
-        "x": 120,
-        "y": 720,
+        "x": 150,
+        "y": 760,
         "wires": [
-            []
+            [
+                "451e3b4e7d84efb4"
+            ]
+        ]
+    },
+    {
+        "id": "451e3b4e7d84efb4",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "start end previous month",
+        "func": "// Get today's date\nconst today = msg.payload.status.serverTime;\n\n// Go to the first day of the current month\nconst firstDayCurrentMonth = new Date(today.getFullYear(), today.getMonth(), 1);\n\n// Previous month = current month - 1\nconst prevMonth = firstDayCurrentMonth.getMonth() - 1;\nconst yearOfPrevMonth = prevMonth < 0 ? today.getFullYear() - 1 : today.getFullYear();\nconst monthOfPrevMonth = (prevMonth + 12) % 12;\n\n// First day of previous month\nconst firstDayPrevMonth = new Date(yearOfPrevMonth, monthOfPrevMonth, 1);\n\n// Last day of previous month\nconst lastDayPrevMonth = new Date(yearOfPrevMonth, monthOfPrevMonth + 1, 0); // day 0 = last day of previous month\n\n// Format as string\nconst formatDate = (d) => d.toISOString().split('T')[0] + \" 00:00:00\"; // start of day\nconst formatEndDate = (d) => d.toISOString().split('T')[0] + \" 23:59:59\"; // end of day\n\nmsg.result = {\n    start_date_time: formatDate(firstDayPrevMonth),\n    end_date_time: formatEndDate(lastDayPrevMonth)\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 760,
+        "wires": [
+            [
+                "6d0d646b8d2a606f"
+            ]
         ]
     },
     {
         "id": "58366ad094f8377c",
         "type": "api-call-service",
         "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
         "name": "",
         "server": "4ba92433.2478cc",
         "version": 7,
@@ -9692,7 +9747,7 @@
             "calendar.lise"
         ],
         "labelId": [],
-        "data": "{\"start_date_time\":\"2025-09-01 20:00:00\",\"end_date_time\":\"2025-09-30 22:00:00\"}",
+        "data": "{\"start_date_time\":\"{{result.start_date_time}}\",\"end_date_time\":\"{{result.end_date_time}}\"}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -9708,157 +9763,11 @@
         "blockInputOverrides": true,
         "domain": "calendar",
         "service": "get_events",
-        "x": 360,
-        "y": 820,
+        "x": 740,
+        "y": 760,
         "wires": [
             [
-                "a1564cb0eaf28645",
                 "cfd81cdf04df1639"
-            ]
-        ]
-    },
-    {
-        "id": "fd8737dbd075d084",
-        "type": "inject",
-        "z": "b8d98c82eb2488b9",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 170,
-        "y": 820,
-        "wires": [
-            [
-                "58366ad094f8377c"
-            ]
-        ]
-    },
-    {
-        "id": "e48e82186e62d8db",
-        "type": "split",
-        "z": "b8d98c82eb2488b9",
-        "name": "",
-        "splt": "\\n",
-        "spltType": "str",
-        "arraySplt": 1,
-        "arraySpltType": "len",
-        "stream": false,
-        "addname": "",
-        "property": "payload[\"calendar.lise\"].events",
-        "x": 610,
-        "y": 900,
-        "wires": [
-            [
-                "b454f39cda1e272b"
-            ]
-        ]
-    },
-    {
-        "id": "a1564cb0eaf28645",
-        "type": "split",
-        "z": "b8d98c82eb2488b9",
-        "name": "",
-        "splt": "\\n",
-        "spltType": "str",
-        "arraySplt": 1,
-        "arraySpltType": "len",
-        "stream": false,
-        "addname": "",
-        "property": "payload[\"calendar.beau\"].events",
-        "x": 610,
-        "y": 980,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "b454f39cda1e272b",
-        "type": "switch",
-        "z": "b8d98c82eb2488b9",
-        "name": "",
-        "property": "payload[\"calendar.lise\"].events.summary",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "regex",
-                "v": ".*Anneke past op",
-                "vt": "str",
-                "case": false
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 770,
-        "y": 900,
-        "wires": [
-            [
-                "b2b2eda64d2bcdef"
-            ],
-            [
-                "b2b2eda64d2bcdef"
-            ]
-        ]
-    },
-    {
-        "id": "83a37720d2d8eefa",
-        "type": "debug",
-        "z": "b8d98c82eb2488b9",
-        "name": "debug 5",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1100,
-        "y": 900,
-        "wires": []
-    },
-    {
-        "id": "b2b2eda64d2bcdef",
-        "type": "join",
-        "z": "b8d98c82eb2488b9",
-        "name": "",
-        "mode": "auto",
-        "build": "object",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "useparts": false,
-        "accumulate": true,
-        "timeout": "",
-        "count": "",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 930,
-        "y": 880,
-        "wires": [
-            [
-                "83a37720d2d8eefa"
             ]
         ]
     },
@@ -9866,87 +9775,148 @@
         "id": "cfd81cdf04df1639",
         "type": "function",
         "z": "b8d98c82eb2488b9",
-        "name": "function 1",
-        "func": "msg.countAnneke = msg.payload[\"calendar.lise\"].events\n    .filter(e => e.summary.toLowerCase().includes(\"anneke past op\"))\n    .length;\n\nreturn msg;",
+        "g": "10f89499d7cb5a54",
+        "name": "count all events \"anneke past op\"",
+        "func": "// Collect all events from all calendars\nconst allEvents = Object.values(msg.payload) // get each calendar object\n    .flatMap(c => c.events || []); // merge their events into one big array\n\n// Count how many match \"anneke past op\"\nmsg.countAnneke = allEvents.filter(e => \n    e.summary?.toLowerCase().includes(\"anneke past op\")\n).length;\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 620,
-        "y": 800,
+        "x": 1000,
+        "y": 760,
         "wires": [
             [
-                "e48e82186e62d8db"
+                "5366013bda15f665"
             ]
         ]
     },
     {
-        "id": "451e3b4e7d84efb4",
+        "id": "59ba59d92cfe39d9",
+        "type": "comment",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "count calendar events that contains the words \"anneke past op\" from the previous month ",
+        "info": "",
+        "x": 340,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "6d0d646b8d2a606f",
         "type": "function",
         "z": "b8d98c82eb2488b9",
-        "name": "function 2",
-        "func": "// Get today's date\nconst today = new Date();\n\n// Go to the first day of the current month\nconst firstDayCurrentMonth = new Date(today.getFullYear(), today.getMonth(), 1);\n\n// Previous month = current month - 1\nconst prevMonth = firstDayCurrentMonth.getMonth() - 1;\nconst yearOfPrevMonth = prevMonth < 0 ? today.getFullYear() - 1 : today.getFullYear();\nconst monthOfPrevMonth = (prevMonth + 12) % 12;\n\n// First day of previous month\nconst firstDayPrevMonth = new Date(yearOfPrevMonth, monthOfPrevMonth, 1);\n\n// Last day of previous month\nconst lastDayPrevMonth = new Date(yearOfPrevMonth, monthOfPrevMonth + 1, 0); // day 0 = last day of previous month\n\n// Format as string\nconst formatDate = (d) => d.toISOString().split('T')[0] + \" 00:00:00\"; // start of day\nconst formatEndDate = (d) => d.toISOString().split('T')[0] + \" 23:59:59\"; // end of day\n\nmsg.result = {\n    start_date_time: formatDate(firstDayPrevMonth),\n    end_date_time: formatEndDate(lastDayPrevMonth)\n};\n\nreturn msg;",
+        "g": "10f89499d7cb5a54",
+        "name": "due date",
+        "func": "// Parse serverTime and add 7 days\nconst dateObj = new Date(msg.payload.status.serverTime);\ndateObj.setDate(dateObj.getDate() + 7);\n\n// Return formatted date\nmsg.date = dateObj.toISOString().split(\"T\")[0];\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
-        "y": 1080,
+        "x": 560,
+        "y": 760,
         "wires": [
             [
-                "0e4632c4c03d8f4e"
+                "58366ad094f8377c"
             ]
         ]
     },
     {
-        "id": "cb6296702117275c",
-        "type": "inject",
+        "id": "5366013bda15f665",
+        "type": "function",
         "z": "b8d98c82eb2488b9",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
+        "g": "10f89499d7cb5a54",
+        "name": "todo text",
+        "func": "// Format month name in Dutch\nmsg.month = new Intl.DateTimeFormat('nl-NL', { month: 'long' }).format(new Date(msg.result.end_date_time.replace(' ', 'T')));\n\nmsg.amountOfMoney = msg.countAnneke * 10;\n\nmsg.payload = \"€\" + msg.amountOfMoney + \" overmaken naar Anneke\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 140,
+        "y": 840,
+        "wires": [
+            [
+                "71e8d879fbf2622e"
+            ]
+        ]
+    },
+    {
+        "id": "f581e18c19643b6b",
+        "type": "api-call-service",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "add housekeeping todo item",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "todo.add_item",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "todo.coen"
         ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 170,
-        "y": 1080,
+        "labelId": [],
+        "data": "{\"item\":\"{{payload}}\",\"due_date\":\"{{date}}\",\"description\":\"{{{description}}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "todo",
+        "service": "add_item",
+        "x": 640,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "607c96cbd3c5cdcd",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "todo description",
+        "func": "msg.description = \"Anneke heeft in de maand \" + msg.month + \" \" + msg.countAnneke + \" keer opgepast. betaal via \" + msg.payurl;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 840,
         "wires": [
             [
-                "451e3b4e7d84efb4"
+                "f581e18c19643b6b"
             ]
         ]
     },
     {
-        "id": "0e4632c4c03d8f4e",
-        "type": "debug",
+        "id": "71e8d879fbf2622e",
+        "type": "template",
         "z": "b8d98c82eb2488b9",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 460,
-        "y": 1080,
-        "wires": []
+        "g": "10f89499d7cb5a54",
+        "name": "pay url",
+        "field": "payurl",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "https://epc-qr.eu/?bname=A%20Stam&iban=NL60SNSB0957731876&euro={{amountOfMoney}}&info={{countAnneke}}%20keer%20oppassen%20in%20{{month}}",
+        "output": "str",
+        "x": 270,
+        "y": 840,
+        "wires": [
+            [
+                "607c96cbd3c5cdcd"
+            ]
+        ]
     },
     {
         "id": "11d068d3ad86d2dd",
