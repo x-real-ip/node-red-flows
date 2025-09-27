@@ -5038,7 +5038,7 @@
         "h": 82
     },
     {
-        "id": "5cd7c54b99cd0caa",
+        "id": "10f89499d7cb5a54",
         "type": "group",
         "z": "b8d98c82eb2488b9",
         "style": {
@@ -5051,23 +5051,52 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "b495b42a41fcee66",
-            "591fab4b68b39cca",
-            "e12cb995910ddbf0",
-            "1e9830394171a816",
-            "58a75d83b5a174c0",
-            "e71069159475ae41",
-            "2db5dfb04bad3b5c",
-            "0219bb667235d9a0",
-            "95e9a1d236b9d93b",
-            "94856ff96f926086",
-            "8dce54d213aa7a32",
-            "f6639675ab0c9870"
+            "d98576578e310822",
+            "451e3b4e7d84efb4",
+            "58366ad094f8377c",
+            "cfd81cdf04df1639",
+            "59ba59d92cfe39d9",
+            "6d0d646b8d2a606f",
+            "5366013bda15f665",
+            "f581e18c19643b6b",
+            "607c96cbd3c5cdcd",
+            "71e8d879fbf2622e"
+        ],
+        "x": 14,
+        "y": 419,
+        "w": 1152,
+        "h": 202
+    },
+    {
+        "id": "9ddd3d4eff0af285",
+        "type": "group",
+        "z": "b8d98c82eb2488b9",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d240e7311ce60041",
+            "d0335fb391f93b57",
+            "f7647739d3391739",
+            "f9288d158d410ce6",
+            "eff9057bf55d084e",
+            "7257cb974991c964",
+            "108334557e4c6cba",
+            "d1886b75fbf19d62",
+            "f553ee97740862ea",
+            "ccf87318aa8d159a",
+            "2fb5b2c7c4f3f719"
         ],
         "x": 14,
         "y": 119,
-        "w": 792,
-        "h": 542
+        "w": 992,
+        "h": 262
     },
     {
         "id": "efc093c90e8d9b40",
@@ -6786,36 +6815,6 @@
         "y": 959,
         "w": 632,
         "h": 122
-    },
-    {
-        "id": "10f89499d7cb5a54",
-        "type": "group",
-        "z": "b8d98c82eb2488b9",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "d98576578e310822",
-            "451e3b4e7d84efb4",
-            "58366ad094f8377c",
-            "cfd81cdf04df1639",
-            "59ba59d92cfe39d9",
-            "6d0d646b8d2a606f",
-            "5366013bda15f665",
-            "f581e18c19643b6b",
-            "607c96cbd3c5cdcd",
-            "71e8d879fbf2622e"
-        ],
-        "x": 14,
-        "y": 679,
-        "w": 1152,
-        "h": 202
     },
     {
         "id": "97afb37521efba77",
@@ -9218,371 +9217,6 @@
         ]
     },
     {
-        "id": "b495b42a41fcee66",
-        "type": "comment",
-        "z": "b8d98c82eb2488b9",
-        "g": "5cd7c54b99cd0caa",
-        "name": "add housekeeping tasks",
-        "info": "",
-        "x": 150,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "591fab4b68b39cca",
-        "type": "cronplus",
-        "z": "b8d98c82eb2488b9",
-        "g": "5cd7c54b99cd0caa",
-        "name": "stairs",
-        "outputField": "payload",
-        "timeZone": "",
-        "storeName": "",
-        "commandResponseMsgOutput": "output1",
-        "defaultLocation": "",
-        "defaultLocationType": "default",
-        "outputs": 1,
-        "options": [
-            {
-                "name": "stairs",
-                "topic": "topic1",
-                "payloadType": "str",
-                "payload": "Trap schoonmaken",
-                "expressionType": "cron",
-                "expression": "0 0 7 ? * FRI *",
-                "location": "",
-                "offset": "0",
-                "solarType": "all",
-                "solarEvents": "sunrise,sunset"
-            }
-        ],
-        "x": 110,
-        "y": 200,
-        "wires": [
-            [
-                "2db5dfb04bad3b5c"
-            ]
-        ]
-    },
-    {
-        "id": "e12cb995910ddbf0",
-        "type": "api-call-service",
-        "z": "b8d98c82eb2488b9",
-        "g": "5cd7c54b99cd0caa",
-        "name": "add housekeeping todo item",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "todo.add_item",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "todo.schoonmaak"
-        ],
-        "labelId": [],
-        "data": "{\"item\":\"{{payload}}\",\"due_date\":\"{{date}}\",\"description\":\"{{todo.description}}\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "todo",
-        "service": "add_item",
-        "x": 660,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1e9830394171a816",
-        "type": "cronplus",
-        "z": "b8d98c82eb2488b9",
-        "g": "5cd7c54b99cd0caa",
-        "name": "toilet",
-        "outputField": "payload",
-        "timeZone": "",
-        "storeName": "",
-        "commandResponseMsgOutput": "output1",
-        "defaultLocation": "",
-        "defaultLocationType": "default",
-        "outputs": 1,
-        "options": [
-            {
-                "name": "toilet",
-                "topic": "topic2",
-                "payloadType": "str",
-                "payload": "Toilet schoonmaken",
-                "expressionType": "cron",
-                "expression": "0 0 7 ? * SAT *",
-                "location": "",
-                "offset": "0",
-                "solarType": "all",
-                "solarEvents": "sunrise,sunset"
-            }
-        ],
-        "x": 110,
-        "y": 380,
-        "wires": [
-            [
-                "2db5dfb04bad3b5c"
-            ]
-        ]
-    },
-    {
-        "id": "58a75d83b5a174c0",
-        "type": "cronplus",
-        "z": "b8d98c82eb2488b9",
-        "g": "5cd7c54b99cd0caa",
-        "name": "vacuum souterrain",
-        "outputField": "payload",
-        "timeZone": "",
-        "storeName": "",
-        "commandResponseMsgOutput": "output1",
-        "defaultLocation": "",
-        "defaultLocationType": "default",
-        "outputs": 1,
-        "options": [
-            {
-                "name": "vacuum souterrain",
-                "topic": "topic1",
-                "payloadType": "str",
-                "payload": "Souterrain stofzuigen",
-                "expressionType": "cron",
-                "expression": "0 0 7 ? * FRI *",
-                "location": "",
-                "offset": "0",
-                "solarType": "all",
-                "solarEvents": "sunrise,sunset"
-            }
-        ],
-        "x": 150,
-        "y": 260,
-        "wires": [
-            [
-                "2db5dfb04bad3b5c"
-            ]
-        ]
-    },
-    {
-        "id": "e71069159475ae41",
-        "type": "cronplus",
-        "z": "b8d98c82eb2488b9",
-        "g": "5cd7c54b99cd0caa",
-        "name": "mopping ground floor",
-        "outputField": "payload",
-        "timeZone": "",
-        "storeName": "",
-        "commandResponseMsgOutput": "output1",
-        "defaultLocation": "",
-        "defaultLocationType": "default",
-        "outputs": 1,
-        "options": [
-            {
-                "name": "mopping ground floor",
-                "topic": "topic1",
-                "payloadType": "str",
-                "payload": "Beneden dweilen",
-                "expressionType": "cron",
-                "expression": "0 0 7 ? * TUE *",
-                "location": "",
-                "offset": "0",
-                "solarType": "all",
-                "solarEvents": "sunrise,sunset"
-            }
-        ],
-        "x": 160,
-        "y": 320,
-        "wires": [
-            [
-                "2db5dfb04bad3b5c"
-            ]
-        ]
-    },
-    {
-        "id": "2db5dfb04bad3b5c",
-        "type": "function",
-        "z": "b8d98c82eb2488b9",
-        "g": "5cd7c54b99cd0caa",
-        "name": "date",
-        "func": "// Ensure serverTime is treated as a string\nlet serverTime = msg.cronplus.status.serverTime;\n\n// If it's a Date object, convert to ISO string\nif (serverTime instanceof Date) {\n    serverTime = serverTime.toISOString();\n}\n\n// Now split safely\nmsg.date = serverTime.split(\"T\")[0];\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 470,
-        "y": 200,
-        "wires": [
-            [
-                "e12cb995910ddbf0"
-            ]
-        ]
-    },
-    {
-        "id": "0219bb667235d9a0",
-        "type": "cronplus",
-        "z": "b8d98c82eb2488b9",
-        "g": "5cd7c54b99cd0caa",
-        "name": "bed",
-        "outputField": "payload",
-        "timeZone": "",
-        "storeName": "",
-        "commandResponseMsgOutput": "output1",
-        "defaultLocation": "",
-        "defaultLocationType": "default",
-        "outputs": 1,
-        "options": [
-            {
-                "name": "bed",
-                "topic": "topic2",
-                "payloadType": "str",
-                "payload": "Toilet schoonmaken",
-                "expressionType": "cron",
-                "expression": "0 0 7 1/14 * ? *",
-                "location": "",
-                "offset": "0",
-                "solarType": "all",
-                "solarEvents": "sunrise,sunset"
-            }
-        ],
-        "x": 110,
-        "y": 440,
-        "wires": [
-            [
-                "2db5dfb04bad3b5c"
-            ]
-        ]
-    },
-    {
-        "id": "95e9a1d236b9d93b",
-        "type": "cronplus",
-        "z": "b8d98c82eb2488b9",
-        "g": "5cd7c54b99cd0caa",
-        "name": "vacuum 1st floor",
-        "outputField": "payload",
-        "timeZone": "",
-        "storeName": "",
-        "commandResponseMsgOutput": "output1",
-        "defaultLocation": "",
-        "defaultLocationType": "default",
-        "outputs": 1,
-        "options": [
-            {
-                "name": "vacuum 1st floor",
-                "topic": "topic2",
-                "payloadType": "str",
-                "payload": "Stofzuigen boven",
-                "expressionType": "cron",
-                "expression": "0 0 7 1/10 * ? *",
-                "location": "",
-                "offset": "0",
-                "solarType": "all",
-                "solarEvents": "sunrise,sunset"
-            }
-        ],
-        "x": 140,
-        "y": 500,
-        "wires": [
-            [
-                "2db5dfb04bad3b5c"
-            ]
-        ]
-    },
-    {
-        "id": "94856ff96f926086",
-        "type": "cronplus",
-        "z": "b8d98c82eb2488b9",
-        "g": "5cd7c54b99cd0caa",
-        "name": "mopping first floor",
-        "outputField": "payload",
-        "timeZone": "",
-        "storeName": "",
-        "commandResponseMsgOutput": "output1",
-        "defaultLocation": "",
-        "defaultLocationType": "default",
-        "outputs": 1,
-        "options": [
-            {
-                "name": "mopping first floor",
-                "topic": "topic2",
-                "payloadType": "str",
-                "payload": "Boven dweilen",
-                "expressionType": "cron",
-                "expression": "0 0 7 1/31 * ? *",
-                "location": "",
-                "offset": "0",
-                "solarType": "all",
-                "solarEvents": "sunrise,sunset"
-            }
-        ],
-        "x": 150,
-        "y": 560,
-        "wires": [
-            [
-                "2db5dfb04bad3b5c"
-            ]
-        ]
-    },
-    {
-        "id": "8dce54d213aa7a32",
-        "type": "cronplus",
-        "z": "b8d98c82eb2488b9",
-        "g": "5cd7c54b99cd0caa",
-        "name": "bathroom",
-        "outputField": "payload",
-        "timeZone": "",
-        "storeName": "",
-        "commandResponseMsgOutput": "output1",
-        "defaultLocation": "",
-        "defaultLocationType": "default",
-        "outputs": 1,
-        "options": [
-            {
-                "name": "bathroom",
-                "topic": "topic2",
-                "payloadType": "str",
-                "payload": "Badkamer schoonmaken",
-                "expressionType": "cron",
-                "expression": "0 0 7 ? * SAT *",
-                "location": "",
-                "offset": "0",
-                "solarType": "all",
-                "solarEvents": "sunrise,sunset"
-            }
-        ],
-        "x": 120,
-        "y": 620,
-        "wires": [
-            [
-                "f6639675ab0c9870"
-            ]
-        ]
-    },
-    {
-        "id": "f6639675ab0c9870",
-        "type": "function",
-        "z": "b8d98c82eb2488b9",
-        "g": "5cd7c54b99cd0caa",
-        "name": "every 6 weeks",
-        "func": "let weekCounter = flow.get(\"bathroom_weekCounter\", \"file\") || 0;\n\nweekCounter += 1;\n\nif (weekCounter >= 6) {\n    flow.set(\"bathroom_weekCounter\", 0, \"file\");\n    return msg;\n} else {\n    flow.set(\"bathroom_weekCounter\", weekCounter, \"file\");\n    return null;\n}\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 360,
-        "y": 620,
-        "wires": [
-            [
-                "2db5dfb04bad3b5c"
-            ]
-        ]
-    },
-    {
         "id": "250567e238f9f68a",
         "type": "catch",
         "z": "b8d98c82eb2488b9",
@@ -9701,7 +9335,7 @@
             }
         ],
         "x": 150,
-        "y": 760,
+        "y": 500,
         "wires": [
             [
                 "451e3b4e7d84efb4"
@@ -9722,7 +9356,7 @@
         "finalize": "",
         "libs": [],
         "x": 370,
-        "y": 760,
+        "y": 500,
         "wires": [
             [
                 "6d0d646b8d2a606f"
@@ -9764,7 +9398,7 @@
         "domain": "calendar",
         "service": "get_events",
         "x": 740,
-        "y": 760,
+        "y": 500,
         "wires": [
             [
                 "cfd81cdf04df1639"
@@ -9785,7 +9419,7 @@
         "finalize": "",
         "libs": [],
         "x": 1000,
-        "y": 760,
+        "y": 500,
         "wires": [
             [
                 "5366013bda15f665"
@@ -9800,7 +9434,7 @@
         "name": "count calendar events that contains the words \"anneke past op\" from the previous month ",
         "info": "",
         "x": 340,
-        "y": 720,
+        "y": 460,
         "wires": []
     },
     {
@@ -9817,7 +9451,7 @@
         "finalize": "",
         "libs": [],
         "x": 560,
-        "y": 760,
+        "y": 500,
         "wires": [
             [
                 "58366ad094f8377c"
@@ -9838,7 +9472,7 @@
         "finalize": "",
         "libs": [],
         "x": 140,
-        "y": 840,
+        "y": 580,
         "wires": [
             [
                 "71e8d879fbf2622e"
@@ -9872,7 +9506,7 @@
         "domain": "todo",
         "service": "add_item",
         "x": 640,
-        "y": 840,
+        "y": 580,
         "wires": [
             []
         ]
@@ -9883,7 +9517,7 @@
         "z": "b8d98c82eb2488b9",
         "g": "10f89499d7cb5a54",
         "name": "todo description",
-        "func": "msg.description = \"Anneke heeft in de maand \" + msg.month + \" \" + msg.countAnneke + \" keer opgepast. betaal via deze url \" + msg.payurl;\nreturn msg;",
+        "func": "msg.description = \"Anneke heeft in de maand \" + msg.month + \" \" + msg.countAnneke + \" keer opgepast. betaal via \" + msg.payurl;\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -9891,7 +9525,7 @@
         "finalize": "",
         "libs": [],
         "x": 420,
-        "y": 840,
+        "y": 580,
         "wires": [
             [
                 "f581e18c19643b6b"
@@ -9911,12 +9545,301 @@
         "template": "https://epc-qr.eu/?bname=A%20Stam&iban=NL60SNSB0957731876&euro={{amountOfMoney}}&info={{countAnneke}}%20keer%20oppassen%20in%20{{month}}",
         "output": "str",
         "x": 270,
-        "y": 840,
+        "y": 580,
         "wires": [
             [
                 "607c96cbd3c5cdcd"
             ]
         ]
+    },
+    {
+        "id": "d240e7311ce60041",
+        "type": "inject",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "props": [
+            {
+                "p": "now",
+                "v": "iso",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 00 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "f7647739d3391739"
+            ]
+        ]
+    },
+    {
+        "id": "d0335fb391f93b57",
+        "type": "api-call-service",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "calendar.get_events",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "calendar.schoonmaak",
+            "calendar.coen",
+            "calendar.coen_anne"
+        ],
+        "labelId": [],
+        "data": "{\"start_date_time\":\"{{ start_date_time }}\",\"end_date_time\":\"{{ end_date_time }}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "results",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "results"
+            }
+        ],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "calendar",
+        "service": "get_events",
+        "x": 520,
+        "y": 200,
+        "wires": [
+            [
+                "f9288d158d410ce6"
+            ]
+        ]
+    },
+    {
+        "id": "f7647739d3391739",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "start + end datetime",
+        "func": "// Extract the date\nlet datePart = msg.now.split(\"T\")[0];\n\n// Create start and end\nmsg.start_date_time = datePart + \" 00:00:00\";\nmsg.end_date_time = datePart + \" 23:59:59\";\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 200,
+        "wires": [
+            [
+                "d0335fb391f93b57"
+            ]
+        ]
+    },
+    {
+        "id": "f9288d158d410ce6",
+        "type": "split",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "calendar",
+        "property": "results",
+        "x": 690,
+        "y": 200,
+        "wires": [
+            [
+                "eff9057bf55d084e"
+            ]
+        ]
+    },
+    {
+        "id": "eff9057bf55d084e",
+        "type": "split",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "results.events",
+        "x": 810,
+        "y": 200,
+        "wires": [
+            [
+                "d1886b75fbf19d62"
+            ]
+        ]
+    },
+    {
+        "id": "7257cb974991c964",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "todo item vars",
+        "func": "msg.todo = {};\n\nmsg.todo.item = msg.results.events.summary.replace(/^todo:\\s*/i, \"\");  // removes \"todo: \" from the start\n\nlet input = msg.results.events.start;\n\nif (input.includes(\"T\")) {\n    let d = new Date(input);\n    msg.todo.due_date_time = d.toISOString().split(\".\")[0].replace(\"T\", \" \");\n} else {\n    msg.todo.due_date = input;\n}\n\nmsg.todo.description = msg.results.events.description;\n\nmsg.entity_id = msg.calendar.replace(\"calendar\", \"todo\");\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 300,
+        "wires": [
+            [
+                "ccf87318aa8d159a"
+            ]
+        ]
+    },
+    {
+        "id": "108334557e4c6cba",
+        "type": "api-call-service",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "add todo item (due_date)",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "todo.add_item",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "{{entity_id}}"
+        ],
+        "labelId": [],
+        "data": "{\"item\":\"{{todo.item}}\",\"due_date\":\"{{todo.due_date}}\",\"description\":\"{{todo.description}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "todo",
+        "service": "add_item",
+        "x": 490,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d1886b75fbf19d62",
+        "type": "switch",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "property": "results.events.summary",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "\\btodo:",
+                "vt": "str",
+                "case": true
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 930,
+        "y": 200,
+        "wires": [
+            [
+                "7257cb974991c964"
+            ]
+        ]
+    },
+    {
+        "id": "f553ee97740862ea",
+        "type": "api-call-service",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "add todo item (due_date_time)",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "todo.add_item",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "{{entity_id}}"
+        ],
+        "labelId": [],
+        "data": "{\"item\":\"{{todo.item}}\",\"due_datetime\":\"{{todo.due_date_time}}\",\"description\":\"{{todo.description}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "todo",
+        "service": "add_item",
+        "x": 510,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ccf87318aa8d159a",
+        "type": "switch",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "property": "todo",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "hask",
+                "v": "due_date",
+                "vt": "str"
+            },
+            {
+                "t": "hask",
+                "v": "due_date_time",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 300,
+        "wires": [
+            [
+                "108334557e4c6cba"
+            ],
+            [
+                "f553ee97740862ea"
+            ]
+        ]
+    },
+    {
+        "id": "2fb5b2c7c4f3f719",
+        "type": "comment",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "create to do tasks triggered from calendars that contain \"todo:\"",
+        "info": "",
+        "x": 260,
+        "y": 160,
+        "wires": []
     },
     {
         "id": "11d068d3ad86d2dd",
