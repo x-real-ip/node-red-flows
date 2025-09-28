@@ -1,13 +1,5 @@
 [
     {
-        "id": "b8d98c82eb2488b9",
-        "type": "tab",
-        "label": "_automation_global_schedulars",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "b1a9214c.4c71c",
         "type": "tab",
         "label": "notification_basement_window",
@@ -382,6 +374,14 @@
         "id": "e44f5d834fa24670",
         "type": "tab",
         "label": "_automation_global_notification-action-events",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b8d98c82eb2488b9",
+        "type": "tab",
+        "label": "_automation_global_todo-tasks",
         "disabled": false,
         "info": "",
         "env": []
@@ -4723,13 +4723,12 @@
             "c38f0363d1cd4b4d",
             "df0d2da9dc486e6f",
             "7a270e8b1abe8a79",
-            "897710e98ead9ae9",
-            "c3878e0d7607f78b"
+            "897710e98ead9ae9"
         ],
         "x": 14,
         "y": 1199,
         "w": 1042,
-        "h": 162
+        "h": 122
     },
     {
         "id": "670020652f26a652",
@@ -4753,7 +4752,7 @@
         ],
         "x": 14,
         "y": 919,
-        "w": 552,
+        "w": 612,
         "h": 182
     },
     {
@@ -4814,7 +4813,7 @@
             "28a3562272f5e8bd"
         ],
         "x": 14,
-        "y": 1499,
+        "y": 1639,
         "w": 1772,
         "h": 162
     },
@@ -5063,7 +5062,7 @@
             "71e8d879fbf2622e"
         ],
         "x": 14,
-        "y": 419,
+        "y": 379,
         "w": 1152,
         "h": 202
     },
@@ -5081,9 +5080,7 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "d240e7311ce60041",
             "d0335fb391f93b57",
-            "f7647739d3391739",
             "f9288d158d410ce6",
             "eff9057bf55d084e",
             "7257cb974991c964",
@@ -5091,12 +5088,15 @@
             "d1886b75fbf19d62",
             "f553ee97740862ea",
             "ccf87318aa8d159a",
-            "2fb5b2c7c4f3f719"
+            "2fb5b2c7c4f3f719",
+            "d240e7311ce60041",
+            "f095901791d95a7f",
+            "c613a9193af7a20f"
         ],
         "x": 14,
         "y": 119,
-        "w": 992,
-        "h": 262
+        "w": 1032,
+        "h": 242
     },
     {
         "id": "efc093c90e8d9b40",
@@ -6814,6 +6814,29 @@
         "x": 34,
         "y": 959,
         "w": 632,
+        "h": 122
+    },
+    {
+        "id": "bc5bb6b372848b7c",
+        "type": "group",
+        "z": "55da1471.fda0fc",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5bb05da7d294daf3",
+            "24e07b4589dbc14f",
+            "7a6572a848edbab2"
+        ],
+        "x": 14,
+        "y": 1499,
+        "w": 512,
         "h": 122
     },
     {
@@ -9215,631 +9238,6 @@
             ],
             []
         ]
-    },
-    {
-        "id": "250567e238f9f68a",
-        "type": "catch",
-        "z": "b8d98c82eb2488b9",
-        "g": "fec451a65144d567",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 60,
-        "wires": [
-            [
-                "f0cb21a929703c7b"
-            ]
-        ]
-    },
-    {
-        "id": "f0cb21a929703c7b",
-        "type": "template",
-        "z": "b8d98c82eb2488b9",
-        "g": "fec451a65144d567",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 60,
-        "wires": [
-            [
-                "0afe8e42745c606c"
-            ]
-        ]
-    },
-    {
-        "id": "bfa8946e0b76ad2e",
-        "type": "link out",
-        "z": "b8d98c82eb2488b9",
-        "g": "fec451a65144d567",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 675,
-        "y": 60,
-        "wires": []
-    },
-    {
-        "id": "0afe8e42745c606c",
-        "type": "template",
-        "z": "b8d98c82eb2488b9",
-        "g": "fec451a65144d567",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 60,
-        "wires": [
-            [
-                "cc960ccdfa62ebb3"
-            ]
-        ]
-    },
-    {
-        "id": "cc960ccdfa62ebb3",
-        "type": "function",
-        "z": "b8d98c82eb2488b9",
-        "g": "fec451a65144d567",
-        "name": "notify.notification_id",
-        "func": "msg.notify.notification_id = Date.now().toString(36) + Math.random().toString(36);\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 550,
-        "y": 60,
-        "wires": [
-            [
-                "bfa8946e0b76ad2e"
-            ]
-        ]
-    },
-    {
-        "id": "d98576578e310822",
-        "type": "cronplus",
-        "z": "b8d98c82eb2488b9",
-        "g": "10f89499d7cb5a54",
-        "name": "first of the month",
-        "outputField": "payload",
-        "timeZone": "",
-        "storeName": "",
-        "commandResponseMsgOutput": "output1",
-        "defaultLocation": "",
-        "defaultLocationType": "default",
-        "outputs": 1,
-        "options": [
-            {
-                "name": "schedule1",
-                "topic": "topic1",
-                "payloadType": "default",
-                "payload": "",
-                "expressionType": "cron",
-                "expression": "0 0 7 1 * ? *",
-                "location": "",
-                "offset": "0",
-                "solarType": "all",
-                "solarEvents": "sunrise,sunset"
-            }
-        ],
-        "x": 150,
-        "y": 500,
-        "wires": [
-            [
-                "451e3b4e7d84efb4"
-            ]
-        ]
-    },
-    {
-        "id": "451e3b4e7d84efb4",
-        "type": "function",
-        "z": "b8d98c82eb2488b9",
-        "g": "10f89499d7cb5a54",
-        "name": "start end previous month",
-        "func": "// Get today's date\nconst today = msg.payload.status.serverTime;\n\n// Go to the first day of the current month\nconst firstDayCurrentMonth = new Date(today.getFullYear(), today.getMonth(), 1);\n\n// Previous month = current month - 1\nconst prevMonth = firstDayCurrentMonth.getMonth() - 1;\nconst yearOfPrevMonth = prevMonth < 0 ? today.getFullYear() - 1 : today.getFullYear();\nconst monthOfPrevMonth = (prevMonth + 12) % 12;\n\n// First day of previous month\nconst firstDayPrevMonth = new Date(yearOfPrevMonth, monthOfPrevMonth, 1);\n\n// Last day of previous month\nconst lastDayPrevMonth = new Date(yearOfPrevMonth, monthOfPrevMonth + 1, 0); // day 0 = last day of previous month\n\n// Format as string\nconst formatDate = (d) => d.toISOString().split('T')[0] + \" 00:00:00\"; // start of day\nconst formatEndDate = (d) => d.toISOString().split('T')[0] + \" 23:59:59\"; // end of day\n\nmsg.result = {\n    start_date_time: formatDate(firstDayPrevMonth),\n    end_date_time: formatEndDate(lastDayPrevMonth)\n};\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 370,
-        "y": 500,
-        "wires": [
-            [
-                "6d0d646b8d2a606f"
-            ]
-        ]
-    },
-    {
-        "id": "58366ad094f8377c",
-        "type": "api-call-service",
-        "z": "b8d98c82eb2488b9",
-        "g": "10f89499d7cb5a54",
-        "name": "",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "calendar.get_events",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "calendar.beau",
-            "calendar.lise"
-        ],
-        "labelId": [],
-        "data": "{\"start_date_time\":\"{{result.start_date_time}}\",\"end_date_time\":\"{{result.end_date_time}}\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "results"
-            }
-        ],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "calendar",
-        "service": "get_events",
-        "x": 740,
-        "y": 500,
-        "wires": [
-            [
-                "cfd81cdf04df1639"
-            ]
-        ]
-    },
-    {
-        "id": "cfd81cdf04df1639",
-        "type": "function",
-        "z": "b8d98c82eb2488b9",
-        "g": "10f89499d7cb5a54",
-        "name": "count all events \"anneke past op\"",
-        "func": "// Collect all events from all calendars\nconst allEvents = Object.values(msg.payload) // get each calendar object\n    .flatMap(c => c.events || []); // merge their events into one big array\n\n// Count how many match \"anneke past op\"\nmsg.countAnneke = allEvents.filter(e => \n    e.summary?.toLowerCase().includes(\"anneke past op\")\n).length;\n\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1000,
-        "y": 500,
-        "wires": [
-            [
-                "5366013bda15f665"
-            ]
-        ]
-    },
-    {
-        "id": "59ba59d92cfe39d9",
-        "type": "comment",
-        "z": "b8d98c82eb2488b9",
-        "g": "10f89499d7cb5a54",
-        "name": "count calendar events that contains the words \"anneke past op\" from the previous month ",
-        "info": "",
-        "x": 340,
-        "y": 460,
-        "wires": []
-    },
-    {
-        "id": "6d0d646b8d2a606f",
-        "type": "function",
-        "z": "b8d98c82eb2488b9",
-        "g": "10f89499d7cb5a54",
-        "name": "due date",
-        "func": "// Parse serverTime and add 7 days\nconst dateObj = new Date(msg.payload.status.serverTime);\ndateObj.setDate(dateObj.getDate() + 7);\n\n// Return formatted date\nmsg.date = dateObj.toISOString().split(\"T\")[0];\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 560,
-        "y": 500,
-        "wires": [
-            [
-                "58366ad094f8377c"
-            ]
-        ]
-    },
-    {
-        "id": "5366013bda15f665",
-        "type": "function",
-        "z": "b8d98c82eb2488b9",
-        "g": "10f89499d7cb5a54",
-        "name": "todo text",
-        "func": "// Format month name in Dutch\nmsg.month = new Intl.DateTimeFormat('nl-NL', { month: 'long' }).format(new Date(msg.result.end_date_time.replace(' ', 'T')));\n\nmsg.amountOfMoney = msg.countAnneke * 10;\n\nmsg.payload = \"€\" + msg.amountOfMoney + \" overmaken naar Anneke\";\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 140,
-        "y": 580,
-        "wires": [
-            [
-                "71e8d879fbf2622e"
-            ]
-        ]
-    },
-    {
-        "id": "f581e18c19643b6b",
-        "type": "api-call-service",
-        "z": "b8d98c82eb2488b9",
-        "g": "10f89499d7cb5a54",
-        "name": "add housekeeping todo item",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "todo.add_item",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "todo.coen"
-        ],
-        "labelId": [],
-        "data": "{\"item\":\"{{payload}}\",\"due_date\":\"{{date}}\",\"description\":\"{{{description}}}\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "todo",
-        "service": "add_item",
-        "x": 640,
-        "y": 580,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "607c96cbd3c5cdcd",
-        "type": "function",
-        "z": "b8d98c82eb2488b9",
-        "g": "10f89499d7cb5a54",
-        "name": "todo description",
-        "func": "msg.description = \"Anneke heeft in de maand \" + msg.month + \" \" + msg.countAnneke + \" keer opgepast. betaal via \" + msg.payurl;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 420,
-        "y": 580,
-        "wires": [
-            [
-                "f581e18c19643b6b"
-            ]
-        ]
-    },
-    {
-        "id": "71e8d879fbf2622e",
-        "type": "template",
-        "z": "b8d98c82eb2488b9",
-        "g": "10f89499d7cb5a54",
-        "name": "pay url",
-        "field": "payurl",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "https://epc-qr.eu/?bname=A%20Stam&iban=NL60SNSB0957731876&euro={{amountOfMoney}}&info={{countAnneke}}%20keer%20oppassen%20in%20{{month}}",
-        "output": "str",
-        "x": 270,
-        "y": 580,
-        "wires": [
-            [
-                "607c96cbd3c5cdcd"
-            ]
-        ]
-    },
-    {
-        "id": "d240e7311ce60041",
-        "type": "inject",
-        "z": "b8d98c82eb2488b9",
-        "g": "9ddd3d4eff0af285",
-        "name": "",
-        "props": [
-            {
-                "p": "now",
-                "v": "iso",
-                "vt": "date"
-            }
-        ],
-        "repeat": "",
-        "crontab": "00 00 * * *",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 130,
-        "y": 200,
-        "wires": [
-            [
-                "f7647739d3391739"
-            ]
-        ]
-    },
-    {
-        "id": "d0335fb391f93b57",
-        "type": "api-call-service",
-        "z": "b8d98c82eb2488b9",
-        "g": "9ddd3d4eff0af285",
-        "name": "",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "calendar.get_events",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "calendar.schoonmaak",
-            "calendar.coen",
-            "calendar.coen_anne"
-        ],
-        "labelId": [],
-        "data": "{\"start_date_time\":\"{{ start_date_time }}\",\"end_date_time\":\"{{ end_date_time }}\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [
-            {
-                "property": "results",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "results"
-            }
-        ],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "calendar",
-        "service": "get_events",
-        "x": 520,
-        "y": 200,
-        "wires": [
-            [
-                "f9288d158d410ce6"
-            ]
-        ]
-    },
-    {
-        "id": "f7647739d3391739",
-        "type": "function",
-        "z": "b8d98c82eb2488b9",
-        "g": "9ddd3d4eff0af285",
-        "name": "start + end datetime",
-        "func": "// Extract the date\nlet datePart = msg.now.split(\"T\")[0];\n\n// Create start and end\nmsg.start_date_time = datePart + \" 00:00:00\";\nmsg.end_date_time = datePart + \" 23:59:59\";\n\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 300,
-        "y": 200,
-        "wires": [
-            [
-                "d0335fb391f93b57"
-            ]
-        ]
-    },
-    {
-        "id": "f9288d158d410ce6",
-        "type": "split",
-        "z": "b8d98c82eb2488b9",
-        "g": "9ddd3d4eff0af285",
-        "name": "",
-        "splt": "\\n",
-        "spltType": "str",
-        "arraySplt": 1,
-        "arraySpltType": "len",
-        "stream": false,
-        "addname": "calendar",
-        "property": "results",
-        "x": 690,
-        "y": 200,
-        "wires": [
-            [
-                "eff9057bf55d084e"
-            ]
-        ]
-    },
-    {
-        "id": "eff9057bf55d084e",
-        "type": "split",
-        "z": "b8d98c82eb2488b9",
-        "g": "9ddd3d4eff0af285",
-        "name": "",
-        "splt": "\\n",
-        "spltType": "str",
-        "arraySplt": 1,
-        "arraySpltType": "len",
-        "stream": false,
-        "addname": "",
-        "property": "results.events",
-        "x": 810,
-        "y": 200,
-        "wires": [
-            [
-                "d1886b75fbf19d62"
-            ]
-        ]
-    },
-    {
-        "id": "7257cb974991c964",
-        "type": "function",
-        "z": "b8d98c82eb2488b9",
-        "g": "9ddd3d4eff0af285",
-        "name": "todo item vars",
-        "func": "msg.todo = {};\n\nmsg.todo.item = msg.results.events.summary.replace(/^todo:\\s*/i, \"\");  // removes \"todo: \" from the start\n\nlet input = msg.results.events.start;\n\nif (input.includes(\"T\")) {\n    let d = new Date(input);\n    msg.todo.due_date_time = d.toISOString().split(\".\")[0].replace(\"T\", \" \");\n} else {\n    msg.todo.due_date = input;\n}\n\nmsg.todo.description = msg.results.events.description;\n\nmsg.entity_id = msg.calendar.replace(\"calendar\", \"todo\");\n\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 160,
-        "y": 300,
-        "wires": [
-            [
-                "ccf87318aa8d159a"
-            ]
-        ]
-    },
-    {
-        "id": "108334557e4c6cba",
-        "type": "api-call-service",
-        "z": "b8d98c82eb2488b9",
-        "g": "9ddd3d4eff0af285",
-        "name": "add todo item (due_date)",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "todo.add_item",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "{{entity_id}}"
-        ],
-        "labelId": [],
-        "data": "{\"item\":\"{{todo.item}}\",\"due_date\":\"{{todo.due_date}}\",\"description\":\"{{todo.description}}\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "todo",
-        "service": "add_item",
-        "x": 490,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d1886b75fbf19d62",
-        "type": "switch",
-        "z": "b8d98c82eb2488b9",
-        "g": "9ddd3d4eff0af285",
-        "name": "",
-        "property": "results.events.summary",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "regex",
-                "v": "\\btodo:",
-                "vt": "str",
-                "case": true
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 930,
-        "y": 200,
-        "wires": [
-            [
-                "7257cb974991c964"
-            ]
-        ]
-    },
-    {
-        "id": "f553ee97740862ea",
-        "type": "api-call-service",
-        "z": "b8d98c82eb2488b9",
-        "g": "9ddd3d4eff0af285",
-        "name": "add todo item (due_date_time)",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "todo.add_item",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "{{entity_id}}"
-        ],
-        "labelId": [],
-        "data": "{\"item\":\"{{todo.item}}\",\"due_datetime\":\"{{todo.due_date_time}}\",\"description\":\"{{todo.description}}\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "todo",
-        "service": "add_item",
-        "x": 510,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ccf87318aa8d159a",
-        "type": "switch",
-        "z": "b8d98c82eb2488b9",
-        "g": "9ddd3d4eff0af285",
-        "name": "",
-        "property": "todo",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "hask",
-                "v": "due_date",
-                "vt": "str"
-            },
-            {
-                "t": "hask",
-                "v": "due_date_time",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 310,
-        "y": 300,
-        "wires": [
-            [
-                "108334557e4c6cba"
-            ],
-            [
-                "f553ee97740862ea"
-            ]
-        ]
-    },
-    {
-        "id": "2fb5b2c7c4f3f719",
-        "type": "comment",
-        "z": "b8d98c82eb2488b9",
-        "g": "9ddd3d4eff0af285",
-        "name": "create to do tasks triggered from calendars that contain \"todo:\"",
-        "info": "",
-        "x": 260,
-        "y": 160,
-        "wires": []
     },
     {
         "id": "11d068d3ad86d2dd",
@@ -21323,7 +20721,6 @@
         "y": 1280,
         "wires": [
             [
-                "e771f986ba214471",
                 "897710e98ead9ae9"
             ]
         ]
@@ -21535,7 +20932,7 @@
         "name": "clean selected rooms",
         "info": "",
         "x": 140,
-        "y": 1540,
+        "y": 1680,
         "wires": []
     },
     {
@@ -21590,7 +20987,7 @@
             }
         ],
         "x": 140,
-        "y": 1580,
+        "y": 1720,
         "wires": [
             [
                 "a3633aab59b75d5e"
@@ -21625,7 +21022,7 @@
         "outputLocation": "payload",
         "outputResultsCount": 1,
         "x": 330,
-        "y": 1580,
+        "y": 1720,
         "wires": [
             [
                 "02cc03fa2fa9b1c1"
@@ -21653,7 +21050,7 @@
         "to": "",
         "reg": false,
         "x": 500,
-        "y": 1580,
+        "y": 1720,
         "wires": [
             [
                 "af7eaeb691b4b689",
@@ -21711,7 +21108,7 @@
         "to": "",
         "reg": false,
         "x": 680,
-        "y": 1580,
+        "y": 1720,
         "wires": [
             [
                 "6fc6228af058839b"
@@ -21750,7 +21147,7 @@
         "to": "",
         "reg": false,
         "x": 680,
-        "y": 1620,
+        "y": 1760,
         "wires": [
             [
                 "1b709ceb0d69c831"
@@ -21775,7 +21172,7 @@
         "count": "",
         "reduceRight": false,
         "x": 850,
-        "y": 1580,
+        "y": 1720,
         "wires": [
             [
                 "458382747fd06019"
@@ -21800,7 +21197,7 @@
         "count": "",
         "reduceRight": false,
         "x": 850,
-        "y": 1620,
+        "y": 1760,
         "wires": [
             [
                 "0abec8ca261199bd"
@@ -21821,7 +21218,7 @@
         "finalize": "",
         "libs": [],
         "x": 1010,
-        "y": 1580,
+        "y": 1720,
         "wires": [
             [
                 "3a3544e58c336443"
@@ -21842,7 +21239,7 @@
         "finalize": "",
         "libs": [],
         "x": 1010,
-        "y": 1620,
+        "y": 1760,
         "wires": [
             [
                 "3a3544e58c336443"
@@ -21873,7 +21270,7 @@
         "domain": "",
         "service": "",
         "x": 1190,
-        "y": 1580,
+        "y": 1720,
         "wires": [
             [
                 "336d51b627dd3548"
@@ -21909,7 +21306,7 @@
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 1320,
-        "y": 1580,
+        "y": 1720,
         "wires": [
             [
                 "11adb81ae9e6f5e7"
@@ -21944,7 +21341,7 @@
         "outputLocation": "payload",
         "outputResultsCount": 1,
         "x": 1470,
-        "y": 1580,
+        "y": 1720,
         "wires": [
             [
                 "28a3562272f5e8bd"
@@ -21978,52 +21375,9 @@
         "domain": "input_boolean",
         "service": "turn_off",
         "x": 1660,
-        "y": 1580,
+        "y": 1720,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "e771f986ba214471",
-        "type": "debug",
-        "z": "55da1471.fda0fc",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1050,
-        "y": 1160,
-        "wires": []
-    },
-    {
-        "id": "c3878e0d7607f78b",
-        "type": "inject",
-        "z": "55da1471.fda0fc",
-        "g": "2efe8a21a1e24819",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 180,
-        "y": 1320,
-        "wires": [
-            [
-                "1c372f1.535d7d1"
-            ]
         ]
     },
     {
@@ -22110,6 +21464,64 @@
         "x": 275,
         "y": 200,
         "wires": []
+    },
+    {
+        "id": "5bb05da7d294daf3",
+        "type": "comment",
+        "z": "55da1471.fda0fc",
+        "g": "bc5bb6b372848b7c",
+        "name": "cancel robo vacuum timer",
+        "info": "",
+        "x": 150,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "24e07b4589dbc14f",
+        "type": "api-call-service",
+        "z": "55da1471.fda0fc",
+        "g": "bc5bb6b372848b7c",
+        "name": "cancel vacuum cleaner timer",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "timer.cancel",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "timer.start_vacuum_cleaner"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "timer",
+        "service": "cancel",
+        "x": 380,
+        "y": 1580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7a6572a848edbab2",
+        "type": "link in",
+        "z": "55da1471.fda0fc",
+        "g": "bc5bb6b372848b7c",
+        "name": "cancel robo vacuum timer",
+        "links": [],
+        "x": 225,
+        "y": 1580,
+        "wires": [
+            [
+                "24e07b4589dbc14f"
+            ]
+        ]
     },
     {
         "id": "2a804e94931f7201",
@@ -30607,7 +30019,7 @@
             "light.shellydimmer_backyard_string_l"
         ],
         "labelId": [],
-        "data": "{\"brightness_pct\":25}",
+        "data": "{\"brightness_pct\":25,\"transition\":5000}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -32185,7 +31597,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "Morgen {{{data.attributes.date}}} wordt de {{garbage_type}}container opgehaald",
+        "template": "Morgen {{{data.attributes.date}}} wordt de {{garbage_type}}container geleegd",
         "output": "str",
         "x": 620,
         "y": 2100,
@@ -32205,7 +31617,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "Vandaag wordt de {{garbage_type}}container opgehaald",
+        "template": "Vandaag wordt de {{garbage_type}}container geleegd",
         "output": "str",
         "x": 620,
         "y": 2180,
@@ -55877,8 +55289,8 @@
         "id": "bae3c74f675875a2",
         "type": "function",
         "z": "edbbe41e31b072c6",
-        "name": "action turn off vacuum autocleaning",
-        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Stofzuiger\",\n    icon: \"\",\n    action_1_title: \"JA\",\n    action_2_title: \"NEE\",\n    action_1: \"VACUUM_AUTOCLEANING_OFF\",\n    action_2: \"VACUUM_AUTOCLEANING_ON\",\n    notification_id: msg.notification_id || \"vacuum\",\n    tag: msg.tag || \"vacuum\"\n};\n\nreturn msg;\n",
+        "name": "action turn off robo vacuum timer",
+        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Stofzuiger\",\n    icon: \"\",\n    action_1_title: \"JA\",\n    action_2_title: \"NEE\",\n    action_1: \"VACUUM_ROBOVACUUMTIMER_PROCEED\",\n    action_2: \"VACUUM_ROBOVACUUMTIMER_CANCEL\",\n    notification_id: msg.notification_id || \"vacuum\",\n    tag: msg.tag || \"vacuum\"\n};\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -56192,8 +55604,7 @@
         "mode": "link",
         "links": [
             "39fe1680119f6b36",
-            "9286a72a2355f5ca",
-            "c4660dc11fb0e5b8"
+            "9286a72a2355f5ca"
         ],
         "x": 1175,
         "y": 2040,
@@ -56962,8 +56373,7 @@
             "2447274b2f6d022c",
             "89e0405cd70f5206",
             "d004e764e495242a",
-            "6b8a622226855e1c",
-            "d7e3a3887f5d504a"
+            "6b8a622226855e1c"
         ],
         "x": 295,
         "y": 560,
@@ -57759,12 +57169,12 @@
         "type": "server-events",
         "z": "e44f5d834fa24670",
         "g": "670020652f26a652",
-        "name": "VACUUM_AUTOCLEANING_OFF",
+        "name": "ROBOVACUUM_TIMER_CANCEL",
         "server": "4ba92433.2478cc",
         "version": 3,
         "exposeAsEntityConfig": "",
         "eventType": "mobile_app_notification_action",
-        "eventData": "{\"action\":\"VACUUM_AUTOCLEANING_OFF\"}",
+        "eventData": "{\"action\":\"ROBOVACUUM_TIMER_CANCEL\"}",
         "waitForRunning": true,
         "outputProperties": [
             {
@@ -57795,12 +57205,12 @@
         "type": "server-events",
         "z": "e44f5d834fa24670",
         "g": "670020652f26a652",
-        "name": "VACUUM_AUTOCLEANING_ON",
+        "name": "ROBOVACUUM_TIMER_PROCEED",
         "server": "4ba92433.2478cc",
         "version": 3,
         "exposeAsEntityConfig": "",
         "eventType": "mobile_app_notification_action",
-        "eventData": "{\"action\":\"VACUUM_AUTOCLEANING_ON\"}",
+        "eventData": "{\"action\":\"ROBOVACUUM_TIMER_PROCEED\"}",
         "waitForRunning": true,
         "outputProperties": [
             {
@@ -57817,7 +57227,7 @@
             }
         ],
         "event_type": "",
-        "x": 170,
+        "x": 180,
         "y": 1000,
         "wires": [
             [
@@ -57849,7 +57259,7 @@
         "blockInputOverrides": true,
         "domain": "notify",
         "service": "notify",
-        "x": 450,
+        "x": 510,
         "y": 1000,
         "wires": [
             []
@@ -57865,8 +57275,668 @@
         "links": [
             "bdecec104be2a65e"
         ],
-        "x": 375,
+        "x": 435,
         "y": 1060,
         "wires": []
+    },
+    {
+        "id": "250567e238f9f68a",
+        "type": "catch",
+        "z": "b8d98c82eb2488b9",
+        "g": "fec451a65144d567",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 60,
+        "wires": [
+            [
+                "f0cb21a929703c7b"
+            ]
+        ]
+    },
+    {
+        "id": "f0cb21a929703c7b",
+        "type": "template",
+        "z": "b8d98c82eb2488b9",
+        "g": "fec451a65144d567",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 60,
+        "wires": [
+            [
+                "0afe8e42745c606c"
+            ]
+        ]
+    },
+    {
+        "id": "bfa8946e0b76ad2e",
+        "type": "link out",
+        "z": "b8d98c82eb2488b9",
+        "g": "fec451a65144d567",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "0afe8e42745c606c",
+        "type": "template",
+        "z": "b8d98c82eb2488b9",
+        "g": "fec451a65144d567",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 60,
+        "wires": [
+            [
+                "cc960ccdfa62ebb3"
+            ]
+        ]
+    },
+    {
+        "id": "cc960ccdfa62ebb3",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "fec451a65144d567",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = Date.now().toString(36) + Math.random().toString(36);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 60,
+        "wires": [
+            [
+                "bfa8946e0b76ad2e"
+            ]
+        ]
+    },
+    {
+        "id": "d98576578e310822",
+        "type": "cronplus",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "first of the month",
+        "outputField": "payload",
+        "timeZone": "",
+        "storeName": "",
+        "commandResponseMsgOutput": "output1",
+        "defaultLocation": "",
+        "defaultLocationType": "default",
+        "outputs": 1,
+        "options": [
+            {
+                "name": "schedule1",
+                "topic": "topic1",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 0 7 1 * ? *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            }
+        ],
+        "x": 150,
+        "y": 460,
+        "wires": [
+            [
+                "451e3b4e7d84efb4"
+            ]
+        ]
+    },
+    {
+        "id": "451e3b4e7d84efb4",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "start end previous month",
+        "func": "// Get today's date\nconst today = msg.payload.status.serverTime;\n\n// Go to the first day of the current month\nconst firstDayCurrentMonth = new Date(today.getFullYear(), today.getMonth(), 1);\n\n// Previous month = current month - 1\nconst prevMonth = firstDayCurrentMonth.getMonth() - 1;\nconst yearOfPrevMonth = prevMonth < 0 ? today.getFullYear() - 1 : today.getFullYear();\nconst monthOfPrevMonth = (prevMonth + 12) % 12;\n\n// First day of previous month\nconst firstDayPrevMonth = new Date(yearOfPrevMonth, monthOfPrevMonth, 1);\n\n// Last day of previous month\nconst lastDayPrevMonth = new Date(yearOfPrevMonth, monthOfPrevMonth + 1, 0); // day 0 = last day of previous month\n\n// Format as string\nconst formatDate = (d) => d.toISOString().split('T')[0] + \" 00:00:00\"; // start of day\nconst formatEndDate = (d) => d.toISOString().split('T')[0] + \" 23:59:59\"; // end of day\n\nmsg.result = {\n    start_date_time: formatDate(firstDayPrevMonth),\n    end_date_time: formatEndDate(lastDayPrevMonth)\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 460,
+        "wires": [
+            [
+                "6d0d646b8d2a606f"
+            ]
+        ]
+    },
+    {
+        "id": "58366ad094f8377c",
+        "type": "api-call-service",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "calendar.get_events",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "calendar.beau",
+            "calendar.lise"
+        ],
+        "labelId": [],
+        "data": "{\"start_date_time\":\"{{result.start_date_time}}\",\"end_date_time\":\"{{result.end_date_time}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "results"
+            }
+        ],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "calendar",
+        "service": "get_events",
+        "x": 740,
+        "y": 460,
+        "wires": [
+            [
+                "cfd81cdf04df1639"
+            ]
+        ]
+    },
+    {
+        "id": "cfd81cdf04df1639",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "count all events \"anneke past op\"",
+        "func": "// Collect all events from all calendars\nconst allEvents = Object.values(msg.payload) // get each calendar object\n    .flatMap(c => c.events || []); // merge their events into one big array\n\n// Count how many match \"anneke past op\"\nmsg.countAnneke = allEvents.filter(e => \n    e.summary?.toLowerCase().includes(\"anneke past op\")\n).length;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 460,
+        "wires": [
+            [
+                "5366013bda15f665"
+            ]
+        ]
+    },
+    {
+        "id": "59ba59d92cfe39d9",
+        "type": "comment",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "count calendar events that contains the words \"anneke past op\" from the previous month ",
+        "info": "",
+        "x": 340,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "6d0d646b8d2a606f",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "due date",
+        "func": "// Parse serverTime and add 7 days\nconst dateObj = new Date(msg.payload.status.serverTime);\ndateObj.setDate(dateObj.getDate() + 7);\n\n// Return formatted date\nmsg.date = dateObj.toISOString().split(\"T\")[0];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 460,
+        "wires": [
+            [
+                "58366ad094f8377c"
+            ]
+        ]
+    },
+    {
+        "id": "5366013bda15f665",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "todo text",
+        "func": "// Format month name in Dutch\nmsg.month = new Intl.DateTimeFormat('nl-NL', { month: 'long' }).format(new Date(msg.result.end_date_time.replace(' ', 'T')));\n\nmsg.amountOfMoney = msg.countAnneke * 10;\n\nmsg.payload = \"€\" + msg.amountOfMoney + \" overmaken naar Anneke\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 140,
+        "y": 540,
+        "wires": [
+            [
+                "71e8d879fbf2622e"
+            ]
+        ]
+    },
+    {
+        "id": "f581e18c19643b6b",
+        "type": "api-call-service",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "add housekeeping todo item",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "todo.add_item",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "todo.coen"
+        ],
+        "labelId": [],
+        "data": "{\"item\":\"{{payload}}\",\"due_date\":\"{{date}}\",\"description\":\"{{{description}}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "todo",
+        "service": "add_item",
+        "x": 640,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "607c96cbd3c5cdcd",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "todo description",
+        "func": "msg.description = \"Anneke heeft in de maand \" + msg.month + \" \" + msg.countAnneke + \" keer opgepast. betaal via \" + msg.payurl;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 540,
+        "wires": [
+            [
+                "f581e18c19643b6b"
+            ]
+        ]
+    },
+    {
+        "id": "71e8d879fbf2622e",
+        "type": "template",
+        "z": "b8d98c82eb2488b9",
+        "g": "10f89499d7cb5a54",
+        "name": "pay url",
+        "field": "payurl",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "https://epc-qr.eu/?bname=A%20Stam&iban=NL60SNSB0957731876&euro={{amountOfMoney}}&info={{countAnneke}}%20keer%20oppassen%20in%20{{month}}",
+        "output": "str",
+        "x": 270,
+        "y": 540,
+        "wires": [
+            [
+                "607c96cbd3c5cdcd"
+            ]
+        ]
+    },
+    {
+        "id": "d0335fb391f93b57",
+        "type": "api-call-service",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "calendar.get_events",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "calendar.schoonmaak",
+            "calendar.coen",
+            "calendar.coen_anne"
+        ],
+        "labelId": [],
+        "data": "{\"start_date_time\":\"{{ start_date_time }}\",\"end_date_time\":\"{{ end_date_time }}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "results",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "results"
+            }
+        ],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "calendar",
+        "service": "get_events",
+        "x": 680,
+        "y": 200,
+        "wires": [
+            [
+                "f9288d158d410ce6"
+            ]
+        ]
+    },
+    {
+        "id": "f9288d158d410ce6",
+        "type": "split",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "calendar",
+        "property": "results",
+        "x": 850,
+        "y": 200,
+        "wires": [
+            [
+                "eff9057bf55d084e"
+            ]
+        ]
+    },
+    {
+        "id": "eff9057bf55d084e",
+        "type": "split",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "results.events",
+        "x": 970,
+        "y": 200,
+        "wires": [
+            [
+                "d1886b75fbf19d62"
+            ]
+        ]
+    },
+    {
+        "id": "7257cb974991c964",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "todo item vars",
+        "func": "msg.todo = {};\n\nmsg.todo.item = msg.results.events.summary.replace(/^todo:\\s*/i, \"\");  // removes \"todo: \" from the start\n\nlet input = msg.results.events.start;\n\nif (input.includes(\"T\")) {\n    let d = new Date(input);\n    msg.todo.due_date_time = d.toISOString().split(\".\")[0].replace(\"T\", \" \");\n} else {\n    msg.todo.due_date = input;\n}\n\nmsg.todo.description = msg.results.events.description;\n\nmsg.entity_id = msg.calendar.replace(\"calendar\", \"todo\");\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 280,
+        "wires": [
+            [
+                "ccf87318aa8d159a"
+            ]
+        ]
+    },
+    {
+        "id": "108334557e4c6cba",
+        "type": "api-call-service",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "add todo item (due_date)",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "todo.add_item",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "{{entity_id}}"
+        ],
+        "labelId": [],
+        "data": "{\"item\":\"{{todo.item}}\",\"due_date\":\"{{todo.due_date}}\",\"description\":\"{{todo.description}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "todo",
+        "service": "add_item",
+        "x": 610,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d1886b75fbf19d62",
+        "type": "switch",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "property": "results.events.summary",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "regex",
+                "v": "\\btodo:",
+                "vt": "str",
+                "case": true
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "7257cb974991c964"
+            ]
+        ]
+    },
+    {
+        "id": "f553ee97740862ea",
+        "type": "api-call-service",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "add todo item (due_date_time)",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "todo.add_item",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "{{entity_id}}"
+        ],
+        "labelId": [],
+        "data": "{\"item\":\"{{todo.item}}\",\"due_datetime\":\"{{todo.due_date_time}}\",\"description\":\"{{todo.description}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "todo",
+        "service": "add_item",
+        "x": 630,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ccf87318aa8d159a",
+        "type": "switch",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "property": "todo",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "hask",
+                "v": "due_date",
+                "vt": "str"
+            },
+            {
+                "t": "hask",
+                "v": "due_date_time",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 430,
+        "y": 280,
+        "wires": [
+            [
+                "108334557e4c6cba"
+            ],
+            [
+                "f553ee97740862ea"
+            ]
+        ]
+    },
+    {
+        "id": "2fb5b2c7c4f3f719",
+        "type": "comment",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "create to do tasks triggered from calendars that contain \"todo:\"",
+        "info": "",
+        "x": 260,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "d240e7311ce60041",
+        "type": "inject",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "props": [
+            {
+                "p": "start",
+                "v": "start",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "01 00 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "c613a9193af7a20f"
+            ]
+        ]
+    },
+    {
+        "id": "f095901791d95a7f",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "start + end datetime",
+        "func": "msg.start_date_time = msg.myymd + \" 00:00:00\";\nmsg.end_date_time = msg.myymd + \" 23:59:59\";\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 200,
+        "wires": [
+            [
+                "d0335fb391f93b57"
+            ]
+        ]
+    },
+    {
+        "id": "c613a9193af7a20f",
+        "type": "simpletime",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "mydate": true,
+        "myymd": true,
+        "myyear": true,
+        "mymonth": true,
+        "mymonthn": true,
+        "mymonthf": true,
+        "mydom": true,
+        "mydoy": true,
+        "myday": true,
+        "mydayf": true,
+        "myhourpm": true,
+        "myhour": true,
+        "mytime": true,
+        "mytimes": true,
+        "myminute": true,
+        "myminutes": true,
+        "mysecond": true,
+        "mymillis": true,
+        "myepoch": true,
+        "myrawdate": true,
+        "mypm": true,
+        "x": 270,
+        "y": 200,
+        "wires": [
+            [
+                "f095901791d95a7f"
+            ]
+        ]
     }
 ]
