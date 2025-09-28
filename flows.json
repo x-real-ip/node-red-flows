@@ -22,22 +22,6 @@
         "env": []
     },
     {
-        "id": "535c98d1d92579b6",
-        "type": "tab",
-        "label": "notification_sensors",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "1dfb7e055134adc8",
-        "type": "tab",
-        "label": "notification_sensors_count",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "a8d8484165225699",
         "type": "tab",
         "label": "notification_update_entity",
@@ -745,54 +729,6 @@
             "850de025f821d110",
             "a1d22443632b6c95",
             "34627360e59b2422"
-        ],
-        "x": 14,
-        "y": 39,
-        "w": 502,
-        "h": 82
-    },
-    {
-        "id": "54fbd89aeb283eab",
-        "type": "group",
-        "z": "535c98d1d92579b6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "d361893bd7868273",
-            "d50a3b33f5ac5fbe",
-            "dac0d4dda81abc95",
-            "3a705fecfc60ec68"
-        ],
-        "x": 14,
-        "y": 39,
-        "w": 502,
-        "h": 82
-    },
-    {
-        "id": "28814c2324702a49",
-        "type": "group",
-        "z": "1dfb7e055134adc8",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "230055356a2e27e3",
-            "c6c55fc30c7db0f1",
-            "c84220140a8c71a3",
-            "d9db1905747d0301"
         ],
         "x": 14,
         "y": 39,
@@ -2566,7 +2502,7 @@
             "3042e996feac3021"
         ],
         "x": 8,
-        "y": 2233,
+        "y": 2013,
         "w": 2364,
         "h": 2074
     },
@@ -2916,33 +2852,6 @@
         "y": 939,
         "w": 552,
         "h": 122
-    },
-    {
-        "id": "b176910a3e711408",
-        "type": "group",
-        "z": "be92da6a5a4a4550",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "363bfc79557494a9",
-            "1c2b41acdb40d6e7",
-            "be989daad7f22a86",
-            "3ed0331b7637d838",
-            "517ccc4fadd46551",
-            "2707e8f7b4f2a241",
-            "e1e18e258b05bc2b"
-        ],
-        "x": 14,
-        "y": 1513,
-        "w": 1358,
-        "h": 214
     },
     {
         "id": "56531804b48cab17",
@@ -4871,35 +4780,6 @@
         "h": 122
     },
     {
-        "id": "f8b8b4df942d278c",
-        "type": "group",
-        "z": "be92da6a5a4a4550",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "fc015c3acdd57ee4",
-            "6d32a564bcd340a4",
-            "183a5991d27d2b04",
-            "4f602b0ecd3e333e",
-            "63dd27acb5293428",
-            "25fa43d35440a3f7",
-            "faf897ee811f8cf2",
-            "2854a37c523e8a87",
-            "b598f692239c91be"
-        ],
-        "x": 14,
-        "y": 2019,
-        "w": 802,
-        "h": 202
-    },
-    {
         "id": "43b0f453509c788b",
         "type": "group",
         "z": "98a989e.d6bca78",
@@ -5097,6 +4977,53 @@
         "y": 119,
         "w": 1032,
         "h": 242
+    },
+    {
+        "id": "bc5bb6b372848b7c",
+        "type": "group",
+        "z": "55da1471.fda0fc",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5bb05da7d294daf3",
+            "24e07b4589dbc14f",
+            "7a6572a848edbab2"
+        ],
+        "x": 14,
+        "y": 1499,
+        "w": 512,
+        "h": 122
+    },
+    {
+        "id": "4e1beacde852f70d",
+        "type": "group",
+        "z": "b8d98c82eb2488b9",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "cb8f1bab4636ad5e",
+            "50299601428d86dd",
+            "6f4bac3366b09c0a",
+            "c52032a311ae161f"
+        ],
+        "x": 14,
+        "y": 599,
+        "w": 752,
+        "h": 122
     },
     {
         "id": "efc093c90e8d9b40",
@@ -5506,7 +5433,7 @@
             "ff98fd154ff308d4"
         ],
         "x": 34,
-        "y": 2259,
+        "y": 2039,
         "w": 672,
         "h": 122
     },
@@ -5537,7 +5464,7 @@
             "ecea904543e1fd1e"
         ],
         "x": 34,
-        "y": 2399,
+        "y": 2179,
         "w": 1012,
         "h": 182
     },
@@ -5575,7 +5502,7 @@
             "a66118ea5be1ff8c"
         ],
         "x": 34,
-        "y": 2599,
+        "y": 2379,
         "w": 2312,
         "h": 182
     },
@@ -5599,7 +5526,7 @@
             "e1d97f0452ca6682"
         ],
         "x": 34,
-        "y": 2799,
+        "y": 2579,
         "w": 572,
         "h": 142
     },
@@ -5623,7 +5550,7 @@
             "e526a056cd7494db"
         ],
         "x": 34,
-        "y": 2959,
+        "y": 2739,
         "w": 712,
         "h": 142
     },
@@ -5647,7 +5574,7 @@
             "dde87eef542d7ef4"
         ],
         "x": 34,
-        "y": 3119,
+        "y": 2899,
         "w": 392,
         "h": 122
     },
@@ -5677,7 +5604,7 @@
             "e637b15d3d21c45d"
         ],
         "x": 34,
-        "y": 3259,
+        "y": 3039,
         "w": 1552,
         "h": 204.5
     },
@@ -5786,7 +5713,7 @@
             "82b493917e9911f4"
         ],
         "x": 34,
-        "y": 3479,
+        "y": 3259,
         "w": 532,
         "h": 162
     },
@@ -5932,28 +5859,6 @@
         "h": 162
     },
     {
-        "id": "e1e18e258b05bc2b",
-        "type": "group",
-        "z": "be92da6a5a4a4550",
-        "g": "b176910a3e711408",
-        "name": "notify",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "cbd34de63e64797f",
-            "56d9d2ebcfbe9269",
-            "e979b5648c1846fb",
-            "84662e512af252f4",
-            "473671da38ba46a2",
-            "e094355f82570254"
-        ],
-        "x": 914,
-        "y": 1539,
-        "w": 432,
-        "h": 162
-    },
-    {
         "id": "d4032e52fcdeddaf",
         "type": "group",
         "z": "be92da6a5a4a4550",
@@ -5976,7 +5881,7 @@
             "d8b99bf36f16da1d"
         ],
         "x": 34,
-        "y": 3659,
+        "y": 3439,
         "w": 1072,
         "h": 122
     },
@@ -6262,7 +6167,7 @@
             "1f187dbf3227f8dc"
         ],
         "x": 34,
-        "y": 3799,
+        "y": 3579,
         "w": 1112,
         "h": 282
     },
@@ -6637,7 +6542,7 @@
             "71377af681724964"
         ],
         "x": 34,
-        "y": 4099,
+        "y": 3879,
         "w": 912,
         "h": 182
     },
@@ -6817,9 +6722,9 @@
         "h": 122
     },
     {
-        "id": "bc5bb6b372848b7c",
+        "id": "7392a1a622e27f68",
         "type": "group",
-        "z": "55da1471.fda0fc",
+        "z": "be92da6a5a4a4550",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -6830,14 +6735,22 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "5bb05da7d294daf3",
-            "24e07b4589dbc14f",
-            "7a6572a848edbab2"
+            "15d1a1deb0bec731",
+            "2339cb24fb40851a",
+            "da5929c89432e558",
+            "efc8e388668c144b",
+            "2bc670f809f5f6df",
+            "164b09c02dab9081",
+            "e4dc18f7c9455c0d",
+            "6fc294104a2dbb11",
+            "3040ab0c0c1ed2dd",
+            "d8573e32a9ec888f",
+            "849379e6f7939a8c"
         ],
         "x": 14,
-        "y": 1499,
-        "w": 512,
-        "h": 122
+        "y": 1519,
+        "w": 1422,
+        "h": 182
     },
     {
         "id": "97afb37521efba77",
@@ -6979,78 +6892,6 @@
         "wires": [
             [
                 "19b08832ac41fe31"
-            ]
-        ]
-    },
-    {
-        "id": "50241184111a2c70",
-        "type": "junction",
-        "z": "535c98d1d92579b6",
-        "x": 200,
-        "y": 320,
-        "wires": [
-            [
-                "4f661232083706f4"
-            ]
-        ]
-    },
-    {
-        "id": "301e94d904b9a128",
-        "type": "junction",
-        "z": "535c98d1d92579b6",
-        "x": 760,
-        "y": 600,
-        "wires": [
-            [
-                "318426830832aad5"
-            ]
-        ]
-    },
-    {
-        "id": "4a33ba091890f26c",
-        "type": "junction",
-        "z": "535c98d1d92579b6",
-        "x": 760,
-        "y": 360,
-        "wires": [
-            [
-                "4f661232083706f4"
-            ]
-        ]
-    },
-    {
-        "id": "b9e7aa8885c6c8ee",
-        "type": "junction",
-        "z": "535c98d1d92579b6",
-        "x": 760,
-        "y": 840,
-        "wires": [
-            [
-                "f772e0315cdeaa39"
-            ]
-        ]
-    },
-    {
-        "id": "d562f0f246daa67a",
-        "type": "junction",
-        "z": "535c98d1d92579b6",
-        "x": 200,
-        "y": 560,
-        "wires": [
-            [
-                "318426830832aad5"
-            ]
-        ]
-    },
-    {
-        "id": "deabe55a2db7bf66",
-        "type": "junction",
-        "z": "535c98d1d92579b6",
-        "x": 200,
-        "y": 800,
-        "wires": [
-            [
-                "f772e0315cdeaa39"
             ]
         ]
     },
@@ -7449,21 +7290,6 @@
         ]
     },
     {
-        "id": "473671da38ba46a2",
-        "type": "junction",
-        "z": "be92da6a5a4a4550",
-        "g": "e1e18e258b05bc2b",
-        "x": 940,
-        "y": 1620,
-        "wires": [
-            [
-                "56d9d2ebcfbe9269",
-                "cbd34de63e64797f",
-                "e094355f82570254"
-            ]
-        ]
-    },
-    {
         "id": "9176120838cc8707",
         "type": "junction",
         "z": "e98ae3c9db1bd6c3",
@@ -7521,7 +7347,7 @@
         "z": "be92da6a5a4a4550",
         "g": "a593b47760f06197",
         "x": 280,
-        "y": 2540,
+        "y": 2320,
         "wires": [
             [
                 "8c244203c4fcc324"
@@ -7994,278 +7820,6 @@
             }
         ],
         "resend": false,
-        "debugEnabled": false
-    },
-    {
-        "id": "61b96249023198be",
-        "type": "ha-entity-config",
-        "server": "4ba92433.2478cc",
-        "deviceConfig": "",
-        "name": "notification_level_info_turn_off",
-        "version": "6",
-        "entityType": "button",
-        "haConfig": [
-            {
-                "property": "name",
-                "value": "notification_level_info_turn_off"
-            },
-            {
-                "property": "icon",
-                "value": ""
-            },
-            {
-                "property": "entity_picture",
-                "value": ""
-            },
-            {
-                "property": "entity_category",
-                "value": ""
-            },
-            {
-                "property": "device_class",
-                "value": ""
-            }
-        ],
-        "resend": false,
-        "debugEnabled": false
-    },
-    {
-        "id": "ce2ff010477149a7",
-        "type": "ha-entity-config",
-        "server": "4ba92433.2478cc",
-        "deviceConfig": "",
-        "name": "notification_level_warning_turn_off",
-        "version": "6",
-        "entityType": "button",
-        "haConfig": [
-            {
-                "property": "name",
-                "value": "notification_level_warning_turn_off"
-            },
-            {
-                "property": "icon",
-                "value": ""
-            },
-            {
-                "property": "entity_picture",
-                "value": ""
-            },
-            {
-                "property": "entity_category",
-                "value": ""
-            },
-            {
-                "property": "device_class",
-                "value": ""
-            }
-        ],
-        "resend": false,
-        "debugEnabled": false
-    },
-    {
-        "id": "fed106bf198ad2ea",
-        "type": "ha-entity-config",
-        "server": "4ba92433.2478cc",
-        "deviceConfig": "",
-        "name": "notification_level_warning",
-        "version": "6",
-        "entityType": "binary_sensor",
-        "haConfig": [
-            {
-                "property": "name",
-                "value": "notification_level_warning"
-            },
-            {
-                "property": "icon",
-                "value": ""
-            },
-            {
-                "property": "entity_picture",
-                "value": ""
-            },
-            {
-                "property": "entity_category",
-                "value": ""
-            },
-            {
-                "property": "device_class",
-                "value": ""
-            }
-        ],
-        "resend": true,
-        "debugEnabled": false
-    },
-    {
-        "id": "287aaae77d488c09",
-        "type": "ha-entity-config",
-        "server": "4ba92433.2478cc",
-        "deviceConfig": "",
-        "name": "notification_level_error_turn_off",
-        "version": "6",
-        "entityType": "button",
-        "haConfig": [
-            {
-                "property": "name",
-                "value": "notification_level_error_turn_off"
-            },
-            {
-                "property": "icon",
-                "value": ""
-            },
-            {
-                "property": "entity_picture",
-                "value": ""
-            },
-            {
-                "property": "entity_category",
-                "value": ""
-            },
-            {
-                "property": "device_class",
-                "value": ""
-            }
-        ],
-        "resend": false,
-        "debugEnabled": false
-    },
-    {
-        "id": "d2b97f89ed6763e5",
-        "type": "ha-entity-config",
-        "server": "4ba92433.2478cc",
-        "deviceConfig": "",
-        "name": "notification_level_error",
-        "version": "6",
-        "entityType": "binary_sensor",
-        "haConfig": [
-            {
-                "property": "name",
-                "value": "notification_level_error"
-            },
-            {
-                "property": "icon",
-                "value": ""
-            },
-            {
-                "property": "entity_picture",
-                "value": ""
-            },
-            {
-                "property": "entity_category",
-                "value": ""
-            },
-            {
-                "property": "device_class",
-                "value": ""
-            }
-        ],
-        "resend": true,
-        "debugEnabled": false
-    },
-    {
-        "id": "cab73c1a38f001be",
-        "type": "ha-entity-config",
-        "server": "4ba92433.2478cc",
-        "deviceConfig": "",
-        "name": "notification_level_info",
-        "version": "6",
-        "entityType": "binary_sensor",
-        "haConfig": [
-            {
-                "property": "name",
-                "value": "notification_level_info"
-            },
-            {
-                "property": "icon",
-                "value": ""
-            },
-            {
-                "property": "entity_picture",
-                "value": ""
-            },
-            {
-                "property": "entity_category",
-                "value": ""
-            },
-            {
-                "property": "device_class",
-                "value": ""
-            }
-        ],
-        "resend": true,
-        "debugEnabled": false
-    },
-    {
-        "id": "3cbf2c3454c3795d",
-        "type": "ha-entity-config",
-        "server": "4ba92433.2478cc",
-        "deviceConfig": "",
-        "name": "notification_level_clear_all",
-        "version": "6",
-        "entityType": "button",
-        "haConfig": [
-            {
-                "property": "name",
-                "value": "notification_level_clear_all"
-            },
-            {
-                "property": "icon",
-                "value": ""
-            },
-            {
-                "property": "entity_picture",
-                "value": ""
-            },
-            {
-                "property": "entity_category",
-                "value": ""
-            },
-            {
-                "property": "device_class",
-                "value": ""
-            }
-        ],
-        "resend": false,
-        "debugEnabled": false
-    },
-    {
-        "id": "df0e222b4bf2971f",
-        "type": "ha-entity-config",
-        "server": "4ba92433.2478cc",
-        "deviceConfig": "",
-        "name": "notification_on_counter",
-        "version": "6",
-        "entityType": "sensor",
-        "haConfig": [
-            {
-                "property": "name",
-                "value": "notification_on_counter"
-            },
-            {
-                "property": "icon",
-                "value": ""
-            },
-            {
-                "property": "entity_picture",
-                "value": ""
-            },
-            {
-                "property": "entity_category",
-                "value": ""
-            },
-            {
-                "property": "device_class",
-                "value": ""
-            },
-            {
-                "property": "unit_of_measurement",
-                "value": ""
-            },
-            {
-                "property": "state_class",
-                "value": "total"
-            }
-        ],
-        "resend": true,
         "debugEnabled": false
     },
     {
@@ -11906,1534 +11460,6 @@
         "wires": [
             [
                 "a1d22443632b6c95"
-            ]
-        ]
-    },
-    {
-        "id": "0e310c70840e8224",
-        "type": "comment",
-        "z": "535c98d1d92579b6",
-        "name": "Notification sensors",
-        "info": "",
-        "x": 110,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "d284fbdad343c385",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "change queueCount to prevent loop",
-        "rules": [
-            {
-                "t": "set",
-                "p": "queueCount",
-                "pt": "msg",
-                "to": "queueCount-disabled",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1120,
-        "y": 400,
-        "wires": [
-            [
-                "4a33ba091890f26c"
-            ]
-        ]
-    },
-    {
-        "id": "88f82f16d0ecc697",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "queueCount is manual",
-        "property": "queueCount",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "manual",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1080,
-        "y": 480,
-        "wires": [
-            [
-                "08621321cbd341f3"
-            ]
-        ]
-    },
-    {
-        "id": "cf3dcb6dddbc3023",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "queueCount = 0",
-        "property": "_queueCount",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1320,
-        "y": 320,
-        "wires": [
-            [
-                "eb4339876a876c95"
-            ]
-        ]
-    },
-    {
-        "id": "eb4339876a876c95",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "turn off",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "off",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1470,
-        "y": 320,
-        "wires": [
-            [
-                "60dd6681f0c203d8"
-            ]
-        ]
-    },
-    {
-        "id": "e190582e7eecb772",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "send queueCount",
-        "rules": [
-            {
-                "t": "set",
-                "p": "queueCount",
-                "pt": "msg",
-                "to": "manual",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 610,
-        "y": 360,
-        "wires": [
-            [
-                "4f661232083706f4"
-            ]
-        ]
-    },
-    {
-        "id": "08621321cbd341f3",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "trigger next notification",
-        "rules": [
-            {
-                "t": "set",
-                "p": "trigger",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1080,
-        "y": 440,
-        "wires": [
-            [
-                "d284fbdad343c385"
-            ]
-        ]
-    },
-    {
-        "id": "c7424ac5390d672f",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "queueCount manual or not",
-        "property": "queueCount",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "manual",
-                "vt": "str"
-            },
-            {
-                "t": "neq",
-                "v": "manual",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1100,
-        "y": 360,
-        "wires": [
-            [
-                "cf3dcb6dddbc3023"
-            ],
-            [
-                "f828d6073d42e100"
-            ]
-        ]
-    },
-    {
-        "id": "60e14e33a793f50d",
-        "type": "link in",
-        "z": "535c98d1d92579b6",
-        "name": "notification_sensors",
-        "links": [
-            "178e42db86a628e8",
-            "afc68deb5ab5e4be"
-        ],
-        "x": 225,
-        "y": 260,
-        "wires": [
-            [
-                "1dfbe5c40868f075"
-            ]
-        ]
-    },
-    {
-        "id": "1dfbe5c40868f075",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "turn on",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "on",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 340,
-        "y": 260,
-        "wires": [
-            [
-                "b47b5b571e70f987"
-            ]
-        ]
-    },
-    {
-        "id": "b47b5b571e70f987",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "notification level",
-        "property": "notification_level",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "info",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "warning",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "error",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 500,
-        "y": 260,
-        "wires": [
-            [
-                "50241184111a2c70"
-            ],
-            [
-                "d562f0f246daa67a"
-            ],
-            [
-                "deabe55a2db7bf66"
-            ]
-        ]
-    },
-    {
-        "id": "20e547681f231053",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "change queueCount to prevent loop",
-        "rules": [
-            {
-                "t": "set",
-                "p": "queueCount",
-                "pt": "msg",
-                "to": "queueCount-disabled",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1120,
-        "y": 640,
-        "wires": [
-            [
-                "301e94d904b9a128"
-            ]
-        ]
-    },
-    {
-        "id": "efbc738612c5af68",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "queueCount is manual",
-        "property": "queueCount",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "manual",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1080,
-        "y": 720,
-        "wires": [
-            [
-                "7ebeace41d10ab2c"
-            ]
-        ]
-    },
-    {
-        "id": "bbbb44ecec657829",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "queueCount = 0",
-        "property": "_queueCount",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1320,
-        "y": 560,
-        "wires": [
-            [
-                "de6a06807eba37cd"
-            ]
-        ]
-    },
-    {
-        "id": "de6a06807eba37cd",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "turn off",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "off",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1470,
-        "y": 560,
-        "wires": [
-            [
-                "528f1050a96e3ee8"
-            ]
-        ]
-    },
-    {
-        "id": "736105227bd073f9",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "send queueCount",
-        "rules": [
-            {
-                "t": "set",
-                "p": "queueCount",
-                "pt": "msg",
-                "to": "manual",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 610,
-        "y": 600,
-        "wires": [
-            [
-                "318426830832aad5"
-            ]
-        ]
-    },
-    {
-        "id": "7ebeace41d10ab2c",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "trigger next notification",
-        "rules": [
-            {
-                "t": "set",
-                "p": "trigger",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1080,
-        "y": 680,
-        "wires": [
-            [
-                "20e547681f231053"
-            ]
-        ]
-    },
-    {
-        "id": "e411b0ba582c91c2",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "queueCount manual or not",
-        "property": "queueCount",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "manual",
-                "vt": "str"
-            },
-            {
-                "t": "neq",
-                "v": "manual",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1100,
-        "y": 600,
-        "wires": [
-            [
-                "bbbb44ecec657829"
-            ],
-            [
-                "91eedee11e4bcc9a"
-            ]
-        ]
-    },
-    {
-        "id": "4c54182aa65282bd",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "change queueCount to prevent loop",
-        "rules": [
-            {
-                "t": "set",
-                "p": "queueCount",
-                "pt": "msg",
-                "to": "queueCount-disabled",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1120,
-        "y": 880,
-        "wires": [
-            [
-                "b9e7aa8885c6c8ee"
-            ]
-        ]
-    },
-    {
-        "id": "78188ae45f430dd6",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "queueCount is manual",
-        "property": "queueCount",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "manual",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1080,
-        "y": 960,
-        "wires": [
-            [
-                "145923d276293382"
-            ]
-        ]
-    },
-    {
-        "id": "bc4a54588c595f3f",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "queueCount = 0",
-        "property": "_queueCount",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1320,
-        "y": 800,
-        "wires": [
-            [
-                "c9b99378a043955e"
-            ]
-        ]
-    },
-    {
-        "id": "c9b99378a043955e",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "turn off",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "off",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1470,
-        "y": 800,
-        "wires": [
-            [
-                "888146b5bc3de9b0"
-            ]
-        ]
-    },
-    {
-        "id": "0ad5ce9b55391b05",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "send queueCount",
-        "rules": [
-            {
-                "t": "set",
-                "p": "queueCount",
-                "pt": "msg",
-                "to": "manual",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 610,
-        "y": 840,
-        "wires": [
-            [
-                "f772e0315cdeaa39"
-            ]
-        ]
-    },
-    {
-        "id": "145923d276293382",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "trigger next notification",
-        "rules": [
-            {
-                "t": "set",
-                "p": "trigger",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1080,
-        "y": 920,
-        "wires": [
-            [
-                "4c54182aa65282bd"
-            ]
-        ]
-    },
-    {
-        "id": "cc525d2002136a4c",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "queueCount manual or not",
-        "property": "queueCount",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "manual",
-                "vt": "str"
-            },
-            {
-                "t": "neq",
-                "v": "manual",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1100,
-        "y": 840,
-        "wires": [
-            [
-                "bc4a54588c595f3f"
-            ],
-            [
-                "33214ff962dae990"
-            ]
-        ]
-    },
-    {
-        "id": "33214ff962dae990",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "has icon or not",
-        "property": "icon",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "else"
-            },
-            {
-                "t": "null"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1500,
-        "y": 840,
-        "wires": [
-            [
-                "d50ea9d8ab173da2"
-            ],
-            [
-                "af174ca359ccb0a2"
-            ]
-        ]
-    },
-    {
-        "id": "af174ca359ccb0a2",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "set icon",
-        "rules": [
-            {
-                "t": "set",
-                "p": "icon",
-                "pt": "msg",
-                "to": "mdi:alert-circle-outline",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1660,
-        "y": 860,
-        "wires": [
-            [
-                "d50ea9d8ab173da2"
-            ]
-        ]
-    },
-    {
-        "id": "d50ea9d8ab173da2",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "has icon_color or not",
-        "property": "icon_color",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "else"
-            },
-            {
-                "t": "null"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1860,
-        "y": 840,
-        "wires": [
-            [
-                "888146b5bc3de9b0"
-            ],
-            [
-                "0c7e8bf8978de66d"
-            ]
-        ]
-    },
-    {
-        "id": "0c7e8bf8978de66d",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "set color",
-        "rules": [
-            {
-                "t": "set",
-                "p": "icon_color",
-                "pt": "msg",
-                "to": "red",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2040,
-        "y": 860,
-        "wires": [
-            [
-                "888146b5bc3de9b0"
-            ]
-        ]
-    },
-    {
-        "id": "91eedee11e4bcc9a",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "has icon or not",
-        "property": "icon",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "else"
-            },
-            {
-                "t": "null"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1500,
-        "y": 600,
-        "wires": [
-            [
-                "65685b25d00a4e03"
-            ],
-            [
-                "9458cfbde59e2711"
-            ]
-        ]
-    },
-    {
-        "id": "9458cfbde59e2711",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "set icon",
-        "rules": [
-            {
-                "t": "set",
-                "p": "icon",
-                "pt": "msg",
-                "to": "mdi:alert-circle-outline",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1660,
-        "y": 620,
-        "wires": [
-            [
-                "65685b25d00a4e03"
-            ]
-        ]
-    },
-    {
-        "id": "65685b25d00a4e03",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "has icon_color or not",
-        "property": "icon_color",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "else"
-            },
-            {
-                "t": "null"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1860,
-        "y": 600,
-        "wires": [
-            [
-                "528f1050a96e3ee8"
-            ],
-            [
-                "07cfc1a9e4e1c040"
-            ]
-        ]
-    },
-    {
-        "id": "07cfc1a9e4e1c040",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "set color",
-        "rules": [
-            {
-                "t": "set",
-                "p": "icon_color",
-                "pt": "msg",
-                "to": "orange",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2040,
-        "y": 620,
-        "wires": [
-            [
-                "528f1050a96e3ee8"
-            ]
-        ]
-    },
-    {
-        "id": "f828d6073d42e100",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "has icon or not",
-        "property": "icon",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "else"
-            },
-            {
-                "t": "null"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1500,
-        "y": 360,
-        "wires": [
-            [
-                "feaf1ae10c82af9b"
-            ],
-            [
-                "c7dbb5a3de1d13d0"
-            ]
-        ]
-    },
-    {
-        "id": "c7dbb5a3de1d13d0",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "set icon",
-        "rules": [
-            {
-                "t": "set",
-                "p": "icon",
-                "pt": "msg",
-                "to": "mdi:alert-circle-outline",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1660,
-        "y": 380,
-        "wires": [
-            [
-                "feaf1ae10c82af9b"
-            ]
-        ]
-    },
-    {
-        "id": "feaf1ae10c82af9b",
-        "type": "switch",
-        "z": "535c98d1d92579b6",
-        "name": "has icon_color or not",
-        "property": "icon_color",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "else"
-            },
-            {
-                "t": "null"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1860,
-        "y": 360,
-        "wires": [
-            [
-                "60dd6681f0c203d8"
-            ],
-            [
-                "7793f5587485f10d"
-            ]
-        ]
-    },
-    {
-        "id": "7793f5587485f10d",
-        "type": "change",
-        "z": "535c98d1d92579b6",
-        "name": "set color",
-        "rules": [
-            {
-                "t": "set",
-                "p": "icon_color",
-                "pt": "msg",
-                "to": "red",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2040,
-        "y": 380,
-        "wires": [
-            [
-                "60dd6681f0c203d8"
-            ]
-        ]
-    },
-    {
-        "id": "528f1050a96e3ee8",
-        "type": "ha-binary-sensor",
-        "z": "535c98d1d92579b6",
-        "name": "notification_level_warning",
-        "entityConfig": "fed106bf198ad2ea",
-        "version": 0,
-        "state": "payload",
-        "stateType": "msg",
-        "attributes": [
-            {
-                "property": "primary_information",
-                "value": "primary_information",
-                "valueType": "msg"
-            },
-            {
-                "property": "secondary_information",
-                "value": "secondary_information",
-                "valueType": "msg"
-            },
-            {
-                "property": "topic",
-                "value": "topic",
-                "valueType": "msg"
-            },
-            {
-                "property": "icon",
-                "value": "icon",
-                "valueType": "msg"
-            },
-            {
-                "property": "icon_color",
-                "value": "icon_color",
-                "valueType": "msg"
-            },
-            {
-                "property": "notification_level",
-                "value": "notification_level",
-                "valueType": "msg"
-            }
-        ],
-        "inputOverride": "allow",
-        "outputProperties": [],
-        "x": 2230,
-        "y": 560,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "888146b5bc3de9b0",
-        "type": "ha-binary-sensor",
-        "z": "535c98d1d92579b6",
-        "name": "notification_level_error",
-        "entityConfig": "d2b97f89ed6763e5",
-        "version": 0,
-        "state": "payload",
-        "stateType": "msg",
-        "attributes": [
-            {
-                "property": "primary_information",
-                "value": "primary_information",
-                "valueType": "msg"
-            },
-            {
-                "property": "secondary_information",
-                "value": "secondary_information",
-                "valueType": "msg"
-            },
-            {
-                "property": "topic",
-                "value": "topic",
-                "valueType": "msg"
-            },
-            {
-                "property": "icon",
-                "value": "icon",
-                "valueType": "msg"
-            },
-            {
-                "property": "icon_color",
-                "value": "icon_color",
-                "valueType": "msg"
-            },
-            {
-                "property": "notification_level",
-                "value": "notification_level",
-                "valueType": "msg"
-            }
-        ],
-        "inputOverride": "allow",
-        "outputProperties": [],
-        "x": 2220,
-        "y": 800,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "60dd6681f0c203d8",
-        "type": "ha-binary-sensor",
-        "z": "535c98d1d92579b6",
-        "name": "notification_level_info",
-        "entityConfig": "cab73c1a38f001be",
-        "version": 0,
-        "state": "payload",
-        "stateType": "msg",
-        "attributes": [
-            {
-                "property": "primary_information",
-                "value": "primary_information",
-                "valueType": "msg"
-            },
-            {
-                "property": "secondary_information",
-                "value": "secondary_information",
-                "valueType": "msg"
-            },
-            {
-                "property": "topic",
-                "value": "topic",
-                "valueType": "msg"
-            },
-            {
-                "property": "icon",
-                "value": "mdi:information-outline",
-                "valueType": "str"
-            },
-            {
-                "property": "icon_color",
-                "value": "yellow",
-                "valueType": "str"
-            },
-            {
-                "property": "notification_level",
-                "value": "notification_level",
-                "valueType": "msg"
-            }
-        ],
-        "inputOverride": "allow",
-        "outputProperties": [],
-        "x": 2220,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "90472c432f08b2dc",
-        "type": "ha-button",
-        "z": "535c98d1d92579b6",
-        "name": "notification_level_info_turn_off",
-        "version": 0,
-        "debugenabled": false,
-        "outputs": 1,
-        "entityConfig": "61b96249023198be",
-        "outputProperties": [],
-        "x": 340,
-        "y": 360,
-        "wires": [
-            [
-                "e190582e7eecb772"
-            ]
-        ]
-    },
-    {
-        "id": "6cb0684a8f3589cf",
-        "type": "ha-button",
-        "z": "535c98d1d92579b6",
-        "name": "notification_level_warning_turn_off",
-        "version": 0,
-        "debugenabled": false,
-        "outputs": 1,
-        "entityConfig": "ce2ff010477149a7",
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "off",
-                "valueType": "str"
-            }
-        ],
-        "x": 360,
-        "y": 600,
-        "wires": [
-            [
-                "736105227bd073f9"
-            ]
-        ]
-    },
-    {
-        "id": "f9e253cfd747a61a",
-        "type": "ha-button",
-        "z": "535c98d1d92579b6",
-        "name": "notification_level_error_turn_off",
-        "version": 0,
-        "debugenabled": false,
-        "outputs": 1,
-        "entityConfig": "287aaae77d488c09",
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "off",
-                "valueType": "str"
-            }
-        ],
-        "x": 350,
-        "y": 840,
-        "wires": [
-            [
-                "0ad5ce9b55391b05"
-            ]
-        ]
-    },
-    {
-        "id": "549544fa83d3a57f",
-        "type": "ha-button",
-        "z": "535c98d1d92579b6",
-        "name": "notification_level_clear_all",
-        "version": 0,
-        "debugenabled": false,
-        "outputs": 1,
-        "entityConfig": "3cbf2c3454c3795d",
-        "outputProperties": [],
-        "x": 1290,
-        "y": 240,
-        "wires": [
-            [
-                "eb4339876a876c95",
-                "de6a06807eba37cd",
-                "c9b99378a043955e"
-            ]
-        ]
-    },
-    {
-        "id": "4f661232083706f4",
-        "type": "simple-queue",
-        "z": "535c98d1d92579b6",
-        "name": "",
-        "firstMessageBypass": true,
-        "bypassInterval": "0",
-        "x": 850,
-        "y": 320,
-        "wires": [
-            [
-                "88f82f16d0ecc697",
-                "c7424ac5390d672f"
-            ]
-        ]
-    },
-    {
-        "id": "318426830832aad5",
-        "type": "simple-queue",
-        "z": "535c98d1d92579b6",
-        "name": "",
-        "firstMessageBypass": true,
-        "bypassInterval": "0",
-        "x": 850,
-        "y": 560,
-        "wires": [
-            [
-                "efbc738612c5af68",
-                "e411b0ba582c91c2"
-            ]
-        ]
-    },
-    {
-        "id": "f772e0315cdeaa39",
-        "type": "simple-queue",
-        "z": "535c98d1d92579b6",
-        "name": "",
-        "firstMessageBypass": true,
-        "bypassInterval": "0",
-        "x": 850,
-        "y": 800,
-        "wires": [
-            [
-                "78188ae45f430dd6",
-                "cc525d2002136a4c"
-            ]
-        ]
-    },
-    {
-        "id": "d361893bd7868273",
-        "type": "catch",
-        "z": "535c98d1d92579b6",
-        "g": "54fbd89aeb283eab",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "d50a3b33f5ac5fbe"
-            ]
-        ]
-    },
-    {
-        "id": "d50a3b33f5ac5fbe",
-        "type": "template",
-        "z": "535c98d1d92579b6",
-        "g": "54fbd89aeb283eab",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "3a705fecfc60ec68"
-            ]
-        ]
-    },
-    {
-        "id": "dac0d4dda81abc95",
-        "type": "link out",
-        "z": "535c98d1d92579b6",
-        "g": "54fbd89aeb283eab",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 475,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "3a705fecfc60ec68",
-        "type": "template",
-        "z": "535c98d1d92579b6",
-        "g": "54fbd89aeb283eab",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "dac0d4dda81abc95"
-            ]
-        ]
-    },
-    {
-        "id": "26762f8cca83bccc",
-        "type": "comment",
-        "z": "1dfb7e055134adc8",
-        "name": "A sensor that counts how many notifications sensors is turned on",
-        "info": "",
-        "x": 250,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "ae54d9f76e9004e0",
-        "type": "server-state-changed",
-        "z": "1dfb7e055134adc8",
-        "name": "a notification level sensor state change",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [],
-            "substring": [],
-            "regex": [
-                "binary_sensor.notification_level_"
-            ]
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": false,
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [],
-        "x": 170,
-        "y": 160,
-        "wires": [
-            [
-                "5dd6f309f6f3b011"
-            ]
-        ]
-    },
-    {
-        "id": "5dd6f309f6f3b011",
-        "type": "ha-get-entities",
-        "z": "1dfb7e055134adc8",
-        "name": "find binary_sensor.notification_level_ with state on",
-        "server": "4ba92433.2478cc",
-        "version": 1,
-        "rules": [
-            {
-                "property": "entity_id",
-                "logic": "starts_with",
-                "value": "binary_sensor.notification_level_",
-                "valueType": "str"
-            },
-            {
-                "property": "state",
-                "logic": "is",
-                "value": "on",
-                "valueType": "str"
-            }
-        ],
-        "outputType": "count",
-        "outputEmptyResults": false,
-        "outputLocationType": "msg",
-        "outputLocation": "payload",
-        "outputResultsCount": 1,
-        "x": 530,
-        "y": 160,
-        "wires": [
-            [
-                "0ff060b82e9de426"
-            ]
-        ]
-    },
-    {
-        "id": "0ff060b82e9de426",
-        "type": "ha-sensor",
-        "z": "1dfb7e055134adc8",
-        "name": "notification_on_counter",
-        "entityConfig": "df0e222b4bf2971f",
-        "version": 0,
-        "state": "payload",
-        "stateType": "msg",
-        "attributes": [],
-        "inputOverride": "allow",
-        "outputProperties": [],
-        "x": 850,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "230055356a2e27e3",
-        "type": "catch",
-        "z": "1dfb7e055134adc8",
-        "g": "28814c2324702a49",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "c6c55fc30c7db0f1"
-            ]
-        ]
-    },
-    {
-        "id": "c6c55fc30c7db0f1",
-        "type": "template",
-        "z": "1dfb7e055134adc8",
-        "g": "28814c2324702a49",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "d9db1905747d0301"
-            ]
-        ]
-    },
-    {
-        "id": "c84220140a8c71a3",
-        "type": "link out",
-        "z": "1dfb7e055134adc8",
-        "g": "28814c2324702a49",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 475,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "d9db1905747d0301",
-        "type": "template",
-        "z": "1dfb7e055134adc8",
-        "g": "28814c2324702a49",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "c84220140a8c71a3"
             ]
         ]
     },
@@ -28879,7 +26905,7 @@
         "name": "turn off the backyard lights triggerd at 06:30 and wait until it is light outside if it isn't allready",
         "info": "",
         "x": 370,
-        "y": 2300,
+        "y": 2080,
         "wires": []
     },
     {
@@ -28918,7 +26944,7 @@
         "entityLocation": "data",
         "entityLocationType": "none",
         "x": 350,
-        "y": 2340,
+        "y": 2120,
         "wires": [
             [
                 "ff98fd154ff308d4"
@@ -28944,7 +26970,7 @@
         "payload": "on",
         "payloadType": "str",
         "x": 150,
-        "y": 2340,
+        "y": 2120,
         "wires": [
             [
                 "53359b9775a11894"
@@ -28978,7 +27004,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 580,
-        "y": 2340,
+        "y": 2120,
         "wires": [
             []
         ]
@@ -28991,7 +27017,7 @@
         "name": "turn on the barn light when backyard motion sensor is on and it is dark and turn the barn light back off when motion sensor is clear",
         "info": "",
         "x": 490,
-        "y": 2440,
+        "y": 2220,
         "wires": []
     },
     {
@@ -29032,7 +27058,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 550,
-        "y": 2480,
+        "y": 2260,
         "wires": [
             [
                 "7a46fd82aea23e0b"
@@ -29059,7 +27085,7 @@
         "repair": false,
         "outputs": 1,
         "x": 570,
-        "y": 2540,
+        "y": 2320,
         "wires": [
             [
                 "a2ab0b36bff28352"
@@ -29085,7 +27111,7 @@
         "to": "",
         "reg": false,
         "x": 930,
-        "y": 2540,
+        "y": 2320,
         "wires": [
             []
         ]
@@ -29142,7 +27168,7 @@
             }
         ],
         "x": 160,
-        "y": 2480,
+        "y": 2260,
         "wires": [
             [
                 "38c78008d22484a0"
@@ -29179,7 +27205,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 890,
-        "y": 2480,
+        "y": 2260,
         "wires": [
             []
         ]
@@ -29216,7 +27242,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 720,
-        "y": 2480,
+        "y": 2260,
         "wires": [
             [
                 "a72140918ec09ace"
@@ -29250,7 +27276,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 750,
-        "y": 2540,
+        "y": 2320,
         "wires": [
             [
                 "475a7054bc21bea5"
@@ -29265,7 +27291,7 @@
         "name": "turn on backyard lights when backdoor gets opened or closed or a person is detected on security camera",
         "info": "",
         "x": 410,
-        "y": 2640,
+        "y": 2420,
         "wires": []
     },
     {
@@ -29282,7 +27308,7 @@
         "finalize": "",
         "libs": [],
         "x": 1100,
-        "y": 2680,
+        "y": 2460,
         "wires": [
             [
                 "a3ae06cea3533c9e"
@@ -29303,7 +27329,7 @@
         "addname": "",
         "property": "payload",
         "x": 1930,
-        "y": 2680,
+        "y": 2460,
         "wires": [
             [
                 "299cb5105b54df95"
@@ -29331,7 +27357,7 @@
         "to": "",
         "reg": false,
         "x": 1780,
-        "y": 2680,
+        "y": 2460,
         "wires": [
             [
                 "21b6b0650f225c58"
@@ -29362,7 +27388,7 @@
         "repair": false,
         "outputs": 2,
         "x": 2050,
-        "y": 2680,
+        "y": 2460,
         "wires": [
             [
                 "fd7b8cd952413c94"
@@ -29391,7 +27417,7 @@
         "repair": false,
         "outputs": 1,
         "x": 540,
-        "y": 2680,
+        "y": 2460,
         "wires": [
             [
                 "6683611e217c5793"
@@ -29419,7 +27445,7 @@
         "to": "",
         "reg": false,
         "x": 1800,
-        "y": 2740,
+        "y": 2520,
         "wires": [
             []
         ]
@@ -29445,7 +27471,7 @@
         "to": "",
         "reg": false,
         "x": 1540,
-        "y": 2740,
+        "y": 2520,
         "wires": [
             []
         ]
@@ -29477,7 +27503,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 1310,
-        "y": 2680,
+        "y": 2460,
         "wires": [
             [
                 "389934c4dc2f2efc",
@@ -29512,7 +27538,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 2220,
-        "y": 2680,
+        "y": 2460,
         "wires": [
             []
         ]
@@ -29544,7 +27570,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 2220,
-        "y": 2740,
+        "y": 2520,
         "wires": [
             []
         ]
@@ -29587,7 +27613,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 720,
-        "y": 2680,
+        "y": 2460,
         "wires": [
             [
                 "95707c8d48358de7",
@@ -29619,7 +27645,7 @@
         "outputLocation": "payload",
         "outputResultsCount": 1,
         "x": 900,
-        "y": 2740,
+        "y": 2520,
         "wires": [
             [
                 "a727e094b621802b"
@@ -29649,7 +27675,7 @@
         "outputLocation": "payload",
         "outputResultsCount": 1,
         "x": 900,
-        "y": 2680,
+        "y": 2460,
         "wires": [
             [
                 "a727e094b621802b"
@@ -29667,7 +27693,7 @@
         "payloadval": "0",
         "name": "",
         "x": 1520,
-        "y": 2680,
+        "y": 2460,
         "wires": [
             [
                 "ea107d7400acc08e",
@@ -29714,7 +27740,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 290,
-        "y": 2680,
+        "y": 2460,
         "wires": [
             [
                 "156ea82d6417f2cb"
@@ -29733,7 +27759,7 @@
             "598c87450fe46556"
         ],
         "x": 95,
-        "y": 2680,
+        "y": 2460,
         "wires": [
             [
                 "a2584957f2e04865"
@@ -29748,7 +27774,7 @@
         "name": "toggle backyard light trigger by shellyi3 button push from living room",
         "info": "",
         "x": 300,
-        "y": 2840,
+        "y": 2620,
         "wires": []
     },
     {
@@ -29761,7 +27787,7 @@
             "b55a1b1c2ee46b70"
         ],
         "x": 305,
-        "y": 2900,
+        "y": 2680,
         "wires": [
             [
                 "e1d97f0452ca6682"
@@ -29795,7 +27821,7 @@
         "domain": "light",
         "service": "toggle",
         "x": 460,
-        "y": 2900,
+        "y": 2680,
         "wires": [
             []
         ]
@@ -29810,7 +27836,7 @@
             "257a3fc6c1e0caff"
         ],
         "x": 305,
-        "y": 3060,
+        "y": 2840,
         "wires": [
             [
                 "9e6bf64138ee43fa"
@@ -29844,7 +27870,7 @@
         "domain": "light",
         "service": "toggle",
         "x": 530,
-        "y": 3060,
+        "y": 2840,
         "wires": [
             []
         ]
@@ -29857,7 +27883,7 @@
         "name": "toggle light pendant lamp barndoor in the backyard by shellyi3 button push from living room",
         "info": "",
         "x": 370,
-        "y": 3000,
+        "y": 2780,
         "wires": []
     },
     {
@@ -29887,7 +27913,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 190,
-        "y": 3200,
+        "y": 2980,
         "wires": [
             []
         ]
@@ -29900,7 +27926,7 @@
         "name": "turn off all backyard lights when daylight is on",
         "info": "",
         "x": 230,
-        "y": 3160,
+        "y": 2940,
         "wires": []
     },
     {
@@ -29913,7 +27939,7 @@
             "31fda56ec62032b8"
         ],
         "x": 85,
-        "y": 3200,
+        "y": 2980,
         "wires": [
             [
                 "9c3ec377bfc2931f"
@@ -29953,7 +27979,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 850,
-        "y": 3340,
+        "y": 3120,
         "wires": [
             [
                 "e637b15d3d21c45d"
@@ -29994,7 +28020,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 840,
-        "y": 3400,
+        "y": 3180,
         "wires": [
             [
                 "e637b15d3d21c45d"
@@ -30029,7 +28055,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 1390,
-        "y": 3340,
+        "y": 3120,
         "wires": [
             []
         ]
@@ -30059,7 +28085,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 440,
-        "y": 3340,
+        "y": 3120,
         "wires": [
             [
                 "719f3dd468939e86"
@@ -30075,7 +28101,7 @@
         "name": "Turn backyard string light on when it is dark outside, sleepmode is off and a person or guest is home",
         "info": "",
         "x": 400,
-        "y": 3300,
+        "y": 3080,
         "wires": []
     },
     {
@@ -30088,7 +28114,7 @@
             "4a93ba39b988072a"
         ],
         "x": 85,
-        "y": 3340,
+        "y": 3120,
         "wires": [
             [
                 "7e55f50c12d97759"
@@ -30102,7 +28128,7 @@
         "g": "aa5158e947d2ab5c",
         "name": "",
         "x": 190,
-        "y": 3400,
+        "y": 3180,
         "wires": [
             [
                 "7e55f50c12d97759"
@@ -30151,7 +28177,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 630,
-        "y": 3340,
+        "y": 3120,
         "wires": [
             [
                 "d74218a87e76e862",
@@ -30168,7 +28194,7 @@
         "name": "turn off lights when sleepmode turns on or the house is unoccupied",
         "info": "",
         "x": 300,
-        "y": 3520,
+        "y": 3300,
         "wires": []
     },
     {
@@ -30178,7 +28204,7 @@
         "g": "8a8d75e6f669a78a",
         "name": "",
         "x": 190,
-        "y": 3560,
+        "y": 3340,
         "wires": [
             [
                 "44ab129f97435dd9"
@@ -30212,7 +28238,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 410,
-        "y": 3560,
+        "y": 3340,
         "wires": [
             []
         ]
@@ -30227,7 +28253,7 @@
             "e6b9ff42fde3ea4e"
         ],
         "x": 305,
-        "y": 3600,
+        "y": 3380,
         "wires": [
             [
                 "44ab129f97435dd9"
@@ -30272,282 +28298,13 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1090,
-        "y": 3340,
+        "y": 3120,
         "wires": [
             [
                 "f38fe22a1698047b"
             ],
             []
         ]
-    },
-    {
-        "id": "363bfc79557494a9",
-        "type": "template",
-        "z": "be92da6a5a4a4550",
-        "g": "b176910a3e711408",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Let op, morgen wordt de {{payload}} container opgehaald.",
-        "output": "str",
-        "x": 840,
-        "y": 1620,
-        "wires": [
-            [
-                "473671da38ba46a2"
-            ]
-        ]
-    },
-    {
-        "id": "1c2b41acdb40d6e7",
-        "type": "api-current-state",
-        "z": "be92da6a5a4a4550",
-        "g": "b176910a3e711408",
-        "name": "state garbage tomorrow",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "Geen",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "sensor.afval_morgen",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 630,
-        "y": 1620,
-        "wires": [
-            [
-                "363bfc79557494a9"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "be989daad7f22a86",
-        "type": "api-current-state",
-        "z": "be92da6a5a4a4550",
-        "g": "b176910a3e711408",
-        "name": "state garbage today",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "Geen",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "sensor.afval_vandaag",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 620,
-        "y": 1680,
-        "wires": [
-            [
-                "363bfc79557494a9"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "3ed0331b7637d838",
-        "type": "time-range-switch",
-        "z": "be92da6a5a4a4550",
-        "g": "b176910a3e711408",
-        "name": "",
-        "lat": "52.0434",
-        "lon": "5.6773",
-        "startTime": "05:00",
-        "endTime": "00:00",
-        "startOffset": 0,
-        "endOffset": 0,
-        "x": 410,
-        "y": 1620,
-        "wires": [
-            [
-                "1c2b41acdb40d6e7"
-            ],
-            [
-                "be989daad7f22a86"
-            ]
-        ]
-    },
-    {
-        "id": "cbd34de63e64797f",
-        "type": "template",
-        "z": "be92da6a5a4a4550",
-        "g": "e1e18e258b05bc2b",
-        "name": "icon",
-        "field": "notify.icon",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "",
-        "output": "str",
-        "x": 1050,
-        "y": 1620,
-        "wires": [
-            [
-                "84662e512af252f4"
-            ]
-        ]
-    },
-    {
-        "id": "56d9d2ebcfbe9269",
-        "type": "template",
-        "z": "be92da6a5a4a4550",
-        "g": "e1e18e258b05bc2b",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Afval",
-        "output": "str",
-        "x": 1050,
-        "y": 1580,
-        "wires": [
-            [
-                "84662e512af252f4"
-            ]
-        ]
-    },
-    {
-        "id": "e979b5648c1846fb",
-        "type": "link out",
-        "z": "be92da6a5a4a4550",
-        "g": "e1e18e258b05bc2b",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716",
-            "c4660dc11fb0e5b8",
-            "9286a72a2355f5ca",
-            "39fe1680119f6b36"
-        ],
-        "x": 1305,
-        "y": 1600,
-        "wires": []
-    },
-    {
-        "id": "84662e512af252f4",
-        "type": "join",
-        "z": "be92da6a5a4a4550",
-        "g": "e1e18e258b05bc2b",
-        "name": "",
-        "mode": "custom",
-        "build": "merged",
-        "property": "notify",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "4",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 1210,
-        "y": 1600,
-        "wires": [
-            [
-                "e979b5648c1846fb"
-            ]
-        ]
-    },
-    {
-        "id": "e094355f82570254",
-        "type": "template",
-        "z": "be92da6a5a4a4550",
-        "g": "e1e18e258b05bc2b",
-        "name": "notification id",
-        "field": "notify.notification_id",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "",
-        "output": "str",
-        "x": 1070,
-        "y": 1660,
-        "wires": [
-            [
-                "84662e512af252f4"
-            ]
-        ]
-    },
-    {
-        "id": "517ccc4fadd46551",
-        "type": "link in",
-        "z": "be92da6a5a4a4550",
-        "g": "b176910a3e711408",
-        "name": "send garbage collection container notification",
-        "links": [
-            "e6b9ff42fde3ea4e"
-        ],
-        "x": 305,
-        "y": 1620,
-        "wires": [
-            [
-                "3ed0331b7637d838"
-            ]
-        ]
-    },
-    {
-        "id": "2707e8f7b4f2a241",
-        "type": "comment",
-        "z": "be92da6a5a4a4550",
-        "g": "b176910a3e711408",
-        "name": "send a garbage collection notification when collection is tomorrow trigger by sleepmode turned on",
-        "info": "",
-        "x": 370,
-        "y": 1580,
-        "wires": []
     },
     {
         "id": "fe1e8a4a99247a70",
@@ -30568,7 +28325,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 840,
-        "y": 3740,
+        "y": 3520,
         "wires": [
             [
                 "3ddb5c48d6d277a9"
@@ -30602,7 +28359,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 670,
-        "y": 3740,
+        "y": 3520,
         "wires": [
             [
                 "fe1e8a4a99247a70"
@@ -30636,7 +28393,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 1010,
-        "y": 3740,
+        "y": 3520,
         "wires": [
             []
         ]
@@ -30678,7 +28435,7 @@
         "outputLocation": "payload",
         "outputResultsCount": 1,
         "x": 460,
-        "y": 3740,
+        "y": 3520,
         "wires": [
             [
                 "d0b07db3a4e9f4be"
@@ -30695,7 +28452,7 @@
             "2d8347e89fc50722"
         ],
         "x": 305,
-        "y": 3740,
+        "y": 3520,
         "wires": [
             [
                 "0eaf928a0ea7b2ab"
@@ -30710,7 +28467,7 @@
         "name": "turn on a random light that was off and turn it randomly off",
         "info": "",
         "x": 270,
-        "y": 3700,
+        "y": 3480,
         "wires": []
     },
     {
@@ -30743,7 +28500,7 @@
         "outputLocation": "light_state",
         "outputResultsCount": 1,
         "x": 570,
-        "y": 3880,
+        "y": 3660,
         "wires": [
             [
                 "060185de8946e677"
@@ -30771,7 +28528,7 @@
         "to": "",
         "reg": false,
         "x": 750,
-        "y": 3880,
+        "y": 3660,
         "wires": [
             [
                 "bada428533299589"
@@ -30792,7 +28549,7 @@
         "addname": "",
         "property": "light_state",
         "x": 910,
-        "y": 3880,
+        "y": 3660,
         "wires": [
             [
                 "0dfe42d012812eb8"
@@ -30826,7 +28583,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 1050,
-        "y": 3880,
+        "y": 3660,
         "wires": [
             []
         ]
@@ -30858,7 +28615,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 910,
-        "y": 4040,
+        "y": 3820,
         "wires": [
             []
         ]
@@ -30884,7 +28641,7 @@
         "to": "",
         "reg": false,
         "x": 440,
-        "y": 3980,
+        "y": 3760,
         "wires": [
             [
                 "27b618c31c7c845e"
@@ -30905,7 +28662,7 @@
         "addname": "",
         "property": "light_state",
         "x": 610,
-        "y": 3980,
+        "y": 3760,
         "wires": [
             [
                 "b5ebe7d82d5b5bfd"
@@ -30936,7 +28693,7 @@
         "repair": false,
         "outputs": 2,
         "x": 750,
-        "y": 3980,
+        "y": 3760,
         "wires": [
             [
                 "38030c8576a52ba4"
@@ -30973,7 +28730,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 910,
-        "y": 3980,
+        "y": 3760,
         "wires": [
             []
         ]
@@ -30989,7 +28746,7 @@
             "f1dc99664448d504"
         ],
         "x": 305,
-        "y": 3880,
+        "y": 3660,
         "wires": [
             [
                 "1f187dbf3227f8dc"
@@ -31008,7 +28765,7 @@
             "5a1c4daf23c47d8e"
         ],
         "x": 305,
-        "y": 3980,
+        "y": 3760,
         "wires": [
             [
                 "5ba1981ebee7928a"
@@ -31023,7 +28780,7 @@
         "name": "store current light state in context then turn on all lights in alarm state",
         "info": "",
         "x": 300,
-        "y": 3840,
+        "y": 3620,
         "wires": []
     },
     {
@@ -31034,7 +28791,7 @@
         "name": "restore light state based on values in the context store",
         "info": "",
         "x": 260,
-        "y": 3940,
+        "y": 3720,
         "wires": []
     },
     {
@@ -31214,7 +28971,7 @@
         "name": "turn on all backyard lights to full brightness when motion is detected or a person by the camera restore light when sensor cleared",
         "info": "",
         "x": 490,
-        "y": 4140,
+        "y": 3920,
         "wires": []
     },
     {
@@ -31227,7 +28984,7 @@
             "4a70786d60fc374f"
         ],
         "x": 85,
-        "y": 4180,
+        "y": 3960,
         "wires": [
             [
                 "2e48d523ceaf75e5"
@@ -31259,7 +29016,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 210,
-        "y": 4180,
+        "y": 3960,
         "wires": [
             [
                 "f1dc99664448d504"
@@ -31279,7 +29036,7 @@
             "f7e4e6d5930885d8"
         ],
         "x": 335,
-        "y": 4180,
+        "y": 3960,
         "wires": []
     },
     {
@@ -31307,7 +29064,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 210,
-        "y": 4240,
+        "y": 4020,
         "wires": [
             [
                 "71377af681724964"
@@ -31325,7 +29082,7 @@
             "37ff504281a3cadb"
         ],
         "x": 85,
-        "y": 4240,
+        "y": 4020,
         "wires": [
             [
                 "04b2c0c1ab7a1476"
@@ -31343,7 +29100,7 @@
             "3ea16ee8a25e0caf"
         ],
         "x": 335,
-        "y": 4240,
+        "y": 4020,
         "wires": []
     },
     {
@@ -31371,7 +29128,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 370,
-        "y": 2480,
+        "y": 2260,
         "wires": [
             [
                 "0854f23ba4b218d4"
@@ -31417,7 +29174,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 410,
-        "y": 3880,
+        "y": 3660,
         "wires": [
             [
                 "9a7408e72f384d69"
@@ -31588,101 +29345,51 @@
         "wires": []
     },
     {
-        "id": "fc015c3acdd57ee4",
-        "type": "template",
+        "id": "15d1a1deb0bec731",
+        "type": "api-call-service",
         "z": "be92da6a5a4a4550",
-        "g": "f8b8b4df942d278c",
-        "name": "secondary information",
-        "field": "secondary_information",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Morgen {{{data.attributes.date}}} wordt de {{garbage_type}}container geleegd",
-        "output": "str",
-        "x": 620,
-        "y": 2100,
+        "g": "7392a1a622e27f68",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "todo.get_items",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "todo.schoonmaak"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "todo_results",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "results"
+            }
+        ],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "todo",
+        "service": "get_items",
+        "x": 780,
+        "y": 1600,
         "wires": [
             [
-                "2854a37c523e8a87"
+                "da5929c89432e558"
             ]
         ]
     },
     {
-        "id": "6d32a564bcd340a4",
-        "type": "template",
-        "z": "be92da6a5a4a4550",
-        "g": "f8b8b4df942d278c",
-        "name": "secondary information",
-        "field": "secondary_information",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Vandaag wordt de {{garbage_type}}container geleegd",
-        "output": "str",
-        "x": 620,
-        "y": 2180,
-        "wires": [
-            [
-                "2854a37c523e8a87"
-            ]
-        ]
-    },
-    {
-        "id": "183a5991d27d2b04",
-        "type": "comment",
-        "z": "be92da6a5a4a4550",
-        "g": "f8b8b4df942d278c",
-        "name": "send a notification for garbage collection",
-        "info": "",
-        "x": 200,
-        "y": 2060,
-        "wires": []
-    },
-    {
-        "id": "4f602b0ecd3e333e",
-        "type": "inject",
-        "z": "be92da6a5a4a4550",
-        "g": "f8b8b4df942d278c",
-        "name": "10:00",
-        "props": [],
-        "repeat": "",
-        "crontab": "00 10 * * *",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 120,
-        "y": 2100,
-        "wires": [
-            [
-                "25fa43d35440a3f7"
-            ]
-        ]
-    },
-    {
-        "id": "63dd27acb5293428",
-        "type": "inject",
-        "z": "be92da6a5a4a4550",
-        "g": "f8b8b4df942d278c",
-        "name": "03:00",
-        "props": [],
-        "repeat": "",
-        "crontab": "00 03 * * *",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 120,
-        "y": 2180,
-        "wires": [
-            [
-                "faf897ee811f8cf2"
-            ]
-        ]
-    },
-    {
-        "id": "25fa43d35440a3f7",
+        "id": "2339cb24fb40851a",
         "type": "api-current-state",
         "z": "be92da6a5a4a4550",
-        "g": "f8b8b4df942d278c",
+        "g": "7392a1a622e27f68",
         "name": "garbage tomorrow",
         "server": "4ba92433.2478cc",
         "version": 3,
@@ -31701,7 +29408,7 @@
                 "valueType": "entityState"
             },
             {
-                "property": "data",
+                "property": "garbage_data",
                 "propertyType": "msg",
                 "value": "",
                 "valueType": "entity"
@@ -31715,20 +29422,99 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 400,
-        "y": 2100,
+        "x": 570,
+        "y": 1600,
         "wires": [
             [
-                "fc015c3acdd57ee4"
+                "15d1a1deb0bec731"
             ],
             []
         ]
     },
     {
-        "id": "faf897ee811f8cf2",
+        "id": "da5929c89432e558",
+        "type": "split",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "todo_results[\"todo.schoonmaak\"].items",
+        "x": 930,
+        "y": 1600,
+        "wires": [
+            [
+                "2bc670f809f5f6df"
+            ]
+        ]
+    },
+    {
+        "id": "efc8e388668c144b",
+        "type": "function",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "filter",
+        "func": "// normalize function: lowercase + remove spaces/dashes\nfunction normalize(str) {\n    return str.toLowerCase().replace(/[-\\s]/g, \"\");\n}\n\nconst todo_summary = normalize(msg.todo_results[\"todo.schoonmaak\"].items.summary);\nconst garbagecontainer = normalize(msg.garbage_type) + \"container\";\n\nconst todo_description = msg.todo_results[\"todo.schoonmaak\"].items.description;\nconst garbage_pickupdate = msg.garbage_data.attributes.date;\n\nif (todo_summary.includes(garbagecontainer) && todo_description.includes(garbage_pickupdate)) {\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 1600,
+        "wires": [
+            [
+                "3040ab0c0c1ed2dd"
+            ]
+        ]
+    },
+    {
+        "id": "2bc670f809f5f6df",
+        "type": "switch",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "",
+        "property": "msg.todo_results[\"todo.schoonmaak\"].items.status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "needs_action",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1050,
+        "y": 1600,
+        "wires": [
+            [
+                "efc8e388668c144b"
+            ]
+        ]
+    },
+    {
+        "id": "164b09c02dab9081",
+        "type": "comment",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "send garbage notification if todo task needs action and contains the garbage type and date",
+        "info": "",
+        "x": 350,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "e4dc18f7c9455c0d",
         "type": "api-current-state",
         "z": "be92da6a5a4a4550",
-        "g": "f8b8b4df942d278c",
+        "g": "7392a1a622e27f68",
         "name": "garbage today",
         "server": "4ba92433.2478cc",
         "version": 3,
@@ -31747,7 +29533,7 @@
                 "valueType": "entityState"
             },
             {
-                "property": "data",
+                "property": "garbage_data",
                 "propertyType": "msg",
                 "value": "",
                 "valueType": "entity"
@@ -31761,43 +29547,87 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 390,
-        "y": 2180,
+        "x": 580,
+        "y": 1660,
         "wires": [
             [
-                "6d32a564bcd340a4"
+                "15d1a1deb0bec731"
             ],
             []
         ]
     },
     {
-        "id": "2854a37c523e8a87",
+        "id": "6fc294104a2dbb11",
+        "type": "time-range-switch",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "",
+        "lat": "52.0434",
+        "lon": "5.6773",
+        "startTime": "05:00",
+        "endTime": "00:00",
+        "startOffset": 0,
+        "endOffset": 0,
+        "x": 370,
+        "y": 1600,
+        "wires": [
+            [
+                "2339cb24fb40851a"
+            ],
+            [
+                "e4dc18f7c9455c0d"
+            ]
+        ]
+    },
+    {
+        "id": "3040ab0c0c1ed2dd",
+        "type": "function",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "message",
+        "func": "msg.notify = {}\n\nif (msg.payload === \"GFT\" || msg.payload === \"PMD\") {\n    msg.notify.message = \"Let op, de \" + msg.payload + \"-container moet aan de weg worden gezet\"\n}\nelse {\n    msg.notify.message = \"Let op, de \" + msg.payload.toLower() + \"container moet aan de weg worden gezet\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 1600,
+        "wires": [
+            [
+                "d8573e32a9ec888f"
+            ]
+        ]
+    },
+    {
+        "id": "d8573e32a9ec888f",
         "type": "link out",
         "z": "be92da6a5a4a4550",
-        "g": "f8b8b4df942d278c",
-        "name": "garbage collection",
+        "g": "7392a1a622e27f68",
+        "name": "check garbage todo task needs_action, send notification",
         "mode": "link",
         "links": [
             "76dcb305ba39e083"
         ],
-        "x": 775,
-        "y": 2140,
+        "x": 1395,
+        "y": 1600,
         "wires": []
     },
     {
-        "id": "b598f692239c91be",
+        "id": "849379e6f7939a8c",
         "type": "link in",
         "z": "be92da6a5a4a4550",
-        "g": "f8b8b4df942d278c",
-        "name": "garbage collection for tomorrow",
+        "g": "7392a1a622e27f68",
+        "name": "check garbage todo task needs_action, send notification",
         "links": [
             "e6b9ff42fde3ea4e"
         ],
         "x": 265,
-        "y": 2140,
+        "y": 1600,
         "wires": [
             [
-                "25fa43d35440a3f7"
+                "6fc294104a2dbb11"
             ]
         ]
     },
@@ -50351,7 +48181,8 @@
             "fd1316bc77e6a6dd",
             "fef971c806c0156d",
             "df0d2da9dc486e6f",
-            "b598f692239c91be"
+            "b598f692239c91be",
+            "849379e6f7939a8c"
         ],
         "x": 265,
         "y": 600,
@@ -55558,25 +53389,6 @@
         "wires": []
     },
     {
-        "id": "46d50645e39da463",
-        "type": "template",
-        "z": "edbbe41e31b072c6",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "{{secondary_information}}.\\nStaat de container al aan de weg?",
-        "output": "str",
-        "x": 780,
-        "y": 2040,
-        "wires": [
-            [
-                "2bfb3a4e435e8246"
-            ]
-        ]
-    },
-    {
         "id": "2bfb3a4e435e8246",
         "type": "function",
         "z": "edbbe41e31b072c6",
@@ -55616,13 +53428,13 @@
         "z": "edbbe41e31b072c6",
         "name": "garbage collection",
         "links": [
-            "2854a37c523e8a87"
+            "d8573e32a9ec888f"
         ],
         "x": 265,
         "y": 2040,
         "wires": [
             [
-                "46d50645e39da463"
+                "2bfb3a4e435e8246"
             ]
         ]
     },
@@ -57937,6 +55749,375 @@
             [
                 "f095901791d95a7f"
             ]
+        ]
+    },
+    {
+        "id": "cb8f1bab4636ad5e",
+        "type": "server-state-changed",
+        "z": "b8d98c82eb2488b9",
+        "g": "4e1beacde852f70d",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "sensor.afval_morgen"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "geen",
+        "ifStateType": "str",
+        "ifStateOperator": "is_not",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 180,
+        "y": 680,
+        "wires": [
+            [
+                "6f4bac3366b09c0a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "50299601428d86dd",
+        "type": "api-call-service",
+        "z": "b8d98c82eb2488b9",
+        "g": "4e1beacde852f70d",
+        "name": "add housekeeping todo item",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "todo.add_item",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "todo.schoonmaak"
+        ],
+        "labelId": [],
+        "data": "{\"item\":\"{{todo.item}}\",\"due_datetime\":\"{{todo.due_datetime}}\",\"description\":\"{{{todo.description}}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "todo",
+        "service": "add_item",
+        "x": 620,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6f4bac3366b09c0a",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "4e1beacde852f70d",
+        "name": "todo object",
+        "func": "msg.todo = {}\n\nif (msg.payload === \"GFT\" || msg.payload === \"PMD\") {\n    msg.todo.item = \"De \" + msg.payload + \"-container aan de weg zetten\"\n}\nelse {\n    msg.todo.item = \"De \" + msg.payload.toLower() + \"container aan de weg zetten\"\n}\n\n\nmsg.todo.due_datetime = msg.data.new_state.attributes.date + \" 07:30:00\"\n\nlet dateObj = new Date(msg.data.new_state.attributes.date);\n\n// Array of Dutch weekday names, starting with Sunday\nlet daysDutch = [\"zondag\", \"maandag\", \"dinsdag\", \"woensdag\", \"donderdag\", \"vrijdag\", \"zaterdag\"];\n\n// Get the day of week (0 = zondag)\nlet dayName = daysDutch[dateObj.getDay()];\n\nmsg.todo.description = \"Wordt a.s. \" + dayName + \" geleegd (\" + msg.data.new_state.attributes.date + \")\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 680,
+        "wires": [
+            [
+                "50299601428d86dd"
+            ]
+        ]
+    },
+    {
+        "id": "c52032a311ae161f",
+        "type": "comment",
+        "z": "b8d98c82eb2488b9",
+        "g": "4e1beacde852f70d",
+        "name": "create todo item when garbage collection is tomorrow",
+        "info": "",
+        "x": 240,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "0dfbfe294e06ebbf",
+        "type": "api-call-service",
+        "z": "b8d98c82eb2488b9",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "todo.get_items",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "todo.schoonmaak"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "todo_results",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "results"
+            }
+        ],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "todo",
+        "service": "get_items",
+        "x": 580,
+        "y": 840,
+        "wires": [
+            [
+                "f230f224c3c1d1ca"
+            ]
+        ]
+    },
+    {
+        "id": "83e361a65a77e0bd",
+        "type": "api-current-state",
+        "z": "b8d98c82eb2488b9",
+        "name": "garbage tomorrow",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "Geen",
+        "halt_if_type": "str",
+        "halt_if_compare": "is_not",
+        "entity_id": "sensor.afval_morgen",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "garbage_type",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "garbage_data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 370,
+        "y": 840,
+        "wires": [
+            [
+                "0dfbfe294e06ebbf"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f230f224c3c1d1ca",
+        "type": "split",
+        "z": "b8d98c82eb2488b9",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "todo_results[\"todo.schoonmaak\"].items",
+        "x": 730,
+        "y": 840,
+        "wires": [
+            [
+                "cc6b29b70ba96096"
+            ]
+        ]
+    },
+    {
+        "id": "cee793f87b40ba7e",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "name": "filter",
+        "func": "// normalize function: lowercase + remove spaces/dashes\nfunction normalize(str) {\n    return str.toLowerCase().replace(/[-\\s]/g, \"\");\n}\n\nconst todo_summary = normalize(msg.todo_results[\"todo.schoonmaak\"].items.summary);\nconst garbagecontainer = normalize(msg.garbage_type) + \"container\";\n\nconst todo_description = msg.todo_results[\"todo.schoonmaak\"].items.description;\nconst garbage_pickupdate = msg.garbage_data.attributes.date;\n\nif (todo_summary.includes(garbagecontainer) && todo_description.includes(garbage_pickupdate)) {\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 840,
+        "wires": [
+            [
+                "9281d9303244406a"
+            ]
+        ]
+    },
+    {
+        "id": "cc6b29b70ba96096",
+        "type": "switch",
+        "z": "b8d98c82eb2488b9",
+        "name": "",
+        "property": "msg.todo_results[\"todo.schoonmaak\"].items.status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "needs_action",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 850,
+        "y": 840,
+        "wires": [
+            [
+                "cee793f87b40ba7e"
+            ]
+        ]
+    },
+    {
+        "id": "ec06df82a26c1e32",
+        "type": "comment",
+        "z": "b8d98c82eb2488b9",
+        "name": "send garbage notification if todo task needs action and contains the garbage type and date",
+        "info": "",
+        "x": 330,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "09cb71945b350a9b",
+        "type": "api-current-state",
+        "z": "b8d98c82eb2488b9",
+        "name": "garbage today",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "Geen",
+        "halt_if_type": "str",
+        "halt_if_compare": "is_not",
+        "entity_id": "sensor.afval_vandaag",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "garbage_type",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "garbage_data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 380,
+        "y": 900,
+        "wires": [
+            [
+                "0dfbfe294e06ebbf"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "483bd6b2b8e82f13",
+        "type": "time-range-switch",
+        "z": "b8d98c82eb2488b9",
+        "name": "",
+        "lat": "52.0434",
+        "lon": "5.6773",
+        "startTime": "05:00",
+        "endTime": "00:00",
+        "startOffset": 0,
+        "endOffset": 0,
+        "x": 170,
+        "y": 840,
+        "wires": [
+            [
+                "83e361a65a77e0bd"
+            ],
+            [
+                "09cb71945b350a9b"
+            ]
+        ]
+    },
+    {
+        "id": "9281d9303244406a",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "name": "message",
+        "func": "msg.notify = {}\n\nif (msg.payload === \"GFT\" || msg.payload === \"PMD\") {\n    msg.notify.message = \"Let op, de \" + msg.payload + \"-container moet aan de weg worden gezet\"\n}\nelse {\n    msg.notify.message = \"Let op, de \" + msg.payload.toLower() + \"container moet aan de weg worden gezet\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 840,
+        "wires": [
+            []
         ]
     }
 ]
