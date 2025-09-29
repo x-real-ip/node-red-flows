@@ -1,38 +1,8 @@
 [
     {
-        "id": "b1a9214c.4c71c",
-        "type": "tab",
-        "label": "notification_basement_window",
-        "disabled": false,
-        "info": ""
-    },
-    {
-        "id": "d5421f8d.f7208",
-        "type": "tab",
-        "label": "notification_open_windows_firstfloor_house_cooling_down",
-        "disabled": false,
-        "info": ""
-    },
-    {
         "id": "75537afd17de5117",
         "type": "tab",
         "label": "notification_picnic",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "a8d8484165225699",
-        "type": "tab",
-        "label": "notification_update_entity",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "7186425fdfc90c19",
-        "type": "tab",
-        "label": "notification_water_consumption",
         "disabled": false,
         "info": "",
         "env": []
@@ -341,7 +311,7 @@
     {
         "id": "edbbe41e31b072c6",
         "type": "tab",
-        "label": "_automation_global_notification-templates",
+        "label": "_automation_global_notification-messages",
         "disabled": false,
         "info": "",
         "env": []
@@ -491,48 +461,6 @@
         "icon": "font-awesome/fa-home"
     },
     {
-        "id": "6b44c062cbc05f0a",
-        "type": "group",
-        "z": "b1a9214c.4c71c",
-        "name": "notify",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "db7934b4b14446da",
-            "232a01493b9307b0",
-            "73e546f49b2e02e1",
-            "11d068d3ad86d2dd",
-            "97afb37521efba77",
-            "a22e2a028512634f"
-        ],
-        "x": 1734,
-        "y": 199,
-        "w": 412,
-        "h": 162
-    },
-    {
-        "id": "f236f0a913f70054",
-        "type": "group",
-        "z": "d5421f8d.f7208",
-        "name": "notify",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "0db5f8033b5c9adf",
-            "4b276bf7ef0c3217",
-            "ef18c5c2564a7e77",
-            "6858101eee61155a",
-            "eaec84df6f30a9ec",
-            "1414f6788bc8c787"
-        ],
-        "x": 1934,
-        "y": 79,
-        "w": 472,
-        "h": 162
-    },
-    {
         "id": "ef69ec82c772cad9",
         "type": "group",
         "z": "75537afd17de5117",
@@ -552,50 +480,6 @@
         "y": 419,
         "w": 402,
         "h": 162
-    },
-    {
-        "id": "537179d37e7389e5",
-        "type": "group",
-        "z": "a8d8484165225699",
-        "name": "notify",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "2e707984219ae3a9",
-            "e142bb411f990e05",
-            "58ce3486fc8107bd",
-            "deeacc0728909577",
-            "f55e9b8b5462e4d2",
-            "daef6aa88b93b329",
-            "e16a49a555dc3139"
-        ],
-        "x": 1194,
-        "y": 239,
-        "w": 452,
-        "h": 202
-    },
-    {
-        "id": "3bd669c9a971e4a2",
-        "type": "group",
-        "z": "7186425fdfc90c19",
-        "name": "notify",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "8ee8100ab8bdc7e6",
-            "90b19d7c300c5383",
-            "4369851a7e1e9308",
-            "80393a5cbd64c280",
-            "159c508f956eb430",
-            "76b2b2fcd5922030",
-            "44cfcac399640661"
-        ],
-        "x": 994,
-        "y": 139,
-        "w": 452,
-        "h": 202
     },
     {
         "id": "b268fa78a872617d",
@@ -664,54 +548,6 @@
         "h": 82
     },
     {
-        "id": "6fc99fe3fa43961b",
-        "type": "group",
-        "z": "b1a9214c.4c71c",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "aedbcf84c1295abd",
-            "e75e88b2739b898a",
-            "c026370f826e5d5f",
-            "c027d4c52c4a61b2"
-        ],
-        "x": 14,
-        "y": 39,
-        "w": 502,
-        "h": 82
-    },
-    {
-        "id": "65b23193509b810d",
-        "type": "group",
-        "z": "d5421f8d.f7208",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "5966ae391638c2e2",
-            "afca751308698d24",
-            "588232826fe1cb16",
-            "996b414e0e42417f"
-        ],
-        "x": 34,
-        "y": 39,
-        "w": 502,
-        "h": 82
-    },
-    {
         "id": "8b3123563ca26288",
         "type": "group",
         "z": "75537afd17de5117",
@@ -729,54 +565,6 @@
             "850de025f821d110",
             "a1d22443632b6c95",
             "34627360e59b2422"
-        ],
-        "x": 14,
-        "y": 39,
-        "w": 502,
-        "h": 82
-    },
-    {
-        "id": "0330186b9fdcf4ee",
-        "type": "group",
-        "z": "a8d8484165225699",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "925cbc802add6b04",
-            "d365bf9676fe5435",
-            "fcbba10709360bf0",
-            "5f99051ae7b91aed"
-        ],
-        "x": 14,
-        "y": 39,
-        "w": 502,
-        "h": 82
-    },
-    {
-        "id": "8a3e724b9367b490",
-        "type": "group",
-        "z": "7186425fdfc90c19",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "b8768bd6ae8b8f1b",
-            "fde4c3a371beff5a",
-            "388c6c30bcb85720",
-            "0870fa9736ccd6a3"
         ],
         "x": 14,
         "y": 39,
@@ -2616,7 +2404,7 @@
             "7b7b7e395f402314"
         ],
         "x": 8,
-        "y": 1453,
+        "y": 1573,
         "w": 1264,
         "h": 714
     },
@@ -5018,12 +4806,88 @@
             "cb8f1bab4636ad5e",
             "50299601428d86dd",
             "6f4bac3366b09c0a",
-            "c52032a311ae161f"
+            "c52032a311ae161f",
+            "18cafe95cc481dfa",
+            "74ce0b012c485742",
+            "e1d52ed6bc615e3d",
+            "1c24238d54f558c4",
+            "06f22bccb39ea01a",
+            "bc68a28bf78ff171",
+            "fd007fddb706be5d",
+            "319b204aaa793554",
+            "df61f4ea1beafc2d",
+            "f1744436bf4645f2",
+            "09eb9ceb514414f3",
+            "1c71ec8e21bc2634",
+            "91917476cba30405"
+        ],
+        "x": 34,
+        "y": 599,
+        "w": 2132,
+        "h": 182
+    },
+    {
+        "id": "7392a1a622e27f68",
+        "type": "group",
+        "z": "be92da6a5a4a4550",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "15d1a1deb0bec731",
+            "2339cb24fb40851a",
+            "da5929c89432e558",
+            "efc8e388668c144b",
+            "2bc670f809f5f6df",
+            "164b09c02dab9081",
+            "e4dc18f7c9455c0d",
+            "6fc294104a2dbb11",
+            "3040ab0c0c1ed2dd",
+            "d8573e32a9ec888f",
+            "849379e6f7939a8c"
         ],
         "x": 14,
-        "y": 599,
-        "w": 752,
-        "h": 122
+        "y": 1519,
+        "w": 1422,
+        "h": 182
+    },
+    {
+        "id": "21d0c97ba504e198",
+        "type": "group",
+        "z": "46d98b35c2eee05b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "0a48f09788c3714c",
+            "4a264f15d0823997",
+            "b4055debc6e2fa4d",
+            "3baa2d4c8ee18542",
+            "ce286ef726044118",
+            "4d4c4fa4b94f1c31",
+            "658d8eb978fbed2a",
+            "3b577ee02ce76fe5",
+            "4bd9dd44e2e5a984",
+            "1902f90d9938adc7",
+            "a0398e734d77cf7a",
+            "28a6d32460f75e3a"
+        ],
+        "x": 14,
+        "y": 519,
+        "w": 1292,
+        "h": 242
     },
     {
         "id": "efc093c90e8d9b40",
@@ -5273,7 +5137,7 @@
             "ba9284adcd1f5c35"
         ],
         "x": 34,
-        "y": 1479,
+        "y": 1599,
         "w": 1212,
         "h": 182
     },
@@ -5763,7 +5627,7 @@
             "fd1316bc77e6a6dd"
         ],
         "x": 34,
-        "y": 1679,
+        "y": 1799,
         "w": 532,
         "h": 162
     },
@@ -6306,7 +6170,7 @@
             "b30e73c80fcab9d3"
         ],
         "x": 34,
-        "y": 1859,
+        "y": 1979,
         "w": 972,
         "h": 282
     },
@@ -6722,9 +6586,9 @@
         "h": 122
     },
     {
-        "id": "7392a1a622e27f68",
+        "id": "797bec77d0256f03",
         "type": "group",
-        "z": "be92da6a5a4a4550",
+        "z": "a09ad053d19f1d06",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -6735,52 +6599,18 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "15d1a1deb0bec731",
-            "2339cb24fb40851a",
-            "da5929c89432e558",
-            "efc8e388668c144b",
-            "2bc670f809f5f6df",
-            "164b09c02dab9081",
-            "e4dc18f7c9455c0d",
-            "6fc294104a2dbb11",
-            "3040ab0c0c1ed2dd",
-            "d8573e32a9ec888f",
-            "849379e6f7939a8c"
+            "e406b6dbb483e2b5",
+            "d14719d850055b7f",
+            "e66b4a5f22a86a92",
+            "3bfcbb604faf22f2",
+            "fb752b2f4a73e460",
+            "c82e0fea11c34b12",
+            "d2e4e2820280beb3"
         ],
         "x": 14,
-        "y": 1519,
-        "w": 1422,
-        "h": 182
-    },
-    {
-        "id": "97afb37521efba77",
-        "type": "junction",
-        "z": "b1a9214c.4c71c",
-        "g": "6b44c062cbc05f0a",
-        "x": 1760,
-        "y": 280,
-        "wires": [
-            [
-                "232a01493b9307b0",
-                "db7934b4b14446da",
-                "a22e2a028512634f"
-            ]
-        ]
-    },
-    {
-        "id": "eaec84df6f30a9ec",
-        "type": "junction",
-        "z": "d5421f8d.f7208",
-        "g": "f236f0a913f70054",
-        "x": 1960,
-        "y": 160,
-        "wires": [
-            [
-                "4b276bf7ef0c3217",
-                "0db5f8033b5c9adf",
-                "1414f6788bc8c787"
-            ]
-        ]
+        "y": 1439,
+        "w": 1062,
+        "h": 122
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -6794,38 +6624,6 @@
                 "4b6f2391d1d4dfb7",
                 "644d8e4f0164cfb2",
                 "56e8236b1fb323bc"
-            ]
-        ]
-    },
-    {
-        "id": "f55e9b8b5462e4d2",
-        "type": "junction",
-        "z": "a8d8484165225699",
-        "g": "537179d37e7389e5",
-        "x": 1220,
-        "y": 320,
-        "wires": [
-            [
-                "e142bb411f990e05",
-                "2e707984219ae3a9",
-                "daef6aa88b93b329",
-                "e16a49a555dc3139"
-            ]
-        ]
-    },
-    {
-        "id": "159c508f956eb430",
-        "type": "junction",
-        "z": "7186425fdfc90c19",
-        "g": "3bd669c9a971e4a2",
-        "x": 1020,
-        "y": 220,
-        "wires": [
-            [
-                "90b19d7c300c5383",
-                "8ee8100ab8bdc7e6",
-                "76b2b2fcd5922030",
-                "44cfcac399640661"
             ]
         ]
     },
@@ -6979,18 +6777,6 @@
         "wires": [
             [
                 "f5b5f685345544c7"
-            ]
-        ]
-    },
-    {
-        "id": "cf3165dc8b9966df",
-        "type": "junction",
-        "z": "d5421f8d.f7208",
-        "x": 1200,
-        "y": 200,
-        "wires": [
-            [
-                "7ccb7ced4e8c8a8f"
             ]
         ]
     },
@@ -7414,6 +7200,58 @@
         "wires": [
             [
                 "566faf848ae88258"
+            ]
+        ]
+    },
+    {
+        "id": "e1d52ed6bc615e3d",
+        "type": "junction",
+        "z": "b8d98c82eb2488b9",
+        "g": "4e1beacde852f70d",
+        "x": 1700,
+        "y": 640,
+        "wires": [
+            [
+                "6f4bac3366b09c0a"
+            ]
+        ]
+    },
+    {
+        "id": "1c24238d54f558c4",
+        "type": "junction",
+        "z": "b8d98c82eb2488b9",
+        "g": "4e1beacde852f70d",
+        "x": 700,
+        "y": 640,
+        "wires": [
+            [
+                "e1d52ed6bc615e3d"
+            ]
+        ]
+    },
+    {
+        "id": "1c71ec8e21bc2634",
+        "type": "junction",
+        "z": "b8d98c82eb2488b9",
+        "g": "4e1beacde852f70d",
+        "x": 920,
+        "y": 740,
+        "wires": [
+            [
+                "91917476cba30405"
+            ]
+        ]
+    },
+    {
+        "id": "91917476cba30405",
+        "type": "junction",
+        "z": "b8d98c82eb2488b9",
+        "g": "4e1beacde852f70d",
+        "x": 1260,
+        "y": 740,
+        "wires": [
+            [
+                "f1744436bf4645f2"
             ]
         ]
     },
@@ -7899,39 +7737,6 @@
             {
                 "property": "state_class",
                 "value": ""
-            }
-        ],
-        "resend": false,
-        "debugEnabled": false
-    },
-    {
-        "id": "fcb1f1df3e876534",
-        "type": "ha-entity-config",
-        "server": "4ba92433.2478cc",
-        "deviceConfig": "",
-        "name": "open_windows_first_floor",
-        "version": 6,
-        "entityType": "binary_sensor",
-        "haConfig": [
-            {
-                "property": "name",
-                "value": "open_windows_first_floor"
-            },
-            {
-                "property": "icon",
-                "value": ""
-            },
-            {
-                "property": "entity_picture",
-                "value": ""
-            },
-            {
-                "property": "entity_category",
-                "value": ""
-            },
-            {
-                "property": "device_class",
-                "value": "window"
             }
         ],
         "resend": false,
@@ -8794,1670 +8599,6 @@
         ]
     },
     {
-        "id": "11d068d3ad86d2dd",
-        "type": "join",
-        "z": "b1a9214c.4c71c",
-        "g": "6b44c062cbc05f0a",
-        "name": "",
-        "mode": "custom",
-        "build": "merged",
-        "property": "notify",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "4",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 2010,
-        "y": 280,
-        "wires": [
-            [
-                "73e546f49b2e02e1"
-            ]
-        ]
-    },
-    {
-        "id": "73e546f49b2e02e1",
-        "type": "link out",
-        "z": "b1a9214c.4c71c",
-        "g": "6b44c062cbc05f0a",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716",
-            "9286a72a2355f5ca"
-        ],
-        "x": 2105,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "232a01493b9307b0",
-        "type": "template",
-        "z": "b1a9214c.4c71c",
-        "g": "6b44c062cbc05f0a",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Ventilatie",
-        "output": "str",
-        "x": 1850,
-        "y": 240,
-        "wires": [
-            [
-                "11d068d3ad86d2dd"
-            ]
-        ]
-    },
-    {
-        "id": "db7934b4b14446da",
-        "type": "template",
-        "z": "b1a9214c.4c71c",
-        "g": "6b44c062cbc05f0a",
-        "name": "icon",
-        "field": "notify.icon",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": ":door:",
-        "output": "str",
-        "x": 1850,
-        "y": 280,
-        "wires": [
-            [
-                "11d068d3ad86d2dd"
-            ]
-        ]
-    },
-    {
-        "id": "a22e2a028512634f",
-        "type": "template",
-        "z": "b1a9214c.4c71c",
-        "g": "6b44c062cbc05f0a",
-        "name": "notification id",
-        "field": "notify.notification_id",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "natural_basement_ventilation",
-        "output": "str",
-        "x": 1870,
-        "y": 320,
-        "wires": [
-            [
-                "11d068d3ad86d2dd"
-            ]
-        ]
-    },
-    {
-        "id": "968aec4f.db7b8",
-        "type": "comment",
-        "z": "b1a9214c.4c71c",
-        "name": "basement window",
-        "info": "",
-        "x": 110,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "7adaadb8.c5f204",
-        "type": "inject",
-        "z": "b1a9214c.4c71c",
-        "name": "start_flow",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "900",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "start_flow",
-        "payloadType": "str",
-        "x": 110,
-        "y": 440,
-        "wires": [
-            [
-                "6692dae9.7caa84"
-            ]
-        ]
-    },
-    {
-        "id": "8bf50cc4.c9593",
-        "type": "template",
-        "z": "b1a9214c.4c71c",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Sluit de ramen in de kelder het gaat mogelijke regenen.",
-        "output": "str",
-        "x": 1420,
-        "y": 280,
-        "wires": [
-            [
-                "704b917a.b0214",
-                "d52f067ae45b546a"
-            ]
-        ]
-    },
-    {
-        "id": "c431f228.97084",
-        "type": "template",
-        "z": "b1a9214c.4c71c",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Sluit de ramen in de kelder, dit uur gaat het {{payload}} mm regenen.",
-        "output": "str",
-        "x": 1420,
-        "y": 340,
-        "wires": [
-            [
-                "704b917a.b0214",
-                "d52f067ae45b546a"
-            ]
-        ]
-    },
-    {
-        "id": "8c82a32b.762e7",
-        "type": "template",
-        "z": "b1a9214c.4c71c",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Sluit de ramen, de verwarming in de kelder staat aan.\\nKelder Heating Power is {{sensor.basement_heating}}%",
-        "output": "str",
-        "x": 1420,
-        "y": 220,
-        "wires": [
-            [
-                "704b917a.b0214",
-                "d52f067ae45b546a"
-            ]
-        ]
-    },
-    {
-        "id": "1991431c.890dcd",
-        "type": "template",
-        "z": "b1a9214c.4c71c",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Open de ramen in de kelder, buiten is de vochtinhoud lager en de temperatuur hoger. \\n\\nBuiten\\nTemperatuur: {{sensor.buienradar_temperature}} °C\\nAbsolute vochtinhoud: {{sensor.outdoor_thermal_comfort_absolute_humidity}} g/m³\\n\\nKelder\\nTemperatuur: {{sensor.basement_temperature}} °C \\nAbsolute vochtinhoud: {{sensor.basement_thermal_comfort_absolute_humidity}} g/m³",
-        "output": "str",
-        "x": 1420,
-        "y": 780,
-        "wires": [
-            [
-                "d52f067ae45b546a"
-            ]
-        ]
-    },
-    {
-        "id": "d52f067ae45b546a",
-        "type": "rbe",
-        "z": "b1a9214c.4c71c",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 1650,
-        "y": 280,
-        "wires": [
-            [
-                "97afb37521efba77"
-            ]
-        ]
-    },
-    {
-        "id": "b7e01c5b3e5b9bc9",
-        "type": "function",
-        "z": "b1a9214c.4c71c",
-        "name": "round to two decimals",
-        "func": "msg.sensor.basement_thermal_comfort_absolute_humidity = msg.sensor.basement_thermal_comfort_absolute_humidity.toFixed(2);\nmsg.sensor.outdoor_thermal_comfort_absolute_humidity = msg.sensor.outdoor_thermal_comfort_absolute_humidity.toFixed(2);\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1240,
-        "y": 500,
-        "wires": [
-            [
-                "98a47a1b.d6fcc8"
-            ]
-        ]
-    },
-    {
-        "id": "d6c27b122483f09e",
-        "type": "function",
-        "z": "b1a9214c.4c71c",
-        "name": "round to two decimals",
-        "func": "msg.sensor.basement_thermal_comfort_absolute_humidity = msg.sensor.basement_thermal_comfort_absolute_humidity.toFixed(2);\nmsg.sensor.outdoor_thermal_comfort_absolute_humidity = msg.sensor.outdoor_thermal_comfort_absolute_humidity.toFixed(2);\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1240,
-        "y": 780,
-        "wires": [
-            [
-                "1991431c.890dcd"
-            ]
-        ]
-    },
-    {
-        "id": "98a47a1b.d6fcc8",
-        "type": "template",
-        "z": "b1a9214c.4c71c",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Sluit de ramen in de kelder, buiten is de vochtinhoud hoger of de temperatuur lager.\\n\\nBuiten: \\nTemperatuur: {{sensor.buienradar_temperature}} °C \\nAbsolute vochtinhoud: {{sensor.outdoor_thermal_comfort_absolute_humidity}} g/m³ \\n\\nKelder\\nTemperatuur: {{sensor.basement_temperature}} °C \\nAbsolute vochtinhoud: {{sensor.basement_thermal_comfort_absolute_humidity}} g/m³",
-        "output": "str",
-        "x": 1420,
-        "y": 500,
-        "wires": [
-            [
-                "704b917a.b0214"
-            ]
-        ]
-    },
-    {
-        "id": "d4f8c710.220648",
-        "type": "api-call-service",
-        "z": "b1a9214c.4c71c",
-        "name": "turn off basement window",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "input_boolean.turn_off",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "input_boolean.basement_window"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "input_boolean",
-        "service": "turn_off",
-        "x": 1930,
-        "y": 500,
-        "wires": [
-            [
-                "d52f067ae45b546a"
-            ]
-        ]
-    },
-    {
-        "id": "6692dae9.7caa84",
-        "type": "api-current-state",
-        "z": "b1a9214c.4c71c",
-        "name": "state absolute humidity basement",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.basement_thermal_comfort_absolute_humidity",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.basement_thermal_comfort_absolute_humidity",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 500,
-        "y": 440,
-        "wires": [
-            [
-                "1c1129d.09d62d6"
-            ]
-        ]
-    },
-    {
-        "id": "c0684245.6628d",
-        "type": "api-current-state",
-        "z": "b1a9214c.4c71c",
-        "name": "state absolute humidity outdoor > absolute humidity basement",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "sensor.basement_thermal_comfort_absolute_humidity",
-        "halt_if_type": "msg",
-        "halt_if_compare": "gt",
-        "entity_id": "sensor.outdoor_thermal_comfort_absolute_humidity",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.outdoor_thermal_comfort_absolute_humidity",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 870,
-        "y": 500,
-        "wires": [
-            [
-                "b7e01c5b3e5b9bc9"
-            ],
-            [
-                "fef0521b.1d64e"
-            ]
-        ]
-    },
-    {
-        "id": "6822779.5aa9588",
-        "type": "api-current-state",
-        "z": "b1a9214c.4c71c",
-        "name": "state temperature outdoor > temperature basement",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "sensor.basement_temperature",
-        "halt_if_type": "msg",
-        "halt_if_compare": "gt",
-        "entity_id": "sensor.buienradar_temperature",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.buienradar_temperature",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 550,
-        "y": 740,
-        "wires": [
-            [
-                "d6c27b122483f09e"
-            ],
-            [
-                "6f49345.883a1cc"
-            ]
-        ]
-    },
-    {
-        "id": "b5938ee.f7bec7",
-        "type": "api-current-state",
-        "z": "b1a9214c.4c71c",
-        "name": "Basement Heating Power <= 0%",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "0",
-        "halt_if_type": "num",
-        "halt_if_compare": "lte",
-        "entity_id": "sensor.basement_heating",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.basement_heating",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 490,
-        "y": 680,
-        "wires": [
-            [
-                "6822779.5aa9588"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "fef0521b.1d64e",
-        "type": "api-current-state",
-        "z": "b1a9214c.4c71c",
-        "name": "state precipitation buienradar <= 0",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "0",
-        "halt_if_type": "num",
-        "halt_if_compare": "lte",
-        "entity_id": "sensor.buienradar_precipitation",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.ede_precipitation",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 500,
-        "y": 560,
-        "wires": [
-            [
-                "5be90bde.fa4314"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "704b917a.b0214",
-        "type": "api-current-state",
-        "z": "b1a9214c.4c71c",
-        "name": "state basement window on",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.basement_window",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 1680,
-        "y": 500,
-        "wires": [
-            [
-                "d4f8c710.220648"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "6f49345.883a1cc",
-        "type": "api-current-state",
-        "z": "b1a9214c.4c71c",
-        "name": "state temperature outdoor > 17",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "17",
-        "halt_if_type": "num",
-        "halt_if_compare": "gt",
-        "entity_id": "sensor.buienradar_temperature",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.buienradar_temperature",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 490,
-        "y": 800,
-        "wires": [
-            [
-                "d6c27b122483f09e"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "5be90bde.fa4314",
-        "type": "api-current-state",
-        "z": "b1a9214c.4c71c",
-        "name": "state condidtion buienrader not rainy",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "rainy",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "sensor.buienradar_condition",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.ede_precipitation",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 510,
-        "y": 620,
-        "wires": [
-            [
-                "b5938ee.f7bec7"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "1c1129d.09d62d6",
-        "type": "api-current-state",
-        "z": "b1a9214c.4c71c",
-        "name": "state basement temperature",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.basement_temperature",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.basement_temperature",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 780,
-        "y": 440,
-        "wires": [
-            [
-                "18c2e5bb.4c0cfa"
-            ]
-        ]
-    },
-    {
-        "id": "18c2e5bb.4c0cfa",
-        "type": "api-current-state",
-        "z": "b1a9214c.4c71c",
-        "name": "state buienradar temperature",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.buienradar_temperature",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.buienradar_temperature",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 480,
-        "y": 500,
-        "wires": [
-            [
-                "c0684245.6628d"
-            ]
-        ]
-    },
-    {
-        "id": "8469a147.10964",
-        "type": "server-state-changed",
-        "z": "b1a9214c.4c71c",
-        "name": "state buienradar precipitation > 0",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.buienradar_precipitation"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "num",
-        "ifState": "0",
-        "ifStateType": "num",
-        "ifStateOperator": "gt",
-        "outputOnlyOnStateChange": false,
-        "for": "",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "sensor.buienradar_precipitation",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 150,
-        "y": 340,
-        "wires": [
-            [
-                "c431f228.97084"
-            ],
-            [
-                "6692dae9.7caa84"
-            ]
-        ]
-    },
-    {
-        "id": "f82739ec.0019e8",
-        "type": "server-state-changed",
-        "z": "b1a9214c.4c71c",
-        "name": "state heating power basement > 1%",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.basement_heating"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "num",
-        "ifState": "1",
-        "ifStateType": "num",
-        "ifStateOperator": "gt",
-        "outputOnlyOnStateChange": true,
-        "for": "",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "sensor.basement_heating",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 160,
-        "y": 220,
-        "wires": [
-            [
-                "8c82a32b.762e7"
-            ],
-            [
-                "6692dae9.7caa84"
-            ]
-        ]
-    },
-    {
-        "id": "b236d4c0.c39c38",
-        "type": "server-state-changed",
-        "z": "b1a9214c.4c71c",
-        "name": "state buienradar condition rainy",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.buienradar_condition"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "rainy",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": true,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "weather.buienradar",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 150,
-        "y": 280,
-        "wires": [
-            [
-                "8bf50cc4.c9593"
-            ],
-            [
-                "6692dae9.7caa84"
-            ]
-        ]
-    },
-    {
-        "id": "aedbcf84c1295abd",
-        "type": "catch",
-        "z": "b1a9214c.4c71c",
-        "g": "6fc99fe3fa43961b",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "e75e88b2739b898a"
-            ]
-        ]
-    },
-    {
-        "id": "e75e88b2739b898a",
-        "type": "template",
-        "z": "b1a9214c.4c71c",
-        "g": "6fc99fe3fa43961b",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "c027d4c52c4a61b2"
-            ]
-        ]
-    },
-    {
-        "id": "c026370f826e5d5f",
-        "type": "link out",
-        "z": "b1a9214c.4c71c",
-        "g": "6fc99fe3fa43961b",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 475,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "c027d4c52c4a61b2",
-        "type": "template",
-        "z": "b1a9214c.4c71c",
-        "g": "6fc99fe3fa43961b",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "c026370f826e5d5f"
-            ]
-        ]
-    },
-    {
-        "id": "0db5f8033b5c9adf",
-        "type": "template",
-        "z": "d5421f8d.f7208",
-        "g": "f236f0a913f70054",
-        "name": "icon",
-        "field": "notify.icon",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "",
-        "output": "str",
-        "x": 2110,
-        "y": 200,
-        "wires": [
-            [
-                "6858101eee61155a"
-            ]
-        ]
-    },
-    {
-        "id": "4b276bf7ef0c3217",
-        "type": "template",
-        "z": "d5421f8d.f7208",
-        "g": "f236f0a913f70054",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Ventilatie",
-        "output": "str",
-        "x": 2110,
-        "y": 120,
-        "wires": [
-            [
-                "6858101eee61155a"
-            ]
-        ]
-    },
-    {
-        "id": "ef18c5c2564a7e77",
-        "type": "link out",
-        "z": "d5421f8d.f7208",
-        "g": "f236f0a913f70054",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "9286a72a2355f5ca",
-            "39fe1680119f6b36"
-        ],
-        "x": 2365,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "6858101eee61155a",
-        "type": "join",
-        "z": "d5421f8d.f7208",
-        "g": "f236f0a913f70054",
-        "name": "",
-        "mode": "custom",
-        "build": "merged",
-        "property": "notify",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "3",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 2270,
-        "y": 160,
-        "wires": [
-            [
-                "ef18c5c2564a7e77"
-            ]
-        ]
-    },
-    {
-        "id": "1414f6788bc8c787",
-        "type": "template",
-        "z": "d5421f8d.f7208",
-        "g": "f236f0a913f70054",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Open de ramen boven om het in huis af te laten koelen, boven is de gemiddelde temperatuur {{payload}} ℃ Buiten is de temperatuur {{outdoor_temperature}} ℃.",
-        "output": "str",
-        "x": 2120,
-        "y": 160,
-        "wires": [
-            [
-                "6858101eee61155a",
-                "d5e96dbb131b9d36"
-            ]
-        ]
-    },
-    {
-        "id": "a7088cd0.05fa4",
-        "type": "inject",
-        "z": "d5421f8d.f7208",
-        "name": "",
-        "props": [],
-        "repeat": "7200",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 90,
-        "y": 160,
-        "wires": [
-            [
-                "87defeb3.2f624"
-            ]
-        ]
-    },
-    {
-        "id": "2bd65702.c33608",
-        "type": "comment",
-        "z": "d5421f8d.f7208",
-        "name": "outdoor temperature is lower then indoor temperature on the first floor",
-        "info": "",
-        "x": 290,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "d5e96dbb131b9d36",
-        "type": "template",
-        "z": "d5421f8d.f7208",
-        "name": "secondary information",
-        "field": "secondary_information",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "{{notify.message}}",
-        "output": "str",
-        "x": 2320,
-        "y": 300,
-        "wires": [
-            [
-                "f8309ac281f2719d"
-            ]
-        ]
-    },
-    {
-        "id": "ea6a2fd58eb54515",
-        "type": "link out",
-        "z": "d5421f8d.f7208",
-        "name": "notification",
-        "mode": "link",
-        "links": [
-            "60e14e33a793f50d"
-        ],
-        "x": 2405,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "71065c3b1d663fa4",
-        "type": "template",
-        "z": "d5421f8d.f7208",
-        "name": "notification_level",
-        "field": "notification_level",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "info",
-        "output": "str",
-        "x": 2330,
-        "y": 460,
-        "wires": [
-            [
-                "ea6a2fd58eb54515"
-            ]
-        ]
-    },
-    {
-        "id": "e0444f34bbc35ff2",
-        "type": "template",
-        "z": "d5421f8d.f7208",
-        "name": "topic",
-        "field": "topic",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "ventilation",
-        "output": "str",
-        "x": 2370,
-        "y": 420,
-        "wires": [
-            [
-                "71065c3b1d663fa4"
-            ]
-        ]
-    },
-    {
-        "id": "41d591f22c238a15",
-        "type": "template",
-        "z": "d5421f8d.f7208",
-        "name": "icon",
-        "field": "icon",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "mdi:weather-windy",
-        "output": "str",
-        "x": 2370,
-        "y": 380,
-        "wires": [
-            [
-                "e0444f34bbc35ff2"
-            ]
-        ]
-    },
-    {
-        "id": "f8309ac281f2719d",
-        "type": "template",
-        "z": "d5421f8d.f7208",
-        "name": "primary information",
-        "field": "primary_information",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Ventilatie",
-        "output": "str",
-        "x": 2330,
-        "y": 340,
-        "wires": [
-            [
-                "41d591f22c238a15"
-            ]
-        ]
-    },
-    {
-        "id": "8d34e21d.b818f",
-        "type": "change",
-        "z": "d5421f8d.f7208",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "payload.attributes.current_temperature",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 600,
-        "y": 160,
-        "wires": [
-            [
-                "71d62d7c.0c49f4"
-            ]
-        ]
-    },
-    {
-        "id": "71d62d7c.0c49f4",
-        "type": "join",
-        "z": "d5421f8d.f7208",
-        "name": "",
-        "mode": "auto",
-        "build": "array",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "useparts": true,
-        "accumulate": false,
-        "timeout": "",
-        "count": "4",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "num",
-        "reduceFixup": "",
-        "x": 750,
-        "y": 160,
-        "wires": [
-            [
-                "f553666a.3acb38"
-            ]
-        ]
-    },
-    {
-        "id": "f553666a.3acb38",
-        "type": "calculator",
-        "z": "d5421f8d.f7208",
-        "name": "",
-        "inputMsgField": "payload",
-        "outputMsgField": "payload",
-        "operation": "avg",
-        "constant": "",
-        "round": true,
-        "truncate": false,
-        "decimals": "1",
-        "decimals2": "0",
-        "x": 880,
-        "y": 160,
-        "wires": [
-            [
-                "b108409c.24dae"
-            ]
-        ]
-    },
-    {
-        "id": "b108409c.24dae",
-        "type": "api-current-state",
-        "z": "d5421f8d.f7208",
-        "name": "outdoor temperature",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "payload",
-        "halt_if_type": "msg",
-        "halt_if_compare": "lt",
-        "entity_id": "sensor.weather_station_temperature",
-        "state_type": "num",
-        "blockInputOverrides": true,
-        "outputProperties": [
-            {
-                "property": "outdoor_temperature",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 1060,
-        "y": 160,
-        "wires": [
-            [
-                "eb9d5e14.c47ca"
-            ],
-            [
-                "cf3165dc8b9966df"
-            ]
-        ]
-    },
-    {
-        "id": "317fcdab.4c33d2",
-        "type": "ha-get-entities",
-        "z": "d5421f8d.f7208",
-        "name": "get climate entities",
-        "server": "4ba92433.2478cc",
-        "version": 1,
-        "rules": [
-            {
-                "condition": "floor_registry",
-                "property": "level",
-                "logic": "is",
-                "value": "1",
-                "valueType": "str"
-            },
-            {
-                "condition": "state_object",
-                "property": "entity_id",
-                "logic": "starts_with",
-                "value": "climate.",
-                "valueType": "str"
-            },
-            {
-                "condition": "state_object",
-                "property": "attributes.preset_modes.2",
-                "logic": "is",
-                "value": "auto",
-                "valueType": "str"
-            }
-        ],
-        "outputType": "split",
-        "outputEmptyResults": false,
-        "outputLocationType": "msg",
-        "outputLocation": "payload",
-        "outputResultsCount": 1,
-        "x": 410,
-        "y": 160,
-        "wires": [
-            [
-                "8d34e21d.b818f"
-            ]
-        ]
-    },
-    {
-        "id": "87defeb3.2f624",
-        "type": "time-range-switch",
-        "z": "d5421f8d.f7208",
-        "name": "",
-        "lat": "52.0245",
-        "lon": "5.66701",
-        "startTime": "06:00",
-        "endTime": "00:00",
-        "startOffset": 0,
-        "endOffset": "0",
-        "x": 230,
-        "y": 160,
-        "wires": [
-            [
-                "317fcdab.4c33d2"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "5966ae391638c2e2",
-        "type": "catch",
-        "z": "d5421f8d.f7208",
-        "g": "65b23193509b810d",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 120,
-        "y": 80,
-        "wires": [
-            [
-                "afca751308698d24"
-            ]
-        ]
-    },
-    {
-        "id": "afca751308698d24",
-        "type": "template",
-        "z": "d5421f8d.f7208",
-        "g": "65b23193509b810d",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 270,
-        "y": 80,
-        "wires": [
-            [
-                "996b414e0e42417f"
-            ]
-        ]
-    },
-    {
-        "id": "588232826fe1cb16",
-        "type": "link out",
-        "z": "d5421f8d.f7208",
-        "g": "65b23193509b810d",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 495,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "996b414e0e42417f",
-        "type": "template",
-        "z": "d5421f8d.f7208",
-        "g": "65b23193509b810d",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 410,
-        "y": 80,
-        "wires": [
-            [
-                "588232826fe1cb16"
-            ]
-        ]
-    },
-    {
-        "id": "a97a74772300989a",
-        "type": "ha-binary-sensor",
-        "z": "d5421f8d.f7208",
-        "name": "open_windows_first_floor",
-        "entityConfig": "fcb1f1df3e876534",
-        "version": 0,
-        "state": "sensor_state",
-        "stateType": "msg",
-        "attributes": [
-            {
-                "property": "outdoor_temperature",
-                "value": "outdoor_temperature",
-                "valueType": "msg"
-            },
-            {
-                "property": "first_floor_avarage_temperature",
-                "value": "payload",
-                "valueType": "msg"
-            }
-        ],
-        "inputOverride": "allow",
-        "outputProperties": [],
-        "x": 1750,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7e5b4ee3467aee37",
-        "type": "change",
-        "z": "d5421f8d.f7208",
-        "name": "on",
-        "rules": [
-            {
-                "t": "set",
-                "p": "sensor_state",
-                "pt": "msg",
-                "to": "on",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1550,
-        "y": 140,
-        "wires": [
-            [
-                "eaec84df6f30a9ec",
-                "a97a74772300989a"
-            ]
-        ]
-    },
-    {
-        "id": "04165617d82c8ab8",
-        "type": "change",
-        "z": "d5421f8d.f7208",
-        "name": "off",
-        "rules": [
-            {
-                "t": "set",
-                "p": "sensor_state",
-                "pt": "msg",
-                "to": "off",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1550,
-        "y": 200,
-        "wires": [
-            [
-                "a97a74772300989a"
-            ]
-        ]
-    },
-    {
-        "id": "eb9d5e14.c47ca",
-        "type": "switch",
-        "z": "d5421f8d.f7208",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gt",
-                "v": "23",
-                "vt": "num"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 1250,
-        "y": 140,
-        "wires": [
-            [
-                "266f76029289adb0"
-            ],
-            [
-                "7ccb7ced4e8c8a8f"
-            ]
-        ]
-    },
-    {
-        "id": "266f76029289adb0",
-        "type": "api-current-state",
-        "z": "d5421f8d.f7208",
-        "name": "sensor is off",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "off",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "binary_sensor.open_windows_first_floor",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 1410,
-        "y": 140,
-        "wires": [
-            [
-                "7e5b4ee3467aee37"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "7ccb7ced4e8c8a8f",
-        "type": "api-current-state",
-        "z": "d5421f8d.f7208",
-        "name": "sensor is on",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "binary_sensor.open_windows_first_floor",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 1410,
-        "y": 200,
-        "wires": [
-            [
-                "04165617d82c8ab8"
-            ],
-            []
-        ]
-    },
-    {
         "id": "56e8236b1fb323bc",
         "type": "template",
         "z": "75537afd17de5117",
@@ -10803,9 +8944,7 @@
         "z": "75537afd17de5117",
         "name": "notification",
         "mode": "link",
-        "links": [
-            "60e14e33a793f50d"
-        ],
+        "links": [],
         "x": 2025,
         "y": 380,
         "wires": []
@@ -11034,7 +9173,7 @@
         "syntax": "mustache",
         "template": "Picnic staat bijna voor de deur. Tussen {{payload.start.mytime}} en {{payload.end.mytime}}.",
         "output": "str",
-        "x": 1480,
+        "x": 1500,
         "y": 460,
         "wires": [
             [
@@ -11053,7 +9192,7 @@
         "syntax": "mustache",
         "template": "Picnic staat bijna voor de deur. Tussen {{payload.start.mytime}} en {{payload.end.mytime}}.",
         "output": "str",
-        "x": 1520,
+        "x": 1460,
         "y": 500,
         "wires": [
             [
@@ -11169,7 +9308,7 @@
         "id": "8aa5f383b3e9b3bf",
         "type": "api-current-state",
         "z": "75537afd17de5117",
-        "name": "start datetime next delivery",
+        "name": "end datetime next delivery",
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
@@ -11201,7 +9340,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 280,
+        "x": 270,
         "y": 520,
         "wires": [
             [
@@ -11464,887 +9603,6 @@
         ]
     },
     {
-        "id": "e16a49a555dc3139",
-        "type": "template",
-        "z": "a8d8484165225699",
-        "g": "537179d37e7389e5",
-        "name": "notification id",
-        "field": "notify.notification_id",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "updates",
-        "output": "str",
-        "x": 1370,
-        "y": 400,
-        "wires": [
-            [
-                "deeacc0728909577"
-            ]
-        ]
-    },
-    {
-        "id": "daef6aa88b93b329",
-        "type": "template",
-        "z": "a8d8484165225699",
-        "g": "537179d37e7389e5",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "{{secondary_information}}",
-        "output": "str",
-        "x": 1360,
-        "y": 320,
-        "wires": [
-            [
-                "deeacc0728909577"
-            ]
-        ]
-    },
-    {
-        "id": "deeacc0728909577",
-        "type": "join",
-        "z": "a8d8484165225699",
-        "g": "537179d37e7389e5",
-        "name": "",
-        "mode": "custom",
-        "build": "merged",
-        "property": "notify",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "4",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 1510,
-        "y": 320,
-        "wires": [
-            [
-                "58ce3486fc8107bd"
-            ]
-        ]
-    },
-    {
-        "id": "58ce3486fc8107bd",
-        "type": "link out",
-        "z": "a8d8484165225699",
-        "g": "537179d37e7389e5",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [],
-        "x": 1605,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "e142bb411f990e05",
-        "type": "template",
-        "z": "a8d8484165225699",
-        "g": "537179d37e7389e5",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Update",
-        "output": "str",
-        "x": 1350,
-        "y": 280,
-        "wires": [
-            [
-                "deeacc0728909577"
-            ]
-        ]
-    },
-    {
-        "id": "2e707984219ae3a9",
-        "type": "template",
-        "z": "a8d8484165225699",
-        "g": "537179d37e7389e5",
-        "name": "icon",
-        "field": "notify.icon",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "{{notify.icon}}",
-        "output": "str",
-        "x": 1350,
-        "y": 360,
-        "wires": [
-            [
-                "deeacc0728909577"
-            ]
-        ]
-    },
-    {
-        "id": "dd30d4cd216c0f2b",
-        "type": "comment",
-        "z": "a8d8484165225699",
-        "name": "send notification when a update is available",
-        "info": "",
-        "x": 180,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "ca77f18341a43806",
-        "type": "template",
-        "z": "a8d8484165225699",
-        "name": "secondary information",
-        "field": "secondary_information",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Er is {{payload}} beschikbaar, check updates onder de settings tab om deze entiteit te updaten. ",
-        "output": "str",
-        "x": 460,
-        "y": 200,
-        "wires": [
-            [
-                "9f54688e36518032"
-            ]
-        ]
-    },
-    {
-        "id": "9f54688e36518032",
-        "type": "template",
-        "z": "a8d8484165225699",
-        "name": "primary information",
-        "field": "primary_information",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Update entiteit beschikbaar",
-        "output": "str",
-        "x": 670,
-        "y": 180,
-        "wires": [
-            [
-                "baa41c19eb148fa4"
-            ]
-        ]
-    },
-    {
-        "id": "baa41c19eb148fa4",
-        "type": "template",
-        "z": "a8d8484165225699",
-        "name": "topic",
-        "field": "topic",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "updates",
-        "output": "str",
-        "x": 830,
-        "y": 180,
-        "wires": [
-            [
-                "54e3c63ed7fe6043"
-            ]
-        ]
-    },
-    {
-        "id": "54e3c63ed7fe6043",
-        "type": "template",
-        "z": "a8d8484165225699",
-        "name": "notification_level",
-        "field": "notification_level",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "info",
-        "output": "str",
-        "x": 990,
-        "y": 180,
-        "wires": [
-            [
-                "c260ecf67a15a923"
-            ]
-        ]
-    },
-    {
-        "id": "b120549fa5ec47de",
-        "type": "link out",
-        "z": "a8d8484165225699",
-        "name": "notification",
-        "mode": "link",
-        "links": [
-            "60e14e33a793f50d"
-        ],
-        "x": 1565,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "c260ecf67a15a923",
-        "type": "change",
-        "z": "a8d8484165225699",
-        "name": "set icon",
-        "rules": [
-            {
-                "t": "set",
-                "p": "icon",
-                "pt": "msg",
-                "to": "mdi:update",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1160,
-        "y": 180,
-        "wires": [
-            [
-                "b120549fa5ec47de",
-                "f55e9b8b5462e4d2"
-            ]
-        ]
-    },
-    {
-        "id": "141308461dbf40c7",
-        "type": "switch",
-        "z": "a8d8484165225699",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gt",
-                "v": "1",
-                "vt": "num"
-            },
-            {
-                "t": "gt",
-                "v": "0",
-                "vt": "num"
-            }
-        ],
-        "checkall": "false",
-        "repair": false,
-        "outputs": 2,
-        "x": 290,
-        "y": 180,
-        "wires": [
-            [
-                "bf97ba934d4ba8e3"
-            ],
-            [
-                "ca77f18341a43806"
-            ]
-        ]
-    },
-    {
-        "id": "bf97ba934d4ba8e3",
-        "type": "template",
-        "z": "a8d8484165225699",
-        "name": "secondary information",
-        "field": "secondary_information",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Er zijn {{payload}} updates beschikbaar, check updates onder de settings tab om deze entiteit te updaten. ",
-        "output": "str",
-        "x": 460,
-        "y": 160,
-        "wires": [
-            [
-                "9f54688e36518032"
-            ]
-        ]
-    },
-    {
-        "id": "0e19a744ae210f9f",
-        "type": "api-call-service",
-        "z": "a8d8484165225699",
-        "name": " dismiss in app notification",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "persistent_notification.dismiss",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"notification_id\":\"update_entity\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "persistent_notification",
-        "service": "dismiss",
-        "x": 350,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "160088fd48d5a361",
-        "type": "server-state-changed",
-        "z": "a8d8484165225699",
-        "name": "update counter is not 0",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.update_on_counter"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "0",
-        "ifStateType": "num",
-        "ifStateOperator": "is_not",
-        "outputOnlyOnStateChange": false,
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [],
-        "x": 120,
-        "y": 180,
-        "wires": [
-            [
-                "141308461dbf40c7"
-            ],
-            [
-                "0e19a744ae210f9f"
-            ]
-        ]
-    },
-    {
-        "id": "925cbc802add6b04",
-        "type": "catch",
-        "z": "a8d8484165225699",
-        "g": "0330186b9fdcf4ee",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "d365bf9676fe5435"
-            ]
-        ]
-    },
-    {
-        "id": "d365bf9676fe5435",
-        "type": "template",
-        "z": "a8d8484165225699",
-        "g": "0330186b9fdcf4ee",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "5f99051ae7b91aed"
-            ]
-        ]
-    },
-    {
-        "id": "fcbba10709360bf0",
-        "type": "link out",
-        "z": "a8d8484165225699",
-        "g": "0330186b9fdcf4ee",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 475,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "5f99051ae7b91aed",
-        "type": "template",
-        "z": "a8d8484165225699",
-        "g": "0330186b9fdcf4ee",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "fcbba10709360bf0"
-            ]
-        ]
-    },
-    {
-        "id": "44cfcac399640661",
-        "type": "template",
-        "z": "7186425fdfc90c19",
-        "g": "3bd669c9a971e4a2",
-        "name": "notification id",
-        "field": "notify.notification_id",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "water_detection",
-        "output": "str",
-        "x": 1170,
-        "y": 300,
-        "wires": [
-            [
-                "80393a5cbd64c280"
-            ]
-        ]
-    },
-    {
-        "id": "76b2b2fcd5922030",
-        "type": "template",
-        "z": "7186425fdfc90c19",
-        "g": "3bd669c9a971e4a2",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Er is water verbruik gedetecteerd, niemand in huis is en apparaten die water verbruiken staan uit!",
-        "output": "str",
-        "x": 1160,
-        "y": 220,
-        "wires": [
-            [
-                "80393a5cbd64c280"
-            ]
-        ]
-    },
-    {
-        "id": "80393a5cbd64c280",
-        "type": "join",
-        "z": "7186425fdfc90c19",
-        "g": "3bd669c9a971e4a2",
-        "name": "",
-        "mode": "custom",
-        "build": "merged",
-        "property": "notify",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "4",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 1310,
-        "y": 220,
-        "wires": [
-            [
-                "4369851a7e1e9308"
-            ]
-        ]
-    },
-    {
-        "id": "4369851a7e1e9308",
-        "type": "link out",
-        "z": "7186425fdfc90c19",
-        "g": "3bd669c9a971e4a2",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [],
-        "x": 1405,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "90b19d7c300c5383",
-        "type": "template",
-        "z": "7186425fdfc90c19",
-        "g": "3bd669c9a971e4a2",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Water",
-        "output": "str",
-        "x": 1150,
-        "y": 180,
-        "wires": [
-            [
-                "80393a5cbd64c280"
-            ]
-        ]
-    },
-    {
-        "id": "8ee8100ab8bdc7e6",
-        "type": "template",
-        "z": "7186425fdfc90c19",
-        "g": "3bd669c9a971e4a2",
-        "name": "icon",
-        "field": "notify.icon",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "",
-        "output": "str",
-        "x": 1150,
-        "y": 260,
-        "wires": [
-            [
-                "80393a5cbd64c280"
-            ]
-        ]
-    },
-    {
-        "id": "565aecc17ef25b41",
-        "type": "comment",
-        "z": "7186425fdfc90c19",
-        "name": "flow that send a notification when water consumption has detected",
-        "info": "",
-        "x": 260,
-        "y": 20,
-        "wires": []
-    },
-    {
-        "id": "e406b6dbb483e2b5",
-        "type": "api-current-state",
-        "z": "7186425fdfc90c19",
-        "name": "persons not home",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "not_home",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "group.persons",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 270,
-        "y": 160,
-        "wires": [
-            [
-                "d14719d850055b7f"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "d14719d850055b7f",
-        "type": "api-current-state",
-        "z": "7186425fdfc90c19",
-        "name": "guest mode is off",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "off",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.guest",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 470,
-        "y": 160,
-        "wires": [
-            [
-                "e66b4a5f22a86a92"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "e66b4a5f22a86a92",
-        "type": "api-current-state",
-        "z": "7186425fdfc90c19",
-        "name": "washingmachine is off",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "off",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "binary_sensor.washing_machine",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 680,
-        "y": 160,
-        "wires": [
-            [
-                "3bfcbb604faf22f2"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "3bfcbb604faf22f2",
-        "type": "api-current-state",
-        "z": "7186425fdfc90c19",
-        "name": "dishwasher is off",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "off",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "binary_sensor.dishwasher",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 890,
-        "y": 160,
-        "wires": [
-            [
-                "159c508f956eb430"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "fb752b2f4a73e460",
-        "type": "server-state-changed",
-        "z": "7186425fdfc90c19",
-        "name": "water sensor",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.watermeter_pulse"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "1",
-        "ifStateType": "num",
-        "ifStateOperator": "gt",
-        "outputOnlyOnStateChange": true,
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": false,
-        "ignorePrevStateUnavailable": false,
-        "ignoreCurrentStateUnknown": false,
-        "ignoreCurrentStateUnavailable": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 90,
-        "y": 160,
-        "wires": [
-            [
-                "e406b6dbb483e2b5"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "b8768bd6ae8b8f1b",
-        "type": "catch",
-        "z": "7186425fdfc90c19",
-        "g": "8a3e724b9367b490",
-        "name": "",
-        "scope": null,
-        "uncaught": false,
-        "x": 100,
-        "y": 80,
-        "wires": [
-            [
-                "fde4c3a371beff5a"
-            ]
-        ]
-    },
-    {
-        "id": "fde4c3a371beff5a",
-        "type": "template",
-        "z": "7186425fdfc90c19",
-        "g": "8a3e724b9367b490",
-        "name": "messsage",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
-        "output": "str",
-        "x": 250,
-        "y": 80,
-        "wires": [
-            [
-                "0870fa9736ccd6a3"
-            ]
-        ]
-    },
-    {
-        "id": "388c6c30bcb85720",
-        "type": "link out",
-        "z": "7186425fdfc90c19",
-        "g": "8a3e724b9367b490",
-        "name": "link_out_notify_1",
-        "mode": "link",
-        "links": [
-            "a97f87cfab413716"
-        ],
-        "x": 475,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "0870fa9736ccd6a3",
-        "type": "template",
-        "z": "7186425fdfc90c19",
-        "g": "8a3e724b9367b490",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Node-RED",
-        "output": "str",
-        "x": 390,
-        "y": 80,
-        "wires": [
-            [
-                "388c6c30bcb85720"
-            ]
-        ]
-    },
-    {
         "id": "7f181c3a969cf13c",
         "type": "join",
         "z": "46d98b35c2eee05b",
@@ -12466,6 +9724,7 @@
         "key": "topic",
         "joiner": "\\n",
         "joinerType": "str",
+        "useparts": true,
         "accumulate": false,
         "timeout": "",
         "count": "3",
@@ -12805,6 +10064,329 @@
         ]
     },
     {
+        "id": "0a48f09788c3714c",
+        "type": "api-call-service",
+        "z": "46d98b35c2eee05b",
+        "g": "21d0c97ba504e198",
+        "name": "set power limit",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "number.set_value",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "number.solaredge_modbus_active_power_limit"
+        ],
+        "labelId": [],
+        "data": "{\"value\":\"{{ac_limit_percent}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "number",
+        "service": "set_value",
+        "x": 1200,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4a264f15d0823997",
+        "type": "inject",
+        "z": "46d98b35c2eee05b",
+        "d": true,
+        "g": "21d0c97ba504e198",
+        "name": "",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 130,
+        "y": 660,
+        "wires": [
+            [
+                "3baa2d4c8ee18542",
+                "b4055debc6e2fa4d",
+                "ce286ef726044118"
+            ]
+        ]
+    },
+    {
+        "id": "b4055debc6e2fa4d",
+        "type": "api-current-state",
+        "z": "46d98b35c2eee05b",
+        "g": "21d0c97ba504e198",
+        "name": "state currently returned",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "num",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.dsmr_reading_electricity_currently_returned",
+        "state_type": "num",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "returned",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 330,
+        "y": 660,
+        "wires": [
+            [
+                "4bd9dd44e2e5a984"
+            ]
+        ]
+    },
+    {
+        "id": "3baa2d4c8ee18542",
+        "type": "api-current-state",
+        "z": "46d98b35c2eee05b",
+        "g": "21d0c97ba504e198",
+        "name": "state currently delivered",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "num",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.dsmr_reading_electricity_currently_delivered",
+        "state_type": "num",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "delivered",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 330,
+        "y": 600,
+        "wires": [
+            [
+                "658d8eb978fbed2a"
+            ]
+        ]
+    },
+    {
+        "id": "ce286ef726044118",
+        "type": "api-current-state",
+        "z": "46d98b35c2eee05b",
+        "g": "21d0c97ba504e198",
+        "name": "state currently producing",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "num",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.solaredge_modbus_ac_power",
+        "state_type": "num",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "producing",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 330,
+        "y": 720,
+        "wires": [
+            [
+                "3b577ee02ce76fe5"
+            ]
+        ]
+    },
+    {
+        "id": "4d4c4fa4b94f1c31",
+        "type": "join",
+        "z": "46d98b35c2eee05b",
+        "g": "21d0c97ba504e198",
+        "name": "",
+        "mode": "custom",
+        "build": "merged",
+        "property": "",
+        "propertyType": "full",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": false,
+        "timeout": "",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 710,
+        "y": 660,
+        "wires": [
+            [
+                "1902f90d9938adc7"
+            ]
+        ]
+    },
+    {
+        "id": "658d8eb978fbed2a",
+        "type": "function",
+        "z": "46d98b35c2eee05b",
+        "g": "21d0c97ba504e198",
+        "name": "to watt",
+        "func": "msg.delivered = msg.delivered * 1000;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 600,
+        "wires": [
+            [
+                "4d4c4fa4b94f1c31"
+            ]
+        ]
+    },
+    {
+        "id": "3b577ee02ce76fe5",
+        "type": "function",
+        "z": "46d98b35c2eee05b",
+        "g": "21d0c97ba504e198",
+        "name": "round watt",
+        "func": "msg.producing = Math.round(msg.producing);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 720,
+        "wires": [
+            [
+                "4d4c4fa4b94f1c31"
+            ]
+        ]
+    },
+    {
+        "id": "4bd9dd44e2e5a984",
+        "type": "function",
+        "z": "46d98b35c2eee05b",
+        "g": "21d0c97ba504e198",
+        "name": "to watt",
+        "func": "msg.returned = msg.returned * 1000;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 660,
+        "wires": [
+            [
+                "4d4c4fa4b94f1c31"
+            ]
+        ]
+    },
+    {
+        "id": "1902f90d9938adc7",
+        "type": "function",
+        "z": "46d98b35c2eee05b",
+        "g": "21d0c97ba504e198",
+        "name": "power limit %",
+        "func": "let max_inverter = 3680; // W\n\n// Bereken huisverbruik\nlet house_consumption = msg.payload.producing - msg.payload.returned + msg.payload.delivered;\n\n// Bereken power limit zodat er niet teruggeleverd wordt\nlet ac_limit_w = Math.min(house_consumption, max_inverter);\n\n// Zet om naar %\nmsg.ac_limit_w = ac_limit_w;\nmsg.ac_limit_percent = Math.round(ac_limit_w / max_inverter * 100);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 660,
+        "wires": [
+            [
+                "a0398e734d77cf7a"
+            ]
+        ]
+    },
+    {
+        "id": "a0398e734d77cf7a",
+        "type": "delay",
+        "z": "46d98b35c2eee05b",
+        "g": "21d0c97ba504e198",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "2",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1020,
+        "y": 660,
+        "wires": [
+            [
+                "0a48f09788c3714c"
+            ]
+        ]
+    },
+    {
+        "id": "28a6d32460f75e3a",
+        "type": "comment",
+        "z": "46d98b35c2eee05b",
+        "g": "21d0c97ba504e198",
+        "name": "prevent returning energy to grid",
+        "info": "",
+        "x": 170,
+        "y": 560,
+        "wires": []
+    },
+    {
         "id": "7b9d796ac83c32bf",
         "type": "join",
         "z": "99c1372046e45da7",
@@ -12995,9 +10577,7 @@
         "g": "a51faa8090a268f4",
         "name": "notification",
         "mode": "link",
-        "links": [
-            "60e14e33a793f50d"
-        ],
+        "links": [],
         "x": 2185,
         "y": 500,
         "wires": []
@@ -33914,10 +31494,10 @@
         "type": "link out",
         "z": "bf279eb7eda19fd7",
         "g": "83efa2d173d9dca5",
-        "name": "doorbell button pushed and frontdoor openend",
+        "name": "doorbell button pushed and frontdoor opens",
         "mode": "link",
         "links": [
-            "332b4739e9d3ed0c"
+            "a3e9edcbf9adf53d"
         ],
         "x": 1255,
         "y": 1680,
@@ -35594,7 +33174,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 1100,
-        "y": 1560,
+        "y": 1680,
         "wires": [
             []
         ]
@@ -35626,7 +33206,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 1100,
-        "y": 1620,
+        "y": 1740,
         "wires": [
             []
         ]
@@ -35669,7 +33249,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 590,
-        "y": 1560,
+        "y": 1680,
         "wires": [
             [
                 "db49a00d5adc0cb7"
@@ -35715,7 +33295,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 590,
-        "y": 1620,
+        "y": 1740,
         "wires": [
             [
                 "a5689ff4c9a82d8e"
@@ -35763,7 +33343,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 850,
-        "y": 1620,
+        "y": 1740,
         "wires": [
             [
                 "0b64f5a2e27c31f0"
@@ -35804,7 +33384,7 @@
         "ignoreCurrentStateUnavailable": true,
         "outputProperties": [],
         "x": 160,
-        "y": 1560,
+        "y": 1680,
         "wires": [
             [
                 "19e3c39a7481e04b"
@@ -35825,7 +33405,7 @@
         "payloadval": "0",
         "name": "",
         "x": 370,
-        "y": 1620,
+        "y": 1740,
         "wires": [
             [
                 "b13ee71e7f09ace4"
@@ -35932,7 +33512,7 @@
         "name": "turn on soutterain stairs light when door opens",
         "info": "",
         "x": 230,
-        "y": 1520,
+        "y": 1640,
         "wires": []
     },
     {
@@ -36169,7 +33749,7 @@
         "name": "turn off lights when sleepmode turns on or the house is unoccupied",
         "info": "",
         "x": 300,
-        "y": 1720,
+        "y": 1840,
         "wires": []
     },
     {
@@ -36179,7 +33759,7 @@
         "g": "154e9175574484d1",
         "name": "",
         "x": 190,
-        "y": 1760,
+        "y": 1880,
         "wires": [
             [
                 "7b714d579d4f8f68"
@@ -36213,7 +33793,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 410,
-        "y": 1760,
+        "y": 1880,
         "wires": [
             []
         ]
@@ -36228,7 +33808,7 @@
             "e6b9ff42fde3ea4e"
         ],
         "x": 305,
-        "y": 1800,
+        "y": 1920,
         "wires": [
             [
                 "7b714d579d4f8f68"
@@ -36686,7 +34266,7 @@
         "outputLocation": "light_state",
         "outputResultsCount": 1,
         "x": 410,
-        "y": 1940,
+        "y": 2060,
         "wires": [
             [
                 "2e1f9bb99caa0a69"
@@ -36714,7 +34294,7 @@
         "to": "",
         "reg": false,
         "x": 590,
-        "y": 1940,
+        "y": 2060,
         "wires": [
             [
                 "892cb88898854d3a"
@@ -36735,7 +34315,7 @@
         "addname": "",
         "property": "light_state",
         "x": 750,
-        "y": 1940,
+        "y": 2060,
         "wires": [
             [
                 "896d27328839bee7"
@@ -36769,7 +34349,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 910,
-        "y": 1940,
+        "y": 2060,
         "wires": [
             []
         ]
@@ -36801,7 +34381,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 910,
-        "y": 2100,
+        "y": 2220,
         "wires": [
             []
         ]
@@ -36827,7 +34407,7 @@
         "to": "",
         "reg": false,
         "x": 440,
-        "y": 2040,
+        "y": 2160,
         "wires": [
             [
                 "a8317c0efd0cf117"
@@ -36848,7 +34428,7 @@
         "addname": "",
         "property": "light_state",
         "x": 610,
-        "y": 2040,
+        "y": 2160,
         "wires": [
             [
                 "89c264aac7600432"
@@ -36879,7 +34459,7 @@
         "repair": false,
         "outputs": 2,
         "x": 750,
-        "y": 2040,
+        "y": 2160,
         "wires": [
             [
                 "fef8a20f3e3f6a9c"
@@ -36916,7 +34496,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 910,
-        "y": 2040,
+        "y": 2160,
         "wires": [
             []
         ]
@@ -36931,7 +34511,7 @@
             "5874beb71c3c9523"
         ],
         "x": 305,
-        "y": 1940,
+        "y": 2060,
         "wires": [
             [
                 "8275c1b6dda4aadb"
@@ -36949,7 +34529,7 @@
             "5a1c4daf23c47d8e"
         ],
         "x": 305,
-        "y": 2040,
+        "y": 2160,
         "wires": [
             [
                 "720d3acfb843dbbd"
@@ -36964,7 +34544,7 @@
         "name": "store current light state in context then turn on all lights in alarm state",
         "info": "",
         "x": 300,
-        "y": 1900,
+        "y": 2020,
         "wires": []
     },
     {
@@ -36975,7 +34555,7 @@
         "name": "restore light state based on values in the context store",
         "info": "",
         "x": 260,
-        "y": 2000,
+        "y": 2120,
         "wires": []
     },
     {
@@ -37644,6 +35224,275 @@
         ],
         "x": 1255,
         "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "e406b6dbb483e2b5",
+        "type": "api-current-state",
+        "z": "a09ad053d19f1d06",
+        "g": "797bec77d0256f03",
+        "name": "persons not home",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "not_home",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "group.persons",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 290,
+        "y": 1520,
+        "wires": [
+            [
+                "d14719d850055b7f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d14719d850055b7f",
+        "type": "api-current-state",
+        "z": "a09ad053d19f1d06",
+        "g": "797bec77d0256f03",
+        "name": "guest mode is off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "input_boolean.guest",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 490,
+        "y": 1520,
+        "wires": [
+            [
+                "e66b4a5f22a86a92"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e66b4a5f22a86a92",
+        "type": "api-current-state",
+        "z": "a09ad053d19f1d06",
+        "g": "797bec77d0256f03",
+        "name": "washingmachine is off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "binary_sensor.washing_machine",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 700,
+        "y": 1520,
+        "wires": [
+            [
+                "3bfcbb604faf22f2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3bfcbb604faf22f2",
+        "type": "api-current-state",
+        "z": "a09ad053d19f1d06",
+        "g": "797bec77d0256f03",
+        "name": "dishwasher is off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "binary_sensor.dishwasher",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 910,
+        "y": 1520,
+        "wires": [
+            [
+                "d2e4e2820280beb3"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "fb752b2f4a73e460",
+        "type": "server-state-changed",
+        "z": "a09ad053d19f1d06",
+        "g": "797bec77d0256f03",
+        "name": "water sensor",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "sensor.watermeter_pulse"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "1",
+        "ifStateType": "num",
+        "ifStateOperator": "gt",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 110,
+        "y": 1520,
+        "wires": [
+            [
+                "e406b6dbb483e2b5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c82e0fea11c34b12",
+        "type": "comment",
+        "z": "a09ad053d19f1d06",
+        "g": "797bec77d0256f03",
+        "name": "send notification when water flow is detected but no machine the could use water is running",
+        "info": "",
+        "x": 350,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "d2e4e2820280beb3",
+        "type": "link out",
+        "z": "a09ad053d19f1d06",
+        "g": "797bec77d0256f03",
+        "name": "waterflow detected but machines are off",
+        "mode": "link",
+        "links": [
+            "bc908d1405bda7ea"
+        ],
+        "x": 1035,
+        "y": 1520,
         "wires": []
     },
     {
@@ -38326,9 +36175,7 @@
         "g": "02e14c21061265e1",
         "name": "notification",
         "mode": "link",
-        "links": [
-            "60e14e33a793f50d"
-        ],
+        "links": [],
         "x": 1725,
         "y": 640,
         "wires": []
@@ -48164,7 +46011,6 @@
             "4a713c76ca8ffd14",
             "4a784feb385d8d36",
             "5049d35f7101b540",
-            "517ccc4fadd46551",
             "598fe34c24ec541e",
             "5a32d7dd7b01f6db",
             "6ab4fe8e04f4839f",
@@ -48181,7 +46027,6 @@
             "fd1316bc77e6a6dd",
             "fef971c806c0156d",
             "df0d2da9dc486e6f",
-            "b598f692239c91be",
             "849379e6f7939a8c"
         ],
         "x": 265,
@@ -52542,7 +50387,6 @@
         "z": "edbbe41e31b072c6",
         "name": "doorbell button pushed",
         "links": [
-            "4634d81b11ef6062",
             "e188c5d43cc22d55"
         ],
         "x": 265,
@@ -52576,8 +50420,10 @@
         "id": "a3e9edcbf9adf53d",
         "type": "link in",
         "z": "edbbe41e31b072c6",
-        "name": "doorbell button pushed and frontdoor openend",
-        "links": [],
+        "name": "doorbell button pushed and frontdoor opens",
+        "links": [
+            "4634d81b11ef6062"
+        ],
         "x": 265,
         "y": 1060,
         "wires": [
@@ -53676,6 +51522,75 @@
         "wires": []
     },
     {
+        "id": "d60af5e166ac64c7",
+        "type": "function",
+        "z": "edbbe41e31b072c6",
+        "name": "waterflow detection",
+        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Waarschuwing\",\n    icon: \"\",\n    tag: msg.tag || \"waterflow\",\n    notification_id: \"waterflow\",\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 2280,
+        "wires": [
+            [
+                "ac1eddffbc27f46b"
+            ]
+        ]
+    },
+    {
+        "id": "76b2b2fcd5922030",
+        "type": "template",
+        "z": "edbbe41e31b072c6",
+        "name": "message",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Er is water verbruik gedetecteerd, niemand is aanwezig in huis en apparaten die water verbruiken staan uit!",
+        "output": "str",
+        "x": 780,
+        "y": 2280,
+        "wires": [
+            [
+                "d60af5e166ac64c7"
+            ]
+        ]
+    },
+    {
+        "id": "bc908d1405bda7ea",
+        "type": "link in",
+        "z": "edbbe41e31b072c6",
+        "name": "waterflow detected but machines are off",
+        "links": [
+            "d2e4e2820280beb3"
+        ],
+        "x": 265,
+        "y": 2280,
+        "wires": [
+            [
+                "76b2b2fcd5922030"
+            ]
+        ]
+    },
+    {
+        "id": "ac1eddffbc27f46b",
+        "type": "link out",
+        "z": "edbbe41e31b072c6",
+        "name": "waterflow detected but machines are off",
+        "mode": "link",
+        "links": [
+            "39fe1680119f6b36",
+            "9286a72a2355f5ca"
+        ],
+        "x": 1175,
+        "y": 2280,
+        "wires": []
+    },
+    {
         "id": "3675d2d1160c6b61",
         "type": "api-call-service",
         "z": "3611a09f77ab1873",
@@ -53904,14 +51819,11 @@
         "name": "notify_coen",
         "links": [
             "8c93b438701888a6",
-            "73e546f49b2e02e1",
             "2c0a57bd6ee87009",
             "17c484a9c9a917ac",
-            "ef18c5c2564a7e77",
             "2e9e2b02c8f4b00b",
             "8e10f7084a1fb496",
             "7776b1f9419bbd45",
-            "e979b5648c1846fb",
             "752dd6dc72bedb27",
             "cb94648059d3cbe6",
             "4b7eeb8450582627",
@@ -53923,7 +51835,8 @@
             "d7e3a3887f5d504a",
             "483080d20837e868",
             "d3903da3b2775ffd",
-            "072ee114afd5a910"
+            "072ee114afd5a910",
+            "ac1eddffbc27f46b"
         ],
         "x": 295,
         "y": 320,
@@ -53939,9 +51852,7 @@
         "z": "3611a09f77ab1873",
         "name": "notify_anne",
         "links": [
-            "ef18c5c2564a7e77",
             "2e9e2b02c8f4b00b",
-            "e979b5648c1846fb",
             "752dd6dc72bedb27",
             "cb94648059d3cbe6",
             "4b7eeb8450582627",
@@ -53950,7 +51861,8 @@
             "89e0405cd70f5206",
             "d7e3a3887f5d504a",
             "483080d20837e868",
-            "072ee114afd5a910"
+            "072ee114afd5a910",
+            "ac1eddffbc27f46b"
         ],
         "x": 295,
         "y": 380,
@@ -54106,15 +52018,10 @@
         "name": "notify_in_app",
         "links": [
             "8c93b438701888a6",
-            "73e546f49b2e02e1",
             "2c0a57bd6ee87009",
             "17c484a9c9a917ac",
             "13f2b7ca42c4eca2",
-            "c026370f826e5d5f",
-            "588232826fe1cb16",
             "a1d22443632b6c95",
-            "dac0d4dda81abc95",
-            "c84220140a8c71a3",
             "fcbba10709360bf0",
             "388c6c30bcb85720",
             "a6196b4738721e31",
@@ -54144,7 +52051,6 @@
             "eac587a7da6b3661",
             "ccb7ef12d5532abb",
             "ccda14a2b42b3ef8",
-            "e979b5648c1846fb",
             "72c4b873d76d1aea",
             "1cdb96d7083434cf",
             "85da6e2bed894b4c",
@@ -54178,7 +52084,6 @@
         "z": "3611a09f77ab1873",
         "name": "notify_in_tts_wall_tablet",
         "links": [
-            "e979b5648c1846fb",
             "44d4424b2bc54756",
             "cb94648059d3cbe6",
             "4b7eeb8450582627",
@@ -55802,11 +53707,11 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 180,
+        "x": 200,
         "y": 680,
         "wires": [
             [
-                "6f4bac3366b09c0a"
+                "18cafe95cc481dfa"
             ],
             []
         ]
@@ -55837,8 +53742,8 @@
         "blockInputOverrides": true,
         "domain": "todo",
         "service": "add_item",
-        "x": 620,
-        "y": 680,
+        "x": 2020,
+        "y": 740,
         "wires": [
             []
         ]
@@ -55856,8 +53761,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 410,
-        "y": 680,
+        "x": 1810,
+        "y": 740,
         "wires": [
             [
                 "50299601428d86dd"
@@ -55869,16 +53774,17 @@
         "type": "comment",
         "z": "b8d98c82eb2488b9",
         "g": "4e1beacde852f70d",
-        "name": "create todo item when garbage collection is tomorrow",
+        "name": "create todo item when garbage collection is tomorrow and it doesn't exist",
         "info": "",
-        "x": 240,
+        "x": 320,
         "y": 640,
         "wires": []
     },
     {
-        "id": "0dfbfe294e06ebbf",
+        "id": "18cafe95cc481dfa",
         "type": "api-call-service",
         "z": "b8d98c82eb2488b9",
+        "g": "4e1beacde852f70d",
         "name": "",
         "server": "4ba92433.2478cc",
         "version": 7,
@@ -55907,63 +53813,70 @@
         "blockInputOverrides": true,
         "domain": "todo",
         "service": "get_items",
-        "x": 580,
-        "y": 840,
+        "x": 440,
+        "y": 680,
         "wires": [
             [
-                "f230f224c3c1d1ca"
+                "74ce0b012c485742"
             ]
         ]
     },
     {
-        "id": "83e361a65a77e0bd",
-        "type": "api-current-state",
+        "id": "74ce0b012c485742",
+        "type": "switch",
         "z": "b8d98c82eb2488b9",
-        "name": "garbage tomorrow",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "Geen",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "sensor.afval_morgen",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
+        "g": "4e1beacde852f70d",
+        "name": "",
+        "property": "todo_results[\"todo.schoonmaak\"].items",
+        "propertyType": "msg",
+        "rules": [
             {
-                "property": "garbage_type",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
+                "t": "empty"
             },
             {
-                "property": "garbage_data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
+                "t": "else"
             }
         ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 370,
-        "y": 840,
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 590,
+        "y": 680,
         "wires": [
             [
-                "0dfbfe294e06ebbf"
+                "1c24238d54f558c4"
             ],
-            []
+            [
+                "06f22bccb39ea01a"
+            ]
         ]
     },
     {
-        "id": "f230f224c3c1d1ca",
+        "id": "09eb9ceb514414f3",
+        "type": "function",
+        "z": "b8d98c82eb2488b9",
+        "g": "4e1beacde852f70d",
+        "name": "filter",
+        "func": "if (msg.match1 && msg.match2) {\n    return null;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1650,
+        "y": 740,
+        "wires": [
+            [
+                "6f4bac3366b09c0a"
+            ]
+        ]
+    },
+    {
+        "id": "06f22bccb39ea01a",
         "type": "split",
         "z": "b8d98c82eb2488b9",
+        "g": "4e1beacde852f70d",
         "name": "",
         "splt": "\\n",
         "spltType": "str",
@@ -55973,151 +53886,157 @@
         "addname": "",
         "property": "todo_results[\"todo.schoonmaak\"].items",
         "x": 730,
-        "y": 840,
+        "y": 720,
         "wires": [
             [
-                "cc6b29b70ba96096"
+                "bc68a28bf78ff171"
             ]
         ]
     },
     {
-        "id": "cee793f87b40ba7e",
-        "type": "function",
-        "z": "b8d98c82eb2488b9",
-        "name": "filter",
-        "func": "// normalize function: lowercase + remove spaces/dashes\nfunction normalize(str) {\n    return str.toLowerCase().replace(/[-\\s]/g, \"\");\n}\n\nconst todo_summary = normalize(msg.todo_results[\"todo.schoonmaak\"].items.summary);\nconst garbagecontainer = normalize(msg.garbage_type) + \"container\";\n\nconst todo_description = msg.todo_results[\"todo.schoonmaak\"].items.description;\nconst garbage_pickupdate = msg.garbage_data.attributes.date;\n\nif (todo_summary.includes(garbagecontainer) && todo_description.includes(garbage_pickupdate)) {\n    return msg;\n}\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 970,
-        "y": 840,
-        "wires": [
-            [
-                "9281d9303244406a"
-            ]
-        ]
-    },
-    {
-        "id": "cc6b29b70ba96096",
+        "id": "bc68a28bf78ff171",
         "type": "switch",
         "z": "b8d98c82eb2488b9",
+        "g": "4e1beacde852f70d",
         "name": "",
-        "property": "msg.todo_results[\"todo.schoonmaak\"].items.status",
+        "property": "todo_results[\"todo.schoonmaak\"].items.summary",
         "propertyType": "msg",
         "rules": [
             {
-                "t": "eq",
-                "v": "needs_action",
-                "vt": "str"
+                "t": "cont",
+                "v": "payload",
+                "vt": "msg"
+            },
+            {
+                "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 1,
+        "outputs": 2,
         "x": 850,
-        "y": 840,
+        "y": 720,
         "wires": [
             [
-                "cee793f87b40ba7e"
+                "fd007fddb706be5d"
+            ],
+            [
+                "1c71ec8e21bc2634"
             ]
         ]
     },
     {
-        "id": "ec06df82a26c1e32",
-        "type": "comment",
+        "id": "fd007fddb706be5d",
+        "type": "change",
         "z": "b8d98c82eb2488b9",
-        "name": "send garbage notification if todo task needs action and contains the garbage type and date",
-        "info": "",
-        "x": 330,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "09cb71945b350a9b",
-        "type": "api-current-state",
-        "z": "b8d98c82eb2488b9",
-        "name": "garbage today",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "Geen",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "sensor.afval_vandaag",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
+        "g": "4e1beacde852f70d",
+        "name": "match garbage type",
+        "rules": [
             {
-                "property": "garbage_type",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "garbage_data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
+                "t": "set",
+                "p": "match1",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
             }
         ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 380,
-        "y": 900,
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 700,
         "wires": [
             [
-                "0dfbfe294e06ebbf"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "483bd6b2b8e82f13",
-        "type": "time-range-switch",
-        "z": "b8d98c82eb2488b9",
-        "name": "",
-        "lat": "52.0434",
-        "lon": "5.6773",
-        "startTime": "05:00",
-        "endTime": "00:00",
-        "startOffset": 0,
-        "endOffset": 0,
-        "x": 170,
-        "y": 840,
-        "wires": [
-            [
-                "83e361a65a77e0bd"
-            ],
-            [
-                "09cb71945b350a9b"
+                "319b204aaa793554"
             ]
         ]
     },
     {
-        "id": "9281d9303244406a",
-        "type": "function",
+        "id": "319b204aaa793554",
+        "type": "switch",
         "z": "b8d98c82eb2488b9",
-        "name": "message",
-        "func": "msg.notify = {}\n\nif (msg.payload === \"GFT\" || msg.payload === \"PMD\") {\n    msg.notify.message = \"Let op, de \" + msg.payload + \"-container moet aan de weg worden gezet\"\n}\nelse {\n    msg.notify.message = \"Let op, de \" + msg.payload.toLower() + \"container moet aan de weg worden gezet\"\n}\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1100,
-        "y": 840,
+        "g": "4e1beacde852f70d",
+        "name": "",
+        "property": "todo_results[\"todo.schoonmaak\"].items.description",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "data.new_state.attributes.date",
+                "vt": "msg"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1190,
+        "y": 700,
         "wires": [
-            []
+            [
+                "df61f4ea1beafc2d"
+            ],
+            [
+                "91917476cba30405"
+            ]
+        ]
+    },
+    {
+        "id": "df61f4ea1beafc2d",
+        "type": "change",
+        "z": "b8d98c82eb2488b9",
+        "g": "4e1beacde852f70d",
+        "name": "match description",
+        "rules": [
+            {
+                "t": "set",
+                "p": "match2",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1350,
+        "y": 680,
+        "wires": [
+            [
+                "f1744436bf4645f2"
+            ]
+        ]
+    },
+    {
+        "id": "f1744436bf4645f2",
+        "type": "join",
+        "z": "b8d98c82eb2488b9",
+        "g": "4e1beacde852f70d",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 1530,
+        "y": 740,
+        "wires": [
+            [
+                "09eb9ceb514414f3"
+            ]
         ]
     }
 ]
