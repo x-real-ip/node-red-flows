@@ -1443,12 +1443,15 @@
             "36cd7ff9968a8857",
             "efaf9a399a91cc6a",
             "eac6d376f26390fe",
-            "6ab4fe8e04f4839f"
+            "6ab4fe8e04f4839f",
+            "98dd5da045366f4f",
+            "a4f6b88e4f08955d",
+            "b2c2fadb2c3302b7"
         ],
         "x": 14,
         "y": 699,
         "w": 772,
-        "h": 182
+        "h": 222
     },
     {
         "id": "53739d10393c26e2",
@@ -2090,20 +2093,16 @@
             "ee06a5486ff3cfbf",
             "b025d049cb38b4d4",
             "dbf7a6ece449fcfd",
-            "85fbde29204040b6",
-            "3a2637edf92461f4",
-            "347f94b7271ae995",
-            "888d7802d1ad8836",
-            "9124cbf6fd9b1480",
             "e3d6041fbd9d3e9b",
-            "c8891a8ac17ad37f",
             "cece073f3809811f",
-            "8ead7d07068c9388"
+            "8ead7d07068c9388",
+            "3de7619c5f6c6ecd",
+            "1f0fe76c488b32e7"
         ],
         "x": 14,
-        "y": 899,
+        "y": 939,
         "w": 2572,
-        "h": 668
+        "h": 542
     },
     {
         "id": "59d661e86ca6893c",
@@ -5142,30 +5141,6 @@
         "h": 182
     },
     {
-        "id": "c8891a8ac17ad37f",
-        "type": "group",
-        "z": "bf279eb7eda19fd7",
-        "g": "b8b2c52ce29b1b66",
-        "name": "notify two actions",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "ea9e3f11186f2606",
-            "dc0afdf8dedd0ac0",
-            "310daf51d434b8fa",
-            "e77ba69902680e0b",
-            "c69b61919d7e7aa6",
-            "440133efbc2eedaf",
-            "df7554ad18fe6c0f",
-            "4a2f429585c110e6"
-        ],
-        "x": 1894,
-        "y": 959,
-        "w": 412,
-        "h": 282
-    },
-    {
         "id": "cece073f3809811f",
         "type": "group",
         "z": "bf279eb7eda19fd7",
@@ -5184,8 +5159,8 @@
             "6d3057460cedca79",
             "9073a07bb4241ea7"
         ],
-        "x": 1894,
-        "y": 1259,
+        "x": 1814,
+        "y": 1139,
         "w": 412,
         "h": 282
     },
@@ -6613,6 +6588,32 @@
         "h": 122
     },
     {
+        "id": "fdf9531a8f11debc",
+        "type": "group",
+        "z": "e44f5d834fa24670",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "85fbde29204040b6",
+            "347f94b7271ae995",
+            "9124cbf6fd9b1480",
+            "67d3120303e32f66",
+            "fb2447123ae5adb8",
+            "733336f9e7f40f7a"
+        ],
+        "x": 14,
+        "y": 1099,
+        "w": 512,
+        "h": 202
+    },
+    {
         "id": "5cb88a741e06d0c9",
         "type": "junction",
         "z": "75537afd17de5117",
@@ -6838,30 +6839,12 @@
         ]
     },
     {
-        "id": "e77ba69902680e0b",
-        "type": "junction",
-        "z": "bf279eb7eda19fd7",
-        "g": "c8891a8ac17ad37f",
-        "x": 1920,
-        "y": 1040,
-        "wires": [
-            [
-                "ea9e3f11186f2606",
-                "dc0afdf8dedd0ac0",
-                "c69b61919d7e7aa6",
-                "440133efbc2eedaf",
-                "df7554ad18fe6c0f",
-                "4a2f429585c110e6"
-            ]
-        ]
-    },
-    {
         "id": "216dba61cca4a879",
         "type": "junction",
         "z": "bf279eb7eda19fd7",
         "g": "cece073f3809811f",
-        "x": 1920,
-        "y": 1340,
+        "x": 1840,
+        "y": 1220,
         "wires": [
             [
                 "123e28cddf1fbf78",
@@ -6878,8 +6861,8 @@
         "type": "junction",
         "z": "bf279eb7eda19fd7",
         "g": "b8b2c52ce29b1b66",
-        "x": 860,
-        "y": 1160,
+        "x": 780,
+        "y": 1100,
         "wires": [
             [
                 "8f8e3faeb54f8394"
@@ -28669,10 +28652,11 @@
         "name": "turn on doorbell active",
         "links": [
             "c07ca02ed810efe8",
-            "e6b9ff42fde3ea4e"
+            "e6b9ff42fde3ea4e",
+            "fb2447123ae5adb8"
         ],
         "x": 285,
-        "y": 840,
+        "y": 820,
         "wires": [
             [
                 "36cd7ff9968a8857"
@@ -28696,8 +28680,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1480,
-        "y": 1100,
+        "x": 1400,
+        "y": 1040,
         "wires": [
             [
                 "d02b2605ae51ac23"
@@ -28717,8 +28701,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1140,
-        "y": 1100,
+        "x": 1060,
+        "y": 1040,
         "wires": [
             [
                 "c2a7d0ee7636ca8d"
@@ -28737,8 +28721,8 @@
         "endTime": "22:00",
         "startOffset": 0,
         "endOffset": "",
-        "x": 430,
-        "y": 1120,
+        "x": 350,
+        "y": 1060,
         "wires": [
             [
                 "ef42d8d44fa3d5e9"
@@ -28766,8 +28750,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1320,
-        "y": 1100,
+        "x": 1240,
+        "y": 1040,
         "wires": [
             [
                 "0191b5a7e181f3f2"
@@ -28790,8 +28774,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1610,
-        "y": 1100,
+        "x": 1530,
+        "y": 1040,
         "wires": [
             [
                 "ee06a5486ff3cfbf"
@@ -28822,8 +28806,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 770,
-        "y": 1120,
+        "x": 690,
+        "y": 1060,
         "wires": [
             [
                 "f39fa236c5361da4"
@@ -28850,8 +28834,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1480,
-        "y": 1160,
+        "x": 1400,
+        "y": 1100,
         "wires": [
             [
                 "7a639c0592294913"
@@ -28871,8 +28855,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1140,
-        "y": 1160,
+        "x": 1060,
+        "y": 1100,
         "wires": [
             [
                 "4e8fdb348ee3dbd1"
@@ -28899,8 +28883,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1320,
-        "y": 1160,
+        "x": 1240,
+        "y": 1100,
         "wires": [
             [
                 "6043eee441c1f146"
@@ -28923,8 +28907,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1610,
-        "y": 1160,
+        "x": 1530,
+        "y": 1100,
         "wires": [
             [
                 "b025d049cb38b4d4"
@@ -28942,7 +28926,7 @@
             "c76d311bb4b6991b"
         ],
         "x": 2545,
-        "y": 1100,
+        "y": 1140,
         "wires": []
     },
     {
@@ -28971,8 +28955,8 @@
         "checkCurrentState": true,
         "blockInputOverrides": true,
         "outputProperties": [],
-        "x": 950,
-        "y": 1100,
+        "x": 870,
+        "y": 1040,
         "wires": [
             [
                 "633c48d3bee4c03a"
@@ -29018,7 +29002,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 2420,
-        "y": 1100,
+        "y": 1140,
         "wires": [
             [
                 "76568807668461a0"
@@ -29037,7 +29021,7 @@
             "d1753081ba6b4004"
         ],
         "x": 2535,
-        "y": 1400,
+        "y": 1440,
         "wires": []
     },
     {
@@ -29078,7 +29062,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 2410,
-        "y": 1400,
+        "y": 1440,
         "wires": [
             [
                 "a38691fbb41a64b9"
@@ -29110,8 +29094,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 600,
-        "y": 1120,
+        "x": 520,
+        "y": 1060,
         "wires": [
             [
                 "7ece915ddab6671e"
@@ -29137,11 +29121,11 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 1750,
-        "y": 1100,
+        "x": 1670,
+        "y": 1040,
         "wires": [
             [
-                "e77ba69902680e0b"
+                "3de7619c5f6c6ecd"
             ]
         ]
     },
@@ -29163,191 +29147,12 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 1750,
-        "y": 1160,
-        "wires": [
-            [
-                "216dba61cca4a879"
-            ]
-        ]
-    },
-    {
-        "id": "ea9e3f11186f2606",
-        "type": "template",
-        "z": "bf279eb7eda19fd7",
-        "g": "c8891a8ac17ad37f",
-        "name": "icon",
-        "field": "notify.icon",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "doorbell",
-        "output": "str",
-        "x": 2010,
-        "y": 1080,
-        "wires": [
-            [
-                "310daf51d434b8fa"
-            ]
-        ]
-    },
-    {
-        "id": "dc0afdf8dedd0ac0",
-        "type": "template",
-        "z": "bf279eb7eda19fd7",
-        "g": "c8891a8ac17ad37f",
-        "name": "title",
-        "field": "notify.title",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Deurbel",
-        "output": "str",
-        "x": 2010,
-        "y": 1000,
-        "wires": [
-            [
-                "310daf51d434b8fa"
-            ]
-        ]
-    },
-    {
-        "id": "310daf51d434b8fa",
-        "type": "join",
-        "z": "bf279eb7eda19fd7",
-        "g": "c8891a8ac17ad37f",
-        "name": "",
-        "mode": "custom",
-        "build": "merged",
-        "property": "notify",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "useparts": true,
-        "accumulate": false,
-        "timeout": "",
-        "count": "9",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 2230,
+        "x": 1670,
         "y": 1100,
         "wires": [
             [
-                "82a4a31aec7e8bc4",
-                "f83cd17851531b80"
-            ]
-        ]
-    },
-    {
-        "id": "c69b61919d7e7aa6",
-        "type": "change",
-        "z": "bf279eb7eda19fd7",
-        "g": "c8891a8ac17ad37f",
-        "name": "action titles",
-        "rules": [
-            {
-                "t": "set",
-                "p": "notify.action_1_title",
-                "pt": "msg",
-                "to": "JA",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "notify.action_2_title",
-                "pt": "msg",
-                "to": "NEE",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "notify.action_1",
-                "pt": "msg",
-                "to": "DOORBELL_OFF",
-                "tot": "str"
-            },
-            {
-                "t": "set",
-                "p": "notify.action_2",
-                "pt": "msg",
-                "to": "IGNORE",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 2030,
-        "y": 1040,
-        "wires": [
-            [
-                "310daf51d434b8fa"
-            ]
-        ]
-    },
-    {
-        "id": "440133efbc2eedaf",
-        "type": "template",
-        "z": "bf279eb7eda19fd7",
-        "g": "c8891a8ac17ad37f",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Het lijkt er op dat Beau gaat slapen, wil je het geluid van de deurbel uitschakelen?",
-        "output": "str",
-        "x": 2020,
-        "y": 1120,
-        "wires": [
-            [
-                "310daf51d434b8fa"
-            ]
-        ]
-    },
-    {
-        "id": "df7554ad18fe6c0f",
-        "type": "template",
-        "z": "bf279eb7eda19fd7",
-        "g": "c8891a8ac17ad37f",
-        "name": "notification id",
-        "field": "notify.notification_id",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "deurbel",
-        "output": "str",
-        "x": 2030,
-        "y": 1160,
-        "wires": [
-            [
-                "310daf51d434b8fa"
-            ]
-        ]
-    },
-    {
-        "id": "4a2f429585c110e6",
-        "type": "template",
-        "z": "bf279eb7eda19fd7",
-        "g": "c8891a8ac17ad37f",
-        "name": "tag",
-        "field": "notify.tag",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "deurbel",
-        "output": "str",
-        "x": 2010,
-        "y": 1200,
-        "wires": [
-            [
-                "310daf51d434b8fa"
+                "216dba61cca4a879",
+                "1f0fe76c488b32e7"
             ]
         ]
     },
@@ -29363,8 +29168,8 @@
         "syntax": "mustache",
         "template": "doorbell",
         "output": "str",
-        "x": 2010,
-        "y": 1380,
+        "x": 1930,
+        "y": 1260,
         "wires": [
             [
                 "a525b5caf447ba92"
@@ -29383,8 +29188,8 @@
         "syntax": "mustache",
         "template": "Deurbel",
         "output": "str",
-        "x": 2010,
-        "y": 1300,
+        "x": 1930,
+        "y": 1180,
         "wires": [
             [
                 "a525b5caf447ba92"
@@ -29413,8 +29218,8 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 2230,
-        "y": 1400,
+        "x": 2150,
+        "y": 1280,
         "wires": [
             [
                 "82a4a31aec7e8bc4",
@@ -29463,8 +29268,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2030,
-        "y": 1340,
+        "x": 1950,
+        "y": 1220,
         "wires": [
             [
                 "a525b5caf447ba92"
@@ -29483,8 +29288,8 @@
         "syntax": "mustache",
         "template": "Het lijkt er op dat Beau wakker is, wil je het geluid van de deurbel weer aanzetten?",
         "output": "str",
-        "x": 2020,
-        "y": 1420,
+        "x": 1940,
+        "y": 1300,
         "wires": [
             [
                 "a525b5caf447ba92"
@@ -29503,8 +29308,8 @@
         "syntax": "mustache",
         "template": "deurbel",
         "output": "str",
-        "x": 2030,
-        "y": 1460,
+        "x": 1950,
+        "y": 1340,
         "wires": [
             [
                 "a525b5caf447ba92"
@@ -29523,8 +29328,8 @@
         "syntax": "mustache",
         "template": "deurbel",
         "output": "str",
-        "x": 2010,
-        "y": 1500,
+        "x": 1930,
+        "y": 1380,
         "wires": [
             [
                 "a525b5caf447ba92"
@@ -29539,176 +29344,8 @@
         "name": "send notification to aks if the doorbell must be turned off or not when child is going to bed",
         "info": "",
         "x": 350,
-        "y": 940,
+        "y": 980,
         "wires": []
-    },
-    {
-        "id": "85fbde29204040b6",
-        "type": "server-events",
-        "z": "bf279eb7eda19fd7",
-        "g": "b8b2c52ce29b1b66",
-        "name": "mobile event listner",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "exposeAsEntityConfig": "",
-        "eventType": "mobile_app_notification_action",
-        "eventData": "{\"action\":\"DOORBELL_OFF\"}",
-        "waitForRunning": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "$outputData(\"eventData\").event_type",
-                "valueType": "jsonata"
-            }
-        ],
-        "event_type": "",
-        "x": 130,
-        "y": 980,
-        "wires": [
-            [
-                "3a2637edf92461f4"
-            ]
-        ]
-    },
-    {
-        "id": "3a2637edf92461f4",
-        "type": "api-call-service",
-        "z": "bf279eb7eda19fd7",
-        "g": "b8b2c52ce29b1b66",
-        "name": "turn off doorbell",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "switch.turn_off",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "switch.smart_doorbell_active"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "switch",
-        "service": "turn_off",
-        "x": 400,
-        "y": 980,
-        "wires": [
-            [
-                "9124cbf6fd9b1480"
-            ]
-        ]
-    },
-    {
-        "id": "347f94b7271ae995",
-        "type": "server-events",
-        "z": "bf279eb7eda19fd7",
-        "g": "b8b2c52ce29b1b66",
-        "name": "mobile event listner",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "exposeAsEntityConfig": "",
-        "eventType": "mobile_app_notification_action",
-        "eventData": "{\"action\":\"DOORBELL_ON\"}",
-        "waitForRunning": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "$outputData(\"eventData\").event_type",
-                "valueType": "jsonata"
-            }
-        ],
-        "event_type": "",
-        "x": 130,
-        "y": 1040,
-        "wires": [
-            [
-                "888d7802d1ad8836"
-            ]
-        ]
-    },
-    {
-        "id": "888d7802d1ad8836",
-        "type": "api-call-service",
-        "z": "bf279eb7eda19fd7",
-        "g": "b8b2c52ce29b1b66",
-        "name": "turn on doorbell",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "switch.turn_on",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "switch.smart_doorbell_active"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "switch",
-        "service": "turn_on",
-        "x": 400,
-        "y": 1040,
-        "wires": [
-            [
-                "9124cbf6fd9b1480"
-            ]
-        ]
-    },
-    {
-        "id": "9124cbf6fd9b1480",
-        "type": "api-call-service",
-        "z": "bf279eb7eda19fd7",
-        "g": "b8b2c52ce29b1b66",
-        "name": "dismiss notification",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "notify.notify",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"message\":\"clear_notification\",\"data\":{\"tag\":\"deurbel\"}}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "notify",
-        "service": "notify",
-        "x": 670,
-        "y": 980,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "8ead7d07068c9388",
@@ -29719,8 +29356,8 @@
         "links": [
             "9bd1e275ca1ee67b"
         ],
-        "x": 325,
-        "y": 1120,
+        "x": 245,
+        "y": 1060,
         "wires": [
             [
                 "78e328d45f917a20"
@@ -31494,10 +31131,10 @@
         "type": "link out",
         "z": "bf279eb7eda19fd7",
         "g": "83efa2d173d9dca5",
-        "name": "doorbell button pushed and frontdoor openend",
+        "name": "doorbell button pushed and frontdoor opens",
         "mode": "link",
         "links": [
-            "332b4739e9d3ed0c"
+            "a3e9edcbf9adf53d"
         ],
         "x": 1255,
         "y": 1680,
@@ -31606,6 +31243,122 @@
         ],
         "x": 535,
         "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "98dd5da045366f4f",
+        "type": "api-current-state",
+        "z": "bf279eb7eda19fd7",
+        "g": "4449f91efc0583a7",
+        "name": "state doorbell active is on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "on",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "switch.smart_doorbell_active",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "x": 430,
+        "y": 880,
+        "wires": [
+            [
+                "b2c2fadb2c3302b7"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a4f6b88e4f08955d",
+        "type": "link in",
+        "z": "bf279eb7eda19fd7",
+        "g": "4449f91efc0583a7",
+        "name": "turn off doorbell active",
+        "links": [
+            "67d3120303e32f66"
+        ],
+        "x": 285,
+        "y": 880,
+        "wires": [
+            [
+                "98dd5da045366f4f"
+            ]
+        ]
+    },
+    {
+        "id": "b2c2fadb2c3302b7",
+        "type": "api-call-service",
+        "z": "bf279eb7eda19fd7",
+        "g": "4449f91efc0583a7",
+        "name": "turn off doorbell active",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "switch.turn_off",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.smart_doorbell_active"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "switch",
+        "service": "turn_off",
+        "x": 660,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3de7619c5f6c6ecd",
+        "type": "link out",
+        "z": "bf279eb7eda19fd7",
+        "g": "b8b2c52ce29b1b66",
+        "name": "action turn off doorbell",
+        "mode": "link",
+        "links": [
+            "752ae636e2c65165"
+        ],
+        "x": 1775,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "1f0fe76c488b32e7",
+        "type": "link out",
+        "z": "bf279eb7eda19fd7",
+        "g": "b8b2c52ce29b1b66",
+        "name": "action turn on doorbell",
+        "mode": "link",
+        "links": [],
+        "x": 1775,
+        "y": 1100,
         "wires": []
     },
     {
@@ -50387,7 +50140,6 @@
         "z": "edbbe41e31b072c6",
         "name": "doorbell button pushed",
         "links": [
-            "4634d81b11ef6062",
             "e188c5d43cc22d55"
         ],
         "x": 265,
@@ -50421,8 +50173,10 @@
         "id": "a3e9edcbf9adf53d",
         "type": "link in",
         "z": "edbbe41e31b072c6",
-        "name": "doorbell button pushed and frontdoor openend",
-        "links": [],
+        "name": "doorbell button pushed and frontdoor opens",
+        "links": [
+            "4634d81b11ef6062"
+        ],
         "x": 265,
         "y": 1060,
         "wires": [
@@ -50663,8 +50417,7 @@
         "name": "turn off quooker notification to anne",
         "mode": "link",
         "links": [
-            "c76d311bb4b6991b",
-            "d1753081ba6b4004"
+            "c76d311bb4b6991b"
         ],
         "x": 1355,
         "y": 340,
@@ -50677,7 +50430,6 @@
         "name": "action guest mode notification to coen",
         "mode": "link",
         "links": [
-            "c76d311bb4b6991b",
             "d1753081ba6b4004"
         ],
         "x": 1355,
@@ -51590,6 +51342,275 @@
         "wires": []
     },
     {
+        "id": "508f2e698b714ccf",
+        "type": "comment",
+        "z": "edbbe41e31b072c6",
+        "name": "notification when waterflow is detected but machines that can use water are all off",
+        "info": "",
+        "x": 520,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "a9f9a29ffe382686",
+        "type": "comment",
+        "z": "edbbe41e31b072c6",
+        "name": "notification ask to turn off the doorbell when beau is going to sleep",
+        "info": "",
+        "x": 470,
+        "y": 2320,
+        "wires": []
+    },
+    {
+        "id": "f500a2847c7555f6",
+        "type": "template",
+        "z": "edbbe41e31b072c6",
+        "name": "message",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Het lijkt er op dat Beau gaat slapen, wil je het geluid van de deurbel uitschakelen?",
+        "output": "str",
+        "x": 780,
+        "y": 2360,
+        "wires": [
+            [
+                "63dbcb148aeda163"
+            ]
+        ]
+    },
+    {
+        "id": "63dbcb148aeda163",
+        "type": "function",
+        "z": "edbbe41e31b072c6",
+        "name": "action turn off doorbell",
+        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Deurbel\",\n    icon: \"\",\n    action_1_title: \"JA\",\n    action_2_title: \"NEE\",\n    action_1: \"DOORBELL_OFF\",\n    action_2: \"DOORBELL_ON\",\n    notification_id: msg.notification_id || \"doorbell\",\n    tag: msg.tag || \"doorbell\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 2360,
+        "wires": [
+            [
+                "c355344b268bd367",
+                "0957081d56470bf3"
+            ]
+        ]
+    },
+    {
+        "id": "c355344b268bd367",
+        "type": "api-current-state",
+        "z": "edbbe41e31b072c6",
+        "name": "anne is home",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "home",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "person.anne",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 1240,
+        "y": 2340,
+        "wires": [
+            [
+                "928f0b56ca28a02d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "0957081d56470bf3",
+        "type": "api-current-state",
+        "z": "edbbe41e31b072c6",
+        "name": "coen is home",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "home",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "person.coen",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 1230,
+        "y": 2400,
+        "wires": [
+            [
+                "343450b32ed629d0"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "928f0b56ca28a02d",
+        "type": "link out",
+        "z": "edbbe41e31b072c6",
+        "name": "action turn off doorbell",
+        "mode": "link",
+        "links": [
+            "c76d311bb4b6991b"
+        ],
+        "x": 1355,
+        "y": 2340,
+        "wires": []
+    },
+    {
+        "id": "343450b32ed629d0",
+        "type": "link out",
+        "z": "edbbe41e31b072c6",
+        "name": "action turn off doorbell",
+        "mode": "link",
+        "links": [
+            "d1753081ba6b4004"
+        ],
+        "x": 1355,
+        "y": 2400,
+        "wires": []
+    },
+    {
+        "id": "752ae636e2c65165",
+        "type": "link in",
+        "z": "edbbe41e31b072c6",
+        "name": "action turn off doorbell",
+        "links": [
+            "3de7619c5f6c6ecd"
+        ],
+        "x": 265,
+        "y": 2360,
+        "wires": [
+            [
+                "f500a2847c7555f6"
+            ]
+        ]
+    },
+    {
+        "id": "e67b6285f7594838",
+        "type": "template",
+        "z": "edbbe41e31b072c6",
+        "name": "message",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Het lijkt er op dat Beau wakker is, wil je het geluid van de deurbel weer aanzetten?",
+        "output": "str",
+        "x": 780,
+        "y": 2460,
+        "wires": [
+            [
+                "543242cb6caf2ab6"
+            ]
+        ]
+    },
+    {
+        "id": "1e0f87e0dde4ea92",
+        "type": "comment",
+        "z": "edbbe41e31b072c6",
+        "name": "notification ask to turn on the doorbell when beau is awake",
+        "info": "",
+        "x": 450,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "543242cb6caf2ab6",
+        "type": "function",
+        "z": "edbbe41e31b072c6",
+        "name": "action turn off doorbell",
+        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Deurbel\",\n    icon: \"\",\n    action_1_title: \"JA\",\n    action_2_title: \"NEE\",\n    action_1: \"DOORBELL_ON\",\n    action_2: \"DOORBELL_OFF\",\n    notification_id: msg.notification_id || \"doorbell\",\n    tag: msg.tag || \"doorbell\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 2460,
+        "wires": [
+            [
+                "80a4b54a5768f98d"
+            ]
+        ]
+    },
+    {
+        "id": "bfce7901357f4ed7",
+        "type": "link in",
+        "z": "edbbe41e31b072c6",
+        "name": "action turn on doorbell",
+        "links": [],
+        "x": 265,
+        "y": 2460,
+        "wires": [
+            [
+                "e67b6285f7594838"
+            ]
+        ]
+    },
+    {
+        "id": "80a4b54a5768f98d",
+        "type": "link out",
+        "z": "edbbe41e31b072c6",
+        "name": "action turn on doorbell",
+        "mode": "link",
+        "links": [
+            "c76d311bb4b6991b",
+            "d1753081ba6b4004"
+        ],
+        "x": 1175,
+        "y": 2460,
+        "wires": []
+    },
+    {
         "id": "3675d2d1160c6b61",
         "type": "api-call-service",
         "z": "3611a09f77ab1873",
@@ -51627,10 +51648,11 @@
             "a38691fbb41a64b9",
             "045a7ae56c00c0e3",
             "fc963a5972785885",
-            "553d066d10da4ed8",
             "6aeab0bdb74f5a5a",
             "15067d782665c902",
-            "24d99a768c0554fa"
+            "24d99a768c0554fa",
+            "343450b32ed629d0",
+            "80a4b54a5768f98d"
         ],
         "x": 295,
         "y": 200,
@@ -51741,9 +51763,10 @@
             "045a7ae56c00c0e3",
             "fc963a5972785885",
             "553d066d10da4ed8",
-            "6aeab0bdb74f5a5a",
             "15067d782665c902",
-            "24d99a768c0554fa"
+            "24d99a768c0554fa",
+            "928f0b56ca28a02d",
+            "80a4b54a5768f98d"
         ],
         "x": 295,
         "y": 260,
@@ -52993,6 +53016,147 @@
         ],
         "x": 375,
         "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "85fbde29204040b6",
+        "type": "server-events",
+        "z": "e44f5d834fa24670",
+        "g": "fdf9531a8f11debc",
+        "name": "DOORBELL_OFF",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "exposeAsEntityConfig": "",
+        "eventType": "mobile_app_notification_action",
+        "eventData": "{\"action\":\"DOORBELL_OFF\"}",
+        "waitForRunning": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "$outputData(\"eventData\").event_type",
+                "valueType": "jsonata"
+            }
+        ],
+        "event_type": "",
+        "x": 130,
+        "y": 1180,
+        "wires": [
+            [
+                "9124cbf6fd9b1480",
+                "67d3120303e32f66"
+            ]
+        ]
+    },
+    {
+        "id": "347f94b7271ae995",
+        "type": "server-events",
+        "z": "e44f5d834fa24670",
+        "g": "fdf9531a8f11debc",
+        "name": "DOORBELL_ON",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "exposeAsEntityConfig": "",
+        "eventType": "mobile_app_notification_action",
+        "eventData": "{\"action\":\"DOORBELL_ON\"}",
+        "waitForRunning": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "$outputData(\"eventData\").event_type",
+                "valueType": "jsonata"
+            }
+        ],
+        "event_type": "",
+        "x": 120,
+        "y": 1260,
+        "wires": [
+            [
+                "fb2447123ae5adb8",
+                "9124cbf6fd9b1480"
+            ]
+        ]
+    },
+    {
+        "id": "9124cbf6fd9b1480",
+        "type": "api-call-service",
+        "z": "e44f5d834fa24670",
+        "g": "fdf9531a8f11debc",
+        "name": "dismiss notification",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.notify",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"message\":\"clear_notification\",\"data\":{\"tag\":\"doorbell\"}}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "notify",
+        "service": "notify",
+        "x": 410,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "67d3120303e32f66",
+        "type": "link out",
+        "z": "e44f5d834fa24670",
+        "g": "fdf9531a8f11debc",
+        "name": "turn off doorbell",
+        "mode": "link",
+        "links": [
+            "a4f6b88e4f08955d"
+        ],
+        "x": 335,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "fb2447123ae5adb8",
+        "type": "link out",
+        "z": "e44f5d834fa24670",
+        "g": "fdf9531a8f11debc",
+        "name": "turn on doorbell",
+        "mode": "link",
+        "links": [
+            "6ab4fe8e04f4839f"
+        ],
+        "x": 335,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "733336f9e7f40f7a",
+        "type": "comment",
+        "z": "e44f5d834fa24670",
+        "g": "fdf9531a8f11debc",
+        "name": "turn on/off doorbell chime",
+        "info": "",
+        "x": 150,
+        "y": 1140,
         "wires": []
     },
     {
