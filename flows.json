@@ -2114,20 +2114,20 @@
         },
         "nodes": [
             "82bfbcfce5f11f0e",
-            "e85513dffc371372",
             "32de281a8b95e108",
             "27e5eb134304a4fe",
             "da7c6256f3b28b92",
             "dcf7add8eddca3bc",
             "476a3a9380b339ab",
             "65c53ee626b1657c",
-            "3e50b939a785ec1a",
             "8d98ecd84b9c5e5e",
-            "9e13177c030bc585"
+            "9e13177c030bc585",
+            "0263b01642ed55de",
+            "4152f10819c597f4"
         ],
         "x": 14,
         "y": 1239,
-        "w": 1402,
+        "w": 1412,
         "h": 262
     },
     {
@@ -4722,7 +4722,7 @@
             "71e8d879fbf2622e"
         ],
         "x": 14,
-        "y": 379,
+        "y": 399,
         "w": 1152,
         "h": 202
     },
@@ -4752,12 +4752,22 @@
             "d240e7311ce60041",
             "f095901791d95a7f",
             "c613a9193af7a20f",
-            "8390d41623fa1a54"
+            "aa5181cef0dc93df",
+            "613d496f0cea97f3",
+            "7282f75f9fae1df4",
+            "fc7305667fec61a3",
+            "8b4a7821e438da7c",
+            "ef8deafe322fd24c",
+            "13bdcb248e7de4c9",
+            "80936adec9fe8f21",
+            "903bd06d8fd9e802",
+            "7d4923fb0fc249fa",
+            "4d4306b9e1e334ed"
         ],
         "x": 14,
         "y": 119,
-        "w": 1032,
-        "h": 242
+        "w": 1932,
+        "h": 262
     },
     {
         "id": "bc5bb6b372848b7c",
@@ -4815,7 +4825,7 @@
             "91917476cba30405"
         ],
         "x": 14,
-        "y": 599,
+        "y": 619,
         "w": 2132,
         "h": 182
     },
@@ -4935,6 +4945,29 @@
         "y": 1119,
         "w": 492,
         "h": 282
+    },
+    {
+        "id": "447224924e7be73c",
+        "type": "group",
+        "z": "bf279eb7eda19fd7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "88d6bd33c172fe47",
+            "6bd61d183ffe896b",
+            "37616708a48a82ef"
+        ],
+        "x": 14,
+        "y": 279,
+        "w": 442,
+        "h": 122
     },
     {
         "id": "efc093c90e8d9b40",
@@ -6534,29 +6567,6 @@
         "h": 162
     },
     {
-        "id": "447224924e7be73c",
-        "type": "group",
-        "z": "bf279eb7eda19fd7",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "88d6bd33c172fe47",
-            "6bd61d183ffe896b",
-            "37616708a48a82ef"
-        ],
-        "x": 14,
-        "y": 279,
-        "w": 442,
-        "h": 122
-    },
-    {
         "id": "5cb88a741e06d0c9",
         "type": "junction",
         "z": "75537afd17de5117",
@@ -6803,7 +6813,7 @@
         "y": 1340,
         "wires": [
             [
-                "e85513dffc371372"
+                "0263b01642ed55de"
             ]
         ]
     },
@@ -7091,7 +7101,7 @@
         "z": "b8d98c82eb2488b9",
         "g": "4e1beacde852f70d",
         "x": 1680,
-        "y": 640,
+        "y": 660,
         "wires": [
             [
                 "6f4bac3366b09c0a"
@@ -7104,7 +7114,7 @@
         "z": "b8d98c82eb2488b9",
         "g": "4e1beacde852f70d",
         "x": 680,
-        "y": 640,
+        "y": 660,
         "wires": [
             [
                 "e1d52ed6bc615e3d"
@@ -7117,7 +7127,7 @@
         "z": "b8d98c82eb2488b9",
         "g": "4e1beacde852f70d",
         "x": 900,
-        "y": 740,
+        "y": 760,
         "wires": [
             [
                 "91917476cba30405"
@@ -7130,7 +7140,7 @@
         "z": "b8d98c82eb2488b9",
         "g": "4e1beacde852f70d",
         "x": 1240,
-        "y": 740,
+        "y": 760,
         "wires": [
             [
                 "f1744436bf4645f2"
@@ -7147,6 +7157,32 @@
         "wires": [
             [
                 "b45d3017dda90564"
+            ]
+        ]
+    },
+    {
+        "id": "903bd06d8fd9e802",
+        "type": "junction",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "x": 1500,
+        "y": 260,
+        "wires": [
+            [
+                "ccf87318aa8d159a"
+            ]
+        ]
+    },
+    {
+        "id": "7d4923fb0fc249fa",
+        "type": "junction",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "x": 820,
+        "y": 260,
+        "wires": [
+            [
+                "903bd06d8fd9e802"
             ]
         ]
     },
@@ -24101,36 +24137,6 @@
         "wires": []
     },
     {
-        "id": "e85513dffc371372",
-        "type": "api-call-service",
-        "z": "be92da6a5a4a4550",
-        "g": "59d661e86ca6893c",
-        "name": "",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "notify.mobile_app_phone_coen",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "notify",
-        "service": "mobile_app_phone_coen",
-        "x": 1260,
-        "y": 1460,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "32de281a8b95e108",
         "type": "api-current-state",
         "z": "be92da6a5a4a4550",
@@ -24154,11 +24160,11 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 980,
+        "x": 970,
         "y": 1400,
         "wires": [
             [
-                "e85513dffc371372"
+                "0263b01642ed55de"
             ],
             []
         ]
@@ -24175,7 +24181,7 @@
         "endTime": "17:30",
         "startOffset": 0,
         "endOffset": 0,
-        "x": 800,
+        "x": 790,
         "y": 1400,
         "wires": [
             [
@@ -24208,7 +24214,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 420,
+        "x": 390,
         "y": 1340,
         "wires": [
             [
@@ -24242,7 +24248,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 640,
+        "x": 610,
         "y": 1340,
         "wires": [
             [
@@ -24288,7 +24294,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 630,
+        "x": 600,
         "y": 1400,
         "wires": [
             [
@@ -24321,35 +24327,13 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 400,
+        "x": 370,
         "y": 1460,
         "wires": [
             [
-                "e85513dffc371372"
+                "0263b01642ed55de"
             ],
             []
-        ]
-    },
-    {
-        "id": "3e50b939a785ec1a",
-        "type": "function",
-        "z": "be92da6a5a4a4550",
-        "g": "59d661e86ca6893c",
-        "name": "create service call",
-        "func": "msg.payload = {\n    \"data\": {\n        \"message\": \"Er is een persoon in de achtertuin gedetecteerd\",\n        \"data\": {\n            \"image\": \"https://home-assistant.stamx.nl/api/frigate/notifications/\" + msg.payload.after.id + \"/thumbnail.jpg?format=android\",\n            \"tag\": msg.payload.after.id,\n            \"when\": msg.payload.after.start_time,\n            \"clickAction\": \"/dashboard-mobile/camera\",\n            \"channel\": \"Warning\",\n            \"importance\": \"high\"\n        }\n    }\n};\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 200,
-        "y": 1340,
-        "wires": [
-            [
-                "da7c6256f3b28b92",
-                "65c53ee626b1657c"
-            ]
         ]
     },
     {
@@ -24464,11 +24448,11 @@
         "links": [
             "3126533b3e0ad552"
         ],
-        "x": 75,
+        "x": 65,
         "y": 1340,
         "wires": [
             [
-                "3e50b939a785ec1a"
+                "4152f10819c597f4"
             ]
         ]
     },
@@ -27092,6 +27076,58 @@
         "wires": [
             [
                 "6fc294104a2dbb11"
+            ]
+        ]
+    },
+    {
+        "id": "0263b01642ed55de",
+        "type": "api-call-service",
+        "z": "be92da6a5a4a4550",
+        "g": "59d661e86ca6893c",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.mobile_app_phone_coen",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"message\":\"The garage door has been open for 10 minutes.\",\"title\":\"Waarschuwing\",\"target\":\"platform specific\",\"data\":{\"image\":\"{{{snapshotUrl}}}\",\"tag\":\"{{payload.after.id}}\",\"when\":\"{{payload.after.start_time}}\",\"clickAction\":\"/dashboard-mobile/camera\",\"channel\":\"Warning\",\"importance\":\"high\"}}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "notify",
+        "service": "mobile_app_phone_coen",
+        "x": 1270,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4152f10819c597f4",
+        "type": "function",
+        "z": "be92da6a5a4a4550",
+        "g": "59d661e86ca6893c",
+        "name": "snapshot url",
+        "func": "msg.snapshotUrl = \"https://home-assistant.stamx.nl/api/frigate/notifications/\" + msg.payload.after.id + \"/thumbnail.jpg?format=android\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 170,
+        "y": 1340,
+        "wires": [
+            [
+                "65c53ee626b1657c",
+                "da7c6256f3b28b92"
             ]
         ]
     },
@@ -52870,7 +52906,7 @@
             }
         ],
         "x": 150,
-        "y": 460,
+        "y": 480,
         "wires": [
             [
                 "451e3b4e7d84efb4"
@@ -52891,7 +52927,7 @@
         "finalize": "",
         "libs": [],
         "x": 370,
-        "y": 460,
+        "y": 480,
         "wires": [
             [
                 "6d0d646b8d2a606f"
@@ -52933,7 +52969,7 @@
         "domain": "calendar",
         "service": "get_events",
         "x": 740,
-        "y": 460,
+        "y": 480,
         "wires": [
             [
                 "cfd81cdf04df1639"
@@ -52954,7 +52990,7 @@
         "finalize": "",
         "libs": [],
         "x": 1000,
-        "y": 460,
+        "y": 480,
         "wires": [
             [
                 "5366013bda15f665"
@@ -52969,7 +53005,7 @@
         "name": "count calendar events that contains the words \"anneke past op\" from the previous month ",
         "info": "",
         "x": 340,
-        "y": 420,
+        "y": 440,
         "wires": []
     },
     {
@@ -52986,7 +53022,7 @@
         "finalize": "",
         "libs": [],
         "x": 560,
-        "y": 460,
+        "y": 480,
         "wires": [
             [
                 "58366ad094f8377c"
@@ -53007,7 +53043,7 @@
         "finalize": "",
         "libs": [],
         "x": 140,
-        "y": 540,
+        "y": 560,
         "wires": [
             [
                 "71e8d879fbf2622e"
@@ -53041,7 +53077,7 @@
         "domain": "todo",
         "service": "add_item",
         "x": 640,
-        "y": 540,
+        "y": 560,
         "wires": [
             []
         ]
@@ -53060,7 +53096,7 @@
         "finalize": "",
         "libs": [],
         "x": 420,
-        "y": 540,
+        "y": 560,
         "wires": [
             [
                 "f581e18c19643b6b"
@@ -53080,7 +53116,7 @@
         "template": "https://epc-qr.eu/?bname=A%20Stam&iban=NL60SNSB0957731876&euro={{amountOfMoney}}&info={{countAnneke}}%20keer%20oppassen%20in%20{{month}}",
         "output": "str",
         "x": 270,
-        "y": 540,
+        "y": 560,
         "wires": [
             [
                 "607c96cbd3c5cdcd"
@@ -53106,7 +53142,7 @@
             "calendar.coen_anne"
         ],
         "labelId": [],
-        "data": "{\"start_date_time\":\"{{ start_date_time }}\",\"end_date_time\":\"{{ end_date_time }}\"}",
+        "data": "{\"start_date_time\":\"{{start_date_time}}\",\"end_date_time\":\"{{end_date_time}}\"}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -53126,8 +53162,7 @@
         "y": 200,
         "wires": [
             [
-                "f9288d158d410ce6",
-                "8390d41623fa1a54"
+                "f9288d158d410ce6"
             ]
         ]
     },
@@ -53179,7 +53214,7 @@
         "z": "b8d98c82eb2488b9",
         "g": "9ddd3d4eff0af285",
         "name": "todo item vars",
-        "func": "msg.todo = {};\n\nmsg.todo.item = msg.results.events.summary.replace(/^todo:\\s*/i, \"\");  // removes \"todo: \" from the start\n\nlet input = msg.results.events.start;\n\nif (input.includes(\"T\")) {\n    let d = new Date(input);\n    msg.todo.due_date_time = d.toISOString().split(\".\")[0].replace(\"T\", \" \");\n} else {\n    msg.todo.due_date = input;\n}\n\nmsg.todo.description = msg.results.events.description;\n\nmsg.entity_id = msg.calendar.replace(\"calendar\", \"todo\");\n\n\nreturn msg;",
+        "func": "msg.todo = {};\n\nmsg.todo.item = msg.results.events.summary.replace(/^todo:\\s*/i, \"\");  // removes \"todo: \" from the start\n\nlet input = msg.results.events.end;\n\nif (input.includes(\"T\")) {\n    let d = new Date(input);\n    msg.todo.due_date_time = d.toISOString().split(\".\")[0].replace(\"T\", \" \");\n} else {\n    msg.todo.due_date = input;\n}\n\nmsg.todo.description = msg.results.events.description;\n\nmsg.entity_id = msg.calendar.replace(\"calendar\", \"todo\");\n\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -53190,7 +53225,7 @@
         "y": 280,
         "wires": [
             [
-                "ccf87318aa8d159a"
+                "aa5181cef0dc93df"
             ]
         ]
     },
@@ -53220,8 +53255,8 @@
         "blockInputOverrides": true,
         "domain": "todo",
         "service": "add_item",
-        "x": 610,
-        "y": 260,
+        "x": 1770,
+        "y": 280,
         "wires": [
             []
         ]
@@ -53279,8 +53314,8 @@
         "blockInputOverrides": true,
         "domain": "todo",
         "service": "add_item",
-        "x": 630,
-        "y": 320,
+        "x": 1790,
+        "y": 340,
         "wires": [
             []
         ]
@@ -53308,7 +53343,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 430,
+        "x": 1570,
         "y": 280,
         "wires": [
             [
@@ -53362,7 +53397,7 @@
         "z": "b8d98c82eb2488b9",
         "g": "9ddd3d4eff0af285",
         "name": "start + end datetime",
-        "func": "msg.start_date_time = msg.myymd + \" 00:00:00\";\nmsg.end_date_time = msg.myymd + \" 23:59:59\";\n\nreturn msg;\n",
+        "func": "msg.start_date_time = msg.myymd + \" 02:00:00\";\nmsg.end_date_time = msg.myymd + \" 23:59:59\";\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -53464,7 +53499,7 @@
             }
         ],
         "x": 180,
-        "y": 680,
+        "y": 700,
         "wires": [
             [
                 "18cafe95cc481dfa"
@@ -53499,7 +53534,7 @@
         "domain": "todo",
         "service": "add_item",
         "x": 2000,
-        "y": 740,
+        "y": 760,
         "wires": [
             []
         ]
@@ -53518,7 +53553,7 @@
         "finalize": "",
         "libs": [],
         "x": 1790,
-        "y": 740,
+        "y": 760,
         "wires": [
             [
                 "50299601428d86dd"
@@ -53533,7 +53568,7 @@
         "name": "create todo item when garbage collection is tomorrow and it doesn't exist",
         "info": "",
         "x": 300,
-        "y": 640,
+        "y": 660,
         "wires": []
     },
     {
@@ -53570,7 +53605,7 @@
         "domain": "todo",
         "service": "get_items",
         "x": 420,
-        "y": 680,
+        "y": 700,
         "wires": [
             [
                 "74ce0b012c485742"
@@ -53597,7 +53632,7 @@
         "repair": false,
         "outputs": 2,
         "x": 570,
-        "y": 680,
+        "y": 700,
         "wires": [
             [
                 "1c24238d54f558c4"
@@ -53621,7 +53656,7 @@
         "finalize": "",
         "libs": [],
         "x": 1630,
-        "y": 740,
+        "y": 760,
         "wires": [
             [
                 "6f4bac3366b09c0a"
@@ -53642,7 +53677,7 @@
         "addname": "",
         "property": "todo_results[\"todo.schoonmaak\"].items",
         "x": 710,
-        "y": 720,
+        "y": 740,
         "wires": [
             [
                 "bc68a28bf78ff171"
@@ -53671,7 +53706,7 @@
         "repair": false,
         "outputs": 2,
         "x": 830,
-        "y": 720,
+        "y": 740,
         "wires": [
             [
                 "fd007fddb706be5d"
@@ -53702,7 +53737,7 @@
         "to": "",
         "reg": false,
         "x": 1000,
-        "y": 700,
+        "y": 720,
         "wires": [
             [
                 "319b204aaa793554"
@@ -53731,7 +53766,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1170,
-        "y": 700,
+        "y": 720,
         "wires": [
             [
                 "df61f4ea1beafc2d"
@@ -53762,7 +53797,7 @@
         "to": "",
         "reg": false,
         "x": 1330,
-        "y": 680,
+        "y": 700,
         "wires": [
             [
                 "f1744436bf4645f2"
@@ -53788,7 +53823,7 @@
         "count": "",
         "reduceRight": false,
         "x": 1510,
-        "y": 740,
+        "y": 760,
         "wires": [
             [
                 "09eb9ceb514414f3"
@@ -53796,21 +53831,254 @@
         ]
     },
     {
-        "id": "8390d41623fa1a54",
-        "type": "debug",
+        "id": "aa5181cef0dc93df",
+        "type": "api-call-service",
         "z": "b8d98c82eb2488b9",
         "g": "9ddd3d4eff0af285",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 930,
-        "y": 320,
-        "wires": []
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "todo.get_items",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "{{entity_id}}"
+        ],
+        "labelId": [],
+        "data": "{\"status\":\"needs_action\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "todo_results",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "results"
+            }
+        ],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "todo",
+        "service": "get_items",
+        "x": 460,
+        "y": 280,
+        "wires": [
+            [
+                "613d496f0cea97f3"
+            ]
+        ]
+    },
+    {
+        "id": "613d496f0cea97f3",
+        "type": "split",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "todo_results",
+        "x": 610,
+        "y": 280,
+        "wires": [
+            [
+                "4d4306b9e1e334ed"
+            ]
+        ]
+    },
+    {
+        "id": "7282f75f9fae1df4",
+        "type": "switch",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "property": "todo_results.items.summary",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "todo.item",
+                "vt": "msg"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 990,
+        "y": 300,
+        "wires": [
+            [
+                "ef8deafe322fd24c"
+            ],
+            [
+                "8b4a7821e438da7c"
+            ]
+        ]
+    },
+    {
+        "id": "fc7305667fec61a3",
+        "type": "split",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "todo_results.items",
+        "x": 870,
+        "y": 300,
+        "wires": [
+            [
+                "7282f75f9fae1df4"
+            ]
+        ]
+    },
+    {
+        "id": "8b4a7821e438da7c",
+        "type": "change",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "duplicate false",
+        "rules": [
+            {
+                "t": "set",
+                "p": "duplicate",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1160,
+        "y": 340,
+        "wires": [
+            [
+                "13bdcb248e7de4c9"
+            ]
+        ]
+    },
+    {
+        "id": "ef8deafe322fd24c",
+        "type": "change",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "duplicate true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "duplicate",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1160,
+        "y": 300,
+        "wires": [
+            [
+                "13bdcb248e7de4c9"
+            ]
+        ]
+    },
+    {
+        "id": "13bdcb248e7de4c9",
+        "type": "join",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 1330,
+        "y": 300,
+        "wires": [
+            [
+                "80936adec9fe8f21"
+            ]
+        ]
+    },
+    {
+        "id": "80936adec9fe8f21",
+        "type": "switch",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "property": "duplicate",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1450,
+        "y": 300,
+        "wires": [
+            [
+                "ccf87318aa8d159a"
+            ]
+        ]
+    },
+    {
+        "id": "4d4306b9e1e334ed",
+        "type": "switch",
+        "z": "b8d98c82eb2488b9",
+        "g": "9ddd3d4eff0af285",
+        "name": "",
+        "property": "todo_results.items",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "empty"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 730,
+        "y": 280,
+        "wires": [
+            [
+                "7d4923fb0fc249fa"
+            ],
+            [
+                "fc7305667fec61a3"
+            ]
+        ]
     }
 ]
