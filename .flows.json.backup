@@ -2228,7 +2228,7 @@
             "0419c1d8f3124b5e"
         ],
         "x": 14,
-        "y": 2579,
+        "y": 2739,
         "w": 1112,
         "h": 182
     },
@@ -2692,7 +2692,7 @@
             "30bb603d2ee43acf"
         ],
         "x": 14,
-        "y": 2059,
+        "y": 2219,
         "w": 812,
         "h": 122
     },
@@ -2718,7 +2718,7 @@
             "46c67d7449c54584"
         ],
         "x": 14,
-        "y": 2199,
+        "y": 2359,
         "w": 772,
         "h": 182
     },
@@ -2743,7 +2743,7 @@
             "7301e33204b88290"
         ],
         "x": 14,
-        "y": 2399,
+        "y": 2559,
         "w": 552,
         "h": 162
     },
@@ -2775,7 +2775,7 @@
             "d42cee1b019d7e42"
         ],
         "x": 14,
-        "y": 1759,
+        "y": 1919,
         "w": 952,
         "h": 282
     },
@@ -3544,7 +3544,7 @@
             "8922b34fa1783c92"
         ],
         "x": 14,
-        "y": 2779,
+        "y": 2939,
         "w": 992,
         "h": 162
     },
@@ -4707,7 +4707,7 @@
             "2a804e94931f7201"
         ],
         "x": 14,
-        "y": 1459,
+        "y": 1619,
         "w": 1472,
         "h": 282
     },
@@ -4732,7 +4732,7 @@
             "cd256ec259a611f4"
         ],
         "x": 14,
-        "y": 119,
+        "y": 279,
         "w": 1698,
         "h": 668
     },
@@ -4757,12 +4757,14 @@
             "fdca445a404c15cc",
             "f06607d23ea600e0",
             "2024b0143896ad22",
-            "bf5ba3943578c959"
+            "bf5ba3943578c959",
+            "b8bbf191849096e3",
+            "196bc3f64cd5749f"
         ],
         "x": 14,
-        "y": 1279,
-        "w": 1292,
-        "h": 162
+        "y": 1419,
+        "w": 1072,
+        "h": 182
     },
     {
         "id": "23bb85dc835b75e6",
@@ -4785,7 +4787,7 @@
             "2784788ce65fb972"
         ],
         "x": 14,
-        "y": 1139,
+        "y": 1299,
         "w": 1132,
         "h": 122
     },
@@ -4812,7 +4814,7 @@
             "8974b3e5cc82c6b9"
         ],
         "x": 14,
-        "y": 999,
+        "y": 1159,
         "w": 1112,
         "h": 122
     },
@@ -4841,7 +4843,7 @@
             "494e70afb45368b6"
         ],
         "x": 14,
-        "y": 799,
+        "y": 959,
         "w": 1752,
         "h": 182
     },
@@ -6615,7 +6617,7 @@
             "445f8a7aded61633"
         ],
         "x": 654,
-        "y": 159,
+        "y": 319,
         "w": 652,
         "h": 302
     },
@@ -6645,9 +6647,32 @@
             "431f4462805951b1"
         ],
         "x": 654,
-        "y": 479,
+        "y": 639,
         "w": 1032,
         "h": 282
+    },
+    {
+        "id": "73746a7917fbe356",
+        "type": "group",
+        "z": "39f5e6336137f4b2",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "83c6eaa1642b6dc4",
+            "3525ce8bbcca4c19",
+            "39d84b0af6bf22da"
+        ],
+        "x": 14,
+        "y": 119,
+        "w": 552,
+        "h": 122
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -6696,7 +6721,7 @@
         "z": "39f5e6336137f4b2",
         "g": "59a9dccc6e2c8820",
         "x": 880,
-        "y": 1580,
+        "y": 1740,
         "wires": [
             [
                 "382a831c1568641b"
@@ -6709,7 +6734,7 @@
         "z": "39f5e6336137f4b2",
         "g": "59a9dccc6e2c8820",
         "x": 540,
-        "y": 1640,
+        "y": 1800,
         "wires": [
             [
                 "19b08832ac41fe31"
@@ -7186,7 +7211,7 @@
         "z": "39f5e6336137f4b2",
         "g": "d3868dc5f4aa2d65",
         "x": 680,
-        "y": 240,
+        "y": 400,
         "wires": [
             [
                 "7bea96d351fd45a5",
@@ -7202,7 +7227,7 @@
         "z": "39f5e6336137f4b2",
         "g": "cd256ec259a611f4",
         "x": 680,
-        "y": 560,
+        "y": 720,
         "wires": [
             [
                 "fa9bc69bfdcf7c2c",
@@ -12705,8 +12730,7 @@
         "g": "3a5ce6e1f550d6ab",
         "name": "turn off vacuum auto cleaning",
         "links": [
-            "6912ed4ea89f4d06",
-            "d35ff31b6345b553"
+            "6912ed4ea89f4d06"
         ],
         "x": 225,
         "y": 660,
@@ -13635,7 +13659,7 @@
         "name": "turn off tvscreen when nothing is playing and turn back on when mediaplayer start playing",
         "info": "",
         "x": 350,
-        "y": 1500,
+        "y": 1660,
         "wires": []
     },
     {
@@ -13662,7 +13686,7 @@
         "repair": false,
         "outputs": 2,
         "x": 330,
-        "y": 1560,
+        "y": 1720,
         "wires": [
             [
                 "d9540c933a60aec7",
@@ -13694,7 +13718,7 @@
         "to": "",
         "reg": false,
         "x": 620,
-        "y": 1580,
+        "y": 1740,
         "wires": [
             [
                 "4539dbe872caf169",
@@ -13721,7 +13745,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 800,
-        "y": 1640,
+        "y": 1800,
         "wires": [
             [
                 "382a831c1568641b",
@@ -13748,7 +13772,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1000,
-        "y": 1640,
+        "y": 1800,
         "wires": [
             [
                 "058b6bfd406a2ad0"
@@ -13787,7 +13811,7 @@
         "domain": "notify",
         "service": "lg_webos_smart_tv",
         "x": 1400,
-        "y": 1700,
+        "y": 1860,
         "wires": [
             []
         ]
@@ -13844,7 +13868,7 @@
             }
         ],
         "x": 150,
-        "y": 1560,
+        "y": 1720,
         "wires": [
             [
                 "b17acb7df0bb2bd2"
@@ -13903,7 +13927,7 @@
             }
         ],
         "x": 150,
-        "y": 1680,
+        "y": 1840,
         "wires": [
             [
                 "b822a9f31018d2a0"
@@ -13929,7 +13953,7 @@
         "repair": false,
         "outputs": 1,
         "x": 330,
-        "y": 1680,
+        "y": 1840,
         "wires": [
             [
                 "a325b77f020cd697"
@@ -13955,7 +13979,7 @@
         "repair": false,
         "outputs": 1,
         "x": 450,
-        "y": 1680,
+        "y": 1840,
         "wires": [
             [
                 "f8003d1746659317"
@@ -13973,7 +13997,7 @@
             "dec99c0ab95cf46a"
         ],
         "x": 555,
-        "y": 1540,
+        "y": 1700,
         "wires": []
     },
     {
@@ -13987,7 +14011,7 @@
             "1e4e8287439e54f1"
         ],
         "x": 1095,
-        "y": 1640,
+        "y": 1800,
         "wires": []
     },
     {
@@ -14100,7 +14124,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1270,
-        "y": 1700,
+        "y": 1860,
         "wires": [
             [
                 "a9227561e7f66936"
@@ -14139,7 +14163,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 1120,
-        "y": 1700,
+        "y": 1860,
         "wires": [
             [
                 "54e3e2b794b71880"
@@ -14171,7 +14195,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 960,
-        "y": 1700,
+        "y": 1860,
         "wires": [
             [
                 "18cdd9064f4a7ab9"
@@ -14206,7 +14230,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 920,
-        "y": 2680,
+        "y": 2840,
         "wires": [
             []
         ]
@@ -14244,7 +14268,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 520,
-        "y": 2680,
+        "y": 2840,
         "wires": [
             [
                 "e8630ecd17b5f84e"
@@ -14259,7 +14283,7 @@
         "g": "1c08d4761f28031d",
         "name": "",
         "x": 170,
-        "y": 2680,
+        "y": 2840,
         "wires": [
             [
                 "e8f0a3086500e186"
@@ -14274,7 +14298,7 @@
         "name": "set input select entertainment to Uitschakelen when house gets onuccupied or sleepmode gets turned on",
         "info": "",
         "x": 390,
-        "y": 2620,
+        "y": 2780,
         "wires": []
     },
     {
@@ -14287,7 +14311,7 @@
             "e6b9ff42fde3ea4e"
         ],
         "x": 285,
-        "y": 2720,
+        "y": 2880,
         "wires": [
             [
                 "e8f0a3086500e186"
@@ -14327,7 +14351,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 420,
-        "y": 2140,
+        "y": 2300,
         "wires": [
             [
                 "485b2638b3e54f1b"
@@ -14362,7 +14386,7 @@
         "domain": "media_player",
         "service": "media_pause",
         "x": 670,
-        "y": 2140,
+        "y": 2300,
         "wires": [
             []
         ]
@@ -14377,7 +14401,7 @@
             "3bafb9626527259f"
         ],
         "x": 285,
-        "y": 2140,
+        "y": 2300,
         "wires": [
             [
                 "6a77eb9d04cca958"
@@ -14409,7 +14433,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 470,
-        "y": 2340,
+        "y": 2500,
         "wires": [
             [
                 "69b6c54a1cabe45b"
@@ -14443,7 +14467,7 @@
         "domain": "media_player",
         "service": "turn_on",
         "x": 470,
-        "y": 2280,
+        "y": 2440,
         "wires": [
             []
         ]
@@ -14475,7 +14499,7 @@
         "domain": "media_player",
         "service": "turn_off",
         "x": 670,
-        "y": 2340,
+        "y": 2500,
         "wires": [
             []
         ]
@@ -14518,7 +14542,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 250,
-        "y": 2280,
+        "y": 2440,
         "wires": [
             [
                 "38a89a2645866f0c"
@@ -14559,7 +14583,7 @@
             }
         ],
         "x": 90,
-        "y": 2280,
+        "y": 2440,
         "wires": [
             [
                 "fff03108c5f1ce08"
@@ -14574,7 +14598,7 @@
         "name": "tv_device button to toggle the tv on/off",
         "info": "",
         "x": 190,
-        "y": 2240,
+        "y": 2400,
         "wires": []
     },
     {
@@ -14585,7 +14609,7 @@
         "name": "pause the tv universal mediaplayer",
         "info": "",
         "x": 180,
-        "y": 2100,
+        "y": 2260,
         "wires": []
     },
     {
@@ -14609,7 +14633,7 @@
         "to": "",
         "reg": false,
         "x": 330,
-        "y": 2480,
+        "y": 2640,
         "wires": [
             [
                 "dec82ecde28afe10"
@@ -14637,7 +14661,7 @@
         "to": "",
         "reg": false,
         "x": 330,
-        "y": 2520,
+        "y": 2680,
         "wires": [
             [
                 "dec82ecde28afe10"
@@ -14696,7 +14720,7 @@
             }
         ],
         "x": 140,
-        "y": 2480,
+        "y": 2640,
         "wires": [
             [
                 "4a35bcbba9fd8659"
@@ -14720,7 +14744,7 @@
         "inputOverride": "allow",
         "outputProperties": [],
         "x": 480,
-        "y": 2480,
+        "y": 2640,
         "wires": [
             []
         ]
@@ -14733,7 +14757,7 @@
         "name": "tv_device binary sensor to save tv state",
         "info": "",
         "x": 190,
-        "y": 2440,
+        "y": 2600,
         "wires": []
     },
     {
@@ -14744,7 +14768,7 @@
         "name": "turn off tv screen to save energy and to prevent pixel burn in",
         "info": "",
         "x": 260,
-        "y": 1800,
+        "y": 1960,
         "wires": []
     },
     {
@@ -14772,7 +14796,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 860,
-        "y": 1860,
+        "y": 2020,
         "wires": [
             []
         ]
@@ -14809,7 +14833,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 560,
-        "y": 1860,
+        "y": 2020,
         "wires": [
             [
                 "3905cfef0361c276"
@@ -14835,7 +14859,7 @@
         "repair": false,
         "outputs": 1,
         "x": 710,
-        "y": 1860,
+        "y": 2020,
         "wires": [
             [
                 "75b84d8bf5e2faeb"
@@ -14853,7 +14877,7 @@
             "cc95177ff7dd19c7"
         ],
         "x": 285,
-        "y": 1860,
+        "y": 2020,
         "wires": [
             [
                 "c63b94a1bcddb5f9"
@@ -14870,7 +14894,7 @@
             "058b6bfd406a2ad0"
         ],
         "x": 285,
-        "y": 1920,
+        "y": 2080,
         "wires": [
             [
                 "462935c54d978b2f"
@@ -14909,7 +14933,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 560,
-        "y": 1920,
+        "y": 2080,
         "wires": [
             [
                 "9dd84bc036be6c85"
@@ -14935,7 +14959,7 @@
         "repair": false,
         "outputs": 1,
         "x": 710,
-        "y": 1920,
+        "y": 2080,
         "wires": [
             [
                 "c054e6f474b4191e"
@@ -14967,7 +14991,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 860,
-        "y": 1920,
+        "y": 2080,
         "wires": [
             []
         ]
@@ -15010,7 +15034,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 400,
-        "y": 1860,
+        "y": 2020,
         "wires": [
             [
                 "7ee0608b0362347d"
@@ -15056,7 +15080,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 400,
-        "y": 1920,
+        "y": 2080,
         "wires": [
             [
                 "daac1efc716c9aa2"
@@ -15095,7 +15119,7 @@
             }
         ],
         "x": 140,
-        "y": 2000,
+        "y": 2160,
         "wires": [
             [
                 "c63b94a1bcddb5f9",
@@ -15111,7 +15135,7 @@
         "name": "creates a sensor, if nvidia shield volume is 100% then the binary sensor is on",
         "info": "",
         "x": 310,
-        "y": 2820,
+        "y": 2980,
         "wires": []
     },
     {
@@ -15128,7 +15152,7 @@
         "inputOverride": "allow",
         "outputProperties": [],
         "x": 850,
-        "y": 2860,
+        "y": 3020,
         "wires": [
             []
         ]
@@ -15185,7 +15209,7 @@
             }
         ],
         "x": 180,
-        "y": 2860,
+        "y": 3020,
         "wires": [
             [
                 "3a5396be8f9c1286"
@@ -15216,7 +15240,7 @@
         "repair": false,
         "outputs": 2,
         "x": 400,
-        "y": 2860,
+        "y": 3020,
         "wires": [
             [
                 "84a90e2a73f04f0b"
@@ -15247,7 +15271,7 @@
         "to": "",
         "reg": false,
         "x": 600,
-        "y": 2860,
+        "y": 3020,
         "wires": [
             [
                 "7ca936eb66e9e2d5"
@@ -15275,7 +15299,7 @@
         "to": "",
         "reg": false,
         "x": 600,
-        "y": 2900,
+        "y": 3060,
         "wires": [
             [
                 "7ca936eb66e9e2d5"
@@ -15334,7 +15358,7 @@
             }
         ],
         "x": 190,
-        "y": 220,
+        "y": 380,
         "wires": [
             [
                 "3a535b1014d0a45b"
@@ -15380,7 +15404,7 @@
         "repair": false,
         "outputs": 5,
         "x": 460,
-        "y": 220,
+        "y": 380,
         "wires": [
             [
                 "b564e25effcfc627"
@@ -15401,7 +15425,7 @@
         "name": "frontend entertainment activity input select",
         "info": "",
         "x": 200,
-        "y": 160,
+        "y": 320,
         "wires": []
     },
     {
@@ -15412,7 +15436,7 @@
         "name": "Uitschakelen",
         "info": "",
         "x": 830,
-        "y": 200,
+        "y": 360,
         "wires": []
     },
     {
@@ -15442,7 +15466,7 @@
         "domain": "media_player",
         "service": "turn_off",
         "x": 990,
-        "y": 300,
+        "y": 460,
         "wires": [
             []
         ]
@@ -15472,7 +15496,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 1220,
-        "y": 360,
+        "y": 520,
         "wires": [
             []
         ]
@@ -15504,7 +15528,7 @@
         "domain": "media_player",
         "service": "turn_off",
         "x": 1040,
-        "y": 240,
+        "y": 400,
         "wires": [
             []
         ]
@@ -15528,7 +15552,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 820,
-        "y": 360,
+        "y": 520,
         "wires": [
             [
                 "87169159e7ae701a"
@@ -15554,7 +15578,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 820,
-        "y": 300,
+        "y": 460,
         "wires": [
             [
                 "0d2317e40dbcbd17"
@@ -15599,7 +15623,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1020,
-        "y": 360,
+        "y": 520,
         "wires": [
             [
                 "edd4560b8748e246"
@@ -15635,7 +15659,7 @@
         "domain": "media_player",
         "service": "media_stop",
         "x": 880,
-        "y": 420,
+        "y": 580,
         "wires": [
             []
         ]
@@ -15665,7 +15689,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 840,
-        "y": 240,
+        "y": 400,
         "wires": [
             [
                 "7921cddd0f314705"
@@ -15700,7 +15724,7 @@
         "domain": "media_player",
         "service": "turn_on",
         "x": 1050,
-        "y": 560,
+        "y": 720,
         "wires": [
             []
         ]
@@ -15732,7 +15756,7 @@
         "domain": "media_player",
         "service": "select_source",
         "x": 1210,
-        "y": 620,
+        "y": 780,
         "wires": [
             [
                 "18e6577d292535de"
@@ -15747,7 +15771,7 @@
         "name": "TV",
         "info": "",
         "x": 810,
-        "y": 520,
+        "y": 680,
         "wires": []
     },
     {
@@ -15777,7 +15801,7 @@
         "domain": "media_player",
         "service": "media_play",
         "x": 1540,
-        "y": 620,
+        "y": 780,
         "wires": [
             []
         ]
@@ -15809,7 +15833,7 @@
         "domain": "media_player",
         "service": "media_stop",
         "x": 880,
-        "y": 620,
+        "y": 780,
         "wires": [
             [
                 "54b7f080b2edea10"
@@ -15854,7 +15878,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 850,
-        "y": 560,
+        "y": 720,
         "wires": [
             [
                 "f47b4545239299ad"
@@ -15873,7 +15897,7 @@
             "dec99c0ab95cf46a"
         ],
         "x": 775,
-        "y": 680,
+        "y": 840,
         "wires": []
     },
     {
@@ -15901,7 +15925,7 @@
         "domain": "wake_on_lan",
         "service": "send_magic_packet",
         "x": 850,
-        "y": 720,
+        "y": 880,
         "wires": [
             []
         ]
@@ -15958,7 +15982,7 @@
             }
         ],
         "x": 140,
-        "y": 1360,
+        "y": 1520,
         "wires": [
             [
                 "4f9dcb4526aa6e68"
@@ -15990,7 +16014,7 @@
         "repair": false,
         "outputs": 2,
         "x": 330,
-        "y": 1360,
+        "y": 1520,
         "wires": [
             [
                 "a7ae16757970717f"
@@ -16038,7 +16062,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 540,
-        "y": 1340,
+        "y": 1500,
         "wires": [
             [
                 "fdca445a404c15cc"
@@ -16084,7 +16108,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 540,
-        "y": 1400,
+        "y": 1560,
         "wires": [
             [
                 "fdca445a404c15cc"
@@ -16097,14 +16121,14 @@
         "type": "api-current-state",
         "z": "39f5e6336137f4b2",
         "g": "aa38407fb6bc0dac",
-        "name": "state media player group tv is playing",
+        "name": "state tv shield is playing",
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
         "halt_if": "playing",
         "halt_if_type": "str",
         "halt_if_compare": "is",
-        "entity_id": "group.tv_media_players",
+        "entity_id": "media_player.universal_tv",
         "state_type": "str",
         "blockInputOverrides": false,
         "outputProperties": [
@@ -16129,12 +16153,13 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 830,
-        "y": 1360,
+        "x": 790,
+        "y": 1520,
         "wires": [
             [
                 "f06607d23ea600e0",
-                "2024b0143896ad22"
+                "2024b0143896ad22",
+                "196bc3f64cd5749f"
             ],
             []
         ]
@@ -16144,17 +16169,17 @@
         "type": "api-call-service",
         "z": "39f5e6336137f4b2",
         "g": "aa38407fb6bc0dac",
-        "name": "pause group tv media players",
+        "name": "pause tv",
         "server": "4ba92433.2478cc",
         "version": 7,
         "debugenabled": false,
         "action": "media_player.media_pause",
         "floorId": [],
-        "areaId": [
-            "living_room"
-        ],
+        "areaId": [],
         "deviceId": [],
-        "entityId": [],
+        "entityId": [
+            "media_player.universal_tv"
+        ],
         "labelId": [],
         "data": "",
         "dataType": "json",
@@ -16165,8 +16190,8 @@
         "blockInputOverrides": false,
         "domain": "media_player",
         "service": "media_pause",
-        "x": 1150,
-        "y": 1360,
+        "x": 1000,
+        "y": 1520,
         "wires": [
             []
         ]
@@ -16181,8 +16206,8 @@
         "links": [
             "72b9b335e9a56383"
         ],
-        "x": 1035,
-        "y": 1400,
+        "x": 955,
+        "y": 1560,
         "wires": []
     },
     {
@@ -16193,7 +16218,7 @@
         "name": "pause when phone is off hook",
         "info": "",
         "x": 160,
-        "y": 1320,
+        "y": 1480,
         "wires": []
     },
     {
@@ -16248,7 +16273,7 @@
             }
         ],
         "x": 150,
-        "y": 1220,
+        "y": 1380,
         "wires": [
             [
                 "2c145c15609bd2fb"
@@ -16275,7 +16300,7 @@
         "repair": false,
         "outputs": 1,
         "x": 380,
-        "y": 1220,
+        "y": 1380,
         "wires": [
             [
                 "68088e8c9c8a0e54"
@@ -16320,7 +16345,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 670,
-        "y": 1220,
+        "y": 1380,
         "wires": [
             [
                 "207e1edd1118b4af"
@@ -16355,7 +16380,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 990,
-        "y": 1220,
+        "y": 1380,
         "wires": [
             []
         ]
@@ -16368,7 +16393,7 @@
         "name": "input select tv",
         "info": "",
         "x": 110,
-        "y": 1180,
+        "y": 1340,
         "wires": []
     },
     {
@@ -16423,7 +16448,7 @@
             }
         ],
         "x": 160,
-        "y": 1080,
+        "y": 1240,
         "wires": [
             [
                 "d2469e552aa559a3"
@@ -16450,7 +16475,7 @@
         "repair": false,
         "outputs": 1,
         "x": 350,
-        "y": 1080,
+        "y": 1240,
         "wires": [
             [
                 "0a97895675822841"
@@ -16471,7 +16496,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 470,
-        "y": 1080,
+        "y": 1240,
         "wires": [
             [
                 "37a61d11bf9ce0ab"
@@ -16497,7 +16522,7 @@
         "repair": false,
         "outputs": 1,
         "x": 610,
-        "y": 1080,
+        "y": 1240,
         "wires": [
             [
                 "cbfb0a5eb7b1a139"
@@ -16523,7 +16548,7 @@
         "repair": false,
         "outputs": 1,
         "x": 750,
-        "y": 1080,
+        "y": 1240,
         "wires": [
             [
                 "44ccff64331a48d4"
@@ -16557,7 +16582,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 960,
-        "y": 1080,
+        "y": 1240,
         "wires": [
             []
         ]
@@ -16570,7 +16595,7 @@
         "name": "select entertainment activity based on powernode content",
         "info": "",
         "x": 250,
-        "y": 1040,
+        "y": 1200,
         "wires": []
     },
     {
@@ -16625,7 +16650,7 @@
             }
         ],
         "x": 160,
-        "y": 880,
+        "y": 1040,
         "wires": [
             [
                 "e40f3ebc2b772714"
@@ -16670,7 +16695,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 480,
-        "y": 880,
+        "y": 1040,
         "wires": [
             [
                 "0e05b01a3088ebe6"
@@ -16698,7 +16723,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 830,
-        "y": 880,
+        "y": 1040,
         "wires": [
             [
                 "210f99cc3d429b16"
@@ -16730,7 +16755,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1050,
-        "y": 880,
+        "y": 1040,
         "wires": [
             [
                 "6739b21acd1ca7bf"
@@ -16778,7 +16803,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1280,
-        "y": 880,
+        "y": 1040,
         "wires": [
             [
                 "e6b09e369fa79397"
@@ -16824,7 +16849,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1280,
-        "y": 940,
+        "y": 1100,
         "wires": [
             [
                 "bf21fecdc989374a"
@@ -16859,7 +16884,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 1600,
-        "y": 880,
+        "y": 1040,
         "wires": [
             []
         ]
@@ -16891,7 +16916,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 1600,
-        "y": 940,
+        "y": 1100,
         "wires": [
             []
         ]
@@ -16904,7 +16929,123 @@
         "name": "select entertainment activity based on media player content",
         "info": "",
         "x": 250,
-        "y": 840,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "83c6eaa1642b6dc4",
+        "type": "inject",
+        "z": "39f5e6336137f4b2",
+        "g": "73746a7917fbe356",
+        "name": "room",
+        "props": [
+            {
+                "p": "room.friendly_name",
+                "v": "woonkamer",
+                "vt": "str"
+            },
+            {
+                "p": "room.ha_id",
+                "v": "living_room",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 110,
+        "y": 200,
+        "wires": [
+            [
+                "3525ce8bbcca4c19"
+            ]
+        ]
+    },
+    {
+        "id": "3525ce8bbcca4c19",
+        "type": "change",
+        "z": "39f5e6336137f4b2",
+        "g": "73746a7917fbe356",
+        "name": "set room variables",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(file)::room",
+                "pt": "flow",
+                "to": "room",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 270,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "39d84b0af6bf22da",
+        "type": "comment",
+        "z": "39f5e6336137f4b2",
+        "g": "73746a7917fbe356",
+        "name": "add room variables to the context store so it can be reused in the flow",
+        "info": "",
+        "x": 290,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "b8bbf191849096e3",
+        "type": "inject",
+        "z": "39f5e6336137f4b2",
+        "g": "aa38407fb6bc0dac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 630,
+        "y": 1460,
+        "wires": [
+            [
+                "fdca445a404c15cc"
+            ]
+        ]
+    },
+    {
+        "id": "196bc3f64cd5749f",
+        "type": "debug",
+        "z": "39f5e6336137f4b2",
+        "g": "aa38407fb6bc0dac",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 1460,
         "wires": []
     },
     {
@@ -52140,8 +52281,7 @@
         "name": "turn off vacuum auto cleaning",
         "mode": "link",
         "links": [
-            "7a6572a848edbab2",
-            "bdecec104be2a65e"
+            "7a6572a848edbab2"
         ],
         "x": 375,
         "y": 1060,
