@@ -2175,8 +2175,8 @@
             "0652dadc1b579cce",
             "2b86971fcc199b40"
         ],
-        "x": 28,
-        "y": 1953,
+        "x": 8,
+        "y": 2093,
         "w": 784,
         "h": 414
     },
@@ -5140,8 +5140,8 @@
             "2e16eb2bec967a72",
             "5fe42cef5b668ff4"
         ],
-        "x": 54,
-        "y": 1979,
+        "x": 34,
+        "y": 2119,
         "w": 732,
         "h": 182
     },
@@ -5529,8 +5529,8 @@
             "e2ced3815577a09c",
             "8a78024ba282982a"
         ],
-        "x": 54,
-        "y": 2179,
+        "x": 34,
+        "y": 2319,
         "w": 532,
         "h": 162
     },
@@ -6634,8 +6634,7 @@
             "54e3e2b794b71880",
             "a9227561e7f66936",
             "2a804e94931f7201",
-            "5e6c2b35b3d20cc1",
-            "72276defb8093fc1"
+            "5e6c2b35b3d20cc1"
         ],
         "x": 14,
         "y": 1759,
@@ -6667,14 +6666,35 @@
             "c054e6f474b4191e",
             "c63b94a1bcddb5f9",
             "462935c54d978b2f",
-            "d42cee1b019d7e42",
-            "f4d5cb0f88d0ecda",
-            "686f9750f8a010d1"
+            "d42cee1b019d7e42"
         ],
         "x": 14,
         "y": 2059,
-        "w": 1072,
-        "h": 302
+        "w": 892,
+        "h": 262
+    },
+    {
+        "id": "39d4875f9179ffa1",
+        "type": "group",
+        "z": "7f39e487c7ab241c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a5fe096c3596b8b1",
+            "fca221061c5bbaec",
+            "5a3e197c6d1d4510"
+        ],
+        "x": 14,
+        "y": 1919,
+        "w": 672,
+        "h": 142
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -14819,8 +14839,7 @@
         "areaId": [],
         "deviceId": [],
         "entityId": [
-            "media_player.powernode_2i_ea48",
-            "media_player.powernode_2i_ea48_music_assistant"
+            "media_player.powernode_2i_ea48"
         ],
         "labelId": [],
         "data": "",
@@ -15775,6 +15794,7 @@
         "id": "a39ce2d3dcb2fa52",
         "type": "server-state-changed",
         "z": "39f5e6336137f4b2",
+        "d": true,
         "g": "71f25ae3f0829bda",
         "name": "state media player bluesound",
         "server": "4ba92433.2478cc",
@@ -16670,7 +16690,7 @@
         "blockInputOverrides": false,
         "domain": "webostv",
         "service": "command",
-        "x": 980,
+        "x": 800,
         "y": 2160,
         "wires": [
             []
@@ -16707,7 +16727,7 @@
         "blockInputOverrides": true,
         "domain": "webostv",
         "service": "command",
-        "x": 560,
+        "x": 500,
         "y": 2160,
         "wires": [
             [
@@ -16733,12 +16753,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 710,
+        "x": 650,
         "y": 2160,
         "wires": [
             [
-                "75b84d8bf5e2faeb",
-                "f4d5cb0f88d0ecda"
+                "75b84d8bf5e2faeb"
             ]
         ]
     },
@@ -16752,7 +16771,7 @@
             "9bfa5f87424a529d",
             "cc95177ff7dd19c7"
         ],
-        "x": 285,
+        "x": 225,
         "y": 2160,
         "wires": [
             [
@@ -16769,7 +16788,7 @@
         "links": [
             "058b6bfd406a2ad0"
         ],
-        "x": 285,
+        "x": 225,
         "y": 2220,
         "wires": [
             [
@@ -16808,7 +16827,7 @@
         "blockInputOverrides": true,
         "domain": "webostv",
         "service": "command",
-        "x": 560,
+        "x": 500,
         "y": 2220,
         "wires": [
             [
@@ -16834,7 +16853,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 710,
+        "x": 650,
         "y": 2220,
         "wires": [
             [
@@ -16866,7 +16885,7 @@
         "blockInputOverrides": false,
         "domain": "webostv",
         "service": "command",
-        "x": 860,
+        "x": 800,
         "y": 2220,
         "wires": [
             []
@@ -16909,7 +16928,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 400,
+        "x": 340,
         "y": 2160,
         "wires": [
             [
@@ -16955,7 +16974,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 400,
+        "x": 340,
         "y": 2220,
         "wires": [
             [
@@ -16995,59 +17014,11 @@
             }
         ],
         "x": 140,
-        "y": 2300,
+        "y": 2280,
         "wires": [
             [
                 "c63b94a1bcddb5f9",
                 "462935c54d978b2f"
-            ]
-        ]
-    },
-    {
-        "id": "f4d5cb0f88d0ecda",
-        "type": "debug",
-        "z": "39f5e6336137f4b2",
-        "g": "13c66868b5eefa83",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 930,
-        "y": 2100,
-        "wires": []
-    },
-    {
-        "id": "686f9750f8a010d1",
-        "type": "inject",
-        "z": "39f5e6336137f4b2",
-        "g": "13c66868b5eefa83",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 690,
-        "y": 2320,
-        "wires": [
-            [
-                "c054e6f474b4191e"
             ]
         ]
     },
@@ -17068,28 +17039,9 @@
         "y": 1860,
         "wires": [
             [
-                "b17acb7df0bb2bd2",
-                "72276defb8093fc1"
+                "b17acb7df0bb2bd2"
             ]
         ]
-    },
-    {
-        "id": "72276defb8093fc1",
-        "type": "debug",
-        "z": "39f5e6336137f4b2",
-        "g": "59a9dccc6e2c8820",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 400,
-        "y": 1920,
-        "wires": []
     },
     {
         "id": "6e79bc1726b0ef67",
@@ -33188,8 +33140,8 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_on",
-        "x": 660,
-        "y": 2060,
+        "x": 640,
+        "y": 2200,
         "wires": [
             []
         ]
@@ -33226,8 +33178,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 430,
-        "y": 2060,
+        "x": 410,
+        "y": 2200,
         "wires": [
             [
                 "3101d0a1b950e78d"
@@ -33242,8 +33194,8 @@
         "g": "0652dadc1b579cce",
         "name": "turn cv closet light on when door gets openend and turn it back off when it get closed",
         "info": "",
-        "x": 370,
-        "y": 2020,
+        "x": 350,
+        "y": 2160,
         "wires": []
     },
     {
@@ -33388,8 +33340,8 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 180,
-        "y": 2060,
+        "x": 160,
+        "y": 2200,
         "wires": [
             [
                 "c09b728cb16b154e"
@@ -33425,8 +33377,8 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_off",
-        "x": 660,
-        "y": 2120,
+        "x": 640,
+        "y": 2260,
         "wires": [
             []
         ]
@@ -33463,8 +33415,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 430,
-        "y": 2120,
+        "x": 410,
+        "y": 2260,
         "wires": [
             [
                 "2e16eb2bec967a72"
@@ -33728,8 +33680,8 @@
         "g": "2b86971fcc199b40",
         "name": "turn off lights when sleepmode turns on or the house is unoccupied",
         "info": "",
-        "x": 320,
-        "y": 2220,
+        "x": 300,
+        "y": 2360,
         "wires": []
     },
     {
@@ -33738,8 +33690,8 @@
         "z": "7f39e487c7ab241c",
         "g": "2b86971fcc199b40",
         "name": "",
-        "x": 210,
-        "y": 2260,
+        "x": 190,
+        "y": 2400,
         "wires": [
             [
                 "e2ced3815577a09c"
@@ -33772,8 +33724,8 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "turn_off",
-        "x": 430,
-        "y": 2260,
+        "x": 410,
+        "y": 2400,
         "wires": [
             []
         ]
@@ -33787,8 +33739,8 @@
         "links": [
             "e6b9ff42fde3ea4e"
         ],
-        "x": 325,
-        "y": 2300,
+        "x": 305,
+        "y": 2440,
         "wires": [
             [
                 "e2ced3815577a09c"
@@ -35322,6 +35274,66 @@
         "x": 420,
         "y": 1500,
         "wires": []
+    },
+    {
+        "id": "a5fe096c3596b8b1",
+        "type": "comment",
+        "z": "7f39e487c7ab241c",
+        "g": "39d4875f9179ffa1",
+        "name": "update outdoor temperature to opentherm gateway",
+        "info": "",
+        "x": 230,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "fca221061c5bbaec",
+        "type": "link in",
+        "z": "7f39e487c7ab241c",
+        "g": "39d4875f9179ffa1",
+        "name": "update outdoor temperature to opentherm gateway",
+        "links": [
+            "12e6ca97465e9a8e"
+        ],
+        "x": 265,
+        "y": 2020,
+        "wires": [
+            [
+                "5a3e197c6d1d4510"
+            ]
+        ]
+    },
+    {
+        "id": "5a3e197c6d1d4510",
+        "type": "api-call-service",
+        "z": "7f39e487c7ab241c",
+        "g": "39d4875f9179ffa1",
+        "name": "update opentherm gateway outdoor temperature",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "number.set_value",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "number.opentherm_outdoor_temp"
+        ],
+        "labelId": [],
+        "data": "{\"value\":\"{{outdoor_temperature}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "number",
+        "service": "set_value",
+        "x": 480,
+        "y": 2020,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "34bc897fe72c285a",
@@ -47814,6 +47826,241 @@
         "info": "",
         "x": 300,
         "y": 360,
+        "wires": []
+    },
+    {
+        "id": "2a461ae7f7d76e0e",
+        "type": "comment",
+        "z": "51ad1e79edd47f04",
+        "name": "outdoor temperature with fallback sensors",
+        "info": "",
+        "x": 180,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "7911c12266cd5063",
+        "type": "inject",
+        "z": "51ad1e79edd47f04",
+        "name": "every 15 min",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "900",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 560,
+        "wires": [
+            [
+                "50ca61b206e9a30b",
+                "ba7461b6d0252448",
+                "810e9a5202e38ab2"
+            ]
+        ]
+    },
+    {
+        "id": "50ca61b206e9a30b",
+        "type": "api-current-state",
+        "z": "51ad1e79edd47f04",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.weather_station_dht_temperature",
+        "state_type": "num",
+        "blockInputOverrides": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "weather_station_dht_temperature",
+                "valueType": "str"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 450,
+        "y": 560,
+        "wires": [
+            [
+                "6d741b5d3ea19de5"
+            ]
+        ]
+    },
+    {
+        "id": "ba7461b6d0252448",
+        "type": "api-current-state",
+        "z": "51ad1e79edd47f04",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.weather_station_temperature",
+        "state_type": "num",
+        "blockInputOverrides": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "weather_station_temperature",
+                "valueType": "str"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 430,
+        "y": 620,
+        "wires": [
+            [
+                "6d741b5d3ea19de5"
+            ]
+        ]
+    },
+    {
+        "id": "0895bdce96812713",
+        "type": "function",
+        "z": "51ad1e79edd47f04",
+        "name": "outdoor temp with fallbacks",
+        "func": "msg.outdoor_temperature = Number(\n  (msg.payload.weather_station_dht_temperature ??\n   msg.payload.weather_station_temperature ??\n   msg.payload.knmi_temperature).toFixed(2)\n);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 560,
+        "wires": [
+            [
+                "12e6ca97465e9a8e"
+            ]
+        ]
+    },
+    {
+        "id": "810e9a5202e38ab2",
+        "type": "api-current-state",
+        "z": "51ad1e79edd47f04",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.knmi_temperature",
+        "state_type": "num",
+        "blockInputOverrides": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "knmi_temperature",
+                "valueType": "str"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 400,
+        "y": 680,
+        "wires": [
+            [
+                "6d741b5d3ea19de5"
+            ]
+        ]
+    },
+    {
+        "id": "6d741b5d3ea19de5",
+        "type": "join",
+        "z": "51ad1e79edd47f04",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "10",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 770,
+        "y": 560,
+        "wires": [
+            [
+                "0895bdce96812713"
+            ]
+        ]
+    },
+    {
+        "id": "12e6ca97465e9a8e",
+        "type": "link out",
+        "z": "51ad1e79edd47f04",
+        "name": "outdoor temperature",
+        "mode": "link",
+        "links": [
+            "fca221061c5bbaec"
+        ],
+        "x": 1115,
+        "y": 560,
         "wires": []
     },
     {

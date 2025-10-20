@@ -2175,8 +2175,8 @@
             "0652dadc1b579cce",
             "2b86971fcc199b40"
         ],
-        "x": 28,
-        "y": 1953,
+        "x": 8,
+        "y": 2093,
         "w": 784,
         "h": 414
     },
@@ -5140,8 +5140,8 @@
             "2e16eb2bec967a72",
             "5fe42cef5b668ff4"
         ],
-        "x": 54,
-        "y": 1979,
+        "x": 34,
+        "y": 2119,
         "w": 732,
         "h": 182
     },
@@ -5529,8 +5529,8 @@
             "e2ced3815577a09c",
             "8a78024ba282982a"
         ],
-        "x": 54,
-        "y": 2179,
+        "x": 34,
+        "y": 2319,
         "w": 532,
         "h": 162
     },
@@ -6672,6 +6672,57 @@
         "y": 2059,
         "w": 892,
         "h": 262
+    },
+    {
+        "id": "39d4875f9179ffa1",
+        "type": "group",
+        "z": "7f39e487c7ab241c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a5fe096c3596b8b1",
+            "fca221061c5bbaec",
+            "5a3e197c6d1d4510"
+        ],
+        "x": 14,
+        "y": 1919,
+        "w": 672,
+        "h": 142
+    },
+    {
+        "id": "a6a5f43e0a339220",
+        "type": "group",
+        "z": "51ad1e79edd47f04",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2a461ae7f7d76e0e",
+            "7911c12266cd5063",
+            "50ca61b206e9a30b",
+            "ba7461b6d0252448",
+            "0895bdce96812713",
+            "810e9a5202e38ab2",
+            "6d741b5d3ea19de5",
+            "12e6ca97465e9a8e"
+        ],
+        "x": 14,
+        "y": 459,
+        "w": 1162,
+        "h": 242
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -14816,8 +14867,7 @@
         "areaId": [],
         "deviceId": [],
         "entityId": [
-            "media_player.powernode_2i_ea48",
-            "media_player.powernode_2i_ea48_music_assistant"
+            "media_player.powernode_2i_ea48"
         ],
         "labelId": [],
         "data": "",
@@ -15772,6 +15822,7 @@
         "id": "a39ce2d3dcb2fa52",
         "type": "server-state-changed",
         "z": "39f5e6336137f4b2",
+        "d": true,
         "g": "71f25ae3f0829bda",
         "name": "state media player bluesound",
         "server": "4ba92433.2478cc",
@@ -33117,8 +33168,8 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_on",
-        "x": 660,
-        "y": 2060,
+        "x": 640,
+        "y": 2200,
         "wires": [
             []
         ]
@@ -33155,8 +33206,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 430,
-        "y": 2060,
+        "x": 410,
+        "y": 2200,
         "wires": [
             [
                 "3101d0a1b950e78d"
@@ -33171,8 +33222,8 @@
         "g": "0652dadc1b579cce",
         "name": "turn cv closet light on when door gets openend and turn it back off when it get closed",
         "info": "",
-        "x": 370,
-        "y": 2020,
+        "x": 350,
+        "y": 2160,
         "wires": []
     },
     {
@@ -33317,8 +33368,8 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 180,
-        "y": 2060,
+        "x": 160,
+        "y": 2200,
         "wires": [
             [
                 "c09b728cb16b154e"
@@ -33354,8 +33405,8 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_off",
-        "x": 660,
-        "y": 2120,
+        "x": 640,
+        "y": 2260,
         "wires": [
             []
         ]
@@ -33392,8 +33443,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 430,
-        "y": 2120,
+        "x": 410,
+        "y": 2260,
         "wires": [
             [
                 "2e16eb2bec967a72"
@@ -33657,8 +33708,8 @@
         "g": "2b86971fcc199b40",
         "name": "turn off lights when sleepmode turns on or the house is unoccupied",
         "info": "",
-        "x": 320,
-        "y": 2220,
+        "x": 300,
+        "y": 2360,
         "wires": []
     },
     {
@@ -33667,8 +33718,8 @@
         "z": "7f39e487c7ab241c",
         "g": "2b86971fcc199b40",
         "name": "",
-        "x": 210,
-        "y": 2260,
+        "x": 190,
+        "y": 2400,
         "wires": [
             [
                 "e2ced3815577a09c"
@@ -33701,8 +33752,8 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "turn_off",
-        "x": 430,
-        "y": 2260,
+        "x": 410,
+        "y": 2400,
         "wires": [
             []
         ]
@@ -33716,8 +33767,8 @@
         "links": [
             "e6b9ff42fde3ea4e"
         ],
-        "x": 325,
-        "y": 2300,
+        "x": 305,
+        "y": 2440,
         "wires": [
             [
                 "e2ced3815577a09c"
@@ -35251,6 +35302,66 @@
         "x": 420,
         "y": 1500,
         "wires": []
+    },
+    {
+        "id": "a5fe096c3596b8b1",
+        "type": "comment",
+        "z": "7f39e487c7ab241c",
+        "g": "39d4875f9179ffa1",
+        "name": "update outdoor temperature to opentherm gateway",
+        "info": "",
+        "x": 230,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "fca221061c5bbaec",
+        "type": "link in",
+        "z": "7f39e487c7ab241c",
+        "g": "39d4875f9179ffa1",
+        "name": "update outdoor temperature to opentherm gateway",
+        "links": [
+            "12e6ca97465e9a8e"
+        ],
+        "x": 265,
+        "y": 2020,
+        "wires": [
+            [
+                "5a3e197c6d1d4510"
+            ]
+        ]
+    },
+    {
+        "id": "5a3e197c6d1d4510",
+        "type": "api-call-service",
+        "z": "7f39e487c7ab241c",
+        "g": "39d4875f9179ffa1",
+        "name": "update opentherm gateway outdoor temperature",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "number.set_value",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "number.opentherm_outdoor_temp"
+        ],
+        "labelId": [],
+        "data": "{\"value\":\"{{outdoor_temperature}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "number",
+        "service": "set_value",
+        "x": 480,
+        "y": 2020,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "34bc897fe72c285a",
@@ -47743,6 +47854,249 @@
         "info": "",
         "x": 300,
         "y": 360,
+        "wires": []
+    },
+    {
+        "id": "2a461ae7f7d76e0e",
+        "type": "comment",
+        "z": "51ad1e79edd47f04",
+        "g": "a6a5f43e0a339220",
+        "name": "outdoor temperature with fallback sensors",
+        "info": "",
+        "x": 200,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "7911c12266cd5063",
+        "type": "inject",
+        "z": "51ad1e79edd47f04",
+        "g": "a6a5f43e0a339220",
+        "name": "every 15 min",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "900",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 540,
+        "wires": [
+            [
+                "50ca61b206e9a30b",
+                "ba7461b6d0252448",
+                "810e9a5202e38ab2"
+            ]
+        ]
+    },
+    {
+        "id": "50ca61b206e9a30b",
+        "type": "api-current-state",
+        "z": "51ad1e79edd47f04",
+        "g": "a6a5f43e0a339220",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.weather_station_dht_temperature",
+        "state_type": "num",
+        "blockInputOverrides": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "weather_station_dht_temperature",
+                "valueType": "str"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 470,
+        "y": 540,
+        "wires": [
+            [
+                "6d741b5d3ea19de5"
+            ]
+        ]
+    },
+    {
+        "id": "ba7461b6d0252448",
+        "type": "api-current-state",
+        "z": "51ad1e79edd47f04",
+        "g": "a6a5f43e0a339220",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.weather_station_temperature",
+        "state_type": "num",
+        "blockInputOverrides": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "weather_station_temperature",
+                "valueType": "str"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 450,
+        "y": 600,
+        "wires": [
+            [
+                "6d741b5d3ea19de5"
+            ]
+        ]
+    },
+    {
+        "id": "0895bdce96812713",
+        "type": "function",
+        "z": "51ad1e79edd47f04",
+        "g": "a6a5f43e0a339220",
+        "name": "outdoor temp with fallbacks",
+        "func": "msg.outdoor_temperature = Number(\n  (msg.payload.weather_station_dht_temperature ??\n   msg.payload.weather_station_temperature ??\n   msg.payload.knmi_temperature).toFixed(2)\n);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 540,
+        "wires": [
+            [
+                "12e6ca97465e9a8e"
+            ]
+        ]
+    },
+    {
+        "id": "810e9a5202e38ab2",
+        "type": "api-current-state",
+        "z": "51ad1e79edd47f04",
+        "g": "a6a5f43e0a339220",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.knmi_temperature",
+        "state_type": "num",
+        "blockInputOverrides": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "knmi_temperature",
+                "valueType": "str"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 420,
+        "y": 660,
+        "wires": [
+            [
+                "6d741b5d3ea19de5"
+            ]
+        ]
+    },
+    {
+        "id": "6d741b5d3ea19de5",
+        "type": "join",
+        "z": "51ad1e79edd47f04",
+        "g": "a6a5f43e0a339220",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "10",
+        "count": "3",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 790,
+        "y": 540,
+        "wires": [
+            [
+                "0895bdce96812713"
+            ]
+        ]
+    },
+    {
+        "id": "12e6ca97465e9a8e",
+        "type": "link out",
+        "z": "51ad1e79edd47f04",
+        "g": "a6a5f43e0a339220",
+        "name": "outdoor temperature",
+        "mode": "link",
+        "links": [
+            "fca221061c5bbaec"
+        ],
+        "x": 1135,
+        "y": 540,
         "wires": []
     },
     {
