@@ -6633,7 +6633,8 @@
             "710a9c0fa290ab6f",
             "54e3e2b794b71880",
             "a9227561e7f66936",
-            "2a804e94931f7201"
+            "2a804e94931f7201",
+            "5e6c2b35b3d20cc1"
         ],
         "x": 14,
         "y": 1759,
@@ -6669,8 +6670,8 @@
         ],
         "x": 14,
         "y": 2059,
-        "w": 952,
-        "h": 282
+        "w": 892,
+        "h": 262
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -16181,7 +16182,8 @@
         "exposeAsEntityConfig": "",
         "entities": {
             "entity": [
-                "media_player.universal_tv"
+                "media_player.universal_tv",
+                "media_player.shield"
             ],
             "substring": [],
             "regex": []
@@ -16191,7 +16193,7 @@
         "ifState": "",
         "ifStateType": "str",
         "ifStateOperator": "is",
-        "outputOnlyOnStateChange": false,
+        "outputOnlyOnStateChange": true,
         "for": "",
         "forType": "num",
         "forUnits": "minutes",
@@ -16224,7 +16226,7 @@
         "y": 1860,
         "wires": [
             [
-                "b17acb7df0bb2bd2"
+                "5e6c2b35b3d20cc1"
             ]
         ]
     },
@@ -16251,7 +16253,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 330,
+        "x": 450,
         "y": 1860,
         "wires": [
             [
@@ -16665,7 +16667,7 @@
         "blockInputOverrides": false,
         "domain": "webostv",
         "service": "command",
-        "x": 860,
+        "x": 800,
         "y": 2160,
         "wires": [
             []
@@ -16702,7 +16704,7 @@
         "blockInputOverrides": true,
         "domain": "webostv",
         "service": "command",
-        "x": 560,
+        "x": 500,
         "y": 2160,
         "wires": [
             [
@@ -16728,7 +16730,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 710,
+        "x": 650,
         "y": 2160,
         "wires": [
             [
@@ -16746,7 +16748,7 @@
             "9bfa5f87424a529d",
             "cc95177ff7dd19c7"
         ],
-        "x": 285,
+        "x": 225,
         "y": 2160,
         "wires": [
             [
@@ -16763,7 +16765,7 @@
         "links": [
             "058b6bfd406a2ad0"
         ],
-        "x": 285,
+        "x": 225,
         "y": 2220,
         "wires": [
             [
@@ -16802,7 +16804,7 @@
         "blockInputOverrides": true,
         "domain": "webostv",
         "service": "command",
-        "x": 560,
+        "x": 500,
         "y": 2220,
         "wires": [
             [
@@ -16828,7 +16830,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 710,
+        "x": 650,
         "y": 2220,
         "wires": [
             [
@@ -16860,7 +16862,7 @@
         "blockInputOverrides": false,
         "domain": "webostv",
         "service": "command",
-        "x": 860,
+        "x": 800,
         "y": 2220,
         "wires": [
             []
@@ -16903,7 +16905,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 400,
+        "x": 340,
         "y": 2160,
         "wires": [
             [
@@ -16949,7 +16951,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 400,
+        "x": 340,
         "y": 2220,
         "wires": [
             [
@@ -16989,11 +16991,32 @@
             }
         ],
         "x": 140,
-        "y": 2300,
+        "y": 2280,
         "wires": [
             [
                 "c63b94a1bcddb5f9",
                 "462935c54d978b2f"
+            ]
+        ]
+    },
+    {
+        "id": "5e6c2b35b3d20cc1",
+        "type": "rbe",
+        "z": "39f5e6336137f4b2",
+        "g": "59a9dccc6e2c8820",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 330,
+        "y": 1860,
+        "wires": [
+            [
+                "b17acb7df0bb2bd2"
             ]
         ]
     },
