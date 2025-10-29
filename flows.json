@@ -1640,11 +1640,13 @@
             "765822175b8ceb64",
             "356e972e170143b6",
             "89af915b11f17913",
-            "05fee56164178038"
+            "05fee56164178038",
+            "8d94db4209cd7b5d",
+            "a1513aaafd6eddac"
         ],
         "x": 14,
         "y": 119,
-        "w": 672,
+        "w": 972,
         "h": 162
     },
     {
@@ -1860,7 +1862,9 @@
             "8d98ecd84b9c5e5e",
             "9e13177c030bc585",
             "0263b01642ed55de",
-            "4152f10819c597f4"
+            "4152f10819c597f4",
+            "06ba67bd52f34108",
+            "ad46267ec00eb8da"
         ],
         "x": 14,
         "y": 1239,
@@ -1889,7 +1893,7 @@
         ],
         "x": 14,
         "y": 739,
-        "w": 502,
+        "w": 562,
         "h": 122
     },
     {
@@ -1914,7 +1918,7 @@
         ],
         "x": 14,
         "y": 679,
-        "w": 502,
+        "w": 562,
         "h": 122
     },
     {
@@ -1992,8 +1996,8 @@
             "b893f80d1303467b",
             "562fbfde97dcdc26"
         ],
-        "x": 8,
-        "y": 1833,
+        "x": 28,
+        "y": 2013,
         "w": 1424,
         "h": 1134
     },
@@ -2175,8 +2179,8 @@
             "0652dadc1b579cce",
             "2b86971fcc199b40"
         ],
-        "x": 8,
-        "y": 2093,
+        "x": 28,
+        "y": 2153,
         "w": 784,
         "h": 414
     },
@@ -4862,37 +4866,6 @@
         "h": 242
     },
     {
-        "id": "06386c1710d53320",
-        "type": "group",
-        "z": "7f39e487c7ab241c",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "b30974b6c0fc163e",
-            "accd30b231cf2bf4",
-            "aca607c328312e16",
-            "a35d2dff9d2a1f7c",
-            "a00ba324f973e2a1",
-            "275467bcb9c26880",
-            "542b3923373512ad",
-            "8a79ebc7121357d9",
-            "82b9234d2e343295",
-            "05165754289e75f1",
-            "63df13e036af1a07"
-        ],
-        "x": 14,
-        "y": 1659,
-        "w": 1112,
-        "h": 242
-    },
-    {
         "id": "f8921a685aab270b",
         "type": "group",
         "z": "7f39e487c7ab241c",
@@ -4907,19 +4880,168 @@
         },
         "nodes": [
             "ba77f8da98851350",
-            "8dc59865117f6040",
-            "0eb99a11d416a4c6",
             "6fc7768f0e0e7113",
-            "7f181c3a969cf13c",
             "6043718434f18179",
             "ef67c1284ddb8eed",
             "99a64ef46dadb061",
-            "9521e980bd1fd2c7"
+            "9521e980bd1fd2c7",
+            "89754424867abf7b",
+            "684d1198322d6e9b",
+            "173e4f1dbbee6143",
+            "fe0c8fde93e76cd2",
+            "dff5637af40db115",
+            "082c469b6d1254af",
+            "11215fce135d2001",
+            "63df13e036af1a07"
         ],
         "x": 14,
         "y": 1459,
-        "w": 1152,
-        "h": 182
+        "w": 1392,
+        "h": 302
+    },
+    {
+        "id": "73746a7917fbe356",
+        "type": "group",
+        "z": "39f5e6336137f4b2",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "83c6eaa1642b6dc4",
+            "3525ce8bbcca4c19",
+            "39d84b0af6bf22da"
+        ],
+        "x": 14,
+        "y": 119,
+        "w": 552,
+        "h": 122
+    },
+    {
+        "id": "59a9dccc6e2c8820",
+        "type": "group",
+        "z": "39f5e6336137f4b2",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a50b36c508ee1125",
+            "b17acb7df0bb2bd2",
+            "d9540c933a60aec7",
+            "9bfa5f87424a529d",
+            "f8003d1746659317",
+            "4539dbe872caf169",
+            "19b08832ac41fe31",
+            "a325b77f020cd697",
+            "382a831c1568641b",
+            "b3f587190264a6a8",
+            "b822a9f31018d2a0",
+            "058b6bfd406a2ad0",
+            "18cdd9064f4a7ab9",
+            "710a9c0fa290ab6f",
+            "54e3e2b794b71880",
+            "a9227561e7f66936",
+            "2a804e94931f7201",
+            "5e6c2b35b3d20cc1"
+        ],
+        "x": 14,
+        "y": 1759,
+        "w": 1472,
+        "h": 282
+    },
+    {
+        "id": "13c66868b5eefa83",
+        "type": "group",
+        "z": "39f5e6336137f4b2",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e6674374ecfdefa0",
+            "75b84d8bf5e2faeb",
+            "7ee0608b0362347d",
+            "3905cfef0361c276",
+            "dec99c0ab95cf46a",
+            "1e4e8287439e54f1",
+            "daac1efc716c9aa2",
+            "9dd84bc036be6c85",
+            "c054e6f474b4191e",
+            "c63b94a1bcddb5f9",
+            "462935c54d978b2f",
+            "d42cee1b019d7e42"
+        ],
+        "x": 14,
+        "y": 2059,
+        "w": 892,
+        "h": 262
+    },
+    {
+        "id": "39d4875f9179ffa1",
+        "type": "group",
+        "z": "7f39e487c7ab241c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a5fe096c3596b8b1",
+            "fca221061c5bbaec",
+            "5a3e197c6d1d4510"
+        ],
+        "x": 14,
+        "y": 1919,
+        "w": 672,
+        "h": 142
+    },
+    {
+        "id": "a6a5f43e0a339220",
+        "type": "group",
+        "z": "51ad1e79edd47f04",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2a461ae7f7d76e0e",
+            "7911c12266cd5063",
+            "50ca61b206e9a30b",
+            "ba7461b6d0252448",
+            "0895bdce96812713",
+            "810e9a5202e38ab2",
+            "6d741b5d3ea19de5",
+            "12e6ca97465e9a8e"
+        ],
+        "x": 14,
+        "y": 459,
+        "w": 1162,
+        "h": 242
     },
     {
         "id": "efc093c90e8d9b40",
@@ -5140,8 +5262,8 @@
             "2e16eb2bec967a72",
             "5fe42cef5b668ff4"
         ],
-        "x": 34,
-        "y": 2119,
+        "x": 54,
+        "y": 2179,
         "w": 732,
         "h": 182
     },
@@ -5200,8 +5322,8 @@
             "b811292b8f4a055a",
             "d72ea6fb7bddcfa1"
         ],
-        "x": 34,
-        "y": 1859,
+        "x": 54,
+        "y": 2039,
         "w": 1292,
         "h": 244.5
     },
@@ -5529,8 +5651,8 @@
             "e2ced3815577a09c",
             "8a78024ba282982a"
         ],
-        "x": 34,
-        "y": 2319,
+        "x": 54,
+        "y": 2379,
         "w": 532,
         "h": 162
     },
@@ -5986,8 +6108,8 @@
             "eee0baf6a957df61",
             "757cebaecd0f8b23"
         ],
-        "x": 34,
-        "y": 2119,
+        "x": 54,
+        "y": 2299,
         "w": 1112,
         "h": 282
     },
@@ -6462,8 +6584,8 @@
             "06494fdc0a5d9892",
             "c43613425ba3c1da"
         ],
-        "x": 34,
-        "y": 2419,
+        "x": 54,
+        "y": 2599,
         "w": 1372,
         "h": 202
     },
@@ -6489,8 +6611,8 @@
             "27f9690f59141f3c",
             "74417dbba5ac7943"
         ],
-        "x": 34,
-        "y": 2639,
+        "x": 54,
+        "y": 2819,
         "w": 1072,
         "h": 122
     },
@@ -6514,8 +6636,8 @@
             "427e7beaf1cf05cc",
             "120f47429583e78d"
         ],
-        "x": 34,
-        "y": 2779,
+        "x": 54,
+        "y": 2959,
         "w": 532,
         "h": 162
     },
@@ -6579,150 +6701,6 @@
         "y": 639,
         "w": 1032,
         "h": 282
-    },
-    {
-        "id": "73746a7917fbe356",
-        "type": "group",
-        "z": "39f5e6336137f4b2",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "83c6eaa1642b6dc4",
-            "3525ce8bbcca4c19",
-            "39d84b0af6bf22da"
-        ],
-        "x": 14,
-        "y": 119,
-        "w": 552,
-        "h": 122
-    },
-    {
-        "id": "59a9dccc6e2c8820",
-        "type": "group",
-        "z": "39f5e6336137f4b2",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "a50b36c508ee1125",
-            "b17acb7df0bb2bd2",
-            "d9540c933a60aec7",
-            "9bfa5f87424a529d",
-            "f8003d1746659317",
-            "4539dbe872caf169",
-            "19b08832ac41fe31",
-            "a325b77f020cd697",
-            "382a831c1568641b",
-            "b3f587190264a6a8",
-            "b822a9f31018d2a0",
-            "058b6bfd406a2ad0",
-            "18cdd9064f4a7ab9",
-            "710a9c0fa290ab6f",
-            "54e3e2b794b71880",
-            "a9227561e7f66936",
-            "2a804e94931f7201",
-            "5e6c2b35b3d20cc1"
-        ],
-        "x": 14,
-        "y": 1759,
-        "w": 1472,
-        "h": 282
-    },
-    {
-        "id": "13c66868b5eefa83",
-        "type": "group",
-        "z": "39f5e6336137f4b2",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "e6674374ecfdefa0",
-            "75b84d8bf5e2faeb",
-            "7ee0608b0362347d",
-            "3905cfef0361c276",
-            "dec99c0ab95cf46a",
-            "1e4e8287439e54f1",
-            "daac1efc716c9aa2",
-            "9dd84bc036be6c85",
-            "c054e6f474b4191e",
-            "c63b94a1bcddb5f9",
-            "462935c54d978b2f",
-            "d42cee1b019d7e42"
-        ],
-        "x": 14,
-        "y": 2059,
-        "w": 892,
-        "h": 262
-    },
-    {
-        "id": "39d4875f9179ffa1",
-        "type": "group",
-        "z": "7f39e487c7ab241c",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "a5fe096c3596b8b1",
-            "fca221061c5bbaec",
-            "5a3e197c6d1d4510"
-        ],
-        "x": 14,
-        "y": 1919,
-        "w": 672,
-        "h": 142
-    },
-    {
-        "id": "a6a5f43e0a339220",
-        "type": "group",
-        "z": "51ad1e79edd47f04",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "2a461ae7f7d76e0e",
-            "7911c12266cd5063",
-            "50ca61b206e9a30b",
-            "ba7461b6d0252448",
-            "0895bdce96812713",
-            "810e9a5202e38ab2",
-            "6d741b5d3ea19de5",
-            "12e6ca97465e9a8e"
-        ],
-        "x": 14,
-        "y": 459,
-        "w": 1162,
-        "h": 242
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -6957,8 +6935,8 @@
         "type": "junction",
         "z": "bf279eb7eda19fd7",
         "g": "478d175d0abcb987",
-        "x": 500,
-        "y": 1980,
+        "x": 520,
+        "y": 2160,
         "wires": [
             [
                 "e7b2bb5d8bf44ab8"
@@ -7195,8 +7173,8 @@
         "type": "junction",
         "z": "bf279eb7eda19fd7",
         "g": "7f9ef23a602772d9",
-        "x": 1140,
-        "y": 2580,
+        "x": 1160,
+        "y": 2760,
         "wires": [
             [
                 "b45d3017dda90564"
@@ -17644,7 +17622,7 @@
         "ifState": "",
         "ifStateType": "num",
         "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
+        "outputOnlyOnStateChange": false,
         "for": "0",
         "forType": "num",
         "forUnits": "minutes",
@@ -22521,7 +22499,7 @@
         "y": 1340,
         "wires": [
             [
-                "8d98ecd84b9c5e5e"
+                "06ba67bd52f34108"
             ],
             []
         ]
@@ -22541,20 +22519,7 @@
         "entity_id": "binary_sensor.workday_sensor",
         "state_type": "str",
         "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
+        "outputProperties": [],
         "for": "0",
         "forType": "num",
         "forUnits": "minutes",
@@ -22636,7 +22601,7 @@
         "type": "switch",
         "z": "be92da6a5a4a4550",
         "g": "5bdc240c2b2bc863",
-        "name": "camera",
+        "name": "camera backyard",
         "property": "payload.after.camera",
         "propertyType": "msg",
         "rules": [
@@ -22649,7 +22614,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 380,
+        "x": 410,
         "y": 820,
         "wires": [
             [
@@ -22704,7 +22669,7 @@
             "684440651deb45dc",
             "61c36fb38acb7466"
         ],
-        "x": 475,
+        "x": 535,
         "y": 820,
         "wires": []
     },
@@ -25363,7 +25328,7 @@
         "deviceId": [],
         "entityId": [],
         "labelId": [],
-        "data": "{\"message\":\"The garage door has been open for 10 minutes.\",\"title\":\"Waarschuwing\",\"target\":\"platform specific\",\"data\":{\"image\":\"{{{snapshotUrl}}}\",\"tag\":\"{{payload.after.id}}\",\"when\":\"{{payload.after.start_time}}\",\"clickAction\":\"/dashboard-mobile/camera\",\"channel\":\"Warning\",\"importance\":\"high\"}}",
+        "data": "{\"message\":\"Een persoon is in de achtertuin gedetecteerd\",\"title\":\"Waarschuwing\",\"data\":{\"image\":\"{{{snapshotUrl}}}\",\"tag\":\"{{payload.after.id}}\",\"when\":\"{{payload.after.start_time}}\",\"clickAction\":\"/dashboard-mobile/camera\",\"channel\":\"Warning\",\"importance\":\"high\"}}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -25375,7 +25340,9 @@
         "x": 1270,
         "y": 1460,
         "wires": [
-            []
+            [
+                "ad46267ec00eb8da"
+            ]
         ]
     },
     {
@@ -25399,6 +25366,57 @@
                 "da7c6256f3b28b92"
             ]
         ]
+    },
+    {
+        "id": "06ba67bd52f34108",
+        "type": "api-current-state",
+        "z": "be92da6a5a4a4550",
+        "g": "59d661e86ca6893c",
+        "name": "security is off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "input_boolean.home_security",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 790,
+        "y": 1340,
+        "wires": [
+            [
+                "8d98ecd84b9c5e5e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ad46267ec00eb8da",
+        "type": "debug",
+        "z": "be92da6a5a4a4550",
+        "g": "59d661e86ca6893c",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1290,
+        "y": 1380,
+        "wires": []
     },
     {
         "id": "7831e77dd0529d13",
@@ -27300,7 +27318,7 @@
         "type": "switch",
         "z": "bf279eb7eda19fd7",
         "g": "d6e945f724222ae1",
-        "name": "camera",
+        "name": "camera frontyard",
         "property": "payload.after.camera",
         "propertyType": "msg",
         "rules": [
@@ -27313,7 +27331,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 380,
+        "x": 410,
         "y": 760,
         "wires": [
             [
@@ -27366,7 +27384,7 @@
             "684440651deb45dc",
             "61c36fb38acb7466"
         ],
-        "x": 475,
+        "x": 535,
         "y": 760,
         "wires": []
     },
@@ -27396,8 +27414,8 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "turn_on",
-        "x": 1230,
-        "y": 1940,
+        "x": 1250,
+        "y": 2120,
         "wires": [
             []
         ]
@@ -27434,8 +27452,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 840,
-        "y": 2000,
+        "x": 860,
+        "y": 2180,
         "wires": [
             [
                 "d72ea6fb7bddcfa1"
@@ -27475,8 +27493,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 850,
-        "y": 1940,
+        "x": 870,
+        "y": 2120,
         "wires": [
             [
                 "d72ea6fb7bddcfa1"
@@ -27508,8 +27526,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 420,
-        "y": 1940,
+        "x": 440,
+        "y": 2120,
         "wires": [
             [
                 "e7b2bb5d8bf44ab8"
@@ -27524,8 +27542,8 @@
         "g": "478d175d0abcb987",
         "name": "turn on front door light on when it is dark outside, sleepmode is off and a person or guest is home",
         "info": "",
-        "x": 390,
-        "y": 1900,
+        "x": 410,
+        "y": 2080,
         "wires": []
     },
     {
@@ -27538,8 +27556,8 @@
             "4a93ba39b988072a",
             "c07ca02ed810efe8"
         ],
-        "x": 305,
-        "y": 1960,
+        "x": 325,
+        "y": 2140,
         "wires": [
             [
                 "44f6e9558f9c5074"
@@ -27552,8 +27570,8 @@
         "z": "bf279eb7eda19fd7",
         "g": "478d175d0abcb987",
         "name": "",
-        "x": 190,
-        "y": 2040,
+        "x": 210,
+        "y": 2220,
         "wires": [
             [
                 "b811292b8f4a055a"
@@ -27601,8 +27619,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 630,
-        "y": 1940,
+        "x": 650,
+        "y": 2120,
         "wires": [
             [
                 "29578d5983787104",
@@ -27648,8 +27666,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 1050,
-        "y": 1940,
+        "x": 1070,
+        "y": 2120,
         "wires": [
             [
                 "4a81d44956bf7abe"
@@ -27754,8 +27772,8 @@
         "outputLocationType": "msg",
         "outputLocation": "light_state",
         "outputResultsCount": 1,
-        "x": 570,
-        "y": 2200,
+        "x": 590,
+        "y": 2380,
         "wires": [
             [
                 "f6cab9c55259ee58"
@@ -27782,8 +27800,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 750,
-        "y": 2200,
+        "x": 770,
+        "y": 2380,
         "wires": [
             [
                 "6b77a3da8ad09a5b"
@@ -27803,8 +27821,8 @@
         "stream": false,
         "addname": "",
         "property": "light_state",
-        "x": 910,
-        "y": 2200,
+        "x": 930,
+        "y": 2380,
         "wires": [
             [
                 "7e308533ace3b7a5"
@@ -27837,8 +27855,8 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "turn_on",
-        "x": 1050,
-        "y": 2200,
+        "x": 1070,
+        "y": 2380,
         "wires": [
             []
         ]
@@ -27869,8 +27887,8 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "turn_off",
-        "x": 890,
-        "y": 2360,
+        "x": 910,
+        "y": 2540,
         "wires": [
             []
         ]
@@ -27895,8 +27913,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 440,
-        "y": 2300,
+        "x": 460,
+        "y": 2480,
         "wires": [
             [
                 "55e4ed93aa47ec93"
@@ -27916,8 +27934,8 @@
         "stream": false,
         "addname": "",
         "property": "light_state",
-        "x": 610,
-        "y": 2300,
+        "x": 630,
+        "y": 2480,
         "wires": [
             [
                 "bdffffaf4b1099f3"
@@ -27947,8 +27965,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 730,
-        "y": 2300,
+        "x": 750,
+        "y": 2480,
         "wires": [
             [
                 "9adaaa7a62ce557b"
@@ -27984,8 +28002,8 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "turn_on",
-        "x": 890,
-        "y": 2300,
+        "x": 910,
+        "y": 2480,
         "wires": [
             []
         ]
@@ -27999,8 +28017,8 @@
         "links": [
             "5874beb71c3c9523"
         ],
-        "x": 305,
-        "y": 2200,
+        "x": 325,
+        "y": 2380,
         "wires": [
             [
                 "757cebaecd0f8b23"
@@ -28017,8 +28035,8 @@
             "7d0fc8f40fda8ff9",
             "5a1c4daf23c47d8e"
         ],
-        "x": 305,
-        "y": 2300,
+        "x": 325,
+        "y": 2480,
         "wires": [
             [
                 "ef76f490bcd61610"
@@ -28032,8 +28050,8 @@
         "g": "e86b37532d49c64c",
         "name": "store current light state in context then turn on all lights in alarm state",
         "info": "",
-        "x": 300,
-        "y": 2160,
+        "x": 320,
+        "y": 2340,
         "wires": []
     },
     {
@@ -28043,8 +28061,8 @@
         "g": "e86b37532d49c64c",
         "name": "restore light state based on values in the context store",
         "info": "",
-        "x": 260,
-        "y": 2260,
+        "x": 280,
+        "y": 2440,
         "wires": []
     },
     {
@@ -28084,8 +28102,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 410,
-        "y": 2200,
+        "x": 430,
+        "y": 2380,
         "wires": [
             [
                 "0bfac8b9012396e1"
@@ -28722,8 +28740,8 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_on",
-        "x": 860,
-        "y": 2500,
+        "x": 880,
+        "y": 2680,
         "wires": [
             [
                 "3ef95b1cdb5a2913"
@@ -28756,8 +28774,8 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_off",
-        "x": 1280,
-        "y": 2500,
+        "x": 1300,
+        "y": 2680,
         "wires": [
             []
         ]
@@ -28794,8 +28812,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 430,
-        "y": 2500,
+        "x": 450,
+        "y": 2680,
         "wires": [
             [
                 "a217db3768dae47b"
@@ -28835,8 +28853,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 640,
-        "y": 2500,
+        "x": 660,
+        "y": 2680,
         "wires": [
             [
                 "cce74d3ef40e87b1"
@@ -28854,8 +28872,8 @@
         "payloadtype": "num",
         "payloadval": "0",
         "name": "",
-        "x": 1060,
-        "y": 2500,
+        "x": 1080,
+        "y": 2680,
         "wires": [
             [
                 "b45d3017dda90564"
@@ -28870,8 +28888,8 @@
         "g": "7f9ef23a602772d9",
         "name": "Turn on front yard light(s) for 5 minutes long when doorbell was pressed and it is dark outside",
         "info": "",
-        "x": 380,
-        "y": 2460,
+        "x": 400,
+        "y": 2640,
         "wires": []
     },
     {
@@ -28881,8 +28899,8 @@
         "g": "7f9ef23a602772d9",
         "name": "turn off front yard light(s) off when daylight is on",
         "info": "",
-        "x": 240,
-        "y": 2540,
+        "x": 260,
+        "y": 2720,
         "wires": []
     },
     {
@@ -28894,8 +28912,8 @@
         "links": [
             "3bafb9626527259f"
         ],
-        "x": 305,
-        "y": 2500,
+        "x": 325,
+        "y": 2680,
         "wires": [
             [
                 "9d3f7eb3988d338d"
@@ -28911,8 +28929,8 @@
         "links": [
             "31fda56ec62032b8"
         ],
-        "x": 305,
-        "y": 2580,
+        "x": 325,
+        "y": 2760,
         "wires": [
             [
                 "84b894521e1025fd"
@@ -28937,8 +28955,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 840,
-        "y": 2720,
+        "x": 860,
+        "y": 2900,
         "wires": [
             [
                 "0953197f43a2eae3"
@@ -28971,8 +28989,8 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_on",
-        "x": 670,
-        "y": 2720,
+        "x": 690,
+        "y": 2900,
         "wires": [
             [
                 "e26af8b833a2f7c4"
@@ -29005,8 +29023,8 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_off",
-        "x": 1010,
-        "y": 2720,
+        "x": 1030,
+        "y": 2900,
         "wires": [
             []
         ]
@@ -29047,8 +29065,8 @@
         "outputLocationType": "msg",
         "outputLocation": "payload",
         "outputResultsCount": 1,
-        "x": 460,
-        "y": 2720,
+        "x": 480,
+        "y": 2900,
         "wires": [
             [
                 "2c07de935ec0ae13"
@@ -29064,8 +29082,8 @@
         "links": [
             "af72e61dcd8c596c"
         ],
-        "x": 305,
-        "y": 2720,
+        "x": 325,
+        "y": 2900,
         "wires": [
             [
                 "5b3614f6404e4b5e"
@@ -29079,8 +29097,8 @@
         "g": "b893f80d1303467b",
         "name": "turn on a random light that was off and turn it randomly off",
         "info": "",
-        "x": 270,
-        "y": 2680,
+        "x": 290,
+        "y": 2860,
         "wires": []
     },
     {
@@ -29090,8 +29108,8 @@
         "g": "562fbfde97dcdc26",
         "name": "turn off lights when sleepmode turns on or the house is unoccupied",
         "info": "",
-        "x": 300,
-        "y": 2820,
+        "x": 320,
+        "y": 3000,
         "wires": []
     },
     {
@@ -29100,8 +29118,8 @@
         "z": "bf279eb7eda19fd7",
         "g": "562fbfde97dcdc26",
         "name": "",
-        "x": 190,
-        "y": 2860,
+        "x": 210,
+        "y": 3040,
         "wires": [
             [
                 "427e7beaf1cf05cc"
@@ -29134,8 +29152,8 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "turn_off",
-        "x": 410,
-        "y": 2860,
+        "x": 430,
+        "y": 3040,
         "wires": [
             []
         ]
@@ -29149,8 +29167,8 @@
         "links": [
             "e6b9ff42fde3ea4e"
         ],
-        "x": 305,
-        "y": 2900,
+        "x": 325,
+        "y": 3080,
         "wires": [
             [
                 "427e7beaf1cf05cc"
@@ -33168,8 +33186,8 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_on",
-        "x": 640,
-        "y": 2200,
+        "x": 660,
+        "y": 2260,
         "wires": [
             []
         ]
@@ -33206,8 +33224,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 410,
-        "y": 2200,
+        "x": 430,
+        "y": 2260,
         "wires": [
             [
                 "3101d0a1b950e78d"
@@ -33222,8 +33240,8 @@
         "g": "0652dadc1b579cce",
         "name": "turn cv closet light on when door gets openend and turn it back off when it get closed",
         "info": "",
-        "x": 350,
-        "y": 2160,
+        "x": 370,
+        "y": 2220,
         "wires": []
     },
     {
@@ -33368,8 +33386,8 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 160,
-        "y": 2200,
+        "x": 180,
+        "y": 2260,
         "wires": [
             [
                 "c09b728cb16b154e"
@@ -33405,8 +33423,8 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_off",
-        "x": 640,
-        "y": 2260,
+        "x": 660,
+        "y": 2320,
         "wires": [
             []
         ]
@@ -33443,8 +33461,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 410,
-        "y": 2260,
+        "x": 430,
+        "y": 2320,
         "wires": [
             [
                 "2e16eb2bec967a72"
@@ -33478,8 +33496,8 @@
         "blockInputOverrides": true,
         "domain": "climate",
         "service": "set_hvac_mode",
-        "x": 550,
-        "y": 220,
+        "x": 850,
+        "y": 200,
         "wires": [
             []
         ]
@@ -33522,7 +33540,7 @@
         "y": 240,
         "wires": [
             [
-                "356e972e170143b6"
+                "8d94db4209cd7b5d"
             ]
         ]
     },
@@ -33538,7 +33556,7 @@
         "syntax": "mustache",
         "template": "off",
         "output": "str",
-        "x": 350,
+        "x": 670,
         "y": 240,
         "wires": [
             [
@@ -33558,7 +33576,7 @@
         "syntax": "mustache",
         "template": "heat",
         "output": "str",
-        "x": 350,
+        "x": 670,
         "y": 200,
         "wires": [
             [
@@ -33708,8 +33726,8 @@
         "g": "2b86971fcc199b40",
         "name": "turn off lights when sleepmode turns on or the house is unoccupied",
         "info": "",
-        "x": 300,
-        "y": 2360,
+        "x": 320,
+        "y": 2420,
         "wires": []
     },
     {
@@ -33718,8 +33736,8 @@
         "z": "7f39e487c7ab241c",
         "g": "2b86971fcc199b40",
         "name": "",
-        "x": 190,
-        "y": 2400,
+        "x": 210,
+        "y": 2460,
         "wires": [
             [
                 "e2ced3815577a09c"
@@ -33752,8 +33770,8 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "turn_off",
-        "x": 410,
-        "y": 2400,
+        "x": 430,
+        "y": 2460,
         "wires": [
             []
         ]
@@ -33767,8 +33785,8 @@
         "links": [
             "e6b9ff42fde3ea4e"
         ],
-        "x": 305,
-        "y": 2440,
+        "x": 325,
+        "y": 2500,
         "wires": [
             [
                 "e2ced3815577a09c"
@@ -34793,295 +34811,6 @@
         "wires": []
     },
     {
-        "id": "b30974b6c0fc163e",
-        "type": "api-current-state",
-        "z": "7f39e487c7ab241c",
-        "g": "06386c1710d53320",
-        "name": "state currently delivered",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.dsmr_reading_electricity_currently_delivered",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "delivered",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 310,
-        "y": 1740,
-        "wires": [
-            [
-                "aca607c328312e16"
-            ]
-        ]
-    },
-    {
-        "id": "accd30b231cf2bf4",
-        "type": "inject",
-        "z": "7f39e487c7ab241c",
-        "g": "06386c1710d53320",
-        "name": "",
-        "props": [],
-        "repeat": "1",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "1",
-        "topic": "",
-        "x": 110,
-        "y": 1740,
-        "wires": [
-            [
-                "b30974b6c0fc163e",
-                "a35d2dff9d2a1f7c",
-                "a00ba324f973e2a1"
-            ]
-        ]
-    },
-    {
-        "id": "aca607c328312e16",
-        "type": "function",
-        "z": "7f39e487c7ab241c",
-        "g": "06386c1710d53320",
-        "name": "to watt",
-        "func": "msg.delivered = msg.delivered * 1000;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 490,
-        "y": 1740,
-        "wires": [
-            [
-                "275467bcb9c26880"
-            ]
-        ]
-    },
-    {
-        "id": "a35d2dff9d2a1f7c",
-        "type": "api-current-state",
-        "z": "7f39e487c7ab241c",
-        "g": "06386c1710d53320",
-        "name": "state currently returned",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.dsmr_reading_electricity_currently_returned",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "returned",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 310,
-        "y": 1800,
-        "wires": [
-            [
-                "542b3923373512ad"
-            ]
-        ]
-    },
-    {
-        "id": "a00ba324f973e2a1",
-        "type": "api-current-state",
-        "z": "7f39e487c7ab241c",
-        "g": "06386c1710d53320",
-        "name": "state currently producing",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.solaredge_modbus_ac_power",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "producing",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 310,
-        "y": 1860,
-        "wires": [
-            [
-                "8a79ebc7121357d9"
-            ]
-        ]
-    },
-    {
-        "id": "275467bcb9c26880",
-        "type": "join",
-        "z": "7f39e487c7ab241c",
-        "g": "06386c1710d53320",
-        "name": "",
-        "mode": "custom",
-        "build": "merged",
-        "property": "",
-        "propertyType": "full",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "useparts": true,
-        "accumulate": false,
-        "timeout": "",
-        "count": "3",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 670,
-        "y": 1740,
-        "wires": [
-            [
-                "82b9234d2e343295"
-            ]
-        ]
-    },
-    {
-        "id": "542b3923373512ad",
-        "type": "function",
-        "z": "7f39e487c7ab241c",
-        "g": "06386c1710d53320",
-        "name": "to watt",
-        "func": "msg.returned = msg.returned * 1000;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 490,
-        "y": 1800,
-        "wires": [
-            [
-                "275467bcb9c26880"
-            ]
-        ]
-    },
-    {
-        "id": "8a79ebc7121357d9",
-        "type": "function",
-        "z": "7f39e487c7ab241c",
-        "g": "06386c1710d53320",
-        "name": "round watt",
-        "func": "msg.producing = Math.round(msg.producing);\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 510,
-        "y": 1860,
-        "wires": [
-            [
-                "275467bcb9c26880"
-            ]
-        ]
-    },
-    {
-        "id": "82b9234d2e343295",
-        "type": "function",
-        "z": "7f39e487c7ab241c",
-        "g": "06386c1710d53320",
-        "name": "calculation",
-        "func": "// Sum two values\nmsg.payload = msg.payload.producing - msg.payload.returned + msg.payload.delivered;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 810,
-        "y": 1740,
-        "wires": [
-            [
-                "05165754289e75f1"
-            ]
-        ]
-    },
-    {
-        "id": "05165754289e75f1",
-        "type": "ha-sensor",
-        "z": "7f39e487c7ab241c",
-        "g": "06386c1710d53320",
-        "name": "house_energy_usage",
-        "entityConfig": "3f4f99b6c043befd",
-        "version": 0,
-        "state": "payload",
-        "stateType": "msg",
-        "attributes": [],
-        "inputOverride": "allow",
-        "outputProperties": [],
-        "x": 1000,
-        "y": 1740,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "63df13e036af1a07",
-        "type": "comment",
-        "z": "7f39e487c7ab241c",
-        "g": "06386c1710d53320",
-        "name": "sensor that shows house power usage",
-        "info": "",
-        "x": 190,
-        "y": 1700,
-        "wires": []
-    },
-    {
         "id": "ba77f8da98851350",
         "type": "api-current-state",
         "z": "7f39e487c7ab241c",
@@ -35112,53 +34841,11 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 310,
+        "x": 370,
         "y": 1600,
         "wires": [
             [
-                "0eb99a11d416a4c6"
-            ]
-        ]
-    },
-    {
-        "id": "8dc59865117f6040",
-        "type": "inject",
-        "z": "7f39e487c7ab241c",
-        "g": "f8921a685aab270b",
-        "name": "",
-        "props": [],
-        "repeat": "1",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "1",
-        "topic": "",
-        "x": 110,
-        "y": 1540,
-        "wires": [
-            [
-                "6fc7768f0e0e7113",
-                "ba77f8da98851350"
-            ]
-        ]
-    },
-    {
-        "id": "0eb99a11d416a4c6",
-        "type": "function",
-        "z": "7f39e487c7ab241c",
-        "g": "f8921a685aab270b",
-        "name": "to watt",
-        "func": "msg.returned = msg.returned * 1000;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 490,
-        "y": 1600,
-        "wires": [
-            [
-                "7f181c3a969cf13c"
+                "6043718434f18179"
             ]
         ]
     },
@@ -35193,41 +34880,11 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 310,
+        "x": 370,
         "y": 1540,
         "wires": [
             [
                 "6043718434f18179"
-            ]
-        ]
-    },
-    {
-        "id": "7f181c3a969cf13c",
-        "type": "join",
-        "z": "7f39e487c7ab241c",
-        "g": "f8921a685aab270b",
-        "name": "",
-        "mode": "custom",
-        "build": "array",
-        "property": "",
-        "propertyType": "full",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "useparts": true,
-        "accumulate": false,
-        "timeout": "",
-        "count": "2",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 670,
-        "y": 1540,
-        "wires": [
-            [
-                "ef67c1284ddb8eed"
             ]
         ]
     },
@@ -35237,18 +34894,19 @@
         "z": "7f39e487c7ab241c",
         "g": "f8921a685aab270b",
         "name": "to watt",
-        "func": "msg.delivered = msg.delivered * 1000;\n\nreturn msg;",
+        "func": "msg.delivered = msg.delivered * 1000;\nmsg.returned = msg.returned * 1000;\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 490,
-        "y": 1540,
+        "x": 570,
+        "y": 1560,
         "wires": [
             [
-                "7f181c3a969cf13c"
+                "ef67c1284ddb8eed",
+                "fe0c8fde93e76cd2"
             ]
         ]
     },
@@ -35265,8 +34923,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 810,
-        "y": 1540,
+        "x": 750,
+        "y": 1560,
         "wires": [
             [
                 "99a64ef46dadb061"
@@ -35286,10 +34944,12 @@
         "attributes": [],
         "inputOverride": "allow",
         "outputProperties": [],
-        "x": 1020,
-        "y": 1540,
+        "x": 960,
+        "y": 1560,
         "wires": [
-            []
+            [
+                "89754424867abf7b"
+            ]
         ]
     },
     {
@@ -35362,6 +35022,308 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "8d94db4209cd7b5d",
+        "type": "ha-get-entities",
+        "z": "7f39e487c7ab241c",
+        "g": "f76588705733793c",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 1,
+        "rules": [
+            {
+                "condition": "device_registry",
+                "property": "manufacturer",
+                "logic": "starts_with",
+                "value": "Tado",
+                "valueType": "str"
+            },
+            {
+                "condition": "state_object",
+                "property": "entity_id",
+                "logic": "is",
+                "value": "_heating",
+                "valueType": "re"
+            },
+            {
+                "condition": "state_object",
+                "property": "state",
+                "logic": "is_not",
+                "value": "0.0",
+                "valueType": "str"
+            }
+        ],
+        "outputType": "count",
+        "outputEmptyResults": false,
+        "outputLocationType": "msg",
+        "outputLocation": "payload",
+        "outputResultsCount": 1,
+        "x": 390,
+        "y": 240,
+        "wires": [
+            [
+                "a1513aaafd6eddac"
+            ]
+        ]
+    },
+    {
+        "id": "a1513aaafd6eddac",
+        "type": "switch",
+        "z": "7f39e487c7ab241c",
+        "g": "f76588705733793c",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 530,
+        "y": 240,
+        "wires": [
+            [
+                "89af915b11f17913"
+            ],
+            [
+                "356e972e170143b6"
+            ]
+        ]
+    },
+    {
+        "id": "89754424867abf7b",
+        "type": "mqtt out",
+        "z": "7f39e487c7ab241c",
+        "g": "f8921a685aab270b",
+        "name": "",
+        "topic": "nodered/customenergy/gridpower",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "36dee637778341ba",
+        "x": 1240,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "684d1198322d6e9b",
+        "type": "server-state-changed",
+        "z": "7f39e487c7ab241c",
+        "g": "f8921a685aab270b",
+        "name": "state currently returned",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "sensor.dsmr_reading_electricity_currently_returned"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "num",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": false,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "returned",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            }
+        ],
+        "x": 140,
+        "y": 1540,
+        "wires": [
+            [
+                "6fc7768f0e0e7113"
+            ]
+        ]
+    },
+    {
+        "id": "173e4f1dbbee6143",
+        "type": "server-state-changed",
+        "z": "7f39e487c7ab241c",
+        "g": "f8921a685aab270b",
+        "name": "state currently delivered",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "sensor.dsmr_reading_electricity_currently_delivered"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "str",
+        "ifState": "",
+        "ifStateType": "num",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": false,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "delivered",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            }
+        ],
+        "x": 140,
+        "y": 1600,
+        "wires": [
+            [
+                "ba77f8da98851350"
+            ]
+        ]
+    },
+    {
+        "id": "fe0c8fde93e76cd2",
+        "type": "api-current-state",
+        "z": "7f39e487c7ab241c",
+        "g": "f8921a685aab270b",
+        "name": "state currently producing",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "num",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.solaredge_modbus_ac_power",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "producing",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 150,
+        "y": 1720,
+        "wires": [
+            [
+                "dff5637af40db115"
+            ]
+        ]
+    },
+    {
+        "id": "dff5637af40db115",
+        "type": "function",
+        "z": "7f39e487c7ab241c",
+        "g": "f8921a685aab270b",
+        "name": "round watt",
+        "func": "msg.producing = Math.round(msg.producing);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 1720,
+        "wires": [
+            [
+                "082c469b6d1254af"
+            ]
+        ]
+    },
+    {
+        "id": "082c469b6d1254af",
+        "type": "function",
+        "z": "7f39e487c7ab241c",
+        "g": "f8921a685aab270b",
+        "name": "calculation",
+        "func": "// Sum two values\nmsg.payload = msg.producing - msg.returned + msg.delivered;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 1720,
+        "wires": [
+            [
+                "11215fce135d2001"
+            ]
+        ]
+    },
+    {
+        "id": "11215fce135d2001",
+        "type": "ha-sensor",
+        "z": "7f39e487c7ab241c",
+        "g": "f8921a685aab270b",
+        "name": "house_energy_usage",
+        "entityConfig": "3f4f99b6c043befd",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 940,
+        "y": 1720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "63df13e036af1a07",
+        "type": "comment",
+        "z": "7f39e487c7ab241c",
+        "g": "f8921a685aab270b",
+        "name": "sensor that shows house power usage",
+        "info": "",
+        "x": 190,
+        "y": 1680,
+        "wires": []
     },
     {
         "id": "34bc897fe72c285a",
