@@ -1834,7 +1834,7 @@
             "1f0fe76c488b32e7"
         ],
         "x": 14,
-        "y": 1099,
+        "y": 1059,
         "w": 1802,
         "h": 202
     },
@@ -1861,14 +1861,13 @@
             "65c53ee626b1657c",
             "8d98ecd84b9c5e5e",
             "9e13177c030bc585",
-            "0263b01642ed55de",
             "4152f10819c597f4",
             "06ba67bd52f34108",
-            "ad46267ec00eb8da"
+            "a8fd84d44c1f3b89"
         ],
         "x": 14,
         "y": 1239,
-        "w": 1412,
+        "w": 1172,
         "h": 262
     },
     {
@@ -1918,7 +1917,7 @@
         ],
         "x": 14,
         "y": 679,
-        "w": 502,
+        "w": 562,
         "h": 122
     },
     {
@@ -1996,8 +1995,8 @@
             "b893f80d1303467b",
             "562fbfde97dcdc26"
         ],
-        "x": 8,
-        "y": 1833,
+        "x": 28,
+        "y": 1853,
         "w": 1424,
         "h": 1134
     },
@@ -3534,26 +3533,29 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "324163187704260f",
             "ef1caaf0e51df45f",
-            "63dd0580fe5a2988",
             "9c072e7c1116b5c5",
             "489f51dc5f080ea1",
             "26c54bb35b060ee0",
             "eb27a8504ea0ba20",
-            "926a03f5dc689826",
             "e188c5d43cc22d55",
             "4634d81b11ef6062",
             "1799c27892bbca5d",
             "7249bcd75342e971",
-            "1ff52cc50bb2b980",
-            "1389cd751a19cef8",
-            "5de4f38ec4c4075f"
+            "b4150f82144bf578",
+            "24ac19024410b5e3",
+            "ec5aa51eb5b744ff",
+            "331d7f15435c92bb",
+            "56e9529fb3adf59e",
+            "0816b0e1b274f0f8",
+            "d2c54edb4271fcda",
+            "383d5bb86f113c33",
+            "a69e86141ccc00d9"
         ],
         "x": 14,
-        "y": 1319,
-        "w": 1282,
-        "h": 222
+        "y": 1279,
+        "w": 1442,
+        "h": 242
     },
     {
         "id": "f2d58bca393a76e9",
@@ -5011,7 +5013,7 @@
             "5a3e197c6d1d4510"
         ],
         "x": 14,
-        "y": 1919,
+        "y": 1779,
         "w": 672,
         "h": 142
     },
@@ -5322,8 +5324,8 @@
             "b811292b8f4a055a",
             "d72ea6fb7bddcfa1"
         ],
-        "x": 34,
-        "y": 1859,
+        "x": 54,
+        "y": 1879,
         "w": 1292,
         "h": 244.5
     },
@@ -6108,8 +6110,8 @@
             "eee0baf6a957df61",
             "757cebaecd0f8b23"
         ],
-        "x": 34,
-        "y": 2119,
+        "x": 54,
+        "y": 2139,
         "w": 1112,
         "h": 282
     },
@@ -6584,8 +6586,8 @@
             "06494fdc0a5d9892",
             "c43613425ba3c1da"
         ],
-        "x": 34,
-        "y": 2419,
+        "x": 54,
+        "y": 2439,
         "w": 1372,
         "h": 202
     },
@@ -6611,8 +6613,8 @@
             "27f9690f59141f3c",
             "74417dbba5ac7943"
         ],
-        "x": 34,
-        "y": 2639,
+        "x": 54,
+        "y": 2659,
         "w": 1072,
         "h": 122
     },
@@ -6636,8 +6638,8 @@
             "427e7beaf1cf05cc",
             "120f47429583e78d"
         ],
-        "x": 34,
-        "y": 2779,
+        "x": 54,
+        "y": 2799,
         "w": 532,
         "h": 162
     },
@@ -6818,7 +6820,7 @@
         "z": "bf279eb7eda19fd7",
         "g": "b8b2c52ce29b1b66",
         "x": 780,
-        "y": 1260,
+        "y": 1220,
         "wires": [
             [
                 "8f8e3faeb54f8394"
@@ -6830,11 +6832,11 @@
         "type": "junction",
         "z": "be92da6a5a4a4550",
         "g": "59d661e86ca6893c",
-        "x": 1110,
+        "x": 1060,
         "y": 1340,
         "wires": [
             [
-                "0263b01642ed55de"
+                "a8fd84d44c1f3b89"
             ]
         ]
     },
@@ -6935,8 +6937,8 @@
         "type": "junction",
         "z": "bf279eb7eda19fd7",
         "g": "478d175d0abcb987",
-        "x": 500,
-        "y": 1980,
+        "x": 520,
+        "y": 2000,
         "wires": [
             [
                 "e7b2bb5d8bf44ab8"
@@ -7054,45 +7056,6 @@
         ]
     },
     {
-        "id": "1ff52cc50bb2b980",
-        "type": "junction",
-        "z": "bf279eb7eda19fd7",
-        "g": "83efa2d173d9dca5",
-        "x": 620,
-        "y": 1420,
-        "wires": [
-            [
-                "926a03f5dc689826"
-            ]
-        ]
-    },
-    {
-        "id": "1389cd751a19cef8",
-        "type": "junction",
-        "z": "bf279eb7eda19fd7",
-        "g": "83efa2d173d9dca5",
-        "x": 300,
-        "y": 1400,
-        "wires": [
-            [
-                "e188c5d43cc22d55"
-            ]
-        ]
-    },
-    {
-        "id": "5de4f38ec4c4075f",
-        "type": "junction",
-        "z": "bf279eb7eda19fd7",
-        "g": "83efa2d173d9dca5",
-        "x": 300,
-        "y": 1420,
-        "wires": [
-            [
-                "1ff52cc50bb2b980"
-            ]
-        ]
-    },
-    {
         "id": "771e43e4d1cb6b2d",
         "type": "junction",
         "z": "3611a09f77ab1873",
@@ -7173,8 +7136,8 @@
         "type": "junction",
         "z": "bf279eb7eda19fd7",
         "g": "7f9ef23a602772d9",
-        "x": 1140,
-        "y": 2580,
+        "x": 1160,
+        "y": 2600,
         "wires": [
             [
                 "b45d3017dda90564"
@@ -7262,6 +7225,33 @@
         "wires": [
             [
                 "382a831c1568641b"
+            ]
+        ]
+    },
+    {
+        "id": "0816b0e1b274f0f8",
+        "type": "junction",
+        "z": "bf279eb7eda19fd7",
+        "g": "83efa2d173d9dca5",
+        "x": 840,
+        "y": 1360,
+        "wires": [
+            [
+                "ef1caaf0e51df45f",
+                "56e9529fb3adf59e"
+            ]
+        ]
+    },
+    {
+        "id": "d2c54edb4271fcda",
+        "type": "junction",
+        "z": "bf279eb7eda19fd7",
+        "g": "83efa2d173d9dca5",
+        "x": 940,
+        "y": 1360,
+        "wires": [
+            [
+                "e188c5d43cc22d55"
             ]
         ]
     },
@@ -22377,9 +22367,9 @@
         "type": "comment",
         "z": "be92da6a5a4a4550",
         "g": "59d661e86ca6893c",
-        "name": "send a notification with a snapshot when a person is detected on the camera",
+        "name": "send a notification with a snapshot when a person is detected on the camera in the backyard",
         "info": "",
-        "x": 310,
+        "x": 360,
         "y": 1280,
         "wires": []
     },
@@ -22411,7 +22401,7 @@
         "y": 1400,
         "wires": [
             [
-                "0263b01642ed55de"
+                "a8fd84d44c1f3b89"
             ],
             []
         ]
@@ -22565,7 +22555,7 @@
         "y": 1460,
         "wires": [
             [
-                "0263b01642ed55de"
+                "a8fd84d44c1f3b89"
             ],
             []
         ]
@@ -25314,38 +25304,6 @@
         ]
     },
     {
-        "id": "0263b01642ed55de",
-        "type": "api-call-service",
-        "z": "be92da6a5a4a4550",
-        "g": "59d661e86ca6893c",
-        "name": "",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "notify.mobile_app_phone_coen",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [],
-        "labelId": [],
-        "data": "{\"message\":\"Een persoon is in de achtertuin gedetecteerd\",\"title\":\"Waarschuwing\",\"data\":{\"image\":\"{{{snapshotUrl}}}\",\"tag\":\"{{payload.after.id}}\",\"when\":\"{{payload.after.start_time}}\",\"clickAction\":\"/dashboard-mobile/camera\",\"channel\":\"Warning\",\"importance\":\"high\"}}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "notify",
-        "service": "mobile_app_phone_coen",
-        "x": 1270,
-        "y": 1460,
-        "wires": [
-            [
-                "ad46267ec00eb8da"
-            ]
-        ]
-    },
-    {
         "id": "4152f10819c597f4",
         "type": "function",
         "z": "be92da6a5a4a4550",
@@ -25401,21 +25359,17 @@
         ]
     },
     {
-        "id": "ad46267ec00eb8da",
-        "type": "debug",
+        "id": "a8fd84d44c1f3b89",
+        "type": "link out",
         "z": "be92da6a5a4a4550",
         "g": "59d661e86ca6893c",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1290,
-        "y": 1380,
+        "name": "send a notification with a snapshot when a person is detected on the camera in the backyard",
+        "mode": "link",
+        "links": [
+            "e2f0e803e1b2bf10"
+        ],
+        "x": 1145,
+        "y": 1460,
         "wires": []
     },
     {
@@ -26905,7 +26859,7 @@
         "senderr": false,
         "headers": [],
         "x": 1400,
-        "y": 1200,
+        "y": 1160,
         "wires": [
             [
                 "d02b2605ae51ac23"
@@ -26926,7 +26880,7 @@
         "finalize": "",
         "libs": [],
         "x": 1060,
-        "y": 1200,
+        "y": 1160,
         "wires": [
             [
                 "c2a7d0ee7636ca8d"
@@ -26946,7 +26900,7 @@
         "startOffset": 0,
         "endOffset": "",
         "x": 350,
-        "y": 1220,
+        "y": 1180,
         "wires": [
             [
                 "ef42d8d44fa3d5e9"
@@ -26975,7 +26929,7 @@
         "to": "",
         "reg": false,
         "x": 1240,
-        "y": 1200,
+        "y": 1160,
         "wires": [
             [
                 "0191b5a7e181f3f2"
@@ -26999,7 +26953,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1530,
-        "y": 1200,
+        "y": 1160,
         "wires": [
             [
                 "ee06a5486ff3cfbf"
@@ -27031,7 +26985,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 690,
-        "y": 1220,
+        "y": 1180,
         "wires": [
             [
                 "f39fa236c5361da4"
@@ -27059,7 +27013,7 @@
         "senderr": false,
         "headers": [],
         "x": 1400,
-        "y": 1260,
+        "y": 1220,
         "wires": [
             [
                 "7a639c0592294913"
@@ -27080,7 +27034,7 @@
         "finalize": "",
         "libs": [],
         "x": 1060,
-        "y": 1260,
+        "y": 1220,
         "wires": [
             [
                 "4e8fdb348ee3dbd1"
@@ -27108,7 +27062,7 @@
         "to": "",
         "reg": false,
         "x": 1240,
-        "y": 1260,
+        "y": 1220,
         "wires": [
             [
                 "6043eee441c1f146"
@@ -27132,7 +27086,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1530,
-        "y": 1260,
+        "y": 1220,
         "wires": [
             [
                 "b025d049cb38b4d4"
@@ -27166,7 +27120,7 @@
         "blockInputOverrides": true,
         "outputProperties": [],
         "x": 870,
-        "y": 1200,
+        "y": 1160,
         "wires": [
             [
                 "633c48d3bee4c03a"
@@ -27199,7 +27153,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 520,
-        "y": 1220,
+        "y": 1180,
         "wires": [
             [
                 "7ece915ddab6671e"
@@ -27226,7 +27180,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1670,
-        "y": 1200,
+        "y": 1160,
         "wires": [
             [
                 "3de7619c5f6c6ecd"
@@ -27252,7 +27206,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1670,
-        "y": 1260,
+        "y": 1220,
         "wires": [
             [
                 "1f0fe76c488b32e7"
@@ -27267,7 +27221,7 @@
         "name": "send notification to aks if the doorbell must be turned off or not when child is going to bed",
         "info": "",
         "x": 350,
-        "y": 1140,
+        "y": 1100,
         "wires": []
     },
     {
@@ -27280,7 +27234,7 @@
             "9bd1e275ca1ee67b"
         ],
         "x": 245,
-        "y": 1220,
+        "y": 1180,
         "wires": [
             [
                 "78e328d45f917a20"
@@ -27318,7 +27272,7 @@
         "type": "switch",
         "z": "bf279eb7eda19fd7",
         "g": "d6e945f724222ae1",
-        "name": "camera",
+        "name": "camera frontyard",
         "property": "payload.after.camera",
         "propertyType": "msg",
         "rules": [
@@ -27331,7 +27285,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 380,
+        "x": 410,
         "y": 760,
         "wires": [
             [
@@ -27380,11 +27334,12 @@
         "name": "person is detected on camera",
         "mode": "link",
         "links": [
-            "bd841cbf320510d2",
+            "24ac19024410b5e3",
+            "61c36fb38acb7466",
             "684440651deb45dc",
-            "61c36fb38acb7466"
+            "bd841cbf320510d2"
         ],
-        "x": 475,
+        "x": 535,
         "y": 760,
         "wires": []
     },
@@ -27414,8 +27369,8 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "turn_on",
-        "x": 1230,
-        "y": 1940,
+        "x": 1250,
+        "y": 1960,
         "wires": [
             []
         ]
@@ -27452,8 +27407,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 840,
-        "y": 2000,
+        "x": 860,
+        "y": 2020,
         "wires": [
             [
                 "d72ea6fb7bddcfa1"
@@ -27493,8 +27448,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 850,
-        "y": 1940,
+        "x": 870,
+        "y": 1960,
         "wires": [
             [
                 "d72ea6fb7bddcfa1"
@@ -27526,8 +27481,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 420,
-        "y": 1940,
+        "x": 440,
+        "y": 1960,
         "wires": [
             [
                 "e7b2bb5d8bf44ab8"
@@ -27542,8 +27497,8 @@
         "g": "478d175d0abcb987",
         "name": "turn on front door light on when it is dark outside, sleepmode is off and a person or guest is home",
         "info": "",
-        "x": 390,
-        "y": 1900,
+        "x": 410,
+        "y": 1920,
         "wires": []
     },
     {
@@ -27556,8 +27511,8 @@
             "4a93ba39b988072a",
             "c07ca02ed810efe8"
         ],
-        "x": 305,
-        "y": 1960,
+        "x": 325,
+        "y": 1980,
         "wires": [
             [
                 "44f6e9558f9c5074"
@@ -27570,8 +27525,8 @@
         "z": "bf279eb7eda19fd7",
         "g": "478d175d0abcb987",
         "name": "",
-        "x": 190,
-        "y": 2040,
+        "x": 210,
+        "y": 2060,
         "wires": [
             [
                 "b811292b8f4a055a"
@@ -27619,8 +27574,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 630,
-        "y": 1940,
+        "x": 650,
+        "y": 1960,
         "wires": [
             [
                 "29578d5983787104",
@@ -27666,8 +27621,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 1050,
-        "y": 1940,
+        "x": 1070,
+        "y": 1960,
         "wires": [
             [
                 "4a81d44956bf7abe"
@@ -27772,8 +27727,8 @@
         "outputLocationType": "msg",
         "outputLocation": "light_state",
         "outputResultsCount": 1,
-        "x": 570,
-        "y": 2200,
+        "x": 590,
+        "y": 2220,
         "wires": [
             [
                 "f6cab9c55259ee58"
@@ -27800,8 +27755,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 750,
-        "y": 2200,
+        "x": 770,
+        "y": 2220,
         "wires": [
             [
                 "6b77a3da8ad09a5b"
@@ -27821,8 +27776,8 @@
         "stream": false,
         "addname": "",
         "property": "light_state",
-        "x": 910,
-        "y": 2200,
+        "x": 930,
+        "y": 2220,
         "wires": [
             [
                 "7e308533ace3b7a5"
@@ -27855,8 +27810,8 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "turn_on",
-        "x": 1050,
-        "y": 2200,
+        "x": 1070,
+        "y": 2220,
         "wires": [
             []
         ]
@@ -27887,8 +27842,8 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "turn_off",
-        "x": 890,
-        "y": 2360,
+        "x": 910,
+        "y": 2380,
         "wires": [
             []
         ]
@@ -27913,8 +27868,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 440,
-        "y": 2300,
+        "x": 460,
+        "y": 2320,
         "wires": [
             [
                 "55e4ed93aa47ec93"
@@ -27934,8 +27889,8 @@
         "stream": false,
         "addname": "",
         "property": "light_state",
-        "x": 610,
-        "y": 2300,
+        "x": 630,
+        "y": 2320,
         "wires": [
             [
                 "bdffffaf4b1099f3"
@@ -27965,8 +27920,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 730,
-        "y": 2300,
+        "x": 750,
+        "y": 2320,
         "wires": [
             [
                 "9adaaa7a62ce557b"
@@ -28002,8 +27957,8 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "turn_on",
-        "x": 890,
-        "y": 2300,
+        "x": 910,
+        "y": 2320,
         "wires": [
             []
         ]
@@ -28017,8 +27972,8 @@
         "links": [
             "5874beb71c3c9523"
         ],
-        "x": 305,
-        "y": 2200,
+        "x": 325,
+        "y": 2220,
         "wires": [
             [
                 "757cebaecd0f8b23"
@@ -28035,8 +27990,8 @@
             "7d0fc8f40fda8ff9",
             "5a1c4daf23c47d8e"
         ],
-        "x": 305,
-        "y": 2300,
+        "x": 325,
+        "y": 2320,
         "wires": [
             [
                 "ef76f490bcd61610"
@@ -28050,8 +28005,8 @@
         "g": "e86b37532d49c64c",
         "name": "store current light state in context then turn on all lights in alarm state",
         "info": "",
-        "x": 300,
-        "y": 2160,
+        "x": 320,
+        "y": 2180,
         "wires": []
     },
     {
@@ -28061,8 +28016,8 @@
         "g": "e86b37532d49c64c",
         "name": "restore light state based on values in the context store",
         "info": "",
-        "x": 260,
-        "y": 2260,
+        "x": 280,
+        "y": 2280,
         "wires": []
     },
     {
@@ -28102,8 +28057,8 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 410,
-        "y": 2200,
+        "x": 430,
+        "y": 2220,
         "wires": [
             [
                 "0bfac8b9012396e1"
@@ -28197,83 +28152,29 @@
         "wires": []
     },
     {
-        "id": "324163187704260f",
-        "type": "change",
-        "z": "bf279eb7eda19fd7",
-        "g": "83efa2d173d9dca5",
-        "name": "set payload open",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "open",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 530,
-        "y": 1440,
-        "wires": [
-            [
-                "926a03f5dc689826"
-            ]
-        ]
-    },
-    {
         "id": "ef1caaf0e51df45f",
         "type": "delay",
         "z": "bf279eb7eda19fd7",
         "g": "83efa2d173d9dca5",
         "name": "",
-        "pauseType": "delay",
+        "pauseType": "rate",
         "timeout": "7",
         "timeoutUnits": "seconds",
         "rate": "1",
-        "nbRateUnits": "1",
+        "nbRateUnits": "7",
         "rateUnits": "second",
         "randomFirst": "1",
         "randomLast": "5",
         "randomUnits": "seconds",
-        "drop": false,
+        "drop": true,
+        "allowrate": false,
         "outputs": 1,
-        "x": 360,
-        "y": 1440,
-        "wires": [
-            [
-                "324163187704260f"
-            ]
-        ]
-    },
-    {
-        "id": "63dd0580fe5a2988",
-        "type": "change",
-        "z": "bf279eb7eda19fd7",
-        "g": "83efa2d173d9dca5",
-        "name": "set payload close",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "close",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 790,
+        "x": 1020,
         "y": 1420,
         "wires": [
             [
-                "926a03f5dc689826"
+                "eb27a8504ea0ba20",
+                "489f51dc5f080ea1"
             ]
         ]
     },
@@ -28285,7 +28186,7 @@
         "name": "doorbell button pushed send out notifications",
         "info": "",
         "x": 210,
-        "y": 1360,
+        "y": 1320,
         "wires": []
     },
     {
@@ -28303,25 +28204,12 @@
         "entity_id": "switch.smart_doorbell_active",
         "state_type": "str",
         "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
+        "outputProperties": [],
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 1070,
-        "y": 1500,
+        "x": 1250,
+        "y": 1480,
         "wires": [
             [
                 "7249bcd75342e971"
@@ -28381,12 +28269,10 @@
             }
         ],
         "x": 140,
-        "y": 1400,
+        "y": 1360,
         "wires": [
             [
-                "ef1caaf0e51df45f",
-                "1389cd751a19cef8",
-                "5de4f38ec4c4075f"
+                "0816b0e1b274f0f8"
             ],
             []
         ]
@@ -28416,50 +28302,15 @@
         "timeoutUnits": "seconds",
         "checkCurrentState": true,
         "blockInputOverrides": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "x": 1080,
-        "y": 1440,
+        "outputProperties": [],
+        "x": 1260,
+        "y": 1420,
         "wires": [
             [
                 "4634d81b11ef6062"
             ],
             [
                 "1799c27892bbca5d"
-            ]
-        ]
-    },
-    {
-        "id": "926a03f5dc689826",
-        "type": "traffic",
-        "z": "bf279eb7eda19fd7",
-        "g": "83efa2d173d9dca5",
-        "name": "traffic light",
-        "property_allow": "payload",
-        "filter_allow": "open",
-        "ignore_case_allow": false,
-        "negate_allow": false,
-        "send_allow": false,
-        "property_stop": "payload",
-        "filter_stop": "close",
-        "ignore_case_stop": false,
-        "negate_stop": false,
-        "send_stop": false,
-        "default_start": true,
-        "differ": false,
-        "x": 770,
-        "y": 1480,
-        "wires": [
-            [
-                "63dd0580fe5a2988",
-                "eb27a8504ea0ba20",
-                "489f51dc5f080ea1"
             ]
         ]
     },
@@ -28473,8 +28324,8 @@
         "links": [
             "332b4739e9d3ed0c"
         ],
-        "x": 365,
-        "y": 1400,
+        "x": 1085,
+        "y": 1360,
         "wires": []
     },
     {
@@ -28487,8 +28338,8 @@
         "links": [
             "a3e9edcbf9adf53d"
         ],
-        "x": 1255,
-        "y": 1420,
+        "x": 1415,
+        "y": 1400,
         "wires": []
     },
     {
@@ -28501,8 +28352,8 @@
         "links": [
             "50393fa7869f7eda"
         ],
-        "x": 1255,
-        "y": 1460,
+        "x": 1415,
+        "y": 1440,
         "wires": []
     },
     {
@@ -28515,8 +28366,8 @@
         "links": [
             "033c18722c2af912"
         ],
-        "x": 1255,
-        "y": 1500,
+        "x": 1415,
+        "y": 1480,
         "wires": []
     },
     {
@@ -28697,7 +28548,7 @@
             "752ae636e2c65165"
         ],
         "x": 1775,
-        "y": 1200,
+        "y": 1160,
         "wires": []
     },
     {
@@ -28711,7 +28562,7 @@
             "bfce7901357f4ed7"
         ],
         "x": 1775,
-        "y": 1260,
+        "y": 1220,
         "wires": []
     },
     {
@@ -28740,8 +28591,8 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_on",
-        "x": 860,
-        "y": 2500,
+        "x": 880,
+        "y": 2520,
         "wires": [
             [
                 "3ef95b1cdb5a2913"
@@ -28774,8 +28625,8 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_off",
-        "x": 1280,
-        "y": 2500,
+        "x": 1300,
+        "y": 2520,
         "wires": [
             []
         ]
@@ -28812,8 +28663,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 430,
-        "y": 2500,
+        "x": 450,
+        "y": 2520,
         "wires": [
             [
                 "a217db3768dae47b"
@@ -28853,8 +28704,8 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 640,
-        "y": 2500,
+        "x": 660,
+        "y": 2520,
         "wires": [
             [
                 "cce74d3ef40e87b1"
@@ -28872,8 +28723,8 @@
         "payloadtype": "num",
         "payloadval": "0",
         "name": "",
-        "x": 1060,
-        "y": 2500,
+        "x": 1080,
+        "y": 2520,
         "wires": [
             [
                 "b45d3017dda90564"
@@ -28888,8 +28739,8 @@
         "g": "7f9ef23a602772d9",
         "name": "Turn on front yard light(s) for 5 minutes long when doorbell was pressed and it is dark outside",
         "info": "",
-        "x": 380,
-        "y": 2460,
+        "x": 400,
+        "y": 2480,
         "wires": []
     },
     {
@@ -28899,8 +28750,8 @@
         "g": "7f9ef23a602772d9",
         "name": "turn off front yard light(s) off when daylight is on",
         "info": "",
-        "x": 240,
-        "y": 2540,
+        "x": 260,
+        "y": 2560,
         "wires": []
     },
     {
@@ -28912,8 +28763,8 @@
         "links": [
             "3bafb9626527259f"
         ],
-        "x": 305,
-        "y": 2500,
+        "x": 325,
+        "y": 2520,
         "wires": [
             [
                 "9d3f7eb3988d338d"
@@ -28929,8 +28780,8 @@
         "links": [
             "31fda56ec62032b8"
         ],
-        "x": 305,
-        "y": 2580,
+        "x": 325,
+        "y": 2600,
         "wires": [
             [
                 "84b894521e1025fd"
@@ -28955,8 +28806,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 840,
-        "y": 2720,
+        "x": 860,
+        "y": 2740,
         "wires": [
             [
                 "0953197f43a2eae3"
@@ -28989,8 +28840,8 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_on",
-        "x": 670,
-        "y": 2720,
+        "x": 690,
+        "y": 2740,
         "wires": [
             [
                 "e26af8b833a2f7c4"
@@ -29023,8 +28874,8 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_off",
-        "x": 1010,
-        "y": 2720,
+        "x": 1030,
+        "y": 2740,
         "wires": [
             []
         ]
@@ -29065,8 +28916,8 @@
         "outputLocationType": "msg",
         "outputLocation": "payload",
         "outputResultsCount": 1,
-        "x": 460,
-        "y": 2720,
+        "x": 480,
+        "y": 2740,
         "wires": [
             [
                 "2c07de935ec0ae13"
@@ -29082,8 +28933,8 @@
         "links": [
             "af72e61dcd8c596c"
         ],
-        "x": 305,
-        "y": 2720,
+        "x": 325,
+        "y": 2740,
         "wires": [
             [
                 "5b3614f6404e4b5e"
@@ -29097,8 +28948,8 @@
         "g": "b893f80d1303467b",
         "name": "turn on a random light that was off and turn it randomly off",
         "info": "",
-        "x": 270,
-        "y": 2680,
+        "x": 290,
+        "y": 2700,
         "wires": []
     },
     {
@@ -29108,8 +28959,8 @@
         "g": "562fbfde97dcdc26",
         "name": "turn off lights when sleepmode turns on or the house is unoccupied",
         "info": "",
-        "x": 300,
-        "y": 2820,
+        "x": 320,
+        "y": 2840,
         "wires": []
     },
     {
@@ -29118,8 +28969,8 @@
         "z": "bf279eb7eda19fd7",
         "g": "562fbfde97dcdc26",
         "name": "",
-        "x": 190,
-        "y": 2860,
+        "x": 210,
+        "y": 2880,
         "wires": [
             [
                 "427e7beaf1cf05cc"
@@ -29152,8 +29003,8 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "turn_off",
-        "x": 410,
-        "y": 2860,
+        "x": 430,
+        "y": 2880,
         "wires": [
             []
         ]
@@ -29167,8 +29018,8 @@
         "links": [
             "e6b9ff42fde3ea4e"
         ],
-        "x": 305,
-        "y": 2900,
+        "x": 325,
+        "y": 2920,
         "wires": [
             [
                 "427e7beaf1cf05cc"
@@ -29257,6 +29108,185 @@
         "info": "",
         "x": 200,
         "y": 300,
+        "wires": []
+    },
+    {
+        "id": "24ac19024410b5e3",
+        "type": "link in",
+        "z": "bf279eb7eda19fd7",
+        "g": "83efa2d173d9dca5",
+        "name": "trigger person is detected on camera",
+        "links": [
+            "df677727bba187cf"
+        ],
+        "x": 65,
+        "y": 1440,
+        "wires": [
+            [
+                "b4150f82144bf578"
+            ]
+        ]
+    },
+    {
+        "id": "ec5aa51eb5b744ff",
+        "type": "ha-wait-until",
+        "z": "bf279eb7eda19fd7",
+        "g": "83efa2d173d9dca5",
+        "name": "wait until doorbell button pushed",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "entities": {
+            "entity": [
+                "binary_sensor.smart_doorbell_button"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "property": "state",
+        "comparator": "is",
+        "value": "on",
+        "valueType": "str",
+        "timeout": "2",
+        "timeoutType": "num",
+        "timeoutUnits": "minutes",
+        "checkCurrentState": true,
+        "blockInputOverrides": true,
+        "outputProperties": [],
+        "x": 650,
+        "y": 1440,
+        "wires": [
+            [
+                "ef1caaf0e51df45f",
+                "d2c54edb4271fcda"
+            ],
+            [
+                "383d5bb86f113c33"
+            ]
+        ]
+    },
+    {
+        "id": "b4150f82144bf578",
+        "type": "function",
+        "z": "bf279eb7eda19fd7",
+        "g": "83efa2d173d9dca5",
+        "name": "snapshot url",
+        "func": "msg.snapshotUrl = \"https://home-assistant.stamx.nl/api/frigate/notifications/\" + msg.payload.after.id + \"/thumbnail.jpg?format=android\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 170,
+        "y": 1440,
+        "wires": [
+            [
+                "331d7f15435c92bb",
+                "a69e86141ccc00d9"
+            ]
+        ]
+    },
+    {
+        "id": "331d7f15435c92bb",
+        "type": "change",
+        "z": "bf279eb7eda19fd7",
+        "g": "83efa2d173d9dca5",
+        "name": "set doorbell_snapshot to true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "doorbell_snapshot",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 1440,
+        "wires": [
+            [
+                "ec5aa51eb5b744ff"
+            ]
+        ]
+    },
+    {
+        "id": "56e9529fb3adf59e",
+        "type": "switch",
+        "z": "bf279eb7eda19fd7",
+        "g": "83efa2d173d9dca5",
+        "name": "",
+        "property": "doorbell_snapshot",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "false"
+            },
+            {
+                "t": "null"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 990,
+        "y": 1320,
+        "wires": [
+            [
+                "e188c5d43cc22d55"
+            ],
+            [
+                "e188c5d43cc22d55"
+            ]
+        ]
+    },
+    {
+        "id": "383d5bb86f113c33",
+        "type": "change",
+        "z": "bf279eb7eda19fd7",
+        "g": "83efa2d173d9dca5",
+        "name": "set doorbell_snapshot to false",
+        "rules": [
+            {
+                "t": "set",
+                "p": "doorbell_snapshot",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 1480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a69e86141ccc00d9",
+        "type": "debug",
+        "z": "bf279eb7eda19fd7",
+        "g": "83efa2d173d9dca5",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 290,
+        "y": 1480,
         "wires": []
     },
     {
@@ -34971,7 +35001,7 @@
         "name": "update outdoor temperature to opentherm gateway",
         "info": "",
         "x": 230,
-        "y": 1960,
+        "y": 1820,
         "wires": []
     },
     {
@@ -34984,7 +35014,7 @@
             "12e6ca97465e9a8e"
         ],
         "x": 265,
-        "y": 2020,
+        "y": 1880,
         "wires": [
             [
                 "5a3e197c6d1d4510"
@@ -35018,7 +35048,7 @@
         "domain": "number",
         "service": "set_value",
         "x": 480,
-        "y": 2020,
+        "y": 1880,
         "wires": [
             []
         ]
@@ -49466,7 +49496,7 @@
         "template": "Er is aangebeld",
         "output": "str",
         "x": 780,
-        "y": 980,
+        "y": 1060,
         "wires": [
             [
                 "2df9af4efbf40432"
@@ -49480,28 +49510,8 @@
         "name": "notification when the doorbell button is pushed",
         "info": "",
         "x": 410,
-        "y": 940,
+        "y": 1020,
         "wires": []
-    },
-    {
-        "id": "c22f67c4c646a2d6",
-        "type": "function",
-        "z": "edbbe41e31b072c6",
-        "name": "doorbell / frontdoor",
-        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Deurbel\",\n    icon: \"\",\n    tag: msg.tag || \"doorbell\",\n    notification_id: \"doorbell\",\n};\n\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1050,
-        "y": 1100,
-        "wires": [
-            [
-                "752dd6dc72bedb27"
-            ]
-        ]
     },
     {
         "id": "332b4739e9d3ed0c",
@@ -49512,7 +49522,7 @@
             "e188c5d43cc22d55"
         ],
         "x": 265,
-        "y": 980,
+        "y": 1060,
         "wires": [
             [
                 "a3cb25b8be7311f1"
@@ -49531,10 +49541,10 @@
         "template": "Er is aangebeld en de voordeur is open gedaan.",
         "output": "str",
         "x": 780,
-        "y": 1060,
+        "y": 1140,
         "wires": [
             [
-                "c22f67c4c646a2d6"
+                "2df9af4efbf40432"
             ]
         ]
     },
@@ -49547,7 +49557,7 @@
             "4634d81b11ef6062"
         ],
         "x": 265,
-        "y": 1060,
+        "y": 1140,
         "wires": [
             [
                 "1071f36b528ed74d"
@@ -49566,10 +49576,10 @@
         "template": "Er is aangebeld maar de voordeur is niet open gedaan. ",
         "output": "str",
         "x": 780,
-        "y": 1140,
+        "y": 1220,
         "wires": [
             [
-                "c22f67c4c646a2d6"
+                "2df9af4efbf40432"
             ]
         ]
     },
@@ -49582,7 +49592,7 @@
             "1799c27892bbca5d"
         ],
         "x": 265,
-        "y": 1140,
+        "y": 1220,
         "wires": [
             [
                 "f5a2cd4da9237c58"
@@ -49598,7 +49608,7 @@
             "7249bcd75342e971"
         ],
         "x": 265,
-        "y": 1220,
+        "y": 1300,
         "wires": [
             [
                 "0b5592839e21d40c"
@@ -49617,7 +49627,7 @@
         "template": "Er is aangebeld",
         "output": "str",
         "x": 780,
-        "y": 1220,
+        "y": 1300,
         "wires": [
             [
                 "f24d90b06375de38"
@@ -49637,7 +49647,7 @@
         "finalize": "",
         "libs": [],
         "x": 1040,
-        "y": 1220,
+        "y": 1300,
         "wires": [
             [
                 "44d4424b2bc54756"
@@ -49654,7 +49664,7 @@
             "c4660dc11fb0e5b8"
         ],
         "x": 1175,
-        "y": 1220,
+        "y": 1300,
         "wires": []
     },
     {
@@ -49746,7 +49756,7 @@
         "name": "notification when the doorbell button is pushed and if the front door was openend",
         "info": "",
         "x": 520,
-        "y": 1020,
+        "y": 1100,
         "wires": []
     },
     {
@@ -49756,7 +49766,7 @@
         "name": "notification when the doorbell button is pushed and if the front door was not openend",
         "info": "",
         "x": 530,
-        "y": 1100,
+        "y": 1180,
         "wires": []
     },
     {
@@ -49766,7 +49776,7 @@
         "name": "notification when the doorbell button is pushed but chime is off",
         "info": "",
         "x": 460,
-        "y": 1180,
+        "y": 1260,
         "wires": []
     },
     {
@@ -49781,7 +49791,7 @@
         "template": "Het alarm gaat af! Woning beveiliging uitschakelen?",
         "output": "str",
         "x": 780,
-        "y": 1300,
+        "y": 1380,
         "wires": [
             [
                 "f374838f4a160fb1"
@@ -49801,7 +49811,7 @@
         "finalize": "",
         "libs": [],
         "x": 1020,
-        "y": 1340,
+        "y": 1420,
         "wires": [
             [
                 "15067d782665c902"
@@ -49819,7 +49829,7 @@
             "d1753081ba6b4004"
         ],
         "x": 1175,
-        "y": 1340,
+        "y": 1420,
         "wires": []
     },
     {
@@ -49829,7 +49839,7 @@
         "name": "alarm is on, ask to turn it off home security",
         "info": "",
         "x": 400,
-        "y": 1260,
+        "y": 1340,
         "wires": []
     },
     {
@@ -49841,7 +49851,7 @@
             "5874beb71c3c9523"
         ],
         "x": 265,
-        "y": 1300,
+        "y": 1380,
         "wires": [
             [
                 "03f050e0f3c17ea9"
@@ -49860,7 +49870,7 @@
         "template": "De {{data.new_state.attributes.friendly_name}} is geopend met woning beveiliging aan. Wil je dit uitschakelen?",
         "output": "str",
         "x": 780,
-        "y": 1380,
+        "y": 1460,
         "wires": [
             [
                 "f374838f4a160fb1"
@@ -49874,7 +49884,7 @@
         "name": "notification when a door opens and home security is on",
         "info": "",
         "x": 440,
-        "y": 1340,
+        "y": 1420,
         "wires": []
     },
     {
@@ -49887,7 +49897,7 @@
             "2f3c1ff7754c175f"
         ],
         "x": 265,
-        "y": 1380,
+        "y": 1460,
         "wires": [
             [
                 "0ec1eaf59c081940"
@@ -49906,7 +49916,7 @@
         "template": "De {{data.new_state.attributes.friendly_name}} is geopend met beveiliging aan, schakel beveiliging uit in Home Assistant.",
         "output": "str",
         "x": 780,
-        "y": 1460,
+        "y": 1540,
         "wires": [
             [
                 "d004e764e495242a"
@@ -49923,7 +49933,7 @@
             "2f3c1ff7754c175f"
         ],
         "x": 265,
-        "y": 1460,
+        "y": 1540,
         "wires": [
             [
                 "963a30353cf43bd9"
@@ -49937,7 +49947,7 @@
         "name": "notification for tts when a door opens and home security is on",
         "info": "",
         "x": 460,
-        "y": 1420,
+        "y": 1500,
         "wires": []
     },
     {
@@ -49950,7 +49960,7 @@
             "c4660dc11fb0e5b8"
         ],
         "x": 1175,
-        "y": 1460,
+        "y": 1540,
         "wires": []
     },
     {
@@ -49960,7 +49970,7 @@
         "name": "notifications about ventilation",
         "info": "",
         "x": 360,
-        "y": 1500,
+        "y": 1580,
         "wires": []
     },
     {
@@ -49975,7 +49985,7 @@
             "c38645a953ed6080"
         ],
         "x": 265,
-        "y": 1540,
+        "y": 1620,
         "wires": [
             [
                 "53eee84c0e2af389"
@@ -49995,7 +50005,7 @@
         "finalize": "",
         "libs": [],
         "x": 1000,
-        "y": 1540,
+        "y": 1620,
         "wires": [
             [
                 "e0845450e8f79386"
@@ -50013,7 +50023,7 @@
             "a97f87cfab413716"
         ],
         "x": 1175,
-        "y": 1540,
+        "y": 1620,
         "wires": []
     },
     {
@@ -50029,7 +50039,7 @@
         "finalize": "",
         "libs": [],
         "x": 1000,
-        "y": 1620,
+        "y": 1700,
         "wires": [
             [
                 "24d99a768c0554fa"
@@ -50047,7 +50057,7 @@
             "d1753081ba6b4004"
         ],
         "x": 1175,
-        "y": 1620,
+        "y": 1700,
         "wires": []
     },
     {
@@ -50062,7 +50072,7 @@
         "template": "De stofzuiger zal over 10 minuten starten. Wil je dit laten doorgaan?",
         "output": "str",
         "x": 780,
-        "y": 1620,
+        "y": 1700,
         "wires": [
             [
                 "bae3c74f675875a2"
@@ -50078,7 +50088,7 @@
             "897710e98ead9ae9"
         ],
         "x": 265,
-        "y": 1620,
+        "y": 1700,
         "wires": [
             [
                 "86f24a287db20768"
@@ -50092,7 +50102,7 @@
         "name": "action notification to ask if vacuum cleaning auto mode should be kept on or not",
         "info": "",
         "x": 520,
-        "y": 1580,
+        "y": 1660,
         "wires": []
     },
     {
@@ -50102,7 +50112,7 @@
         "name": "notfication when robo vacuum started",
         "info": "",
         "x": 390,
-        "y": 1660,
+        "y": 1740,
         "wires": []
     },
     {
@@ -50117,7 +50127,7 @@
         "template": "Stofzuiger {{data.attributes.friendly_name}} is gestart.",
         "output": "str",
         "x": 780,
-        "y": 1700,
+        "y": 1780,
         "wires": [
             [
                 "c5c561368b274b3e"
@@ -50137,7 +50147,7 @@
         "finalize": "",
         "libs": [],
         "x": 1070,
-        "y": 1740,
+        "y": 1820,
         "wires": [
             [
                 "8b7cc78e8ef37d00"
@@ -50154,7 +50164,7 @@
             "a97f87cfab413716"
         ],
         "x": 1175,
-        "y": 1740,
+        "y": 1820,
         "wires": []
     },
     {
@@ -50167,7 +50177,7 @@
             "f98153937c9e15ea"
         ],
         "x": 265,
-        "y": 1700,
+        "y": 1780,
         "wires": [
             [
                 "4fce1b345992a952"
@@ -50186,7 +50196,7 @@
         "template": "Stofzuiger {{data.attributes.friendly_name}} kon niet worden gestart.",
         "output": "str",
         "x": 780,
-        "y": 1780,
+        "y": 1860,
         "wires": [
             [
                 "c5c561368b274b3e"
@@ -50200,7 +50210,7 @@
         "name": "notification when robo vacuum failed to start",
         "info": "",
         "x": 410,
-        "y": 1740,
+        "y": 1820,
         "wires": []
     },
     {
@@ -50213,7 +50223,7 @@
             "5f68863131eaf358"
         ],
         "x": 265,
-        "y": 1780,
+        "y": 1860,
         "wires": [
             [
                 "4c378aa4e2e18538"
@@ -50227,7 +50237,7 @@
         "name": "notification for tts when vacuum starts in 10 minutes",
         "info": "",
         "x": 430,
-        "y": 1820,
+        "y": 1900,
         "wires": []
     },
     {
@@ -50242,7 +50252,7 @@
         "template": "Over 10 minuten start de stofzuiger.",
         "output": "str",
         "x": 780,
-        "y": 1860,
+        "y": 1940,
         "wires": [
             [
                 "6b8a622226855e1c"
@@ -50259,7 +50269,7 @@
             "c4660dc11fb0e5b8"
         ],
         "x": 1175,
-        "y": 1860,
+        "y": 1940,
         "wires": []
     },
     {
@@ -50271,7 +50281,7 @@
             "897710e98ead9ae9"
         ],
         "x": 265,
-        "y": 1860,
+        "y": 1940,
         "wires": [
             [
                 "dad886f7f594140c"
@@ -50285,7 +50295,7 @@
         "name": "notification for garbage collection",
         "info": "",
         "x": 370,
-        "y": 2000,
+        "y": 2080,
         "wires": []
     },
     {
@@ -50301,7 +50311,7 @@
         "finalize": "",
         "libs": [],
         "x": 1050,
-        "y": 2040,
+        "y": 2120,
         "wires": [
             [
                 "d7e3a3887f5d504a"
@@ -50319,7 +50329,7 @@
             "9286a72a2355f5ca"
         ],
         "x": 1175,
-        "y": 2040,
+        "y": 2120,
         "wires": []
     },
     {
@@ -50331,7 +50341,7 @@
             "d8573e32a9ec888f"
         ],
         "x": 265,
-        "y": 2040,
+        "y": 2120,
         "wires": [
             [
                 "2bfb3a4e435e8246"
@@ -50345,7 +50355,7 @@
         "name": "notification when gas usage measured and house is unoccupied",
         "info": "",
         "x": 470,
-        "y": 2080,
+        "y": 2160,
         "wires": []
     },
     {
@@ -50360,7 +50370,7 @@
         "template": "Er is {{payload}}m³ gas gemeten en niemand is aanwezig, controleer of het gas of verwarming is uitgezet.",
         "output": "str",
         "x": 780,
-        "y": 2120,
+        "y": 2200,
         "wires": [
             [
                 "96baba360af695fa"
@@ -50380,7 +50390,7 @@
         "finalize": "",
         "libs": [],
         "x": 1020,
-        "y": 2120,
+        "y": 2200,
         "wires": [
             [
                 "483080d20837e868"
@@ -50398,7 +50408,7 @@
             "9286a72a2355f5ca"
         ],
         "x": 1175,
-        "y": 2120,
+        "y": 2200,
         "wires": []
     },
     {
@@ -50410,7 +50420,7 @@
             "b9f5925e88c3b14b"
         ],
         "x": 265,
-        "y": 2120,
+        "y": 2200,
         "wires": [
             [
                 "f485b0f926bced93"
@@ -50424,7 +50434,7 @@
         "name": "notification when there is a stookalert",
         "info": "",
         "x": 380,
-        "y": 2160,
+        "y": 2240,
         "wires": []
     },
     {
@@ -50439,7 +50449,7 @@
         "template": "Op {{{myymd}}} om {{{mytime}}} heeft het RIVM een stookalert afgegeven, het is raadzaam niet de houtkachel te gebruiken.",
         "output": "str",
         "x": 780,
-        "y": 2200,
+        "y": 2280,
         "wires": [
             [
                 "71c2945cf4ef7b1f"
@@ -50459,7 +50469,7 @@
         "finalize": "",
         "libs": [],
         "x": 1080,
-        "y": 2200,
+        "y": 2280,
         "wires": [
             [
                 "d3903da3b2775ffd"
@@ -50477,7 +50487,7 @@
             "a97f87cfab413716"
         ],
         "x": 1175,
-        "y": 2200,
+        "y": 2280,
         "wires": []
     },
     {
@@ -50489,7 +50499,7 @@
             "9a28b0bc93a10e2b"
         ],
         "x": 265,
-        "y": 2200,
+        "y": 2280,
         "wires": [
             [
                 "48b102061eef4776"
@@ -50508,7 +50518,7 @@
         "template": "De robotstofzuiger zit vast en heeft hulp nodig.",
         "output": "str",
         "x": 780,
-        "y": 1940,
+        "y": 2020,
         "wires": [
             [
                 "ec4199e06d5c9302"
@@ -50522,7 +50532,7 @@
         "name": "robo vacuum error notification",
         "info": "",
         "x": 360,
-        "y": 1900,
+        "y": 1980,
         "wires": []
     },
     {
@@ -50534,7 +50544,7 @@
             "ed1e22b58ac9bc7d"
         ],
         "x": 265,
-        "y": 1940,
+        "y": 2020,
         "wires": [
             [
                 "bb86ef9c9939267f"
@@ -50554,7 +50564,7 @@
         "finalize": "",
         "libs": [],
         "x": 1050,
-        "y": 1940,
+        "y": 2020,
         "wires": [
             [
                 "072ee114afd5a910"
@@ -50572,7 +50582,7 @@
             "9286a72a2355f5ca"
         ],
         "x": 1175,
-        "y": 1940,
+        "y": 2020,
         "wires": []
     },
     {
@@ -50588,7 +50598,7 @@
         "finalize": "",
         "libs": [],
         "x": 1050,
-        "y": 2280,
+        "y": 2360,
         "wires": [
             [
                 "ac1eddffbc27f46b"
@@ -50607,7 +50617,7 @@
         "template": "Er is water verbruik gedetecteerd, niemand is aanwezig in huis en apparaten die water verbruiken staan uit!",
         "output": "str",
         "x": 780,
-        "y": 2280,
+        "y": 2360,
         "wires": [
             [
                 "d60af5e166ac64c7"
@@ -50623,7 +50633,7 @@
             "d2e4e2820280beb3"
         ],
         "x": 265,
-        "y": 2280,
+        "y": 2360,
         "wires": [
             [
                 "76b2b2fcd5922030"
@@ -50641,7 +50651,7 @@
             "9286a72a2355f5ca"
         ],
         "x": 1175,
-        "y": 2280,
+        "y": 2360,
         "wires": []
     },
     {
@@ -50651,7 +50661,7 @@
         "name": "notification when waterflow is detected but machines that can use water are all off",
         "info": "",
         "x": 520,
-        "y": 2240,
+        "y": 2320,
         "wires": []
     },
     {
@@ -50661,7 +50671,7 @@
         "name": "notification ask to turn off the doorbell when beau is going to sleep",
         "info": "",
         "x": 470,
-        "y": 2320,
+        "y": 2400,
         "wires": []
     },
     {
@@ -50676,7 +50686,7 @@
         "template": "Het lijkt er op dat Beau gaat slapen, wil je het geluid van de deurbel uitschakelen?",
         "output": "str",
         "x": 780,
-        "y": 2360,
+        "y": 2440,
         "wires": [
             [
                 "63dbcb148aeda163"
@@ -50696,7 +50706,7 @@
         "finalize": "",
         "libs": [],
         "x": 1040,
-        "y": 2360,
+        "y": 2440,
         "wires": [
             [
                 "c355344b268bd367",
@@ -50741,7 +50751,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1240,
-        "y": 2340,
+        "y": 2420,
         "wires": [
             [
                 "928f0b56ca28a02d"
@@ -50786,7 +50796,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1230,
-        "y": 2400,
+        "y": 2480,
         "wires": [
             [
                 "343450b32ed629d0"
@@ -50804,7 +50814,7 @@
             "c76d311bb4b6991b"
         ],
         "x": 1355,
-        "y": 2340,
+        "y": 2420,
         "wires": []
     },
     {
@@ -50817,7 +50827,7 @@
             "d1753081ba6b4004"
         ],
         "x": 1355,
-        "y": 2400,
+        "y": 2480,
         "wires": []
     },
     {
@@ -50829,7 +50839,7 @@
             "3de7619c5f6c6ecd"
         ],
         "x": 265,
-        "y": 2360,
+        "y": 2440,
         "wires": [
             [
                 "f500a2847c7555f6"
@@ -50848,7 +50858,7 @@
         "template": "Het lijkt er op dat Beau wakker is, wil je het geluid van de deurbel weer aanzetten?",
         "output": "str",
         "x": 780,
-        "y": 2460,
+        "y": 2540,
         "wires": [
             [
                 "543242cb6caf2ab6"
@@ -50862,7 +50872,7 @@
         "name": "notification ask to turn on the doorbell when beau is awake",
         "info": "",
         "x": 450,
-        "y": 2420,
+        "y": 2500,
         "wires": []
     },
     {
@@ -50878,7 +50888,7 @@
         "finalize": "",
         "libs": [],
         "x": 1040,
-        "y": 2460,
+        "y": 2540,
         "wires": [
             [
                 "80a4b54a5768f98d"
@@ -50894,7 +50904,7 @@
             "1f0fe76c488b32e7"
         ],
         "x": 265,
-        "y": 2460,
+        "y": 2540,
         "wires": [
             [
                 "e67b6285f7594838"
@@ -50912,7 +50922,7 @@
             "d1753081ba6b4004"
         ],
         "x": 1175,
-        "y": 2460,
+        "y": 2540,
         "wires": []
     },
     {
@@ -50920,7 +50930,7 @@
         "type": "function",
         "z": "edbbe41e31b072c6",
         "name": "doorbell / frontdoor",
-        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Deurbel\",\n    icon: \"\",\n    tag: msg.tag || \"doorbell\",\n    notification_id: \"doorbell\",\n    channel: \"Doorbell\"\n};\n\nreturn msg;\n",
+        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Deurbel\",\n    image: msg.snapshotUrl,\n    icon: \"\",\n    tag: msg.tag || \"doorbell\",\n    when: msg.payload.after.start_time,\n    notification_id: \"doorbell\",\n    clickAction: \"/dashboard-mobile/camera\",\n    channel: \"Doorbell\",\n    importance: \"high\"\n};\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -50928,7 +50938,7 @@
         "finalize": "",
         "libs": [],
         "x": 1050,
-        "y": 980,
+        "y": 1140,
         "wires": [
             [
                 "752dd6dc72bedb27"
@@ -50942,7 +50952,7 @@
         "name": "notification on tv when phone is offhook, person is home and tv is playing",
         "info": "",
         "x": 500,
-        "y": 2500,
+        "y": 2580,
         "wires": []
     },
     {
@@ -50957,7 +50967,7 @@
         "template": "TV gepauseerd i.v.m. telefoongesprek.",
         "output": "str",
         "x": 780,
-        "y": 2540,
+        "y": 2620,
         "wires": [
             [
                 "d8a4ba9ae3cd9b55"
@@ -50977,7 +50987,7 @@
         "finalize": "",
         "libs": [],
         "x": 1040,
-        "y": 2540,
+        "y": 2620,
         "wires": [
             [
                 "1d24b076d3c0a747"
@@ -51007,13 +51017,12 @@
         "name": "doorbell button pushed and/or door openend/not openend",
         "mode": "link",
         "links": [
-            "39fe1680119f6b36",
             "9286a72a2355f5ca",
             "a97f87cfab413716",
             "c13b2b4d87067c17"
         ],
         "x": 1175,
-        "y": 1040,
+        "y": 1140,
         "wires": []
     },
     {
@@ -51076,7 +51085,7 @@
             "c13b2b4d87067c17"
         ],
         "x": 1175,
-        "y": 2540,
+        "y": 2620,
         "wires": []
     },
     {
@@ -51088,7 +51097,7 @@
             "2024b0143896ad22"
         ],
         "x": 265,
-        "y": 2540,
+        "y": 2620,
         "wires": [
             [
                 "a7c22d1c1f3f9f7e"
@@ -51107,7 +51116,7 @@
         "template": "Er is een nieuw zonne-energie dagrecord gemeten vandaag.\\n\\nOud: {{data.state}} {{data.attributes.unit_of_measurement}} op {{data.attributes.date}}\\nNieuw: {{payload.value}} {{data.attributes.unit_of_measurement}} op {{date}}",
         "output": "str",
         "x": 780,
-        "y": 2620,
+        "y": 2700,
         "wires": [
             [
                 "aebeb16369164c25"
@@ -51121,7 +51130,7 @@
         "name": "notification when a new daily solar production record has been measured",
         "info": "",
         "x": 500,
-        "y": 2580,
+        "y": 2660,
         "wires": []
     },
     {
@@ -51133,7 +51142,7 @@
             "1b535e9dd4a2bc7f"
         ],
         "x": 265,
-        "y": 2620,
+        "y": 2700,
         "wires": [
             [
                 "5b0cf7cc21c032a5"
@@ -51153,7 +51162,7 @@
         "finalize": "",
         "libs": [],
         "x": 1040,
-        "y": 2620,
+        "y": 2700,
         "wires": [
             [
                 "66f884599eab8c68"
@@ -51171,8 +51180,160 @@
             "9286a72a2355f5ca"
         ],
         "x": 1175,
-        "y": 2620,
+        "y": 2700,
         "wires": []
+    },
+    {
+        "id": "48b336393876098d",
+        "type": "comment",
+        "z": "edbbe41e31b072c6",
+        "name": "notification with snapshot when the doorbell button is pushed",
+        "info": "",
+        "x": 460,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "f701c5df9212e0b7",
+        "type": "link in",
+        "z": "edbbe41e31b072c6",
+        "name": "notification with snapshot when the doorbell button is pushed",
+        "links": [],
+        "x": 265,
+        "y": 960,
+        "wires": [
+            [
+                "17835c5950eeaf65"
+            ]
+        ]
+    },
+    {
+        "id": "17835c5950eeaf65",
+        "type": "template",
+        "z": "edbbe41e31b072c6",
+        "name": "message",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Er is aangebeld",
+        "output": "str",
+        "x": 780,
+        "y": 960,
+        "wires": [
+            [
+                "6949c4845dd006c8"
+            ]
+        ]
+    },
+    {
+        "id": "6949c4845dd006c8",
+        "type": "function",
+        "z": "edbbe41e31b072c6",
+        "name": "doorbell / frontdoor snapshot",
+        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Deurbel\",\n    icon: \"\",\n    tag: msg.tag || \"doorbell\",\n    notification_id: \"doorbell\",\n    channel: \"Doorbell\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1020,
+        "y": 960,
+        "wires": [
+            [
+                "479065619476c62e"
+            ]
+        ]
+    },
+    {
+        "id": "479065619476c62e",
+        "type": "link out",
+        "z": "edbbe41e31b072c6",
+        "name": "notification with snapshot when the doorbell button is pushed",
+        "mode": "link",
+        "links": [],
+        "x": 1175,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "29b13526376dcb6a",
+        "type": "comment",
+        "z": "edbbe41e31b072c6",
+        "name": "send a notification with a snapshot when a person is detected on the camera in the backyard",
+        "info": "",
+        "x": 560,
+        "y": 2740,
+        "wires": []
+    },
+    {
+        "id": "e2f0e803e1b2bf10",
+        "type": "link in",
+        "z": "edbbe41e31b072c6",
+        "name": "send a notification with a snapshot when a person is detected on the camera in the backyard",
+        "links": [
+            "a8fd84d44c1f3b89"
+        ],
+        "x": 265,
+        "y": 2780,
+        "wires": [
+            [
+                "5592a1cde94bd608"
+            ]
+        ]
+    },
+    {
+        "id": "7d0724b78f994049",
+        "type": "link out",
+        "z": "edbbe41e31b072c6",
+        "name": "send a notification with a snapshot when a person is detected on the camera in the backyard",
+        "mode": "link",
+        "links": [
+            "9286a72a2355f5ca"
+        ],
+        "x": 1175,
+        "y": 2780,
+        "wires": []
+    },
+    {
+        "id": "5592a1cde94bd608",
+        "type": "template",
+        "z": "edbbe41e31b072c6",
+        "name": "message",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Een persoon is in de achtertuin gedetecteerd.",
+        "output": "str",
+        "x": 780,
+        "y": 2780,
+        "wires": [
+            [
+                "54685e29c28146c6"
+            ]
+        ]
+    },
+    {
+        "id": "54685e29c28146c6",
+        "type": "function",
+        "z": "edbbe41e31b072c6",
+        "name": "snapshot notification",
+        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Waarschuwing\",\n    image: msg.snapshotUrl,\n    icon: \"\",\n    tag: msg.payload.after.id,\n    when: msg.payload.after.start_time,\n    notification_id: msg.payload.after.id,\n    clickAction: \"/dashboard-mobile/camera\",\n    channel: \"Warning\",\n    importance: \"high\"\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 2780,
+        "wires": [
+            [
+                "7d0724b78f994049"
+            ]
+        ]
     },
     {
         "id": "3675d2d1160c6b61",
@@ -51381,7 +51542,7 @@
         "deviceId": [],
         "entityId": [],
         "labelId": [],
-        "data": "{\"message\":\"{{notify.message}}\",\"title\":\"{{notify.title}}\",\"data\":{\"vibrationPattern\":\"{{notify.vibrationPattern}}\",\"channel\":\"{{notify.channel}}\",\"tag\":\"{{notify.tag}}\",\"clickAction\":\"{{notify.clickAction}}\"}}",
+        "data": "{\"message\":\"{{notify.message}}\",\"title\":\"{{notify.title}}\",\"data\":{\"vibrationPattern\":\"{{notify.vibrationPattern}}\",\"channel\":\"{{notify.channel}}\",\"tag\":\"{{notify.tag}}\",\"clickAction\":\"{{notify.clickAction}}\",\"importance\":\"{{notify.importance}}\",\"when\":\"{{notify.when}}\",\"icon\":\"{{notify.icon}}\",\"image\":\"{{{notify.image}}}\"}}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -51420,7 +51581,8 @@
             "d3903da3b2775ffd",
             "072ee114afd5a910",
             "ac1eddffbc27f46b",
-            "66f884599eab8c68"
+            "66f884599eab8c68",
+            "7d0724b78f994049"
         ],
         "x": 295,
         "y": 320,
@@ -51437,7 +51599,6 @@
         "name": "notify_anne",
         "links": [
             "2e9e2b02c8f4b00b",
-            "752dd6dc72bedb27",
             "cb94648059d3cbe6",
             "4b7eeb8450582627",
             "46fe5b3140f097c9",
