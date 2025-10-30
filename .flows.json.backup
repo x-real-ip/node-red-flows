@@ -1993,12 +1993,13 @@
             "e86b37532d49c64c",
             "7f9ef23a602772d9",
             "b893f80d1303467b",
-            "562fbfde97dcdc26"
+            "562fbfde97dcdc26",
+            "6627c8c2e67f71eb"
         ],
         "x": 28,
         "y": 1853,
-        "w": 1424,
-        "h": 1134
+        "w": 1684,
+        "h": 1234
     },
     {
         "id": "f440ed49d65110cc",
@@ -3549,8 +3550,7 @@
             "56e9529fb3adf59e",
             "0816b0e1b274f0f8",
             "d2c54edb4271fcda",
-            "383d5bb86f113c33",
-            "a69e86141ccc00d9"
+            "383d5bb86f113c33"
         ],
         "x": 14,
         "y": 1279,
@@ -6584,11 +6584,12 @@
             "c35e5fe0aaced7dd",
             "84b894521e1025fd",
             "06494fdc0a5d9892",
-            "c43613425ba3c1da"
+            "c43613425ba3c1da",
+            "0b1c07b6f15ada9b"
         ],
         "x": 54,
         "y": 2439,
-        "w": 1372,
+        "w": 1632,
         "h": 202
     },
     {
@@ -6703,6 +6704,28 @@
         "y": 639,
         "w": 1032,
         "h": 282
+    },
+    {
+        "id": "6627c8c2e67f71eb",
+        "type": "group",
+        "z": "bf279eb7eda19fd7",
+        "g": "9db47d03d3a4bf48",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7bbdb0b2d050fef2"
+        ],
+        "x": 54,
+        "y": 2979,
+        "w": 512,
+        "h": 82
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -7136,7 +7159,7 @@
         "type": "junction",
         "z": "bf279eb7eda19fd7",
         "g": "7f9ef23a602772d9",
-        "x": 1160,
+        "x": 1420,
         "y": 2600,
         "wires": [
             [
@@ -27334,6 +27357,7 @@
         "name": "person is detected on camera",
         "mode": "link",
         "links": [
+            "06494fdc0a5d9892",
             "24ac19024410b5e3",
             "61c36fb38acb7466",
             "684440651deb45dc",
@@ -28625,7 +28649,7 @@
         "blockInputOverrides": false,
         "domain": "light",
         "service": "turn_off",
-        "x": 1300,
+        "x": 1560,
         "y": 2520,
         "wires": [
             []
@@ -28727,7 +28751,7 @@
         "y": 2520,
         "wires": [
             [
-                "b45d3017dda90564"
+                "0b1c07b6f15ada9b"
             ],
             []
         ]
@@ -28748,9 +28772,9 @@
         "type": "comment",
         "z": "bf279eb7eda19fd7",
         "g": "7f9ef23a602772d9",
-        "name": "turn off front yard light(s) off when daylight is on",
+        "name": "turn front yard light(s) off when daylight is on",
         "info": "",
-        "x": 260,
+        "x": 250,
         "y": 2560,
         "wires": []
     },
@@ -28761,7 +28785,8 @@
         "g": "7f9ef23a602772d9",
         "name": "turn on frontyard light for 5 minutes",
         "links": [
-            "3bafb9626527259f"
+            "3bafb9626527259f",
+            "df677727bba187cf"
         ],
         "x": 325,
         "y": 2520,
@@ -29182,8 +29207,7 @@
         "y": 1440,
         "wires": [
             [
-                "331d7f15435c92bb",
-                "a69e86141ccc00d9"
+                "331d7f15435c92bb"
             ]
         ]
     },
@@ -29272,22 +29296,50 @@
         ]
     },
     {
-        "id": "a69e86141ccc00d9",
-        "type": "debug",
+        "id": "7bbdb0b2d050fef2",
+        "type": "comment",
         "z": "bf279eb7eda19fd7",
-        "g": "83efa2d173d9dca5",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 290,
-        "y": 1480,
+        "g": "6627c8c2e67f71eb",
+        "name": "turn on frontdoor light when person is detected and light was off",
+        "info": "",
+        "x": 310,
+        "y": 3020,
         "wires": []
+    },
+    {
+        "id": "0b1c07b6f15ada9b",
+        "type": "ha-wait-until",
+        "z": "bf279eb7eda19fd7",
+        "g": "7f9ef23a602772d9",
+        "name": "wait until frontdoor is closed",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "entities": {
+            "entity": [
+                "binary_sensor.frontdoor"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "property": "state",
+        "comparator": "is",
+        "value": "off",
+        "valueType": "str",
+        "timeout": "30",
+        "timeoutType": "num",
+        "timeoutUnits": "minutes",
+        "checkCurrentState": true,
+        "blockInputOverrides": true,
+        "outputProperties": [],
+        "x": 1300,
+        "y": 2520,
+        "wires": [
+            [
+                "b45d3017dda90564"
+            ],
+            []
+        ]
     },
     {
         "id": "75db2fdc.c1e22",
@@ -44949,7 +45001,8 @@
             "fd1316bc77e6a6dd",
             "fef971c806c0156d",
             "df0d2da9dc486e6f",
-            "849379e6f7939a8c"
+            "849379e6f7939a8c",
+            "6cba7dab8b7608c9"
         ],
         "x": 265,
         "y": 660,
@@ -51017,6 +51070,7 @@
         "name": "doorbell button pushed and/or door openend/not openend",
         "mode": "link",
         "links": [
+            "39fe1680119f6b36",
             "9286a72a2355f5ca",
             "a97f87cfab413716",
             "c13b2b4d87067c17"
@@ -51608,7 +51662,8 @@
             "483080d20837e868",
             "072ee114afd5a910",
             "ac1eddffbc27f46b",
-            "66f884599eab8c68"
+            "66f884599eab8c68",
+            "752dd6dc72bedb27"
         ],
         "x": 295,
         "y": 380,
