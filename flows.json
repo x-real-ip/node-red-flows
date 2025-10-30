@@ -2044,7 +2044,7 @@
             "ae2e10abb46ea220"
         ],
         "x": 8,
-        "y": 2313,
+        "y": 2453,
         "w": 1554,
         "h": 1174
     },
@@ -2935,7 +2935,7 @@
             "4edd2983cc80f181"
         ],
         "x": 14,
-        "y": 2059,
+        "y": 2199,
         "w": 342,
         "h": 242
     },
@@ -4240,7 +4240,7 @@
             "3217ced2069523e7"
         ],
         "x": 14,
-        "y": 1799,
+        "y": 1939,
         "w": 792,
         "h": 242
     },
@@ -5523,7 +5523,7 @@
             "321f94ddeb0d231e"
         ],
         "x": 34,
-        "y": 2339,
+        "y": 2479,
         "w": 872,
         "h": 204.5
     },
@@ -5554,7 +5554,7 @@
             "4b8679c14972be23"
         ],
         "x": 34,
-        "y": 2559,
+        "y": 2699,
         "w": 1502,
         "h": 264.5
     },
@@ -5579,7 +5579,7 @@
             "0d887755bfdcf551"
         ],
         "x": 34,
-        "y": 2839,
+        "y": 2979,
         "w": 592,
         "h": 162
     },
@@ -5936,7 +5936,7 @@
             "5f1e344a10e50e14"
         ],
         "x": 34,
-        "y": 3019,
+        "y": 3159,
         "w": 1152,
         "h": 122
     },
@@ -5971,7 +5971,7 @@
             "53d90bdea41503b8"
         ],
         "x": 34,
-        "y": 3159,
+        "y": 3299,
         "w": 1112,
         "h": 302
     },
@@ -6728,6 +6728,30 @@
         "h": 82
     },
     {
+        "id": "ac009c7335724f80",
+        "type": "group",
+        "z": "94466ab2e543aa2f",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "557c778b948bbd93",
+            "b75a06591bd2314d",
+            "4d2461534c903c6d",
+            "4e6208bc552b966f"
+        ],
+        "x": 14,
+        "y": 1799,
+        "w": 692,
+        "h": 122
+    },
+    {
         "id": "5cb88a741e06d0c9",
         "type": "junction",
         "z": "75537afd17de5117",
@@ -6948,7 +6972,7 @@
         "z": "94466ab2e543aa2f",
         "g": "a2cb8e43bd2538c0",
         "x": 800,
-        "y": 2740,
+        "y": 2880,
         "wires": [
             [
                 "b7171475ccc7e603"
@@ -7058,7 +7082,7 @@
         "z": "94466ab2e543aa2f",
         "g": "48e46dc873ed3b2b",
         "x": 260,
-        "y": 2200,
+        "y": 2340,
         "wires": [
             [
                 "672b119de53c2e27"
@@ -17773,7 +17797,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 760,
-        "y": 2480,
+        "y": 2620,
         "wires": [
             []
         ]
@@ -17812,7 +17836,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 500,
-        "y": 2480,
+        "y": 2620,
         "wires": [
             [
                 "2127f9679d74bffa"
@@ -17827,7 +17851,7 @@
         "g": "ebd96689a07f730e",
         "name": "",
         "x": 190,
-        "y": 2480,
+        "y": 2620,
         "wires": [
             [
                 "d244c71c8ebb21ec"
@@ -17846,7 +17870,7 @@
         "name": "turn on or off christmas tree light",
         "info": "",
         "x": 190,
-        "y": 2380,
+        "y": 2520,
         "wires": []
     },
     {
@@ -17883,7 +17907,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 500,
-        "y": 2440,
+        "y": 2580,
         "wires": [
             [
                 "74a8772920457cd4"
@@ -17919,7 +17943,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 760,
-        "y": 2440,
+        "y": 2580,
         "wires": [
             []
         ]
@@ -17934,7 +17958,7 @@
             "2d71a81ca51a22dc"
         ],
         "x": 315,
-        "y": 2420,
+        "y": 2560,
         "wires": [
             [
                 "d244c71c8ebb21ec",
@@ -17969,7 +17993,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 1380,
-        "y": 2640,
+        "y": 2780,
         "wires": [
             []
         ]
@@ -17999,7 +18023,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 710,
-        "y": 2640,
+        "y": 2780,
         "wires": [
             [
                 "b7171475ccc7e603"
@@ -18015,7 +18039,7 @@
         "name": "turn on living room lights when it is dark outside and the tv is on",
         "info": "",
         "x": 290,
-        "y": 2600,
+        "y": 2740,
         "wires": []
     },
     {
@@ -18322,7 +18346,7 @@
             "4a93ba39b988072a"
         ],
         "x": 305,
-        "y": 2640,
+        "y": 2780,
         "wires": [
             [
                 "9d3440869e61a51f"
@@ -18336,7 +18360,7 @@
         "g": "a2cb8e43bd2538c0",
         "name": "",
         "x": 190,
-        "y": 2760,
+        "y": 2900,
         "wires": [
             [
                 "65c1beb3af49864c"
@@ -18385,7 +18409,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 910,
-        "y": 2640,
+        "y": 2780,
         "wires": [
             [
                 "14e7742560be87fb"
@@ -18401,7 +18425,7 @@
         "name": "turn off living room lights when sleepmode turns on or the house is unoccupied",
         "info": "",
         "x": 330,
-        "y": 2880,
+        "y": 3020,
         "wires": []
     },
     {
@@ -18411,7 +18435,7 @@
         "g": "97cc1a527f72ed4e",
         "name": "",
         "x": 190,
-        "y": 2920,
+        "y": 3060,
         "wires": [
             [
                 "6c8db471867be131"
@@ -18445,7 +18469,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 410,
-        "y": 2920,
+        "y": 3060,
         "wires": [
             []
         ]
@@ -18460,7 +18484,7 @@
             "e6b9ff42fde3ea4e"
         ],
         "x": 305,
-        "y": 2960,
+        "y": 3100,
         "wires": [
             [
                 "6c8db471867be131"
@@ -18545,7 +18569,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 490,
-        "y": 2640,
+        "y": 2780,
         "wires": [
             [
                 "1cc104eb3c21317e"
@@ -18591,7 +18615,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1130,
-        "y": 2640,
+        "y": 2780,
         "wires": [
             [
                 "1c9555d76592af83"
@@ -18607,7 +18631,7 @@
         "name": "turn on living room lights when house is getting ocuppied and light is off",
         "info": "",
         "x": 310,
-        "y": 2700,
+        "y": 2840,
         "wires": []
     },
     {
@@ -18629,7 +18653,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 920,
-        "y": 3100,
+        "y": 3240,
         "wires": [
             [
                 "113b4aa51efc55a3"
@@ -18663,7 +18687,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 670,
-        "y": 3100,
+        "y": 3240,
         "wires": [
             [
                 "5430d71930b64448"
@@ -18697,7 +18721,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 1090,
-        "y": 3100,
+        "y": 3240,
         "wires": [
             []
         ]
@@ -18739,7 +18763,7 @@
         "outputLocation": "payload",
         "outputResultsCount": 1,
         "x": 460,
-        "y": 3100,
+        "y": 3240,
         "wires": [
             [
                 "fded5d70d3c53f4f"
@@ -18756,7 +18780,7 @@
             "e8424879dc4b6a54"
         ],
         "x": 305,
-        "y": 3100,
+        "y": 3240,
         "wires": [
             [
                 "b3faeb3c1fda8af0"
@@ -18771,7 +18795,7 @@
         "name": "turn on a random light that was off and turn it randomly off",
         "info": "",
         "x": 270,
-        "y": 3060,
+        "y": 3200,
         "wires": []
     },
     {
@@ -18832,7 +18856,7 @@
             }
         ],
         "x": 150,
-        "y": 2140,
+        "y": 2280,
         "wires": [
             [
                 "672b119de53c2e27"
@@ -18898,7 +18922,7 @@
             }
         ],
         "x": 110,
-        "y": 2200,
+        "y": 2340,
         "wires": [
             [
                 "4edd2983cc80f181"
@@ -18964,7 +18988,7 @@
             }
         ],
         "x": 100,
-        "y": 2260,
+        "y": 2400,
         "wires": [
             [
                 "63f01d3d2554ca69"
@@ -18980,7 +19004,7 @@
         "name": "smoke and co detection",
         "info": "",
         "x": 140,
-        "y": 2100,
+        "y": 2240,
         "wires": []
     },
     {
@@ -18994,7 +19018,7 @@
             "8a5a42bcd414ac14"
         ],
         "x": 315,
-        "y": 2140,
+        "y": 2280,
         "wires": []
     },
     {
@@ -19008,7 +19032,7 @@
             "38db1827482f1f0d"
         ],
         "x": 315,
-        "y": 2260,
+        "y": 2400,
         "wires": []
     },
     {
@@ -19041,7 +19065,7 @@
         "outputLocation": "light_state",
         "outputResultsCount": 1,
         "x": 570,
-        "y": 3240,
+        "y": 3380,
         "wires": [
             [
                 "6a132f1cfdc57a36"
@@ -19137,7 +19161,7 @@
         "to": "",
         "reg": false,
         "x": 750,
-        "y": 3240,
+        "y": 3380,
         "wires": [
             [
                 "993f5a48fe1d56c1"
@@ -19158,7 +19182,7 @@
         "addname": "",
         "property": "light_state",
         "x": 910,
-        "y": 3240,
+        "y": 3380,
         "wires": [
             [
                 "22dc1eded58556f6"
@@ -19192,7 +19216,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 1050,
-        "y": 3240,
+        "y": 3380,
         "wires": [
             []
         ]
@@ -19224,7 +19248,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 910,
-        "y": 3420,
+        "y": 3560,
         "wires": [
             []
         ]
@@ -19250,7 +19274,7 @@
         "to": "",
         "reg": false,
         "x": 440,
-        "y": 3360,
+        "y": 3500,
         "wires": [
             [
                 "9c780ad71c8651fd"
@@ -19271,7 +19295,7 @@
         "addname": "",
         "property": "light_state",
         "x": 610,
-        "y": 3360,
+        "y": 3500,
         "wires": [
             [
                 "9a0c650f1b078f8e"
@@ -19302,7 +19326,7 @@
         "repair": false,
         "outputs": 2,
         "x": 750,
-        "y": 3360,
+        "y": 3500,
         "wires": [
             [
                 "5aecd5ebc0c419c8"
@@ -19339,7 +19363,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 910,
-        "y": 3360,
+        "y": 3500,
         "wires": [
             []
         ]
@@ -19354,7 +19378,7 @@
             "5874beb71c3c9523"
         ],
         "x": 305,
-        "y": 3240,
+        "y": 3380,
         "wires": [
             [
                 "53d90bdea41503b8"
@@ -19372,7 +19396,7 @@
             "5a1c4daf23c47d8e"
         ],
         "x": 305,
-        "y": 3360,
+        "y": 3500,
         "wires": [
             [
                 "f9a8d47bf12af153"
@@ -19387,7 +19411,7 @@
         "name": "store current light state in context then turn on all lights in alarm state",
         "info": "",
         "x": 300,
-        "y": 3200,
+        "y": 3340,
         "wires": []
     },
     {
@@ -19398,7 +19422,7 @@
         "name": "restore light state based on values in the context store",
         "info": "",
         "x": 260,
-        "y": 3300,
+        "y": 3440,
         "wires": []
     },
     {
@@ -19439,7 +19463,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 410,
-        "y": 3240,
+        "y": 3380,
         "wires": [
             [
                 "09da2ef8f03278e3"
@@ -19456,7 +19480,7 @@
         "name": "Turn on or off tablet charging based on battery level",
         "info": "",
         "x": 230,
-        "y": 1840,
+        "y": 1980,
         "wires": []
     },
     {
@@ -19497,7 +19521,7 @@
         "repair": false,
         "outputs": 5,
         "x": 350,
-        "y": 1900,
+        "y": 2040,
         "wires": [
             [
                 "0b118ac6e884fc56"
@@ -19530,7 +19554,7 @@
         "template": "{{data.new_state.attributes.friendly_name}} is {{payload}}%",
         "output": "str",
         "x": 540,
-        "y": 1940,
+        "y": 2080,
         "wires": [
             [
                 "30b5e775d2659181"
@@ -19565,7 +19589,7 @@
         "domain": "switch",
         "service": "turn_on",
         "x": 590,
-        "y": 2000,
+        "y": 2140,
         "wires": [
             []
         ]
@@ -19598,7 +19622,7 @@
         "domain": "switch",
         "service": "turn_off",
         "x": 590,
-        "y": 1880,
+        "y": 2020,
         "wires": [
             []
         ]
@@ -19629,7 +19653,7 @@
         "domain": "notify",
         "service": "theautomation",
         "x": 700,
-        "y": 1940,
+        "y": 2080,
         "wires": [
             []
         ]
@@ -19681,7 +19705,7 @@
             }
         ],
         "x": 140,
-        "y": 1880,
+        "y": 2020,
         "wires": [
             [
                 "b9298a615e99a23f",
@@ -19701,10 +19725,101 @@
         "payloadval": "0",
         "name": "",
         "x": 350,
-        "y": 2000,
+        "y": 2140,
         "wires": [
             [
                 "077067e28d6d59b4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "557c778b948bbd93",
+        "type": "comment",
+        "z": "94466ab2e543aa2f",
+        "g": "ac009c7335724f80",
+        "name": "show frontyard snapshot on wall tablet when doorbell rings",
+        "info": "",
+        "x": 250,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "b75a06591bd2314d",
+        "type": "link in",
+        "z": "94466ab2e543aa2f",
+        "g": "ac009c7335724f80",
+        "name": "show frontyard snapshot on wall tablet when doorbell rings",
+        "links": [
+            "e188c5d43cc22d55"
+        ],
+        "x": 245,
+        "y": 1880,
+        "wires": [
+            [
+                "4e6208bc552b966f"
+            ]
+        ]
+    },
+    {
+        "id": "4d2461534c903c6d",
+        "type": "api-call-service",
+        "z": "94466ab2e543aa2f",
+        "g": "ac009c7335724f80",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "browser_mod.popup",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"autoclose\":true,\"timeout\":30000,\"content\":{\"type\":\"vertical-stack\",\"cards\":[{\"type\":\"markdown\",\"content\":\"Er is aangebeld.\",\"text_only\":true},{\"type\":\"picture\",\"image_entity\":\"image.frontyard_person\"}]}}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "browser_mod",
+        "service": "popup",
+        "x": 580,
+        "y": 1880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4e6208bc552b966f",
+        "type": "api-current-state",
+        "z": "94466ab2e543aa2f",
+        "g": "ac009c7335724f80",
+        "name": "guest mode is off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "input_boolean.guest",
+        "state_type": "str",
+        "blockInputOverrides": true,
+        "outputProperties": [],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 370,
+        "y": 1880,
+        "wires": [
+            [
+                "4d2461534c903c6d"
             ],
             []
         ]
@@ -21784,7 +21899,8 @@
             "a66118ea5be1ff8c",
             "b978613dcfb6a202",
             "bd841cbf320510d2",
-            "a9fd9464ad7de890"
+            "a9fd9464ad7de890",
+            "0020f7218cace3a6"
         ],
         "x": 235,
         "y": 500,
@@ -22680,7 +22796,8 @@
             "bd841cbf320510d2",
             "a66118ea5be1ff8c",
             "684440651deb45dc",
-            "61c36fb38acb7466"
+            "61c36fb38acb7466",
+            "0020f7218cace3a6"
         ],
         "x": 535,
         "y": 820,
@@ -26556,7 +26673,8 @@
         "links": [
             "29ef6b63d1ee8e04",
             "bd841cbf320510d2",
-            "06494fdc0a5d9892"
+            "06494fdc0a5d9892",
+            "0020f7218cace3a6"
         ],
         "x": 275,
         "y": 480,
@@ -26839,7 +26957,8 @@
             "b978613dcfb6a202",
             "bd841cbf320510d2",
             "c8074b72183bfa57",
-            "57a53c1fc2d883fc"
+            "57a53c1fc2d883fc",
+            "0020f7218cace3a6"
         ],
         "x": 235,
         "y": 620,
@@ -27361,7 +27480,8 @@
             "24ac19024410b5e3",
             "61c36fb38acb7466",
             "684440651deb45dc",
-            "bd841cbf320510d2"
+            "bd841cbf320510d2",
+            "0020f7218cace3a6"
         ],
         "x": 535,
         "y": 760,
@@ -28346,7 +28466,8 @@
         "name": "doorbell button pushed",
         "mode": "link",
         "links": [
-            "332b4739e9d3ed0c"
+            "332b4739e9d3ed0c",
+            "b75a06591bd2314d"
         ],
         "x": 1085,
         "y": 1360,
@@ -42530,7 +42651,8 @@
         "mode": "link",
         "links": [
             "b978613dcfb6a202",
-            "bd841cbf320510d2"
+            "bd841cbf320510d2",
+            "0020f7218cace3a6"
         ],
         "x": 195,
         "y": 340,
@@ -45004,7 +45126,8 @@
             "fef971c806c0156d",
             "df0d2da9dc486e6f",
             "849379e6f7939a8c",
-            "6cba7dab8b7608c9"
+            "6cba7dab8b7608c9",
+            "0020f7218cace3a6"
         ],
         "x": 265,
         "y": 660,
