@@ -309,6 +309,14 @@
         "env": []
     },
     {
+        "id": "12f36c619f5ce9cc",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "9ea6eabfb34d96e0",
         "type": "subflow",
         "name": "trigger_global_house-unoccupied",
@@ -2137,7 +2145,7 @@
             "7b7b7e395f402314"
         ],
         "x": 8,
-        "y": 1573,
+        "y": 1773,
         "w": 1264,
         "h": 714
     },
@@ -2232,7 +2240,7 @@
             "0419c1d8f3124b5e"
         ],
         "x": 14,
-        "y": 2879,
+        "y": 3139,
         "w": 1112,
         "h": 182
     },
@@ -2696,7 +2704,7 @@
             "30bb603d2ee43acf"
         ],
         "x": 14,
-        "y": 2359,
+        "y": 2619,
         "w": 812,
         "h": 122
     },
@@ -2722,7 +2730,7 @@
             "46c67d7449c54584"
         ],
         "x": 14,
-        "y": 2499,
+        "y": 2759,
         "w": 772,
         "h": 182
     },
@@ -2747,7 +2755,7 @@
             "7301e33204b88290"
         ],
         "x": 14,
-        "y": 2699,
+        "y": 2959,
         "w": 552,
         "h": 162
     },
@@ -3516,7 +3524,7 @@
             "8922b34fa1783c92"
         ],
         "x": 14,
-        "y": 3079,
+        "y": 3339,
         "w": 992,
         "h": 162
     },
@@ -4594,7 +4602,7 @@
             "56c65d08e5de1e87"
         ],
         "x": 14,
-        "y": 1439,
+        "y": 1639,
         "w": 1282,
         "h": 122
     },
@@ -4666,12 +4674,13 @@
             "3a535b1014d0a45b",
             "f1ffce13e75d6866",
             "d3868dc5f4aa2d65",
-            "cd256ec259a611f4"
+            "cd256ec259a611f4",
+            "ad3397e5599bee3e"
         ],
         "x": 14,
-        "y": 279,
+        "y": 259,
         "w": 1698,
-        "h": 668
+        "h": 968
     },
     {
         "id": "aa38407fb6bc0dac",
@@ -4697,7 +4706,7 @@
             "bf5ba3943578c959"
         ],
         "x": 14,
-        "y": 1559,
+        "y": 1819,
         "w": 1052,
         "h": 182
     },
@@ -4722,7 +4731,7 @@
             "2784788ce65fb972"
         ],
         "x": 14,
-        "y": 1299,
+        "y": 1679,
         "w": 1132,
         "h": 122
     },
@@ -4749,7 +4758,7 @@
             "8974b3e5cc82c6b9"
         ],
         "x": 14,
-        "y": 1159,
+        "y": 1539,
         "w": 1112,
         "h": 122
     },
@@ -4778,7 +4787,7 @@
             "494e70afb45368b6"
         ],
         "x": 14,
-        "y": 959,
+        "y": 1339,
         "w": 1752,
         "h": 182
     },
@@ -4958,7 +4967,7 @@
             "5e6c2b35b3d20cc1"
         ],
         "x": 14,
-        "y": 1759,
+        "y": 2019,
         "w": 1472,
         "h": 282
     },
@@ -4990,7 +4999,7 @@
             "d42cee1b019d7e42"
         ],
         "x": 14,
-        "y": 2059,
+        "y": 2319,
         "w": 892,
         "h": 262
     },
@@ -5044,6 +5053,30 @@
         "y": 459,
         "w": 1162,
         "h": 242
+    },
+    {
+        "id": "ac009c7335724f80",
+        "type": "group",
+        "z": "94466ab2e543aa2f",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "557c778b948bbd93",
+            "b75a06591bd2314d",
+            "4d2461534c903c6d",
+            "4e6208bc552b966f"
+        ],
+        "x": 14,
+        "y": 1799,
+        "w": 692,
+        "h": 122
     },
     {
         "id": "efc093c90e8d9b40",
@@ -5294,7 +5327,7 @@
             "ba9284adcd1f5c35"
         ],
         "x": 34,
-        "y": 1599,
+        "y": 1799,
         "w": 1212,
         "h": 182
     },
@@ -5629,7 +5662,7 @@
             "fd1316bc77e6a6dd"
         ],
         "x": 34,
-        "y": 1799,
+        "y": 1999,
         "w": 532,
         "h": 162
     },
@@ -6145,7 +6178,7 @@
             "b30e73c80fcab9d3"
         ],
         "x": 34,
-        "y": 1979,
+        "y": 2179,
         "w": 972,
         "h": 282
     },
@@ -6671,7 +6704,7 @@
             "445f8a7aded61633"
         ],
         "x": 654,
-        "y": 319,
+        "y": 299,
         "w": 652,
         "h": 302
     },
@@ -6701,7 +6734,7 @@
             "431f4462805951b1"
         ],
         "x": 654,
-        "y": 639,
+        "y": 619,
         "w": 1032,
         "h": 282
     },
@@ -6728,9 +6761,10 @@
         "h": 82
     },
     {
-        "id": "ac009c7335724f80",
+        "id": "ad3397e5599bee3e",
         "type": "group",
-        "z": "94466ab2e543aa2f",
+        "z": "39f5e6336137f4b2",
+        "g": "25a4ffd157e9649f",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -6741,15 +6775,51 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "557c778b948bbd93",
-            "b75a06591bd2314d",
-            "4d2461534c903c6d",
-            "4e6208bc552b966f"
+            "f53220db1394a455",
+            "3ff3bd1459ec626d",
+            "c122a920365ae688",
+            "c6ad2ce4243557a2",
+            "5cd9727be6e06acc",
+            "179b24247d1ef908",
+            "47c6f512953fcbf3",
+            "69a9dca32ca286e4",
+            "54d60f5345257fa6"
+        ],
+        "x": 654,
+        "y": 919,
+        "w": 1032,
+        "h": 282
+    },
+    {
+        "id": "41b726a452fe52e0",
+        "type": "group",
+        "z": "a09ad053d19f1d06",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9282a63b18f58efa",
+            "261916a1cbdf8d15",
+            "8d4f2c3f16e48d4d",
+            "03126577235ff9ec",
+            "3bf1c214c78e12c7",
+            "9ed380e931f14097",
+            "695fa6b20e7ce080",
+            "da0ee7f62fa2a263",
+            "815200d8a01d695d",
+            "7353bc74e37538c7",
+            "ffe0e9d6e19fd580"
         ],
         "x": 14,
-        "y": 1799,
-        "w": 692,
-        "h": 122
+        "y": 1439,
+        "w": 1262,
+        "h": 182
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -7223,7 +7293,7 @@
         "z": "39f5e6336137f4b2",
         "g": "d3868dc5f4aa2d65",
         "x": 680,
-        "y": 400,
+        "y": 380,
         "wires": [
             [
                 "7bea96d351fd45a5",
@@ -7239,7 +7309,7 @@
         "z": "39f5e6336137f4b2",
         "g": "cd256ec259a611f4",
         "x": 680,
-        "y": 720,
+        "y": 700,
         "wires": [
             [
                 "fa9bc69bfdcf7c2c",
@@ -7255,7 +7325,7 @@
         "z": "39f5e6336137f4b2",
         "g": "59a9dccc6e2c8820",
         "x": 540,
-        "y": 1940,
+        "y": 2200,
         "wires": [
             [
                 "19b08832ac41fe31"
@@ -7268,7 +7338,7 @@
         "z": "39f5e6336137f4b2",
         "g": "59a9dccc6e2c8820",
         "x": 880,
-        "y": 1880,
+        "y": 2140,
         "wires": [
             [
                 "382a831c1568641b"
@@ -7299,6 +7369,34 @@
         "wires": [
             [
                 "e188c5d43cc22d55"
+            ]
+        ]
+    },
+    {
+        "id": "5cd9727be6e06acc",
+        "type": "junction",
+        "z": "39f5e6336137f4b2",
+        "g": "ad3397e5599bee3e",
+        "x": 680,
+        "y": 1000,
+        "wires": [
+            [
+                "179b24247d1ef908",
+                "47c6f512953fcbf3",
+                "69a9dca32ca286e4",
+                "54d60f5345257fa6"
+            ]
+        ]
+    },
+    {
+        "id": "e87ac46f907de5a9",
+        "type": "junction",
+        "z": "edbbe41e31b072c6",
+        "x": 840,
+        "y": 1060,
+        "wires": [
+            [
+                "2df9af4efbf40432"
             ]
         ]
     },
@@ -7801,6 +7899,39 @@
             {
                 "property": "name",
                 "value": "tv_screen"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": ""
+            },
+            {
+                "property": "device_class",
+                "value": ""
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "4598e6a79b6f81cd",
+        "type": "ha-entity-config",
+        "server": "4ba92433.2478cc",
+        "deviceConfig": "",
+        "name": "3d_printer",
+        "version": 6,
+        "entityType": "binary_sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "3d_printer"
             },
             {
                 "property": "icon",
@@ -13834,7 +13965,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 920,
-        "y": 2980,
+        "y": 3240,
         "wires": [
             []
         ]
@@ -13872,7 +14003,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 520,
-        "y": 2980,
+        "y": 3240,
         "wires": [
             [
                 "e8630ecd17b5f84e"
@@ -13887,7 +14018,7 @@
         "g": "1c08d4761f28031d",
         "name": "",
         "x": 170,
-        "y": 2980,
+        "y": 3240,
         "wires": [
             [
                 "e8f0a3086500e186"
@@ -13902,7 +14033,7 @@
         "name": "set input select entertainment to Uitschakelen when house gets onuccupied or sleepmode gets turned on",
         "info": "",
         "x": 390,
-        "y": 2920,
+        "y": 3180,
         "wires": []
     },
     {
@@ -13915,7 +14046,7 @@
             "e6b9ff42fde3ea4e"
         ],
         "x": 285,
-        "y": 3020,
+        "y": 3280,
         "wires": [
             [
                 "e8f0a3086500e186"
@@ -13955,7 +14086,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 420,
-        "y": 2440,
+        "y": 2700,
         "wires": [
             [
                 "485b2638b3e54f1b"
@@ -13990,7 +14121,7 @@
         "domain": "media_player",
         "service": "media_pause",
         "x": 670,
-        "y": 2440,
+        "y": 2700,
         "wires": [
             []
         ]
@@ -14005,7 +14136,7 @@
             "3bafb9626527259f"
         ],
         "x": 285,
-        "y": 2440,
+        "y": 2700,
         "wires": [
             [
                 "6a77eb9d04cca958"
@@ -14037,7 +14168,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 470,
-        "y": 2640,
+        "y": 2900,
         "wires": [
             [
                 "69b6c54a1cabe45b"
@@ -14071,7 +14202,7 @@
         "domain": "media_player",
         "service": "turn_on",
         "x": 470,
-        "y": 2580,
+        "y": 2840,
         "wires": [
             []
         ]
@@ -14103,7 +14234,7 @@
         "domain": "media_player",
         "service": "turn_off",
         "x": 670,
-        "y": 2640,
+        "y": 2900,
         "wires": [
             []
         ]
@@ -14146,7 +14277,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 250,
-        "y": 2580,
+        "y": 2840,
         "wires": [
             [
                 "38a89a2645866f0c"
@@ -14187,7 +14318,7 @@
             }
         ],
         "x": 90,
-        "y": 2580,
+        "y": 2840,
         "wires": [
             [
                 "fff03108c5f1ce08"
@@ -14202,7 +14333,7 @@
         "name": "tv_device button to toggle the tv on/off",
         "info": "",
         "x": 190,
-        "y": 2540,
+        "y": 2800,
         "wires": []
     },
     {
@@ -14213,7 +14344,7 @@
         "name": "pause the tv universal mediaplayer",
         "info": "",
         "x": 180,
-        "y": 2400,
+        "y": 2660,
         "wires": []
     },
     {
@@ -14237,7 +14368,7 @@
         "to": "",
         "reg": false,
         "x": 330,
-        "y": 2780,
+        "y": 3040,
         "wires": [
             [
                 "dec82ecde28afe10"
@@ -14265,7 +14396,7 @@
         "to": "",
         "reg": false,
         "x": 330,
-        "y": 2820,
+        "y": 3080,
         "wires": [
             [
                 "dec82ecde28afe10"
@@ -14324,7 +14455,7 @@
             }
         ],
         "x": 140,
-        "y": 2780,
+        "y": 3040,
         "wires": [
             [
                 "4a35bcbba9fd8659"
@@ -14348,7 +14479,7 @@
         "inputOverride": "allow",
         "outputProperties": [],
         "x": 480,
-        "y": 2780,
+        "y": 3040,
         "wires": [
             []
         ]
@@ -14361,7 +14492,7 @@
         "name": "tv_device binary sensor to save tv state",
         "info": "",
         "x": 190,
-        "y": 2740,
+        "y": 3000,
         "wires": []
     },
     {
@@ -14372,7 +14503,7 @@
         "name": "creates a sensor, if nvidia shield volume is 100% then the binary sensor is on",
         "info": "",
         "x": 310,
-        "y": 3120,
+        "y": 3380,
         "wires": []
     },
     {
@@ -14389,7 +14520,7 @@
         "inputOverride": "allow",
         "outputProperties": [],
         "x": 850,
-        "y": 3160,
+        "y": 3420,
         "wires": [
             []
         ]
@@ -14446,7 +14577,7 @@
             }
         ],
         "x": 180,
-        "y": 3160,
+        "y": 3420,
         "wires": [
             [
                 "3a5396be8f9c1286"
@@ -14477,7 +14608,7 @@
         "repair": false,
         "outputs": 2,
         "x": 400,
-        "y": 3160,
+        "y": 3420,
         "wires": [
             [
                 "84a90e2a73f04f0b"
@@ -14508,7 +14639,7 @@
         "to": "",
         "reg": false,
         "x": 600,
-        "y": 3160,
+        "y": 3420,
         "wires": [
             [
                 "7ca936eb66e9e2d5"
@@ -14536,7 +14667,7 @@
         "to": "",
         "reg": false,
         "x": 600,
-        "y": 3200,
+        "y": 3460,
         "wires": [
             [
                 "7ca936eb66e9e2d5"
@@ -14560,7 +14691,7 @@
             "substring": [],
             "regex": []
         },
-        "outputInitially": false,
+        "outputInitially": true,
         "stateType": "str",
         "ifState": "",
         "ifStateType": "str",
@@ -14595,7 +14726,7 @@
             }
         ],
         "x": 190,
-        "y": 380,
+        "y": 360,
         "wires": [
             [
                 "3a535b1014d0a45b"
@@ -14641,7 +14772,7 @@
         "repair": false,
         "outputs": 5,
         "x": 460,
-        "y": 380,
+        "y": 360,
         "wires": [
             [
                 "b564e25effcfc627"
@@ -14649,7 +14780,9 @@
             [
                 "61e6d10bbacb84be"
             ],
-            [],
+            [
+                "5cd9727be6e06acc"
+            ],
             [],
             []
         ]
@@ -14662,7 +14795,7 @@
         "name": "frontend entertainment activity input select",
         "info": "",
         "x": 200,
-        "y": 320,
+        "y": 300,
         "wires": []
     },
     {
@@ -14673,7 +14806,7 @@
         "name": "Uitschakelen",
         "info": "",
         "x": 830,
-        "y": 360,
+        "y": 340,
         "wires": []
     },
     {
@@ -14703,7 +14836,7 @@
         "domain": "media_player",
         "service": "turn_off",
         "x": 990,
-        "y": 460,
+        "y": 440,
         "wires": [
             []
         ]
@@ -14733,7 +14866,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 1220,
-        "y": 520,
+        "y": 500,
         "wires": [
             []
         ]
@@ -14765,7 +14898,7 @@
         "domain": "media_player",
         "service": "turn_off",
         "x": 1040,
-        "y": 400,
+        "y": 380,
         "wires": [
             []
         ]
@@ -14789,7 +14922,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 820,
-        "y": 520,
+        "y": 500,
         "wires": [
             [
                 "87169159e7ae701a"
@@ -14815,7 +14948,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 820,
-        "y": 460,
+        "y": 440,
         "wires": [
             [
                 "0d2317e40dbcbd17"
@@ -14860,7 +14993,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1020,
-        "y": 520,
+        "y": 500,
         "wires": [
             [
                 "edd4560b8748e246"
@@ -14895,7 +15028,7 @@
         "domain": "media_player",
         "service": "media_stop",
         "x": 880,
-        "y": 580,
+        "y": 560,
         "wires": [
             []
         ]
@@ -14925,7 +15058,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 840,
-        "y": 400,
+        "y": 380,
         "wires": [
             [
                 "7921cddd0f314705"
@@ -14960,7 +15093,7 @@
         "domain": "media_player",
         "service": "turn_on",
         "x": 1050,
-        "y": 720,
+        "y": 700,
         "wires": [
             []
         ]
@@ -14992,7 +15125,7 @@
         "domain": "media_player",
         "service": "select_source",
         "x": 1210,
-        "y": 780,
+        "y": 760,
         "wires": [
             [
                 "18e6577d292535de"
@@ -15007,7 +15140,7 @@
         "name": "TV",
         "info": "",
         "x": 810,
-        "y": 680,
+        "y": 660,
         "wires": []
     },
     {
@@ -15037,7 +15170,7 @@
         "domain": "media_player",
         "service": "media_play",
         "x": 1540,
-        "y": 780,
+        "y": 760,
         "wires": [
             []
         ]
@@ -15069,7 +15202,7 @@
         "domain": "media_player",
         "service": "media_stop",
         "x": 880,
-        "y": 780,
+        "y": 760,
         "wires": [
             [
                 "54b7f080b2edea10"
@@ -15114,7 +15247,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 850,
-        "y": 720,
+        "y": 700,
         "wires": [
             [
                 "f47b4545239299ad"
@@ -15133,7 +15266,7 @@
             "dec99c0ab95cf46a"
         ],
         "x": 775,
-        "y": 840,
+        "y": 820,
         "wires": []
     },
     {
@@ -15161,7 +15294,7 @@
         "domain": "wake_on_lan",
         "service": "send_magic_packet",
         "x": 850,
-        "y": 880,
+        "y": 860,
         "wires": [
             []
         ]
@@ -15218,7 +15351,7 @@
             }
         ],
         "x": 140,
-        "y": 1640,
+        "y": 1900,
         "wires": [
             [
                 "4f9dcb4526aa6e68"
@@ -15250,7 +15383,7 @@
         "repair": false,
         "outputs": 2,
         "x": 330,
-        "y": 1640,
+        "y": 1900,
         "wires": [
             [
                 "a7ae16757970717f"
@@ -15298,7 +15431,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 540,
-        "y": 1620,
+        "y": 1880,
         "wires": [
             [
                 "fdca445a404c15cc"
@@ -15344,7 +15477,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 540,
-        "y": 1680,
+        "y": 1940,
         "wires": [
             [
                 "fdca445a404c15cc"
@@ -15390,7 +15523,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 780,
-        "y": 1640,
+        "y": 1900,
         "wires": [
             [
                 "f06607d23ea600e0",
@@ -15426,7 +15559,7 @@
         "domain": "media_player",
         "service": "media_pause",
         "x": 980,
-        "y": 1640,
+        "y": 1900,
         "wires": [
             []
         ]
@@ -15442,7 +15575,7 @@
             "72b9b335e9a56383"
         ],
         "x": 935,
-        "y": 1700,
+        "y": 1960,
         "wires": []
     },
     {
@@ -15453,7 +15586,7 @@
         "name": "pause when phone is off hook",
         "info": "",
         "x": 160,
-        "y": 1600,
+        "y": 1860,
         "wires": []
     },
     {
@@ -15508,7 +15641,7 @@
             }
         ],
         "x": 150,
-        "y": 1380,
+        "y": 1760,
         "wires": [
             [
                 "2c145c15609bd2fb"
@@ -15535,7 +15668,7 @@
         "repair": false,
         "outputs": 1,
         "x": 380,
-        "y": 1380,
+        "y": 1760,
         "wires": [
             [
                 "68088e8c9c8a0e54"
@@ -15580,7 +15713,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 670,
-        "y": 1380,
+        "y": 1760,
         "wires": [
             [
                 "207e1edd1118b4af"
@@ -15615,7 +15748,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 990,
-        "y": 1380,
+        "y": 1760,
         "wires": [
             []
         ]
@@ -15628,7 +15761,7 @@
         "name": "input select tv",
         "info": "",
         "x": 110,
-        "y": 1340,
+        "y": 1720,
         "wires": []
     },
     {
@@ -15683,7 +15816,7 @@
             }
         ],
         "x": 160,
-        "y": 1240,
+        "y": 1620,
         "wires": [
             [
                 "d2469e552aa559a3"
@@ -15710,7 +15843,7 @@
         "repair": false,
         "outputs": 1,
         "x": 350,
-        "y": 1240,
+        "y": 1620,
         "wires": [
             [
                 "0a97895675822841"
@@ -15731,7 +15864,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 470,
-        "y": 1240,
+        "y": 1620,
         "wires": [
             [
                 "37a61d11bf9ce0ab"
@@ -15757,7 +15890,7 @@
         "repair": false,
         "outputs": 1,
         "x": 610,
-        "y": 1240,
+        "y": 1620,
         "wires": [
             [
                 "cbfb0a5eb7b1a139"
@@ -15783,7 +15916,7 @@
         "repair": false,
         "outputs": 1,
         "x": 750,
-        "y": 1240,
+        "y": 1620,
         "wires": [
             [
                 "44ccff64331a48d4"
@@ -15817,7 +15950,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 960,
-        "y": 1240,
+        "y": 1620,
         "wires": [
             []
         ]
@@ -15830,7 +15963,7 @@
         "name": "select entertainment activity based on powernode content",
         "info": "",
         "x": 250,
-        "y": 1200,
+        "y": 1580,
         "wires": []
     },
     {
@@ -15886,7 +16019,7 @@
             }
         ],
         "x": 160,
-        "y": 1040,
+        "y": 1420,
         "wires": [
             [
                 "e40f3ebc2b772714"
@@ -15931,7 +16064,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 480,
-        "y": 1040,
+        "y": 1420,
         "wires": [
             [
                 "0e05b01a3088ebe6"
@@ -15959,7 +16092,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 830,
-        "y": 1040,
+        "y": 1420,
         "wires": [
             [
                 "210f99cc3d429b16"
@@ -15991,7 +16124,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1050,
-        "y": 1040,
+        "y": 1420,
         "wires": [
             [
                 "6739b21acd1ca7bf"
@@ -16039,7 +16172,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1280,
-        "y": 1040,
+        "y": 1420,
         "wires": [
             [
                 "e6b09e369fa79397"
@@ -16085,7 +16218,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1280,
-        "y": 1100,
+        "y": 1480,
         "wires": [
             [
                 "bf21fecdc989374a"
@@ -16120,7 +16253,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 1600,
-        "y": 1040,
+        "y": 1420,
         "wires": [
             []
         ]
@@ -16152,7 +16285,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 1600,
-        "y": 1100,
+        "y": 1480,
         "wires": [
             []
         ]
@@ -16165,7 +16298,7 @@
         "name": "select entertainment activity based on media player content",
         "info": "",
         "x": 250,
-        "y": 1000,
+        "y": 1380,
         "wires": []
     },
     {
@@ -16289,7 +16422,7 @@
             }
         ],
         "x": 150,
-        "y": 1860,
+        "y": 2120,
         "wires": [
             [
                 "5e6c2b35b3d20cc1"
@@ -16320,7 +16453,7 @@
         "repair": false,
         "outputs": 2,
         "x": 450,
-        "y": 1860,
+        "y": 2120,
         "wires": [
             [
                 "d9540c933a60aec7",
@@ -16352,7 +16485,7 @@
         "to": "",
         "reg": false,
         "x": 620,
-        "y": 1880,
+        "y": 2140,
         "wires": [
             [
                 "4539dbe872caf169",
@@ -16371,7 +16504,7 @@
             "dec99c0ab95cf46a"
         ],
         "x": 555,
-        "y": 1840,
+        "y": 2100,
         "wires": []
     },
     {
@@ -16393,7 +16526,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 800,
-        "y": 1940,
+        "y": 2200,
         "wires": [
             [
                 "382a831c1568641b",
@@ -16420,7 +16553,7 @@
         "repair": false,
         "outputs": 1,
         "x": 450,
-        "y": 1980,
+        "y": 2240,
         "wires": [
             [
                 "f8003d1746659317"
@@ -16446,7 +16579,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1000,
-        "y": 1940,
+        "y": 2200,
         "wires": [
             [
                 "058b6bfd406a2ad0"
@@ -16478,7 +16611,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 960,
-        "y": 2000,
+        "y": 2260,
         "wires": [
             [
                 "18cdd9064f4a7ab9"
@@ -16505,7 +16638,7 @@
         "repair": false,
         "outputs": 1,
         "x": 330,
-        "y": 1980,
+        "y": 2240,
         "wires": [
             [
                 "a325b77f020cd697"
@@ -16523,7 +16656,7 @@
             "1e4e8287439e54f1"
         ],
         "x": 1095,
-        "y": 1940,
+        "y": 2200,
         "wires": []
     },
     {
@@ -16558,7 +16691,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 1120,
-        "y": 2000,
+        "y": 2260,
         "wires": [
             [
                 "54e3e2b794b71880"
@@ -16617,7 +16750,7 @@
             }
         ],
         "x": 150,
-        "y": 1980,
+        "y": 2240,
         "wires": [
             [
                 "b822a9f31018d2a0"
@@ -16643,7 +16776,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1270,
-        "y": 2000,
+        "y": 2260,
         "wires": [
             [
                 "a9227561e7f66936"
@@ -16682,7 +16815,7 @@
         "domain": "notify",
         "service": "lg_webos_smart_tv",
         "x": 1400,
-        "y": 2000,
+        "y": 2260,
         "wires": [
             []
         ]
@@ -16695,7 +16828,7 @@
         "name": "turn off tvscreen when nothing is playing and turn back on when mediaplayer start playing",
         "info": "",
         "x": 350,
-        "y": 1800,
+        "y": 2060,
         "wires": []
     },
     {
@@ -16706,7 +16839,7 @@
         "name": "turn off tv screen to save energy and to prevent pixel burn in",
         "info": "",
         "x": 260,
-        "y": 2100,
+        "y": 2360,
         "wires": []
     },
     {
@@ -16734,7 +16867,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 800,
-        "y": 2160,
+        "y": 2420,
         "wires": [
             []
         ]
@@ -16771,7 +16904,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 500,
-        "y": 2160,
+        "y": 2420,
         "wires": [
             [
                 "3905cfef0361c276"
@@ -16797,7 +16930,7 @@
         "repair": false,
         "outputs": 1,
         "x": 650,
-        "y": 2160,
+        "y": 2420,
         "wires": [
             [
                 "75b84d8bf5e2faeb"
@@ -16812,10 +16945,11 @@
         "name": "on",
         "links": [
             "9bfa5f87424a529d",
-            "cc95177ff7dd19c7"
+            "cc95177ff7dd19c7",
+            "69a9dca32ca286e4"
         ],
         "x": 225,
-        "y": 2160,
+        "y": 2420,
         "wires": [
             [
                 "c63b94a1bcddb5f9"
@@ -16832,7 +16966,7 @@
             "058b6bfd406a2ad0"
         ],
         "x": 225,
-        "y": 2220,
+        "y": 2480,
         "wires": [
             [
                 "462935c54d978b2f"
@@ -16871,7 +17005,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 500,
-        "y": 2220,
+        "y": 2480,
         "wires": [
             [
                 "9dd84bc036be6c85"
@@ -16897,7 +17031,7 @@
         "repair": false,
         "outputs": 1,
         "x": 650,
-        "y": 2220,
+        "y": 2480,
         "wires": [
             [
                 "c054e6f474b4191e"
@@ -16929,7 +17063,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 800,
-        "y": 2220,
+        "y": 2480,
         "wires": [
             []
         ]
@@ -16972,7 +17106,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 340,
-        "y": 2160,
+        "y": 2420,
         "wires": [
             [
                 "7ee0608b0362347d"
@@ -17018,7 +17152,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 340,
-        "y": 2220,
+        "y": 2480,
         "wires": [
             [
                 "daac1efc716c9aa2"
@@ -17057,7 +17191,7 @@
             }
         ],
         "x": 140,
-        "y": 2280,
+        "y": 2540,
         "wires": [
             [
                 "c63b94a1bcddb5f9",
@@ -17079,11 +17213,244 @@
         "property": "payload",
         "topi": "topic",
         "x": 330,
-        "y": 1860,
+        "y": 2120,
         "wires": [
             [
                 "b17acb7df0bb2bd2"
             ]
+        ]
+    },
+    {
+        "id": "f53220db1394a455",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "g": "ad3397e5599bee3e",
+        "name": "turn on universal tv",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.turn_on",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "media_player.universal_tv"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "media_player",
+        "service": "turn_on",
+        "x": 1050,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3ff3bd1459ec626d",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "g": "ad3397e5599bee3e",
+        "name": "select source optical input on bluesound powernode",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.select_source",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "media_player.powernode_2i_ea48"
+        ],
+        "labelId": [],
+        "data": "{\"source\":\"Optical\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "media_player",
+        "service": "select_source",
+        "x": 1210,
+        "y": 1060,
+        "wires": [
+            [
+                "c6ad2ce4243557a2"
+            ]
+        ]
+    },
+    {
+        "id": "c122a920365ae688",
+        "type": "comment",
+        "z": "39f5e6336137f4b2",
+        "g": "ad3397e5599bee3e",
+        "name": "Films & Series",
+        "info": "",
+        "x": 830,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "c6ad2ce4243557a2",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "g": "ad3397e5599bee3e",
+        "name": "play optical input powernode",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.media_play",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "media_player.powernode_2i_ea48"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "media_player",
+        "service": "media_play",
+        "x": 1540,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "179b24247d1ef908",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "g": "ad3397e5599bee3e",
+        "name": "stop mediaplayer powernode",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.media_stop",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "media_player.powernode_2i_ea48"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "media_player",
+        "service": "media_stop",
+        "x": 880,
+        "y": 1060,
+        "wires": [
+            [
+                "3ff3bd1459ec626d"
+            ]
+        ]
+    },
+    {
+        "id": "47c6f512953fcbf3",
+        "type": "api-current-state",
+        "z": "39f5e6336137f4b2",
+        "g": "ad3397e5599bee3e",
+        "name": "universal tv is off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "media_player.universal_tv",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 850,
+        "y": 1000,
+        "wires": [
+            [
+                "f53220db1394a455"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "69a9dca32ca286e4",
+        "type": "link out",
+        "z": "39f5e6336137f4b2",
+        "g": "ad3397e5599bee3e",
+        "name": "link_out_tv_turn_on",
+        "mode": "link",
+        "links": [
+            "dec99c0ab95cf46a"
+        ],
+        "x": 775,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "54d60f5345257fa6",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "g": "ad3397e5599bee3e",
+        "name": "turn on lg tv device",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "wake_on_lan.send_magic_packet",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"mac\":\"38:8c:50:62:11:4d\",\"broadcast_address\":\"10.0.30.80\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "wake_on_lan",
+        "service": "send_magic_packet",
+        "x": 850,
+        "y": 1160,
+        "wires": [
+            []
         ]
     },
     {
@@ -21899,8 +22266,7 @@
             "a66118ea5be1ff8c",
             "b978613dcfb6a202",
             "bd841cbf320510d2",
-            "a9fd9464ad7de890",
-            "0020f7218cace3a6"
+            "a9fd9464ad7de890"
         ],
         "x": 235,
         "y": 500,
@@ -22796,8 +23162,7 @@
             "bd841cbf320510d2",
             "a66118ea5be1ff8c",
             "684440651deb45dc",
-            "61c36fb38acb7466",
-            "0020f7218cace3a6"
+            "61c36fb38acb7466"
         ],
         "x": 535,
         "y": 820,
@@ -26673,8 +27038,7 @@
         "links": [
             "29ef6b63d1ee8e04",
             "bd841cbf320510d2",
-            "06494fdc0a5d9892",
-            "0020f7218cace3a6"
+            "06494fdc0a5d9892"
         ],
         "x": 275,
         "y": 480,
@@ -26957,8 +27321,7 @@
             "b978613dcfb6a202",
             "bd841cbf320510d2",
             "c8074b72183bfa57",
-            "57a53c1fc2d883fc",
-            "0020f7218cace3a6"
+            "57a53c1fc2d883fc"
         ],
         "x": 235,
         "y": 620,
@@ -27480,8 +27843,7 @@
             "24ac19024410b5e3",
             "61c36fb38acb7466",
             "684440651deb45dc",
-            "bd841cbf320510d2",
-            "0020f7218cace3a6"
+            "bd841cbf320510d2"
         ],
         "x": 535,
         "y": 760,
@@ -31030,7 +31392,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 1100,
-        "y": 1680,
+        "y": 1880,
         "wires": [
             []
         ]
@@ -31062,7 +31424,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 1100,
-        "y": 1740,
+        "y": 1940,
         "wires": [
             []
         ]
@@ -31105,7 +31467,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 590,
-        "y": 1680,
+        "y": 1880,
         "wires": [
             [
                 "db49a00d5adc0cb7"
@@ -31151,7 +31513,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 590,
-        "y": 1740,
+        "y": 1940,
         "wires": [
             [
                 "a5689ff4c9a82d8e"
@@ -31199,7 +31561,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 850,
-        "y": 1740,
+        "y": 1940,
         "wires": [
             [
                 "0b64f5a2e27c31f0"
@@ -31240,7 +31602,7 @@
         "ignoreCurrentStateUnavailable": true,
         "outputProperties": [],
         "x": 160,
-        "y": 1680,
+        "y": 1880,
         "wires": [
             [
                 "19e3c39a7481e04b"
@@ -31261,7 +31623,7 @@
         "payloadval": "0",
         "name": "",
         "x": 370,
-        "y": 1740,
+        "y": 1940,
         "wires": [
             [
                 "b13ee71e7f09ace4"
@@ -31368,7 +31730,7 @@
         "name": "turn on soutterain stairs light when door opens",
         "info": "",
         "x": 230,
-        "y": 1640,
+        "y": 1840,
         "wires": []
     },
     {
@@ -31605,7 +31967,7 @@
         "name": "turn off lights when sleepmode turns on or the house is unoccupied",
         "info": "",
         "x": 300,
-        "y": 1840,
+        "y": 2040,
         "wires": []
     },
     {
@@ -31615,7 +31977,7 @@
         "g": "154e9175574484d1",
         "name": "",
         "x": 190,
-        "y": 1880,
+        "y": 2080,
         "wires": [
             [
                 "7b714d579d4f8f68"
@@ -31649,7 +32011,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 410,
-        "y": 1880,
+        "y": 2080,
         "wires": [
             []
         ]
@@ -31664,7 +32026,7 @@
             "e6b9ff42fde3ea4e"
         ],
         "x": 305,
-        "y": 1920,
+        "y": 2120,
         "wires": [
             [
                 "7b714d579d4f8f68"
@@ -32122,7 +32484,7 @@
         "outputLocation": "light_state",
         "outputResultsCount": 1,
         "x": 410,
-        "y": 2060,
+        "y": 2260,
         "wires": [
             [
                 "2e1f9bb99caa0a69"
@@ -32150,7 +32512,7 @@
         "to": "",
         "reg": false,
         "x": 590,
-        "y": 2060,
+        "y": 2260,
         "wires": [
             [
                 "892cb88898854d3a"
@@ -32171,7 +32533,7 @@
         "addname": "",
         "property": "light_state",
         "x": 750,
-        "y": 2060,
+        "y": 2260,
         "wires": [
             [
                 "896d27328839bee7"
@@ -32205,7 +32567,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 910,
-        "y": 2060,
+        "y": 2260,
         "wires": [
             []
         ]
@@ -32237,7 +32599,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 910,
-        "y": 2220,
+        "y": 2420,
         "wires": [
             []
         ]
@@ -32263,7 +32625,7 @@
         "to": "",
         "reg": false,
         "x": 440,
-        "y": 2160,
+        "y": 2360,
         "wires": [
             [
                 "a8317c0efd0cf117"
@@ -32284,7 +32646,7 @@
         "addname": "",
         "property": "light_state",
         "x": 610,
-        "y": 2160,
+        "y": 2360,
         "wires": [
             [
                 "89c264aac7600432"
@@ -32315,7 +32677,7 @@
         "repair": false,
         "outputs": 2,
         "x": 750,
-        "y": 2160,
+        "y": 2360,
         "wires": [
             [
                 "fef8a20f3e3f6a9c"
@@ -32352,7 +32714,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 910,
-        "y": 2160,
+        "y": 2360,
         "wires": [
             []
         ]
@@ -32367,7 +32729,7 @@
             "5874beb71c3c9523"
         ],
         "x": 305,
-        "y": 2060,
+        "y": 2260,
         "wires": [
             [
                 "8275c1b6dda4aadb"
@@ -32385,7 +32747,7 @@
             "5a1c4daf23c47d8e"
         ],
         "x": 305,
-        "y": 2160,
+        "y": 2360,
         "wires": [
             [
                 "720d3acfb843dbbd"
@@ -32400,7 +32762,7 @@
         "name": "store current light state in context then turn on all lights in alarm state",
         "info": "",
         "x": 300,
-        "y": 2020,
+        "y": 2220,
         "wires": []
     },
     {
@@ -32411,7 +32773,7 @@
         "name": "restore light state based on values in the context store",
         "info": "",
         "x": 260,
-        "y": 2120,
+        "y": 2320,
         "wires": []
     },
     {
@@ -32633,7 +32995,7 @@
         "name": "state washing machine watt",
         "server": "4ba92433.2478cc",
         "version": 5,
-        "inputs": 1,
+        "inputs": 0,
         "outputs": 2,
         "exposeAsEntityConfig": "",
         "entities": {
@@ -32648,7 +33010,7 @@
         "customOutputs": [],
         "outputInitially": false,
         "stateType": "num",
-        "enableInput": true,
+        "enableInput": false,
         "exposeToHomeAssistant": false,
         "haConfig": [
             {
@@ -32992,7 +33354,7 @@
         "name": "state tumble dryer watt",
         "server": "4ba92433.2478cc",
         "version": 5,
-        "inputs": 1,
+        "inputs": 0,
         "outputs": 2,
         "exposeAsEntityConfig": "",
         "entities": {
@@ -33007,7 +33369,7 @@
         "customOutputs": [],
         "outputInitially": false,
         "stateType": "num",
-        "enableInput": true,
+        "enableInput": false,
         "exposeToHomeAssistant": false,
         "haConfig": [
             {
@@ -33120,7 +33482,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 290,
-        "y": 1520,
+        "y": 1720,
         "wires": [
             [
                 "56c65d08e5de1e87"
@@ -33166,7 +33528,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 710,
-        "y": 1520,
+        "y": 1720,
         "wires": [
             [
                 "e66b4a5f22a86a92"
@@ -33212,7 +33574,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 920,
-        "y": 1520,
+        "y": 1720,
         "wires": [
             [
                 "3bfcbb604faf22f2"
@@ -33258,7 +33620,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1130,
-        "y": 1520,
+        "y": 1720,
         "wires": [
             [
                 "d2e4e2820280beb3"
@@ -33318,7 +33680,7 @@
             }
         ],
         "x": 110,
-        "y": 1520,
+        "y": 1720,
         "wires": [
             [
                 "e406b6dbb483e2b5"
@@ -33334,7 +33696,7 @@
         "name": "send notification when water flow is detected but no machine the could use water is running",
         "info": "",
         "x": 350,
-        "y": 1480,
+        "y": 1680,
         "wires": []
     },
     {
@@ -33348,7 +33710,7 @@
             "bc908d1405bda7ea"
         ],
         "x": 1255,
-        "y": 1520,
+        "y": 1720,
         "wires": []
     },
     {
@@ -33358,12 +33720,319 @@
         "g": "797bec77d0256f03",
         "name": "",
         "x": 500,
-        "y": 1520,
+        "y": 1720,
         "wires": [
             [
                 "d14719d850055b7f"
             ]
         ]
+    },
+    {
+        "id": "9282a63b18f58efa",
+        "type": "comment",
+        "z": "a09ad053d19f1d06",
+        "g": "41b726a452fe52e0",
+        "name": "set 3d printer binary sensor on or off based on power measurements",
+        "info": "Set thumble dryer binary sensor on or off based on power measurements`",
+        "x": 280,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "261916a1cbdf8d15",
+        "type": "trigger-state",
+        "z": "a09ad053d19f1d06",
+        "g": "41b726a452fe52e0",
+        "name": "state tumble dryer watt",
+        "server": "4ba92433.2478cc",
+        "version": 5,
+        "inputs": 0,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "sensor.3d_printer_3d_printer_power"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "debugEnabled": false,
+        "constraints": [],
+        "customOutputs": [],
+        "outputInitially": false,
+        "stateType": "num",
+        "enableInput": false,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "x": 140,
+        "y": 1520,
+        "wires": [
+            [
+                "8d4f2c3f16e48d4d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "8d4f2c3f16e48d4d",
+        "type": "stoptimer",
+        "z": "a09ad053d19f1d06",
+        "g": "41b726a452fe52e0",
+        "duration": "15",
+        "units": "Second",
+        "payloadtype": "num",
+        "payloadval": "0",
+        "name": "",
+        "x": 350,
+        "y": 1520,
+        "wires": [
+            [
+                "03126577235ff9ec"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "03126577235ff9ec",
+        "type": "switch",
+        "z": "a09ad053d19f1d06",
+        "g": "41b726a452fe52e0",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "150",
+                "vt": "num"
+            },
+            {
+                "t": "lte",
+                "v": "10",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 510,
+        "y": 1520,
+        "wires": [
+            [
+                "3bf1c214c78e12c7"
+            ],
+            [
+                "9ed380e931f14097"
+            ]
+        ]
+    },
+    {
+        "id": "3bf1c214c78e12c7",
+        "type": "api-current-state",
+        "z": "a09ad053d19f1d06",
+        "g": "41b726a452fe52e0",
+        "name": "state is not on",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "on",
+        "halt_if_type": "str",
+        "halt_if_compare": "is_not",
+        "entity_id": "binary_sensor.tumble_dryer",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "x": 660,
+        "y": 1520,
+        "wires": [
+            [
+                "da0ee7f62fa2a263"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9ed380e931f14097",
+        "type": "api-current-state",
+        "z": "a09ad053d19f1d06",
+        "g": "41b726a452fe52e0",
+        "name": "state is not off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is_not",
+        "entity_id": "binary_sensor.tumble_dryer",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": 0,
+        "forType": "num",
+        "forUnits": "minutes",
+        "x": 660,
+        "y": 1580,
+        "wires": [
+            [
+                "815200d8a01d695d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "695fa6b20e7ce080",
+        "type": "ha-binary-sensor",
+        "z": "a09ad053d19f1d06",
+        "g": "41b726a452fe52e0",
+        "name": "3d_printer",
+        "entityConfig": "4598e6a79b6f81cd",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 1020,
+        "y": 1520,
+        "wires": [
+            [
+                "7353bc74e37538c7"
+            ]
+        ]
+    },
+    {
+        "id": "da0ee7f62fa2a263",
+        "type": "change",
+        "z": "a09ad053d19f1d06",
+        "g": "41b726a452fe52e0",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "on",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 1520,
+        "wires": [
+            [
+                "695fa6b20e7ce080"
+            ]
+        ]
+    },
+    {
+        "id": "815200d8a01d695d",
+        "type": "change",
+        "z": "a09ad053d19f1d06",
+        "g": "41b726a452fe52e0",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "off",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 1580,
+        "wires": [
+            [
+                "695fa6b20e7ce080"
+            ]
+        ]
+    },
+    {
+        "id": "7353bc74e37538c7",
+        "type": "switch",
+        "z": "a09ad053d19f1d06",
+        "g": "41b726a452fe52e0",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "off",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1150,
+        "y": 1520,
+        "wires": [
+            [
+                "ffe0e9d6e19fd580"
+            ]
+        ]
+    },
+    {
+        "id": "ffe0e9d6e19fd580",
+        "type": "link out",
+        "z": "a09ad053d19f1d06",
+        "g": "41b726a452fe52e0",
+        "name": "3d printer is finished",
+        "mode": "link",
+        "links": [
+            "07c29e491412274b"
+        ],
+        "x": 1235,
+        "y": 1520,
+        "wires": []
     },
     {
         "id": "3101d0a1b950e78d",
@@ -42651,8 +43320,7 @@
         "mode": "link",
         "links": [
             "b978613dcfb6a202",
-            "bd841cbf320510d2",
-            "0020f7218cace3a6"
+            "bd841cbf320510d2"
         ],
         "x": 195,
         "y": 340,
@@ -45125,9 +45793,7 @@
             "fd1316bc77e6a6dd",
             "fef971c806c0156d",
             "df0d2da9dc486e6f",
-            "849379e6f7939a8c",
-            "6cba7dab8b7608c9",
-            "0020f7218cace3a6"
+            "849379e6f7939a8c"
         ],
         "x": 265,
         "y": 660,
@@ -48919,7 +49585,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1010,
+        "x": 950,
         "y": 280,
         "wires": [
             [
@@ -48938,7 +49604,7 @@
         "syntax": "mustache",
         "template": "Er is niemand thuis, wil je vakantiemodus aanzetten?",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 280,
         "wires": [
             [
@@ -49008,7 +49674,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 600,
+        "x": 420,
         "y": 280,
         "wires": [
             [
@@ -49154,7 +49820,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 1240,
+        "x": 1180,
         "y": 340,
         "wires": [
             [
@@ -49199,7 +49865,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 1230,
+        "x": 1170,
         "y": 400,
         "wires": [
             [
@@ -49220,7 +49886,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1000,
+        "x": 940,
         "y": 360,
         "wires": [
             [
@@ -49256,7 +49922,7 @@
         "syntax": "mustache",
         "template": "Wil je de Quooker uitschakelen om onnodig stroomverbruik te voorkomen? Deze wordt morgenochtend weer automatisch ingeschakeld.",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 360,
         "wires": [
             [
@@ -49304,7 +49970,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 770,
+        "x": 590,
         "y": 480,
         "wires": [
             [
@@ -49324,7 +49990,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1030,
+        "x": 970,
         "y": 480,
         "wires": [
             [
@@ -49344,7 +50010,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 770,
+        "x": 590,
         "y": 560,
         "wires": [
             [
@@ -49364,7 +50030,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1040,
+        "x": 980,
         "y": 560,
         "wires": [
             [
@@ -49422,7 +50088,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1020,
+        "x": 960,
         "y": 640,
         "wires": [
             [
@@ -49441,7 +50107,7 @@
         "syntax": "mustache",
         "template": "Beweging in de achtertuin gedetecteerd!\\nWoning beveiliging staat aan.",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 640,
         "wires": [
             [
@@ -49477,7 +50143,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1030,
+        "x": 970,
         "y": 720,
         "wires": [
             [
@@ -49524,7 +50190,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 780,
+        "x": 600,
         "y": 720,
         "wires": [
             [
@@ -49544,7 +50210,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1030,
+        "x": 970,
         "y": 800,
         "wires": [
             [
@@ -49563,7 +50229,7 @@
         "syntax": "mustache",
         "template": "De wasmachine is klaar.",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 800,
         "wires": [
             [
@@ -49608,7 +50274,7 @@
         "syntax": "mustache",
         "template": "De droger is klaar.",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 880,
         "wires": [
             [
@@ -49628,7 +50294,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1040,
+        "x": 980,
         "y": 880,
         "wires": [
             [
@@ -49673,23 +50339,13 @@
         "syntax": "mustache",
         "template": "Er is aangebeld",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 1060,
         "wires": [
             [
-                "2df9af4efbf40432"
+                "e87ac46f907de5a9"
             ]
         ]
-    },
-    {
-        "id": "408bf22eb7e73f44",
-        "type": "comment",
-        "z": "edbbe41e31b072c6",
-        "name": "notification when the doorbell button is pushed",
-        "info": "",
-        "x": 410,
-        "y": 1020,
-        "wires": []
     },
     {
         "id": "332b4739e9d3ed0c",
@@ -49718,11 +50374,11 @@
         "syntax": "mustache",
         "template": "Er is aangebeld en de voordeur is open gedaan.",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 1140,
         "wires": [
             [
-                "2df9af4efbf40432"
+                "51e52e021154b727"
             ]
         ]
     },
@@ -49753,11 +50409,11 @@
         "syntax": "mustache",
         "template": "Er is aangebeld maar de voordeur is niet open gedaan. ",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 1220,
         "wires": [
             [
-                "2df9af4efbf40432"
+                "51e52e021154b727"
             ]
         ]
     },
@@ -49804,7 +50460,7 @@
         "syntax": "mustache",
         "template": "Er is aangebeld",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 1300,
         "wires": [
             [
@@ -49824,7 +50480,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1040,
+        "x": 980,
         "y": 1300,
         "wires": [
             [
@@ -49841,7 +50497,7 @@
         "links": [
             "c4660dc11fb0e5b8"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 1300,
         "wires": []
     },
@@ -49856,7 +50512,7 @@
             "9286a72a2355f5ca",
             "a97f87cfab413716"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 720,
         "wires": []
     },
@@ -49869,7 +50525,7 @@
         "links": [
             "9286a72a2355f5ca"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 640,
         "wires": []
     },
@@ -49897,7 +50553,7 @@
             "c76d311bb4b6991b",
             "d1753081ba6b4004"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 280,
         "wires": []
     },
@@ -49910,7 +50566,7 @@
         "links": [
             "c76d311bb4b6991b"
         ],
-        "x": 1355,
+        "x": 1295,
         "y": 340,
         "wires": []
     },
@@ -49923,7 +50579,7 @@
         "links": [
             "d1753081ba6b4004"
         ],
-        "x": 1355,
+        "x": 1295,
         "y": 400,
         "wires": []
     },
@@ -49968,7 +50624,7 @@
         "syntax": "mustache",
         "template": "Het alarm gaat af! Woning beveiliging uitschakelen?",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 1380,
         "wires": [
             [
@@ -49988,7 +50644,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1020,
+        "x": 960,
         "y": 1420,
         "wires": [
             [
@@ -50006,7 +50662,7 @@
             "c76d311bb4b6991b",
             "d1753081ba6b4004"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 1420,
         "wires": []
     },
@@ -50047,7 +50703,7 @@
         "syntax": "mustache",
         "template": "De {{data.new_state.attributes.friendly_name}} is geopend met woning beveiliging aan. Wil je dit uitschakelen?",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 1460,
         "wires": [
             [
@@ -50093,7 +50749,7 @@
         "syntax": "mustache",
         "template": "De {{data.new_state.attributes.friendly_name}} is geopend met beveiliging aan, schakel beveiliging uit in Home Assistant.",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 1540,
         "wires": [
             [
@@ -50137,7 +50793,7 @@
         "links": [
             "c4660dc11fb0e5b8"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 1540,
         "wires": []
     },
@@ -50182,7 +50838,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1000,
+        "x": 940,
         "y": 1620,
         "wires": [
             [
@@ -50200,7 +50856,7 @@
             "9286a72a2355f5ca",
             "a97f87cfab413716"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 1620,
         "wires": []
     },
@@ -50216,7 +50872,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1000,
+        "x": 940,
         "y": 1700,
         "wires": [
             [
@@ -50234,7 +50890,7 @@
             "c76d311bb4b6991b",
             "d1753081ba6b4004"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 1700,
         "wires": []
     },
@@ -50249,7 +50905,7 @@
         "syntax": "mustache",
         "template": "De stofzuiger zal over 10 minuten starten. Wil je dit laten doorgaan?",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 1700,
         "wires": [
             [
@@ -50304,7 +50960,7 @@
         "syntax": "mustache",
         "template": "Stofzuiger {{data.attributes.friendly_name}} is gestart.",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 1780,
         "wires": [
             [
@@ -50324,7 +50980,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1070,
+        "x": 1010,
         "y": 1820,
         "wires": [
             [
@@ -50341,7 +50997,7 @@
         "links": [
             "a97f87cfab413716"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 1820,
         "wires": []
     },
@@ -50373,7 +51029,7 @@
         "syntax": "mustache",
         "template": "Stofzuiger {{data.attributes.friendly_name}} kon niet worden gestart.",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 1860,
         "wires": [
             [
@@ -50429,7 +51085,7 @@
         "syntax": "mustache",
         "template": "Over 10 minuten start de stofzuiger.",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 1940,
         "wires": [
             [
@@ -50446,7 +51102,7 @@
         "links": [
             "c4660dc11fb0e5b8"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 1940,
         "wires": []
     },
@@ -50488,7 +51144,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1050,
+        "x": 990,
         "y": 2120,
         "wires": [
             [
@@ -50506,7 +51162,7 @@
             "39fe1680119f6b36",
             "9286a72a2355f5ca"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 2120,
         "wires": []
     },
@@ -50547,7 +51203,7 @@
         "syntax": "mustache",
         "template": "Er is {{payload}}m³ gas gemeten en niemand is aanwezig, controleer of het gas of verwarming is uitgezet.",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 2200,
         "wires": [
             [
@@ -50567,7 +51223,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1020,
+        "x": 960,
         "y": 2200,
         "wires": [
             [
@@ -50585,7 +51241,7 @@
             "39fe1680119f6b36",
             "9286a72a2355f5ca"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 2200,
         "wires": []
     },
@@ -50626,7 +51282,7 @@
         "syntax": "mustache",
         "template": "Op {{{myymd}}} om {{{mytime}}} heeft het RIVM een stookalert afgegeven, het is raadzaam niet de houtkachel te gebruiken.",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 2280,
         "wires": [
             [
@@ -50646,7 +51302,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1080,
+        "x": 1020,
         "y": 2280,
         "wires": [
             [
@@ -50664,7 +51320,7 @@
             "9286a72a2355f5ca",
             "a97f87cfab413716"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 2280,
         "wires": []
     },
@@ -50695,7 +51351,7 @@
         "syntax": "mustache",
         "template": "De robotstofzuiger zit vast en heeft hulp nodig.",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 2020,
         "wires": [
             [
@@ -50741,7 +51397,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1050,
+        "x": 990,
         "y": 2020,
         "wires": [
             [
@@ -50759,7 +51415,7 @@
             "39fe1680119f6b36",
             "9286a72a2355f5ca"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 2020,
         "wires": []
     },
@@ -50775,7 +51431,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1050,
+        "x": 990,
         "y": 2360,
         "wires": [
             [
@@ -50794,7 +51450,7 @@
         "syntax": "mustache",
         "template": "Er is water verbruik gedetecteerd, niemand is aanwezig in huis en apparaten die water verbruiken staan uit!",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 2360,
         "wires": [
             [
@@ -50828,7 +51484,7 @@
             "39fe1680119f6b36",
             "9286a72a2355f5ca"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 2360,
         "wires": []
     },
@@ -50863,7 +51519,7 @@
         "syntax": "mustache",
         "template": "Het lijkt er op dat Beau gaat slapen, wil je het geluid van de deurbel uitschakelen?",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 2440,
         "wires": [
             [
@@ -50883,7 +51539,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1040,
+        "x": 800,
         "y": 2440,
         "wires": [
             [
@@ -50928,7 +51584,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 1240,
+        "x": 1000,
         "y": 2420,
         "wires": [
             [
@@ -50973,7 +51629,7 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 1230,
+        "x": 990,
         "y": 2480,
         "wires": [
             [
@@ -50991,7 +51647,7 @@
         "links": [
             "c76d311bb4b6991b"
         ],
-        "x": 1355,
+        "x": 1115,
         "y": 2420,
         "wires": []
     },
@@ -51004,7 +51660,7 @@
         "links": [
             "d1753081ba6b4004"
         ],
-        "x": 1355,
+        "x": 1115,
         "y": 2480,
         "wires": []
     },
@@ -51035,7 +51691,7 @@
         "syntax": "mustache",
         "template": "Het lijkt er op dat Beau wakker is, wil je het geluid van de deurbel weer aanzetten?",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 2540,
         "wires": [
             [
@@ -51065,7 +51721,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1040,
+        "x": 980,
         "y": 2540,
         "wires": [
             [
@@ -51099,7 +51755,7 @@
             "c76d311bb4b6991b",
             "d1753081ba6b4004"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 2540,
         "wires": []
     },
@@ -51108,14 +51764,14 @@
         "type": "function",
         "z": "edbbe41e31b072c6",
         "name": "doorbell / frontdoor",
-        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Deurbel\",\n    image: msg.snapshotUrl,\n    icon: \"\",\n    tag: msg.tag || \"doorbell\",\n    when: msg.payload.after.start_time,\n    notification_id: \"doorbell\",\n    clickAction: \"/dashboard-mobile/camera\",\n    channel: \"Doorbell\",\n    importance: \"high\"\n};\n\nreturn msg;\n",
+        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Deurbel\",\n    image: msg.snapshotUrl,\n    icon: \"\",\n    tag: msg.tag || \"doorbell\",\n    when: msg.payload.after.start_time,\n    notification_id: \"doorbell\",\n    clickAction: \"/dashboard-mobile/camera\",\n    channel: msg.channel || \"Doorbell\",\n    importance: \"high\"\n};\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1050,
+        "x": 990,
         "y": 1140,
         "wires": [
             [
@@ -51144,7 +51800,7 @@
         "syntax": "mustache",
         "template": "TV gepauseerd i.v.m. telefoongesprek.",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 2620,
         "wires": [
             [
@@ -51164,7 +51820,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1040,
+        "x": 980,
         "y": 2620,
         "wires": [
             [
@@ -51184,7 +51840,7 @@
             "c13b2b4d87067c17",
             "c4660dc11fb0e5b8"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 880,
         "wires": []
     },
@@ -51200,7 +51856,7 @@
             "a97f87cfab413716",
             "c13b2b4d87067c17"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 1140,
         "wires": []
     },
@@ -51216,7 +51872,7 @@
             "c13b2b4d87067c17",
             "c4660dc11fb0e5b8"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 800,
         "wires": []
     },
@@ -51233,7 +51889,7 @@
             "c13b2b4d87067c17",
             "c4660dc11fb0e5b8"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 560,
         "wires": []
     },
@@ -51250,7 +51906,7 @@
             "c13b2b4d87067c17",
             "c4660dc11fb0e5b8"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 480,
         "wires": []
     },
@@ -51263,7 +51919,7 @@
         "links": [
             "c13b2b4d87067c17"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 2620,
         "wires": []
     },
@@ -51294,7 +51950,7 @@
         "syntax": "mustache",
         "template": "Er is een nieuw zonne-energie dagrecord gemeten vandaag.\\n\\nOud: {{data.state}} {{data.attributes.unit_of_measurement}} op {{data.attributes.date}}\\nNieuw: {{payload.value}} {{data.attributes.unit_of_measurement}} op {{date}}",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 2700,
         "wires": [
             [
@@ -51340,7 +51996,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1040,
+        "x": 980,
         "y": 2700,
         "wires": [
             [
@@ -51358,7 +52014,7 @@
             "39fe1680119f6b36",
             "9286a72a2355f5ca"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 2700,
         "wires": []
     },
@@ -51369,71 +52025,7 @@
         "name": "notification with snapshot when the doorbell button is pushed",
         "info": "",
         "x": 460,
-        "y": 920,
-        "wires": []
-    },
-    {
-        "id": "f701c5df9212e0b7",
-        "type": "link in",
-        "z": "edbbe41e31b072c6",
-        "name": "notification with snapshot when the doorbell button is pushed",
-        "links": [],
-        "x": 265,
-        "y": 960,
-        "wires": [
-            [
-                "17835c5950eeaf65"
-            ]
-        ]
-    },
-    {
-        "id": "17835c5950eeaf65",
-        "type": "template",
-        "z": "edbbe41e31b072c6",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Er is aangebeld",
-        "output": "str",
-        "x": 780,
-        "y": 960,
-        "wires": [
-            [
-                "6949c4845dd006c8"
-            ]
-        ]
-    },
-    {
-        "id": "6949c4845dd006c8",
-        "type": "function",
-        "z": "edbbe41e31b072c6",
-        "name": "doorbell / frontdoor snapshot",
-        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Deurbel\",\n    icon: \"\",\n    tag: msg.tag || \"doorbell\",\n    notification_id: \"doorbell\",\n    channel: \"Doorbell\"\n};\n\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1020,
-        "y": 960,
-        "wires": [
-            [
-                "479065619476c62e"
-            ]
-        ]
-    },
-    {
-        "id": "479065619476c62e",
-        "type": "link out",
-        "z": "edbbe41e31b072c6",
-        "name": "notification with snapshot when the doorbell button is pushed",
-        "mode": "link",
-        "links": [],
-        "x": 1175,
-        "y": 960,
+        "y": 1020,
         "wires": []
     },
     {
@@ -51471,7 +52063,7 @@
         "links": [
             "9286a72a2355f5ca"
         ],
-        "x": 1175,
+        "x": 1115,
         "y": 2780,
         "wires": []
     },
@@ -51486,7 +52078,7 @@
         "syntax": "mustache",
         "template": "Een persoon is in de achtertuin gedetecteerd.",
         "output": "str",
-        "x": 780,
+        "x": 600,
         "y": 2780,
         "wires": [
             [
@@ -51506,13 +52098,111 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1040,
+        "x": 980,
         "y": 2780,
         "wires": [
             [
                 "7d0724b78f994049"
             ]
         ]
+    },
+    {
+        "id": "51e52e021154b727",
+        "type": "template",
+        "z": "edbbe41e31b072c6",
+        "name": "channel",
+        "field": "channel",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "",
+        "output": "str",
+        "x": 780,
+        "y": 1140,
+        "wires": [
+            [
+                "2df9af4efbf40432"
+            ]
+        ]
+    },
+    {
+        "id": "3266b82e5a160d4b",
+        "type": "template",
+        "z": "edbbe41e31b072c6",
+        "name": "message",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "De 3D printer is klaar.",
+        "output": "str",
+        "x": 600,
+        "y": 960,
+        "wires": [
+            [
+                "896eb56c89aafb6e"
+            ]
+        ]
+    },
+    {
+        "id": "896eb56c89aafb6e",
+        "type": "function",
+        "z": "edbbe41e31b072c6",
+        "name": "3d printer has finished",
+        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"3D printer\",\n    icon: \"\",\n    tag: msg.tag || \"3d_printer\",\n    notification_id: \"3d_printer\",\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 960,
+        "wires": [
+            [
+                "b517334088ea4c65"
+            ]
+        ]
+    },
+    {
+        "id": "07c29e491412274b",
+        "type": "link in",
+        "z": "edbbe41e31b072c6",
+        "name": "3d printer is finished",
+        "links": [
+            "ffe0e9d6e19fd580"
+        ],
+        "x": 265,
+        "y": 960,
+        "wires": [
+            [
+                "3266b82e5a160d4b"
+            ]
+        ]
+    },
+    {
+        "id": "92fa9e740c549cc3",
+        "type": "comment",
+        "z": "edbbe41e31b072c6",
+        "name": "notification when the 3d printer has finished",
+        "info": "",
+        "x": 400,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "b517334088ea4c65",
+        "type": "link out",
+        "z": "edbbe41e31b072c6",
+        "name": "tumble dryer finished",
+        "mode": "link",
+        "links": [
+            "9286a72a2355f5ca",
+            "c13b2b4d87067c17"
+        ],
+        "x": 1115,
+        "y": 960,
+        "wires": []
     },
     {
         "id": "3675d2d1160c6b61",
@@ -51761,7 +52451,8 @@
             "072ee114afd5a910",
             "ac1eddffbc27f46b",
             "66f884599eab8c68",
-            "7d0724b78f994049"
+            "7d0724b78f994049",
+            "b517334088ea4c65"
         ],
         "x": 295,
         "y": 320,
@@ -51838,7 +52529,8 @@
             "4b7eeb8450582627",
             "2447274b2f6d022c",
             "89e0405cd70f5206",
-            "1d24b076d3c0a747"
+            "1d24b076d3c0a747",
+            "b517334088ea4c65"
         ],
         "x": 295,
         "y": 440,
@@ -53400,7 +54092,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "https://epc-qr.eu/?bname=A%20Stam&iban=NL60SNSB0957731876&euro={{amountOfMoney}}&info={{countAnneke}}%20keer%20oppassen%20in%20{{month}}",
+        "template": "https://epc-qr.eu/?bname=A%20Boendermaker&iban=NL60SNSB0957731876&euro={{amountOfMoney}}&info={{countAnneke}}%20keer%20oppassen%20in%20{{month}}",
         "output": "str",
         "x": 270,
         "y": 560,
@@ -54365,6 +55057,85 @@
             ],
             [
                 "fc7305667fec61a3"
+            ]
+        ]
+    },
+    {
+        "id": "3e8526d0e076731c",
+        "type": "inject",
+        "z": "12f36c619f5ce9cc",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "start",
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "7490bdd5e327c650"
+            ]
+        ]
+    },
+    {
+        "id": "e1c9f031fd5a1d49",
+        "type": "debug",
+        "z": "12f36c619f5ce9cc",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "2e2db9cf0fc8a074",
+        "type": "mqtt out",
+        "z": "12f36c619f5ce9cc",
+        "name": "",
+        "topic": "test/electricity_currently_returned",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "36dee637778341ba",
+        "x": 540,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "7490bdd5e327c650",
+        "type": "function",
+        "z": "12f36c619f5ce9cc",
+        "name": "function 1",
+        "func": "let min = 0.350;\nlet max = 0.400;\n\nlet value = Math.random() * (max - min) + min;\n\n// Always show 3 decimals (e.g., \"0.500\", \"0.534\", \"0.550\")\nmsg.payload = value.toFixed(3);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 160,
+        "wires": [
+            [
+                "2e2db9cf0fc8a074"
             ]
         ]
     }
