@@ -16595,7 +16595,7 @@
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
-        "halt_if": "off",
+        "halt_if": "off|unavailable",
         "halt_if_type": "str",
         "halt_if_compare": "is_not",
         "entity_id": "media_player.lg_webos_smart_tv",
@@ -52820,35 +52820,6 @@
         "wires": [
             [
                 "d94b50aeaba952d1"
-            ]
-        ]
-    },
-    {
-        "id": "681e10b052591103",
-        "type": "inject",
-        "z": "3611a09f77ab1873",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 170,
-        "y": 500,
-        "wires": [
-            [
-                "7bb626db9932d5ed"
             ]
         ]
     },
