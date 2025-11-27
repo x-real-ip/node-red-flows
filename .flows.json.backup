@@ -2145,7 +2145,7 @@
             "7b7b7e395f402314"
         ],
         "x": 8,
-        "y": 1893,
+        "y": 1773,
         "w": 1264,
         "h": 714
     },
@@ -4602,7 +4602,7 @@
             "56c65d08e5de1e87"
         ],
         "x": 14,
-        "y": 1759,
+        "y": 1639,
         "w": 1282,
         "h": 122
     },
@@ -5079,6 +5079,37 @@
         "h": 122
     },
     {
+        "id": "41b726a452fe52e0",
+        "type": "group",
+        "z": "a09ad053d19f1d06",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9282a63b18f58efa",
+            "261916a1cbdf8d15",
+            "8d4f2c3f16e48d4d",
+            "03126577235ff9ec",
+            "3bf1c214c78e12c7",
+            "9ed380e931f14097",
+            "695fa6b20e7ce080",
+            "da0ee7f62fa2a263",
+            "815200d8a01d695d",
+            "7353bc74e37538c7",
+            "ffe0e9d6e19fd580"
+        ],
+        "x": 14,
+        "y": 1439,
+        "w": 1262,
+        "h": 182
+    },
+    {
         "id": "efc093c90e8d9b40",
         "type": "group",
         "z": "b789af61b07fd59c",
@@ -5327,7 +5358,7 @@
             "ba9284adcd1f5c35"
         ],
         "x": 34,
-        "y": 1919,
+        "y": 1799,
         "w": 1212,
         "h": 182
     },
@@ -5662,7 +5693,7 @@
             "fd1316bc77e6a6dd"
         ],
         "x": 34,
-        "y": 2119,
+        "y": 1999,
         "w": 532,
         "h": 162
     },
@@ -6178,7 +6209,7 @@
             "b30e73c80fcab9d3"
         ],
         "x": 34,
-        "y": 2299,
+        "y": 2179,
         "w": 972,
         "h": 282
     },
@@ -6789,37 +6820,6 @@
         "y": 919,
         "w": 1032,
         "h": 282
-    },
-    {
-        "id": "41b726a452fe52e0",
-        "type": "group",
-        "z": "a09ad053d19f1d06",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "9282a63b18f58efa",
-            "261916a1cbdf8d15",
-            "8d4f2c3f16e48d4d",
-            "03126577235ff9ec",
-            "3bf1c214c78e12c7",
-            "9ed380e931f14097",
-            "695fa6b20e7ce080",
-            "da0ee7f62fa2a263",
-            "815200d8a01d695d",
-            "7353bc74e37538c7",
-            "ffe0e9d6e19fd580"
-        ],
-        "x": 14,
-        "y": 1439,
-        "w": 1262,
-        "h": 182
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -31392,7 +31392,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 1100,
-        "y": 2000,
+        "y": 1880,
         "wires": [
             []
         ]
@@ -31424,7 +31424,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 1100,
-        "y": 2060,
+        "y": 1940,
         "wires": [
             []
         ]
@@ -31467,7 +31467,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 590,
-        "y": 2000,
+        "y": 1880,
         "wires": [
             [
                 "db49a00d5adc0cb7"
@@ -31513,7 +31513,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 590,
-        "y": 2060,
+        "y": 1940,
         "wires": [
             [
                 "a5689ff4c9a82d8e"
@@ -31561,7 +31561,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 850,
-        "y": 2060,
+        "y": 1940,
         "wires": [
             [
                 "0b64f5a2e27c31f0"
@@ -31602,7 +31602,7 @@
         "ignoreCurrentStateUnavailable": true,
         "outputProperties": [],
         "x": 160,
-        "y": 2000,
+        "y": 1880,
         "wires": [
             [
                 "19e3c39a7481e04b"
@@ -31623,7 +31623,7 @@
         "payloadval": "0",
         "name": "",
         "x": 370,
-        "y": 2060,
+        "y": 1940,
         "wires": [
             [
                 "b13ee71e7f09ace4"
@@ -31730,7 +31730,7 @@
         "name": "turn on soutterain stairs light when door opens",
         "info": "",
         "x": 230,
-        "y": 1960,
+        "y": 1840,
         "wires": []
     },
     {
@@ -31967,7 +31967,7 @@
         "name": "turn off lights when sleepmode turns on or the house is unoccupied",
         "info": "",
         "x": 300,
-        "y": 2160,
+        "y": 2040,
         "wires": []
     },
     {
@@ -31977,7 +31977,7 @@
         "g": "154e9175574484d1",
         "name": "",
         "x": 190,
-        "y": 2200,
+        "y": 2080,
         "wires": [
             [
                 "7b714d579d4f8f68"
@@ -32011,7 +32011,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 410,
-        "y": 2200,
+        "y": 2080,
         "wires": [
             []
         ]
@@ -32026,7 +32026,7 @@
             "e6b9ff42fde3ea4e"
         ],
         "x": 305,
-        "y": 2240,
+        "y": 2120,
         "wires": [
             [
                 "7b714d579d4f8f68"
@@ -32484,7 +32484,7 @@
         "outputLocation": "light_state",
         "outputResultsCount": 1,
         "x": 410,
-        "y": 2380,
+        "y": 2260,
         "wires": [
             [
                 "2e1f9bb99caa0a69"
@@ -32512,7 +32512,7 @@
         "to": "",
         "reg": false,
         "x": 590,
-        "y": 2380,
+        "y": 2260,
         "wires": [
             [
                 "892cb88898854d3a"
@@ -32533,7 +32533,7 @@
         "addname": "",
         "property": "light_state",
         "x": 750,
-        "y": 2380,
+        "y": 2260,
         "wires": [
             [
                 "896d27328839bee7"
@@ -32567,7 +32567,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 910,
-        "y": 2380,
+        "y": 2260,
         "wires": [
             []
         ]
@@ -32599,7 +32599,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 910,
-        "y": 2540,
+        "y": 2420,
         "wires": [
             []
         ]
@@ -32625,7 +32625,7 @@
         "to": "",
         "reg": false,
         "x": 440,
-        "y": 2480,
+        "y": 2360,
         "wires": [
             [
                 "a8317c0efd0cf117"
@@ -32646,7 +32646,7 @@
         "addname": "",
         "property": "light_state",
         "x": 610,
-        "y": 2480,
+        "y": 2360,
         "wires": [
             [
                 "89c264aac7600432"
@@ -32677,7 +32677,7 @@
         "repair": false,
         "outputs": 2,
         "x": 750,
-        "y": 2480,
+        "y": 2360,
         "wires": [
             [
                 "fef8a20f3e3f6a9c"
@@ -32714,7 +32714,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 910,
-        "y": 2480,
+        "y": 2360,
         "wires": [
             []
         ]
@@ -32729,7 +32729,7 @@
             "5874beb71c3c9523"
         ],
         "x": 305,
-        "y": 2380,
+        "y": 2260,
         "wires": [
             [
                 "8275c1b6dda4aadb"
@@ -32747,7 +32747,7 @@
             "5a1c4daf23c47d8e"
         ],
         "x": 305,
-        "y": 2480,
+        "y": 2360,
         "wires": [
             [
                 "720d3acfb843dbbd"
@@ -32762,7 +32762,7 @@
         "name": "store current light state in context then turn on all lights in alarm state",
         "info": "",
         "x": 300,
-        "y": 2340,
+        "y": 2220,
         "wires": []
     },
     {
@@ -32773,7 +32773,7 @@
         "name": "restore light state based on values in the context store",
         "info": "",
         "x": 260,
-        "y": 2440,
+        "y": 2320,
         "wires": []
     },
     {
@@ -33482,7 +33482,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 290,
-        "y": 1840,
+        "y": 1720,
         "wires": [
             [
                 "56c65d08e5de1e87"
@@ -33528,7 +33528,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 710,
-        "y": 1840,
+        "y": 1720,
         "wires": [
             [
                 "e66b4a5f22a86a92"
@@ -33574,7 +33574,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 920,
-        "y": 1840,
+        "y": 1720,
         "wires": [
             [
                 "3bfcbb604faf22f2"
@@ -33620,7 +33620,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1130,
-        "y": 1840,
+        "y": 1720,
         "wires": [
             [
                 "d2e4e2820280beb3"
@@ -33680,7 +33680,7 @@
             }
         ],
         "x": 110,
-        "y": 1840,
+        "y": 1720,
         "wires": [
             [
                 "e406b6dbb483e2b5"
@@ -33696,7 +33696,7 @@
         "name": "send notification when water flow is detected but no machine the could use water is running",
         "info": "",
         "x": 350,
-        "y": 1800,
+        "y": 1680,
         "wires": []
     },
     {
@@ -33710,7 +33710,7 @@
             "bc908d1405bda7ea"
         ],
         "x": 1255,
-        "y": 1840,
+        "y": 1720,
         "wires": []
     },
     {
@@ -33720,7 +33720,7 @@
         "g": "797bec77d0256f03",
         "name": "",
         "x": 500,
-        "y": 1840,
+        "y": 1720,
         "wires": [
             [
                 "d14719d850055b7f"
@@ -33787,7 +33787,7 @@
         "type": "stoptimer",
         "z": "a09ad053d19f1d06",
         "g": "41b726a452fe52e0",
-        "duration": "15",
+        "duration": "10",
         "units": "Second",
         "payloadtype": "num",
         "payloadval": "0",
@@ -33847,7 +33847,7 @@
         "halt_if": "on",
         "halt_if_type": "str",
         "halt_if_compare": "is_not",
-        "entity_id": "binary_sensor.tumble_dryer",
+        "entity_id": "binary_sensor.3d_printer",
         "state_type": "str",
         "blockInputOverrides": false,
         "outputProperties": [
@@ -33888,7 +33888,7 @@
         "halt_if": "off",
         "halt_if_type": "str",
         "halt_if_compare": "is_not",
-        "entity_id": "binary_sensor.tumble_dryer",
+        "entity_id": "binary_sensor.3d_printer",
         "state_type": "str",
         "blockInputOverrides": false,
         "outputProperties": [
@@ -52577,8 +52577,8 @@
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
-        "halt_if": "off",
-        "halt_if_type": "str",
+        "halt_if": "off|unavailable",
+        "halt_if_type": "re",
         "halt_if_compare": "is_not",
         "entity_id": "media_player.lg_webos_smart_tv",
         "state_type": "str",
@@ -52820,6 +52820,35 @@
         "wires": [
             [
                 "d94b50aeaba952d1"
+            ]
+        ]
+    },
+    {
+        "id": "681e10b052591103",
+        "type": "inject",
+        "z": "3611a09f77ab1873",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 500,
+        "wires": [
+            [
+                "7bb626db9932d5ed"
             ]
         ]
     },

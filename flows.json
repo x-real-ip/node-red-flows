@@ -5079,6 +5079,37 @@
         "h": 122
     },
     {
+        "id": "41b726a452fe52e0",
+        "type": "group",
+        "z": "a09ad053d19f1d06",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9282a63b18f58efa",
+            "261916a1cbdf8d15",
+            "8d4f2c3f16e48d4d",
+            "03126577235ff9ec",
+            "3bf1c214c78e12c7",
+            "9ed380e931f14097",
+            "695fa6b20e7ce080",
+            "da0ee7f62fa2a263",
+            "815200d8a01d695d",
+            "7353bc74e37538c7",
+            "ffe0e9d6e19fd580"
+        ],
+        "x": 14,
+        "y": 1439,
+        "w": 1262,
+        "h": 182
+    },
+    {
         "id": "efc093c90e8d9b40",
         "type": "group",
         "z": "b789af61b07fd59c",
@@ -6789,37 +6820,6 @@
         "y": 919,
         "w": 1032,
         "h": 282
-    },
-    {
-        "id": "41b726a452fe52e0",
-        "type": "group",
-        "z": "a09ad053d19f1d06",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "9282a63b18f58efa",
-            "261916a1cbdf8d15",
-            "8d4f2c3f16e48d4d",
-            "03126577235ff9ec",
-            "3bf1c214c78e12c7",
-            "9ed380e931f14097",
-            "695fa6b20e7ce080",
-            "da0ee7f62fa2a263",
-            "815200d8a01d695d",
-            "7353bc74e37538c7",
-            "ffe0e9d6e19fd580"
-        ],
-        "x": 14,
-        "y": 1439,
-        "w": 1262,
-        "h": 182
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -33787,7 +33787,7 @@
         "type": "stoptimer",
         "z": "a09ad053d19f1d06",
         "g": "41b726a452fe52e0",
-        "duration": "15",
+        "duration": "10",
         "units": "Second",
         "payloadtype": "num",
         "payloadval": "0",
@@ -33847,7 +33847,7 @@
         "halt_if": "on",
         "halt_if_type": "str",
         "halt_if_compare": "is_not",
-        "entity_id": "binary_sensor.tumble_dryer",
+        "entity_id": "binary_sensor.3d_printer",
         "state_type": "str",
         "blockInputOverrides": false,
         "outputProperties": [
@@ -33888,7 +33888,7 @@
         "halt_if": "off",
         "halt_if_type": "str",
         "halt_if_compare": "is_not",
-        "entity_id": "binary_sensor.tumble_dryer",
+        "entity_id": "binary_sensor.3d_printer",
         "state_type": "str",
         "blockInputOverrides": false,
         "outputProperties": [
@@ -52577,8 +52577,8 @@
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
-        "halt_if": "off",
-        "halt_if_type": "str",
+        "halt_if": "off|unavailable",
+        "halt_if_type": "re",
         "halt_if_compare": "is_not",
         "entity_id": "media_player.lg_webos_smart_tv",
         "state_type": "str",
