@@ -2229,12 +2229,13 @@
             "e8f0a3086500e186",
             "429ad6ab342d378c",
             "d9c15091d0933aa1",
-            "0419c1d8f3124b5e"
+            "0419c1d8f3124b5e",
+            "02be33cf0e1b2531"
         ],
         "x": 14,
         "y": 3039,
-        "w": 1112,
-        "h": 182
+        "w": 1132,
+        "h": 202
     },
     {
         "id": "d87b969d15636e26",
@@ -13956,7 +13957,7 @@
         "blockInputOverrides": false,
         "domain": "input_select",
         "service": "select_option",
-        "x": 920,
+        "x": 940,
         "y": 3140,
         "wires": [
             []
@@ -13994,7 +13995,7 @@
         "for": 0,
         "forType": "num",
         "forUnits": "minutes",
-        "x": 520,
+        "x": 540,
         "y": 3140,
         "wires": [
             [
@@ -14013,7 +14014,8 @@
         "y": 3140,
         "wires": [
             [
-                "e8f0a3086500e186"
+                "e8f0a3086500e186",
+                "02be33cf0e1b2531"
             ]
         ]
     },
@@ -14041,7 +14043,8 @@
         "y": 3180,
         "wires": [
             [
-                "e8f0a3086500e186"
+                "e8f0a3086500e186",
+                "02be33cf0e1b2531"
             ]
         ]
     },
@@ -17441,6 +17444,38 @@
         "service": "send_magic_packet",
         "x": 850,
         "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "02be33cf0e1b2531",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "g": "1c08d4761f28031d",
+        "name": "stop mediaplayer powernode",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.media_stop",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "media_player.powernode_2i_ea48"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "media_player",
+        "service": "media_stop",
+        "x": 460,
+        "y": 3200,
         "wires": [
             []
         ]
@@ -47109,8 +47144,9 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
+            "39fe1680119f6b36",
             "9286a72a2355f5ca",
-            "39fe1680119f6b36"
+            "a97f87cfab413716"
         ],
         "x": 665,
         "y": 240,
@@ -52672,7 +52708,8 @@
             "8eb43e206b6bfbfe",
             "d3903da3b2775ffd",
             "983f2e61079b877c",
-            "bfa8946e0b76ad2e"
+            "bfa8946e0b76ad2e",
+            "2e9e2b02c8f4b00b"
         ],
         "x": 295,
         "y": 500,

@@ -16591,7 +16591,7 @@
         "version": 3,
         "outputs": 2,
         "halt_if": "off|unavailable",
-        "halt_if_type": "str",
+        "halt_if_type": "re",
         "halt_if_compare": "is_not",
         "entity_id": "media_player.lg_webos_smart_tv",
         "state_type": "str",
@@ -47144,8 +47144,9 @@
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
+            "39fe1680119f6b36",
             "9286a72a2355f5ca",
-            "39fe1680119f6b36"
+            "a97f87cfab413716"
         ],
         "x": 665,
         "y": 240,
@@ -52707,7 +52708,8 @@
             "8eb43e206b6bfbfe",
             "d3903da3b2775ffd",
             "983f2e61079b877c",
-            "bfa8946e0b76ad2e"
+            "bfa8946e0b76ad2e",
+            "2e9e2b02c8f4b00b"
         ],
         "x": 295,
         "y": 500,
