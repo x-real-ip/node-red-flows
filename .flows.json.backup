@@ -51572,7 +51572,7 @@
         "server": "4ba92433.2478cc",
         "version": 7,
         "debugenabled": false,
-        "action": "notify.mobile_app_phone_anne",
+        "action": "notify.mobile_app_pixel_9_anne",
         "floorId": [],
         "areaId": [],
         "deviceId": [],
@@ -51586,7 +51586,7 @@
         "queue": "none",
         "blockInputOverrides": false,
         "domain": "notify",
-        "service": "mobile_app_phone_anne",
+        "service": "mobile_app_pixel_9_anne",
         "x": 410,
         "y": 380,
         "wires": [
