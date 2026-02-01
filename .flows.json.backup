@@ -309,6 +309,14 @@
         "env": []
     },
     {
+        "id": "0f445844ad6a25a7",
+        "type": "tab",
+        "label": "_automation_global_step_counter",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "9ea6eabfb34d96e0",
         "type": "subflow",
         "name": "trigger_global_house-unoccupied",
@@ -754,8 +762,7 @@
             "21f329f381fe5581",
             "684440651deb45dc",
             "31e88dec2dcdce08",
-            "f95baa64b54391a1",
-            "244a53dc130e241e"
+            "f95baa64b54391a1"
         ],
         "x": 14,
         "y": 119,
@@ -6864,6 +6871,49 @@
         "y": 919,
         "w": 1032,
         "h": 282
+    },
+    {
+        "id": "9586ff8b8a062f2f",
+        "type": "group",
+        "z": "0f445844ad6a25a7",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "6c0781e6efbd4fa3",
+            "33db3ebf42435a0c",
+            "57a4a906a2a95a05",
+            "91c411c55c98cca0",
+            "eec66e1bd3d11889"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "63fe432d77284ad0",
+        "type": "group",
+        "z": "0f445844ad6a25a7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2dee8a939ba1158d",
+            "dfcf77a96bf5a9c9"
+        ],
+        "x": 34,
+        "y": 119,
+        "w": 282,
+        "h": 82
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -46840,8 +46890,8 @@
             "598c87450fe46556",
             "df677727bba187cf"
         ],
-        "x": 225,
-        "y": 220,
+        "x": 245,
+        "y": 240,
         "wires": [
             [
                 "31e88dec2dcdce08",
@@ -46898,33 +46948,6 @@
         "wires": [
             [
                 "249f5902cd409334"
-            ]
-        ]
-    },
-    {
-        "id": "244a53dc130e241e",
-        "type": "inject",
-        "z": "2a2d89771193fb8b",
-        "g": "2eb792ab3efd8194",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "string",
-        "payloadType": "str",
-        "x": 190,
-        "y": 280,
-        "wires": [
-            [
-                "31e88dec2dcdce08",
-                "f95baa64b54391a1"
             ]
         ]
     },
@@ -51280,6 +51303,84 @@
         "wires": []
     },
     {
+        "id": "e39764878cc24636",
+        "type": "comment",
+        "z": "edbbe41e31b072c6",
+        "name": "send a notification with the amount of current steps taken today",
+        "info": "",
+        "x": 470,
+        "y": 2820,
+        "wires": []
+    },
+    {
+        "id": "3829da4af3b1891d",
+        "type": "template",
+        "z": "edbbe41e31b072c6",
+        "name": "message",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{{ payload }} stappen vandaag.",
+        "output": "str",
+        "x": 600,
+        "y": 2860,
+        "wires": [
+            [
+                "a0e8746c40218803"
+            ]
+        ]
+    },
+    {
+        "id": "a0e8746c40218803",
+        "type": "function",
+        "z": "edbbe41e31b072c6",
+        "name": "current daily steps",
+        "func": "msg.notify = {\n    message: msg.notify.message || \"Standaard melding\",\n    title: \"Stappen\",\n    icon: \"\",\n    tag: msg.tag || \"steps\",\n    notification_id: \"steps\",\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 2860,
+        "wires": [
+            [
+                "96d73b32553bea02"
+            ]
+        ]
+    },
+    {
+        "id": "96d73b32553bea02",
+        "type": "link out",
+        "z": "edbbe41e31b072c6",
+        "name": "current daily steps",
+        "mode": "link",
+        "links": [
+            "9286a72a2355f5ca"
+        ],
+        "x": 1115,
+        "y": 2860,
+        "wires": []
+    },
+    {
+        "id": "5c1c1d90a2fa76e0",
+        "type": "link in",
+        "z": "edbbe41e31b072c6",
+        "name": "send a notification with the amount of current steps taken today",
+        "links": [
+            "dfcf77a96bf5a9c9"
+        ],
+        "x": 265,
+        "y": 2860,
+        "wires": [
+            [
+                "3829da4af3b1891d"
+            ]
+        ]
+    },
+    {
         "id": "3675d2d1160c6b61",
         "type": "api-call-service",
         "z": "3611a09f77ab1873",
@@ -51451,7 +51552,7 @@
         "server": "4ba92433.2478cc",
         "version": 7,
         "debugenabled": false,
-        "action": "notify.mobile_app_pixel_9_anne",
+        "action": "notify.mobile_app_phone_anne",
         "floorId": [],
         "areaId": [],
         "deviceId": [],
@@ -51465,7 +51566,7 @@
         "queue": "none",
         "blockInputOverrides": false,
         "domain": "notify",
-        "service": "mobile_app_pixel_9_anne",
+        "service": "mobile_app_phone_anne",
         "x": 440,
         "y": 260,
         "wires": [
@@ -51527,7 +51628,8 @@
             "ac1eddffbc27f46b",
             "66f884599eab8c68",
             "7d0724b78f994049",
-            "b517334088ea4c65"
+            "b517334088ea4c65",
+            "96d73b32553bea02"
         ],
         "x": 295,
         "y": 320,
@@ -51572,7 +51674,7 @@
         "server": "4ba92433.2478cc",
         "version": 7,
         "debugenabled": false,
-        "action": "notify.mobile_app_pixel_9_anne",
+        "action": "notify.mobile_app_phone_anne",
         "floorId": [],
         "areaId": [],
         "deviceId": [],
@@ -51586,7 +51688,7 @@
         "queue": "none",
         "blockInputOverrides": false,
         "domain": "notify",
-        "service": "mobile_app_pixel_9_anne",
+        "service": "mobile_app_phone_anne",
         "x": 410,
         "y": 380,
         "wires": [
@@ -51638,7 +51740,7 @@
         "blockInputOverrides": false,
         "domain": "notify",
         "service": "lg_webos_smart_tv",
-        "x": 560,
+        "x": 580,
         "y": 440,
         "wires": [
             []
@@ -51756,7 +51858,8 @@
             "983f2e61079b877c",
             "bfa8946e0b76ad2e",
             "2e9e2b02c8f4b00b",
-            "ce6eac61680305d8"
+            "ce6eac61680305d8",
+            "57a4a906a2a95a05"
         ],
         "x": 295,
         "y": 500,
@@ -55182,5 +55285,169 @@
                 "ce6eac61680305d8"
             ]
         ]
+    },
+    {
+        "id": "6c0781e6efbd4fa3",
+        "type": "catch",
+        "z": "0f445844ad6a25a7",
+        "g": "9586ff8b8a062f2f",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 60,
+        "wires": [
+            [
+                "33db3ebf42435a0c"
+            ]
+        ]
+    },
+    {
+        "id": "33db3ebf42435a0c",
+        "type": "template",
+        "z": "0f445844ad6a25a7",
+        "g": "9586ff8b8a062f2f",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 60,
+        "wires": [
+            [
+                "91c411c55c98cca0"
+            ]
+        ]
+    },
+    {
+        "id": "57a4a906a2a95a05",
+        "type": "link out",
+        "z": "0f445844ad6a25a7",
+        "g": "9586ff8b8a062f2f",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "91c411c55c98cca0",
+        "type": "template",
+        "z": "0f445844ad6a25a7",
+        "g": "9586ff8b8a062f2f",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 60,
+        "wires": [
+            [
+                "eec66e1bd3d11889"
+            ]
+        ]
+    },
+    {
+        "id": "eec66e1bd3d11889",
+        "type": "function",
+        "z": "0f445844ad6a25a7",
+        "g": "9586ff8b8a062f2f",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = Date.now().toString(36) + Math.random().toString(36);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 60,
+        "wires": [
+            [
+                "57a4a906a2a95a05"
+            ]
+        ]
+    },
+    {
+        "id": "2dee8a939ba1158d",
+        "type": "server-state-changed",
+        "z": "0f445844ad6a25a7",
+        "g": "63fe432d77284ad0",
+        "name": "coen daily steps",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "sensor.phone_coen_daily_steps"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
+        "stateType": "num",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "dfcf77a96bf5a9c9"
+            ]
+        ]
+    },
+    {
+        "id": "dfcf77a96bf5a9c9",
+        "type": "link out",
+        "z": "0f445844ad6a25a7",
+        "g": "63fe432d77284ad0",
+        "name": "coen daily steps",
+        "mode": "link",
+        "links": [
+            "5c1c1d90a2fa76e0"
+        ],
+        "x": 275,
+        "y": 160,
+        "wires": []
     }
 ]
