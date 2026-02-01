@@ -4705,8 +4705,6 @@
         },
         "nodes": [
             "1f002901ca051fb8",
-            "d2469e552aa559a3",
-            "0a97895675822841",
             "37a61d11bf9ce0ab",
             "cbfb0a5eb7b1a139",
             "44ccff64331a48d4",
@@ -4714,7 +4712,7 @@
         ],
         "x": 14,
         "y": 1459,
-        "w": 1112,
+        "w": 872,
         "h": 122
     },
     {
@@ -6910,7 +6908,7 @@
             "2dee8a939ba1158d",
             "dfcf77a96bf5a9c9"
         ],
-        "x": 34,
+        "x": 14,
         "y": 119,
         "w": 282,
         "h": 82
@@ -14875,17 +14873,17 @@
         },
         "outputInitially": true,
         "stateType": "str",
-        "ifState": "paused",
+        "ifState": "off",
         "ifStateType": "str",
         "ifStateOperator": "is_not",
         "outputOnlyOnStateChange": false,
-        "for": "1",
+        "for": "",
         "forType": "num",
         "forUnits": "seconds",
         "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
         "ignoreCurrentStateUnavailable": true,
         "outputProperties": [
             {
@@ -14911,56 +14909,9 @@
         "y": 1540,
         "wires": [
             [
-                "d2469e552aa559a3"
+                "37a61d11bf9ce0ab"
             ],
             []
-        ]
-    },
-    {
-        "id": "d2469e552aa559a3",
-        "type": "switch",
-        "z": "39f5e6336137f4b2",
-        "g": "354f493dd21d89a6",
-        "name": "",
-        "property": "data.new_state.timeSinceChangedMs",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gt",
-                "v": "20",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 350,
-        "y": 1540,
-        "wires": [
-            [
-                "0a97895675822841"
-            ]
-        ]
-    },
-    {
-        "id": "0a97895675822841",
-        "type": "rbe",
-        "z": "39f5e6336137f4b2",
-        "g": "354f493dd21d89a6",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 470,
-        "y": 1540,
-        "wires": [
-            [
-                "37a61d11bf9ce0ab"
-            ]
         ]
     },
     {
@@ -14981,7 +14932,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 610,
+        "x": 370,
         "y": 1540,
         "wires": [
             [
@@ -15007,7 +14958,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 750,
+        "x": 510,
         "y": 1540,
         "wires": [
             [
@@ -15041,7 +14992,7 @@
         "blockInputOverrides": false,
         "domain": "input_select",
         "service": "select_option",
-        "x": 960,
+        "x": 720,
         "y": 1540,
         "wires": [
             []
@@ -55428,7 +55379,7 @@
                 "valueType": "triggerId"
             }
         ],
-        "x": 140,
+        "x": 120,
         "y": 160,
         "wires": [
             [
@@ -55446,7 +55397,7 @@
         "links": [
             "5c1c1d90a2fa76e0"
         ],
-        "x": 275,
+        "x": 255,
         "y": 160,
         "wires": []
     }
