@@ -1955,13 +1955,12 @@
             "e86b37532d49c64c",
             "7f9ef23a602772d9",
             "b893f80d1303467b",
-            "562fbfde97dcdc26",
-            "6627c8c2e67f71eb"
+            "562fbfde97dcdc26"
         ],
         "x": 28,
         "y": 1853,
         "w": 1684,
-        "h": 1234
+        "h": 1134
     },
     {
         "id": "f440ed49d65110cc",
@@ -5137,6 +5136,49 @@
         "h": 428
     },
     {
+        "id": "9586ff8b8a062f2f",
+        "type": "group",
+        "z": "0f445844ad6a25a7",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "6c0781e6efbd4fa3",
+            "33db3ebf42435a0c",
+            "57a4a906a2a95a05",
+            "91c411c55c98cca0",
+            "eec66e1bd3d11889"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "63fe432d77284ad0",
+        "type": "group",
+        "z": "0f445844ad6a25a7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2dee8a939ba1158d",
+            "dfcf77a96bf5a9c9"
+        ],
+        "x": 14,
+        "y": 119,
+        "w": 282,
+        "h": 82
+    },
+    {
         "id": "ef69ec82c772cad9",
         "type": "group",
         "z": "75537afd17de5117",
@@ -6819,28 +6861,6 @@
         "h": 282
     },
     {
-        "id": "6627c8c2e67f71eb",
-        "type": "group",
-        "z": "bf279eb7eda19fd7",
-        "g": "9db47d03d3a4bf48",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "7bbdb0b2d050fef2"
-        ],
-        "x": 54,
-        "y": 2979,
-        "w": 512,
-        "h": 82
-    },
-    {
         "id": "ad3397e5599bee3e",
         "type": "group",
         "z": "39f5e6336137f4b2",
@@ -6869,49 +6889,6 @@
         "y": 919,
         "w": 1032,
         "h": 282
-    },
-    {
-        "id": "9586ff8b8a062f2f",
-        "type": "group",
-        "z": "0f445844ad6a25a7",
-        "name": "",
-        "style": {
-            "fill": "#ffbfbf",
-            "label": true
-        },
-        "nodes": [
-            "6c0781e6efbd4fa3",
-            "33db3ebf42435a0c",
-            "57a4a906a2a95a05",
-            "91c411c55c98cca0",
-            "eec66e1bd3d11889"
-        ],
-        "x": 14,
-        "y": 19,
-        "w": 702,
-        "h": 82
-    },
-    {
-        "id": "63fe432d77284ad0",
-        "type": "group",
-        "z": "0f445844ad6a25a7",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "2dee8a939ba1158d",
-            "dfcf77a96bf5a9c9"
-        ],
-        "x": 14,
-        "y": 119,
-        "w": 282,
-        "h": 82
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -21932,7 +21909,6 @@
         "name": "daylight is off (dark)",
         "mode": "link",
         "links": [
-            "94cfa3499dc876e4",
             "961409bc2d9b8a1b",
             "13cf75d97fbf793b",
             "61c36fb38acb7466",
@@ -27089,7 +27065,6 @@
         "g": "478d175d0abcb987",
         "name": "turn on frontyard light",
         "links": [
-            "4a93ba39b988072a",
             "c07ca02ed810efe8"
         ],
         "x": 325,
@@ -27677,7 +27652,7 @@
         "type": "api-current-state",
         "z": "bf279eb7eda19fd7",
         "g": "3eb49f4a6a20fee1",
-        "name": "backdoor is open",
+        "name": "frontdoor is open",
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 2,
@@ -27726,6 +27701,7 @@
         "name": "home unoccupied and frontdoor is open",
         "mode": "link",
         "links": [
+            "06494fdc0a5d9892",
             "2fd301a7c368479b"
         ],
         "x": 545,
@@ -27903,6 +27879,7 @@
         "name": "doorbell button pushed",
         "mode": "link",
         "links": [
+            "06494fdc0a5d9892",
             "332b4739e9d3ed0c",
             "b75a06591bd2314d"
         ],
@@ -28319,9 +28296,9 @@
         "type": "comment",
         "z": "bf279eb7eda19fd7",
         "g": "7f9ef23a602772d9",
-        "name": "Action that turns on front yard light(s) for 5 minutes only when it is dark outside",
+        "name": "turn on front yard light(s) for 5 minutes only when it is dark outside",
         "info": "",
-        "x": 350,
+        "x": 310,
         "y": 2480,
         "wires": []
     },
@@ -28341,10 +28318,12 @@
         "type": "link in",
         "z": "bf279eb7eda19fd7",
         "g": "7f9ef23a602772d9",
-        "name": "turn on frontyard light for 5 minutes",
+        "name": "turn on front yard light(s) for 5 minutes only when it is dark outside",
         "links": [
             "3bafb9626527259f",
-            "df677727bba187cf"
+            "8627798aa8717b48",
+            "df677727bba187cf",
+            "e188c5d43cc22d55"
         ],
         "x": 325,
         "y": 2520,
@@ -28852,17 +28831,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "7bbdb0b2d050fef2",
-        "type": "comment",
-        "z": "bf279eb7eda19fd7",
-        "g": "6627c8c2e67f71eb",
-        "name": "turn on frontdoor light when person is detected and light was off",
-        "info": "",
-        "x": 310,
-        "y": 3020,
-        "wires": []
     },
     {
         "id": "0b1c07b6f15ada9b",
@@ -46717,7 +46685,7 @@
         "server": "4ba92433.2478cc",
         "version": 7,
         "debugenabled": false,
-        "action": "notify.mobile_app_pixel_9_anne",
+        "action": "notify.mobile_app_phone_anne",
         "floorId": [],
         "areaId": [],
         "deviceId": [],
@@ -46731,7 +46699,7 @@
         "queue": "none",
         "blockInputOverrides": false,
         "domain": "notify",
-        "service": "mobile_app_pixel_9_anne",
+        "service": "mobile_app_phone_anne",
         "x": 550,
         "y": 280,
         "wires": [
