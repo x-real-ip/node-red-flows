@@ -5123,12 +5123,13 @@
         },
         "nodes": [
             "2dee8a939ba1158d",
-            "dfcf77a96bf5a9c9"
+            "dfcf77a96bf5a9c9",
+            "e621f702dadd4b56"
         ],
         "x": 14,
         "y": 119,
-        "w": 282,
-        "h": 82
+        "w": 392,
+        "h": 122
     },
     {
         "id": "ef69ec82c772cad9",
@@ -6841,6 +6842,35 @@
         "y": 919,
         "w": 1032,
         "h": 282
+    },
+    {
+        "id": "16ee3be5f6b9c0a8",
+        "type": "group",
+        "z": "0f445844ad6a25a7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "0b65b687a9bcfdd5",
+            "88fba924357c47d6",
+            "b26e2db46c0d1570",
+            "4152faa8be63d777",
+            "ba62549aa19c6fa0",
+            "8e73a79f04919f80",
+            "4ca276d2058a817e",
+            "d14b0d6294d3eccd",
+            "1ddb46384758794e"
+        ],
+        "x": 14,
+        "y": 259,
+        "w": 1552,
+        "h": 142
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -16832,9 +16862,7 @@
         "g": "ec2f567862ba39b8",
         "name": "channel 2 double",
         "mode": "link",
-        "links": [
-            "669938235d33a02d"
-        ],
+        "links": [],
         "x": 835,
         "y": 600,
         "wires": []
@@ -44598,7 +44626,6 @@
             "598fe34c24ec541e",
             "5a32d7dd7b01f6db",
             "6ab4fe8e04f4839f",
-            "7e4444ae7832e36b",
             "82b493917e9911f4",
             "85bbe6fa44141370",
             "8a78024ba282982a",
@@ -51015,7 +51042,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "{{ payload }} stappen vandaag.",
+        "template": "{{ payload }} stappen gezet vandaag.",
         "output": "str",
         "x": 600,
         "y": 2860,
@@ -55091,7 +55118,7 @@
         "outputInitially": true,
         "stateType": "num",
         "ifState": "",
-        "ifStateType": "str",
+        "ifStateType": "num",
         "ifStateOperator": "is",
         "outputOnlyOnStateChange": true,
         "for": "0",
@@ -55123,7 +55150,7 @@
             }
         ],
         "x": 120,
-        "y": 160,
+        "y": 200,
         "wires": [
             [
                 "dfcf77a96bf5a9c9"
@@ -55140,7 +55167,262 @@
         "links": [
             "5c1c1d90a2fa76e0"
         ],
-        "x": 255,
+        "x": 235,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "0b65b687a9bcfdd5",
+        "type": "inject",
+        "z": "0f445844ad6a25a7",
+        "g": "16ee3be5f6b9c0a8",
+        "name": "",
+        "props": [
+            {
+                "p": "start",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "55 23 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 110,
+        "y": 340,
+        "wires": [
+            [
+                "88fba924357c47d6"
+            ]
+        ]
+    },
+    {
+        "id": "88fba924357c47d6",
+        "type": "api-current-state",
+        "z": "0f445844ad6a25a7",
+        "g": "16ee3be5f6b9c0a8",
+        "name": "coen daily steps number",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "num",
+        "halt_if_compare": "is",
+        "entity_id": "sensor.phone_coen_daily_steps",
+        "state_type": "num",
+        "blockInputOverrides": true,
+        "outputProperties": [
+            {
+                "property": "phone_coen_daily_steps",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 290,
+        "y": 340,
+        "wires": [
+            [
+                "4152faa8be63d777"
+            ]
+        ]
+    },
+    {
+        "id": "b26e2db46c0d1570",
+        "type": "function",
+        "z": "0f445844ad6a25a7",
+        "g": "16ee3be5f6b9c0a8",
+        "name": "calculate daily steps left",
+        "func": "msg.coen_daily_steps_left = msg.coen_daily_step_target.state - msg.phone_coen_daily_steps\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 340,
+        "wires": [
+            [
+                "ba62549aa19c6fa0"
+            ]
+        ]
+    },
+    {
+        "id": "4152faa8be63d777",
+        "type": "api-current-state",
+        "z": "0f445844ad6a25a7",
+        "g": "16ee3be5f6b9c0a8",
+        "name": "coen daily step target",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "num",
+        "halt_if_compare": "is",
+        "entity_id": "input_number.coen_daily_step_target",
+        "state_type": "num",
+        "blockInputOverrides": true,
+        "outputProperties": [
+            {
+                "property": "coen_daily_step_target",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 520,
+        "y": 340,
+        "wires": [
+            [
+                "b26e2db46c0d1570"
+            ]
+        ]
+    },
+    {
+        "id": "ba62549aa19c6fa0",
+        "type": "switch",
+        "z": "0f445844ad6a25a7",
+        "g": "16ee3be5f6b9c0a8",
+        "name": "decide steps left",
+        "property": "coen_daily_steps_left",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "lt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 960,
+        "y": 340,
+        "wires": [
+            [
+                "8e73a79f04919f80"
+            ],
+            [
+                "d14b0d6294d3eccd"
+            ]
+        ]
+    },
+    {
+        "id": "8e73a79f04919f80",
+        "type": "function",
+        "z": "0f445844ad6a25a7",
+        "g": "16ee3be5f6b9c0a8",
+        "name": "calculate new step target",
+        "func": "msg.new_step_target = msg.coen_daily_step_target.state + msg.coen_daily_steps_left\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 320,
+        "wires": [
+            [
+                "4ca276d2058a817e"
+            ]
+        ]
+    },
+    {
+        "id": "4ca276d2058a817e",
+        "type": "api-call-service",
+        "z": "0f445844ad6a25a7",
+        "g": "16ee3be5f6b9c0a8",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "input_number.set_value",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_number.coen_daily_step_target"
+        ],
+        "labelId": [],
+        "data": "{\"value\":\"{{new_step_target}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "input_number",
+        "service": "set_value",
+        "x": 1430,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d14b0d6294d3eccd",
+        "type": "function",
+        "z": "0f445844ad6a25a7",
+        "g": "16ee3be5f6b9c0a8",
+        "name": "set initial step target",
+        "func": "msg.new_step_target = msg.coen_daily_step_target.attributes.initial\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1160,
+        "y": 360,
+        "wires": [
+            [
+                "4ca276d2058a817e"
+            ]
+        ]
+    },
+    {
+        "id": "1ddb46384758794e",
+        "type": "comment",
+        "z": "0f445844ad6a25a7",
+        "g": "16ee3be5f6b9c0a8",
+        "name": "increment step goal with the amount of daily steps left. if the goal is reached change it back to inital step goal",
+        "info": "",
+        "x": 410,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "e621f702dadd4b56",
+        "type": "comment",
+        "z": "0f445844ad6a25a7",
+        "g": "63fe432d77284ad0",
+        "name": "set notification with the amount of daily steps",
+        "info": "",
+        "x": 210,
         "y": 160,
         "wires": []
     }
