@@ -21909,7 +21909,6 @@
         "name": "daylight is off (dark)",
         "mode": "link",
         "links": [
-            "961409bc2d9b8a1b",
             "13cf75d97fbf793b",
             "61c36fb38acb7466",
             "3e3dfa9a3068b04b"
@@ -23338,7 +23337,6 @@
         "g": "aa5158e947d2ab5c",
         "name": "turn on backyard light string",
         "links": [
-            "4a93ba39b988072a",
             "c07ca02ed810efe8"
         ],
         "x": 305,

@@ -1348,54 +1348,6 @@
         "h": 122
     },
     {
-        "id": "db49c07a2c411991",
-        "type": "group",
-        "z": "f32d9f15eade4bba",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "535a687f3b588b38",
-            "2d21e3e6cf54e587",
-            "1bcc023985a00dc1",
-            "7e4444ae7832e36b",
-            "b5c5c34d9f917783"
-        ],
-        "x": 14,
-        "y": 439,
-        "w": 852,
-        "h": 162
-    },
-    {
-        "id": "93bb50aa6cc6f5f6",
-        "type": "group",
-        "z": "f32d9f15eade4bba",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "34bc897fe72c285a",
-            "9bdbb23b40a8c8d6",
-            "669938235d33a02d"
-        ],
-        "x": 14,
-        "y": 259,
-        "w": 632,
-        "h": 122
-    },
-    {
         "id": "d543568c3cc7aa23",
         "type": "group",
         "z": "be92da6a5a4a4550",
@@ -1937,7 +1889,7 @@
             "e52ec938192ae703"
         ],
         "x": 14,
-        "y": 619,
+        "y": 259,
         "w": 1352,
         "h": 302
     },
@@ -2122,7 +2074,7 @@
             "1ec9ead4324ca7a1"
         ],
         "x": 14,
-        "y": 939,
+        "y": 579,
         "w": 512,
         "h": 162
     },
@@ -2226,7 +2178,7 @@
             "3bf0bc8959f8a48e"
         ],
         "x": 14,
-        "y": 1119,
+        "y": 759,
         "w": 1738,
         "h": 288
     },
@@ -2634,7 +2586,7 @@
             "a911d7492488b860"
         ],
         "x": 14,
-        "y": 1419,
+        "y": 1059,
         "w": 552,
         "h": 162
     },
@@ -2729,7 +2681,7 @@
             "d4dd92bd9bc8634e"
         ],
         "x": 8,
-        "y": 1593,
+        "y": 1233,
         "w": 1344,
         "h": 774
     },
@@ -5393,7 +5345,7 @@
             "9033928198667eca"
         ],
         "x": 34,
-        "y": 1619,
+        "y": 1259,
         "w": 1292,
         "h": 147
     },
@@ -5853,7 +5805,7 @@
             "80b3c96f004d6f8b"
         ],
         "x": 1254,
-        "y": 1179,
+        "y": 819,
         "w": 472,
         "h": 202
     },
@@ -5956,7 +5908,7 @@
             "7ce069b5409427c0"
         ],
         "x": 34,
-        "y": 1779,
+        "y": 1419,
         "w": 1152,
         "h": 122
     },
@@ -6335,7 +6287,7 @@
             "6192e488c9237f1b"
         ],
         "x": 34,
-        "y": 1919,
+        "y": 1559,
         "w": 1112,
         "h": 282
     },
@@ -6561,7 +6513,7 @@
             "44f29e8977e8a866"
         ],
         "x": 34,
-        "y": 2219,
+        "y": 1859,
         "w": 632,
         "h": 122
     },
@@ -7032,7 +6984,7 @@
         "z": "f32d9f15eade4bba",
         "g": "8dd127f90c06ad01",
         "x": 540,
-        "y": 840,
+        "y": 480,
         "wires": [
             [
                 "f4a68bb61137474e"
@@ -7045,7 +6997,7 @@
         "z": "f32d9f15eade4bba",
         "g": "8dd127f90c06ad01",
         "x": 720,
-        "y": 700,
+        "y": 340,
         "wires": [
             [
                 "511c21a01753fb65",
@@ -7059,7 +7011,7 @@
         "z": "f32d9f15eade4bba",
         "g": "53fb0b4840033e17",
         "x": 1080,
-        "y": 1740,
+        "y": 1380,
         "wires": [
             [
                 "9c4864f0ca0d2d96"
@@ -7072,7 +7024,7 @@
         "z": "f32d9f15eade4bba",
         "g": "53fb0b4840033e17",
         "x": 540,
-        "y": 1740,
+        "y": 1380,
         "wires": [
             [
                 "2db276d509393d03"
@@ -7151,7 +7103,7 @@
         "z": "f32d9f15eade4bba",
         "g": "d87b969d15636e26",
         "x": 400,
-        "y": 1260,
+        "y": 900,
         "wires": [
             [
                 "ce869786.78dec8"
@@ -7164,7 +7116,7 @@
         "z": "f32d9f15eade4bba",
         "g": "3bf0bc8959f8a48e",
         "x": 1280,
-        "y": 1240,
+        "y": 880,
         "wires": [
             [
                 "64614e79bcb09872",
@@ -35241,38 +35193,6 @@
         "wires": []
     },
     {
-        "id": "34bc897fe72c285a",
-        "type": "api-call-service",
-        "z": "f32d9f15eade4bba",
-        "g": "93bb50aa6cc6f5f6",
-        "name": "toggle switch childlock kitchen cabinets",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "switch.toggle",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "switch.childlock_kitchen_switch"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "switch",
-        "service": "toggle",
-        "x": 470,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "44830f60728cb460",
         "type": "catch",
         "z": "f32d9f15eade4bba",
@@ -35364,135 +35284,6 @@
         ]
     },
     {
-        "id": "9bdbb23b40a8c8d6",
-        "type": "comment",
-        "z": "f32d9f15eade4bba",
-        "g": "93bb50aa6cc6f5f6",
-        "name": "toggle kitchen cabinets magnatic lock",
-        "info": "",
-        "x": 190,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "535a687f3b588b38",
-        "type": "api-call-service",
-        "z": "f32d9f15eade4bba",
-        "g": "db49c07a2c411991",
-        "name": "turn off childlock kitchen",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "switch.turn_off",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "switch.childlock_kitchen_switch"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": false,
-        "domain": "switch",
-        "service": "turn_off",
-        "x": 730,
-        "y": 520,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2d21e3e6cf54e587",
-        "type": "api-current-state",
-        "z": "f32d9f15eade4bba",
-        "g": "db49c07a2c411991",
-        "name": "state childlock kitchen is not off",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "off",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "switch.childlock_kitchen_switch",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 470,
-        "y": 520,
-        "wires": [
-            [
-                "535a687f3b588b38"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "669938235d33a02d",
-        "type": "link in",
-        "z": "f32d9f15eade4bba",
-        "g": "93bb50aa6cc6f5f6",
-        "name": "toggle kitchen cabinet lock",
-        "links": [
-            "b683652c36e89d93"
-        ],
-        "x": 285,
-        "y": 340,
-        "wires": [
-            [
-                "34bc897fe72c285a"
-            ]
-        ]
-    },
-    {
-        "id": "1bcc023985a00dc1",
-        "type": "comment",
-        "z": "f32d9f15eade4bba",
-        "g": "db49c07a2c411991",
-        "name": "turn off kitchen cabinet lock",
-        "info": "",
-        "x": 150,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "7e4444ae7832e36b",
-        "type": "link in",
-        "z": "f32d9f15eade4bba",
-        "g": "db49c07a2c411991",
-        "name": "turn off kitchen cabinet lock",
-        "links": [
-            "e6b9ff42fde3ea4e"
-        ],
-        "x": 285,
-        "y": 520,
-        "wires": [
-            [
-                "2d21e3e6cf54e587"
-            ]
-        ]
-    },
-    {
         "id": "f4a68bb61137474e",
         "type": "time-range-switch",
         "z": "f32d9f15eade4bba",
@@ -35505,7 +35296,7 @@
         "startOffset": 0,
         "endOffset": 0,
         "x": 650,
-        "y": 760,
+        "y": 400,
         "wires": [
             [
                 "511c21a01753fb65",
@@ -35539,7 +35330,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 880,
-        "y": 700,
+        "y": 340,
         "wires": [
             [
                 "6d86365f41d6d3bc"
@@ -35572,7 +35363,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 880,
-        "y": 760,
+        "y": 400,
         "wires": [
             [
                 "5a7d11aab9a0407f"
@@ -35605,7 +35396,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1070,
-        "y": 760,
+        "y": 400,
         "wires": [
             [
                 "6d86365f41d6d3bc"
@@ -35632,7 +35423,7 @@
         "payload": "on",
         "payloadType": "str",
         "x": 170,
-        "y": 700,
+        "y": 340,
         "wires": [
             [
                 "4c5c66dcd56c4b83"
@@ -35666,7 +35457,7 @@
         "domain": "switch",
         "service": "turn_on",
         "x": 1260,
-        "y": 700,
+        "y": 340,
         "wires": [
             []
         ]
@@ -35679,7 +35470,7 @@
         "name": "turn the quooker on",
         "info": "",
         "x": 130,
-        "y": 660,
+        "y": 300,
         "wires": []
     },
     {
@@ -35720,7 +35511,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 400,
-        "y": 880,
+        "y": 520,
         "wires": [
             [
                 "56a07c9ca9672de6"
@@ -35766,7 +35557,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 390,
-        "y": 820,
+        "y": 460,
         "wires": [
             [
                 "56a07c9ca9672de6"
@@ -35781,7 +35572,7 @@
         "g": "8dd127f90c06ad01",
         "name": "",
         "x": 170,
-        "y": 760,
+        "y": 400,
         "wires": [
             [
                 "f4a68bb61137474e"
@@ -35810,7 +35601,7 @@
         "drop": false,
         "outputs": 1,
         "x": 830,
-        "y": 1700,
+        "y": 1340,
         "wires": [
             [
                 "9033928198667eca"
@@ -35844,7 +35635,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 630,
-        "y": 1700,
+        "y": 1340,
         "wires": [
             [
                 "c49e5bd8f93bd496"
@@ -35878,7 +35669,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 1210,
-        "y": 1700,
+        "y": 1340,
         "wires": [
             []
         ]
@@ -35916,7 +35707,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 410,
-        "y": 1700,
+        "y": 1340,
         "wires": [
             [
                 "d1324fbb34721b63"
@@ -35934,7 +35725,7 @@
         "name": "turn on kitchen light for 20 minutes when sleepmode turns on",
         "info": "",
         "x": 280,
-        "y": 1660,
+        "y": 1300,
         "wires": []
     },
     {
@@ -35947,7 +35738,7 @@
             "e6b9ff42fde3ea4e"
         ],
         "x": 285,
-        "y": 1700,
+        "y": 1340,
         "wires": [
             [
                 "3dd82a4a5a5f543f"
@@ -35981,7 +35772,7 @@
         "domain": "switch",
         "service": "turn_off",
         "x": 420,
-        "y": 1020,
+        "y": 660,
         "wires": [
             []
         ]
@@ -35993,7 +35784,7 @@
         "g": "eb76734b50bb9cf1",
         "name": "",
         "x": 170,
-        "y": 1060,
+        "y": 700,
         "wires": [
             [
                 "80b45d92a25cc105"
@@ -36011,7 +35802,7 @@
             "e6b9ff42fde3ea4e"
         ],
         "x": 285,
-        "y": 1020,
+        "y": 660,
         "wires": [
             [
                 "80b45d92a25cc105"
@@ -36026,22 +35817,8 @@
         "name": "turn the quooker off",
         "info": "",
         "x": 130,
-        "y": 980,
+        "y": 620,
         "wires": []
-    },
-    {
-        "id": "b5c5c34d9f917783",
-        "type": "subflow:9ea6eabfb34d96e0",
-        "z": "f32d9f15eade4bba",
-        "g": "db49c07a2c411991",
-        "name": "",
-        "x": 170,
-        "y": 560,
-        "wires": [
-            [
-                "2d21e3e6cf54e587"
-            ]
-        ]
     },
     {
         "id": "36f24fd5.59924",
@@ -36064,7 +35841,7 @@
         "to": "",
         "reg": false,
         "x": 840,
-        "y": 1200,
+        "y": 840,
         "wires": [
             [
                 "bea742545d56e3a3"
@@ -36092,7 +35869,7 @@
         "to": "",
         "reg": false,
         "x": 840,
-        "y": 1260,
+        "y": 900,
         "wires": [
             [
                 "bea742545d56e3a3"
@@ -36118,7 +35895,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1170,
-        "y": 1200,
+        "y": 840,
         "wires": [
             [
                 "ec34cd6ea57b0b7f"
@@ -36133,7 +35910,7 @@
         "name": "set dishwasher binary sensor on or off based on power measurements",
         "info": "",
         "x": 290,
-        "y": 1160,
+        "y": 800,
         "wires": []
     },
     {
@@ -36160,7 +35937,7 @@
         "repair": false,
         "outputs": 2,
         "x": 310,
-        "y": 1200,
+        "y": 840,
         "wires": [
             [
                 "036d5a464421fc1b"
@@ -36203,7 +35980,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 660,
-        "y": 1200,
+        "y": 840,
         "wires": [
             [
                 "36f24fd5.59924"
@@ -36244,7 +36021,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 660,
-        "y": 1260,
+        "y": 900,
         "wires": [
             [
                 "54b1f381.39c02c"
@@ -36304,7 +36081,7 @@
             }
         ],
         "x": 140,
-        "y": 1200,
+        "y": 840,
         "wires": [
             [
                 "47f4fb301e391cb8"
@@ -36325,7 +36102,7 @@
         "inputOverride": "allow",
         "outputProperties": [],
         "x": 1030,
-        "y": 1200,
+        "y": 840,
         "wires": [
             [
                 "ef6b748.eeaf388"
@@ -36343,7 +36120,7 @@
         "payloadval": "0",
         "name": "",
         "x": 480,
-        "y": 1200,
+        "y": 840,
         "wires": [
             [
                 "5914d077.55a55"
@@ -36364,7 +36141,7 @@
         "template": "",
         "output": "str",
         "x": 1390,
-        "y": 1300,
+        "y": 940,
         "wires": [
             [
                 "08bca5ce6d389d48"
@@ -36384,7 +36161,7 @@
         "template": "Vaatwasser",
         "output": "str",
         "x": 1390,
-        "y": 1220,
+        "y": 860,
         "wires": [
             [
                 "08bca5ce6d389d48"
@@ -36404,7 +36181,7 @@
         "template": "De Vaatwasser is klaar",
         "output": "str",
         "x": 1400,
-        "y": 1260,
+        "y": 900,
         "wires": [
             [
                 "08bca5ce6d389d48"
@@ -36423,7 +36200,7 @@
             "9286a72a2355f5ca"
         ],
         "x": 1685,
-        "y": 1260,
+        "y": 900,
         "wires": []
     },
     {
@@ -36448,7 +36225,7 @@
         "reduceInitType": "",
         "reduceFixup": "",
         "x": 1590,
-        "y": 1260,
+        "y": 900,
         "wires": [
             [
                 "2c0a57bd6ee87009"
@@ -36468,7 +36245,7 @@
         "template": "dishwasher",
         "output": "str",
         "x": 1410,
-        "y": 1340,
+        "y": 980,
         "wires": [
             [
                 "08bca5ce6d389d48"
@@ -36483,7 +36260,7 @@
         "name": "send notification to ask whether the quooker should be turned off or not",
         "info": "",
         "x": 290,
-        "y": 1460,
+        "y": 1100,
         "wires": []
     },
     {
@@ -36511,7 +36288,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 380,
-        "y": 1500,
+        "y": 1140,
         "wires": [
             [
                 "7d2e9cbf7edd9b13"
@@ -36538,7 +36315,7 @@
         "payload": "on",
         "payloadType": "str",
         "x": 170,
-        "y": 1500,
+        "y": 1140,
         "wires": [
             [
                 "9aeb535c5f1da8ce"
@@ -36556,7 +36333,7 @@
             "6672bd7f293737f7"
         ],
         "x": 495,
-        "y": 1500,
+        "y": 1140,
         "wires": []
     },
     {
@@ -36578,7 +36355,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 920,
-        "y": 1860,
+        "y": 1500,
         "wires": [
             [
                 "9d1ae4015da1f119"
@@ -36612,7 +36389,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 670,
-        "y": 1860,
+        "y": 1500,
         "wires": [
             [
                 "12894abc534397ad"
@@ -36646,7 +36423,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 1090,
-        "y": 1860,
+        "y": 1500,
         "wires": [
             []
         ]
@@ -36688,7 +36465,7 @@
         "outputLocation": "payload",
         "outputResultsCount": 1,
         "x": 460,
-        "y": 1860,
+        "y": 1500,
         "wires": [
             [
                 "12f8c4bf18db7efd"
@@ -36705,7 +36482,7 @@
             "7654d83ac284bf7e"
         ],
         "x": 305,
-        "y": 1860,
+        "y": 1500,
         "wires": [
             [
                 "192bbaed7dca394c"
@@ -36720,7 +36497,7 @@
         "name": "turn on a random light that was off and turn it randomly off",
         "info": "",
         "x": 270,
-        "y": 1820,
+        "y": 1460,
         "wires": []
     },
     {
@@ -36753,7 +36530,7 @@
         "outputLocation": "light_state",
         "outputResultsCount": 1,
         "x": 570,
-        "y": 2000,
+        "y": 1640,
         "wires": [
             [
                 "05c14194d0417f43"
@@ -36781,7 +36558,7 @@
         "to": "",
         "reg": false,
         "x": 750,
-        "y": 2000,
+        "y": 1640,
         "wires": [
             [
                 "235dbe118a135a57"
@@ -36802,7 +36579,7 @@
         "addname": "",
         "property": "light_state",
         "x": 910,
-        "y": 2000,
+        "y": 1640,
         "wires": [
             [
                 "8d06bbbfde5d13af"
@@ -36836,7 +36613,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 1050,
-        "y": 2000,
+        "y": 1640,
         "wires": [
             []
         ]
@@ -36868,7 +36645,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 910,
-        "y": 2160,
+        "y": 1800,
         "wires": [
             []
         ]
@@ -36894,7 +36671,7 @@
         "to": "",
         "reg": false,
         "x": 440,
-        "y": 2100,
+        "y": 1740,
         "wires": [
             [
                 "267cdd02ae88d55f"
@@ -36915,7 +36692,7 @@
         "addname": "",
         "property": "light_state",
         "x": 610,
-        "y": 2100,
+        "y": 1740,
         "wires": [
             [
                 "c87cf284a2863271"
@@ -36946,7 +36723,7 @@
         "repair": false,
         "outputs": 2,
         "x": 750,
-        "y": 2100,
+        "y": 1740,
         "wires": [
             [
                 "090710f36b2625ec"
@@ -36983,7 +36760,7 @@
         "domain": "light",
         "service": "turn_on",
         "x": 910,
-        "y": 2100,
+        "y": 1740,
         "wires": [
             []
         ]
@@ -36998,7 +36775,7 @@
             "5874beb71c3c9523"
         ],
         "x": 305,
-        "y": 2000,
+        "y": 1640,
         "wires": [
             [
                 "6192e488c9237f1b"
@@ -37016,7 +36793,7 @@
             "5a1c4daf23c47d8e"
         ],
         "x": 305,
-        "y": 2100,
+        "y": 1740,
         "wires": [
             [
                 "be6a991a1b3104c0"
@@ -37031,7 +36808,7 @@
         "name": "store current light state in context then turn on all lights in alarm state",
         "info": "",
         "x": 300,
-        "y": 1960,
+        "y": 1600,
         "wires": []
     },
     {
@@ -37042,7 +36819,7 @@
         "name": "restore light state based on values in the context store",
         "info": "",
         "x": 260,
-        "y": 2060,
+        "y": 1700,
         "wires": []
     },
     {
@@ -37151,7 +36928,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 410,
-        "y": 2000,
+        "y": 1640,
         "wires": [
             [
                 "e1020763e1e1af54"
@@ -37170,7 +36947,7 @@
             "8d2edc4de1f46609"
         ],
         "x": 285,
-        "y": 820,
+        "y": 460,
         "wires": [
             [
                 "a6d93dc726aafbb8",
@@ -37197,7 +36974,7 @@
         "payload": "on",
         "payloadType": "str",
         "x": 170,
-        "y": 1540,
+        "y": 1180,
         "wires": [
             [
                 "9aeb535c5f1da8ce"
@@ -37211,7 +36988,7 @@
         "g": "d4dd92bd9bc8634e",
         "name": "",
         "x": 190,
-        "y": 2300,
+        "y": 1940,
         "wires": [
             [
                 "20ab68d77ff78734"
@@ -37226,7 +37003,7 @@
         "name": "turn off all lights in this room when house is unoccupied",
         "info": "",
         "x": 260,
-        "y": 2260,
+        "y": 1900,
         "wires": []
     },
     {
@@ -37259,7 +37036,7 @@
         "outputLocation": "payload",
         "outputResultsCount": 1,
         "x": 410,
-        "y": 2300,
+        "y": 1940,
         "wires": [
             [
                 "44f29e8977e8a866"
@@ -37293,7 +37070,7 @@
         "domain": "light",
         "service": "turn_off",
         "x": 570,
-        "y": 2300,
+        "y": 1940,
         "wires": [
             []
         ]
@@ -37323,7 +37100,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1000,
-        "y": 1700,
+        "y": 1340,
         "wires": [
             [
                 "9c4864f0ca0d2d96"
