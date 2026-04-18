@@ -7033,13 +7033,18 @@
             "a4f91a4dd6cc87fa",
             "eee161a9e895ce7b",
             "130b40c68b8c244d",
-            "254a1aba167e9cfd",
-            "4b051fc0503ee690"
+            "426a586221d571a9",
+            "2753d031bf0977c0",
+            "6492ac3610757649",
+            "fa6c09344bfceb76",
+            "6a61663be5b7b8d6",
+            "77a9663e990a2928",
+            "29cd565432650fc3"
         ],
         "x": 14,
         "y": 119,
-        "w": 622,
-        "h": 282
+        "w": 1032,
+        "h": 202
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -56397,9 +56402,9 @@
         "type": "comment",
         "z": "b3c2e11fe7899d59",
         "g": "5e1e93cbdb33cd87",
-        "name": "coen enter work zone",
+        "name": "coen enter work zone create calendar event",
         "info": "",
-        "x": 140,
+        "x": 210,
         "y": 160,
         "wires": []
     },
@@ -56430,12 +56435,11 @@
         "myepoch": false,
         "myrawdate": false,
         "mypm": false,
-        "x": 350,
+        "x": 390,
         "y": 200,
         "wires": [
             [
-                "254a1aba167e9cfd",
-                "426a586221d571a9"
+                "2753d031bf0977c0"
             ]
         ]
     },
@@ -56443,6 +56447,7 @@
         "id": "426a586221d571a9",
         "type": "api-call-service",
         "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
         "name": "create calander event",
         "server": "4ba92433.2478cc",
         "version": 7,
@@ -56455,7 +56460,7 @@
             "calendar.coen"
         ],
         "labelId": [],
-        "data": "{\"summary\":\"Coen op kantoor\",\"description\":\"Coen is op locatie kantoor\",\"start_date_time\":\"{{myymd}} {{mytimes}}\",\"end_date_time\":\"{{myymd}} 17:00:00\"}",
+        "data": "{\"summary\":\"Coen op kantoor\",\"description\":\"Coen is op locatie kantoor\",\"start_date_time\":\"{{enter_myymd}} {{enter_mytimes}}\",\"end_date_time\":\"{{leave_myymd}} {{leave_mytimes}}\"}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -56464,39 +56469,166 @@
         "blockInputOverrides": true,
         "domain": "calendar",
         "service": "create_event",
-        "x": 580,
-        "y": 220,
+        "x": 920,
+        "y": 240,
         "wires": [
             []
         ]
     },
     {
-        "id": "254a1aba167e9cfd",
-        "type": "debug",
+        "id": "2753d031bf0977c0",
+        "type": "change",
         "z": "b3c2e11fe7899d59",
         "g": "5e1e93cbdb33cd87",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 530,
-        "y": 360,
-        "wires": []
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enter_myymd",
+                "pt": "flow",
+                "to": "myymd",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "enter_mytimes",
+                "pt": "flow",
+                "to": "mytimes",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 200,
+        "wires": [
+            []
+        ]
     },
     {
-        "id": "4b051fc0503ee690",
+        "id": "6492ac3610757649",
+        "type": "simpletime",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "name": "",
+        "mydate": false,
+        "myymd": true,
+        "myyear": false,
+        "mymonth": false,
+        "mymonthn": false,
+        "mymonthf": false,
+        "mydom": false,
+        "mydoy": false,
+        "myday": false,
+        "mydayf": false,
+        "myhourpm": false,
+        "myhour": false,
+        "mytime": false,
+        "mytimes": true,
+        "myminute": false,
+        "myminutes": false,
+        "mysecond": false,
+        "mymillis": false,
+        "myepoch": false,
+        "myrawdate": false,
+        "mypm": false,
+        "x": 390,
+        "y": 240,
+        "wires": [
+            [
+                "29cd565432650fc3"
+            ]
+        ]
+    },
+    {
+        "id": "fa6c09344bfceb76",
+        "type": "change",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "leave_myymd",
+                "pt": "msg",
+                "to": "myymd",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "leave_mytimes",
+                "pt": "msg",
+                "to": "mytimes",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "enter_myymd",
+                "pt": "msg",
+                "to": "enter_myymd",
+                "tot": "flow"
+            },
+            {
+                "t": "set",
+                "p": "enter_mytimes",
+                "pt": "msg",
+                "to": "enter_mytimes",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 240,
+        "wires": [
+            [
+                "426a586221d571a9"
+            ]
+        ]
+    },
+    {
+        "id": "6a61663be5b7b8d6",
+        "type": "ha-zone",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "name": "coen leave work zone",
+        "server": "4ba92433.2478cc",
+        "version": 1,
+        "exposeAsEntityConfig": "",
+        "entities": [
+            "person.coen"
+        ],
+        "event": "leave",
+        "zones": [
+            "zone.work_coen"
+        ],
+        "x": 140,
+        "y": 240,
+        "wires": [
+            [
+                "6492ac3610757649"
+            ]
+        ]
+    },
+    {
+        "id": "77a9663e990a2928",
         "type": "inject",
         "z": "b3c2e11fe7899d59",
         "g": "5e1e93cbdb33cd87",
-        "name": "time",
+        "name": "",
         "props": [
             {
                 "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
             }
         ],
         "repeat": "",
@@ -56506,12 +56638,31 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 300,
-        "y": 360,
+        "x": 180,
+        "y": 280,
         "wires": [
             [
-                "130b40c68b8c244d"
+                "6492ac3610757649"
             ]
+        ]
+    },
+    {
+        "id": "29cd565432650fc3",
+        "type": "stoptimer",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "duration": "1",
+        "units": "Hour",
+        "payloadtype": "num",
+        "payloadval": "0",
+        "name": "",
+        "x": 550,
+        "y": 240,
+        "wires": [
+            [
+                "fa6c09344bfceb76"
+            ],
+            []
         ]
     }
 ]
