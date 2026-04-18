@@ -317,6 +317,22 @@
         "env": []
     },
     {
+        "id": "db4b1fceb89e0ea6",
+        "type": "tab",
+        "label": "_automation_zone_basicfit",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b3c2e11fe7899d59",
+        "type": "tab",
+        "label": "_automation_zone_work",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "9ea6eabfb34d96e0",
         "type": "subflow",
         "name": "trigger_global_house-unoccupied",
@@ -2146,7 +2162,7 @@
             "02be33cf0e1b2531"
         ],
         "x": 14,
-        "y": 3039,
+        "y": 3319,
         "w": 1132,
         "h": 202
     },
@@ -2610,7 +2626,7 @@
             "30bb603d2ee43acf"
         ],
         "x": 14,
-        "y": 2519,
+        "y": 2799,
         "w": 812,
         "h": 122
     },
@@ -2636,7 +2652,7 @@
             "46c67d7449c54584"
         ],
         "x": 14,
-        "y": 2659,
+        "y": 2939,
         "w": 772,
         "h": 182
     },
@@ -2661,7 +2677,7 @@
             "7301e33204b88290"
         ],
         "x": 14,
-        "y": 2859,
+        "y": 3139,
         "w": 552,
         "h": 162
     },
@@ -3430,7 +3446,7 @@
             "8922b34fa1783c92"
         ],
         "x": 14,
-        "y": 3239,
+        "y": 3539,
         "w": 992,
         "h": 162
     },
@@ -4581,12 +4597,13 @@
             "f1ffce13e75d6866",
             "d3868dc5f4aa2d65",
             "cd256ec259a611f4",
-            "ad3397e5599bee3e"
+            "ad3397e5599bee3e",
+            "b1a4b8a22e8e6dbb"
         ],
         "x": 14,
         "y": 259,
         "w": 1698,
-        "h": 968
+        "h": 1268
     },
     {
         "id": "aa38407fb6bc0dac",
@@ -4612,7 +4629,7 @@
             "bf5ba3943578c959"
         ],
         "x": 14,
-        "y": 1739,
+        "y": 2019,
         "w": 1052,
         "h": 182
     },
@@ -4637,7 +4654,7 @@
             "2784788ce65fb972"
         ],
         "x": 14,
-        "y": 1599,
+        "y": 1879,
         "w": 1132,
         "h": 122
     },
@@ -4662,7 +4679,7 @@
             "8974b3e5cc82c6b9"
         ],
         "x": 14,
-        "y": 1459,
+        "y": 1739,
         "w": 872,
         "h": 122
     },
@@ -4691,7 +4708,7 @@
             "494e70afb45368b6"
         ],
         "x": 14,
-        "y": 1259,
+        "y": 1539,
         "w": 1752,
         "h": 182
     },
@@ -4871,7 +4888,7 @@
             "5e6c2b35b3d20cc1"
         ],
         "x": 14,
-        "y": 1939,
+        "y": 2219,
         "w": 1472,
         "h": 282
     },
@@ -4903,7 +4920,7 @@
             "d42cee1b019d7e42"
         ],
         "x": 14,
-        "y": 2239,
+        "y": 2519,
         "w": 892,
         "h": 262
     },
@@ -5128,8 +5145,42 @@
         ],
         "x": 14,
         "y": 119,
-        "w": 452,
+        "w": 392,
         "h": 122
+    },
+    {
+        "id": "16ee3be5f6b9c0a8",
+        "type": "group",
+        "z": "0f445844ad6a25a7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "0b65b687a9bcfdd5",
+            "88fba924357c47d6",
+            "b26e2db46c0d1570",
+            "4152faa8be63d777",
+            "ba62549aa19c6fa0",
+            "8e73a79f04919f80",
+            "d14b0d6294d3eccd",
+            "1ddb46384758794e",
+            "13173e76d6c74f7e",
+            "eced6dd90872866e",
+            "1976bccb3e1cf3cb",
+            "071d5686e1824915",
+            "80e1e1a4c2c9d6da",
+            "0742465ec0c317e1"
+        ],
+        "x": 14,
+        "y": 399,
+        "w": 1372,
+        "h": 242
     },
     {
         "id": "ef69ec82c772cad9",
@@ -6806,7 +6857,9 @@
             "fa9bc69bfdcf7c2c",
             "1852cb62226e78b0",
             "cc95177ff7dd19c7",
-            "431f4462805951b1"
+            "431f4462805951b1",
+            "9f89dbb35450cec3",
+            "9dcb4a8ce733ff28"
         ],
         "x": 654,
         "y": 619,
@@ -6844,7 +6897,39 @@
         "h": 282
     },
     {
-        "id": "16ee3be5f6b9c0a8",
+        "id": "b1a4b8a22e8e6dbb",
+        "type": "group",
+        "z": "39f5e6336137f4b2",
+        "g": "25a4ffd157e9649f",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "0190e1b6f8d328c8",
+            "7e4d241677f212df",
+            "902c7f93c8f0adb5",
+            "73ceb66ee08b5c28",
+            "c4746fd2c9c133c2",
+            "df67f86b90c542b0",
+            "642661476be2caf3",
+            "38c517cf00b5dcd5",
+            "a182f03762072d84",
+            "18f28aa8f4f032e4",
+            "2ab6880be8487668"
+        ],
+        "x": 654,
+        "y": 1219,
+        "w": 1032,
+        "h": 282
+    },
+    {
+        "id": "7e7ebdaac21fc3f9",
         "type": "group",
         "z": "0f445844ad6a25a7",
         "style": {
@@ -6857,20 +6942,104 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "0b65b687a9bcfdd5",
-            "88fba924357c47d6",
-            "b26e2db46c0d1570",
-            "4152faa8be63d777",
-            "ba62549aa19c6fa0",
-            "8e73a79f04919f80",
-            "4ca276d2058a817e",
-            "d14b0d6294d3eccd",
-            "1ddb46384758794e"
+            "d92938a7929ebab8",
+            "02627ae6774056e4",
+            "d2023843f1a69fee"
         ],
         "x": 14,
         "y": 259,
-        "w": 1552,
-        "h": 142
+        "w": 392,
+        "h": 122
+    },
+    {
+        "id": "c328eeed871fc87e",
+        "type": "group",
+        "z": "db4b1fceb89e0ea6",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "dade9e59e399213d",
+            "3f3167f68833dd0c",
+            "51b637dbc5a9f5a4",
+            "5423b5c9749c5a23",
+            "fde5bb6b2b076043"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "e0a45c0c0737673b",
+        "type": "group",
+        "z": "db4b1fceb89e0ea6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7214cef45d8209b1",
+            "22a2d269c9e464c0",
+            "a3d3bc328f0927d8"
+        ],
+        "x": 14,
+        "y": 119,
+        "w": 302,
+        "h": 122
+    },
+    {
+        "id": "cf7c7f88734abe02",
+        "type": "group",
+        "z": "b3c2e11fe7899d59",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "2ba0a24e901b20ed",
+            "d3589c16d65b3350",
+            "9d0680d2c96ee53c",
+            "c24f44e3bb67812b",
+            "bb8d370580f51c7d"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "5e1e93cbdb33cd87",
+        "type": "group",
+        "z": "b3c2e11fe7899d59",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a4f91a4dd6cc87fa",
+            "eee161a9e895ce7b",
+            "130b40c68b8c244d",
+            "254a1aba167e9cfd",
+            "4b051fc0503ee690"
+        ],
+        "x": 14,
+        "y": 119,
+        "w": 622,
+        "h": 282
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -7376,7 +7545,7 @@
         "z": "39f5e6336137f4b2",
         "g": "59a9dccc6e2c8820",
         "x": 540,
-        "y": 2120,
+        "y": 2400,
         "wires": [
             [
                 "19b08832ac41fe31"
@@ -7389,7 +7558,7 @@
         "z": "39f5e6336137f4b2",
         "g": "59a9dccc6e2c8820",
         "x": 880,
-        "y": 2060,
+        "y": 2340,
         "wires": [
             [
                 "382a831c1568641b"
@@ -7448,6 +7617,35 @@
         "wires": [
             [
                 "2df9af4efbf40432"
+            ]
+        ]
+    },
+    {
+        "id": "c4746fd2c9c133c2",
+        "type": "junction",
+        "z": "39f5e6336137f4b2",
+        "g": "b1a4b8a22e8e6dbb",
+        "x": 680,
+        "y": 1300,
+        "wires": [
+            [
+                "df67f86b90c542b0",
+                "642661476be2caf3",
+                "38c517cf00b5dcd5",
+                "a182f03762072d84"
+            ]
+        ]
+    },
+    {
+        "id": "0742465ec0c317e1",
+        "type": "junction",
+        "z": "0f445844ad6a25a7",
+        "g": "16ee3be5f6b9c0a8",
+        "x": 1280,
+        "y": 600,
+        "wires": [
+            [
+                "13173e76d6c74f7e"
             ]
         ]
     },
@@ -13012,7 +13210,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 940,
-        "y": 3140,
+        "y": 3420,
         "wires": [
             []
         ]
@@ -13050,7 +13248,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 540,
-        "y": 3140,
+        "y": 3420,
         "wires": [
             [
                 "e8630ecd17b5f84e"
@@ -13065,7 +13263,7 @@
         "g": "1c08d4761f28031d",
         "name": "",
         "x": 170,
-        "y": 3140,
+        "y": 3420,
         "wires": [
             [
                 "e8f0a3086500e186",
@@ -13081,7 +13279,7 @@
         "name": "set input select entertainment to Uitschakelen when house gets onuccupied or sleepmode gets turned on",
         "info": "",
         "x": 390,
-        "y": 3080,
+        "y": 3360,
         "wires": []
     },
     {
@@ -13094,7 +13292,7 @@
             "e6b9ff42fde3ea4e"
         ],
         "x": 285,
-        "y": 3180,
+        "y": 3460,
         "wires": [
             [
                 "e8f0a3086500e186",
@@ -13135,7 +13333,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 420,
-        "y": 2600,
+        "y": 2880,
         "wires": [
             [
                 "485b2638b3e54f1b"
@@ -13170,7 +13368,7 @@
         "domain": "media_player",
         "service": "media_pause",
         "x": 670,
-        "y": 2600,
+        "y": 2880,
         "wires": [
             []
         ]
@@ -13185,7 +13383,7 @@
             "3bafb9626527259f"
         ],
         "x": 285,
-        "y": 2600,
+        "y": 2880,
         "wires": [
             [
                 "6a77eb9d04cca958"
@@ -13217,7 +13415,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 470,
-        "y": 2800,
+        "y": 3080,
         "wires": [
             [
                 "69b6c54a1cabe45b"
@@ -13251,7 +13449,7 @@
         "domain": "media_player",
         "service": "turn_on",
         "x": 470,
-        "y": 2740,
+        "y": 3020,
         "wires": [
             []
         ]
@@ -13283,7 +13481,7 @@
         "domain": "media_player",
         "service": "turn_off",
         "x": 670,
-        "y": 2800,
+        "y": 3080,
         "wires": [
             []
         ]
@@ -13326,7 +13524,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 250,
-        "y": 2740,
+        "y": 3020,
         "wires": [
             [
                 "38a89a2645866f0c"
@@ -13367,7 +13565,7 @@
             }
         ],
         "x": 90,
-        "y": 2740,
+        "y": 3020,
         "wires": [
             [
                 "fff03108c5f1ce08"
@@ -13382,7 +13580,7 @@
         "name": "tv_device button to toggle the tv on/off",
         "info": "",
         "x": 190,
-        "y": 2700,
+        "y": 2980,
         "wires": []
     },
     {
@@ -13393,7 +13591,7 @@
         "name": "pause the tv universal mediaplayer",
         "info": "",
         "x": 180,
-        "y": 2560,
+        "y": 2840,
         "wires": []
     },
     {
@@ -13417,7 +13615,7 @@
         "to": "",
         "reg": false,
         "x": 330,
-        "y": 2940,
+        "y": 3220,
         "wires": [
             [
                 "dec82ecde28afe10"
@@ -13445,7 +13643,7 @@
         "to": "",
         "reg": false,
         "x": 330,
-        "y": 2980,
+        "y": 3260,
         "wires": [
             [
                 "dec82ecde28afe10"
@@ -13504,7 +13702,7 @@
             }
         ],
         "x": 140,
-        "y": 2940,
+        "y": 3220,
         "wires": [
             [
                 "4a35bcbba9fd8659"
@@ -13528,7 +13726,7 @@
         "inputOverride": "allow",
         "outputProperties": [],
         "x": 480,
-        "y": 2940,
+        "y": 3220,
         "wires": [
             []
         ]
@@ -13541,7 +13739,7 @@
         "name": "tv_device binary sensor to save tv state",
         "info": "",
         "x": 190,
-        "y": 2900,
+        "y": 3180,
         "wires": []
     },
     {
@@ -13552,7 +13750,7 @@
         "name": "creates a sensor, if nvidia shield volume is 100% then the binary sensor is on",
         "info": "",
         "x": 310,
-        "y": 3280,
+        "y": 3580,
         "wires": []
     },
     {
@@ -13569,7 +13767,7 @@
         "inputOverride": "allow",
         "outputProperties": [],
         "x": 850,
-        "y": 3320,
+        "y": 3620,
         "wires": [
             []
         ]
@@ -13626,7 +13824,7 @@
             }
         ],
         "x": 180,
-        "y": 3320,
+        "y": 3620,
         "wires": [
             [
                 "3a5396be8f9c1286"
@@ -13657,7 +13855,7 @@
         "repair": false,
         "outputs": 2,
         "x": 400,
-        "y": 3320,
+        "y": 3620,
         "wires": [
             [
                 "84a90e2a73f04f0b"
@@ -13688,7 +13886,7 @@
         "to": "",
         "reg": false,
         "x": 600,
-        "y": 3320,
+        "y": 3620,
         "wires": [
             [
                 "7ca936eb66e9e2d5"
@@ -13716,7 +13914,7 @@
         "to": "",
         "reg": false,
         "x": 600,
-        "y": 3360,
+        "y": 3660,
         "wires": [
             [
                 "7ca936eb66e9e2d5"
@@ -13815,11 +14013,16 @@
                 "t": "eq",
                 "v": "Muziek",
                 "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "GameCube",
+                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 5,
+        "outputs": 6,
         "x": 460,
         "y": 360,
         "wires": [
@@ -13833,7 +14036,10 @@
                 "5cd9727be6e06acc"
             ],
             [],
-            []
+            [],
+            [
+                "c4746fd2c9c133c2"
+            ]
         ]
     },
     {
@@ -14144,7 +14350,9 @@
         "x": 1050,
         "y": 700,
         "wires": [
-            []
+            [
+                "9dcb4a8ce733ff28"
+            ]
         ]
     },
     {
@@ -14400,7 +14608,7 @@
             }
         ],
         "x": 140,
-        "y": 1820,
+        "y": 2100,
         "wires": [
             [
                 "4f9dcb4526aa6e68"
@@ -14432,7 +14640,7 @@
         "repair": false,
         "outputs": 2,
         "x": 330,
-        "y": 1820,
+        "y": 2100,
         "wires": [
             [
                 "a7ae16757970717f"
@@ -14480,7 +14688,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 540,
-        "y": 1800,
+        "y": 2080,
         "wires": [
             [
                 "fdca445a404c15cc"
@@ -14526,7 +14734,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 540,
-        "y": 1860,
+        "y": 2140,
         "wires": [
             [
                 "fdca445a404c15cc"
@@ -14572,7 +14780,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 780,
-        "y": 1820,
+        "y": 2100,
         "wires": [
             [
                 "f06607d23ea600e0",
@@ -14608,7 +14816,7 @@
         "domain": "media_player",
         "service": "media_pause",
         "x": 980,
-        "y": 1820,
+        "y": 2100,
         "wires": [
             []
         ]
@@ -14624,7 +14832,7 @@
             "72b9b335e9a56383"
         ],
         "x": 935,
-        "y": 1880,
+        "y": 2160,
         "wires": []
     },
     {
@@ -14635,7 +14843,7 @@
         "name": "pause when phone is off hook",
         "info": "",
         "x": 160,
-        "y": 1780,
+        "y": 2060,
         "wires": []
     },
     {
@@ -14690,7 +14898,7 @@
             }
         ],
         "x": 150,
-        "y": 1680,
+        "y": 1960,
         "wires": [
             [
                 "2c145c15609bd2fb"
@@ -14717,7 +14925,7 @@
         "repair": false,
         "outputs": 1,
         "x": 380,
-        "y": 1680,
+        "y": 1960,
         "wires": [
             [
                 "68088e8c9c8a0e54"
@@ -14762,7 +14970,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 670,
-        "y": 1680,
+        "y": 1960,
         "wires": [
             [
                 "207e1edd1118b4af"
@@ -14797,7 +15005,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 990,
-        "y": 1680,
+        "y": 1960,
         "wires": [
             []
         ]
@@ -14810,7 +15018,7 @@
         "name": "input select tv",
         "info": "",
         "x": 110,
-        "y": 1640,
+        "y": 1920,
         "wires": []
     },
     {
@@ -14865,7 +15073,7 @@
             }
         ],
         "x": 160,
-        "y": 1540,
+        "y": 1820,
         "wires": [
             [
                 "37a61d11bf9ce0ab"
@@ -14892,7 +15100,7 @@
         "repair": false,
         "outputs": 1,
         "x": 370,
-        "y": 1540,
+        "y": 1820,
         "wires": [
             [
                 "cbfb0a5eb7b1a139"
@@ -14918,7 +15126,7 @@
         "repair": false,
         "outputs": 1,
         "x": 510,
-        "y": 1540,
+        "y": 1820,
         "wires": [
             [
                 "44ccff64331a48d4"
@@ -14952,7 +15160,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 720,
-        "y": 1540,
+        "y": 1820,
         "wires": [
             []
         ]
@@ -14965,7 +15173,7 @@
         "name": "select entertainment activity based on powernode content",
         "info": "",
         "x": 250,
-        "y": 1500,
+        "y": 1780,
         "wires": []
     },
     {
@@ -15021,7 +15229,7 @@
             }
         ],
         "x": 160,
-        "y": 1340,
+        "y": 1620,
         "wires": [
             [
                 "e40f3ebc2b772714"
@@ -15066,7 +15274,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 480,
-        "y": 1340,
+        "y": 1620,
         "wires": [
             [
                 "0e05b01a3088ebe6"
@@ -15094,7 +15302,7 @@
         "forType": "num",
         "forUnits": "minutes",
         "x": 830,
-        "y": 1340,
+        "y": 1620,
         "wires": [
             [
                 "210f99cc3d429b16"
@@ -15126,7 +15334,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1050,
-        "y": 1340,
+        "y": 1620,
         "wires": [
             [
                 "6739b21acd1ca7bf"
@@ -15174,7 +15382,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1280,
-        "y": 1340,
+        "y": 1620,
         "wires": [
             [
                 "e6b09e369fa79397"
@@ -15220,7 +15428,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 1280,
-        "y": 1400,
+        "y": 1680,
         "wires": [
             [
                 "bf21fecdc989374a"
@@ -15255,7 +15463,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 1600,
-        "y": 1340,
+        "y": 1620,
         "wires": [
             []
         ]
@@ -15287,7 +15495,7 @@
         "domain": "input_select",
         "service": "select_option",
         "x": 1600,
-        "y": 1400,
+        "y": 1680,
         "wires": [
             []
         ]
@@ -15300,7 +15508,7 @@
         "name": "select entertainment activity based on media player content",
         "info": "",
         "x": 250,
-        "y": 1300,
+        "y": 1580,
         "wires": []
     },
     {
@@ -15424,7 +15632,7 @@
             }
         ],
         "x": 150,
-        "y": 2040,
+        "y": 2320,
         "wires": [
             [
                 "5e6c2b35b3d20cc1"
@@ -15455,7 +15663,7 @@
         "repair": false,
         "outputs": 2,
         "x": 450,
-        "y": 2040,
+        "y": 2320,
         "wires": [
             [
                 "d9540c933a60aec7",
@@ -15487,7 +15695,7 @@
         "to": "",
         "reg": false,
         "x": 620,
-        "y": 2060,
+        "y": 2340,
         "wires": [
             [
                 "4539dbe872caf169",
@@ -15506,7 +15714,7 @@
             "dec99c0ab95cf46a"
         ],
         "x": 555,
-        "y": 2020,
+        "y": 2300,
         "wires": []
     },
     {
@@ -15528,7 +15736,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 800,
-        "y": 2120,
+        "y": 2400,
         "wires": [
             [
                 "382a831c1568641b",
@@ -15555,7 +15763,7 @@
         "repair": false,
         "outputs": 1,
         "x": 450,
-        "y": 2160,
+        "y": 2440,
         "wires": [
             [
                 "f8003d1746659317"
@@ -15581,7 +15789,7 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1000,
-        "y": 2120,
+        "y": 2400,
         "wires": [
             [
                 "058b6bfd406a2ad0"
@@ -15613,7 +15821,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 960,
-        "y": 2180,
+        "y": 2460,
         "wires": [
             [
                 "18cdd9064f4a7ab9"
@@ -15640,7 +15848,7 @@
         "repair": false,
         "outputs": 1,
         "x": 330,
-        "y": 2160,
+        "y": 2440,
         "wires": [
             [
                 "a325b77f020cd697"
@@ -15658,7 +15866,7 @@
             "1e4e8287439e54f1"
         ],
         "x": 1095,
-        "y": 2120,
+        "y": 2400,
         "wires": []
     },
     {
@@ -15693,7 +15901,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 1120,
-        "y": 2180,
+        "y": 2460,
         "wires": [
             [
                 "54e3e2b794b71880"
@@ -15752,7 +15960,7 @@
             }
         ],
         "x": 150,
-        "y": 2160,
+        "y": 2440,
         "wires": [
             [
                 "b822a9f31018d2a0"
@@ -15778,7 +15986,7 @@
         "repair": false,
         "outputs": 1,
         "x": 1270,
-        "y": 2180,
+        "y": 2460,
         "wires": [
             [
                 "a9227561e7f66936"
@@ -15817,7 +16025,7 @@
         "domain": "notify",
         "service": "lg_webos_smart_tv",
         "x": 1400,
-        "y": 2180,
+        "y": 2460,
         "wires": [
             []
         ]
@@ -15830,7 +16038,7 @@
         "name": "turn off tvscreen when nothing is playing and turn back on when mediaplayer start playing",
         "info": "",
         "x": 350,
-        "y": 1980,
+        "y": 2260,
         "wires": []
     },
     {
@@ -15841,7 +16049,7 @@
         "name": "turn off tv screen to save energy and to prevent pixel burn in",
         "info": "",
         "x": 260,
-        "y": 2280,
+        "y": 2560,
         "wires": []
     },
     {
@@ -15869,7 +16077,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 800,
-        "y": 2340,
+        "y": 2620,
         "wires": [
             []
         ]
@@ -15906,7 +16114,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 500,
-        "y": 2340,
+        "y": 2620,
         "wires": [
             [
                 "3905cfef0361c276"
@@ -15932,7 +16140,7 @@
         "repair": false,
         "outputs": 1,
         "x": 650,
-        "y": 2340,
+        "y": 2620,
         "wires": [
             [
                 "75b84d8bf5e2faeb"
@@ -15948,10 +16156,11 @@
         "links": [
             "9bfa5f87424a529d",
             "cc95177ff7dd19c7",
-            "69a9dca32ca286e4"
+            "69a9dca32ca286e4",
+            "38c517cf00b5dcd5"
         ],
         "x": 225,
-        "y": 2340,
+        "y": 2620,
         "wires": [
             [
                 "c63b94a1bcddb5f9"
@@ -15968,7 +16177,7 @@
             "058b6bfd406a2ad0"
         ],
         "x": 225,
-        "y": 2400,
+        "y": 2680,
         "wires": [
             [
                 "462935c54d978b2f"
@@ -16007,7 +16216,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 500,
-        "y": 2400,
+        "y": 2680,
         "wires": [
             [
                 "9dd84bc036be6c85"
@@ -16033,7 +16242,7 @@
         "repair": false,
         "outputs": 1,
         "x": 650,
-        "y": 2400,
+        "y": 2680,
         "wires": [
             [
                 "c054e6f474b4191e"
@@ -16065,7 +16274,7 @@
         "domain": "webostv",
         "service": "command",
         "x": 800,
-        "y": 2400,
+        "y": 2680,
         "wires": [
             []
         ]
@@ -16108,7 +16317,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 340,
-        "y": 2340,
+        "y": 2620,
         "wires": [
             [
                 "7ee0608b0362347d"
@@ -16154,7 +16363,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 340,
-        "y": 2400,
+        "y": 2680,
         "wires": [
             [
                 "daac1efc716c9aa2"
@@ -16193,7 +16402,7 @@
             }
         ],
         "x": 140,
-        "y": 2460,
+        "y": 2740,
         "wires": [
             [
                 "c63b94a1bcddb5f9",
@@ -16215,7 +16424,7 @@
         "property": "payload",
         "topi": "topic",
         "x": 330,
-        "y": 2040,
+        "y": 2320,
         "wires": [
             [
                 "b17acb7df0bb2bd2"
@@ -16482,8 +16691,377 @@
         "domain": "media_player",
         "service": "media_stop",
         "x": 460,
-        "y": 3200,
+        "y": 3480,
         "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0190e1b6f8d328c8",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "g": "b1a4b8a22e8e6dbb",
+        "name": "turn on universal tv",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.turn_on",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "media_player.universal_tv"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "media_player",
+        "service": "turn_on",
+        "x": 1050,
+        "y": 1300,
+        "wires": [
+            [
+                "2ab6880be8487668"
+            ]
+        ]
+    },
+    {
+        "id": "7e4d241677f212df",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "g": "b1a4b8a22e8e6dbb",
+        "name": "select source optical input on bluesound powernode",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.select_source",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "media_player.powernode_2i_ea48"
+        ],
+        "labelId": [],
+        "data": "{\"source\":\"Optical\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "media_player",
+        "service": "select_source",
+        "x": 1210,
+        "y": 1360,
+        "wires": [
+            [
+                "73ceb66ee08b5c28"
+            ]
+        ]
+    },
+    {
+        "id": "902c7f93c8f0adb5",
+        "type": "comment",
+        "z": "39f5e6336137f4b2",
+        "g": "b1a4b8a22e8e6dbb",
+        "name": "GameCube",
+        "info": "",
+        "x": 830,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "73ceb66ee08b5c28",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "g": "b1a4b8a22e8e6dbb",
+        "name": "play optical input powernode",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.media_play",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "media_player.powernode_2i_ea48"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "media_player",
+        "service": "media_play",
+        "x": 1540,
+        "y": 1360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "df67f86b90c542b0",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "g": "b1a4b8a22e8e6dbb",
+        "name": "stop mediaplayer powernode",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.media_stop",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "media_player.powernode_2i_ea48"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": false,
+        "domain": "media_player",
+        "service": "media_stop",
+        "x": 880,
+        "y": 1360,
+        "wires": [
+            [
+                "7e4d241677f212df"
+            ]
+        ]
+    },
+    {
+        "id": "642661476be2caf3",
+        "type": "api-current-state",
+        "z": "39f5e6336137f4b2",
+        "g": "b1a4b8a22e8e6dbb",
+        "name": "universal tv is off",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "off",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "entity_id": "media_player.universal_tv",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 850,
+        "y": 1300,
+        "wires": [
+            [
+                "0190e1b6f8d328c8"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "38c517cf00b5dcd5",
+        "type": "link out",
+        "z": "39f5e6336137f4b2",
+        "g": "b1a4b8a22e8e6dbb",
+        "name": "link_out_tv_turn_on",
+        "mode": "link",
+        "links": [
+            "dec99c0ab95cf46a"
+        ],
+        "x": 775,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "a182f03762072d84",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "g": "b1a4b8a22e8e6dbb",
+        "name": "turn on lg tv device",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "wake_on_lan.send_magic_packet",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"mac\":\"38:8c:50:62:11:4d\",\"broadcast_address\":\"10.0.30.80\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "wake_on_lan",
+        "service": "send_magic_packet",
+        "x": 850,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "18f28aa8f4f032e4",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "g": "b1a4b8a22e8e6dbb",
+        "name": "select hdmi1",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.select_source",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "media_player.lg_webos_smart_tv"
+        ],
+        "labelId": [],
+        "data": "{\"source\":\"HDMI1\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "media_player",
+        "service": "select_source",
+        "x": 1490,
+        "y": 1300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9f89dbb35450cec3",
+        "type": "api-call-service",
+        "z": "39f5e6336137f4b2",
+        "g": "cd256ec259a611f4",
+        "name": "select hdmi2",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "media_player.select_source",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "media_player.lg_webos_smart_tv"
+        ],
+        "labelId": [],
+        "data": "{\"source\":\"HDMI2\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "media_player",
+        "service": "select_source",
+        "x": 1490,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2ab6880be8487668",
+        "type": "ha-wait-until",
+        "z": "39f5e6336137f4b2",
+        "g": "b1a4b8a22e8e6dbb",
+        "name": "wait for media_player state",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "entities": {
+            "entity": [
+                "media_player.lg_webos_smart_tv"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "property": "state",
+        "comparator": "is",
+        "value": "on",
+        "valueType": "str",
+        "timeout": "120",
+        "timeoutType": "num",
+        "timeoutUnits": "seconds",
+        "checkCurrentState": true,
+        "blockInputOverrides": true,
+        "outputProperties": [],
+        "x": 1280,
+        "y": 1300,
+        "wires": [
+            [
+                "18f28aa8f4f032e4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9dcb4a8ce733ff28",
+        "type": "ha-wait-until",
+        "z": "39f5e6336137f4b2",
+        "g": "cd256ec259a611f4",
+        "name": "wait for media_player state",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "entities": {
+            "entity": [
+                "media_player.lg_webos_smart_tv"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "property": "state",
+        "comparator": "is",
+        "value": "on",
+        "valueType": "str",
+        "timeout": "120",
+        "timeoutType": "num",
+        "timeoutUnits": "seconds",
+        "checkCurrentState": true,
+        "blockInputOverrides": true,
+        "outputProperties": [],
+        "x": 1280,
+        "y": 700,
+        "wires": [
+            [
+                "9f89dbb35450cec3"
+            ],
             []
         ]
     },
@@ -51580,7 +52158,9 @@
             "bfa8946e0b76ad2e",
             "2e9e2b02c8f4b00b",
             "ce6eac61680305d8",
-            "57a4a906a2a95a05"
+            "57a4a906a2a95a05",
+            "51b637dbc5a9f5a4",
+            "9d0680d2c96ee53c"
         ],
         "x": 295,
         "y": 500,
@@ -55167,7 +55747,7 @@
         "links": [
             "5c1c1d90a2fa76e0"
         ],
-        "x": 425,
+        "x": 235,
         "y": 200,
         "wires": []
     },
@@ -55190,7 +55770,7 @@
         "onceDelay": 0.1,
         "topic": "",
         "x": 110,
-        "y": 340,
+        "y": 480,
         "wires": [
             [
                 "88fba924357c47d6"
@@ -55229,7 +55809,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 290,
-        "y": 340,
+        "y": 480,
         "wires": [
             [
                 "4152faa8be63d777"
@@ -55250,7 +55830,7 @@
         "finalize": "",
         "libs": [],
         "x": 750,
-        "y": 340,
+        "y": 480,
         "wires": [
             [
                 "ba62549aa19c6fa0"
@@ -55289,7 +55869,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 520,
-        "y": 340,
+        "y": 480,
         "wires": [
             [
                 "b26e2db46c0d1570"
@@ -55320,7 +55900,7 @@
         "repair": false,
         "outputs": 2,
         "x": 960,
-        "y": 340,
+        "y": 480,
         "wires": [
             [
                 "8e73a79f04919f80"
@@ -55344,19 +55924,133 @@
         "finalize": "",
         "libs": [],
         "x": 1170,
-        "y": 320,
+        "y": 460,
         "wires": [
             [
-                "4ca276d2058a817e"
+                "13173e76d6c74f7e"
             ]
         ]
     },
     {
-        "id": "4ca276d2058a817e",
-        "type": "api-call-service",
+        "id": "d14b0d6294d3eccd",
+        "type": "function",
         "z": "0f445844ad6a25a7",
         "g": "16ee3be5f6b9c0a8",
-        "name": "",
+        "name": "set initial step target",
+        "func": "msg.new_step_target = msg.coen_daily_step_target.attributes.initial\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 500,
+        "wires": [
+            [
+                "13173e76d6c74f7e"
+            ]
+        ]
+    },
+    {
+        "id": "1ddb46384758794e",
+        "type": "comment",
+        "z": "0f445844ad6a25a7",
+        "g": "16ee3be5f6b9c0a8",
+        "name": "increment step goal with the amount of daily steps left. if the goal is reached change it back to inital step goal",
+        "info": "",
+        "x": 410,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "e621f702dadd4b56",
+        "type": "comment",
+        "z": "0f445844ad6a25a7",
+        "g": "63fe432d77284ad0",
+        "name": "set notification with the amount of daily steps",
+        "info": "",
+        "x": 210,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "eced6dd90872866e",
+        "type": "comment",
+        "z": "0f445844ad6a25a7",
+        "g": "16ee3be5f6b9c0a8",
+        "name": "decrement step goal with the initial value set in input_number step target",
+        "info": "",
+        "x": 290,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "1976bccb3e1cf3cb",
+        "type": "api-current-state",
+        "z": "0f445844ad6a25a7",
+        "g": "16ee3be5f6b9c0a8",
+        "name": "coen daily step target",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "num",
+        "halt_if_compare": "is",
+        "entity_id": "input_number.coen_daily_step_target",
+        "state_type": "num",
+        "blockInputOverrides": true,
+        "outputProperties": [
+            {
+                "property": "coen_daily_step_target",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 520,
+        "y": 600,
+        "wires": [
+            [
+                "071d5686e1824915"
+            ]
+        ]
+    },
+    {
+        "id": "071d5686e1824915",
+        "type": "function",
+        "z": "0f445844ad6a25a7",
+        "g": "16ee3be5f6b9c0a8",
+        "name": "calculate new step target",
+        "func": "msg.coen_daily_steps_left = msg.coen_daily_step_target.state - msg.coen_daily_step_target.attributes.initial\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 600,
+        "wires": [
+            [
+                "0742465ec0c317e1"
+            ]
+        ]
+    },
+    {
+        "id": "d92938a7929ebab8",
+        "type": "api-call-service",
+        "z": "0f445844ad6a25a7",
+        "g": "7e7ebdaac21fc3f9",
+        "name": "set new step target value for coen",
         "server": "4ba92433.2478cc",
         "version": 7,
         "debugenabled": false,
@@ -55377,102 +56071,447 @@
         "blockInputOverrides": true,
         "domain": "input_number",
         "service": "set_value",
-        "x": 1430,
+        "x": 240,
         "y": 340,
         "wires": [
             []
         ]
     },
     {
-        "id": "d14b0d6294d3eccd",
-        "type": "function",
+        "id": "02627ae6774056e4",
+        "type": "link in",
         "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "name": "set initial step target",
-        "func": "msg.new_step_target = msg.coen_daily_step_target.attributes.initial\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1160,
-        "y": 360,
+        "g": "7e7ebdaac21fc3f9",
+        "name": "set new step target value for coen",
+        "links": [
+            "13173e76d6c74f7e"
+        ],
+        "x": 65,
+        "y": 340,
         "wires": [
             [
-                "4ca276d2058a817e"
+                "d92938a7929ebab8"
             ]
         ]
     },
     {
-        "id": "1ddb46384758794e",
+        "id": "d2023843f1a69fee",
         "type": "comment",
         "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "name": "increment step goal with the amount of daily steps left. if the goal is reached change it back to inital step goal",
+        "g": "7e7ebdaac21fc3f9",
+        "name": "set new step target value for coen",
         "info": "",
-        "x": 410,
+        "x": 170,
         "y": 300,
         "wires": []
     },
     {
-        "id": "e621f702dadd4b56",
-        "type": "comment",
+        "id": "13173e76d6c74f7e",
+        "type": "link out",
         "z": "0f445844ad6a25a7",
-        "g": "63fe432d77284ad0",
-        "name": "set notification when the amount of steps left",
-        "info": "",
-        "x": 210,
-        "y": 160,
+        "g": "16ee3be5f6b9c0a8",
+        "name": "set new step target value for coen",
+        "mode": "link",
+        "links": [
+            "02627ae6774056e4"
+        ],
+        "x": 1345,
+        "y": 540,
         "wires": []
     },
     {
-        "id": "a410b5584d9d05bd",
-        "type": "function",
+        "id": "80e1e1a4c2c9d6da",
+        "type": "link in",
         "z": "0f445844ad6a25a7",
-        "name": "calculate daily steps left",
-        "func": "msg.coen_daily_steps_left = msg.coen_daily_step_target.state - msg.phone_coen_daily_steps\nreturn msg;",
+        "g": "16ee3be5f6b9c0a8",
+        "name": "coen enter basicfit zone",
+        "links": [
+            "a3d3bc328f0927d8",
+            "58cb4f013dfb3d76"
+        ],
+        "x": 385,
+        "y": 600,
+        "wires": [
+            [
+                "1976bccb3e1cf3cb"
+            ]
+        ]
+    },
+    {
+        "id": "dade9e59e399213d",
+        "type": "catch",
+        "z": "db4b1fceb89e0ea6",
+        "g": "c328eeed871fc87e",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 60,
+        "wires": [
+            [
+                "3f3167f68833dd0c"
+            ]
+        ]
+    },
+    {
+        "id": "3f3167f68833dd0c",
+        "type": "template",
+        "z": "db4b1fceb89e0ea6",
+        "g": "c328eeed871fc87e",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 60,
+        "wires": [
+            [
+                "5423b5c9749c5a23"
+            ]
+        ]
+    },
+    {
+        "id": "51b637dbc5a9f5a4",
+        "type": "link out",
+        "z": "db4b1fceb89e0ea6",
+        "g": "c328eeed871fc87e",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "5423b5c9749c5a23",
+        "type": "template",
+        "z": "db4b1fceb89e0ea6",
+        "g": "c328eeed871fc87e",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 60,
+        "wires": [
+            [
+                "fde5bb6b2b076043"
+            ]
+        ]
+    },
+    {
+        "id": "fde5bb6b2b076043",
+        "type": "function",
+        "z": "db4b1fceb89e0ea6",
+        "g": "c328eeed871fc87e",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = Date.now().toString(36) + Math.random().toString(36);\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
-        "y": 200,
+        "x": 550,
+        "y": 60,
         "wires": [
             [
-                "e13cc15a3368252a"
+                "51b637dbc5a9f5a4"
             ]
         ]
     },
     {
-        "id": "e13cc15a3368252a",
-        "type": "switch",
-        "z": "0f445844ad6a25a7",
-        "name": "decide steps left",
-        "property": "coen_daily_steps_left",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gte",
-                "v": "0",
-                "vt": "num"
-            },
-            {
-                "t": "lt",
-                "v": "0",
-                "vt": "num"
-            }
+        "id": "7214cef45d8209b1",
+        "type": "ha-zone",
+        "z": "db4b1fceb89e0ea6",
+        "g": "e0a45c0c0737673b",
+        "name": "coen enter basicfit zone",
+        "server": "4ba92433.2478cc",
+        "version": 1,
+        "exposeAsEntityConfig": "",
+        "entities": [
+            "person.coen"
         ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 920,
+        "event": "enter",
+        "zones": [
+            "zone.basicfit_peppelensteeg"
+        ],
+        "x": 140,
         "y": 200,
         "wires": [
-            [],
+            [
+                "a3d3bc328f0927d8"
+            ]
+        ]
+    },
+    {
+        "id": "22a2d269c9e464c0",
+        "type": "comment",
+        "z": "db4b1fceb89e0ea6",
+        "g": "e0a45c0c0737673b",
+        "name": "coen enter basicfit zone",
+        "info": "",
+        "x": 140,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "a3d3bc328f0927d8",
+        "type": "link out",
+        "z": "db4b1fceb89e0ea6",
+        "g": "e0a45c0c0737673b",
+        "name": "coen enter basicfit zone",
+        "mode": "link",
+        "links": [
+            "80e1e1a4c2c9d6da"
+        ],
+        "x": 275,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "2ba0a24e901b20ed",
+        "type": "catch",
+        "z": "b3c2e11fe7899d59",
+        "g": "cf7c7f88734abe02",
+        "name": "",
+        "scope": null,
+        "uncaught": false,
+        "x": 100,
+        "y": 60,
+        "wires": [
+            [
+                "d3589c16d65b3350"
+            ]
+        ]
+    },
+    {
+        "id": "d3589c16d65b3350",
+        "type": "template",
+        "z": "b3c2e11fe7899d59",
+        "g": "cf7c7f88734abe02",
+        "name": "messsage",
+        "field": "notify.message",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "message: {{{error.message}}} \\nSource: id: {{error.source.id}} \\ntype: {{error.source.type}} \\nname: {{error.source.name}} \\ncount: {{error.source.count}}",
+        "output": "str",
+        "x": 250,
+        "y": 60,
+        "wires": [
+            [
+                "c24f44e3bb67812b"
+            ]
+        ]
+    },
+    {
+        "id": "9d0680d2c96ee53c",
+        "type": "link out",
+        "z": "b3c2e11fe7899d59",
+        "g": "cf7c7f88734abe02",
+        "name": "link_out_notify_1",
+        "mode": "link",
+        "links": [
+            "a97f87cfab413716"
+        ],
+        "x": 675,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c24f44e3bb67812b",
+        "type": "template",
+        "z": "b3c2e11fe7899d59",
+        "g": "cf7c7f88734abe02",
+        "name": "title",
+        "field": "notify.title",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Node-RED",
+        "output": "str",
+        "x": 390,
+        "y": 60,
+        "wires": [
+            [
+                "bb8d370580f51c7d"
+            ]
+        ]
+    },
+    {
+        "id": "bb8d370580f51c7d",
+        "type": "function",
+        "z": "b3c2e11fe7899d59",
+        "g": "cf7c7f88734abe02",
+        "name": "notify.notification_id",
+        "func": "msg.notify.notification_id = Date.now().toString(36) + Math.random().toString(36);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 60,
+        "wires": [
+            [
+                "9d0680d2c96ee53c"
+            ]
+        ]
+    },
+    {
+        "id": "a4f91a4dd6cc87fa",
+        "type": "ha-zone",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "name": "coen enter work zone",
+        "server": "4ba92433.2478cc",
+        "version": 1,
+        "exposeAsEntityConfig": "",
+        "entities": [
+            "person.coen"
+        ],
+        "event": "enter",
+        "zones": [
+            "zone.work_coen"
+        ],
+        "x": 140,
+        "y": 200,
+        "wires": [
+            [
+                "130b40c68b8c244d"
+            ]
+        ]
+    },
+    {
+        "id": "eee161a9e895ce7b",
+        "type": "comment",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "name": "coen enter work zone",
+        "info": "",
+        "x": 140,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "130b40c68b8c244d",
+        "type": "simpletime",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "name": "",
+        "mydate": false,
+        "myymd": true,
+        "myyear": false,
+        "mymonth": false,
+        "mymonthn": false,
+        "mymonthf": false,
+        "mydom": false,
+        "mydoy": false,
+        "myday": false,
+        "mydayf": false,
+        "myhourpm": false,
+        "myhour": false,
+        "mytime": false,
+        "mytimes": true,
+        "myminute": false,
+        "myminutes": false,
+        "mysecond": false,
+        "mymillis": false,
+        "myepoch": false,
+        "myrawdate": false,
+        "mypm": false,
+        "x": 350,
+        "y": 200,
+        "wires": [
+            [
+                "254a1aba167e9cfd",
+                "426a586221d571a9"
+            ]
+        ]
+    },
+    {
+        "id": "426a586221d571a9",
+        "type": "api-call-service",
+        "z": "b3c2e11fe7899d59",
+        "name": "create calander event",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "calendar.create_event",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "calendar.coen"
+        ],
+        "labelId": [],
+        "data": "{\"summary\":\"Coen op kantoor\",\"description\":\"Coen is op locatie kantoor\",\"start_date_time\":\"{{myymd}} {{mytimes}}\",\"end_date_time\":\"{{myymd}} 17:00:00\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "calendar",
+        "service": "create_event",
+        "x": 580,
+        "y": 220,
+        "wires": [
             []
+        ]
+    },
+    {
+        "id": "254a1aba167e9cfd",
+        "type": "debug",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "4b051fc0503ee690",
+        "type": "inject",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "name": "time",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 300,
+        "y": 360,
+        "wires": [
+            [
+                "130b40c68b8c244d"
+            ]
         ]
     }
 ]
