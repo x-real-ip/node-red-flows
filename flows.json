@@ -5183,6 +5183,127 @@
         "h": 242
     },
     {
+        "id": "7e7ebdaac21fc3f9",
+        "type": "group",
+        "z": "0f445844ad6a25a7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d92938a7929ebab8",
+            "02627ae6774056e4",
+            "d2023843f1a69fee"
+        ],
+        "x": 14,
+        "y": 259,
+        "w": 392,
+        "h": 122
+    },
+    {
+        "id": "c328eeed871fc87e",
+        "type": "group",
+        "z": "db4b1fceb89e0ea6",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "dade9e59e399213d",
+            "3f3167f68833dd0c",
+            "51b637dbc5a9f5a4",
+            "5423b5c9749c5a23",
+            "fde5bb6b2b076043"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "e0a45c0c0737673b",
+        "type": "group",
+        "z": "db4b1fceb89e0ea6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "22a2d269c9e464c0",
+            "a3d3bc328f0927d8",
+            "837a5216c77011ab"
+        ],
+        "x": 14,
+        "y": 119,
+        "w": 602,
+        "h": 122
+    },
+    {
+        "id": "cf7c7f88734abe02",
+        "type": "group",
+        "z": "b3c2e11fe7899d59",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "2ba0a24e901b20ed",
+            "d3589c16d65b3350",
+            "9d0680d2c96ee53c",
+            "c24f44e3bb67812b",
+            "bb8d370580f51c7d"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "5e1e93cbdb33cd87",
+        "type": "group",
+        "z": "b3c2e11fe7899d59",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "eee161a9e895ce7b",
+            "7866fd4f051a2878",
+            "c3a6b38f9267407d",
+            "db5ff3f6f535abc9",
+            "130b40c68b8c244d",
+            "2753d031bf0977c0",
+            "9954d7bb0613a21a",
+            "426a586221d571a9",
+            "6492ac3610757649",
+            "fa6c09344bfceb76",
+            "29cd565432650fc3",
+            "26acb6dfad451096",
+            "4c4665e3d53ff3f9"
+        ],
+        "x": 14,
+        "y": 119,
+        "w": 1272,
+        "h": 162
+    },
+    {
         "id": "ef69ec82c772cad9",
         "type": "group",
         "z": "75537afd17de5117",
@@ -6927,123 +7048,6 @@
         "y": 1219,
         "w": 1032,
         "h": 282
-    },
-    {
-        "id": "7e7ebdaac21fc3f9",
-        "type": "group",
-        "z": "0f445844ad6a25a7",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "d92938a7929ebab8",
-            "02627ae6774056e4",
-            "d2023843f1a69fee"
-        ],
-        "x": 14,
-        "y": 259,
-        "w": 392,
-        "h": 122
-    },
-    {
-        "id": "c328eeed871fc87e",
-        "type": "group",
-        "z": "db4b1fceb89e0ea6",
-        "name": "",
-        "style": {
-            "fill": "#ffbfbf",
-            "label": true
-        },
-        "nodes": [
-            "dade9e59e399213d",
-            "3f3167f68833dd0c",
-            "51b637dbc5a9f5a4",
-            "5423b5c9749c5a23",
-            "fde5bb6b2b076043"
-        ],
-        "x": 14,
-        "y": 19,
-        "w": 702,
-        "h": 82
-    },
-    {
-        "id": "e0a45c0c0737673b",
-        "type": "group",
-        "z": "db4b1fceb89e0ea6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "7214cef45d8209b1",
-            "22a2d269c9e464c0",
-            "a3d3bc328f0927d8"
-        ],
-        "x": 14,
-        "y": 119,
-        "w": 302,
-        "h": 122
-    },
-    {
-        "id": "cf7c7f88734abe02",
-        "type": "group",
-        "z": "b3c2e11fe7899d59",
-        "name": "",
-        "style": {
-            "fill": "#ffbfbf",
-            "label": true
-        },
-        "nodes": [
-            "2ba0a24e901b20ed",
-            "d3589c16d65b3350",
-            "9d0680d2c96ee53c",
-            "c24f44e3bb67812b",
-            "bb8d370580f51c7d"
-        ],
-        "x": 14,
-        "y": 19,
-        "w": 702,
-        "h": 82
-    },
-    {
-        "id": "5e1e93cbdb33cd87",
-        "type": "group",
-        "z": "b3c2e11fe7899d59",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "a4f91a4dd6cc87fa",
-            "eee161a9e895ce7b",
-            "130b40c68b8c244d",
-            "426a586221d571a9",
-            "2753d031bf0977c0",
-            "6492ac3610757649",
-            "fa6c09344bfceb76",
-            "6a61663be5b7b8d6",
-            "29cd565432650fc3"
-        ],
-        "x": 14,
-        "y": 119,
-        "w": 1032,
-        "h": 162
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -56034,7 +56038,7 @@
         "z": "0f445844ad6a25a7",
         "g": "16ee3be5f6b9c0a8",
         "name": "calculate new step target",
-        "func": "msg.coen_daily_steps_left = msg.coen_daily_step_target.state - msg.coen_daily_step_target.attributes.initial\nreturn msg;",
+        "func": "msg.new_step_target = msg.coen_daily_step_target.state - msg.coen_daily_step_target.attributes.initial\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -56078,7 +56082,9 @@
         "x": 240,
         "y": 340,
         "wires": [
-            []
+            [
+                "24697a14e2b5d035"
+            ]
         ]
     },
     {
@@ -56130,8 +56136,7 @@
         "g": "16ee3be5f6b9c0a8",
         "name": "coen enter basicfit zone",
         "links": [
-            "a3d3bc328f0927d8",
-            "58cb4f013dfb3d76"
+            "a3d3bc328f0927d8"
         ],
         "x": 385,
         "y": 600,
@@ -56140,6 +56145,23 @@
                 "1976bccb3e1cf3cb"
             ]
         ]
+    },
+    {
+        "id": "24697a14e2b5d035",
+        "type": "debug",
+        "z": "0f445844ad6a25a7",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 628,
+        "y": 338,
+        "wires": []
     },
     {
         "id": "dade9e59e399213d",
@@ -56233,30 +56255,6 @@
         ]
     },
     {
-        "id": "7214cef45d8209b1",
-        "type": "ha-zone",
-        "z": "db4b1fceb89e0ea6",
-        "g": "e0a45c0c0737673b",
-        "name": "coen enter basicfit zone",
-        "server": "4ba92433.2478cc",
-        "version": 1,
-        "exposeAsEntityConfig": "",
-        "entities": [
-            "person.coen"
-        ],
-        "event": "enter",
-        "zones": [
-            "zone.basicfit_peppelensteeg"
-        ],
-        "x": 140,
-        "y": 200,
-        "wires": [
-            [
-                "a3d3bc328f0927d8"
-            ]
-        ]
-    },
-    {
         "id": "22a2d269c9e464c0",
         "type": "comment",
         "z": "db4b1fceb89e0ea6",
@@ -56277,9 +56275,114 @@
         "links": [
             "80e1e1a4c2c9d6da"
         ],
-        "x": 275,
+        "x": 575,
         "y": 200,
         "wires": []
+    },
+    {
+        "id": "837a5216c77011ab",
+        "type": "server-state-changed",
+        "z": "db4b1fceb89e0ea6",
+        "g": "e0a45c0c0737673b",
+        "name": "coen enter basicfit zone",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "zone.home"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "1",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": false,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 140,
+        "y": 200,
+        "wires": [
+            [
+                "ac5ce4759c4c8372"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ac5ce4759c4c8372",
+        "type": "split",
+        "z": "db4b1fceb89e0ea6",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "data.new_state.attributes.persons",
+        "x": 310,
+        "y": 200,
+        "wires": [
+            [
+                "c3698d1bb54da00d"
+            ]
+        ]
+    },
+    {
+        "id": "c3698d1bb54da00d",
+        "type": "switch",
+        "z": "db4b1fceb89e0ea6",
+        "name": "if person is coen",
+        "property": "data.new_state.attributes.persons",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "person.coen",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 460,
+        "y": 200,
+        "wires": [
+            [
+                "a3d3bc328f0927d8"
+            ]
+        ]
     },
     {
         "id": "2ba0a24e901b20ed",
@@ -56373,30 +56476,6 @@
         ]
     },
     {
-        "id": "a4f91a4dd6cc87fa",
-        "type": "ha-zone",
-        "z": "b3c2e11fe7899d59",
-        "g": "5e1e93cbdb33cd87",
-        "name": "coen enter work zone",
-        "server": "4ba92433.2478cc",
-        "version": 1,
-        "exposeAsEntityConfig": "",
-        "entities": [
-            "person.coen"
-        ],
-        "event": "enter",
-        "zones": [
-            "zone.work_coen"
-        ],
-        "x": 140,
-        "y": 200,
-        "wires": [
-            [
-                "130b40c68b8c244d"
-            ]
-        ]
-    },
-    {
         "id": "eee161a9e895ce7b",
         "type": "comment",
         "z": "b3c2e11fe7899d59",
@@ -56406,6 +56485,113 @@
         "x": 240,
         "y": 160,
         "wires": []
+    },
+    {
+        "id": "7866fd4f051a2878",
+        "type": "server-state-changed",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "name": "coen enter work zone",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "zone.work_coen"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "1",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "5",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": true,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 140,
+        "y": 200,
+        "wires": [
+            [
+                "c3a6b38f9267407d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c3a6b38f9267407d",
+        "type": "split",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "data.new_state.attributes.persons",
+        "x": 310,
+        "y": 200,
+        "wires": [
+            [
+                "db5ff3f6f535abc9"
+            ]
+        ]
+    },
+    {
+        "id": "db5ff3f6f535abc9",
+        "type": "switch",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "name": "if person is coen",
+        "property": "data.new_state.attributes.persons",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "person.coen",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 460,
+        "y": 200,
+        "wires": [
+            [
+                "130b40c68b8c244d"
+            ]
+        ]
     },
     {
         "id": "130b40c68b8c244d",
@@ -56434,44 +56620,12 @@
         "myepoch": false,
         "myrawdate": false,
         "mypm": false,
-        "x": 390,
+        "x": 630,
         "y": 200,
         "wires": [
             [
                 "2753d031bf0977c0"
             ]
-        ]
-    },
-    {
-        "id": "426a586221d571a9",
-        "type": "api-call-service",
-        "z": "b3c2e11fe7899d59",
-        "g": "5e1e93cbdb33cd87",
-        "name": "create calander event",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "calendar.create_event",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "calendar.coen"
-        ],
-        "labelId": [],
-        "data": "{\"summary\":\"Coen op kantoor\",\"description\":\"Coen is op locatie kantoor\",\"start_date_time\":\"{{enter_myymd}} {{enter_mytimes}}\",\"end_date_time\":\"{{leave_myymd}} {{leave_mytimes}}\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "calendar",
-        "service": "create_event",
-        "x": 920,
-        "y": 240,
-        "wires": [
-            []
         ]
     },
     {
@@ -56501,8 +56655,100 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 560,
+        "x": 960,
         "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9954d7bb0613a21a",
+        "type": "server-state-changed",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "name": "coen leave work zone",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 2,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "zone.work_coen"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": true,
+        "stateType": "str",
+        "ifState": "0",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": false,
+        "for": "5",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": true,
+        "ignorePrevStateUnknown": true,
+        "ignorePrevStateUnavailable": true,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 140,
+        "y": 240,
+        "wires": [
+            [
+                "26acb6dfad451096"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "426a586221d571a9",
+        "type": "api-call-service",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "name": "create calander event",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "calendar.create_event",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "calendar.coen"
+        ],
+        "labelId": [],
+        "data": "{\"summary\":\"Coen op kantoor\",\"description\":\"Coen is op locatie kantoor\",\"start_date_time\":\"{{enter_myymd}} {{enter_mytimes}}\",\"end_date_time\":\"{{leave_myymd}} {{leave_mytimes}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "calendar",
+        "service": "create_event",
+        "x": 1160,
+        "y": 240,
         "wires": [
             []
         ]
@@ -56534,7 +56780,7 @@
         "myepoch": false,
         "myrawdate": false,
         "mypm": false,
-        "x": 390,
+        "x": 630,
         "y": 240,
         "wires": [
             [
@@ -56583,7 +56829,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 720,
+        "x": 960,
         "y": 240,
         "wires": [
             [
@@ -56592,46 +56838,69 @@
         ]
     },
     {
-        "id": "6a61663be5b7b8d6",
-        "type": "ha-zone",
-        "z": "b3c2e11fe7899d59",
-        "g": "5e1e93cbdb33cd87",
-        "name": "coen leave work zone",
-        "server": "4ba92433.2478cc",
-        "version": 1,
-        "exposeAsEntityConfig": "",
-        "entities": [
-            "person.coen"
-        ],
-        "event": "leave",
-        "zones": [
-            "zone.work_coen"
-        ],
-        "x": 140,
-        "y": 240,
-        "wires": [
-            [
-                "6492ac3610757649"
-            ]
-        ]
-    },
-    {
         "id": "29cd565432650fc3",
         "type": "stoptimer",
         "z": "b3c2e11fe7899d59",
         "g": "5e1e93cbdb33cd87",
-        "duration": "1",
+        "duration": "5",
         "units": "Hour",
         "payloadtype": "num",
         "payloadval": "0",
         "name": "",
-        "x": 550,
+        "x": 790,
         "y": 240,
         "wires": [
             [
                 "fa6c09344bfceb76"
             ],
             []
+        ]
+    },
+    {
+        "id": "26acb6dfad451096",
+        "type": "split",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "data.new_state.attributes.persons",
+        "x": 310,
+        "y": 240,
+        "wires": [
+            [
+                "4c4665e3d53ff3f9"
+            ]
+        ]
+    },
+    {
+        "id": "4c4665e3d53ff3f9",
+        "type": "switch",
+        "z": "b3c2e11fe7899d59",
+        "g": "5e1e93cbdb33cd87",
+        "name": "if person is coen",
+        "property": "data.new_state.attributes.persons",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "person.coen",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 460,
+        "y": 240,
+        "wires": [
+            [
+                "6492ac3610757649"
+            ]
         ]
     }
 ]
