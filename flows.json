@@ -85,11 +85,12 @@
         "env": []
     },
     {
-        "id": "4e909abe.0b62e4",
+        "id": "4eb127fac3159d57",
         "type": "tab",
         "label": "_automation_souterrain_ventilation",
         "disabled": false,
-        "info": ""
+        "info": "",
+        "env": []
     },
     {
         "id": "a6159d7de3eeed21",
@@ -339,6 +340,20 @@
         "disabled": false,
         "info": "",
         "env": []
+    },
+    {
+        "id": "ed101e0c9d275ea6",
+        "type": "tab",
+        "label": "_automation_utility-room_home-battery",
+        "disabled": false,
+        "info": "",
+        "env": [
+            {
+                "name": "ZENDURE_HOST",
+                "value": "zendure.lan.stamx.nl",
+                "type": "str"
+            }
+        ]
     },
     {
         "id": "9ea6eabfb34d96e0",
@@ -3731,113 +3746,6 @@
         "h": 182
     },
     {
-        "id": "0801df6d5ab4222b",
-        "type": "group",
-        "z": "4e909abe.0b62e4",
-        "name": "",
-        "style": {
-            "fill": "#ffbfbf",
-            "label": true
-        },
-        "nodes": [
-            "1374c39509549e6e",
-            "84ec75dcad2d2672",
-            "cdbbe520d2b5eff8",
-            "9af35c5ce44c9348",
-            "501c585b1cbe7d50"
-        ],
-        "x": 14,
-        "y": 19,
-        "w": 702,
-        "h": 82
-    },
-    {
-        "id": "1b0422b4cdc9b7b0",
-        "type": "group",
-        "z": "4e909abe.0b62e4",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "46fd77b05f226788",
-            "9613fd9f308ac4e8",
-            "dfb1bfbd13bff39d",
-            "0ba7626c264dab10",
-            "f73292f99a88741d",
-            "e3fcfe18ce304945",
-            "d9f7558a63efb32a",
-            "a3a5786c5aa6f1be",
-            "2486a94134c4f413",
-            "4f19554e0d36f74e",
-            "01a29da1c501e23e",
-            "8fb04a3ec2e9fe4f",
-            "7c5ef22042647ae5",
-            "2addf4564ea0c55e"
-        ],
-        "x": 14,
-        "y": 119,
-        "w": 482,
-        "h": 302
-    },
-    {
-        "id": "736bc6c43f5cebf3",
-        "type": "group",
-        "z": "4e909abe.0b62e4",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "8c613499abe41691",
-            "eaba4c18.04007",
-            "4e1d6c0e.bd6b44",
-            "75db2fdc.c1e22",
-            "1a262b04.0f6c75",
-            "cbe4be0.ad6c74",
-            "13e032a.2acbbcd",
-            "a443801a148e31b6",
-            "8bd822f09fed1461",
-            "a104a83026f8fd84",
-            "5c061fb5ace8d130",
-            "476cfb88.13ea74",
-            "6f1eba702c95483a",
-            "85ae6ea3879f4c7f",
-            "466f23cc5674fa22",
-            "d38a7750.f848b8",
-            "8bd10319762b29f3",
-            "0cebcecc7266486e",
-            "a0fea0e8.d9a66",
-            "ac8eb8a0e6387131",
-            "aa4bd88087bb3c75",
-            "f1a1d029766aa4e3",
-            "0861797165ba2006",
-            "c7b58913.752ad8",
-            "e07362ff.ad189",
-            "46771664.f639e8",
-            "66c60aad52f358c9",
-            "5ce9303e.d40b8",
-            "9516fa80f467b0df",
-            "b5d8b43d.943a18",
-            "c38645a953ed6080",
-            "f1fa5da145cae358"
-        ],
-        "x": 14,
-        "y": 759,
-        "w": 1992,
-        "h": 722
-    },
-    {
         "id": "0c103c7801ac07dc",
         "type": "group",
         "z": "55da1471.fda0fc",
@@ -4655,9 +4563,9 @@
             "bf21fecdc989374a",
             "494e70afb45368b6"
         ],
-        "x": 14,
+        "x": 4,
         "y": 1539,
-        "w": 1752,
+        "w": 1772,
         "h": 182
     },
     {
@@ -4759,25 +4667,21 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "ba77f8da98851350",
-            "6fc7768f0e0e7113",
-            "6043718434f18179",
-            "ef67c1284ddb8eed",
-            "99a64ef46dadb061",
             "9521e980bd1fd2c7",
-            "89754424867abf7b",
-            "684d1198322d6e9b",
-            "173e4f1dbbee6143",
             "fe0c8fde93e76cd2",
-            "dff5637af40db115",
             "082c469b6d1254af",
-            "11215fce135d2001",
-            "63df13e036af1a07"
+            "63df13e036af1a07",
+            "f860228336c60b12",
+            "a0397741fbb3175e",
+            "d4971c4964918e5b",
+            "7eb874ad219c7c96",
+            "a10f5c07b660c427",
+            "d62c350c952b01af"
         ],
         "x": 14,
         "y": 1459,
-        "w": 1392,
-        "h": 302
+        "w": 972,
+        "h": 242
     },
     {
         "id": "73746a7917fbe356",
@@ -4891,7 +4795,7 @@
             "5a3e197c6d1d4510"
         ],
         "x": 14,
-        "y": 1779,
+        "y": 1719,
         "w": 672,
         "h": 142
     },
@@ -5432,6 +5336,108 @@
         "y": 919,
         "w": 1282,
         "h": 122
+    },
+    {
+        "id": "e4e826ebbeb80364",
+        "type": "group",
+        "z": "4eb127fac3159d57",
+        "name": "",
+        "style": {
+            "fill": "#ffbfbf",
+            "label": true
+        },
+        "nodes": [
+            "9ea4d7d85a2bc4dc",
+            "7fd88bacbfe993ee",
+            "56a6a4e084e7d24f",
+            "09b48ed2762dae61",
+            "aa57d14d7df0a220"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 702,
+        "h": 82
+    },
+    {
+        "id": "2b1a2d2644bfe417",
+        "type": "group",
+        "z": "ed101e0c9d275ea6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#767676"
+        },
+        "nodes": [
+            "9887b83b5db312da",
+            "f32c6a949e4acedb",
+            "6ffa4514f681f728",
+            "1986e080d45fa604",
+            "4b92d038c62a5ff8",
+            "406ee9a3d8e53c82"
+        ],
+        "x": 24,
+        "y": 559,
+        "w": 712,
+        "h": 182
+    },
+    {
+        "id": "a2c0f6d0118f3895",
+        "type": "group",
+        "z": "ed101e0c9d275ea6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#767676"
+        },
+        "nodes": [
+            "d5d39c0f0bab9050",
+            "a8ea913bb3578add",
+            "e1bb3c068c60bea5",
+            "cf74a9777c90413f",
+            "d11076833e98b4ba",
+            "592089e9c3f225a0",
+            "6520b41902b1a724"
+        ],
+        "x": 24,
+        "y": 419,
+        "w": 1052,
+        "h": 122
+    },
+    {
+        "id": "4152d843e22f2491",
+        "type": "group",
+        "z": "ed101e0c9d275ea6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#767676"
+        },
+        "nodes": [
+            "f0008a489e5fcba7",
+            "3fe2630673bda9ee",
+            "76830ce47c5649bc",
+            "3d6cbdf12673f4e6",
+            "70b94f983d053644",
+            "5e679c378187dbc9",
+            "7ab065944d0d7af1",
+            "cee40945430dcab2"
+        ],
+        "x": 24,
+        "y": 759,
+        "w": 1102,
+        "h": 162
     },
     {
         "id": "ef69ec82c772cad9",
@@ -7383,9 +7389,9 @@
         "h": 162
     },
     {
-        "id": "f82cdf132ab7a56b",
+        "id": "7efa3de00b78e2ec",
         "type": "group",
-        "z": "4e909abe.0b62e4",
+        "z": "ed101e0c9d275ea6",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -7393,25 +7399,72 @@
             "fill-opacity": "1",
             "label": true,
             "label-position": "nw",
-            "color": "#a4a4a4"
+            "color": "#767676"
         },
         "nodes": [
-            "dcae68efea42952a",
-            "c68780e95d88bca0",
-            "2a397801d25f8b3a",
-            "abbcb7e204b1e9f2",
-            "23f45e3990b1a834",
-            "c3f3fe667b5fdd71",
-            "fafc1ebe13ae2d08",
-            "06d89e59a5141efe",
-            "120a87fc1253f4f8",
-            "b179ec5a89cdfba7",
-            "7f5ded439e9e6ccc"
+            "307c410fd84c05cd",
+            "194b5b0a94a4774c",
+            "029ddc76b2f98d78",
+            "f2bf7f5bc1ac7818"
         ],
-        "x": 14,
-        "y": 439,
-        "w": 1062,
-        "h": 262
+        "x": 24,
+        "y": 19,
+        "w": 612,
+        "h": 122
+    },
+    {
+        "id": "f695626a772d7e66",
+        "type": "group",
+        "z": "ed101e0c9d275ea6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#767676"
+        },
+        "nodes": [
+            "7c7c62428edcd52d",
+            "6d02301c98b0b458",
+            "e7b9c33209b90fd0",
+            "cfd7e95c8114061a",
+            "4e0aa906294621f4",
+            "d6a9161cfeaa887f",
+            "1dcb9a408a776c9c",
+            "bde3d74f4b16f627"
+        ],
+        "x": 24,
+        "y": 159,
+        "w": 612,
+        "h": 242
+    },
+    {
+        "id": "66429997c8e6218e",
+        "type": "group",
+        "z": "ed101e0c9d275ea6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#767676"
+        },
+        "nodes": [
+            "9606e7f6defcc6b4",
+            "b54ef231c8ba8d2a",
+            "6644e4ddb6411997",
+            "5af1a2cdf6840f16",
+            "1ac99a9ca3d607b0",
+            "7796bb4f76a2f04b"
+        ],
+        "x": 24,
+        "y": 939,
+        "w": 1082,
+        "h": 142
     },
     {
         "id": "5cb88a741e06d0c9",
@@ -8030,7 +8083,7 @@
         "clientid": "",
         "autoConnect": true,
         "usetls": false,
-        "protocolVersion": "4",
+        "protocolVersion": "5",
         "keepalive": "60",
         "cleansession": true,
         "autoUnsubscribe": true,
@@ -8144,47 +8197,6 @@
             }
         ],
         "resend": false,
-        "debugEnabled": false
-    },
-    {
-        "id": "7befa0b16196877c",
-        "type": "ha-entity-config",
-        "server": "4ba92433.2478cc",
-        "deviceConfig": "",
-        "name": "custom_energy",
-        "version": "6",
-        "entityType": "sensor",
-        "haConfig": [
-            {
-                "property": "name",
-                "value": "custom_energy"
-            },
-            {
-                "property": "icon",
-                "value": ""
-            },
-            {
-                "property": "entity_picture",
-                "value": ""
-            },
-            {
-                "property": "entity_category",
-                "value": ""
-            },
-            {
-                "property": "device_class",
-                "value": "power"
-            },
-            {
-                "property": "unit_of_measurement",
-                "value": "W"
-            },
-            {
-                "property": "state_class",
-                "value": ""
-            }
-        ],
-        "resend": true,
         "debugEnabled": false
     },
     {
@@ -8427,47 +8439,6 @@
         "debugEnabled": false
     },
     {
-        "id": "3f4f99b6c043befd",
-        "type": "ha-entity-config",
-        "server": "4ba92433.2478cc",
-        "deviceConfig": "",
-        "name": "custom_energy_usage",
-        "version": "6",
-        "entityType": "sensor",
-        "haConfig": [
-            {
-                "property": "name",
-                "value": "custom_energy_usage"
-            },
-            {
-                "property": "icon",
-                "value": ""
-            },
-            {
-                "property": "entity_picture",
-                "value": ""
-            },
-            {
-                "property": "entity_category",
-                "value": ""
-            },
-            {
-                "property": "device_class",
-                "value": "power"
-            },
-            {
-                "property": "unit_of_measurement",
-                "value": "W"
-            },
-            {
-                "property": "state_class",
-                "value": ""
-            }
-        ],
-        "resend": false,
-        "debugEnabled": false
-    },
-    {
         "id": "dd558d37ebd87d72",
         "type": "ha-entity-config",
         "server": "4ba92433.2478cc",
@@ -8569,6 +8540,129 @@
             {
                 "property": "device_class",
                 "value": ""
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "ec9ecbd9b4836235",
+        "type": "ha-entity-config",
+        "server": "4ba92433.2478cc",
+        "deviceConfig": "",
+        "name": "custom_basement_ventilation_reason",
+        "version": 6,
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "basement ventilation reason text sensor"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": ""
+            },
+            {
+                "property": "device_class",
+                "value": ""
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": ""
+            },
+            {
+                "property": "state_class",
+                "value": ""
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "aa984334a063c45c",
+        "type": "ha-entity-config",
+        "server": "4ba92433.2478cc",
+        "deviceConfig": "",
+        "name": "energy_grid_netto",
+        "version": 6,
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "energy_grid_netto"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": ""
+            },
+            {
+                "property": "device_class",
+                "value": "power"
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": "W"
+            },
+            {
+                "property": "state_class",
+                "value": "measurement"
+            }
+        ],
+        "resend": false,
+        "debugEnabled": false
+    },
+    {
+        "id": "b9b73c1ac8e9cea7",
+        "type": "ha-entity-config",
+        "server": "4ba92433.2478cc",
+        "deviceConfig": "",
+        "name": "energy_house_usage",
+        "version": 6,
+        "entityType": "sensor",
+        "haConfig": [
+            {
+                "property": "name",
+                "value": "energy house usage"
+            },
+            {
+                "property": "icon",
+                "value": ""
+            },
+            {
+                "property": "entity_picture",
+                "value": ""
+            },
+            {
+                "property": "entity_category",
+                "value": ""
+            },
+            {
+                "property": "device_class",
+                "value": "power"
+            },
+            {
+                "property": "unit_of_measurement",
+                "value": "W"
+            },
+            {
+                "property": "state_class",
+                "value": "measurement"
             }
         ],
         "resend": false,
@@ -16047,6 +16141,7 @@
         "id": "a50b36c508ee1125",
         "type": "server-state-changed",
         "z": "39f5e6336137f4b2",
+        "d": true,
         "g": "59a9dccc6e2c8820",
         "name": "universal tv is not playing",
         "server": "4ba92433.2478cc",
@@ -16376,6 +16471,7 @@
         "id": "710a9c0fa290ab6f",
         "type": "server-state-changed",
         "z": "39f5e6336137f4b2",
+        "d": true,
         "g": "59a9dccc6e2c8820",
         "name": "mediaplayer shield is idle",
         "server": "4ba92433.2478cc",
@@ -29890,499 +29986,34 @@
         ]
     },
     {
-        "id": "75db2fdc.c1e22",
+        "id": "ba0eb2080929fc6f",
         "type": "inject",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "every 15 minutes",
+        "z": "4eb127fac3159d57",
+        "name": "every 5 minutes",
         "props": [
             {
                 "p": "payload"
             }
         ],
-        "repeat": "900",
+        "repeat": "300",
         "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
+        "once": true,
+        "onceDelay": "30",
         "topic": "",
         "payload": "start_flow",
         "payloadType": "str",
-        "x": 210,
-        "y": 840,
+        "x": 130,
+        "y": 140,
         "wires": [
             [
-                "eaba4c18.04007",
-                "4e1d6c0e.bd6b44"
+                "e390157cf332e499"
             ]
         ]
     },
     {
-        "id": "46fd77b05f226788",
-        "type": "comment",
-        "z": "4e909abe.0b62e4",
-        "g": "1b0422b4cdc9b7b0",
-        "name": "select fan mode",
-        "info": "",
-        "x": 120,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "a104a83026f8fd84",
-        "type": "template",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Mechanische ventilatie is uitgeschakeld, lucht van boven condenseert mogelijk tegen de koudste oppervlakte in de kelder.\\nDe temperatuur van het koudste oppervlakte in de kelder is: {{sensor.basement_wall_temperature_offset}} ℃ \\nHet dauwpunt van de lucht in de woonkamer is: {{sensor.living_room_thermal_comfort_dew_point}} ℃",
-        "output": "str",
-        "x": 1340,
-        "y": 840,
-        "wires": [
-            [
-                "476cfb88.13ea74"
-            ]
-        ]
-    },
-    {
-        "id": "466f23cc5674fa22",
-        "type": "template",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "Mechanische ventilatie is uitgeschakeld, de verwarming in de kelder staat aan. \\nKelder Heating Power is {{payload}}%",
-        "output": "str",
-        "x": 1340,
-        "y": 900,
-        "wires": [
-            [
-                "476cfb88.13ea74"
-            ]
-        ]
-    },
-    {
-        "id": "a443801a148e31b6",
-        "type": "function",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "round to two decimals",
-        "func": "msg.sensor.living_room_thermal_comfort_dew_point = msg.sensor.living_room_thermal_comfort_dew_point.toFixed(2);\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1160,
-        "y": 840,
-        "wires": [
-            [
-                "a104a83026f8fd84"
-            ]
-        ]
-    },
-    {
-        "id": "cbe4be0.ad6c74",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "state wall temperature basement < dewpoint living room",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "sensor.living_room_thermal_comfort_dew_point",
-        "halt_if_type": "msg",
-        "halt_if_compare": "lt",
-        "entity_id": "sensor.basement_wall_temperature_offset",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.basement_wall_temperature_offset",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 830,
-        "y": 840,
-        "wires": [
-            [
-                "a443801a148e31b6"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "e07362ff.ad189",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "temperature outdoor <= 5",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "5",
-        "halt_if_type": "num",
-        "halt_if_compare": "lte",
-        "entity_id": "sensor.weather_station_temperature",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.buienradar_temperature",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 510,
-        "y": 1420,
-        "wires": [
-            [
-                "66c60aad52f358c9"
-            ],
-            [
-                "5ce9303e.d40b8"
-            ]
-        ]
-    },
-    {
-        "id": "13e032a.2acbbcd",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "heating power basement <= 0%",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "0",
-        "halt_if_type": "num",
-        "halt_if_compare": "lte",
-        "entity_id": "sensor.basement_heating",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.basement_heating",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 710,
-        "y": 1020,
-        "wires": [
-            [
-                "8bd822f09fed1461"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "eaba4c18.04007",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "state dewpoint living room ",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.living_room_thermal_comfort_dew_point",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.living_room_thermal_comfort_dew_point",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 490,
-        "y": 840,
-        "wires": [
-            [
-                "cbe4be0.ad6c74"
-            ]
-        ]
-    },
-    {
-        "id": "46771664.f639e8",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "ventilation is not mid",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "mid",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "select.basement_ventilation_basement_ventilation_mode",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 960,
-        "y": 1360,
-        "wires": [
-            [
-                "9516fa80f467b0df"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "476cfb88.13ea74",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "ventilation is not off",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "off",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "select.basement_ventilation_basement_ventilation_mode",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "input_boolean.mechanische_ventilatie_stand_uit",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 1530,
-        "y": 840,
-        "wires": [
-            [
-                "d38a7750.f848b8"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "d38a7750.f848b8",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "state mechanical ventilation autonomous on",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.mechanical_ventilation_basement_autonomous",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "input_boolean.mechanische_ventilatie_autonoom",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 1810,
-        "y": 840,
-        "wires": [
-            [
-                "ac8eb8a0e6387131"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "4e1d6c0e.bd6b44",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "autonomous is on",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.mechanical_ventilation_basement_autonomous",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "input_boolean.mechanische_ventilatie_autonoom",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 470,
-        "y": 1020,
-        "wires": [
-            [
-                "13e032a.2acbbcd"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "a0fea0e8.d9a66",
+        "id": "e7544938395ce954",
         "type": "server-state-changed",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "state heating power basement  > 5",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 2,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.basement_heating"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "num",
-        "ifState": "5",
-        "ifStateType": "num",
-        "ifStateOperator": "gt",
-        "outputOnlyOnStateChange": true,
-        "for": "",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 520,
-        "y": 900,
-        "wires": [
-            [
-                "466f23cc5674fa22"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "1a262b04.0f6c75",
-        "type": "server-state-changed",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
+        "z": "4eb127fac3159d57",
         "name": "state autonomous",
         "server": "4ba92433.2478cc",
         "version": 6,
@@ -30409,523 +30040,146 @@
         "ignorePrevStateUnavailable": true,
         "ignoreCurrentStateUnknown": true,
         "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 210,
-        "y": 960,
-        "wires": [
-            [
-                "eaba4c18.04007",
-                "4e1d6c0e.bd6b44"
-            ]
-        ]
-    },
-    {
-        "id": "8bd822f09fed1461",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "ah basement",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.basement_thermal_comfort_absolute_humidity",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.basement_thermal_comfort_absolute_humidity",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 930,
-        "y": 1020,
-        "wires": [
-            [
-                "5c061fb5ace8d130"
-            ]
-        ]
-    },
-    {
-        "id": "5c061fb5ace8d130",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "ah outdoor > ah basement",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "sensor.basement_thermal_comfort_absolute_humidity",
-        "halt_if_type": "msg",
-        "halt_if_compare": "gt",
-        "entity_id": "sensor.outdoor_thermal_comfort_absolute_humidity",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.outdoor_thermal_comfort_absolute_humidity",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 500,
-        "y": 1100,
-        "wires": [
-            [
-                "6f1eba702c95483a"
-            ],
-            [
-                "85ae6ea3879f4c7f"
-            ]
-        ]
-    },
-    {
-        "id": "0861797165ba2006",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "rh basement < 60%",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "60",
-        "halt_if_type": "num",
-        "halt_if_compare": "lt",
-        "entity_id": "sensor.basement_humidity",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "sensor.basement_humidity",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 530,
-        "y": 1340,
-        "wires": [
-            [
-                "c7b58913.752ad8"
-            ],
-            [
-                "e07362ff.ad189"
-            ]
-        ]
-    },
-    {
-        "id": "b5d8b43d.943a18",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "ventilation is not high",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "high",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "select.basement_ventilation_basement_ventilation_mode",
-        "state_type": "str",
-        "blockInputOverrides": false,
         "outputProperties": [],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 960,
-        "y": 1440,
+        "x": 130,
+        "y": 180,
         "wires": [
             [
-                "c38645a953ed6080"
-            ],
-            []
+                "e390157cf332e499"
+            ]
         ]
     },
     {
-        "id": "ac8eb8a0e6387131",
-        "type": "link out",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "off",
-        "mode": "link",
-        "links": [
-            "01a29da1c501e23e",
-            "01b4d2545d9d93f2"
-        ],
-        "x": 1955,
-        "y": 840,
-        "wires": []
+        "id": "e390157cf332e499",
+        "type": "function",
+        "z": "4eb127fac3159d57",
+        "name": "read sensor data",
+        "func": "// Pull every entity we need in one go from HA's global context\n// (requires 'Enable Global Context Store' on the Home Assistant server config).\nconst ha = global.get(\"homeassistant\").homeAssistant;\n\nfunction state(entity_id) {\n    const s = ha.states[entity_id];\n    return s ? s.state : undefined;\n}\nfunction num(entity_id) {\n    const v = state(entity_id);\n    if (v === undefined || v === \"unknown\" || v === \"unavailable\") return undefined;\n    return Number(v);\n}\n\nmsg.data = {\n    autonomous: state(\"input_boolean.mechanical_ventilation_basement_autonomous\"),\n    current_mode: state(\"select.basement_ventilation_basement_ventilation_mode\"),\n    abs_hum_basement: num(\"sensor.basement_thermal_comfort_absolute_humidity\"),\n    abs_hum_living_room: num(\"sensor.living_room_thermal_comfort_absolute_humidity\"),\n    dew_point_living_room: num(\"sensor.living_room_thermal_comfort_dew_point\"),\n    wall_temp_basement: num(\"sensor.basement_wall_temperature_offset\"),\n    dew_point_basement: num(\"sensor.basement_thermal_comfort_dew_point\"),\n    co2: num(\"sensor.apollo_air_1_ed0538_co2\"),\n    outdoor_temp: num(\"sensor.weather_station_temperature\"),\n    basement_heating_pct: num(\"sensor.basement_heating\"),\n    abs_hum_outdoor: num(\"sensor.outdoor_thermal_comfort_absolute_humidity\"),\n    rel_hum_basement: num(\"sensor.basement_humidity\")\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 160,
+        "wires": [
+            [
+                "b2945eb1a2e52ec6"
+            ]
+        ]
     },
     {
-        "id": "f1a1d029766aa4e3",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "barometer is rain",
+        "id": "b2945eb1a2e52ec6",
+        "type": "function",
+        "z": "4eb127fac3159d57",
+        "name": "decide ventilation mode",
+        "func": "const d = msg.data;\nconst MARGIN = 0.3;\n\n// Gate 0: only run when autonomous mode is enabled\nif (d.autonomous !== \"on\") {\n    return [null, null, null];\n}\n\nlet mode = null;\nlet notifyReason = null;\nlet alert = null;\n\nconst supplyDrier             = d.abs_hum_living_room <= (d.abs_hum_basement - MARGIN);\nconst supplyBelowWallDewPoint = d.wall_temp_basement >= d.dew_point_living_room;\nconst basementCondensingNow   = d.dew_point_basement >= d.wall_temp_basement;\nconst gatesPassed = supplyDrier && supplyBelowWallDewPoint;\n\nif (!supplyDrier) {\n    // Gate 1 failed\n    mode = \"off\";\n    notifyReason =\n        \"Mechanische ventilatie uitgeschakeld: de lucht van boven is vochtiger dan de kelderlucht, ventileren zou de vochtigheid in de kelder verhogen.\\n\" +\n        `Absolute vochtigheid woonkamer: ${d.abs_hum_living_room} g/m3\\nAbsolute vochtigheid kelder: ${d.abs_hum_basement} g/m3`;\n\n} else if (!supplyBelowWallDewPoint) {\n    // Gate 2 failed\n    mode = \"off\";\n    notifyReason =\n        \"Mechanische ventilatie uitgeschakeld: de lucht van boven zou kunnen condenseren tegen het koudste oppervlak in de kelder.\\n\" +\n        `Wandtemperatuur kelder: ${d.wall_temp_basement} C\\nDauwpunt woonkamer: ${d.dew_point_living_room} C`;\n\n} else if (basementCondensingNow) {\n    // Both gates passed, but basement air itself is already condensing:\n    // escalate straight to high, bypassing everything below (incl. the cold-outdoor cap)\n    mode = \"high\";\n    notifyReason =\n        \"Mechanische ventilatie ingesteld op hoog: de kelderlucht zelf condenseert tegen het koudste oppervlak.\\n\" +\n        `Dauwpunt kelder: ${d.dew_point_basement} C\\nWandtemperatuur kelder: ${d.wall_temp_basement} C`;\n\n} else if (d.co2 >= 1200) {\n    mode = (d.outdoor_temp <= 5) ? \"mid\" : \"high\"; // cold outdoor air caps high -> mid\n\n} else if (d.co2 >= 800) {\n    mode = \"mid\";\n\n} else if (d.basement_heating_pct <= 5 && d.abs_hum_outdoor < d.abs_hum_basement) {\n    // Basement not actively heated, outdoor air actually drier: full humidity ladder\n    if (d.rel_hum_basement >= 70) {\n        mode = (d.outdoor_temp <= 5) ? \"mid\" : \"high\";\n    } else if (d.rel_hum_basement >= 62) {\n        mode = \"mid\";\n    } else if (d.rel_hum_basement >= 55) {\n        mode = \"low\";\n    }\n\n} else if (d.basement_heating_pct <= 5 && d.abs_hum_outdoor >= d.abs_hum_basement && d.rel_hum_basement >= 55) {\n    // Outdoor air too humid to really dry the basement: low is still allowed\n    mode = \"low\";\n}\n\n// Fallback: keep the fan on low purely on co2, if nothing above set a mode\nif (!mode) {\n    mode = (d.co2 >= 600) ? \"low\" : \"off\";\n}\n\n// Independent alert: only relevant when the gates above blocked ventilation\n// AND the basement is condensing right now anyway (ventilating can't fix that)\nif (!gatesPassed && basementCondensingNow) {\n    alert =\n        \"Waarschuwing: er condenseert op dit moment vocht tegen het koudste oppervlak in de kelder, en mechanische ventilatie helpt hier niet omdat de lucht van boven te vochtig is.\\n\" +\n        `Dauwpunt kelder: ${d.dew_point_basement} C\\nWandtemperatuur kelder: ${d.wall_temp_basement} C\\nOverweeg een raam boven open te zetten of een ontvochtiger te gebruiken.`;\n}\n\nconst modeChanged = (mode !== d.current_mode);\n\n// Output 1: set the new ventilation mode (only if it actually changed)\nconst out1 = modeChanged ? { payload: { option: mode } } : null;\n\n// Output 2: explain an off/escalation decision (only on change, to avoid repeat spam)\nconst out2 = (modeChanged && notifyReason) ? {\n    notify: {\n        title: \"Kelderventilatie\",\n        message: notifyReason,\n        notification_id: \"basement_ventilation_\" + Date.now()\n    }\n} : null;\n\n// Output 3: independent condensation alert (rate-limited downstream, not tied to modeChanged)\nconst out3 = alert ? {\n    notify: {\n        title: \"Kelderventilatie\",\n        message: alert,\n        notification_id: \"basement_ventilation_alert_\" + Date.now()\n    }\n} : null;\n\nreturn [out1, out2, out3];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 160,
+        "wires": [
+            [
+                "056686bd03cb5f13"
+            ],
+            [
+                "866c459332a0c795",
+                "be554c618da164dc"
+            ],
+            [
+                "58b621b886033cef"
+            ]
+        ]
+    },
+    {
+        "id": "056686bd03cb5f13",
+        "type": "api-call-service",
+        "z": "4eb127fac3159d57",
+        "name": "set ventilation mode",
         "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "Rain",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.buienradar_barometer",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
+        "version": 7,
+        "debugenabled": false,
+        "action": "select.select_option",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "select.basement_ventilation_basement_ventilation_mode"
         ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 530,
-        "y": 1280,
+        "labelId": [],
+        "data": "{\"option\": payload.option}",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 820,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "58b621b886033cef",
+        "type": "delay",
+        "z": "4eb127fac3159d57",
+        "name": "max 1 alert per 6 hours",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "6",
+        "rateUnits": "hour",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 260,
         "wires": [
             [
-                "aa4bd88087bb3c75"
-            ],
-            [
-                "0861797165ba2006"
+                "866c459332a0c795"
             ]
         ]
     },
     {
-        "id": "0cebcecc7266486e",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "",
+        "id": "866c459332a0c795",
+        "type": "api-call-service",
+        "z": "4eb127fac3159d57",
+        "name": "send notification",
         "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "pouring",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "weather.knmi_home",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 480,
-        "y": 1220,
-        "wires": [
-            [
-                "aa4bd88087bb3c75"
-            ],
-            [
-                "f1a1d029766aa4e3"
-            ]
-        ]
-    },
-    {
-        "id": "6f1eba702c95483a",
-        "type": "template",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "De laagste stand is automatisch ingeschakeld. Buiten is de absolute luchtvochtigheid hoger dan in de souterrain.",
-        "output": "str",
-        "x": 760,
-        "y": 1100,
+        "version": 7,
+        "debugenabled": false,
+        "action": "notify.notify",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [],
+        "labelId": [],
+        "data": "{\"title\": notify.title, \"message\": notify.message, \"data\": {\"notification_id\": notify.notification_id}}",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 1060,
+        "y": 200,
         "wires": [
             []
         ]
     },
     {
-        "id": "aa4bd88087bb3c75",
-        "type": "template",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "De laagste stand is automatisch ingeschakeld i.v.m. de regen.",
-        "output": "str",
-        "x": 760,
-        "y": 1220,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c7b58913.752ad8",
-        "type": "template",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "De middelste stand is automatisch ingeschakeld. De luchtvochtigheid is {{sensor.basement_humidity}}%.",
-        "output": "str",
-        "x": 760,
-        "y": 1340,
-        "wires": [
-            [
-                "46771664.f639e8"
-            ]
-        ]
-    },
-    {
-        "id": "5ce9303e.d40b8",
-        "type": "template",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "De hoogste stand is automatisch ingeschakeld.",
-        "output": "str",
-        "x": 760,
-        "y": 1440,
-        "wires": [
-            [
-                "b5d8b43d.943a18"
-            ]
-        ]
-    },
-    {
-        "id": "66c60aad52f358c9",
-        "type": "template",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "De middelste stand is automatisch ingeschakeld. Buiten is het onder de 5 graden celcius.",
-        "output": "str",
-        "x": 760,
-        "y": 1400,
-        "wires": [
-            [
-                "46771664.f639e8"
-            ]
-        ]
-    },
-    {
-        "id": "8bd10319762b29f3",
-        "type": "template",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "message",
-        "field": "notify.message",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "De laagste stand is automatisch ingeschakeld, de verwarming in de woonkamer staat aan.",
-        "output": "str",
-        "x": 760,
-        "y": 1160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "85ae6ea3879f4c7f",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "heating power living room",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "0",
-        "halt_if_type": "num",
-        "halt_if_compare": "gt",
-        "entity_id": "sensor.living_room_heating",
-        "state_type": "num",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 510,
-        "y": 1160,
-        "wires": [
-            [
-                "8bd10319762b29f3"
-            ],
-            [
-                "0cebcecc7266486e"
-            ]
-        ]
-    },
-    {
-        "id": "9516fa80f467b0df",
-        "type": "link out",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "link out 9",
-        "mode": "link",
-        "links": [
-            "01b4d2545d9d93f2",
-            "f73292f99a88741d"
-        ],
-        "x": 1035,
-        "y": 1360,
-        "wires": []
-    },
-    {
-        "id": "c38645a953ed6080",
-        "type": "link out",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "high",
-        "mode": "link",
-        "links": [
-            "01b4d2545d9d93f2",
-            "a3a5786c5aa6f1be"
-        ],
-        "x": 1035,
-        "y": 1440,
-        "wires": []
-    },
-    {
-        "id": "1374c39509549e6e",
+        "id": "9ea4d7d85a2bc4dc",
         "type": "catch",
-        "z": "4e909abe.0b62e4",
-        "g": "0801df6d5ab4222b",
+        "z": "4eb127fac3159d57",
+        "g": "e4e826ebbeb80364",
         "name": "",
         "scope": null,
         "uncaught": false,
@@ -30933,15 +30187,15 @@
         "y": 60,
         "wires": [
             [
-                "84ec75dcad2d2672"
+                "7fd88bacbfe993ee"
             ]
         ]
     },
     {
-        "id": "84ec75dcad2d2672",
+        "id": "7fd88bacbfe993ee",
         "type": "template",
-        "z": "4e909abe.0b62e4",
-        "g": "0801df6d5ab4222b",
+        "z": "4eb127fac3159d57",
+        "g": "e4e826ebbeb80364",
         "name": "messsage",
         "field": "notify.message",
         "fieldType": "msg",
@@ -30953,15 +30207,15 @@
         "y": 60,
         "wires": [
             [
-                "9af35c5ce44c9348"
+                "09b48ed2762dae61"
             ]
         ]
     },
     {
-        "id": "cdbbe520d2b5eff8",
+        "id": "56a6a4e084e7d24f",
         "type": "link out",
-        "z": "4e909abe.0b62e4",
-        "g": "0801df6d5ab4222b",
+        "z": "4eb127fac3159d57",
+        "g": "e4e826ebbeb80364",
         "name": "link_out_notify_1",
         "mode": "link",
         "links": [
@@ -30972,10 +30226,10 @@
         "wires": []
     },
     {
-        "id": "9af35c5ce44c9348",
+        "id": "09b48ed2762dae61",
         "type": "template",
-        "z": "4e909abe.0b62e4",
-        "g": "0801df6d5ab4222b",
+        "z": "4eb127fac3159d57",
+        "g": "e4e826ebbeb80364",
         "name": "title",
         "field": "notify.title",
         "fieldType": "msg",
@@ -30987,15 +30241,15 @@
         "y": 60,
         "wires": [
             [
-                "501c585b1cbe7d50"
+                "aa57d14d7df0a220"
             ]
         ]
     },
     {
-        "id": "501c585b1cbe7d50",
+        "id": "aa57d14d7df0a220",
         "type": "function",
-        "z": "4e909abe.0b62e4",
-        "g": "0801df6d5ab4222b",
+        "z": "4eb127fac3159d57",
+        "g": "e4e826ebbeb80364",
         "name": "notify.notification_id",
         "func": "msg.notify.notification_id = Date.now().toString(36) + Math.random().toString(36);\nreturn msg;",
         "outputs": 1,
@@ -31008,759 +30262,27 @@
         "y": 60,
         "wires": [
             [
-                "cdbbe520d2b5eff8"
+                "56a6a4e084e7d24f"
             ]
         ]
     },
     {
-        "id": "9613fd9f308ac4e8",
-        "type": "link in",
-        "z": "4e909abe.0b62e4",
-        "g": "1b0422b4cdc9b7b0",
-        "name": "mode low",
-        "links": [
-            "b179ec5a89cdfba7"
-        ],
-        "x": 75,
-        "y": 260,
-        "wires": [
-            [
-                "0ba7626c264dab10"
-            ]
-        ]
-    },
-    {
-        "id": "dfb1bfbd13bff39d",
-        "type": "api-call-service",
-        "z": "4e909abe.0b62e4",
-        "g": "1b0422b4cdc9b7b0",
-        "name": "low",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "select.select_option",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "select.basement_ventilation_basement_ventilation_mode"
-        ],
-        "labelId": [],
-        "data": "{\"option\":\"low\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [
-            {
-                "property": "new_state",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "data"
-            }
-        ],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "select",
-        "service": "select_option",
-        "x": 330,
-        "y": 260,
-        "wires": [
-            [
-                "2addf4564ea0c55e"
-            ]
-        ]
-    },
-    {
-        "id": "0ba7626c264dab10",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "g": "1b0422b4cdc9b7b0",
-        "name": "is not low",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "low",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "select.basement_ventilation_basement_ventilation_mode",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 180,
-        "y": 260,
-        "wires": [
-            [
-                "dfb1bfbd13bff39d"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "f73292f99a88741d",
-        "type": "link in",
-        "z": "4e909abe.0b62e4",
-        "g": "1b0422b4cdc9b7b0",
-        "name": "mode mid",
-        "links": [
-            "9516fa80f467b0df",
-            "120a87fc1253f4f8"
-        ],
-        "x": 75,
-        "y": 320,
-        "wires": [
-            [
-                "d9f7558a63efb32a"
-            ]
-        ]
-    },
-    {
-        "id": "e3fcfe18ce304945",
-        "type": "api-call-service",
-        "z": "4e909abe.0b62e4",
-        "g": "1b0422b4cdc9b7b0",
-        "name": "mid",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "select.select_option",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "select.basement_ventilation_basement_ventilation_mode"
-        ],
-        "labelId": [],
-        "data": "{\"option\":\"mid\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [
-            {
-                "property": "new_state",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "data"
-            }
-        ],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "select",
-        "service": "select_option",
-        "x": 330,
-        "y": 320,
-        "wires": [
-            [
-                "2addf4564ea0c55e"
-            ]
-        ]
-    },
-    {
-        "id": "d9f7558a63efb32a",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "g": "1b0422b4cdc9b7b0",
-        "name": "is not mid",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "mid",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "select.basement_ventilation_basement_ventilation_mode",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 180,
-        "y": 320,
-        "wires": [
-            [
-                "e3fcfe18ce304945"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "a3a5786c5aa6f1be",
-        "type": "link in",
-        "z": "4e909abe.0b62e4",
-        "g": "1b0422b4cdc9b7b0",
-        "name": "mode high",
-        "links": [
-            "c38645a953ed6080",
-            "23f45e3990b1a834"
-        ],
-        "x": 75,
-        "y": 380,
-        "wires": [
-            [
-                "4f19554e0d36f74e"
-            ]
-        ]
-    },
-    {
-        "id": "2486a94134c4f413",
-        "type": "api-call-service",
-        "z": "4e909abe.0b62e4",
-        "g": "1b0422b4cdc9b7b0",
-        "name": "high",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "select.select_option",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "select.basement_ventilation_basement_ventilation_mode"
-        ],
-        "labelId": [],
-        "data": "{\"option\":\"high\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [
-            {
-                "property": "new_state",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "data"
-            }
-        ],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "select",
-        "service": "select_option",
-        "x": 330,
-        "y": 380,
-        "wires": [
-            [
-                "2addf4564ea0c55e"
-            ]
-        ]
-    },
-    {
-        "id": "4f19554e0d36f74e",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "g": "1b0422b4cdc9b7b0",
-        "name": "is not high",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "high",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "select.basement_ventilation_basement_ventilation_mode",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 190,
-        "y": 380,
-        "wires": [
-            [
-                "2486a94134c4f413"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "01a29da1c501e23e",
-        "type": "link in",
-        "z": "4e909abe.0b62e4",
-        "g": "1b0422b4cdc9b7b0",
-        "name": "mode off",
-        "links": [
-            "ac8eb8a0e6387131",
-            "7f5ded439e9e6ccc"
-        ],
-        "x": 75,
-        "y": 200,
-        "wires": [
-            [
-                "7c5ef22042647ae5"
-            ]
-        ]
-    },
-    {
-        "id": "8fb04a3ec2e9fe4f",
-        "type": "api-call-service",
-        "z": "4e909abe.0b62e4",
-        "g": "1b0422b4cdc9b7b0",
-        "name": "off",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "select.select_option",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "select.basement_ventilation_basement_ventilation_mode"
-        ],
-        "labelId": [],
-        "data": "{\"option\":\"off\"}",
-        "dataType": "json",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [
-            {
-                "property": "new_state",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "data"
-            }
-        ],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "select",
-        "service": "select_option",
-        "x": 330,
-        "y": 200,
-        "wires": [
-            [
-                "2addf4564ea0c55e"
-            ]
-        ]
-    },
-    {
-        "id": "7c5ef22042647ae5",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "g": "1b0422b4cdc9b7b0",
-        "name": "is not off",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "off",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "select.basement_ventilation_basement_ventilation_mode",
-        "state_type": "str",
-        "blockInputOverrides": false,
+        "id": "be554c618da164dc",
+        "type": "ha-sensor",
+        "z": "4eb127fac3159d57",
+        "name": "basement ventilation reason text sensor",
+        "entityConfig": "ec9ecbd9b4836235",
+        "version": 0,
+        "state": "notify.message",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
         "outputProperties": [],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 180,
-        "y": 200,
+        "x": 1140,
+        "y": 160,
         "wires": [
-            [
-                "8fb04a3ec2e9fe4f"
-            ],
             []
         ]
-    },
-    {
-        "id": "8c613499abe41691",
-        "type": "subflow:ad57f56dd92dd9d6",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "",
-        "x": 170,
-        "y": 900,
-        "wires": [
-            [
-                "eaba4c18.04007",
-                "4e1d6c0e.bd6b44"
-            ],
-            [],
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "f1fa5da145cae358",
-        "type": "comment",
-        "z": "4e909abe.0b62e4",
-        "d": true,
-        "g": "736bc6c43f5cebf3",
-        "name": "turn on mechanical ventilation off, low, mid or hight based on certain conditions",
-        "info": "",
-        "x": 310,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "dcae68efea42952a",
-        "type": "comment",
-        "z": "4e909abe.0b62e4",
-        "g": "f82cdf132ab7a56b",
-        "name": "turn on mechanical ventilation off, low, mid or hight based on certain conditions",
-        "info": "",
-        "x": 310,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "c68780e95d88bca0",
-        "type": "server-state-changed",
-        "z": "4e909abe.0b62e4",
-        "g": "f82cdf132ab7a56b",
-        "name": "state autonomous",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "input_boolean.mechanical_ventilation_basement_autonomous"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "str",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": true,
-        "for": "",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "payload",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "eventData"
-            },
-            {
-                "property": "topic",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "triggerId"
-            }
-        ],
-        "x": 210,
-        "y": 640,
-        "wires": [
-            [
-                "fafc1ebe13ae2d08"
-            ]
-        ]
-    },
-    {
-        "id": "2a397801d25f8b3a",
-        "type": "inject",
-        "z": "4e909abe.0b62e4",
-        "g": "f82cdf132ab7a56b",
-        "name": "every 15 minutes",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "900",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "start_flow",
-        "payloadType": "str",
-        "x": 210,
-        "y": 520,
-        "wires": [
-            [
-                "fafc1ebe13ae2d08"
-            ]
-        ]
-    },
-    {
-        "id": "abbcb7e204b1e9f2",
-        "type": "subflow:ad57f56dd92dd9d6",
-        "z": "4e909abe.0b62e4",
-        "g": "f82cdf132ab7a56b",
-        "name": "",
-        "x": 170,
-        "y": 580,
-        "wires": [
-            [],
-            [
-                "fafc1ebe13ae2d08"
-            ],
-            [],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "23f45e3990b1a834",
-        "type": "link out",
-        "z": "4e909abe.0b62e4",
-        "g": "f82cdf132ab7a56b",
-        "name": "high",
-        "mode": "link",
-        "links": [
-            "a3a5786c5aa6f1be"
-        ],
-        "x": 1035,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "c3f3fe667b5fdd71",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "g": "f82cdf132ab7a56b",
-        "name": "current co2 levels",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.apollo_air_1_ed0538_co2",
-        "state_type": "num",
-        "blockInputOverrides": true,
-        "outputProperties": [
-            {
-                "property": "co2_level",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 710,
-        "y": 600,
-        "wires": [
-            [
-                "06d89e59a5141efe"
-            ]
-        ]
-    },
-    {
-        "id": "fafc1ebe13ae2d08",
-        "type": "api-current-state",
-        "z": "4e909abe.0b62e4",
-        "g": "f82cdf132ab7a56b",
-        "name": "autonomous is on",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "on",
-        "halt_if_type": "str",
-        "halt_if_compare": "is",
-        "entity_id": "input_boolean.mechanical_ventilation_basement_autonomous",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "input_boolean.mechanische_ventilatie_autonoom",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": 0,
-        "forType": "num",
-        "forUnits": "minutes",
-        "x": 510,
-        "y": 600,
-        "wires": [
-            [
-                "c3f3fe667b5fdd71"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "06d89e59a5141efe",
-        "type": "switch",
-        "z": "4e909abe.0b62e4",
-        "g": "f82cdf132ab7a56b",
-        "name": "co2 level switch",
-        "property": "co2_level",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gte",
-                "v": "1200",
-                "vt": "num"
-            },
-            {
-                "t": "gte",
-                "v": "800",
-                "vt": "num"
-            },
-            {
-                "t": "gte",
-                "v": "600",
-                "vt": "num"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "false",
-        "repair": false,
-        "outputs": 4,
-        "x": 900,
-        "y": 600,
-        "wires": [
-            [
-                "23f45e3990b1a834"
-            ],
-            [
-                "120a87fc1253f4f8"
-            ],
-            [
-                "b179ec5a89cdfba7"
-            ],
-            [
-                "7f5ded439e9e6ccc"
-            ]
-        ]
-    },
-    {
-        "id": "120a87fc1253f4f8",
-        "type": "link out",
-        "z": "4e909abe.0b62e4",
-        "g": "f82cdf132ab7a56b",
-        "name": "mid",
-        "mode": "link",
-        "links": [
-            "f73292f99a88741d"
-        ],
-        "x": 1035,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "b179ec5a89cdfba7",
-        "type": "link out",
-        "z": "4e909abe.0b62e4",
-        "g": "f82cdf132ab7a56b",
-        "name": "low",
-        "mode": "link",
-        "links": [
-            "9613fd9f308ac4e8"
-        ],
-        "x": 1035,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "7f5ded439e9e6ccc",
-        "type": "link out",
-        "z": "4e909abe.0b62e4",
-        "g": "f82cdf132ab7a56b",
-        "name": "off",
-        "mode": "link",
-        "links": [
-            "01a29da1c501e23e"
-        ],
-        "x": 1035,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "2addf4564ea0c55e",
-        "type": "link out",
-        "z": "4e909abe.0b62e4",
-        "g": "1b0422b4cdc9b7b0",
-        "name": "mechanical ventilation off",
-        "mode": "link",
-        "links": [
-            "01b4d2545d9d93f2"
-        ],
-        "x": 455,
-        "y": 200,
-        "wires": []
     },
     {
         "id": "f5fe73d79476a45b",
@@ -37302,148 +35824,6 @@
         "wires": []
     },
     {
-        "id": "ba77f8da98851350",
-        "type": "api-current-state",
-        "z": "7f39e487c7ab241c",
-        "g": "f8921a685aab270b",
-        "name": "state currently returned",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.dsmr_reading_electricity_currently_returned",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "returned",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 370,
-        "y": 1600,
-        "wires": [
-            [
-                "6043718434f18179"
-            ]
-        ]
-    },
-    {
-        "id": "6fc7768f0e0e7113",
-        "type": "api-current-state",
-        "z": "7f39e487c7ab241c",
-        "g": "f8921a685aab270b",
-        "name": "state currently delivered",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "sensor.dsmr_reading_electricity_currently_delivered",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "delivered",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 370,
-        "y": 1540,
-        "wires": [
-            [
-                "6043718434f18179"
-            ]
-        ]
-    },
-    {
-        "id": "6043718434f18179",
-        "type": "function",
-        "z": "7f39e487c7ab241c",
-        "g": "f8921a685aab270b",
-        "name": "to watt",
-        "func": "msg.delivered = msg.delivered * 1000;\nmsg.returned = msg.returned * 1000;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 570,
-        "y": 1560,
-        "wires": [
-            [
-                "ef67c1284ddb8eed",
-                "fe0c8fde93e76cd2"
-            ]
-        ]
-    },
-    {
-        "id": "ef67c1284ddb8eed",
-        "type": "function",
-        "z": "7f39e487c7ab241c",
-        "g": "f8921a685aab270b",
-        "name": "calculation",
-        "func": "// Sum two values\nmsg.payload = msg.delivered - msg.returned;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 750,
-        "y": 1560,
-        "wires": [
-            [
-                "99a64ef46dadb061"
-            ]
-        ]
-    },
-    {
-        "id": "99a64ef46dadb061",
-        "type": "ha-sensor",
-        "z": "7f39e487c7ab241c",
-        "g": "f8921a685aab270b",
-        "name": "custom_energy to/from grid",
-        "entityConfig": "7befa0b16196877c",
-        "version": 0,
-        "state": "payload",
-        "stateType": "msg",
-        "attributes": [],
-        "inputOverride": "allow",
-        "outputProperties": [],
-        "x": 960,
-        "y": 1560,
-        "wires": [
-            [
-                "89754424867abf7b"
-            ]
-        ]
-    },
-    {
         "id": "9521e980bd1fd2c7",
         "type": "comment",
         "z": "7f39e487c7ab241c",
@@ -37462,7 +35842,7 @@
         "name": "update outdoor temperature to opentherm gateway",
         "info": "",
         "x": 230,
-        "y": 1820,
+        "y": 1760,
         "wires": []
     },
     {
@@ -37475,7 +35855,7 @@
             "12e6ca97465e9a8e"
         ],
         "x": 265,
-        "y": 1880,
+        "y": 1820,
         "wires": [
             [
                 "5a3e197c6d1d4510"
@@ -37509,7 +35889,7 @@
         "domain": "number",
         "service": "set_value",
         "x": 480,
-        "y": 1880,
+        "y": 1820,
         "wires": [
             []
         ]
@@ -37593,119 +35973,6 @@
         ]
     },
     {
-        "id": "89754424867abf7b",
-        "type": "mqtt out",
-        "z": "7f39e487c7ab241c",
-        "g": "f8921a685aab270b",
-        "name": "",
-        "topic": "nodered/customenergy/gridpower",
-        "qos": "",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "36dee637778341ba",
-        "x": 1240,
-        "y": 1560,
-        "wires": []
-    },
-    {
-        "id": "684d1198322d6e9b",
-        "type": "server-state-changed",
-        "z": "7f39e487c7ab241c",
-        "g": "f8921a685aab270b",
-        "name": "state currently returned",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.dsmr_reading_electricity_currently_returned"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": true,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "num",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": false,
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "returned",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            }
-        ],
-        "x": 140,
-        "y": 1540,
-        "wires": [
-            [
-                "6fc7768f0e0e7113"
-            ]
-        ]
-    },
-    {
-        "id": "173e4f1dbbee6143",
-        "type": "server-state-changed",
-        "z": "7f39e487c7ab241c",
-        "g": "f8921a685aab270b",
-        "name": "state currently delivered",
-        "server": "4ba92433.2478cc",
-        "version": 6,
-        "outputs": 1,
-        "exposeAsEntityConfig": "",
-        "entities": {
-            "entity": [
-                "sensor.dsmr_reading_electricity_currently_delivered"
-            ],
-            "substring": [],
-            "regex": []
-        },
-        "outputInitially": false,
-        "stateType": "str",
-        "ifState": "",
-        "ifStateType": "num",
-        "ifStateOperator": "is",
-        "outputOnlyOnStateChange": false,
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "ignorePrevStateNull": false,
-        "ignorePrevStateUnknown": true,
-        "ignorePrevStateUnavailable": true,
-        "ignoreCurrentStateUnknown": true,
-        "ignoreCurrentStateUnavailable": true,
-        "outputProperties": [
-            {
-                "property": "delivered",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            }
-        ],
-        "x": 140,
-        "y": 1600,
-        "wires": [
-            [
-                "ba77f8da98851350"
-            ]
-        ]
-    },
-    {
         "id": "fe0c8fde93e76cd2",
         "type": "api-current-state",
         "z": "7f39e487c7ab241c",
@@ -37718,7 +35985,7 @@
         "halt_if_type": "num",
         "halt_if_compare": "is",
         "entity_id": "sensor.solaredge_modbus_ac_power",
-        "state_type": "str",
+        "state_type": "num",
         "blockInputOverrides": false,
         "outputProperties": [
             {
@@ -37737,28 +36004,7 @@
         "entity_location": "data",
         "override_data": "msg",
         "x": 150,
-        "y": 1720,
-        "wires": [
-            [
-                "dff5637af40db115"
-            ]
-        ]
-    },
-    {
-        "id": "dff5637af40db115",
-        "type": "function",
-        "z": "7f39e487c7ab241c",
-        "g": "f8921a685aab270b",
-        "name": "round watt",
-        "func": "msg.producing = Math.round(msg.producing);\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 550,
-        "y": 1720,
+        "y": 1660,
         "wires": [
             [
                 "082c469b6d1254af"
@@ -37771,38 +36017,19 @@
         "z": "7f39e487c7ab241c",
         "g": "f8921a685aab270b",
         "name": "calculation",
-        "func": "// Sum two values\nmsg.payload = msg.producing - msg.returned + msg.delivered;\n\nreturn msg;",
+        "func": "const battery = global.get('zendure')?.power ?? 0;\n\nmsg.energy_house_usage = Math.round(msg.producing + msg.payload - battery);\n\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 750,
-        "y": 1720,
+        "x": 350,
+        "y": 1660,
         "wires": [
             [
-                "11215fce135d2001"
+                "a10f5c07b660c427"
             ]
-        ]
-    },
-    {
-        "id": "11215fce135d2001",
-        "type": "ha-sensor",
-        "z": "7f39e487c7ab241c",
-        "g": "f8921a685aab270b",
-        "name": "house_energy_usage",
-        "entityConfig": "3f4f99b6c043befd",
-        "version": 0,
-        "state": "payload",
-        "stateType": "msg",
-        "attributes": [],
-        "inputOverride": "allow",
-        "outputProperties": [],
-        "x": 940,
-        "y": 1720,
-        "wires": [
-            []
         ]
     },
     {
@@ -37813,7 +36040,127 @@
         "name": "sensor that shows house power usage",
         "info": "",
         "x": 190,
-        "y": 1680,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "f860228336c60b12",
+        "type": "tcp in",
+        "z": "7f39e487c7ab241c",
+        "g": "f8921a685aab270b",
+        "name": "",
+        "server": "client",
+        "host": "p1-relay",
+        "port": "8888",
+        "datamode": "stream",
+        "datatype": "utf8",
+        "newline": "\\n",
+        "topic": "",
+        "trim": false,
+        "base64": false,
+        "tls": "",
+        "x": 120,
+        "y": 1540,
+        "wires": [
+            [
+                "a0397741fbb3175e"
+            ]
+        ]
+    },
+    {
+        "id": "a0397741fbb3175e",
+        "type": "function",
+        "z": "7f39e487c7ab241c",
+        "g": "f8921a685aab270b",
+        "name": "raw telegram to watt",
+        "func": "// P1 telegram assembleren uit losse regels + netto vermogen berekenen\nlet buf = context.get('buf') || [];\nconst line = (msg.payload || '').replace(/\\r$/, '');\n\n// Startteken: gooi weg wat er nog lag (partieel telegram)\nif (line.startsWith('/')) {\n    buf = [line];\n    context.set('buf', buf);\n    return null;\n}\n\n// Nog geen start gezien? Negeren tot de eerste '/'\nif (buf.length === 0) { return null; }\n\nbuf.push(line);\n\n// Checksum-regel = einde telegram\nif (!line.startsWith('!')) {\n    context.set('buf', buf);\n    return null;\n}\n\nconst telegram = buf;\ncontext.set('buf', []);\n\n// OBIS-waarden ophalen: 1-0:1.7.0 = afname, 1-0:2.7.0 = teruglevering (beide in kW)\nfunction obis(code) {\n    const re = new RegExp('^' + code.replace(/[.*]/g, '\\\\$&') + '\\\\(([\\\\d.]+)\\\\*kW\\\\)');\n    for (const l of telegram) {\n        const m = l.match(re);\n        if (m) { return parseFloat(m[1]); }\n    }\n    return null;\n}\n\nconst afname = obis('1-0:1.7.0');\nconst teruglevering = obis('1-0:2.7.0');\n\nif (afname === null || teruglevering === null) {\n    node.warn('Telegram zonder 1.7.0/2.7.0, overgeslagen');\n    return null;\n}\n\n// Positief = van het net, negatief = terugleveren\nmsg.payload = Math.round((afname - teruglevering) * 1000);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1540,
+        "wires": [
+            [
+                "7eb874ad219c7c96",
+                "fe0c8fde93e76cd2",
+                "d62c350c952b01af"
+            ]
+        ]
+    },
+    {
+        "id": "d4971c4964918e5b",
+        "type": "mqtt out",
+        "z": "7f39e487c7ab241c",
+        "g": "f8921a685aab270b",
+        "name": "",
+        "topic": "nodered/customenergy/gridpower",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "36dee637778341ba",
+        "x": 820,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "7eb874ad219c7c96",
+        "type": "ha-sensor",
+        "z": "7f39e487c7ab241c",
+        "g": "f8921a685aab270b",
+        "name": "energy grid netto",
+        "entityConfig": "aa984334a063c45c",
+        "version": 0,
+        "state": "payload",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 570,
+        "y": 1540,
+        "wires": [
+            [
+                "d4971c4964918e5b"
+            ]
+        ]
+    },
+    {
+        "id": "a10f5c07b660c427",
+        "type": "ha-sensor",
+        "z": "7f39e487c7ab241c",
+        "g": "f8921a685aab270b",
+        "name": "energy_house_usage",
+        "entityConfig": "b9b73c1ac8e9cea7",
+        "version": 0,
+        "state": "energy_house_usage",
+        "stateType": "msg",
+        "attributes": [],
+        "inputOverride": "allow",
+        "outputProperties": [],
+        "x": 580,
+        "y": 1660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d62c350c952b01af",
+        "type": "link out",
+        "z": "7f39e487c7ab241c",
+        "g": "f8921a685aab270b",
+        "name": "energy grid netto watt",
+        "mode": "link",
+        "links": [
+            "9887b83b5db312da"
+        ],
+        "x": 495,
+        "y": 1600,
         "wires": []
     },
     {
@@ -53392,12 +51739,7 @@
         "type": "link in",
         "z": "edbbe41e31b072c6",
         "name": "souterrain mechanical ventilation",
-        "links": [
-            "9516fa80f467b0df",
-            "ac8eb8a0e6387131",
-            "c38645a953ed6080",
-            "2addf4564ea0c55e"
-        ],
+        "links": [],
         "x": 265,
         "y": 1620,
         "wires": [
@@ -55370,7 +53712,6 @@
             "2447274b2f6d022c",
             "89e0405cd70f5206",
             "7ebb2f335fac2686",
-            "cdbbe520d2b5eff8",
             "e0845450e8f79386",
             "813e0636f1726a9f",
             "8b7cc78e8ef37d00",
@@ -55383,7 +53724,8 @@
             "57a4a906a2a95a05",
             "51b637dbc5a9f5a4",
             "9d0680d2c96ee53c",
-            "724beb7b908a1719"
+            "724beb7b908a1719",
+            "56a6a4e084e7d24f"
         ],
         "x": 295,
         "y": 500,
@@ -59358,5 +57700,764 @@
                 "1976bccb3e1cf3cb"
             ]
         ]
+    },
+    {
+        "id": "9887b83b5db312da",
+        "type": "link in",
+        "z": "ed101e0c9d275ea6",
+        "g": "2b1a2d2644bfe417",
+        "name": "energy grid netto watt",
+        "links": [
+            "d62c350c952b01af"
+        ],
+        "x": 225,
+        "y": 640,
+        "wires": [
+            [
+                "1986e080d45fa604",
+                "f32c6a949e4acedb"
+            ]
+        ]
+    },
+    {
+        "id": "f32c6a949e4acedb",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "2b1a2d2644bfe417",
+        "name": "aggregate p1 output",
+        "func": "// P1 median — getriggerd vanuit een andere flow (DSMR P1-pipeline), los van de 5s decide-cyclus\nconst state = flow.get('zendure') || {};\nstate.grid = state.grid || {};\n\nconst buf = state.grid.buffer || [];\nconst last = Number(msg.payload);\nbuf.push(last);\nwhile (buf.length > 5) buf.shift();\n\n// Kopie sorteren, zodat de buffer zelf op volgorde van binnenkomst blijft\nconst sorted = buf.slice().sort((a, b) => a - b);\nconst median = Math.round(sorted[Math.floor(sorted.length / 2)]);\nconst medianTimestamp = Date.now();\n\n// Write to memory\nstate.grid.buffer = buf;\nstate.grid.median = median;\nstate.grid.medianTimestamp = medianTimestamp;\nstate.grid.latest = last;\nstate.grid.stale = false;\nstate.grid.staleSeconds = 0;\nflow.set('zendure', state);\n\n// Write to msg\nmsg.zendure = msg.zendure || {};\nmsg.zendure.grid = {\n    latest: last,\n    median: median,\n    medianTimestamp: medianTimestamp,\n    staleSeconds: 0,\n    stale: false,\n    bufferSize: buf.length\n};\n\nnode.status({\n    fill: 'grey',\n    shape: 'dot',\n    text: 'latest ' + last + ' W | median ' + median + ' W (' + buf.length + ')'\n});\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d5d39c0f0bab9050",
+        "type": "comment",
+        "z": "ed101e0c9d275ea6",
+        "g": "a2c0f6d0118f3895",
+        "name": "Read and save Zendure device state",
+        "info": "",
+        "x": 190,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "a8ea913bb3578add",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "a2c0f6d0118f3895",
+        "name": "url: /properties/report",
+        "func": "msg.url = \"http://\" + env.get(\"ZENDURE_HOST\") + \"/properties/report\";\nmsg.method = \"GET\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 500,
+        "wires": [
+            [
+                "e1bb3c068c60bea5"
+            ]
+        ]
+    },
+    {
+        "id": "e1bb3c068c60bea5",
+        "type": "http request",
+        "z": "ed101e0c9d275ea6",
+        "g": "a2c0f6d0118f3895",
+        "name": "",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 610,
+        "y": 500,
+        "wires": [
+            [
+                "cf74a9777c90413f"
+            ]
+        ]
+    },
+    {
+        "id": "cf74a9777c90413f",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "a2c0f6d0118f3895",
+        "name": "store report",
+        "func": "// Store report — ruwe Zendure API-respons opslaan\nconst state = flow.get('zendure') || {};\nstate.device = state.device || {};\nstate.device.raw = msg.payload;\nstate.device.rawTimestamp = Date.now();\nflow.set('zendure', state);\n\nmsg.zendure = msg.zendure || {};\nmsg.zendure.device = msg.zendure.device || {};\nmsg.zendure.device.raw = msg.payload;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 500,
+        "wires": [
+            [
+                "d11076833e98b4ba"
+            ]
+        ]
+    },
+    {
+        "id": "d11076833e98b4ba",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "a2c0f6d0118f3895",
+        "name": "parse state",
+        "func": "const report = msg.zendure?.device?.raw;\nconst p = report?.properties;\n\nif (!p) {\n    node.status({ fill: 'red', shape: 'ring', text: 'no properties' });\n    return null;\n}\n\nconst N = v => Number(v) || 0;\nconst I = v => parseInt(v) || 0;\n\n// PV telt als actief zodra een van deze drie erop wijst\nconst solar = N(p.solarInputPower);\nconst gridOff = N(p.gridOffPower);\nconst pvActive = I(p.pvStatus) === 1 || solar > 0 || gridOff < 0;\n\nconst passMode = I(p.pass);      // 0 = accu eerst, 2 = huis eerst\nconst acMode = I(p.acMode);    // 1 = laden, 2 = ontladen\n\n// Zonder PV kun je aan de accuzijde meten. Met PV moet je aan de netzijde\n// kijken, want dan loopt er vermogen langs de accu heen naar het huis.\nlet power;\nif (!pvActive) {\n    const charge = N(p.outputPackPower);\n    const discharge = -N(p.packInputPower);\n    power = charge !== 0 ? charge : discharge;\n} else {\n    const charge = N(p.gridInputPower);\n    const chargeFull = N(p.outputPackPower);\n    const discharge = -N(p.outputHomePower);\n\n    let result;\n    if (passMode === 2) result = chargeFull;\n    else if (charge !== 0) result = charge;\n    else result = discharge;\n\n    // In laadstand kan de formule negatief uitvallen door PV-doorvoer\n    power = (acMode === 1 && result < 0) ? 0 : result;\n}\n\nconst errorStates = { 0: 'No Notifications', 1: 'Check Zendure APP' };\n\nconst deviceState = {\n    sn: report.sn,\n    productModel: report.product,\n    power: Math.round(power),   // + = laden, - = ontladen\n    soc: N(p.electricLevel),\n    minSoc: I(p.minSoc) / 10,    // API geeft tienden van procenten\n    maxSoc: I(p.socSet) / 10,\n    setCharge: I(p.inputLimit),\n    setDischarge: I(p.outputLimit),\n    acMode: acMode,\n    smartMode: I(p.smartMode),      // 1 = RAM, 0 = Flash\n    socLimit: I(p.socLimit),\n    calibrating: I(p.socStatus) === 1,\n    pvActive: pvActive,\n    batteryVoltage: N(p.BatVolt) / 100,\n    errorStatus: errorStates[I(p.is_error)] ?? 'Onbekend',\n    inverterTemperature: (N(p.hyperTmp) - 2731) / 10,\n    totalBatteries: I(p.packNum)\n};\n\nmsg.zendure.device.state = deviceState;\n\n// De regelketen draait op een eigen timer en leest dit uit flow context.\nconst state = flow.get('zendure') || {};\nstate.device = state.device || {};\nstate.device.state = deviceState;\nstate.device.stateTimestamp = Date.now();\nflow.set('zendure', state);\n\nnode.status({\n    fill: 'grey',\n    shape: 'dot',\n    text: deviceState.power + ' W | SOC ' + deviceState.soc + '%' + (pvActive ? ' | PV' : '')\n});\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 500,
+        "wires": [
+            [
+                "592089e9c3f225a0"
+            ]
+        ]
+    },
+    {
+        "id": "6ffa4514f681f728",
+        "type": "comment",
+        "z": "ed101e0c9d275ea6",
+        "g": "2b1a2d2644bfe417",
+        "name": "Read and save P1 data",
+        "info": "",
+        "x": 150,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "1986e080d45fa604",
+        "type": "stoptimer",
+        "z": "ed101e0c9d275ea6",
+        "g": "2b1a2d2644bfe417",
+        "duration": "60",
+        "units": "Second",
+        "payloadtype": "num",
+        "payloadval": "0",
+        "name": "",
+        "x": 410,
+        "y": 700,
+        "wires": [
+            [
+                "4b92d038c62a5ff8"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4b92d038c62a5ff8",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "2b1a2d2644bfe417",
+        "name": "safety stale",
+        "func": "// Grid stale check — vuurt alleen als 'stoptimer' geen nieuwe meting heeft gezien\nconst state = flow.get('zendure') || {};\nstate.grid = state.grid || {};\n\nconst medianTimestamp = state.grid.medianTimestamp;\nconst staleSeconds = medianTimestamp ? (Date.now() - medianTimestamp) / 1000 : Infinity;\n\nstate.grid.stale = true;\nstate.grid.staleSeconds = staleSeconds;\nflow.set('zendure', state);\n\nnode.status({\n    fill: 'red',\n    shape: 'ring',\n    text: 'stale ' + staleSeconds.toFixed(0) + 's (no data)'\n});\n\nmsg.zendure = msg.zendure || {};\nmsg.zendure.grid = {\n    latest: state.grid.latest,\n    median: state.grid.median,\n    medianTimestamp: medianTimestamp,\n    staleSeconds: staleSeconds,\n    stale: true,\n    bufferSize: state.grid.buffer ? state.grid.buffer.length : 0\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 700,
+        "wires": [
+            [
+                "406ee9a3d8e53c82"
+            ]
+        ]
+    },
+    {
+        "id": "f0008a489e5fcba7",
+        "type": "mqtt out",
+        "z": "ed101e0c9d275ea6",
+        "g": "4152d843e22f2491",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "36dee637778341ba",
+        "x": 1050,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "592089e9c3f225a0",
+        "type": "link out",
+        "z": "ed101e0c9d275ea6",
+        "g": "a2c0f6d0118f3895",
+        "name": "read and save zendure device state",
+        "mode": "link",
+        "links": [
+            "cee40945430dcab2"
+        ],
+        "x": 1035,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "6520b41902b1a724",
+        "type": "inject",
+        "z": "ed101e0c9d275ea6",
+        "g": "a2c0f6d0118f3895",
+        "name": "every 1 sec",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "start",
+        "x": 170,
+        "y": 500,
+        "wires": [
+            [
+                "a8ea913bb3578add"
+            ]
+        ]
+    },
+    {
+        "id": "3fe2630673bda9ee",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "4152d843e22f2491",
+        "name": "merge zendure state object",
+        "func": "// Merge zendure state — voegt grid en inputSettings toe aan msg die al device bevat\nconst state = flow.get('zendure') || {};\n\nmsg.zendure = msg.zendure || {};\nmsg.zendure.grid = state.grid || {};\nmsg.zendure.inputSettings = state.inputSettings || {};\n// msg.zendure.device is al aanwezig, komt uit de device-chain zelf\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 840,
+        "wires": [
+            [
+                "70b94f983d053644"
+            ]
+        ]
+    },
+    {
+        "id": "76830ce47c5649bc",
+        "type": "comment",
+        "z": "ed101e0c9d275ea6",
+        "g": "4152d843e22f2491",
+        "name": "Write p1 & device data to mqtt",
+        "info": "",
+        "x": 170,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "3d6cbdf12673f4e6",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "4152d843e22f2491",
+        "name": "count relay switches",
+        "func": "// Count relay switches — telt acMode-transities, reset dagelijks om middernacht\nconst state = flow.get('zendure') || {};\nstate.device = state.device || {};\n\nconst currentMode = msg.zendure.device?.state?.acMode;\nconst previousMode = state.device.lastAcMode;\nconst today = new Date().toDateString();\n\n// Reset bij nieuwe dag\nif (state.device.relaySwitchesDate !== today) {\n    state.device.relaySwitchesToday = 0;\n    state.device.relaySwitchesDate = today;\n}\n\n// Alleen tellen bij een echte overgang, niet bij de eerste run (previousMode === undefined)\nif (previousMode !== undefined && currentMode !== undefined && currentMode !== previousMode) {\n    state.device.relaySwitchesToday = (state.device.relaySwitchesToday || 0) + 1;\n}\n\nstate.device.lastAcMode = currentMode;\nflow.set('zendure', state);\n\nmsg.zendure.device.relaySwitchesToday = state.device.relaySwitchesToday || 0;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 840,
+        "wires": [
+            [
+                "3fe2630673bda9ee"
+            ]
+        ]
+    },
+    {
+        "id": "70b94f983d053644",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "4152d843e22f2491",
+        "name": "fast update - state",
+        "func": "// FAST state — publiceert elke cyclus (1s), snel veranderende meetwaarden\nconst grid = msg.zendure.grid || {};\nconst device = msg.zendure.device?.state || {};\n\nlet socLimitStatus = \"Normale werking\";\nif (device.soc !== undefined) {\n    if (device.soc >= device.maxSoc) socLimitStatus = \"Laadlimiet bereikt\";\n    else if (device.soc <= device.minSoc) socLimitStatus = \"Ontlaadlimiet bereikt\";\n}\n\n// Energie-accumulatie: vermogen (W) × verstreken tijd (h) = Wh, dan naar kWh.\n// Nettoert lading tegen ontlading resp. import tegen export over tijd.\nconst state = flow.get('zendure') || {};\nconst now = Date.now();\nstate.energy = state.energy || { batteryKwh: 0, gridKwh: 0, lastTimestamp: now };\nconst hoursElapsed = (now - state.energy.lastTimestamp) / 3600000;\n\n// hoursElapsed < 1 als guard tegen een gat (bijv. Node-RED-herstart), zodat\n// zo'n gat niet in één klap een groot foutief bedrag optelt\nif (hoursElapsed > 0 && hoursElapsed < 1) {\n    if (device.power !== undefined) {\n        state.energy.batteryKwh += (device.power * hoursElapsed) / 1000;\n    }\n    if (grid.median !== undefined) {\n        state.energy.gridKwh += (grid.median * hoursElapsed) / 1000;\n    }\n}\nstate.energy.lastTimestamp = now;\nflow.set('zendure', state);\n\nconst payload = {\n    grid_power: grid.latest,\n    grid_median: grid.median,\n    grid_stale: grid.stale,\n    battery_power: device.power,\n    battery_soc: device.soc,\n    battery_voltage: device.batteryVoltage,\n    pv_active: device.pvActive,\n    ac_mode: device.acMode,\n    soc_limit_status: socLimitStatus,\n    charging_active: device.acMode === 1,\n    discharging_active: device.acMode === 2,\n    calibrating: device.calibrating,\n    error_status: device.errorStatus,\n    net_battery_energy_kwh: Math.round(state.energy.batteryKwh * 100) / 100,\n    net_grid_energy_kwh: Math.round(state.energy.gridKwh * 100) / 100,\n    timestamp: Date.now()\n};\n\nmsg.topic = \"/homeassistant/zendure/state\";\nmsg.payload = payload;\nmsg.retain = true;\nmsg.qos = 1;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 840,
+        "wires": [
+            [
+                "f0008a489e5fcba7"
+            ]
+        ]
+    },
+    {
+        "id": "5e679c378187dbc9",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "4152d843e22f2491",
+        "name": "slow update - info",
+        "func": "// SLOW info — eigen 30s-timer, leest alles rechtstreeks uit flow context (geen msg-afhankelijkheid)\nconst state = flow.get('zendure') || {};\nconst device = state.device?.state || {};\nconst settings = state.inputSettings || {};\n\nconst payload = {\n    battery_sn: device.sn,\n    min_soc: device.minSoc,\n    max_soc: device.maxSoc,\n    smart_mode: device.smartMode,\n    operation_mode: settings.operation_mode,\n    max_charge_power: settings.max_charge_power,\n    max_discharge_power: settings.max_discharge_power,\n    setting_vs_actual_charge_power: (settings.max_charge_power ?? 0) - (device.setCharge ?? 0),\n    setting_vs_actual_discharge_power: (settings.max_discharge_power ?? 0) - (device.setDischarge ?? 0),\n    soc_protection_disabled: settings.soc_protection_disabled,\n    pv_export_disabled: settings.pv_export_disabled,\n    relay_switches_today: device.relaySwitchesToday ?? 0,\n    inverter_temperature: device.inverterTemperature,\n    product_model: device.productModel,\n    total_batteries: device.totalBatteries,\n    timestamp: Date.now()\n};\n\nmsg.topic = \"/homeassistant/zendure/info\";\nmsg.payload = payload;\nmsg.retain = true;\nmsg.qos = 1;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 880,
+        "wires": [
+            [
+                "f0008a489e5fcba7"
+            ]
+        ]
+    },
+    {
+        "id": "7ab065944d0d7af1",
+        "type": "inject",
+        "z": "ed101e0c9d275ea6",
+        "g": "4152d843e22f2491",
+        "name": "every 30 sec",
+        "props": [
+            {
+                "p": "start",
+                "v": "start",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 160,
+        "y": 880,
+        "wires": [
+            [
+                "5e679c378187dbc9"
+            ]
+        ]
+    },
+    {
+        "id": "cee40945430dcab2",
+        "type": "link in",
+        "z": "ed101e0c9d275ea6",
+        "g": "4152d843e22f2491",
+        "name": "write zendure state to mqtt sensors",
+        "links": [
+            "592089e9c3f225a0",
+            "406ee9a3d8e53c82"
+        ],
+        "x": 85,
+        "y": 840,
+        "wires": [
+            [
+                "3d6cbdf12673f4e6"
+            ]
+        ]
+    },
+    {
+        "id": "406ee9a3d8e53c82",
+        "type": "link out",
+        "z": "ed101e0c9d275ea6",
+        "g": "2b1a2d2644bfe417",
+        "name": "read and save p1 data",
+        "mode": "link",
+        "links": [
+            "cee40945430dcab2"
+        ],
+        "x": 695,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "307c410fd84c05cd",
+        "type": "comment",
+        "z": "ed101e0c9d275ea6",
+        "g": "7efa3de00b78e2ec",
+        "name": "Heartbeat",
+        "info": "",
+        "x": 110,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "194b5b0a94a4774c",
+        "type": "inject",
+        "z": "ed101e0c9d275ea6",
+        "g": "7efa3de00b78e2ec",
+        "name": "every 1 min",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "15",
+        "topic": "start",
+        "x": 160,
+        "y": 100,
+        "wires": [
+            [
+                "029ddc76b2f98d78"
+            ]
+        ]
+    },
+    {
+        "id": "029ddc76b2f98d78",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "7efa3de00b78e2ec",
+        "name": "build heartbeat",
+        "func": "// Heartbeat — nu een gewone MQTT-sensor i.p.v. input_datetime.set_value\nmsg.topic = \"/homeassistant/sensor/zendure_last_run/state\";\nmsg.payload = new Date().toISOString();\nmsg.retain = true;\nmsg.qos = 1;\n\nnode.status({ fill: 'grey', shape: 'dot', text: msg.payload });\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 100,
+        "wires": [
+            [
+                "f2bf7f5bc1ac7818"
+            ]
+        ]
+    },
+    {
+        "id": "f2bf7f5bc1ac7818",
+        "type": "mqtt out",
+        "z": "ed101e0c9d275ea6",
+        "g": "7efa3de00b78e2ec",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "36dee637778341ba",
+        "x": 560,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "7c7c62428edcd52d",
+        "type": "comment",
+        "z": "ed101e0c9d275ea6",
+        "g": "f695626a772d7e66",
+        "name": "Read and save input settings",
+        "info": "",
+        "x": 170,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "6d02301c98b0b458",
+        "type": "mqtt in",
+        "z": "ed101e0c9d275ea6",
+        "g": "f695626a772d7e66",
+        "name": "set topics",
+        "topic": "/homeassistant/zendure/setting/+/set",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "36dee637778341ba",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 300,
+        "wires": [
+            [
+                "e7b9c33209b90fd0"
+            ]
+        ]
+    },
+    {
+        "id": "e7b9c33209b90fd0",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "f695626a772d7e66",
+        "name": "echo to state",
+        "func": "// Echo command terug naar de state-topic — HA heeft min/max al clientside\n// afgedwongen vóór het publiceren, dus geen dubbele validatie hier.\nmsg.topic = msg.topic.replace(/\\/set$/, '/state');\nmsg.retain = true;\nmsg.qos = 1;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 300,
+        "wires": [
+            [
+                "bde3d74f4b16f627"
+            ]
+        ]
+    },
+    {
+        "id": "cfd7e95c8114061a",
+        "type": "mqtt in",
+        "z": "ed101e0c9d275ea6",
+        "g": "f695626a772d7e66",
+        "name": "state topics",
+        "topic": "/homeassistant/zendure/setting/+/state",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "36dee637778341ba",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 360,
+        "wires": [
+            [
+                "4e0aa906294621f4"
+            ]
+        ]
+    },
+    {
+        "id": "4e0aa906294621f4",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "f695626a772d7e66",
+        "name": "store setting",
+        "func": "// Store setting — bouwt flow.zendure.inputSettings op vanuit /state.\n// Vuurt zowel op net geëchode wijzigingen als op retained berichten die\n// de broker meteen aflevert zodra Node-RED bij een herstart hierop subscribet.\nconst match = /\\/setting\\/([^/]+)\\/state$/.exec(msg.topic);\nif (!match) return null;\n\nconst name = match[1];\nconst raw = msg.payload;\nconst num = parseFloat(raw);\nconst value = isNaN(num) ? raw : num;\n\nconst state = flow.get('zendure') || {};\nstate.inputSettings = state.inputSettings || {};\nstate.inputSettings[name] = value;\nstate.inputSettingsTimestamp = Date.now();\nflow.set('zendure', state);\n\nnode.status({ fill: 'grey', shape: 'dot', text: name + ' = ' + value });\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d6a9161cfeaa887f",
+        "type": "inject",
+        "z": "ed101e0c9d275ea6",
+        "g": "f695626a772d7e66",
+        "name": "once at start",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "start",
+        "x": 160,
+        "y": 240,
+        "wires": [
+            [
+                "1dcb9a408a776c9c"
+            ]
+        ]
+    },
+    {
+        "id": "1dcb9a408a776c9c",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "f695626a772d7e66",
+        "name": "seed defaults",
+        "func": "// Seed defaults — vult alleen instellingen die nog geen waarde hebben.\n// Overschrijft nooit een bestaande (retained) waarde, dus veilig bij elke\n// herstart. Alleen relevant vóór de allereerste keer dat een instelling\n// ooit gepubliceerd is.\nconst defaults = {\n    operation_mode: 'Standby',\n    max_charge_power: 100,\n    max_discharge_power: 100,\n    start_discharging_at: 100,\n    start_charging_at: -300,\n    charge_buffer: 50,\n    discharge_buffer: 5,\n    standby_delay: 15,\n    min_soc: 10,\n    max_soc: 100,\n    soc_protection_disabled: 'OFF',\n    pv_export_disabled: 'OFF'\n};\n\nconst state = flow.get('zendure') || {};\nconst current = state.inputSettings || {};\n\nconst msgs = [];\nfor (const [name, value] of Object.entries(defaults)) {\n    if (current[name] === undefined) {\n        msgs.push({\n            topic: '/homeassistant/zendure/setting/' + name + '/state',\n            payload: value,\n            retain: true,\n            qos: 1\n        });\n    }\n}\n\nif (msgs.length === 0) {\n    node.status({ fill: 'grey', shape: 'dot', text: 'nothing to seed' });\n    return null;\n}\n\nnode.status({ fill: 'blue', shape: 'dot', text: 'seeding ' + msgs.length + ' defaults' });\nreturn [msgs];",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 240,
+        "wires": [
+            [
+                "bde3d74f4b16f627"
+            ]
+        ]
+    },
+    {
+        "id": "bde3d74f4b16f627",
+        "type": "mqtt out",
+        "z": "ed101e0c9d275ea6",
+        "g": "f695626a772d7e66",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "36dee637778341ba",
+        "x": 560,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "9606e7f6defcc6b4",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "66429997c8e6218e",
+        "name": "safety check",
+        "func": "// Safety check — losse chain, eigen timer, leest alles uit flow context\nconst zendureState = flow.get('zendure') || {};\n\nconst gridStale = zendureState.grid?.stale ?? true;\nconst deviceTimestamp = zendureState.device?.stateTimestamp;\nconst deviceStaleSeconds = deviceTimestamp ? (Date.now() - deviceTimestamp) / 1000 : Infinity;\nconst deviceStale = deviceStaleSeconds > 60;\n\nconst emergency = gridStale || deviceStale;\nconst alreadySent = zendureState.safety?.emergencyStopSent || false;\n\nzendureState.safety = zendureState.safety || {};\nzendureState.safety.emergency = emergency;\nzendureState.safety.gridStale = gridStale;\nzendureState.safety.deviceStale = deviceStale;\nzendureState.safety.deviceStaleSeconds = deviceStaleSeconds;\n\nif (!emergency && alreadySent) {\n    // Situatie is weer normaal — reset, zodat een volgende emergency weer schoon begint\n    zendureState.safety.emergencyStopSent = false;\n    zendureState.safety.emergencyWrites = {};\n}\nflow.set('zendure', zendureState);\n\nif (emergency && !alreadySent) {\n    node.status({ fill: 'red', shape: 'dot', text: 'EMERGENCY — sending stop (grid stale: ' + gridStale + ', device stale: ' + deviceStale + ')' });\n    msg.zendure = { safety: zendureState.safety };\n    return msg;\n}\n\nif (emergency && alreadySent) {\n    node.status({ fill: 'red', shape: 'ring', text: 'EMERGENCY (already sent, waiting for recovery)' });\n} else {\n    node.status({ fill: 'grey', shape: 'dot', text: 'ok' });\n}\n\nreturn null;   // geen nieuwe write nodig",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 1040,
+        "wires": [
+            [
+                "b54ef231c8ba8d2a"
+            ]
+        ],
+        "outputLabels": [
+            "normal"
+        ]
+    },
+    {
+        "id": "b54ef231c8ba8d2a",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "66429997c8e6218e",
+        "name": "build emergency stop",
+        "func": "// Build emergency stop — twee losse writes (outputLimit en inputLimit apart)\n// i.p.v. één gecombineerd bericht: een bekende zenSDK-bug maakt herhaalde\n// writes met beide velden op 0 in één keer onbetrouwbaar. Geen acMode\n// meegestuurd — er is geen bevestigde 'stop'-waarde voor dat veld.\nconst sn = flow.get('zendure')?.device?.state?.sn;\n\nif (!sn) {\n    node.status({ fill: 'red', shape: 'ring', text: 'no device SN - cannot write' });\n    return null;\n}\n\nconst base = {\n    url: \"http://\" + env.get(\"ZENDURE_HOST\") + \"/properties/write\",\n    method: \"POST\",\n    headers: { \"Content-Type\": \"application/json\" }\n};\n\nconst msgOutput = { ...base, writeTarget: 'outputLimit', payload: { sn: sn, properties: { outputLimit: 0 } } };\nconst msgInput  = { ...base, writeTarget: 'inputLimit',  payload: { sn: sn, properties: { inputLimit: 0 } } };\n\nnode.status({ fill: 'red', shape: 'dot', text: 'writing emergency stop (2x)' });\n\nreturn [[msgOutput, msgInput]];",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1040,
+        "wires": [
+            [
+                "5af1a2cdf6840f16"
+            ]
+        ]
+    },
+    {
+        "id": "6644e4ddb6411997",
+        "type": "inject",
+        "z": "ed101e0c9d275ea6",
+        "g": "66429997c8e6218e",
+        "name": "every 1 sec",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "start",
+        "x": 170,
+        "y": 1040,
+        "wires": [
+            [
+                "9606e7f6defcc6b4"
+            ]
+        ]
+    },
+    {
+        "id": "5af1a2cdf6840f16",
+        "type": "http request",
+        "z": "ed101e0c9d275ea6",
+        "g": "66429997c8e6218e",
+        "name": "",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 770,
+        "y": 1040,
+        "wires": [
+            [
+                "1ac99a9ca3d607b0"
+            ]
+        ]
+    },
+    {
+        "id": "1ac99a9ca3d607b0",
+        "type": "function",
+        "z": "ed101e0c9d275ea6",
+        "g": "66429997c8e6218e",
+        "name": "confirm emergency stop",
+        "func": "// Confirm emergency stop write — houdt per write (outputLimit/inputLimit)\n// apart bij of hij gelukt is. Pas als beide bevestigd zijn, geldt de\n// noodstop als daadwerkelijk verstuurd; anders probeert safety check het\n// (beide writes opnieuw) de volgende cyclus.\nconst state = flow.get('zendure') || {};\nstate.safety = state.safety || {};\nstate.safety.emergencyWrites = state.safety.emergencyWrites || {};\n\nconst success = msg.statusCode === 200;\nconst target = msg.writeTarget;\n\nstate.safety.emergencyWrites[target] = success;\n\nconst bothConfirmed = state.safety.emergencyWrites.outputLimit === true\n                    && state.safety.emergencyWrites.inputLimit === true;\n\nstate.safety.emergencyStopSent = bothConfirmed;\nstate.safety.emergencyStopSuccess = bothConfirmed;\nstate.safety.emergencyStopTimestamp = Date.now();\nflow.set('zendure', state);\n\nif (success) {\n    node.status({\n        fill: 'red',\n        shape: bothConfirmed ? 'dot' : 'ring',\n        text: target + ' confirmed' + (bothConfirmed ? ' — both done' : ', waiting for other')\n    });\n} else {\n    node.status({ fill: 'red', shape: 'ring', text: target + ' write FAILED — status ' + msg.statusCode + ', retrying next cycle' });\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7796bb4f76a2f04b",
+        "type": "comment",
+        "z": "ed101e0c9d275ea6",
+        "g": "66429997c8e6218e",
+        "name": "Emergency stop",
+        "info": "",
+        "x": 130,
+        "y": 980,
+        "wires": []
     }
 ]
