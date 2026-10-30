@@ -7799,7 +7799,7 @@
         ],
         "x": 34,
         "y": 1619,
-        "w": 312,
+        "w": 292,
         "h": 122
     },
     {
@@ -7824,7 +7824,7 @@
         ],
         "x": 34,
         "y": 1759,
-        "w": 592,
+        "w": 552,
         "h": 122
     },
     {
@@ -44928,7 +44928,7 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "toggle",
-        "x": 240,
+        "x": 220,
         "y": 1700,
         "wires": [
             []
@@ -44973,7 +44973,7 @@
         "blockInputOverrides": true,
         "domain": "light",
         "service": "turn_on",
-        "x": 480,
+        "x": 440,
         "y": 1840,
         "wires": [
             []

@@ -18373,9 +18373,7 @@
         "g": "ec2f567862ba39b8",
         "name": "channel 2 single",
         "mode": "link",
-        "links": [
-            "f27f06b74e5f3830"
-        ],
+        "links": [],
         "x": 835,
         "y": 560,
         "wires": []
@@ -35749,7 +35747,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "garbage",
+        "template": "inverter",
         "output": "str",
         "x": 990,
         "y": 640,
