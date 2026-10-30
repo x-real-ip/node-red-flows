@@ -4359,17 +4359,17 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "15d1a1deb0bec731",
-            "2339cb24fb40851a",
-            "da5929c89432e558",
-            "efc8e388668c144b",
-            "2bc670f809f5f6df",
-            "164b09c02dab9081",
-            "e4dc18f7c9455c0d",
-            "6fc294104a2dbb11",
-            "3040ab0c0c1ed2dd",
-            "d8573e32a9ec888f",
-            "849379e6f7939a8c"
+            "b78dcdf190560c51",
+            "27f2d7434d762712",
+            "68c2e01cc96b6bb6",
+            "ff68aee9252aec96",
+            "d091967b43d8d2b7",
+            "3de20cbe61e538ad",
+            "dbf6afae659daca2",
+            "1dcd1b9017ed14bd",
+            "10fef539f8d15b6a",
+            "ccab9852ed971e80",
+            "57ac9a7361f73c44"
         ],
         "x": 14,
         "y": 1519,
@@ -26189,293 +26189,6 @@
         "wires": []
     },
     {
-        "id": "15d1a1deb0bec731",
-        "type": "api-call-service",
-        "z": "be92da6a5a4a4550",
-        "g": "7392a1a622e27f68",
-        "name": "",
-        "server": "4ba92433.2478cc",
-        "version": 7,
-        "debugenabled": false,
-        "action": "todo.get_items",
-        "floorId": [],
-        "areaId": [],
-        "deviceId": [],
-        "entityId": [
-            "todo.schoonmaak"
-        ],
-        "labelId": [],
-        "data": "",
-        "dataType": "jsonata",
-        "mergeContext": "",
-        "mustacheAltTags": false,
-        "outputProperties": [
-            {
-                "property": "todo_results",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "results"
-            }
-        ],
-        "queue": "none",
-        "blockInputOverrides": true,
-        "domain": "todo",
-        "service": "get_items",
-        "x": 780,
-        "y": 1600,
-        "wires": [
-            [
-                "da5929c89432e558"
-            ]
-        ]
-    },
-    {
-        "id": "2339cb24fb40851a",
-        "type": "api-current-state",
-        "z": "be92da6a5a4a4550",
-        "g": "7392a1a622e27f68",
-        "name": "garbage tomorrow",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "Geen",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "sensor.afval_morgen",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "garbage_type",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "garbage_data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 570,
-        "y": 1600,
-        "wires": [
-            [
-                "15d1a1deb0bec731"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "da5929c89432e558",
-        "type": "split",
-        "z": "be92da6a5a4a4550",
-        "g": "7392a1a622e27f68",
-        "name": "",
-        "splt": "\\n",
-        "spltType": "str",
-        "arraySplt": 1,
-        "arraySpltType": "len",
-        "stream": false,
-        "addname": "",
-        "property": "todo_results[\"todo.schoonmaak\"].items",
-        "x": 930,
-        "y": 1600,
-        "wires": [
-            [
-                "2bc670f809f5f6df"
-            ]
-        ]
-    },
-    {
-        "id": "efc8e388668c144b",
-        "type": "function",
-        "z": "be92da6a5a4a4550",
-        "g": "7392a1a622e27f68",
-        "name": "filter",
-        "func": "// normalize function: lowercase + remove spaces/dashes\nfunction normalize(str) {\n    return str.toLowerCase().replace(/[-\\s]/g, \"\");\n}\n\nconst todo_summary = normalize(msg.todo_results[\"todo.schoonmaak\"].items.summary);\nconst garbagecontainer = normalize(msg.garbage_type) + \"container\";\n\nconst todo_description = msg.todo_results[\"todo.schoonmaak\"].items.description;\nconst garbage_pickupdate = msg.garbage_data.attributes.date;\n\nif (todo_summary.includes(garbagecontainer) && todo_description.includes(garbage_pickupdate)) {\n    return msg;\n}\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1170,
-        "y": 1600,
-        "wires": [
-            [
-                "3040ab0c0c1ed2dd"
-            ]
-        ]
-    },
-    {
-        "id": "2bc670f809f5f6df",
-        "type": "switch",
-        "z": "be92da6a5a4a4550",
-        "g": "7392a1a622e27f68",
-        "name": "",
-        "property": "msg.todo_results[\"todo.schoonmaak\"].items.status",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "needs_action",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1050,
-        "y": 1600,
-        "wires": [
-            [
-                "efc8e388668c144b"
-            ]
-        ]
-    },
-    {
-        "id": "164b09c02dab9081",
-        "type": "comment",
-        "z": "be92da6a5a4a4550",
-        "g": "7392a1a622e27f68",
-        "name": "send garbage notification if todo task needs action and contains the garbage type and date",
-        "info": "",
-        "x": 350,
-        "y": 1560,
-        "wires": []
-    },
-    {
-        "id": "e4dc18f7c9455c0d",
-        "type": "api-current-state",
-        "z": "be92da6a5a4a4550",
-        "g": "7392a1a622e27f68",
-        "name": "garbage today",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 2,
-        "halt_if": "Geen",
-        "halt_if_type": "str",
-        "halt_if_compare": "is_not",
-        "entity_id": "sensor.afval_vandaag",
-        "state_type": "str",
-        "blockInputOverrides": false,
-        "outputProperties": [
-            {
-                "property": "garbage_type",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entityState"
-            },
-            {
-                "property": "garbage_data",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
-        ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 580,
-        "y": 1660,
-        "wires": [
-            [
-                "15d1a1deb0bec731"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "6fc294104a2dbb11",
-        "type": "time-range-switch",
-        "z": "be92da6a5a4a4550",
-        "g": "7392a1a622e27f68",
-        "name": "",
-        "lat": "52.0434",
-        "lon": "5.6773",
-        "startTime": "05:00",
-        "endTime": "00:00",
-        "startOffset": 0,
-        "endOffset": 0,
-        "x": 370,
-        "y": 1600,
-        "wires": [
-            [
-                "2339cb24fb40851a"
-            ],
-            [
-                "e4dc18f7c9455c0d"
-            ]
-        ]
-    },
-    {
-        "id": "3040ab0c0c1ed2dd",
-        "type": "function",
-        "z": "be92da6a5a4a4550",
-        "g": "7392a1a622e27f68",
-        "name": "message",
-        "func": "msg.notify = {}\n\nif (msg.payload === \"GFT\" || msg.payload === \"PMD\") {\n    msg.notify.message = \"Let op, de \" + msg.payload + \"-container moet aan de weg worden gezet\"\n}\nelse {\n    msg.notify.message = \"Let op, de \" + msg.payload.toLowerCase() + \"container moet aan de weg worden gezet\"\n}\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1300,
-        "y": 1600,
-        "wires": [
-            [
-                "d8573e32a9ec888f"
-            ]
-        ]
-    },
-    {
-        "id": "d8573e32a9ec888f",
-        "type": "link out",
-        "z": "be92da6a5a4a4550",
-        "g": "7392a1a622e27f68",
-        "name": "check garbage todo task needs_action, send notification",
-        "mode": "link",
-        "links": [
-            "76dcb305ba39e083"
-        ],
-        "x": 1395,
-        "y": 1600,
-        "wires": []
-    },
-    {
-        "id": "849379e6f7939a8c",
-        "type": "link in",
-        "z": "be92da6a5a4a4550",
-        "g": "7392a1a622e27f68",
-        "name": "check garbage todo task needs_action, send notification",
-        "links": [
-            "e6b9ff42fde3ea4e"
-        ],
-        "x": 265,
-        "y": 1600,
-        "wires": [
-            [
-                "6fc294104a2dbb11"
-            ]
-        ]
-    },
-    {
         "id": "4152f10819c597f4",
         "type": "function",
         "z": "be92da6a5a4a4550",
@@ -26665,6 +26378,293 @@
         "x": 210,
         "y": 3980,
         "wires": []
+    },
+    {
+        "id": "27f2d7434d762712",
+        "type": "api-call-service",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "todo.get_items",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "todo.schoonmaak"
+        ],
+        "labelId": [],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [
+            {
+                "property": "todo_results",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "results"
+            }
+        ],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "todo",
+        "service": "get_items",
+        "x": 780,
+        "y": 1600,
+        "wires": [
+            [
+                "ff68aee9252aec96"
+            ]
+        ]
+    },
+    {
+        "id": "68c2e01cc96b6bb6",
+        "type": "api-current-state",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "garbage tomorrow",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "Geen",
+        "halt_if_type": "str",
+        "halt_if_compare": "is_not",
+        "entity_id": "sensor.afval_morgen",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "garbage_type",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "garbage_data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 570,
+        "y": 1600,
+        "wires": [
+            [
+                "27f2d7434d762712"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ff68aee9252aec96",
+        "type": "split",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "todo_results[\"todo.schoonmaak\"].items",
+        "x": 930,
+        "y": 1600,
+        "wires": [
+            [
+                "3de20cbe61e538ad"
+            ]
+        ]
+    },
+    {
+        "id": "d091967b43d8d2b7",
+        "type": "function",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "filter",
+        "func": "// Normalize: lowercase and strip spaces/dashes\nfunction normalize(str) {\n    return String(str ?? \"\").toLowerCase().replace(/[-\\s]/g, \"\");\n}\n\n// After the split node, 'items' holds a single todo item\nconst item = msg.todo_results[\"todo.schoonmaak\"].items;\n\nconst todoSummary = normalize(item.summary);\nconst todoDescription = item.description ?? \"\"; // description is optional in HA todo items\n\nconst garbageContainer = normalize(msg.garbage_type) + \"container\";\nconst pickupDate = msg.garbage_data?.attributes?.date;\n\nif (!pickupDate) {\n    node.warn(\"No date attribute on garbage sensor\");\n    return null;\n}\n\nif (todoSummary.includes(garbageContainer) && todoDescription.includes(pickupDate)) {\n    return msg;\n}\n\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 1600,
+        "wires": [
+            [
+                "ccab9852ed971e80"
+            ]
+        ]
+    },
+    {
+        "id": "3de20cbe61e538ad",
+        "type": "switch",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "",
+        "property": "todo_results[\"todo.schoonmaak\"].items.status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "needs_action",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1050,
+        "y": 1600,
+        "wires": [
+            [
+                "d091967b43d8d2b7"
+            ]
+        ]
+    },
+    {
+        "id": "dbf6afae659daca2",
+        "type": "comment",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "send garbage notification if todo task needs action and contains the garbage type and date",
+        "info": "",
+        "x": 350,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "1dcd1b9017ed14bd",
+        "type": "api-current-state",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "garbage today",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 2,
+        "halt_if": "Geen",
+        "halt_if_type": "str",
+        "halt_if_compare": "is_not",
+        "entity_id": "sensor.afval_vandaag",
+        "state_type": "str",
+        "blockInputOverrides": false,
+        "outputProperties": [
+            {
+                "property": "garbage_type",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "garbage_data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entity"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 580,
+        "y": 1660,
+        "wires": [
+            [
+                "27f2d7434d762712"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "b78dcdf190560c51",
+        "type": "time-range-switch",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "",
+        "lat": "52.0434",
+        "lon": "5.6773",
+        "startTime": "05:00",
+        "endTime": "00:00",
+        "startOffset": 0,
+        "endOffset": 0,
+        "x": 370,
+        "y": 1600,
+        "wires": [
+            [
+                "68c2e01cc96b6bb6"
+            ],
+            [
+                "1dcd1b9017ed14bd"
+            ]
+        ]
+    },
+    {
+        "id": "ccab9852ed971e80",
+        "type": "function",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "message",
+        "func": "const garbageType = String(msg.garbage_type);\n\nmsg.notify = {};\n\nif (garbageType === \"GFT\" || garbageType === \"PMD\") {\n    msg.notify.message = \"Let op, de \" + garbageType + \"-container moet aan de weg worden gezet\";\n} else {\n    msg.notify.message = \"Let op, de \" + garbageType.toLowerCase() + \"container moet aan de weg worden gezet\";\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 1600,
+        "wires": [
+            [
+                "57ac9a7361f73c44"
+            ]
+        ]
+    },
+    {
+        "id": "57ac9a7361f73c44",
+        "type": "link out",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "send garbage notification",
+        "mode": "link",
+        "links": [
+            "76dcb305ba39e083"
+        ],
+        "x": 1395,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "10fef539f8d15b6a",
+        "type": "link in",
+        "z": "be92da6a5a4a4550",
+        "g": "7392a1a622e27f68",
+        "name": "check garbage todo task needs_action, send notification",
+        "links": [
+            "e6b9ff42fde3ea4e"
+        ],
+        "x": 265,
+        "y": 1600,
+        "wires": [
+            [
+                "b78dcdf190560c51"
+            ]
+        ]
     },
     {
         "id": "7831e77dd0529d13",
@@ -49861,7 +49861,8 @@
             "fef971c806c0156d",
             "df0d2da9dc486e6f",
             "849379e6f7939a8c",
-            "9159f28e86fa565c"
+            "9159f28e86fa565c",
+            "10fef539f8d15b6a"
         ],
         "x": 265,
         "y": 660,
@@ -55211,7 +55212,8 @@
         "z": "edbbe41e31b072c6",
         "name": "garbage collection",
         "links": [
-            "d8573e32a9ec888f"
+            "d8573e32a9ec888f",
+            "57ac9a7361f73c44"
         ],
         "x": 265,
         "y": 2120,
