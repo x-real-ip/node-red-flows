@@ -4993,63 +4993,6 @@
         "h": 122
     },
     {
-        "id": "16ee3be5f6b9c0a8",
-        "type": "group",
-        "z": "0f445844ad6a25a7",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "0b65b687a9bcfdd5",
-            "88fba924357c47d6",
-            "b26e2db46c0d1570",
-            "4152faa8be63d777",
-            "ba62549aa19c6fa0",
-            "8e73a79f04919f80",
-            "d14b0d6294d3eccd",
-            "1ddb46384758794e",
-            "13173e76d6c74f7e",
-            "eced6dd90872866e",
-            "1976bccb3e1cf3cb",
-            "071d5686e1824915",
-            "80e1e1a4c2c9d6da",
-            "0742465ec0c317e1"
-        ],
-        "x": 14,
-        "y": 399,
-        "w": 1372,
-        "h": 242
-    },
-    {
-        "id": "7e7ebdaac21fc3f9",
-        "type": "group",
-        "z": "0f445844ad6a25a7",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "d92938a7929ebab8",
-            "02627ae6774056e4",
-            "d2023843f1a69fee"
-        ],
-        "x": 14,
-        "y": 259,
-        "w": 392,
-        "h": 122
-    },
-    {
         "id": "c328eeed871fc87e",
         "type": "group",
         "z": "db4b1fceb89e0ea6",
@@ -7828,6 +7771,40 @@
         "h": 122
     },
     {
+        "id": "5c7e1a9b3d2f4e60",
+        "type": "group",
+        "z": "0f445844ad6a25a7",
+        "name": "Dynamic step goal (Coen)",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5c7e1a9b3d2f4e61",
+            "5c7e1a9b3d2f4e62",
+            "5c7e1a9b3d2f4e63",
+            "5c7e1a9b3d2f4e64",
+            "5c7e1a9b3d2f4e65",
+            "5c7e1a9b3d2f4e66",
+            "5c7e1a9b3d2f4e67",
+            "5c7e1a9b3d2f4e68",
+            "5c7e1a9b3d2f4e69",
+            "5c7e1a9b3d2f4e6a",
+            "5c7e1a9b3d2f4e6b",
+            "5c7e1a9b3d2f4e6c",
+            "5c7e1a9b3d2f4e6d"
+        ],
+        "x": 14,
+        "y": 259,
+        "w": 1552,
+        "h": 322
+    },
+    {
         "id": "5cb88a741e06d0c9",
         "type": "junction",
         "z": "75537afd17de5117",
@@ -8406,19 +8383,6 @@
                 "642661476be2caf3",
                 "38c517cf00b5dcd5",
                 "a182f03762072d84"
-            ]
-        ]
-    },
-    {
-        "id": "0742465ec0c317e1",
-        "type": "junction",
-        "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "x": 1280,
-        "y": 600,
-        "wires": [
-            [
-                "13173e76d6c74f7e"
             ]
         ]
     },
@@ -47352,7 +47316,8 @@
         "name": "coen enter basicfit zone",
         "mode": "link",
         "links": [
-            "80e1e1a4c2c9d6da"
+            "80e1e1a4c2c9d6da",
+            "5c7e1a9b3d2f4e64"
         ],
         "x": 575,
         "y": 200,
@@ -49860,7 +49825,6 @@
             "fd1316bc77e6a6dd",
             "fef971c806c0156d",
             "df0d2da9dc486e6f",
-            "849379e6f7939a8c",
             "9159f28e86fa565c",
             "10fef539f8d15b6a"
         ],
@@ -55212,7 +55176,6 @@
         "z": "edbbe41e31b072c6",
         "name": "garbage collection",
         "links": [
-            "d8573e32a9ec888f",
             "57ac9a7361f73c44"
         ],
         "x": 265,
@@ -60435,37 +60398,59 @@
         "wires": []
     },
     {
-        "id": "0b65b687a9bcfdd5",
+        "id": "e621f702dadd4b56",
+        "type": "comment",
+        "z": "0f445844ad6a25a7",
+        "g": "63fe432d77284ad0",
+        "name": "set notification with the amount of daily steps",
+        "info": "",
+        "x": 210,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "5c7e1a9b3d2f4e61",
+        "type": "comment",
+        "z": "0f445844ad6a25a7",
+        "g": "5c7e1a9b3d2f4e60",
+        "name": "balance += actual - baseline; dynamic goal = baseline - balance (min 0)",
+        "info": "",
+        "x": 290,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "5c7e1a9b3d2f4e62",
         "type": "inject",
         "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "name": "",
+        "g": "5c7e1a9b3d2f4e60",
+        "name": "daily 23:59",
         "props": [
             {
-                "p": "start",
-                "v": "",
-                "vt": "date"
+                "p": "mode",
+                "v": "daily",
+                "vt": "str"
             }
         ],
         "repeat": "",
-        "crontab": "55 23 * * *",
+        "crontab": "59 23 * * *",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 110,
-        "y": 480,
+        "x": 130,
+        "y": 360,
         "wires": [
             [
-                "88fba924357c47d6"
+                "5c7e1a9b3d2f4e63"
             ]
         ]
     },
     {
-        "id": "88fba924357c47d6",
+        "id": "5c7e1a9b3d2f4e63",
         "type": "api-current-state",
         "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "name": "coen daily steps number",
+        "g": "5c7e1a9b3d2f4e60",
+        "name": "phone coen daily steps",
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 1,
@@ -60477,7 +60462,7 @@
         "blockInputOverrides": true,
         "outputProperties": [
             {
-                "property": "phone_coen_daily_steps",
+                "property": "actual_steps",
                 "propertyType": "msg",
                 "value": "",
                 "valueType": "entityState"
@@ -60491,204 +60476,178 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 290,
-        "y": 480,
+        "x": 320,
+        "y": 360,
         "wires": [
             [
-                "4152faa8be63d777"
+                "5c7e1a9b3d2f4e68"
             ]
         ]
     },
     {
-        "id": "b26e2db46c0d1570",
-        "type": "function",
+        "id": "5c7e1a9b3d2f4e64",
+        "type": "link in",
         "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "name": "calculate daily steps left",
-        "func": "msg.coen_daily_steps_left = msg.coen_daily_step_target.state - msg.phone_coen_daily_steps\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 750,
-        "y": 480,
-        "wires": [
-            [
-                "ba62549aa19c6fa0"
-            ]
-        ]
-    },
-    {
-        "id": "4152faa8be63d777",
-        "type": "api-current-state",
-        "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "name": "coen daily step target",
-        "server": "4ba92433.2478cc",
-        "version": 3,
-        "outputs": 1,
-        "halt_if": "",
-        "halt_if_type": "num",
-        "halt_if_compare": "is",
-        "entity_id": "input_number.coen_daily_step_target",
-        "state_type": "num",
-        "blockInputOverrides": true,
-        "outputProperties": [
-            {
-                "property": "coen_daily_step_target",
-                "propertyType": "msg",
-                "value": "",
-                "valueType": "entity"
-            }
+        "g": "5c7e1a9b3d2f4e60",
+        "name": "coen enter basicfit zone",
+        "links": [
+            "a3d3bc328f0927d8"
         ],
-        "for": "0",
-        "forType": "num",
-        "forUnits": "minutes",
-        "override_topic": false,
-        "state_location": "payload",
-        "override_payload": "msg",
-        "entity_location": "data",
-        "override_data": "msg",
-        "x": 520,
+        "x": 285,
         "y": 480,
         "wires": [
             [
-                "b26e2db46c0d1570"
+                "5c7e1a9b3d2f4e65"
             ]
         ]
     },
     {
-        "id": "ba62549aa19c6fa0",
-        "type": "switch",
+        "id": "5c7e1a9b3d2f4e65",
+        "type": "change",
         "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "name": "decide steps left",
-        "property": "coen_daily_steps_left",
-        "propertyType": "msg",
+        "g": "5c7e1a9b3d2f4e60",
+        "name": "mode: gym",
         "rules": [
             {
-                "t": "gte",
-                "v": "0",
-                "vt": "num"
-            },
-            {
-                "t": "lt",
-                "v": "0",
-                "vt": "num"
+                "t": "set",
+                "p": "mode",
+                "pt": "msg",
+                "to": "gym",
+                "tot": "str"
             }
         ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 960,
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
         "y": 480,
         "wires": [
             [
-                "8e73a79f04919f80"
-            ],
-            [
-                "d14b0d6294d3eccd"
+                "5c7e1a9b3d2f4e68"
             ]
         ]
     },
     {
-        "id": "8e73a79f04919f80",
-        "type": "function",
-        "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "name": "calculate new step target",
-        "func": "msg.new_step_target = msg.coen_daily_step_target.state + msg.coen_daily_steps_left\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1170,
-        "y": 460,
-        "wires": [
-            [
-                "13173e76d6c74f7e"
-            ]
-        ]
-    },
-    {
-        "id": "d14b0d6294d3eccd",
-        "type": "function",
-        "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "name": "set initial step target",
-        "func": "msg.new_step_target = msg.coen_daily_step_target.attributes.initial\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1180,
-        "y": 500,
-        "wires": [
-            [
-                "13173e76d6c74f7e"
-            ]
-        ]
-    },
-    {
-        "id": "1ddb46384758794e",
+        "id": "5c7e1a9b3d2f4e6d",
         "type": "comment",
         "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "name": "increment step goal with the amount of daily steps left. if the goal is reached change it back to inital step goal",
+        "g": "5c7e1a9b3d2f4e60",
+        "name": "gym visit = one baseline day credited to the balance",
         "info": "",
-        "x": 410,
+        "x": 230,
         "y": 440,
         "wires": []
     },
     {
-        "id": "e621f702dadd4b56",
-        "type": "comment",
+        "id": "5c7e1a9b3d2f4e66",
+        "type": "server-state-changed",
         "z": "0f445844ad6a25a7",
-        "g": "63fe432d77284ad0",
-        "name": "set notification with the amount of daily steps",
-        "info": "",
-        "x": 210,
-        "y": 160,
-        "wires": []
+        "g": "5c7e1a9b3d2f4e60",
+        "name": "steps daily goal coen changed",
+        "server": "4ba92433.2478cc",
+        "version": 6,
+        "outputs": 1,
+        "exposeAsEntityConfig": "",
+        "entities": {
+            "entity": [
+                "input_number.steps_daily_goal_coen"
+            ],
+            "substring": [],
+            "regex": []
+        },
+        "outputInitially": false,
+        "stateType": "num",
+        "ifState": "",
+        "ifStateType": "str",
+        "ifStateOperator": "is",
+        "outputOnlyOnStateChange": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": true,
+        "ignoreCurrentStateUnavailable": true,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 180,
+        "y": 540,
+        "wires": [
+            [
+                "5c7e1a9b3d2f4e67"
+            ]
+        ]
     },
     {
-        "id": "eced6dd90872866e",
-        "type": "comment",
+        "id": "5c7e1a9b3d2f4e67",
+        "type": "change",
         "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "name": "decrement step goal with the initial value set in input_number step target",
-        "info": "",
-        "x": 290,
-        "y": 560,
-        "wires": []
+        "g": "5c7e1a9b3d2f4e60",
+        "name": "mode: baseline_changed",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mode",
+                "pt": "msg",
+                "to": "baseline_changed",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 540,
+        "wires": [
+            [
+                "5c7e1a9b3d2f4e68"
+            ]
+        ]
     },
     {
-        "id": "1976bccb3e1cf3cb",
+        "id": "5c7e1a9b3d2f4e68",
         "type": "api-current-state",
         "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "name": "coen daily step target",
+        "g": "5c7e1a9b3d2f4e60",
+        "name": "steps daily goal coen",
         "server": "4ba92433.2478cc",
         "version": 3,
         "outputs": 1,
         "halt_if": "",
         "halt_if_type": "num",
         "halt_if_compare": "is",
-        "entity_id": "input_number.coen_daily_step_target",
+        "entity_id": "input_number.steps_daily_goal_coen",
         "state_type": "num",
         "blockInputOverrides": true,
         "outputProperties": [
             {
-                "property": "coen_daily_step_target",
+                "property": "baseline",
                 "propertyType": "msg",
                 "value": "",
-                "valueType": "entity"
+                "valueType": "entityState"
             }
         ],
         "for": "0",
@@ -60699,41 +60658,81 @@
         "override_payload": "msg",
         "entity_location": "data",
         "override_data": "msg",
-        "x": 520,
-        "y": 600,
+        "x": 660,
+        "y": 360,
         "wires": [
             [
-                "071d5686e1824915"
+                "5c7e1a9b3d2f4e69"
             ]
         ]
     },
     {
-        "id": "071d5686e1824915",
+        "id": "5c7e1a9b3d2f4e69",
+        "type": "api-current-state",
+        "z": "0f445844ad6a25a7",
+        "g": "5c7e1a9b3d2f4e60",
+        "name": "steps balance coen",
+        "server": "4ba92433.2478cc",
+        "version": 3,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "num",
+        "halt_if_compare": "is",
+        "entity_id": "input_number.steps_balance_coen",
+        "state_type": "num",
+        "blockInputOverrides": true,
+        "outputProperties": [
+            {
+                "property": "balance",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            }
+        ],
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "override_topic": false,
+        "state_location": "payload",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "x": 870,
+        "y": 360,
+        "wires": [
+            [
+                "5c7e1a9b3d2f4e6a"
+            ]
+        ]
+    },
+    {
+        "id": "5c7e1a9b3d2f4e6a",
         "type": "function",
         "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "name": "calculate new step target",
-        "func": "msg.new_step_target = msg.coen_daily_step_target.state - msg.coen_daily_step_target.attributes.initial\nreturn msg;",
+        "g": "5c7e1a9b3d2f4e60",
+        "name": "calculate balance and dynamic goal",
+        "func": "// Inputs: msg.mode, msg.baseline, msg.balance, msg.actual_steps (daily only)\nconst BALANCE_LIMIT = 200000; // must match min/max of input_number.steps_balance_coen\n\nconst baseline = Number(msg.baseline);\nconst balance = Number(msg.balance);\n\nif (!Number.isFinite(baseline) || !Number.isFinite(balance)) {\n    node.warn(`Invalid input: baseline=${msg.baseline}, balance=${msg.balance}`);\n    node.status({ fill: \"red\", shape: \"ring\", text: \"invalid input\" });\n    return null;\n}\n\nlet delta = 0;\nswitch (msg.mode) {\n    case \"daily\": {\n        const actual = Number(msg.actual_steps);\n        if (!Number.isFinite(actual)) {\n            node.warn(`Invalid step count: ${msg.actual_steps}`);\n            node.status({ fill: \"red\", shape: \"ring\", text: \"invalid step count\" });\n            return null;\n        }\n        // Surplus (positive) lowers future goals, deficit (negative) raises them\n        delta = actual - baseline;\n        break;\n    }\n    case \"gym\":\n        // A gym visit counts as one full baseline day of steps\n        delta = baseline;\n        break;\n    case \"baseline_changed\":\n        // Keep the balance, only recalculate the dynamic goal\n        delta = 0;\n        break;\n    default:\n        node.warn(`Unknown mode: ${msg.mode}`);\n        return null;\n}\n\nconst newBalance = Math.round(balance + delta);\nmsg.new_balance = Math.max(-BALANCE_LIMIT, Math.min(BALANCE_LIMIT, newBalance));\n\n// Dynamic goal never drops below zero; the balance keeps the full history\nmsg.new_dynamic_goal = Math.max(0, Math.round(baseline - msg.new_balance));\n\nnode.status({\n    fill: \"green\",\n    shape: \"dot\",\n    text: `${msg.mode}: balance ${msg.new_balance}, goal ${msg.new_dynamic_goal}`\n});\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 750,
-        "y": 600,
+        "x": 1120,
+        "y": 360,
         "wires": [
             [
-                "0742465ec0c317e1"
+                "5c7e1a9b3d2f4e6b",
+                "5c7e1a9b3d2f4e6c"
             ]
         ]
     },
     {
-        "id": "d92938a7929ebab8",
+        "id": "5c7e1a9b3d2f4e6b",
         "type": "api-call-service",
         "z": "0f445844ad6a25a7",
-        "g": "7e7ebdaac21fc3f9",
-        "name": "set new step target value for coen",
+        "g": "5c7e1a9b3d2f4e60",
+        "name": "set steps balance coen",
         "server": "4ba92433.2478cc",
         "version": 7,
         "debugenabled": false,
@@ -60742,10 +60741,10 @@
         "areaId": [],
         "deviceId": [],
         "entityId": [
-            "input_number.coen_daily_step_target"
+            "input_number.steps_balance_coen"
         ],
         "labelId": [],
-        "data": "{\"value\":\"{{new_step_target}}\"}",
+        "data": "{\"value\":\"{{new_balance}}\"}",
         "dataType": "json",
         "mergeContext": "",
         "mustacheAltTags": false,
@@ -60754,69 +60753,42 @@
         "blockInputOverrides": true,
         "domain": "input_number",
         "service": "set_value",
-        "x": 240,
+        "x": 1400,
         "y": 340,
         "wires": [
             []
         ]
     },
     {
-        "id": "02627ae6774056e4",
-        "type": "link in",
+        "id": "5c7e1a9b3d2f4e6c",
+        "type": "api-call-service",
         "z": "0f445844ad6a25a7",
-        "g": "7e7ebdaac21fc3f9",
-        "name": "set new step target value for coen",
-        "links": [
-            "13173e76d6c74f7e"
+        "g": "5c7e1a9b3d2f4e60",
+        "name": "set steps dynamic goal coen",
+        "server": "4ba92433.2478cc",
+        "version": 7,
+        "debugenabled": false,
+        "action": "input_number.set_value",
+        "floorId": [],
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "input_number.steps_dynamic_goal_coen"
         ],
-        "x": 65,
-        "y": 340,
+        "labelId": [],
+        "data": "{\"value\":\"{{new_dynamic_goal}}\"}",
+        "dataType": "json",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "blockInputOverrides": true,
+        "domain": "input_number",
+        "service": "set_value",
+        "x": 1420,
+        "y": 380,
         "wires": [
-            [
-                "d92938a7929ebab8"
-            ]
-        ]
-    },
-    {
-        "id": "d2023843f1a69fee",
-        "type": "comment",
-        "z": "0f445844ad6a25a7",
-        "g": "7e7ebdaac21fc3f9",
-        "name": "set new step target value for coen",
-        "info": "",
-        "x": 170,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "13173e76d6c74f7e",
-        "type": "link out",
-        "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "name": "set new step target value for coen",
-        "mode": "link",
-        "links": [
-            "02627ae6774056e4"
-        ],
-        "x": 1345,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "80e1e1a4c2c9d6da",
-        "type": "link in",
-        "z": "0f445844ad6a25a7",
-        "g": "16ee3be5f6b9c0a8",
-        "name": "coen enter basicfit zone",
-        "links": [
-            "a3d3bc328f0927d8"
-        ],
-        "x": 385,
-        "y": 600,
-        "wires": [
-            [
-                "1976bccb3e1cf3cb"
-            ]
+            []
         ]
     }
 ]
